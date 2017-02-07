@@ -1,8 +1,0 @@
-C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/CyBootAsmGnu.o : C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
-
-C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
-
-C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
-
-C:/Users/Signe/Documents/GitHub/ST4/PSoC/ny/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
-
