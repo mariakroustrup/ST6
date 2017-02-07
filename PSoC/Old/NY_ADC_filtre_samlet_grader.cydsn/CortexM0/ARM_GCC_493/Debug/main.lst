@@ -1,0 +1,3143 @@
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"main.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.global	x_mavg
+  18              		.bss
+  19              		.align	3
+  20              		.type	x_mavg, %object
+  21              		.size	x_mavg, 80
+  22              	x_mavg:
+  23 0000 00000000 		.space	80
+  23      00000000 
+  23      00000000 
+  23      00000000 
+  23      00000000 
+  24              		.global	y_mavg
+  25              		.align	3
+  26              		.type	y_mavg, %object
+  27              		.size	y_mavg, 8
+  28              	y_mavg:
+  29 0050 00000000 		.space	8
+  29      00000000 
+  30              		.global	b_mavg
+  31              		.data
+  32              		.align	3
+  33              		.type	b_mavg, %object
+  34              		.size	b_mavg, 80
+  35              	b_mavg:
+  36 0000 9A999999 		.word	-1717986918
+  37 0004 9999B93F 		.word	1069128089
+  38 0008 9A999999 		.word	-1717986918
+  39 000c 9999B93F 		.word	1069128089
+  40 0010 9A999999 		.word	-1717986918
+  41 0014 9999B93F 		.word	1069128089
+  42 0018 9A999999 		.word	-1717986918
+  43 001c 9999B93F 		.word	1069128089
+  44 0020 9A999999 		.word	-1717986918
+  45 0024 9999B93F 		.word	1069128089
+  46 0028 9A999999 		.word	-1717986918
+  47 002c 9999B93F 		.word	1069128089
+  48 0030 9A999999 		.word	-1717986918
+  49 0034 9999B93F 		.word	1069128089
+  50 0038 9A999999 		.word	-1717986918
+  51 003c 9999B93F 		.word	1069128089
+  52 0040 9A999999 		.word	-1717986918
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 2
+
+
+  53 0044 9999B93F 		.word	1069128089
+  54 0048 9A999999 		.word	-1717986918
+  55 004c 9999B93F 		.word	1069128089
+  56              		.global	x2_mavg
+  57              		.bss
+  58              		.align	3
+  59              		.type	x2_mavg, %object
+  60              		.size	x2_mavg, 80
+  61              	x2_mavg:
+  62 0058 00000000 		.space	80
+  62      00000000 
+  62      00000000 
+  62      00000000 
+  62      00000000 
+  63              		.global	y2_mavg
+  64              		.align	3
+  65              		.type	y2_mavg, %object
+  66              		.size	y2_mavg, 8
+  67              	y2_mavg:
+  68 00a8 00000000 		.space	8
+  68      00000000 
+  69              		.global	b2_mavg
+  70              		.data
+  71              		.align	3
+  72              		.type	b2_mavg, %object
+  73              		.size	b2_mavg, 80
+  74              	b2_mavg:
+  75 0050 9A999999 		.word	-1717986918
+  76 0054 9999B93F 		.word	1069128089
+  77 0058 9A999999 		.word	-1717986918
+  78 005c 9999B93F 		.word	1069128089
+  79 0060 9A999999 		.word	-1717986918
+  80 0064 9999B93F 		.word	1069128089
+  81 0068 9A999999 		.word	-1717986918
+  82 006c 9999B93F 		.word	1069128089
+  83 0070 9A999999 		.word	-1717986918
+  84 0074 9999B93F 		.word	1069128089
+  85 0078 9A999999 		.word	-1717986918
+  86 007c 9999B93F 		.word	1069128089
+  87 0080 9A999999 		.word	-1717986918
+  88 0084 9999B93F 		.word	1069128089
+  89 0088 9A999999 		.word	-1717986918
+  90 008c 9999B93F 		.word	1069128089
+  91 0090 9A999999 		.word	-1717986918
+  92 0094 9999B93F 		.word	1069128089
+  93 0098 9A999999 		.word	-1717986918
+  94 009c 9999B93F 		.word	1069128089
+  95              		.global	x_low
+  96              		.bss
+  97              		.align	3
+  98              		.type	x_low, %object
+  99              		.size	x_low, 24
+ 100              	x_low:
+ 101 00b0 00000000 		.space	24
+ 101      00000000 
+ 101      00000000 
+ 101      00000000 
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 3
+
+
+ 101      00000000 
+ 102              		.global	y_low
+ 103              		.align	3
+ 104              		.type	y_low, %object
+ 105              		.size	y_low, 24
+ 106              	y_low:
+ 107 00c8 00000000 		.space	24
+ 107      00000000 
+ 107      00000000 
+ 107      00000000 
+ 107      00000000 
+ 108              		.global	b_low
+ 109              		.data
+ 110              		.align	3
+ 111              		.type	b_low, %object
+ 112              		.size	b_low, 24
+ 113              	b_low:
+ 114 00a0 FA7E6ABC 		.word	-1133871366
+ 115 00a4 7493583F 		.word	1062769524
+ 116 00a8 E09C11A5 		.word	-1525572384
+ 117 00ac BDC1673F 		.word	1063764413
+ 118 00b0 FA7E6ABC 		.word	-1133871366
+ 119 00b4 7493583F 		.word	1062769524
+ 120              		.global	a_low
+ 121              		.align	3
+ 122              		.type	a_low, %object
+ 123              		.size	a_low, 24
+ 124              	a_low:
+ 125 00b8 00000000 		.word	0
+ 126 00bc 0000F03F 		.word	1072693248
+ 127 00c0 D34D6210 		.word	274877907
+ 128 00c4 5839FEBF 		.word	-1073858216
+ 129 00c8 C2172653 		.word	1395005378
+ 130 00cc 05A3EC3F 		.word	1072472837
+ 131              		.global	current_byte
+ 132              		.bss
+ 133              		.type	current_byte, %object
+ 134              		.size	current_byte, 1
+ 135              	current_byte:
+ 136 00e0 00       		.space	1
+ 137              		.comm	value_in,2,2
+ 138              		.global	value_out
+ 139 00e1 000000   		.align	2
+ 140              		.type	value_out, %object
+ 141              		.size	value_out, 4
+ 142              	value_out:
+ 143 00e4 00000000 		.space	4
+ 144              		.global	i
+ 145              		.align	1
+ 146              		.type	i, %object
+ 147              		.size	i, 2
+ 148              	i:
+ 149 00e8 0000     		.space	2
+ 150              		.global	j
+ 151              		.align	1
+ 152              		.type	j, %object
+ 153              		.size	j, 2
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 4
+
+
+ 154              	j:
+ 155 00ea 0000     		.space	2
+ 156              		.comm	grader_groen,2,2
+ 157              		.comm	grader_roed,2,2
+ 158              		.comm	diff,2,2
+ 159              		.comm	old,2,2
+ 160              		.global	FirstCall
+ 161              		.data
+ 162              		.type	FirstCall, %object
+ 163              		.size	FirstCall, 1
+ 164              	FirstCall:
+ 165 00d0 01       		.byte	1
+ 166              		.global	accroed
+ 167 00d1 00000000 		.bss
+ 167      000000
+ 168              		.align	1
+ 169              		.type	accroed, %object
+ 170              		.size	accroed, 2
+ 171              	accroed:
+ 172 00ec 0000     		.space	2
+ 173              		.global	accgroen
+ 174              		.align	1
+ 175              		.type	accgroen, %object
+ 176              		.size	accgroen, 2
+ 177              	accgroen:
+ 178 00ee 0000     		.space	2
+ 179              		.global	EMG
+ 180              		.align	1
+ 181              		.type	EMG, %object
+ 182              		.size	EMG, 2
+ 183              	EMG:
+ 184 00f0 0000     		.space	2
+ 185              		.global	result
+ 186 00f2 0000     		.align	2
+ 187              		.type	result, %object
+ 188              		.size	result, 6
+ 189              	result:
+ 190 00f4 00000000 		.space	6
+ 190      0000
+ 191              		.global	data_ready
+ 192              		.type	data_ready, %object
+ 193              		.size	data_ready, 1
+ 194              	data_ready:
+ 195 00fa 00       		.space	1
+ 196              		.comm	mav_data_roed,2,2
+ 197              		.comm	mav_data_groen,2,2
+ 198              		.comm	samlet_grader,2,2
+ 199              		.comm	low_pass_data,2,2
+ 200              		.comm	diff_data,2,2
+ 201              		.global	__aeabi_dcmpgt
+ 202              		.global	__aeabi_dadd
+ 203              		.global	__aeabi_d2iz
+ 204              		.global	__aeabi_dsub
+ 205 00fb 00000000 		.section	.text.floor_and_convert,"ax",%progbits
+ 205      00
+ 206              		.align	2
+ 207              		.global	floor_and_convert
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 5
+
+
+ 208              		.code	16
+ 209              		.thumb_func
+ 210              		.type	floor_and_convert, %function
+ 211              	floor_and_convert:
+ 212              	.LFB37:
+ 213              		.file 1 ".\\main.c"
+   1:.\main.c      **** #include <project.h>
+   2:.\main.c      **** #include <my_defines.h>
+   3:.\main.c      **** #include <stdlib.h>
+   4:.\main.c      **** 
+   5:.\main.c      **** #define LOWBYTE 0                                   // Used to toggle between HIGH byte and LOW byt
+   6:.\main.c      **** #define HIGHBYTE 1                                  // Used to toggle between HIGH byte and LOW byt
+   7:.\main.c      **** #define FALSE 0
+   8:.\main.c      **** #define TRUE 1
+   9:.\main.c      **** 
+  10:.\main.c      **** /* Moving average filter */ 
+  11:.\main.c      **** #define FILTER_LENGTH_mavg 9
+  12:.\main.c      **** //int y[2] = {0,0};
+  13:.\main.c      **** double x_mavg[FILTER_LENGTH_mavg+1] = {0,0,0,0,0,0,0,0,0,0};
+  14:.\main.c      **** double y_mavg = 0;
+  15:.\main.c      **** double b_mavg[FILTER_LENGTH_mavg+1] = {0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1};
+  16:.\main.c      **** 
+  17:.\main.c      **** /* Moving average filter 2 */
+  18:.\main.c      **** #define FILTER_LENGTH_mavg2 9
+  19:.\main.c      **** //int y2[2] = {0,0};
+  20:.\main.c      **** double x2_mavg[FILTER_LENGTH_mavg2+1] = {0,0,0,0,0,0,0,0,0,0};
+  21:.\main.c      **** double y2_mavg = 0;
+  22:.\main.c      **** double b2_mavg[FILTER_LENGTH_mavg2+1] = {0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1};
+  23:.\main.c      **** 
+  24:.\main.c      **** 
+  25:.\main.c      **** #define FILTER_LENGTH_low 2
+  26:.\main.c      **** double x_low[FILTER_LENGTH_low+1] = {0, 0, 0};
+  27:.\main.c      **** double y_low[FILTER_LENGTH_low+1] = {0, 0, 0};
+  28:.\main.c      **** double b_low[FILTER_LENGTH_low+1] = {0.0015, 0.0029, 0.0015};
+  29:.\main.c      **** double a_low[FILTER_LENGTH_low+1] = {1.0000, -1.8890, 0.8949};
+  30:.\main.c      **** 
+  31:.\main.c      **** char current_byte = LOWBYTE;                        // Receive LOW byte first as default
+  32:.\main.c      **** int16 value_in,value_out[2]={0,0},i=0,j=0, grader_groen, grader_roed, diff, old; 
+  33:.\main.c      **** char FirstCall = TRUE;
+  34:.\main.c      **** 
+  35:.\main.c      **** int16 accroed = {0};
+  36:.\main.c      **** int16 accgroen = {0};
+  37:.\main.c      **** int16 EMG = {0};
+  38:.\main.c      **** int16 result[num_of_channels] = {0};
+  39:.\main.c      **** uint8 data_ready = FALSE;
+  40:.\main.c      **** 
+  41:.\main.c      **** int16 mav_data_roed;
+  42:.\main.c      **** int16 mav_data_groen;
+  43:.\main.c      **** int16 samlet_grader;
+  44:.\main.c      **** int16 low_pass_data;
+  45:.\main.c      **** int16 diff_data;
+  46:.\main.c      **** 
+  47:.\main.c      **** /***********************************Konvertering til heltal***********************************/
+  48:.\main.c      **** signed int floor_and_convert(double y)
+  49:.\main.c      **** {
+ 214              		.loc 1 49 0
+ 215              		.cfi_startproc
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 6
+
+
+ 216 0000 90B5     		push	{r4, r7, lr}
+ 217              		.cfi_def_cfa_offset 12
+ 218              		.cfi_offset 4, -12
+ 219              		.cfi_offset 7, -8
+ 220              		.cfi_offset 14, -4
+ 221 0002 83B0     		sub	sp, sp, #12
+ 222              		.cfi_def_cfa_offset 24
+ 223 0004 00AF     		add	r7, sp, #0
+ 224              		.cfi_def_cfa_register 7
+ 225 0006 3860     		str	r0, [r7]
+ 226 0008 7960     		str	r1, [r7, #4]
+  50:.\main.c      ****    if (y > 0)
+ 227              		.loc 1 50 0
+ 228 000a 3868     		ldr	r0, [r7]
+ 229 000c 7968     		ldr	r1, [r7, #4]
+ 230 000e 0022     		mov	r2, #0
+ 231 0010 0023     		mov	r3, #0
+ 232 0012 FFF7FEFF 		bl	__aeabi_dcmpgt
+ 233 0016 031E     		sub	r3, r0, #0
+ 234 0018 0DD0     		beq	.L6
+  51:.\main.c      ****       return (signed int) (y+0.5);
+ 235              		.loc 1 51 0
+ 236 001a 3868     		ldr	r0, [r7]
+ 237 001c 7968     		ldr	r1, [r7, #4]
+ 238 001e 0022     		mov	r2, #0
+ 239 0020 0D4B     		ldr	r3, .L7
+ 240 0022 FFF7FEFF 		bl	__aeabi_dadd
+ 241 0026 031C     		mov	r3, r0
+ 242 0028 0C1C     		mov	r4, r1
+ 243 002a 181C     		mov	r0, r3
+ 244 002c 211C     		mov	r1, r4
+ 245 002e FFF7FEFF 		bl	__aeabi_d2iz
+ 246 0032 031C     		mov	r3, r0
+ 247 0034 0CE0     		b	.L4
+ 248              	.L6:
+  52:.\main.c      ****    else
+  53:.\main.c      ****       return (signed int) (y-0.5);
+ 249              		.loc 1 53 0
+ 250 0036 3868     		ldr	r0, [r7]
+ 251 0038 7968     		ldr	r1, [r7, #4]
+ 252 003a 0022     		mov	r2, #0
+ 253 003c 064B     		ldr	r3, .L7
+ 254 003e FFF7FEFF 		bl	__aeabi_dsub
+ 255 0042 031C     		mov	r3, r0
+ 256 0044 0C1C     		mov	r4, r1
+ 257 0046 181C     		mov	r0, r3
+ 258 0048 211C     		mov	r1, r4
+ 259 004a FFF7FEFF 		bl	__aeabi_d2iz
+ 260 004e 031C     		mov	r3, r0
+ 261              	.L4:
+  54:.\main.c      **** }
+ 262              		.loc 1 54 0
+ 263 0050 181C     		mov	r0, r3
+ 264 0052 BD46     		mov	sp, r7
+ 265 0054 03B0     		add	sp, sp, #12
+ 266              		@ sp needed
+ 267 0056 90BD     		pop	{r4, r7, pc}
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 7
+
+
+ 268              	.L8:
+ 269              		.align	2
+ 270              	.L7:
+ 271 0058 0000E03F 		.word	1071644672
+ 272              		.cfi_endproc
+ 273              	.LFE37:
+ 274              		.size	floor_and_convert, .-floor_and_convert
+ 275              		.global	__aeabi_i2d
+ 276              		.global	__aeabi_dmul
+ 277              		.section	.text.mavg_filter,"ax",%progbits
+ 278              		.align	2
+ 279              		.global	mavg_filter
+ 280              		.code	16
+ 281              		.thumb_func
+ 282              		.type	mavg_filter, %function
+ 283              	mavg_filter:
+ 284              	.LFB38:
+  55:.\main.c      **** 
+  56:.\main.c      **** /***********************************Moving average filter***********************************/
+  57:.\main.c      **** signed int mavg_filter(signed int data)
+  58:.\main.c      **** {
+ 285              		.loc 1 58 0
+ 286              		.cfi_startproc
+ 287 0000 90B5     		push	{r4, r7, lr}
+ 288              		.cfi_def_cfa_offset 12
+ 289              		.cfi_offset 4, -12
+ 290              		.cfi_offset 7, -8
+ 291              		.cfi_offset 14, -4
+ 292 0002 83B0     		sub	sp, sp, #12
+ 293              		.cfi_def_cfa_offset 24
+ 294 0004 00AF     		add	r7, sp, #0
+ 295              		.cfi_def_cfa_register 7
+ 296 0006 7860     		str	r0, [r7, #4]
+  59:.\main.c      ****    x_mavg[0] =  (double) data;      // Read received sample and perform type casts
+ 297              		.loc 1 59 0
+ 298 0008 7868     		ldr	r0, [r7, #4]
+ 299 000a FFF7FEFF 		bl	__aeabi_i2d
+ 300 000e 031C     		mov	r3, r0
+ 301 0010 0C1C     		mov	r4, r1
+ 302 0012 384A     		ldr	r2, .L15
+ 303 0014 1360     		str	r3, [r2]
+ 304 0016 5460     		str	r4, [r2, #4]
+  60:.\main.c      ****    
+  61:.\main.c      ****    y_mavg = 0;
+ 305              		.loc 1 61 0
+ 306 0018 374A     		ldr	r2, .L15+4
+ 307 001a 0023     		mov	r3, #0
+ 308 001c 0024     		mov	r4, #0
+ 309 001e 1360     		str	r3, [r2]
+ 310 0020 5460     		str	r4, [r2, #4]
+  62:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg;i++)           // Run FIR filter for each received sample
+ 311              		.loc 1 62 0
+ 312 0022 364B     		ldr	r3, .L15+8
+ 313 0024 0022     		mov	r2, #0
+ 314 0026 1A80     		strh	r2, [r3]
+ 315 0028 30E0     		b	.L10
+ 316              	.L11:
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 8
+
+
+  63:.\main.c      ****    {
+  64:.\main.c      ****       y_mavg += b_mavg[i]*x_mavg[i];
+ 317              		.loc 1 64 0 discriminator 3
+ 318 002a 344B     		ldr	r3, .L15+8
+ 319 002c 1B88     		ldrh	r3, [r3]
+ 320 002e 1BB2     		sxth	r3, r3
+ 321 0030 334A     		ldr	r2, .L15+12
+ 322 0032 DB00     		lsl	r3, r3, #3
+ 323 0034 D318     		add	r3, r2, r3
+ 324 0036 1968     		ldr	r1, [r3]
+ 325 0038 5A68     		ldr	r2, [r3, #4]
+ 326 003a 304B     		ldr	r3, .L15+8
+ 327 003c 1B88     		ldrh	r3, [r3]
+ 328 003e 1BB2     		sxth	r3, r3
+ 329 0040 2C48     		ldr	r0, .L15
+ 330 0042 DB00     		lsl	r3, r3, #3
+ 331 0044 C318     		add	r3, r0, r3
+ 332 0046 5C68     		ldr	r4, [r3, #4]
+ 333 0048 1B68     		ldr	r3, [r3]
+ 334 004a 081C     		mov	r0, r1
+ 335 004c 111C     		mov	r1, r2
+ 336 004e 1A1C     		mov	r2, r3
+ 337 0050 231C     		mov	r3, r4
+ 338 0052 FFF7FEFF 		bl	__aeabi_dmul
+ 339 0056 031C     		mov	r3, r0
+ 340 0058 0C1C     		mov	r4, r1
+ 341 005a 191C     		mov	r1, r3
+ 342 005c 221C     		mov	r2, r4
+ 343 005e 264B     		ldr	r3, .L15+4
+ 344 0060 5C68     		ldr	r4, [r3, #4]
+ 345 0062 1B68     		ldr	r3, [r3]
+ 346 0064 081C     		mov	r0, r1
+ 347 0066 111C     		mov	r1, r2
+ 348 0068 1A1C     		mov	r2, r3
+ 349 006a 231C     		mov	r3, r4
+ 350 006c FFF7FEFF 		bl	__aeabi_dadd
+ 351 0070 031C     		mov	r3, r0
+ 352 0072 0C1C     		mov	r4, r1
+ 353 0074 204A     		ldr	r2, .L15+4
+ 354 0076 1360     		str	r3, [r2]
+ 355 0078 5460     		str	r4, [r2, #4]
+  62:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg;i++)           // Run FIR filter for each received sample
+ 356              		.loc 1 62 0 discriminator 3
+ 357 007a 204B     		ldr	r3, .L15+8
+ 358 007c 1B88     		ldrh	r3, [r3]
+ 359 007e 9BB2     		uxth	r3, r3
+ 360 0080 9BB2     		uxth	r3, r3
+ 361 0082 0133     		add	r3, r3, #1
+ 362 0084 9BB2     		uxth	r3, r3
+ 363 0086 9AB2     		uxth	r2, r3
+ 364 0088 1C4B     		ldr	r3, .L15+8
+ 365 008a 1A80     		strh	r2, [r3]
+ 366              	.L10:
+  62:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg;i++)           // Run FIR filter for each received sample
+ 367              		.loc 1 62 0 is_stmt 0 discriminator 1
+ 368 008c 1B4B     		ldr	r3, .L15+8
+ 369 008e 1B88     		ldrh	r3, [r3]
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 9
+
+
+ 370 0090 1BB2     		sxth	r3, r3
+ 371 0092 092B     		cmp	r3, #9
+ 372 0094 C9DD     		ble	.L11
+  65:.\main.c      ****    } 
+  66:.\main.c      ****    
+  67:.\main.c      ****    for(i = FILTER_LENGTH_mavg-1;i >= 0;i--)         // Roll x array in order to hold old sample inp
+ 373              		.loc 1 67 0 is_stmt 1
+ 374 0096 194B     		ldr	r3, .L15+8
+ 375 0098 0822     		mov	r2, #8
+ 376 009a 1A80     		strh	r2, [r3]
+ 377 009c 19E0     		b	.L12
+ 378              	.L13:
+  68:.\main.c      ****    {
+  69:.\main.c      ****       x_mavg[i+1] = x_mavg[i];
+ 379              		.loc 1 69 0 discriminator 3
+ 380 009e 174B     		ldr	r3, .L15+8
+ 381 00a0 1B88     		ldrh	r3, [r3]
+ 382 00a2 1BB2     		sxth	r3, r3
+ 383 00a4 5A1C     		add	r2, r3, #1
+ 384 00a6 154B     		ldr	r3, .L15+8
+ 385 00a8 1B88     		ldrh	r3, [r3]
+ 386 00aa 1BB2     		sxth	r3, r3
+ 387 00ac 1149     		ldr	r1, .L15
+ 388 00ae DB00     		lsl	r3, r3, #3
+ 389 00b0 CB18     		add	r3, r1, r3
+ 390 00b2 5C68     		ldr	r4, [r3, #4]
+ 391 00b4 1B68     		ldr	r3, [r3]
+ 392 00b6 0F49     		ldr	r1, .L15
+ 393 00b8 D200     		lsl	r2, r2, #3
+ 394 00ba 8A18     		add	r2, r1, r2
+ 395 00bc 1360     		str	r3, [r2]
+ 396 00be 5460     		str	r4, [r2, #4]
+  67:.\main.c      ****    {
+ 397              		.loc 1 67 0 discriminator 3
+ 398 00c0 0E4B     		ldr	r3, .L15+8
+ 399 00c2 1B88     		ldrh	r3, [r3]
+ 400 00c4 9BB2     		uxth	r3, r3
+ 401 00c6 9BB2     		uxth	r3, r3
+ 402 00c8 013B     		sub	r3, r3, #1
+ 403 00ca 9BB2     		uxth	r3, r3
+ 404 00cc 9AB2     		uxth	r2, r3
+ 405 00ce 0B4B     		ldr	r3, .L15+8
+ 406 00d0 1A80     		strh	r2, [r3]
+ 407              	.L12:
+  67:.\main.c      ****    {
+ 408              		.loc 1 67 0 is_stmt 0 discriminator 1
+ 409 00d2 0A4B     		ldr	r3, .L15+8
+ 410 00d4 1B88     		ldrh	r3, [r3]
+ 411 00d6 1BB2     		sxth	r3, r3
+ 412 00d8 002B     		cmp	r3, #0
+ 413 00da E0DA     		bge	.L13
+  70:.\main.c      ****    }
+  71:.\main.c      ****   
+  72:.\main.c      ****    return (signed int) y_mavg;
+ 414              		.loc 1 72 0 is_stmt 1
+ 415 00dc 064B     		ldr	r3, .L15+4
+ 416 00de 5C68     		ldr	r4, [r3, #4]
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 10
+
+
+ 417 00e0 1B68     		ldr	r3, [r3]
+ 418 00e2 181C     		mov	r0, r3
+ 419 00e4 211C     		mov	r1, r4
+ 420 00e6 FFF7FEFF 		bl	__aeabi_d2iz
+ 421 00ea 031C     		mov	r3, r0
+  73:.\main.c      **** }
+ 422              		.loc 1 73 0
+ 423 00ec 181C     		mov	r0, r3
+ 424 00ee BD46     		mov	sp, r7
+ 425 00f0 03B0     		add	sp, sp, #12
+ 426              		@ sp needed
+ 427 00f2 90BD     		pop	{r4, r7, pc}
+ 428              	.L16:
+ 429              		.align	2
+ 430              	.L15:
+ 431 00f4 00000000 		.word	x_mavg
+ 432 00f8 00000000 		.word	y_mavg
+ 433 00fc 00000000 		.word	i
+ 434 0100 00000000 		.word	b_mavg
+ 435              		.cfi_endproc
+ 436              	.LFE38:
+ 437              		.size	mavg_filter, .-mavg_filter
+ 438              		.section	.text.mavg_filter2,"ax",%progbits
+ 439              		.align	2
+ 440              		.global	mavg_filter2
+ 441              		.code	16
+ 442              		.thumb_func
+ 443              		.type	mavg_filter2, %function
+ 444              	mavg_filter2:
+ 445              	.LFB39:
+  74:.\main.c      **** 
+  75:.\main.c      **** 
+  76:.\main.c      **** /***********************************Moving average filter 2***********************************/
+  77:.\main.c      **** signed int mavg_filter2(signed int data)
+  78:.\main.c      **** {
+ 446              		.loc 1 78 0
+ 447              		.cfi_startproc
+ 448 0000 90B5     		push	{r4, r7, lr}
+ 449              		.cfi_def_cfa_offset 12
+ 450              		.cfi_offset 4, -12
+ 451              		.cfi_offset 7, -8
+ 452              		.cfi_offset 14, -4
+ 453 0002 83B0     		sub	sp, sp, #12
+ 454              		.cfi_def_cfa_offset 24
+ 455 0004 00AF     		add	r7, sp, #0
+ 456              		.cfi_def_cfa_register 7
+ 457 0006 7860     		str	r0, [r7, #4]
+  79:.\main.c      ****    x2_mavg[0] =  (int16) data;                     // Read received sample and perform type casts
+ 458              		.loc 1 79 0
+ 459 0008 7B68     		ldr	r3, [r7, #4]
+ 460 000a 9BB2     		uxth	r3, r3
+ 461 000c 1BB2     		sxth	r3, r3
+ 462 000e 181C     		mov	r0, r3
+ 463 0010 FFF7FEFF 		bl	__aeabi_i2d
+ 464 0014 031C     		mov	r3, r0
+ 465 0016 0C1C     		mov	r4, r1
+ 466 0018 384A     		ldr	r2, .L23
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 11
+
+
+ 467 001a 1360     		str	r3, [r2]
+ 468 001c 5460     		str	r4, [r2, #4]
+  80:.\main.c      ****     
+  81:.\main.c      ****    y2_mavg = 0;                                     // 
+ 469              		.loc 1 81 0
+ 470 001e 384A     		ldr	r2, .L23+4
+ 471 0020 0023     		mov	r3, #0
+ 472 0022 0024     		mov	r4, #0
+ 473 0024 1360     		str	r3, [r2]
+ 474 0026 5460     		str	r4, [r2, #4]
+  82:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg2;i++)          // Run FIR filter for each received sample
+ 475              		.loc 1 82 0
+ 476 0028 364B     		ldr	r3, .L23+8
+ 477 002a 0022     		mov	r2, #0
+ 478 002c 1A80     		strh	r2, [r3]
+ 479 002e 30E0     		b	.L18
+ 480              	.L19:
+  83:.\main.c      ****    {
+  84:.\main.c      ****       y2_mavg += b2_mavg[i]*x2_mavg[i];             // 
+ 481              		.loc 1 84 0 discriminator 3
+ 482 0030 344B     		ldr	r3, .L23+8
+ 483 0032 1B88     		ldrh	r3, [r3]
+ 484 0034 1BB2     		sxth	r3, r3
+ 485 0036 344A     		ldr	r2, .L23+12
+ 486 0038 DB00     		lsl	r3, r3, #3
+ 487 003a D318     		add	r3, r2, r3
+ 488 003c 1968     		ldr	r1, [r3]
+ 489 003e 5A68     		ldr	r2, [r3, #4]
+ 490 0040 304B     		ldr	r3, .L23+8
+ 491 0042 1B88     		ldrh	r3, [r3]
+ 492 0044 1BB2     		sxth	r3, r3
+ 493 0046 2D48     		ldr	r0, .L23
+ 494 0048 DB00     		lsl	r3, r3, #3
+ 495 004a C318     		add	r3, r0, r3
+ 496 004c 5C68     		ldr	r4, [r3, #4]
+ 497 004e 1B68     		ldr	r3, [r3]
+ 498 0050 081C     		mov	r0, r1
+ 499 0052 111C     		mov	r1, r2
+ 500 0054 1A1C     		mov	r2, r3
+ 501 0056 231C     		mov	r3, r4
+ 502 0058 FFF7FEFF 		bl	__aeabi_dmul
+ 503 005c 031C     		mov	r3, r0
+ 504 005e 0C1C     		mov	r4, r1
+ 505 0060 191C     		mov	r1, r3
+ 506 0062 221C     		mov	r2, r4
+ 507 0064 264B     		ldr	r3, .L23+4
+ 508 0066 5C68     		ldr	r4, [r3, #4]
+ 509 0068 1B68     		ldr	r3, [r3]
+ 510 006a 081C     		mov	r0, r1
+ 511 006c 111C     		mov	r1, r2
+ 512 006e 1A1C     		mov	r2, r3
+ 513 0070 231C     		mov	r3, r4
+ 514 0072 FFF7FEFF 		bl	__aeabi_dadd
+ 515 0076 031C     		mov	r3, r0
+ 516 0078 0C1C     		mov	r4, r1
+ 517 007a 214A     		ldr	r2, .L23+4
+ 518 007c 1360     		str	r3, [r2]
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 12
+
+
+ 519 007e 5460     		str	r4, [r2, #4]
+  82:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg2;i++)          // Run FIR filter for each received sample
+ 520              		.loc 1 82 0 discriminator 3
+ 521 0080 204B     		ldr	r3, .L23+8
+ 522 0082 1B88     		ldrh	r3, [r3]
+ 523 0084 9BB2     		uxth	r3, r3
+ 524 0086 9BB2     		uxth	r3, r3
+ 525 0088 0133     		add	r3, r3, #1
+ 526 008a 9BB2     		uxth	r3, r3
+ 527 008c 9AB2     		uxth	r2, r3
+ 528 008e 1D4B     		ldr	r3, .L23+8
+ 529 0090 1A80     		strh	r2, [r3]
+ 530              	.L18:
+  82:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_mavg2;i++)          // Run FIR filter for each received sample
+ 531              		.loc 1 82 0 is_stmt 0 discriminator 1
+ 532 0092 1C4B     		ldr	r3, .L23+8
+ 533 0094 1B88     		ldrh	r3, [r3]
+ 534 0096 1BB2     		sxth	r3, r3
+ 535 0098 092B     		cmp	r3, #9
+ 536 009a C9DD     		ble	.L19
+  85:.\main.c      ****    } 
+  86:.\main.c      ****    
+  87:.\main.c      ****    for(i = FILTER_LENGTH_mavg2-1;i >= 0;i--)        // Roll x array in order to hold old sample inp
+ 537              		.loc 1 87 0 is_stmt 1
+ 538 009c 194B     		ldr	r3, .L23+8
+ 539 009e 0822     		mov	r2, #8
+ 540 00a0 1A80     		strh	r2, [r3]
+ 541 00a2 19E0     		b	.L20
+ 542              	.L21:
+  88:.\main.c      ****    {
+  89:.\main.c      ****       x2_mavg[i+1] = x2_mavg[i];                    // 
+ 543              		.loc 1 89 0 discriminator 3
+ 544 00a4 174B     		ldr	r3, .L23+8
+ 545 00a6 1B88     		ldrh	r3, [r3]
+ 546 00a8 1BB2     		sxth	r3, r3
+ 547 00aa 5A1C     		add	r2, r3, #1
+ 548 00ac 154B     		ldr	r3, .L23+8
+ 549 00ae 1B88     		ldrh	r3, [r3]
+ 550 00b0 1BB2     		sxth	r3, r3
+ 551 00b2 1249     		ldr	r1, .L23
+ 552 00b4 DB00     		lsl	r3, r3, #3
+ 553 00b6 CB18     		add	r3, r1, r3
+ 554 00b8 5C68     		ldr	r4, [r3, #4]
+ 555 00ba 1B68     		ldr	r3, [r3]
+ 556 00bc 0F49     		ldr	r1, .L23
+ 557 00be D200     		lsl	r2, r2, #3
+ 558 00c0 8A18     		add	r2, r1, r2
+ 559 00c2 1360     		str	r3, [r2]
+ 560 00c4 5460     		str	r4, [r2, #4]
+  87:.\main.c      ****    {
+ 561              		.loc 1 87 0 discriminator 3
+ 562 00c6 0F4B     		ldr	r3, .L23+8
+ 563 00c8 1B88     		ldrh	r3, [r3]
+ 564 00ca 9BB2     		uxth	r3, r3
+ 565 00cc 9BB2     		uxth	r3, r3
+ 566 00ce 013B     		sub	r3, r3, #1
+ 567 00d0 9BB2     		uxth	r3, r3
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 13
+
+
+ 568 00d2 9AB2     		uxth	r2, r3
+ 569 00d4 0B4B     		ldr	r3, .L23+8
+ 570 00d6 1A80     		strh	r2, [r3]
+ 571              	.L20:
+  87:.\main.c      ****    {
+ 572              		.loc 1 87 0 is_stmt 0 discriminator 1
+ 573 00d8 0A4B     		ldr	r3, .L23+8
+ 574 00da 1B88     		ldrh	r3, [r3]
+ 575 00dc 1BB2     		sxth	r3, r3
+ 576 00de 002B     		cmp	r3, #0
+ 577 00e0 E0DA     		bge	.L21
+  90:.\main.c      ****    }
+  91:.\main.c      ****       
+  92:.\main.c      ****    return (signed int) y2_mavg;               // 
+ 578              		.loc 1 92 0 is_stmt 1
+ 579 00e2 074B     		ldr	r3, .L23+4
+ 580 00e4 5C68     		ldr	r4, [r3, #4]
+ 581 00e6 1B68     		ldr	r3, [r3]
+ 582 00e8 181C     		mov	r0, r3
+ 583 00ea 211C     		mov	r1, r4
+ 584 00ec FFF7FEFF 		bl	__aeabi_d2iz
+ 585 00f0 031C     		mov	r3, r0
+  93:.\main.c      **** }
+ 586              		.loc 1 93 0
+ 587 00f2 181C     		mov	r0, r3
+ 588 00f4 BD46     		mov	sp, r7
+ 589 00f6 03B0     		add	sp, sp, #12
+ 590              		@ sp needed
+ 591 00f8 90BD     		pop	{r4, r7, pc}
+ 592              	.L24:
+ 593 00fa C046     		.align	2
+ 594              	.L23:
+ 595 00fc 00000000 		.word	x2_mavg
+ 596 0100 00000000 		.word	y2_mavg
+ 597 0104 00000000 		.word	i
+ 598 0108 00000000 		.word	b2_mavg
+ 599              		.cfi_endproc
+ 600              	.LFE39:
+ 601              		.size	mavg_filter2, .-mavg_filter2
+ 602              		.section	.text.low_pass_filter,"ax",%progbits
+ 603              		.align	2
+ 604              		.global	low_pass_filter
+ 605              		.code	16
+ 606              		.thumb_func
+ 607              		.type	low_pass_filter, %function
+ 608              	low_pass_filter:
+ 609              	.LFB40:
+  94:.\main.c      **** 
+  95:.\main.c      **** /***********************************Lavpas filter***********************************/
+  96:.\main.c      **** 
+  97:.\main.c      **** int low_pass_filter(int data)
+  98:.\main.c      **** {
+ 610              		.loc 1 98 0
+ 611              		.cfi_startproc
+ 612 0000 B0B5     		push	{r4, r5, r7, lr}
+ 613              		.cfi_def_cfa_offset 16
+ 614              		.cfi_offset 4, -16
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 14
+
+
+ 615              		.cfi_offset 5, -12
+ 616              		.cfi_offset 7, -8
+ 617              		.cfi_offset 14, -4
+ 618 0002 84B0     		sub	sp, sp, #16
+ 619              		.cfi_def_cfa_offset 32
+ 620 0004 00AF     		add	r7, sp, #0
+ 621              		.cfi_def_cfa_register 7
+ 622 0006 7860     		str	r0, [r7, #4]
+  99:.\main.c      ****    int i;
+ 100:.\main.c      ****    x_low[0] =  (double) data;
+ 623              		.loc 1 100 0
+ 624 0008 7868     		ldr	r0, [r7, #4]
+ 625 000a FFF7FEFF 		bl	__aeabi_i2d
+ 626 000e 031C     		mov	r3, r0
+ 627 0010 0C1C     		mov	r4, r1
+ 628 0012 404A     		ldr	r2, .L33
+ 629 0014 1360     		str	r3, [r2]
+ 630 0016 5460     		str	r4, [r2, #4]
+ 101:.\main.c      ****    
+ 102:.\main.c      ****    y_low[0] = 0;
+ 631              		.loc 1 102 0
+ 632 0018 3F4A     		ldr	r2, .L33+4
+ 633 001a 0023     		mov	r3, #0
+ 634 001c 0024     		mov	r4, #0
+ 635 001e 1360     		str	r3, [r2]
+ 636 0020 5460     		str	r4, [r2, #4]
+ 103:.\main.c      ****   
+ 104:.\main.c      ****    for(i = 0;i <= FILTER_LENGTH_low;i++)                 // Run IIR filter for each received sample
+ 637              		.loc 1 104 0
+ 638 0022 0023     		mov	r3, #0
+ 639 0024 FB60     		str	r3, [r7, #12]
+ 640 0026 1EE0     		b	.L26
+ 641              	.L27:
+ 105:.\main.c      ****    {
+ 106:.\main.c      ****       y_low[0] += b_low[i]*x_low[i];
+ 642              		.loc 1 106 0 discriminator 3
+ 643 0028 3B4B     		ldr	r3, .L33+4
+ 644 002a 1C68     		ldr	r4, [r3]
+ 645 002c 5D68     		ldr	r5, [r3, #4]
+ 646 002e 3B4A     		ldr	r2, .L33+8
+ 647 0030 FB68     		ldr	r3, [r7, #12]
+ 648 0032 DB00     		lsl	r3, r3, #3
+ 649 0034 D318     		add	r3, r2, r3
+ 650 0036 1868     		ldr	r0, [r3]
+ 651 0038 5968     		ldr	r1, [r3, #4]
+ 652 003a 364A     		ldr	r2, .L33
+ 653 003c FB68     		ldr	r3, [r7, #12]
+ 654 003e DB00     		lsl	r3, r3, #3
+ 655 0040 D318     		add	r3, r2, r3
+ 656 0042 1A68     		ldr	r2, [r3]
+ 657 0044 5B68     		ldr	r3, [r3, #4]
+ 658 0046 FFF7FEFF 		bl	__aeabi_dmul
+ 659 004a 021C     		mov	r2, r0
+ 660 004c 0B1C     		mov	r3, r1
+ 661 004e 201C     		mov	r0, r4
+ 662 0050 291C     		mov	r1, r5
+ 663 0052 FFF7FEFF 		bl	__aeabi_dadd
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 15
+
+
+ 664 0056 031C     		mov	r3, r0
+ 665 0058 0C1C     		mov	r4, r1
+ 666 005a 2F4A     		ldr	r2, .L33+4
+ 667 005c 1360     		str	r3, [r2]
+ 668 005e 5460     		str	r4, [r2, #4]
+ 104:.\main.c      ****    {
+ 669              		.loc 1 104 0 discriminator 3
+ 670 0060 FB68     		ldr	r3, [r7, #12]
+ 671 0062 0133     		add	r3, r3, #1
+ 672 0064 FB60     		str	r3, [r7, #12]
+ 673              	.L26:
+ 104:.\main.c      ****    {
+ 674              		.loc 1 104 0 is_stmt 0 discriminator 1
+ 675 0066 FB68     		ldr	r3, [r7, #12]
+ 676 0068 022B     		cmp	r3, #2
+ 677 006a DDDD     		ble	.L27
+ 107:.\main.c      ****    } 
+ 108:.\main.c      ****    
+ 109:.\main.c      ****    for(i =1;i <= FILTER_LENGTH_low;i++)               // Roll x array in order to hold old sample i
+ 678              		.loc 1 109 0 is_stmt 1
+ 679 006c 0123     		mov	r3, #1
+ 680 006e FB60     		str	r3, [r7, #12]
+ 681 0070 1EE0     		b	.L28
+ 682              	.L29:
+ 110:.\main.c      ****    {
+ 111:.\main.c      ****       y_low[0] -= a_low[i]*y_low[i];
+ 683              		.loc 1 111 0 discriminator 3
+ 684 0072 294B     		ldr	r3, .L33+4
+ 685 0074 1C68     		ldr	r4, [r3]
+ 686 0076 5D68     		ldr	r5, [r3, #4]
+ 687 0078 294A     		ldr	r2, .L33+12
+ 688 007a FB68     		ldr	r3, [r7, #12]
+ 689 007c DB00     		lsl	r3, r3, #3
+ 690 007e D318     		add	r3, r2, r3
+ 691 0080 1868     		ldr	r0, [r3]
+ 692 0082 5968     		ldr	r1, [r3, #4]
+ 693 0084 244A     		ldr	r2, .L33+4
+ 694 0086 FB68     		ldr	r3, [r7, #12]
+ 695 0088 DB00     		lsl	r3, r3, #3
+ 696 008a D318     		add	r3, r2, r3
+ 697 008c 1A68     		ldr	r2, [r3]
+ 698 008e 5B68     		ldr	r3, [r3, #4]
+ 699 0090 FFF7FEFF 		bl	__aeabi_dmul
+ 700 0094 021C     		mov	r2, r0
+ 701 0096 0B1C     		mov	r3, r1
+ 702 0098 201C     		mov	r0, r4
+ 703 009a 291C     		mov	r1, r5
+ 704 009c FFF7FEFF 		bl	__aeabi_dsub
+ 705 00a0 031C     		mov	r3, r0
+ 706 00a2 0C1C     		mov	r4, r1
+ 707 00a4 1C4A     		ldr	r2, .L33+4
+ 708 00a6 1360     		str	r3, [r2]
+ 709 00a8 5460     		str	r4, [r2, #4]
+ 109:.\main.c      ****    {
+ 710              		.loc 1 109 0 discriminator 3
+ 711 00aa FB68     		ldr	r3, [r7, #12]
+ 712 00ac 0133     		add	r3, r3, #1
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 16
+
+
+ 713 00ae FB60     		str	r3, [r7, #12]
+ 714              	.L28:
+ 109:.\main.c      ****    {
+ 715              		.loc 1 109 0 is_stmt 0 discriminator 1
+ 716 00b0 FB68     		ldr	r3, [r7, #12]
+ 717 00b2 022B     		cmp	r3, #2
+ 718 00b4 DDDD     		ble	.L29
+ 112:.\main.c      ****    }
+ 113:.\main.c      **** 
+ 114:.\main.c      ****    for(i = FILTER_LENGTH_low-1;i >= 0;i--)
+ 719              		.loc 1 114 0 is_stmt 1
+ 720 00b6 0123     		mov	r3, #1
+ 721 00b8 FB60     		str	r3, [r7, #12]
+ 722 00ba 1CE0     		b	.L30
+ 723              	.L31:
+ 115:.\main.c      ****     {
+ 116:.\main.c      ****        x_low[i+1]=x_low[i];
+ 724              		.loc 1 116 0 discriminator 3
+ 725 00bc FB68     		ldr	r3, [r7, #12]
+ 726 00be 5A1C     		add	r2, r3, #1
+ 727 00c0 1449     		ldr	r1, .L33
+ 728 00c2 FB68     		ldr	r3, [r7, #12]
+ 729 00c4 DB00     		lsl	r3, r3, #3
+ 730 00c6 CB18     		add	r3, r1, r3
+ 731 00c8 5C68     		ldr	r4, [r3, #4]
+ 732 00ca 1B68     		ldr	r3, [r3]
+ 733 00cc 1149     		ldr	r1, .L33
+ 734 00ce D200     		lsl	r2, r2, #3
+ 735 00d0 8A18     		add	r2, r1, r2
+ 736 00d2 1360     		str	r3, [r2]
+ 737 00d4 5460     		str	r4, [r2, #4]
+ 117:.\main.c      ****        y_low[i+1]=y_low[i];
+ 738              		.loc 1 117 0 discriminator 3
+ 739 00d6 FB68     		ldr	r3, [r7, #12]
+ 740 00d8 5A1C     		add	r2, r3, #1
+ 741 00da 0F49     		ldr	r1, .L33+4
+ 742 00dc FB68     		ldr	r3, [r7, #12]
+ 743 00de DB00     		lsl	r3, r3, #3
+ 744 00e0 CB18     		add	r3, r1, r3
+ 745 00e2 5C68     		ldr	r4, [r3, #4]
+ 746 00e4 1B68     		ldr	r3, [r3]
+ 747 00e6 0C49     		ldr	r1, .L33+4
+ 748 00e8 D200     		lsl	r2, r2, #3
+ 749 00ea 8A18     		add	r2, r1, r2
+ 750 00ec 1360     		str	r3, [r2]
+ 751 00ee 5460     		str	r4, [r2, #4]
+ 114:.\main.c      ****     {
+ 752              		.loc 1 114 0 discriminator 3
+ 753 00f0 FB68     		ldr	r3, [r7, #12]
+ 754 00f2 013B     		sub	r3, r3, #1
+ 755 00f4 FB60     		str	r3, [r7, #12]
+ 756              	.L30:
+ 114:.\main.c      ****     {
+ 757              		.loc 1 114 0 is_stmt 0 discriminator 1
+ 758 00f6 FB68     		ldr	r3, [r7, #12]
+ 759 00f8 002B     		cmp	r3, #0
+ 760 00fa DFDA     		bge	.L31
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 17
+
+
+ 118:.\main.c      ****     }
+ 119:.\main.c      **** 
+ 120:.\main.c      ****     return floor_and_convert(y_low[0]);
+ 761              		.loc 1 120 0 is_stmt 1
+ 762 00fc 064B     		ldr	r3, .L33+4
+ 763 00fe 5C68     		ldr	r4, [r3, #4]
+ 764 0100 1B68     		ldr	r3, [r3]
+ 765 0102 181C     		mov	r0, r3
+ 766 0104 211C     		mov	r1, r4
+ 767 0106 FFF7FEFF 		bl	floor_and_convert
+ 768 010a 031C     		mov	r3, r0
+ 121:.\main.c      **** }
+ 769              		.loc 1 121 0
+ 770 010c 181C     		mov	r0, r3
+ 771 010e BD46     		mov	sp, r7
+ 772 0110 04B0     		add	sp, sp, #16
+ 773              		@ sp needed
+ 774 0112 B0BD     		pop	{r4, r5, r7, pc}
+ 775              	.L34:
+ 776              		.align	2
+ 777              	.L33:
+ 778 0114 00000000 		.word	x_low
+ 779 0118 00000000 		.word	y_low
+ 780 011c 00000000 		.word	b_low
+ 781 0120 00000000 		.word	a_low
+ 782              		.cfi_endproc
+ 783              	.LFE40:
+ 784              		.size	low_pass_filter, .-low_pass_filter
+ 785              		.global	__aeabi_idiv
+ 786              		.section	.text.roed_grader,"ax",%progbits
+ 787              		.align	2
+ 788              		.global	roed_grader
+ 789              		.code	16
+ 790              		.thumb_func
+ 791              		.type	roed_grader, %function
+ 792              	roed_grader:
+ 793              	.LFB41:
+ 122:.\main.c      **** 
+ 123:.\main.c      **** 
+ 124:.\main.c      **** /***********************************Omregning til grader for rød**********************************
+ 125:.\main.c      **** int roed_grader(int data)
+ 126:.\main.c      **** {
+ 794              		.loc 1 126 0
+ 795              		.cfi_startproc
+ 796 0000 80B5     		push	{r7, lr}
+ 797              		.cfi_def_cfa_offset 8
+ 798              		.cfi_offset 7, -8
+ 799              		.cfi_offset 14, -4
+ 800 0002 82B0     		sub	sp, sp, #8
+ 801              		.cfi_def_cfa_offset 16
+ 802 0004 00AF     		add	r7, sp, #0
+ 803              		.cfi_def_cfa_register 7
+ 804 0006 7860     		str	r0, [r7, #4]
+ 127:.\main.c      ****     if ((data >= -207) && (data <= -206))
+ 805              		.loc 1 127 0
+ 806 0008 7B68     		ldr	r3, [r7, #4]
+ 807 000a CF33     		add	r3, r3, #207
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 18
+
+
+ 808 000c 0CDB     		blt	.L36
+ 809              		.loc 1 127 0 is_stmt 0 discriminator 1
+ 810 000e 7B68     		ldr	r3, [r7, #4]
+ 811 0010 CD33     		add	r3, r3, #205
+ 812 0012 09DA     		bge	.L36
+ 128:.\main.c      ****     {
+ 129:.\main.c      ****         data=(0+(10-0)*(data-(-207))/(-206-(-207)));
+ 813              		.loc 1 129 0 is_stmt 1
+ 814 0014 7B68     		ldr	r3, [r7, #4]
+ 815 0016 CF33     		add	r3, r3, #207
+ 816 0018 1A1C     		mov	r2, r3
+ 817 001a 131C     		mov	r3, r2
+ 818 001c 9B00     		lsl	r3, r3, #2
+ 819 001e 9B18     		add	r3, r3, r2
+ 820 0020 5B00     		lsl	r3, r3, #1
+ 821 0022 7B60     		str	r3, [r7, #4]
+ 130:.\main.c      ****         return data; 
+ 822              		.loc 1 130 0
+ 823 0024 7B68     		ldr	r3, [r7, #4]
+ 824 0026 71E0     		b	.L37
+ 825              	.L36:
+ 131:.\main.c      ****     }
+ 132:.\main.c      ****     else if ((data >= -206) && (data <= -185))
+ 826              		.loc 1 132 0
+ 827 0028 7B68     		ldr	r3, [r7, #4]
+ 828 002a CE33     		add	r3, r3, #206
+ 829 002c 12DB     		blt	.L38
+ 830              		.loc 1 132 0 is_stmt 0 discriminator 1
+ 831 002e 7B68     		ldr	r3, [r7, #4]
+ 832 0030 B833     		add	r3, r3, #184
+ 833 0032 0FDA     		bge	.L38
+ 133:.\main.c      ****     {
+ 134:.\main.c      ****         data=(10+(30-10)*(data-(-206))/(-185-(-206)));
+ 834              		.loc 1 134 0 is_stmt 1
+ 835 0034 7B68     		ldr	r3, [r7, #4]
+ 836 0036 CE33     		add	r3, r3, #206
+ 837 0038 1A1C     		mov	r2, r3
+ 838 003a 131C     		mov	r3, r2
+ 839 003c 9B00     		lsl	r3, r3, #2
+ 840 003e 9B18     		add	r3, r3, r2
+ 841 0040 9B00     		lsl	r3, r3, #2
+ 842 0042 181C     		mov	r0, r3
+ 843 0044 1521     		mov	r1, #21
+ 844 0046 FFF7FEFF 		bl	__aeabi_idiv
+ 845 004a 031C     		mov	r3, r0
+ 846 004c 0A33     		add	r3, r3, #10
+ 847 004e 7B60     		str	r3, [r7, #4]
+ 135:.\main.c      ****         return data;
+ 848              		.loc 1 135 0
+ 849 0050 7B68     		ldr	r3, [r7, #4]
+ 850 0052 5BE0     		b	.L37
+ 851              	.L38:
+ 136:.\main.c      ****     }
+ 137:.\main.c      ****     else if ((data >= -185) && (data <= -145))
+ 852              		.loc 1 137 0
+ 853 0054 7B68     		ldr	r3, [r7, #4]
+ 854 0056 B933     		add	r3, r3, #185
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 19
+
+
+ 855 0058 12DB     		blt	.L39
+ 856              		.loc 1 137 0 is_stmt 0 discriminator 1
+ 857 005a 7B68     		ldr	r3, [r7, #4]
+ 858 005c 9033     		add	r3, r3, #144
+ 859 005e 0FDA     		bge	.L39
+ 138:.\main.c      ****     {
+ 139:.\main.c      ****         data=(30+(50-30)*(data-(-185))/(-145-(-185)));
+ 860              		.loc 1 139 0 is_stmt 1
+ 861 0060 7B68     		ldr	r3, [r7, #4]
+ 862 0062 B933     		add	r3, r3, #185
+ 863 0064 1A1C     		mov	r2, r3
+ 864 0066 131C     		mov	r3, r2
+ 865 0068 9B00     		lsl	r3, r3, #2
+ 866 006a 9B18     		add	r3, r3, r2
+ 867 006c 9B00     		lsl	r3, r3, #2
+ 868 006e 181C     		mov	r0, r3
+ 869 0070 2821     		mov	r1, #40
+ 870 0072 FFF7FEFF 		bl	__aeabi_idiv
+ 871 0076 031C     		mov	r3, r0
+ 872 0078 1E33     		add	r3, r3, #30
+ 873 007a 7B60     		str	r3, [r7, #4]
+ 140:.\main.c      ****         return data;
+ 874              		.loc 1 140 0
+ 875 007c 7B68     		ldr	r3, [r7, #4]
+ 876 007e 45E0     		b	.L37
+ 877              	.L39:
+ 141:.\main.c      ****     }
+ 142:.\main.c      ****     else if ((data >= -145) && (data <= -85))
+ 878              		.loc 1 142 0
+ 879 0080 7B68     		ldr	r3, [r7, #4]
+ 880 0082 9133     		add	r3, r3, #145
+ 881 0084 12DB     		blt	.L40
+ 882              		.loc 1 142 0 is_stmt 0 discriminator 1
+ 883 0086 7B68     		ldr	r3, [r7, #4]
+ 884 0088 5433     		add	r3, r3, #84
+ 885 008a 0FDA     		bge	.L40
+ 143:.\main.c      ****     {
+ 144:.\main.c      ****         data=(50+(70-50)*(data-(-145))/(-85-(-145)));
+ 886              		.loc 1 144 0 is_stmt 1
+ 887 008c 7B68     		ldr	r3, [r7, #4]
+ 888 008e 9133     		add	r3, r3, #145
+ 889 0090 1A1C     		mov	r2, r3
+ 890 0092 131C     		mov	r3, r2
+ 891 0094 9B00     		lsl	r3, r3, #2
+ 892 0096 9B18     		add	r3, r3, r2
+ 893 0098 9B00     		lsl	r3, r3, #2
+ 894 009a 181C     		mov	r0, r3
+ 895 009c 3C21     		mov	r1, #60
+ 896 009e FFF7FEFF 		bl	__aeabi_idiv
+ 897 00a2 031C     		mov	r3, r0
+ 898 00a4 3233     		add	r3, r3, #50
+ 899 00a6 7B60     		str	r3, [r7, #4]
+ 145:.\main.c      ****         return data;
+ 900              		.loc 1 145 0
+ 901 00a8 7B68     		ldr	r3, [r7, #4]
+ 902 00aa 2FE0     		b	.L37
+ 903              	.L40:
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 20
+
+
+ 146:.\main.c      ****     }
+ 147:.\main.c      ****     else if ((data >= -85) && (data <= -48))
+ 904              		.loc 1 147 0
+ 905 00ac 7B68     		ldr	r3, [r7, #4]
+ 906 00ae 5533     		add	r3, r3, #85
+ 907 00b0 12DB     		blt	.L41
+ 908              		.loc 1 147 0 is_stmt 0 discriminator 1
+ 909 00b2 7B68     		ldr	r3, [r7, #4]
+ 910 00b4 2F33     		add	r3, r3, #47
+ 911 00b6 0FDA     		bge	.L41
+ 148:.\main.c      ****     {
+ 149:.\main.c      ****         data=(70+(80-70)*(data-(-85))/(-48-(-85)));
+ 912              		.loc 1 149 0 is_stmt 1
+ 913 00b8 7B68     		ldr	r3, [r7, #4]
+ 914 00ba 5533     		add	r3, r3, #85
+ 915 00bc 1A1C     		mov	r2, r3
+ 916 00be 131C     		mov	r3, r2
+ 917 00c0 9B00     		lsl	r3, r3, #2
+ 918 00c2 9B18     		add	r3, r3, r2
+ 919 00c4 5B00     		lsl	r3, r3, #1
+ 920 00c6 181C     		mov	r0, r3
+ 921 00c8 2521     		mov	r1, #37
+ 922 00ca FFF7FEFF 		bl	__aeabi_idiv
+ 923 00ce 031C     		mov	r3, r0
+ 924 00d0 4633     		add	r3, r3, #70
+ 925 00d2 7B60     		str	r3, [r7, #4]
+ 150:.\main.c      ****         return data;
+ 926              		.loc 1 150 0
+ 927 00d4 7B68     		ldr	r3, [r7, #4]
+ 928 00d6 19E0     		b	.L37
+ 929              	.L41:
+ 151:.\main.c      ****     }
+ 152:.\main.c      ****     else if ((data >= -48) && (data <= -22))
+ 930              		.loc 1 152 0
+ 931 00d8 7B68     		ldr	r3, [r7, #4]
+ 932 00da 3033     		add	r3, r3, #48
+ 933 00dc 12DB     		blt	.L42
+ 934              		.loc 1 152 0 is_stmt 0 discriminator 1
+ 935 00de 7B68     		ldr	r3, [r7, #4]
+ 936 00e0 1533     		add	r3, r3, #21
+ 937 00e2 0FDA     		bge	.L42
+ 153:.\main.c      ****     {
+ 154:.\main.c      ****         data=(80+(90-80)*(data-(-48))/(-22-(-48)));
+ 938              		.loc 1 154 0 is_stmt 1
+ 939 00e4 7B68     		ldr	r3, [r7, #4]
+ 940 00e6 3033     		add	r3, r3, #48
+ 941 00e8 1A1C     		mov	r2, r3
+ 942 00ea 131C     		mov	r3, r2
+ 943 00ec 9B00     		lsl	r3, r3, #2
+ 944 00ee 9B18     		add	r3, r3, r2
+ 945 00f0 5B00     		lsl	r3, r3, #1
+ 946 00f2 181C     		mov	r0, r3
+ 947 00f4 1A21     		mov	r1, #26
+ 948 00f6 FFF7FEFF 		bl	__aeabi_idiv
+ 949 00fa 031C     		mov	r3, r0
+ 950 00fc 5033     		add	r3, r3, #80
+ 951 00fe 7B60     		str	r3, [r7, #4]
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 21
+
+
+ 155:.\main.c      ****         return data;
+ 952              		.loc 1 155 0
+ 953 0100 7B68     		ldr	r3, [r7, #4]
+ 954 0102 03E0     		b	.L37
+ 955              	.L42:
+ 156:.\main.c      ****     }
+ 157:.\main.c      ****     
+ 158:.\main.c      ****     else
+ 159:.\main.c      ****     {
+ 160:.\main.c      ****         data = -200;
+ 956              		.loc 1 160 0
+ 957 0104 C823     		mov	r3, #200
+ 958 0106 5B42     		neg	r3, r3
+ 959 0108 7B60     		str	r3, [r7, #4]
+ 161:.\main.c      ****         return data;
+ 960              		.loc 1 161 0
+ 961 010a 7B68     		ldr	r3, [r7, #4]
+ 962              	.L37:
+ 162:.\main.c      ****     }
+ 163:.\main.c      **** }
+ 963              		.loc 1 163 0
+ 964 010c 181C     		mov	r0, r3
+ 965 010e BD46     		mov	sp, r7
+ 966 0110 02B0     		add	sp, sp, #8
+ 967              		@ sp needed
+ 968 0112 80BD     		pop	{r7, pc}
+ 969              		.cfi_endproc
+ 970              	.LFE41:
+ 971              		.size	roed_grader, .-roed_grader
+ 972              		.section	.text.groen_grader,"ax",%progbits
+ 973              		.align	2
+ 974              		.global	groen_grader
+ 975              		.code	16
+ 976              		.thumb_func
+ 977              		.type	groen_grader, %function
+ 978              	groen_grader:
+ 979              	.LFB42:
+ 164:.\main.c      **** 
+ 165:.\main.c      **** /***********************************Omregning til grader for grøn*********************************
+ 166:.\main.c      **** int groen_grader(int data)
+ 167:.\main.c      **** {
+ 980              		.loc 1 167 0
+ 981              		.cfi_startproc
+ 982 0000 80B5     		push	{r7, lr}
+ 983              		.cfi_def_cfa_offset 8
+ 984              		.cfi_offset 7, -8
+ 985              		.cfi_offset 14, -4
+ 986 0002 82B0     		sub	sp, sp, #8
+ 987              		.cfi_def_cfa_offset 16
+ 988 0004 00AF     		add	r7, sp, #0
+ 989              		.cfi_def_cfa_register 7
+ 990 0006 7860     		str	r0, [r7, #4]
+ 168:.\main.c      ****     if ((data >= -194) && (data <= -185))
+ 991              		.loc 1 168 0
+ 992 0008 7B68     		ldr	r3, [r7, #4]
+ 993 000a C233     		add	r3, r3, #194
+ 994 000c 11DB     		blt	.L44
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 22
+
+
+ 995              		.loc 1 168 0 is_stmt 0 discriminator 1
+ 996 000e 7B68     		ldr	r3, [r7, #4]
+ 997 0010 B833     		add	r3, r3, #184
+ 998 0012 0EDA     		bge	.L44
+ 169:.\main.c      ****     {
+ 170:.\main.c      ****         data=(0+(10-0)*(data-(-194))/(-185-(-194)));
+ 999              		.loc 1 170 0 is_stmt 1
+ 1000 0014 7B68     		ldr	r3, [r7, #4]
+ 1001 0016 C233     		add	r3, r3, #194
+ 1002 0018 1A1C     		mov	r2, r3
+ 1003 001a 131C     		mov	r3, r2
+ 1004 001c 9B00     		lsl	r3, r3, #2
+ 1005 001e 9B18     		add	r3, r3, r2
+ 1006 0020 5B00     		lsl	r3, r3, #1
+ 1007 0022 181C     		mov	r0, r3
+ 1008 0024 0921     		mov	r1, #9
+ 1009 0026 FFF7FEFF 		bl	__aeabi_idiv
+ 1010 002a 031C     		mov	r3, r0
+ 1011 002c 7B60     		str	r3, [r7, #4]
+ 171:.\main.c      ****         return data; 
+ 1012              		.loc 1 171 0
+ 1013 002e 7B68     		ldr	r3, [r7, #4]
+ 1014 0030 71E0     		b	.L45
+ 1015              	.L44:
+ 172:.\main.c      ****     }
+ 173:.\main.c      ****     else if ((data >= -185) && (data <= -167))
+ 1016              		.loc 1 173 0
+ 1017 0032 7B68     		ldr	r3, [r7, #4]
+ 1018 0034 B933     		add	r3, r3, #185
+ 1019 0036 12DB     		blt	.L46
+ 1020              		.loc 1 173 0 is_stmt 0 discriminator 1
+ 1021 0038 7B68     		ldr	r3, [r7, #4]
+ 1022 003a A633     		add	r3, r3, #166
+ 1023 003c 0FDA     		bge	.L46
+ 174:.\main.c      ****     {
+ 175:.\main.c      ****         data=(10+(30-10)*(data-(-185))/(-167-(-185)));
+ 1024              		.loc 1 175 0 is_stmt 1
+ 1025 003e 7B68     		ldr	r3, [r7, #4]
+ 1026 0040 B933     		add	r3, r3, #185
+ 1027 0042 1A1C     		mov	r2, r3
+ 1028 0044 131C     		mov	r3, r2
+ 1029 0046 9B00     		lsl	r3, r3, #2
+ 1030 0048 9B18     		add	r3, r3, r2
+ 1031 004a 9B00     		lsl	r3, r3, #2
+ 1032 004c 181C     		mov	r0, r3
+ 1033 004e 1221     		mov	r1, #18
+ 1034 0050 FFF7FEFF 		bl	__aeabi_idiv
+ 1035 0054 031C     		mov	r3, r0
+ 1036 0056 0A33     		add	r3, r3, #10
+ 1037 0058 7B60     		str	r3, [r7, #4]
+ 176:.\main.c      ****         return data;
+ 1038              		.loc 1 176 0
+ 1039 005a 7B68     		ldr	r3, [r7, #4]
+ 1040 005c 5BE0     		b	.L45
+ 1041              	.L46:
+ 177:.\main.c      ****     }
+ 178:.\main.c      ****     else if ((data >= -167) && (data <= -132))
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 23
+
+
+ 1042              		.loc 1 178 0
+ 1043 005e 7B68     		ldr	r3, [r7, #4]
+ 1044 0060 A733     		add	r3, r3, #167
+ 1045 0062 12DB     		blt	.L47
+ 1046              		.loc 1 178 0 is_stmt 0 discriminator 1
+ 1047 0064 7B68     		ldr	r3, [r7, #4]
+ 1048 0066 8333     		add	r3, r3, #131
+ 1049 0068 0FDA     		bge	.L47
+ 179:.\main.c      ****     {
+ 180:.\main.c      ****         data=(30+(50-30)*(data-(-167))/(-132-(-167)));
+ 1050              		.loc 1 180 0 is_stmt 1
+ 1051 006a 7B68     		ldr	r3, [r7, #4]
+ 1052 006c A733     		add	r3, r3, #167
+ 1053 006e 1A1C     		mov	r2, r3
+ 1054 0070 131C     		mov	r3, r2
+ 1055 0072 9B00     		lsl	r3, r3, #2
+ 1056 0074 9B18     		add	r3, r3, r2
+ 1057 0076 9B00     		lsl	r3, r3, #2
+ 1058 0078 181C     		mov	r0, r3
+ 1059 007a 2321     		mov	r1, #35
+ 1060 007c FFF7FEFF 		bl	__aeabi_idiv
+ 1061 0080 031C     		mov	r3, r0
+ 1062 0082 1E33     		add	r3, r3, #30
+ 1063 0084 7B60     		str	r3, [r7, #4]
+ 181:.\main.c      ****         return data;
+ 1064              		.loc 1 181 0
+ 1065 0086 7B68     		ldr	r3, [r7, #4]
+ 1066 0088 45E0     		b	.L45
+ 1067              	.L47:
+ 182:.\main.c      ****     }
+ 183:.\main.c      ****     else if ((data >= -132) && (data <= -70))
+ 1068              		.loc 1 183 0
+ 1069 008a 7B68     		ldr	r3, [r7, #4]
+ 1070 008c 8433     		add	r3, r3, #132
+ 1071 008e 12DB     		blt	.L48
+ 1072              		.loc 1 183 0 is_stmt 0 discriminator 1
+ 1073 0090 7B68     		ldr	r3, [r7, #4]
+ 1074 0092 4533     		add	r3, r3, #69
+ 1075 0094 0FDA     		bge	.L48
+ 184:.\main.c      ****     {
+ 185:.\main.c      ****         data=(50+(70-50)*(data-(-132))/(-70-(-132)));
+ 1076              		.loc 1 185 0 is_stmt 1
+ 1077 0096 7B68     		ldr	r3, [r7, #4]
+ 1078 0098 8433     		add	r3, r3, #132
+ 1079 009a 1A1C     		mov	r2, r3
+ 1080 009c 131C     		mov	r3, r2
+ 1081 009e 9B00     		lsl	r3, r3, #2
+ 1082 00a0 9B18     		add	r3, r3, r2
+ 1083 00a2 9B00     		lsl	r3, r3, #2
+ 1084 00a4 181C     		mov	r0, r3
+ 1085 00a6 3E21     		mov	r1, #62
+ 1086 00a8 FFF7FEFF 		bl	__aeabi_idiv
+ 1087 00ac 031C     		mov	r3, r0
+ 1088 00ae 3233     		add	r3, r3, #50
+ 1089 00b0 7B60     		str	r3, [r7, #4]
+ 186:.\main.c      ****         return data;
+ 1090              		.loc 1 186 0
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 24
+
+
+ 1091 00b2 7B68     		ldr	r3, [r7, #4]
+ 1092 00b4 2FE0     		b	.L45
+ 1093              	.L48:
+ 187:.\main.c      ****     }
+ 188:.\main.c      ****     else if ((data >= -70) && (data <= -31))
+ 1094              		.loc 1 188 0
+ 1095 00b6 7B68     		ldr	r3, [r7, #4]
+ 1096 00b8 4633     		add	r3, r3, #70
+ 1097 00ba 12DB     		blt	.L49
+ 1098              		.loc 1 188 0 is_stmt 0 discriminator 1
+ 1099 00bc 7B68     		ldr	r3, [r7, #4]
+ 1100 00be 1E33     		add	r3, r3, #30
+ 1101 00c0 0FDA     		bge	.L49
+ 189:.\main.c      ****     {
+ 190:.\main.c      ****         data=(70+(80-70)*(data-(-70))/(-31-(-70)));
+ 1102              		.loc 1 190 0 is_stmt 1
+ 1103 00c2 7B68     		ldr	r3, [r7, #4]
+ 1104 00c4 4633     		add	r3, r3, #70
+ 1105 00c6 1A1C     		mov	r2, r3
+ 1106 00c8 131C     		mov	r3, r2
+ 1107 00ca 9B00     		lsl	r3, r3, #2
+ 1108 00cc 9B18     		add	r3, r3, r2
+ 1109 00ce 5B00     		lsl	r3, r3, #1
+ 1110 00d0 181C     		mov	r0, r3
+ 1111 00d2 2721     		mov	r1, #39
+ 1112 00d4 FFF7FEFF 		bl	__aeabi_idiv
+ 1113 00d8 031C     		mov	r3, r0
+ 1114 00da 4633     		add	r3, r3, #70
+ 1115 00dc 7B60     		str	r3, [r7, #4]
+ 191:.\main.c      ****         return data;
+ 1116              		.loc 1 191 0
+ 1117 00de 7B68     		ldr	r3, [r7, #4]
+ 1118 00e0 19E0     		b	.L45
+ 1119              	.L49:
+ 192:.\main.c      ****     }
+ 193:.\main.c      ****     else if ((data >= -31) && (data <= 9))
+ 1120              		.loc 1 193 0
+ 1121 00e2 7B68     		ldr	r3, [r7, #4]
+ 1122 00e4 1F33     		add	r3, r3, #31
+ 1123 00e6 12DB     		blt	.L50
+ 1124              		.loc 1 193 0 is_stmt 0 discriminator 1
+ 1125 00e8 7B68     		ldr	r3, [r7, #4]
+ 1126 00ea 092B     		cmp	r3, #9
+ 1127 00ec 0FDC     		bgt	.L50
+ 194:.\main.c      ****     {
+ 195:.\main.c      ****         data=(80+(90-80)*(data-(-31))/(9-(-31)));
+ 1128              		.loc 1 195 0 is_stmt 1
+ 1129 00ee 7B68     		ldr	r3, [r7, #4]
+ 1130 00f0 1F33     		add	r3, r3, #31
+ 1131 00f2 1A1C     		mov	r2, r3
+ 1132 00f4 131C     		mov	r3, r2
+ 1133 00f6 9B00     		lsl	r3, r3, #2
+ 1134 00f8 9B18     		add	r3, r3, r2
+ 1135 00fa 5B00     		lsl	r3, r3, #1
+ 1136 00fc 181C     		mov	r0, r3
+ 1137 00fe 2821     		mov	r1, #40
+ 1138 0100 FFF7FEFF 		bl	__aeabi_idiv
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 25
+
+
+ 1139 0104 031C     		mov	r3, r0
+ 1140 0106 5033     		add	r3, r3, #80
+ 1141 0108 7B60     		str	r3, [r7, #4]
+ 196:.\main.c      ****         return data;
+ 1142              		.loc 1 196 0
+ 1143 010a 7B68     		ldr	r3, [r7, #4]
+ 1144 010c 03E0     		b	.L45
+ 1145              	.L50:
+ 197:.\main.c      ****     }
+ 198:.\main.c      ****     
+ 199:.\main.c      ****     else
+ 200:.\main.c      ****     {
+ 201:.\main.c      ****         data = -200;
+ 1146              		.loc 1 201 0
+ 1147 010e C823     		mov	r3, #200
+ 1148 0110 5B42     		neg	r3, r3
+ 1149 0112 7B60     		str	r3, [r7, #4]
+ 202:.\main.c      ****         
+ 203:.\main.c      ****         return data;
+ 1150              		.loc 1 203 0
+ 1151 0114 7B68     		ldr	r3, [r7, #4]
+ 1152              	.L45:
+ 204:.\main.c      ****     }
+ 205:.\main.c      **** }
+ 1153              		.loc 1 205 0
+ 1154 0116 181C     		mov	r0, r3
+ 1155 0118 BD46     		mov	sp, r7
+ 1156 011a 02B0     		add	sp, sp, #8
+ 1157              		@ sp needed
+ 1158 011c 80BD     		pop	{r7, pc}
+ 1159              		.cfi_endproc
+ 1160              	.LFE42:
+ 1161              		.size	groen_grader, .-groen_grader
+ 1162              		.global	__aeabi_ddiv
+ 1163 011e C046     		.section	.text.differentiator,"ax",%progbits
+ 1164              		.align	2
+ 1165              		.global	differentiator
+ 1166              		.code	16
+ 1167              		.thumb_func
+ 1168              		.type	differentiator, %function
+ 1169              	differentiator:
+ 1170              	.LFB43:
+ 206:.\main.c      **** 
+ 207:.\main.c      **** /***********************************Differentiator***********************************/
+ 208:.\main.c      **** 
+ 209:.\main.c      **** signed int differentiator(signed int new)
+ 210:.\main.c      **** {
+ 1171              		.loc 1 210 0
+ 1172              		.cfi_startproc
+ 1173 0000 90B5     		push	{r4, r7, lr}
+ 1174              		.cfi_def_cfa_offset 12
+ 1175              		.cfi_offset 4, -12
+ 1176              		.cfi_offset 7, -8
+ 1177              		.cfi_offset 14, -4
+ 1178 0002 83B0     		sub	sp, sp, #12
+ 1179              		.cfi_def_cfa_offset 24
+ 1180 0004 00AF     		add	r7, sp, #0
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 26
+
+
+ 1181              		.cfi_def_cfa_register 7
+ 1182 0006 7860     		str	r0, [r7, #4]
+ 211:.\main.c      ****    diff = (new - old)/0.01;
+ 1183              		.loc 1 211 0
+ 1184 0008 204B     		ldr	r3, .L55
+ 1185 000a 1B88     		ldrh	r3, [r3]
+ 1186 000c 1BB2     		sxth	r3, r3
+ 1187 000e 7A68     		ldr	r2, [r7, #4]
+ 1188 0010 D31A     		sub	r3, r2, r3
+ 1189 0012 181C     		mov	r0, r3
+ 1190 0014 FFF7FEFF 		bl	__aeabi_i2d
+ 1191 0018 031C     		mov	r3, r0
+ 1192 001a 0C1C     		mov	r4, r1
+ 1193 001c 181C     		mov	r0, r3
+ 1194 001e 211C     		mov	r1, r4
+ 1195 0020 1B4A     		ldr	r2, .L55+4
+ 1196 0022 1C4B     		ldr	r3, .L55+8
+ 1197 0024 FFF7FEFF 		bl	__aeabi_ddiv
+ 1198 0028 031C     		mov	r3, r0
+ 1199 002a 0C1C     		mov	r4, r1
+ 1200 002c 181C     		mov	r0, r3
+ 1201 002e 211C     		mov	r1, r4
+ 1202 0030 FFF7FEFF 		bl	__aeabi_d2iz
+ 1203 0034 031C     		mov	r3, r0
+ 1204 0036 9AB2     		uxth	r2, r3
+ 1205 0038 174B     		ldr	r3, .L55+12
+ 1206 003a 1A80     		strh	r2, [r3]
+ 212:.\main.c      ****    old = new;
+ 1207              		.loc 1 212 0
+ 1208 003c 7B68     		ldr	r3, [r7, #4]
+ 1209 003e 9AB2     		uxth	r2, r3
+ 1210 0040 124B     		ldr	r3, .L55
+ 1211 0042 1A80     		strh	r2, [r3]
+ 213:.\main.c      ****    //return diff;
+ 214:.\main.c      ****     if(diff > 1)        //Stigende 
+ 1212              		.loc 1 214 0
+ 1213 0044 144B     		ldr	r3, .L55+12
+ 1214 0046 1B88     		ldrh	r3, [r3]
+ 1215 0048 1BB2     		sxth	r3, r3
+ 1216 004a 012B     		cmp	r3, #1
+ 1217 004c 06DD     		ble	.L52
+ 215:.\main.c      ****     {
+ 216:.\main.c      ****         diff = 10;
+ 1218              		.loc 1 216 0
+ 1219 004e 124B     		ldr	r3, .L55+12
+ 1220 0050 0A22     		mov	r2, #10
+ 1221 0052 1A80     		strh	r2, [r3]
+ 217:.\main.c      ****         return diff;
+ 1222              		.loc 1 217 0
+ 1223 0054 104B     		ldr	r3, .L55+12
+ 1224 0056 1B88     		ldrh	r3, [r3]
+ 1225 0058 1BB2     		sxth	r3, r3
+ 1226 005a 13E0     		b	.L53
+ 1227              	.L52:
+ 218:.\main.c      ****     }
+ 219:.\main.c      ****     
+ 220:.\main.c      ****     else if (diff < 1)  //faldene 
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 27
+
+
+ 1228              		.loc 1 220 0
+ 1229 005c 0E4B     		ldr	r3, .L55+12
+ 1230 005e 1B88     		ldrh	r3, [r3]
+ 1231 0060 1BB2     		sxth	r3, r3
+ 1232 0062 002B     		cmp	r3, #0
+ 1233 0064 07DC     		bgt	.L54
+ 221:.\main.c      ****     {
+ 222:.\main.c      ****         diff = -10;
+ 1234              		.loc 1 222 0
+ 1235 0066 0C4B     		ldr	r3, .L55+12
+ 1236 0068 0A22     		mov	r2, #10
+ 1237 006a 5242     		neg	r2, r2
+ 1238 006c 1A80     		strh	r2, [r3]
+ 223:.\main.c      ****         return diff;
+ 1239              		.loc 1 223 0
+ 1240 006e 0A4B     		ldr	r3, .L55+12
+ 1241 0070 1B88     		ldrh	r3, [r3]
+ 1242 0072 1BB2     		sxth	r3, r3
+ 1243 0074 06E0     		b	.L53
+ 1244              	.L54:
+ 224:.\main.c      ****     }
+ 225:.\main.c      ****     
+ 226:.\main.c      ****     else
+ 227:.\main.c      ****     {
+ 228:.\main.c      ****         diff=-200;
+ 1245              		.loc 1 228 0
+ 1246 0076 084B     		ldr	r3, .L55+12
+ 1247 0078 C822     		mov	r2, #200
+ 1248 007a 5242     		neg	r2, r2
+ 1249 007c 1A80     		strh	r2, [r3]
+ 229:.\main.c      ****         return diff;
+ 1250              		.loc 1 229 0
+ 1251 007e 064B     		ldr	r3, .L55+12
+ 1252 0080 1B88     		ldrh	r3, [r3]
+ 1253 0082 1BB2     		sxth	r3, r3
+ 1254              	.L53:
+ 230:.\main.c      ****     }
+ 231:.\main.c      **** }
+ 1255              		.loc 1 231 0
+ 1256 0084 181C     		mov	r0, r3
+ 1257 0086 BD46     		mov	sp, r7
+ 1258 0088 03B0     		add	sp, sp, #12
+ 1259              		@ sp needed
+ 1260 008a 90BD     		pop	{r4, r7, pc}
+ 1261              	.L56:
+ 1262              		.align	2
+ 1263              	.L55:
+ 1264 008c 00000000 		.word	old
+ 1265 0090 7B14AE47 		.word	1202590843
+ 1266 0094 E17A843F 		.word	1065646817
+ 1267 0098 00000000 		.word	diff
+ 1268              		.cfi_endproc
+ 1269              	.LFE43:
+ 1270              		.size	differentiator, .-differentiator
+ 1271              		.section	.text.ADC_interrupt,"ax",%progbits
+ 1272              		.align	2
+ 1273              		.global	ADC_interrupt
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 28
+
+
+ 1274              		.code	16
+ 1275              		.thumb_func
+ 1276              		.type	ADC_interrupt, %function
+ 1277              	ADC_interrupt:
+ 1278              	.LFB44:
+ 232:.\main.c      **** 
+ 233:.\main.c      **** 
+ 234:.\main.c      **** /***********************************ISR***********************************/
+ 235:.\main.c      **** 
+ 236:.\main.c      **** CY_ISR(ADC_interrupt)
+ 237:.\main.c      **** {  
+ 1279              		.loc 1 237 0
+ 1280              		.cfi_startproc
+ 1281 0000 80B5     		push	{r7, lr}
+ 1282              		.cfi_def_cfa_offset 8
+ 1283              		.cfi_offset 7, -8
+ 1284              		.cfi_offset 14, -4
+ 1285 0002 00AF     		add	r7, sp, #0
+ 1286              		.cfi_def_cfa_register 7
+ 238:.\main.c      ****     accroed = ADC_GetResult16(0)-1010+7;
+ 1287              		.loc 1 238 0
+ 1288 0004 0020     		mov	r0, #0
+ 1289 0006 FFF7FEFF 		bl	ADC_GetResult16
+ 1290 000a 031C     		mov	r3, r0
+ 1291 000c 9BB2     		uxth	r3, r3
+ 1292 000e 454A     		ldr	r2, .L59
+ 1293 0010 9446     		mov	ip, r2
+ 1294 0012 6344     		add	r3, r3, ip
+ 1295 0014 9BB2     		uxth	r3, r3
+ 1296 0016 9AB2     		uxth	r2, r3
+ 1297 0018 434B     		ldr	r3, .L59+4
+ 1298 001a 1A80     		strh	r2, [r3]
+ 239:.\main.c      ****     accgroen = ADC_GetResult16(1)-1024+52;
+ 1299              		.loc 1 239 0
+ 1300 001c 0120     		mov	r0, #1
+ 1301 001e FFF7FEFF 		bl	ADC_GetResult16
+ 1302 0022 031C     		mov	r3, r0
+ 1303 0024 9BB2     		uxth	r3, r3
+ 1304 0026 414A     		ldr	r2, .L59+8
+ 1305 0028 9446     		mov	ip, r2
+ 1306 002a 6344     		add	r3, r3, ip
+ 1307 002c 9BB2     		uxth	r3, r3
+ 1308 002e 9AB2     		uxth	r2, r3
+ 1309 0030 3F4B     		ldr	r3, .L59+12
+ 1310 0032 1A80     		strh	r2, [r3]
+ 240:.\main.c      ****     EMG = ADC_GetResult16(2);
+ 1311              		.loc 1 240 0
+ 1312 0034 0220     		mov	r0, #2
+ 1313 0036 FFF7FEFF 		bl	ADC_GetResult16
+ 1314 003a 031C     		mov	r3, r0
+ 1315 003c 1A1C     		mov	r2, r3
+ 1316 003e 3D4B     		ldr	r3, .L59+16
+ 1317 0040 1A80     		strh	r2, [r3]
+ 241:.\main.c      ****     
+ 242:.\main.c      ****     data_ready = TRUE;
+ 1318              		.loc 1 242 0
+ 1319 0042 3D4B     		ldr	r3, .L59+20
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 29
+
+
+ 1320 0044 0122     		mov	r2, #1
+ 1321 0046 1A70     		strb	r2, [r3]
+ 243:.\main.c      ****     
+ 244:.\main.c      ****     /* Databehandling */
+ 245:.\main.c      ****          
+ 246:.\main.c      ****     if(data_ready)
+ 1322              		.loc 1 246 0
+ 1323 0048 3B4B     		ldr	r3, .L59+20
+ 1324 004a 1B78     		ldrb	r3, [r3]
+ 1325 004c 002B     		cmp	r3, #0
+ 1326 004e 67D0     		beq	.L57
+ 247:.\main.c      ****     {   
+ 248:.\main.c      ****         /* Accelerometerne*/
+ 249:.\main.c      ****         mav_data_roed = mavg_filter(accroed);           //Moving average filter til kanal 1
+ 1327              		.loc 1 249 0
+ 1328 0050 354B     		ldr	r3, .L59+4
+ 1329 0052 1B88     		ldrh	r3, [r3]
+ 1330 0054 1BB2     		sxth	r3, r3
+ 1331 0056 181C     		mov	r0, r3
+ 1332 0058 FFF7FEFF 		bl	mavg_filter
+ 1333 005c 031C     		mov	r3, r0
+ 1334 005e 9AB2     		uxth	r2, r3
+ 1335 0060 364B     		ldr	r3, .L59+24
+ 1336 0062 1A80     		strh	r2, [r3]
+ 250:.\main.c      ****         grader_roed = roed_grader(mav_data_roed);       //Grader tages til det filtrede signal
+ 1337              		.loc 1 250 0
+ 1338 0064 354B     		ldr	r3, .L59+24
+ 1339 0066 1B88     		ldrh	r3, [r3]
+ 1340 0068 1BB2     		sxth	r3, r3
+ 1341 006a 181C     		mov	r0, r3
+ 1342 006c FFF7FEFF 		bl	roed_grader
+ 1343 0070 031C     		mov	r3, r0
+ 1344 0072 9AB2     		uxth	r2, r3
+ 1345 0074 324B     		ldr	r3, .L59+28
+ 1346 0076 1A80     		strh	r2, [r3]
+ 251:.\main.c      ****         
+ 252:.\main.c      ****         mav_data_groen = mavg_filter2(accgroen);        //Moving average filter til kanal 2
+ 1347              		.loc 1 252 0
+ 1348 0078 2D4B     		ldr	r3, .L59+12
+ 1349 007a 1B88     		ldrh	r3, [r3]
+ 1350 007c 1BB2     		sxth	r3, r3
+ 1351 007e 181C     		mov	r0, r3
+ 1352 0080 FFF7FEFF 		bl	mavg_filter2
+ 1353 0084 031C     		mov	r3, r0
+ 1354 0086 9AB2     		uxth	r2, r3
+ 1355 0088 2E4B     		ldr	r3, .L59+32
+ 1356 008a 1A80     		strh	r2, [r3]
+ 253:.\main.c      ****         grader_groen = groen_grader(mav_data_groen);    //Grader tages til det filtrede signal
+ 1357              		.loc 1 253 0
+ 1358 008c 2D4B     		ldr	r3, .L59+32
+ 1359 008e 1B88     		ldrh	r3, [r3]
+ 1360 0090 1BB2     		sxth	r3, r3
+ 1361 0092 181C     		mov	r0, r3
+ 1362 0094 FFF7FEFF 		bl	groen_grader
+ 1363 0098 031C     		mov	r3, r0
+ 1364 009a 9AB2     		uxth	r2, r3
+ 1365 009c 2A4B     		ldr	r3, .L59+36
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 30
+
+
+ 1366 009e 1A80     		strh	r2, [r3]
+ 254:.\main.c      **** 
+ 255:.\main.c      ****         samlet_grader=grader_roed+grader_groen;         //Graderne lægges sammen, således vinklen
+ 1367              		.loc 1 255 0
+ 1368 00a0 274B     		ldr	r3, .L59+28
+ 1369 00a2 1B88     		ldrh	r3, [r3]
+ 1370 00a4 9AB2     		uxth	r2, r3
+ 1371 00a6 284B     		ldr	r3, .L59+36
+ 1372 00a8 1B88     		ldrh	r3, [r3]
+ 1373 00aa 9BB2     		uxth	r3, r3
+ 1374 00ac D318     		add	r3, r2, r3
+ 1375 00ae 9BB2     		uxth	r3, r3
+ 1376 00b0 9AB2     		uxth	r2, r3
+ 1377 00b2 264B     		ldr	r3, .L59+40
+ 1378 00b4 1A80     		strh	r2, [r3]
+ 256:.\main.c      ****         UART_UartPutChar(samlet_grader);                //plottes tilbage i MATLAB
+ 1379              		.loc 1 256 0
+ 1380 00b6 254B     		ldr	r3, .L59+40
+ 1381 00b8 1B88     		ldrh	r3, [r3]
+ 1382 00ba 1BB2     		sxth	r3, r3
+ 1383 00bc 181C     		mov	r0, r3
+ 1384 00be FFF7FEFF 		bl	UART_SpiUartWriteTxData
+ 257:.\main.c      ****         UART_UartPutChar(samlet_grader>>8);
+ 1385              		.loc 1 257 0
+ 1386 00c2 224B     		ldr	r3, .L59+40
+ 1387 00c4 1B88     		ldrh	r3, [r3]
+ 1388 00c6 1BB2     		sxth	r3, r3
+ 1389 00c8 1B12     		asr	r3, r3, #8
+ 1390 00ca 9BB2     		uxth	r3, r3
+ 1391 00cc 1BB2     		sxth	r3, r3
+ 1392 00ce 181C     		mov	r0, r3
+ 1393 00d0 FFF7FEFF 		bl	UART_SpiUartWriteTxData
+ 258:.\main.c      ****         
+ 259:.\main.c      ****         /* EMG */
+ 260:.\main.c      ****         low_pass_data = low_pass_filter(EMG);        
+ 1394              		.loc 1 260 0
+ 1395 00d4 174B     		ldr	r3, .L59+16
+ 1396 00d6 1B88     		ldrh	r3, [r3]
+ 1397 00d8 1BB2     		sxth	r3, r3
+ 1398 00da 181C     		mov	r0, r3
+ 1399 00dc FFF7FEFF 		bl	low_pass_filter
+ 1400 00e0 031C     		mov	r3, r0
+ 1401 00e2 9AB2     		uxth	r2, r3
+ 1402 00e4 1A4B     		ldr	r3, .L59+44
+ 1403 00e6 1A80     		strh	r2, [r3]
+ 261:.\main.c      ****         diff_data = differentiator(low_pass_data);
+ 1404              		.loc 1 261 0
+ 1405 00e8 194B     		ldr	r3, .L59+44
+ 1406 00ea 1B88     		ldrh	r3, [r3]
+ 1407 00ec 1BB2     		sxth	r3, r3
+ 1408 00ee 181C     		mov	r0, r3
+ 1409 00f0 FFF7FEFF 		bl	differentiator
+ 1410 00f4 031C     		mov	r3, r0
+ 1411 00f6 9AB2     		uxth	r2, r3
+ 1412 00f8 164B     		ldr	r3, .L59+48
+ 1413 00fa 1A80     		strh	r2, [r3]
+ 262:.\main.c      ****         UART_UartPutChar(diff_data);
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 31
+
+
+ 1414              		.loc 1 262 0
+ 1415 00fc 154B     		ldr	r3, .L59+48
+ 1416 00fe 1B88     		ldrh	r3, [r3]
+ 1417 0100 1BB2     		sxth	r3, r3
+ 1418 0102 181C     		mov	r0, r3
+ 1419 0104 FFF7FEFF 		bl	UART_SpiUartWriteTxData
+ 263:.\main.c      ****         UART_UartPutChar(diff_data>>8);
+ 1420              		.loc 1 263 0
+ 1421 0108 124B     		ldr	r3, .L59+48
+ 1422 010a 1B88     		ldrh	r3, [r3]
+ 1423 010c 1BB2     		sxth	r3, r3
+ 1424 010e 1B12     		asr	r3, r3, #8
+ 1425 0110 9BB2     		uxth	r3, r3
+ 1426 0112 1BB2     		sxth	r3, r3
+ 1427 0114 181C     		mov	r0, r3
+ 1428 0116 FFF7FEFF 		bl	UART_SpiUartWriteTxData
+ 264:.\main.c      ****         
+ 265:.\main.c      ****         data_ready = FALSE;
+ 1429              		.loc 1 265 0
+ 1430 011a 074B     		ldr	r3, .L59+20
+ 1431 011c 0022     		mov	r2, #0
+ 1432 011e 1A70     		strb	r2, [r3]
+ 1433              	.L57:
+ 266:.\main.c      ****     }
+ 267:.\main.c      **** }
+ 1434              		.loc 1 267 0
+ 1435 0120 BD46     		mov	sp, r7
+ 1436              		@ sp needed
+ 1437 0122 80BD     		pop	{r7, pc}
+ 1438              	.L60:
+ 1439              		.align	2
+ 1440              	.L59:
+ 1441 0124 15FCFFFF 		.word	-1003
+ 1442 0128 00000000 		.word	accroed
+ 1443 012c 34FCFFFF 		.word	-972
+ 1444 0130 00000000 		.word	accgroen
+ 1445 0134 00000000 		.word	EMG
+ 1446 0138 00000000 		.word	data_ready
+ 1447 013c 00000000 		.word	mav_data_roed
+ 1448 0140 00000000 		.word	grader_roed
+ 1449 0144 00000000 		.word	mav_data_groen
+ 1450 0148 00000000 		.word	grader_groen
+ 1451 014c 00000000 		.word	samlet_grader
+ 1452 0150 00000000 		.word	low_pass_data
+ 1453 0154 00000000 		.word	diff_data
+ 1454              		.cfi_endproc
+ 1455              	.LFE44:
+ 1456              		.size	ADC_interrupt, .-ADC_interrupt
+ 1457              		.section	.text.Pin_SW2_handler,"ax",%progbits
+ 1458              		.align	2
+ 1459              		.global	Pin_SW2_handler
+ 1460              		.code	16
+ 1461              		.thumb_func
+ 1462              		.type	Pin_SW2_handler, %function
+ 1463              	Pin_SW2_handler:
+ 1464              	.LFB45:
+ 268:.\main.c      **** 
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 32
+
+
+ 269:.\main.c      **** CY_ISR(Pin_SW2_handler)
+ 270:.\main.c      **** {
+ 1465              		.loc 1 270 0
+ 1466              		.cfi_startproc
+ 1467 0000 80B5     		push	{r7, lr}
+ 1468              		.cfi_def_cfa_offset 8
+ 1469              		.cfi_offset 7, -8
+ 1470              		.cfi_offset 14, -4
+ 1471 0002 00AF     		add	r7, sp, #0
+ 1472              		.cfi_def_cfa_register 7
+ 271:.\main.c      ****     
+ 272:.\main.c      ****     if (j==0)
+ 1473              		.loc 1 272 0
+ 1474 0004 144B     		ldr	r3, .L64
+ 1475 0006 1B88     		ldrh	r3, [r3]
+ 1476 0008 002B     		cmp	r3, #0
+ 1477 000a 13D1     		bne	.L62
+ 273:.\main.c      ****     {
+ 274:.\main.c      ****         ADC_StartConvert();
+ 1478              		.loc 1 274 0
+ 1479 000c FFF7FEFF 		bl	ADC_StartConvert
+ 275:.\main.c      ****         Pin_Green_Write(~ Pin_Green_Read());
+ 1480              		.loc 1 275 0
+ 1481 0010 FFF7FEFF 		bl	Pin_Green_Read
+ 1482 0014 031C     		mov	r3, r0
+ 1483 0016 DB43     		mvn	r3, r3
+ 1484 0018 DBB2     		uxtb	r3, r3
+ 1485 001a 181C     		mov	r0, r3
+ 1486 001c FFF7FEFF 		bl	Pin_Green_Write
+ 276:.\main.c      ****         j++;
+ 1487              		.loc 1 276 0
+ 1488 0020 0D4B     		ldr	r3, .L64
+ 1489 0022 1B88     		ldrh	r3, [r3]
+ 1490 0024 9BB2     		uxth	r3, r3
+ 1491 0026 9BB2     		uxth	r3, r3
+ 1492 0028 0133     		add	r3, r3, #1
+ 1493 002a 9BB2     		uxth	r3, r3
+ 1494 002c 9AB2     		uxth	r2, r3
+ 1495 002e 0A4B     		ldr	r3, .L64
+ 1496 0030 1A80     		strh	r2, [r3]
+ 1497 0032 0CE0     		b	.L63
+ 1498              	.L62:
+ 277:.\main.c      ****     }
+ 278:.\main.c      ****     
+ 279:.\main.c      ****     else 
+ 280:.\main.c      ****     {
+ 281:.\main.c      ****         ADC_StopConvert();
+ 1499              		.loc 1 281 0
+ 1500 0034 FFF7FEFF 		bl	ADC_StopConvert
+ 282:.\main.c      ****         Pin_Green_Write(~ Pin_Green_Read());
+ 1501              		.loc 1 282 0
+ 1502 0038 FFF7FEFF 		bl	Pin_Green_Read
+ 1503 003c 031C     		mov	r3, r0
+ 1504 003e DB43     		mvn	r3, r3
+ 1505 0040 DBB2     		uxtb	r3, r3
+ 1506 0042 181C     		mov	r0, r3
+ 1507 0044 FFF7FEFF 		bl	Pin_Green_Write
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 33
+
+
+ 283:.\main.c      ****         j=0;
+ 1508              		.loc 1 283 0
+ 1509 0048 034B     		ldr	r3, .L64
+ 1510 004a 0022     		mov	r2, #0
+ 1511 004c 1A80     		strh	r2, [r3]
+ 1512              	.L63:
+ 284:.\main.c      ****     }
+ 285:.\main.c      ****     Pin_SW2_ClearInterrupt();
+ 1513              		.loc 1 285 0
+ 1514 004e FFF7FEFF 		bl	Pin_SW2_ClearInterrupt
+ 286:.\main.c      **** }
+ 1515              		.loc 1 286 0
+ 1516 0052 BD46     		mov	sp, r7
+ 1517              		@ sp needed
+ 1518 0054 80BD     		pop	{r7, pc}
+ 1519              	.L65:
+ 1520 0056 C046     		.align	2
+ 1521              	.L64:
+ 1522 0058 00000000 		.word	j
+ 1523              		.cfi_endproc
+ 1524              	.LFE45:
+ 1525              		.size	Pin_SW2_handler, .-Pin_SW2_handler
+ 1526              		.section	.text.main,"ax",%progbits
+ 1527              		.align	2
+ 1528              		.global	main
+ 1529              		.code	16
+ 1530              		.thumb_func
+ 1531              		.type	main, %function
+ 1532              	main:
+ 1533              	.LFB46:
+ 287:.\main.c      **** 
+ 288:.\main.c      **** /***********************************Main***********************************/
+ 289:.\main.c      **** int main()
+ 290:.\main.c      **** {   
+ 1534              		.loc 1 290 0
+ 1535              		.cfi_startproc
+ 1536 0000 80B5     		push	{r7, lr}
+ 1537              		.cfi_def_cfa_offset 8
+ 1538              		.cfi_offset 7, -8
+ 1539              		.cfi_offset 14, -4
+ 1540 0002 00AF     		add	r7, sp, #0
+ 1541              		.cfi_def_cfa_register 7
+ 291:.\main.c      ****     pin_SW2_int_StartEx(Pin_SW2_handler);
+ 1542              		.loc 1 291 0
+ 1543 0004 084B     		ldr	r3, .L67
+ 1544 0006 181C     		mov	r0, r3
+ 1545 0008 FFF7FEFF 		bl	pin_SW2_int_StartEx
+ 292:.\main.c      ****     ADC_ISR_StartEx(ADC_interrupt);
+ 1546              		.loc 1 292 0
+ 1547 000c 074B     		ldr	r3, .L67+4
+ 1548 000e 181C     		mov	r0, r3
+ 1549 0010 FFF7FEFF 		bl	ADC_ISR_StartEx
+ 293:.\main.c      ****     CyGlobalIntEnable;
+ 1550              		.loc 1 293 0
+ 1551              	@ 293 ".\main.c" 1
+ 1552 0014 62B6     		CPSIE   i
+ 1553              	@ 0 "" 2
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 34
+
+
+ 294:.\main.c      ****     UART_Start();                       /* Initialize ADC */    
+ 1554              		.loc 1 294 0
+ 1555              		.code	16
+ 1556 0016 FFF7FEFF 		bl	UART_Start
+ 295:.\main.c      ****     ADC_Start();                        /* Initialize ADC */
+ 1557              		.loc 1 295 0
+ 1558 001a FFF7FEFF 		bl	ADC_Start
+ 296:.\main.c      ****     ADC_IRQ_Enable();                   /* Enable ADC interrupts */    
+ 1559              		.loc 1 296 0
+ 1560 001e FFF7FEFF 		bl	ADC_IRQ_Enable
+ 297:.\main.c      **** }...
+ 1561              		.loc 1 297 0
+ 1562 0022 181C     		mov	r0, r3
+ 1563 0024 BD46     		mov	sp, r7
+ 1564              		@ sp needed
+ 1565 0026 80BD     		pop	{r7, pc}
+ 1566              	.L68:
+ 1567              		.align	2
+ 1568              	.L67:
+ 1569 0028 00000000 		.word	Pin_SW2_handler
+ 1570 002c 00000000 		.word	ADC_interrupt
+ 1571              		.cfi_endproc
+ 1572              	.LFE46:
+ 1573              		.size	main, .-main
+ 1574              		.text
+ 1575              	.Letext0:
+ 1576              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 1577              		.section	.debug_info,"",%progbits
+ 1578              	.Ldebug_info0:
+ 1579 0000 3D040000 		.4byte	0x43d
+ 1580 0004 0400     		.2byte	0x4
+ 1581 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1582 000a 04       		.byte	0x4
+ 1583 000b 01       		.uleb128 0x1
+ 1584 000c 55010000 		.4byte	.LASF53
+ 1585 0010 01       		.byte	0x1
+ 1586 0011 3D010000 		.4byte	.LASF54
+ 1587 0015 9C000000 		.4byte	.LASF55
+ 1588 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 1589 001d 00000000 		.4byte	0
+ 1590 0021 00000000 		.4byte	.Ldebug_line0
+ 1591 0025 02       		.uleb128 0x2
+ 1592 0026 01       		.byte	0x1
+ 1593 0027 06       		.byte	0x6
+ 1594 0028 CF020000 		.4byte	.LASF0
+ 1595 002c 02       		.uleb128 0x2
+ 1596 002d 01       		.byte	0x1
+ 1597 002e 08       		.byte	0x8
+ 1598 002f DB000000 		.4byte	.LASF1
+ 1599 0033 02       		.uleb128 0x2
+ 1600 0034 02       		.byte	0x2
+ 1601 0035 05       		.byte	0x5
+ 1602 0036 4A000000 		.4byte	.LASF2
+ 1603 003a 02       		.uleb128 0x2
+ 1604 003b 02       		.byte	0x2
+ 1605 003c 07       		.byte	0x7
+ 1606 003d 2B000000 		.4byte	.LASF3
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 35
+
+
+ 1607 0041 02       		.uleb128 0x2
+ 1608 0042 04       		.byte	0x4
+ 1609 0043 05       		.byte	0x5
+ 1610 0044 C0020000 		.4byte	.LASF4
+ 1611 0048 02       		.uleb128 0x2
+ 1612 0049 04       		.byte	0x4
+ 1613 004a 07       		.byte	0x7
+ 1614 004b EF010000 		.4byte	.LASF5
+ 1615 004f 02       		.uleb128 0x2
+ 1616 0050 08       		.byte	0x8
+ 1617 0051 05       		.byte	0x5
+ 1618 0052 60020000 		.4byte	.LASF6
+ 1619 0056 02       		.uleb128 0x2
+ 1620 0057 08       		.byte	0x8
+ 1621 0058 07       		.byte	0x7
+ 1622 0059 18020000 		.4byte	.LASF7
+ 1623 005d 03       		.uleb128 0x3
+ 1624 005e 04       		.byte	0x4
+ 1625 005f 05       		.byte	0x5
+ 1626 0060 696E7400 		.ascii	"int\000"
+ 1627 0064 02       		.uleb128 0x2
+ 1628 0065 04       		.byte	0x4
+ 1629 0066 07       		.byte	0x7
+ 1630 0067 01020000 		.4byte	.LASF8
+ 1631 006b 04       		.uleb128 0x4
+ 1632 006c 04010000 		.4byte	.LASF9
+ 1633 0070 02       		.byte	0x2
+ 1634 0071 3801     		.2byte	0x138
+ 1635 0073 2C000000 		.4byte	0x2c
+ 1636 0077 04       		.uleb128 0x4
+ 1637 0078 E3010000 		.4byte	.LASF10
+ 1638 007c 02       		.byte	0x2
+ 1639 007d 3A01     		.2byte	0x13a
+ 1640 007f 48000000 		.4byte	0x48
+ 1641 0083 04       		.uleb128 0x4
+ 1642 0084 F7000000 		.4byte	.LASF11
+ 1643 0088 02       		.byte	0x2
+ 1644 0089 3C01     		.2byte	0x13c
+ 1645 008b 33000000 		.4byte	0x33
+ 1646 008f 02       		.uleb128 0x2
+ 1647 0090 04       		.byte	0x4
+ 1648 0091 04       		.byte	0x4
+ 1649 0092 89000000 		.4byte	.LASF12
+ 1650 0096 02       		.uleb128 0x2
+ 1651 0097 08       		.byte	0x8
+ 1652 0098 04       		.byte	0x4
+ 1653 0099 1E010000 		.4byte	.LASF13
+ 1654 009d 02       		.uleb128 0x2
+ 1655 009e 01       		.byte	0x1
+ 1656 009f 08       		.byte	0x8
+ 1657 00a0 76020000 		.4byte	.LASF14
+ 1658 00a4 02       		.uleb128 0x2
+ 1659 00a5 04       		.byte	0x4
+ 1660 00a6 07       		.byte	0x7
+ 1661 00a7 57020000 		.4byte	.LASF15
+ 1662 00ab 05       		.uleb128 0x5
+ 1663 00ac 7B020000 		.4byte	.LASF16
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 36
+
+
+ 1664 00b0 01       		.byte	0x1
+ 1665 00b1 30       		.byte	0x30
+ 1666 00b2 5D000000 		.4byte	0x5d
+ 1667 00b6 00000000 		.4byte	.LFB37
+ 1668 00ba 5C000000 		.4byte	.LFE37-.LFB37
+ 1669 00be 01       		.uleb128 0x1
+ 1670 00bf 9C       		.byte	0x9c
+ 1671 00c0 D1000000 		.4byte	0xd1
+ 1672 00c4 06       		.uleb128 0x6
+ 1673 00c5 7900     		.ascii	"y\000"
+ 1674 00c7 01       		.byte	0x1
+ 1675 00c8 30       		.byte	0x30
+ 1676 00c9 96000000 		.4byte	0x96
+ 1677 00cd 02       		.uleb128 0x2
+ 1678 00ce 91       		.byte	0x91
+ 1679 00cf 68       		.sleb128 -24
+ 1680 00d0 00       		.byte	0
+ 1681 00d1 05       		.uleb128 0x5
+ 1682 00d2 FA020000 		.4byte	.LASF17
+ 1683 00d6 01       		.byte	0x1
+ 1684 00d7 39       		.byte	0x39
+ 1685 00d8 5D000000 		.4byte	0x5d
+ 1686 00dc 00000000 		.4byte	.LFB38
+ 1687 00e0 04010000 		.4byte	.LFE38-.LFB38
+ 1688 00e4 01       		.uleb128 0x1
+ 1689 00e5 9C       		.byte	0x9c
+ 1690 00e6 F9000000 		.4byte	0xf9
+ 1691 00ea 07       		.uleb128 0x7
+ 1692 00eb 8F000000 		.4byte	.LASF18
+ 1693 00ef 01       		.byte	0x1
+ 1694 00f0 39       		.byte	0x39
+ 1695 00f1 5D000000 		.4byte	0x5d
+ 1696 00f5 02       		.uleb128 0x2
+ 1697 00f6 91       		.byte	0x91
+ 1698 00f7 6C       		.sleb128 -20
+ 1699 00f8 00       		.byte	0
+ 1700 00f9 05       		.uleb128 0x5
+ 1701 00fa 9A020000 		.4byte	.LASF19
+ 1702 00fe 01       		.byte	0x1
+ 1703 00ff 4D       		.byte	0x4d
+ 1704 0100 5D000000 		.4byte	0x5d
+ 1705 0104 00000000 		.4byte	.LFB39
+ 1706 0108 0C010000 		.4byte	.LFE39-.LFB39
+ 1707 010c 01       		.uleb128 0x1
+ 1708 010d 9C       		.byte	0x9c
+ 1709 010e 21010000 		.4byte	0x121
+ 1710 0112 07       		.uleb128 0x7
+ 1711 0113 8F000000 		.4byte	.LASF18
+ 1712 0117 01       		.byte	0x1
+ 1713 0118 4D       		.byte	0x4d
+ 1714 0119 5D000000 		.4byte	0x5d
+ 1715 011d 02       		.uleb128 0x2
+ 1716 011e 91       		.byte	0x91
+ 1717 011f 6C       		.sleb128 -20
+ 1718 0120 00       		.byte	0
+ 1719 0121 05       		.uleb128 0x5
+ 1720 0122 79000000 		.4byte	.LASF20
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 37
+
+
+ 1721 0126 01       		.byte	0x1
+ 1722 0127 61       		.byte	0x61
+ 1723 0128 5D000000 		.4byte	0x5d
+ 1724 012c 00000000 		.4byte	.LFB40
+ 1725 0130 24010000 		.4byte	.LFE40-.LFB40
+ 1726 0134 01       		.uleb128 0x1
+ 1727 0135 9C       		.byte	0x9c
+ 1728 0136 55010000 		.4byte	0x155
+ 1729 013a 07       		.uleb128 0x7
+ 1730 013b 8F000000 		.4byte	.LASF18
+ 1731 013f 01       		.byte	0x1
+ 1732 0140 61       		.byte	0x61
+ 1733 0141 5D000000 		.4byte	0x5d
+ 1734 0145 02       		.uleb128 0x2
+ 1735 0146 91       		.byte	0x91
+ 1736 0147 64       		.sleb128 -28
+ 1737 0148 08       		.uleb128 0x8
+ 1738 0149 6900     		.ascii	"i\000"
+ 1739 014b 01       		.byte	0x1
+ 1740 014c 63       		.byte	0x63
+ 1741 014d 5D000000 		.4byte	0x5d
+ 1742 0151 02       		.uleb128 0x2
+ 1743 0152 91       		.byte	0x91
+ 1744 0153 6C       		.sleb128 -20
+ 1745 0154 00       		.byte	0
+ 1746 0155 05       		.uleb128 0x5
+ 1747 0156 54000000 		.4byte	.LASF21
+ 1748 015a 01       		.byte	0x1
+ 1749 015b 7D       		.byte	0x7d
+ 1750 015c 5D000000 		.4byte	0x5d
+ 1751 0160 00000000 		.4byte	.LFB41
+ 1752 0164 14010000 		.4byte	.LFE41-.LFB41
+ 1753 0168 01       		.uleb128 0x1
+ 1754 0169 9C       		.byte	0x9c
+ 1755 016a 7D010000 		.4byte	0x17d
+ 1756 016e 07       		.uleb128 0x7
+ 1757 016f 8F000000 		.4byte	.LASF18
+ 1758 0173 01       		.byte	0x1
+ 1759 0174 7D       		.byte	0x7d
+ 1760 0175 5D000000 		.4byte	0x5d
+ 1761 0179 02       		.uleb128 0x2
+ 1762 017a 91       		.byte	0x91
+ 1763 017b 74       		.sleb128 -12
+ 1764 017c 00       		.byte	0
+ 1765 017d 05       		.uleb128 0x5
+ 1766 017e 8D020000 		.4byte	.LASF22
+ 1767 0182 01       		.byte	0x1
+ 1768 0183 A6       		.byte	0xa6
+ 1769 0184 5D000000 		.4byte	0x5d
+ 1770 0188 00000000 		.4byte	.LFB42
+ 1771 018c 1E010000 		.4byte	.LFE42-.LFB42
+ 1772 0190 01       		.uleb128 0x1
+ 1773 0191 9C       		.byte	0x9c
+ 1774 0192 A5010000 		.4byte	0x1a5
+ 1775 0196 07       		.uleb128 0x7
+ 1776 0197 8F000000 		.4byte	.LASF18
+ 1777 019b 01       		.byte	0x1
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 38
+
+
+ 1778 019c A6       		.byte	0xa6
+ 1779 019d 5D000000 		.4byte	0x5d
+ 1780 01a1 02       		.uleb128 0x2
+ 1781 01a2 91       		.byte	0x91
+ 1782 01a3 74       		.sleb128 -12
+ 1783 01a4 00       		.byte	0
+ 1784 01a5 05       		.uleb128 0x5
+ 1785 01a6 A7020000 		.4byte	.LASF23
+ 1786 01aa 01       		.byte	0x1
+ 1787 01ab D1       		.byte	0xd1
+ 1788 01ac 5D000000 		.4byte	0x5d
+ 1789 01b0 00000000 		.4byte	.LFB43
+ 1790 01b4 9C000000 		.4byte	.LFE43-.LFB43
+ 1791 01b8 01       		.uleb128 0x1
+ 1792 01b9 9C       		.byte	0x9c
+ 1793 01ba CD010000 		.4byte	0x1cd
+ 1794 01be 06       		.uleb128 0x6
+ 1795 01bf 6E657700 		.ascii	"new\000"
+ 1796 01c3 01       		.byte	0x1
+ 1797 01c4 D1       		.byte	0xd1
+ 1798 01c5 5D000000 		.4byte	0x5d
+ 1799 01c9 02       		.uleb128 0x2
+ 1800 01ca 91       		.byte	0x91
+ 1801 01cb 6C       		.sleb128 -20
+ 1802 01cc 00       		.byte	0
+ 1803 01cd 09       		.uleb128 0x9
+ 1804 01ce 10010000 		.4byte	.LASF24
+ 1805 01d2 01       		.byte	0x1
+ 1806 01d3 EC       		.byte	0xec
+ 1807 01d4 00000000 		.4byte	.LFB44
+ 1808 01d8 58010000 		.4byte	.LFE44-.LFB44
+ 1809 01dc 01       		.uleb128 0x1
+ 1810 01dd 9C       		.byte	0x9c
+ 1811 01de 0A       		.uleb128 0xa
+ 1812 01df 69000000 		.4byte	.LASF25
+ 1813 01e3 01       		.byte	0x1
+ 1814 01e4 0D01     		.2byte	0x10d
+ 1815 01e6 00000000 		.4byte	.LFB45
+ 1816 01ea 5C000000 		.4byte	.LFE45-.LFB45
+ 1817 01ee 01       		.uleb128 0x1
+ 1818 01ef 9C       		.byte	0x9c
+ 1819 01f0 0B       		.uleb128 0xb
+ 1820 01f1 EA010000 		.4byte	.LASF26
+ 1821 01f5 01       		.byte	0x1
+ 1822 01f6 2101     		.2byte	0x121
+ 1823 01f8 5D000000 		.4byte	0x5d
+ 1824 01fc 00000000 		.4byte	.LFB46
+ 1825 0200 30000000 		.4byte	.LFE46-.LFB46
+ 1826 0204 01       		.uleb128 0x1
+ 1827 0205 9C       		.byte	0x9c
+ 1828 0206 0C       		.uleb128 0xc
+ 1829 0207 96000000 		.4byte	0x96
+ 1830 020b 16020000 		.4byte	0x216
+ 1831 020f 0D       		.uleb128 0xd
+ 1832 0210 A4000000 		.4byte	0xa4
+ 1833 0214 09       		.byte	0x9
+ 1834 0215 00       		.byte	0
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 39
+
+
+ 1835 0216 0E       		.uleb128 0xe
+ 1836 0217 00000000 		.4byte	.LASF27
+ 1837 021b 01       		.byte	0x1
+ 1838 021c 0D       		.byte	0xd
+ 1839 021d 06020000 		.4byte	0x206
+ 1840 0221 05       		.uleb128 0x5
+ 1841 0222 03       		.byte	0x3
+ 1842 0223 00000000 		.4byte	x_mavg
+ 1843 0227 0E       		.uleb128 0xe
+ 1844 0228 FD000000 		.4byte	.LASF28
+ 1845 022c 01       		.byte	0x1
+ 1846 022d 0E       		.byte	0xe
+ 1847 022e 96000000 		.4byte	0x96
+ 1848 0232 05       		.uleb128 0x5
+ 1849 0233 03       		.byte	0x3
+ 1850 0234 00000000 		.4byte	y_mavg
+ 1851 0238 0E       		.uleb128 0xe
+ 1852 0239 10000000 		.4byte	.LASF29
+ 1853 023d 01       		.byte	0x1
+ 1854 023e 0F       		.byte	0xf
+ 1855 023f 06020000 		.4byte	0x206
+ 1856 0243 05       		.uleb128 0x5
+ 1857 0244 03       		.byte	0x3
+ 1858 0245 00000000 		.4byte	b_mavg
+ 1859 0249 0E       		.uleb128 0xe
+ 1860 024a 36020000 		.4byte	.LASF30
+ 1861 024e 01       		.byte	0x1
+ 1862 024f 14       		.byte	0x14
+ 1863 0250 06020000 		.4byte	0x206
+ 1864 0254 05       		.uleb128 0x5
+ 1865 0255 03       		.byte	0x3
+ 1866 0256 00000000 		.4byte	x2_mavg
+ 1867 025a 0E       		.uleb128 0xe
+ 1868 025b 6E020000 		.4byte	.LASF31
+ 1869 025f 01       		.byte	0x1
+ 1870 0260 15       		.byte	0x15
+ 1871 0261 96000000 		.4byte	0x96
+ 1872 0265 05       		.uleb128 0x5
+ 1873 0266 03       		.byte	0x3
+ 1874 0267 00000000 		.4byte	y2_mavg
+ 1875 026b 0E       		.uleb128 0xe
+ 1876 026c 94000000 		.4byte	.LASF32
+ 1877 0270 01       		.byte	0x1
+ 1878 0271 16       		.byte	0x16
+ 1879 0272 06020000 		.4byte	0x206
+ 1880 0276 05       		.uleb128 0x5
+ 1881 0277 03       		.byte	0x3
+ 1882 0278 00000000 		.4byte	b2_mavg
+ 1883 027c 0C       		.uleb128 0xc
+ 1884 027d 96000000 		.4byte	0x96
+ 1885 0281 8C020000 		.4byte	0x28c
+ 1886 0285 0D       		.uleb128 0xd
+ 1887 0286 A4000000 		.4byte	0xa4
+ 1888 028a 02       		.byte	0x2
+ 1889 028b 00       		.byte	0
+ 1890 028c 0E       		.uleb128 0xe
+ 1891 028d 25000000 		.4byte	.LASF33
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 40
+
+
+ 1892 0291 01       		.byte	0x1
+ 1893 0292 1A       		.byte	0x1a
+ 1894 0293 7C020000 		.4byte	0x27c
+ 1895 0297 05       		.uleb128 0x5
+ 1896 0298 03       		.byte	0x3
+ 1897 0299 00000000 		.4byte	x_low
+ 1898 029d 0E       		.uleb128 0xe
+ 1899 029e 0A010000 		.4byte	.LASF34
+ 1900 02a2 01       		.byte	0x1
+ 1901 02a3 1B       		.byte	0x1b
+ 1902 02a4 7C020000 		.4byte	0x27c
+ 1903 02a8 05       		.uleb128 0x5
+ 1904 02a9 03       		.byte	0x3
+ 1905 02aa 00000000 		.4byte	y_low
+ 1906 02ae 0E       		.uleb128 0xe
+ 1907 02af C9020000 		.4byte	.LASF35
+ 1908 02b3 01       		.byte	0x1
+ 1909 02b4 1C       		.byte	0x1c
+ 1910 02b5 7C020000 		.4byte	0x27c
+ 1911 02b9 05       		.uleb128 0x5
+ 1912 02ba 03       		.byte	0x3
+ 1913 02bb 00000000 		.4byte	b_low
+ 1914 02bf 0E       		.uleb128 0xe
+ 1915 02c0 3E020000 		.4byte	.LASF36
+ 1916 02c4 01       		.byte	0x1
+ 1917 02c5 1D       		.byte	0x1d
+ 1918 02c6 7C020000 		.4byte	0x27c
+ 1919 02ca 05       		.uleb128 0x5
+ 1920 02cb 03       		.byte	0x3
+ 1921 02cc 00000000 		.4byte	a_low
+ 1922 02d0 0E       		.uleb128 0xe
+ 1923 02d1 30010000 		.4byte	.LASF37
+ 1924 02d5 01       		.byte	0x1
+ 1925 02d6 1F       		.byte	0x1f
+ 1926 02d7 9D000000 		.4byte	0x9d
+ 1927 02db 05       		.uleb128 0x5
+ 1928 02dc 03       		.byte	0x3
+ 1929 02dd 00000000 		.4byte	current_byte
+ 1930 02e1 0E       		.uleb128 0xe
+ 1931 02e2 07000000 		.4byte	.LASF38
+ 1932 02e6 01       		.byte	0x1
+ 1933 02e7 20       		.byte	0x20
+ 1934 02e8 83000000 		.4byte	0x83
+ 1935 02ec 05       		.uleb128 0x5
+ 1936 02ed 03       		.byte	0x3
+ 1937 02ee 00000000 		.4byte	value_in
+ 1938 02f2 0C       		.uleb128 0xc
+ 1939 02f3 83000000 		.4byte	0x83
+ 1940 02f7 02030000 		.4byte	0x302
+ 1941 02fb 0D       		.uleb128 0xd
+ 1942 02fc A4000000 		.4byte	0xa4
+ 1943 0300 01       		.byte	0x1
+ 1944 0301 00       		.byte	0
+ 1945 0302 0E       		.uleb128 0xe
+ 1946 0303 0E020000 		.4byte	.LASF39
+ 1947 0307 01       		.byte	0x1
+ 1948 0308 20       		.byte	0x20
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 41
+
+
+ 1949 0309 F2020000 		.4byte	0x2f2
+ 1950 030d 05       		.uleb128 0x5
+ 1951 030e 03       		.byte	0x3
+ 1952 030f 00000000 		.4byte	value_out
+ 1953 0313 0F       		.uleb128 0xf
+ 1954 0314 6900     		.ascii	"i\000"
+ 1955 0316 01       		.byte	0x1
+ 1956 0317 20       		.byte	0x20
+ 1957 0318 83000000 		.4byte	0x83
+ 1958 031c 05       		.uleb128 0x5
+ 1959 031d 03       		.byte	0x3
+ 1960 031e 00000000 		.4byte	i
+ 1961 0322 0F       		.uleb128 0xf
+ 1962 0323 6A00     		.ascii	"j\000"
+ 1963 0325 01       		.byte	0x1
+ 1964 0326 20       		.byte	0x20
+ 1965 0327 83000000 		.4byte	0x83
+ 1966 032b 05       		.uleb128 0x5
+ 1967 032c 03       		.byte	0x3
+ 1968 032d 00000000 		.4byte	j
+ 1969 0331 0E       		.uleb128 0xe
+ 1970 0332 ED020000 		.4byte	.LASF40
+ 1971 0336 01       		.byte	0x1
+ 1972 0337 20       		.byte	0x20
+ 1973 0338 83000000 		.4byte	0x83
+ 1974 033c 05       		.uleb128 0x5
+ 1975 033d 03       		.byte	0x3
+ 1976 033e 00000000 		.4byte	grader_groen
+ 1977 0342 0E       		.uleb128 0xe
+ 1978 0343 3E000000 		.4byte	.LASF41
+ 1979 0347 01       		.byte	0x1
+ 1980 0348 20       		.byte	0x20
+ 1981 0349 83000000 		.4byte	0x83
+ 1982 034d 05       		.uleb128 0x5
+ 1983 034e 03       		.byte	0x3
+ 1984 034f 00000000 		.4byte	grader_roed
+ 1985 0353 0E       		.uleb128 0xe
+ 1986 0354 52020000 		.4byte	.LASF42
+ 1987 0358 01       		.byte	0x1
+ 1988 0359 20       		.byte	0x20
+ 1989 035a 83000000 		.4byte	0x83
+ 1990 035e 05       		.uleb128 0x5
+ 1991 035f 03       		.byte	0x3
+ 1992 0360 00000000 		.4byte	diff
+ 1993 0364 0F       		.uleb128 0xf
+ 1994 0365 6F6C6400 		.ascii	"old\000"
+ 1995 0369 01       		.byte	0x1
+ 1996 036a 20       		.byte	0x20
+ 1997 036b 83000000 		.4byte	0x83
+ 1998 036f 05       		.uleb128 0x5
+ 1999 0370 03       		.byte	0x3
+ 2000 0371 00000000 		.4byte	old
+ 2001 0375 0E       		.uleb128 0xe
+ 2002 0376 B6020000 		.4byte	.LASF43
+ 2003 037a 01       		.byte	0x1
+ 2004 037b 21       		.byte	0x21
+ 2005 037c 9D000000 		.4byte	0x9d
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 42
+
+
+ 2006 0380 05       		.uleb128 0x5
+ 2007 0381 03       		.byte	0x3
+ 2008 0382 00000000 		.4byte	FirstCall
+ 2009 0386 0E       		.uleb128 0xe
+ 2010 0387 E5020000 		.4byte	.LASF44
+ 2011 038b 01       		.byte	0x1
+ 2012 038c 23       		.byte	0x23
+ 2013 038d 83000000 		.4byte	0x83
+ 2014 0391 05       		.uleb128 0x5
+ 2015 0392 03       		.byte	0x3
+ 2016 0393 00000000 		.4byte	accroed
+ 2017 0397 0E       		.uleb128 0xe
+ 2018 0398 60000000 		.4byte	.LASF45
+ 2019 039c 01       		.byte	0x1
+ 2020 039d 24       		.byte	0x24
+ 2021 039e 83000000 		.4byte	0x83
+ 2022 03a2 05       		.uleb128 0x5
+ 2023 03a3 03       		.byte	0x3
+ 2024 03a4 00000000 		.4byte	accgroen
+ 2025 03a8 0F       		.uleb128 0xf
+ 2026 03a9 454D4700 		.ascii	"EMG\000"
+ 2027 03ad 01       		.byte	0x1
+ 2028 03ae 25       		.byte	0x25
+ 2029 03af 83000000 		.4byte	0x83
+ 2030 03b3 05       		.uleb128 0x5
+ 2031 03b4 03       		.byte	0x3
+ 2032 03b5 00000000 		.4byte	EMG
+ 2033 03b9 0C       		.uleb128 0xc
+ 2034 03ba 83000000 		.4byte	0x83
+ 2035 03be C9030000 		.4byte	0x3c9
+ 2036 03c2 0D       		.uleb128 0xd
+ 2037 03c3 A4000000 		.4byte	0xa4
+ 2038 03c7 02       		.byte	0x2
+ 2039 03c8 00       		.byte	0
+ 2040 03c9 0E       		.uleb128 0xe
+ 2041 03ca 2F020000 		.4byte	.LASF46
+ 2042 03ce 01       		.byte	0x1
+ 2043 03cf 26       		.byte	0x26
+ 2044 03d0 B9030000 		.4byte	0x3b9
+ 2045 03d4 05       		.uleb128 0x5
+ 2046 03d5 03       		.byte	0x3
+ 2047 03d6 00000000 		.4byte	result
+ 2048 03da 0E       		.uleb128 0xe
+ 2049 03db 25010000 		.4byte	.LASF47
+ 2050 03df 01       		.byte	0x1
+ 2051 03e0 27       		.byte	0x27
+ 2052 03e1 6B000000 		.4byte	0x6b
+ 2053 03e5 05       		.uleb128 0x5
+ 2054 03e6 03       		.byte	0x3
+ 2055 03e7 00000000 		.4byte	data_ready
+ 2056 03eb 0E       		.uleb128 0xe
+ 2057 03ec 17000000 		.4byte	.LASF48
+ 2058 03f0 01       		.byte	0x1
+ 2059 03f1 29       		.byte	0x29
+ 2060 03f2 83000000 		.4byte	0x83
+ 2061 03f6 05       		.uleb128 0x5
+ 2062 03f7 03       		.byte	0x3
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 43
+
+
+ 2063 03f8 00000000 		.4byte	mav_data_roed
+ 2064 03fc 0E       		.uleb128 0xe
+ 2065 03fd 46010000 		.4byte	.LASF49
+ 2066 0401 01       		.byte	0x1
+ 2067 0402 2A       		.byte	0x2a
+ 2068 0403 83000000 		.4byte	0x83
+ 2069 0407 05       		.uleb128 0x5
+ 2070 0408 03       		.byte	0x3
+ 2071 0409 00000000 		.4byte	mav_data_groen
+ 2072 040d 0E       		.uleb128 0xe
+ 2073 040e E9000000 		.4byte	.LASF50
+ 2074 0412 01       		.byte	0x1
+ 2075 0413 2B       		.byte	0x2b
+ 2076 0414 83000000 		.4byte	0x83
+ 2077 0418 05       		.uleb128 0x5
+ 2078 0419 03       		.byte	0x3
+ 2079 041a 00000000 		.4byte	samlet_grader
+ 2080 041e 0E       		.uleb128 0xe
+ 2081 041f 44020000 		.4byte	.LASF51
+ 2082 0423 01       		.byte	0x1
+ 2083 0424 2C       		.byte	0x2c
+ 2084 0425 83000000 		.4byte	0x83
+ 2085 0429 05       		.uleb128 0x5
+ 2086 042a 03       		.byte	0x3
+ 2087 042b 00000000 		.4byte	low_pass_data
+ 2088 042f 0E       		.uleb128 0xe
+ 2089 0430 DB020000 		.4byte	.LASF52
+ 2090 0434 01       		.byte	0x1
+ 2091 0435 2D       		.byte	0x2d
+ 2092 0436 83000000 		.4byte	0x83
+ 2093 043a 05       		.uleb128 0x5
+ 2094 043b 03       		.byte	0x3
+ 2095 043c 00000000 		.4byte	diff_data
+ 2096 0440 00       		.byte	0
+ 2097              		.section	.debug_abbrev,"",%progbits
+ 2098              	.Ldebug_abbrev0:
+ 2099 0000 01       		.uleb128 0x1
+ 2100 0001 11       		.uleb128 0x11
+ 2101 0002 01       		.byte	0x1
+ 2102 0003 25       		.uleb128 0x25
+ 2103 0004 0E       		.uleb128 0xe
+ 2104 0005 13       		.uleb128 0x13
+ 2105 0006 0B       		.uleb128 0xb
+ 2106 0007 03       		.uleb128 0x3
+ 2107 0008 0E       		.uleb128 0xe
+ 2108 0009 1B       		.uleb128 0x1b
+ 2109 000a 0E       		.uleb128 0xe
+ 2110 000b 55       		.uleb128 0x55
+ 2111 000c 17       		.uleb128 0x17
+ 2112 000d 11       		.uleb128 0x11
+ 2113 000e 01       		.uleb128 0x1
+ 2114 000f 10       		.uleb128 0x10
+ 2115 0010 17       		.uleb128 0x17
+ 2116 0011 00       		.byte	0
+ 2117 0012 00       		.byte	0
+ 2118 0013 02       		.uleb128 0x2
+ 2119 0014 24       		.uleb128 0x24
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 44
+
+
+ 2120 0015 00       		.byte	0
+ 2121 0016 0B       		.uleb128 0xb
+ 2122 0017 0B       		.uleb128 0xb
+ 2123 0018 3E       		.uleb128 0x3e
+ 2124 0019 0B       		.uleb128 0xb
+ 2125 001a 03       		.uleb128 0x3
+ 2126 001b 0E       		.uleb128 0xe
+ 2127 001c 00       		.byte	0
+ 2128 001d 00       		.byte	0
+ 2129 001e 03       		.uleb128 0x3
+ 2130 001f 24       		.uleb128 0x24
+ 2131 0020 00       		.byte	0
+ 2132 0021 0B       		.uleb128 0xb
+ 2133 0022 0B       		.uleb128 0xb
+ 2134 0023 3E       		.uleb128 0x3e
+ 2135 0024 0B       		.uleb128 0xb
+ 2136 0025 03       		.uleb128 0x3
+ 2137 0026 08       		.uleb128 0x8
+ 2138 0027 00       		.byte	0
+ 2139 0028 00       		.byte	0
+ 2140 0029 04       		.uleb128 0x4
+ 2141 002a 16       		.uleb128 0x16
+ 2142 002b 00       		.byte	0
+ 2143 002c 03       		.uleb128 0x3
+ 2144 002d 0E       		.uleb128 0xe
+ 2145 002e 3A       		.uleb128 0x3a
+ 2146 002f 0B       		.uleb128 0xb
+ 2147 0030 3B       		.uleb128 0x3b
+ 2148 0031 05       		.uleb128 0x5
+ 2149 0032 49       		.uleb128 0x49
+ 2150 0033 13       		.uleb128 0x13
+ 2151 0034 00       		.byte	0
+ 2152 0035 00       		.byte	0
+ 2153 0036 05       		.uleb128 0x5
+ 2154 0037 2E       		.uleb128 0x2e
+ 2155 0038 01       		.byte	0x1
+ 2156 0039 3F       		.uleb128 0x3f
+ 2157 003a 19       		.uleb128 0x19
+ 2158 003b 03       		.uleb128 0x3
+ 2159 003c 0E       		.uleb128 0xe
+ 2160 003d 3A       		.uleb128 0x3a
+ 2161 003e 0B       		.uleb128 0xb
+ 2162 003f 3B       		.uleb128 0x3b
+ 2163 0040 0B       		.uleb128 0xb
+ 2164 0041 27       		.uleb128 0x27
+ 2165 0042 19       		.uleb128 0x19
+ 2166 0043 49       		.uleb128 0x49
+ 2167 0044 13       		.uleb128 0x13
+ 2168 0045 11       		.uleb128 0x11
+ 2169 0046 01       		.uleb128 0x1
+ 2170 0047 12       		.uleb128 0x12
+ 2171 0048 06       		.uleb128 0x6
+ 2172 0049 40       		.uleb128 0x40
+ 2173 004a 18       		.uleb128 0x18
+ 2174 004b 9642     		.uleb128 0x2116
+ 2175 004d 19       		.uleb128 0x19
+ 2176 004e 01       		.uleb128 0x1
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 45
+
+
+ 2177 004f 13       		.uleb128 0x13
+ 2178 0050 00       		.byte	0
+ 2179 0051 00       		.byte	0
+ 2180 0052 06       		.uleb128 0x6
+ 2181 0053 05       		.uleb128 0x5
+ 2182 0054 00       		.byte	0
+ 2183 0055 03       		.uleb128 0x3
+ 2184 0056 08       		.uleb128 0x8
+ 2185 0057 3A       		.uleb128 0x3a
+ 2186 0058 0B       		.uleb128 0xb
+ 2187 0059 3B       		.uleb128 0x3b
+ 2188 005a 0B       		.uleb128 0xb
+ 2189 005b 49       		.uleb128 0x49
+ 2190 005c 13       		.uleb128 0x13
+ 2191 005d 02       		.uleb128 0x2
+ 2192 005e 18       		.uleb128 0x18
+ 2193 005f 00       		.byte	0
+ 2194 0060 00       		.byte	0
+ 2195 0061 07       		.uleb128 0x7
+ 2196 0062 05       		.uleb128 0x5
+ 2197 0063 00       		.byte	0
+ 2198 0064 03       		.uleb128 0x3
+ 2199 0065 0E       		.uleb128 0xe
+ 2200 0066 3A       		.uleb128 0x3a
+ 2201 0067 0B       		.uleb128 0xb
+ 2202 0068 3B       		.uleb128 0x3b
+ 2203 0069 0B       		.uleb128 0xb
+ 2204 006a 49       		.uleb128 0x49
+ 2205 006b 13       		.uleb128 0x13
+ 2206 006c 02       		.uleb128 0x2
+ 2207 006d 18       		.uleb128 0x18
+ 2208 006e 00       		.byte	0
+ 2209 006f 00       		.byte	0
+ 2210 0070 08       		.uleb128 0x8
+ 2211 0071 34       		.uleb128 0x34
+ 2212 0072 00       		.byte	0
+ 2213 0073 03       		.uleb128 0x3
+ 2214 0074 08       		.uleb128 0x8
+ 2215 0075 3A       		.uleb128 0x3a
+ 2216 0076 0B       		.uleb128 0xb
+ 2217 0077 3B       		.uleb128 0x3b
+ 2218 0078 0B       		.uleb128 0xb
+ 2219 0079 49       		.uleb128 0x49
+ 2220 007a 13       		.uleb128 0x13
+ 2221 007b 02       		.uleb128 0x2
+ 2222 007c 18       		.uleb128 0x18
+ 2223 007d 00       		.byte	0
+ 2224 007e 00       		.byte	0
+ 2225 007f 09       		.uleb128 0x9
+ 2226 0080 2E       		.uleb128 0x2e
+ 2227 0081 00       		.byte	0
+ 2228 0082 3F       		.uleb128 0x3f
+ 2229 0083 19       		.uleb128 0x19
+ 2230 0084 03       		.uleb128 0x3
+ 2231 0085 0E       		.uleb128 0xe
+ 2232 0086 3A       		.uleb128 0x3a
+ 2233 0087 0B       		.uleb128 0xb
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 46
+
+
+ 2234 0088 3B       		.uleb128 0x3b
+ 2235 0089 0B       		.uleb128 0xb
+ 2236 008a 27       		.uleb128 0x27
+ 2237 008b 19       		.uleb128 0x19
+ 2238 008c 11       		.uleb128 0x11
+ 2239 008d 01       		.uleb128 0x1
+ 2240 008e 12       		.uleb128 0x12
+ 2241 008f 06       		.uleb128 0x6
+ 2242 0090 40       		.uleb128 0x40
+ 2243 0091 18       		.uleb128 0x18
+ 2244 0092 9642     		.uleb128 0x2116
+ 2245 0094 19       		.uleb128 0x19
+ 2246 0095 00       		.byte	0
+ 2247 0096 00       		.byte	0
+ 2248 0097 0A       		.uleb128 0xa
+ 2249 0098 2E       		.uleb128 0x2e
+ 2250 0099 00       		.byte	0
+ 2251 009a 3F       		.uleb128 0x3f
+ 2252 009b 19       		.uleb128 0x19
+ 2253 009c 03       		.uleb128 0x3
+ 2254 009d 0E       		.uleb128 0xe
+ 2255 009e 3A       		.uleb128 0x3a
+ 2256 009f 0B       		.uleb128 0xb
+ 2257 00a0 3B       		.uleb128 0x3b
+ 2258 00a1 05       		.uleb128 0x5
+ 2259 00a2 27       		.uleb128 0x27
+ 2260 00a3 19       		.uleb128 0x19
+ 2261 00a4 11       		.uleb128 0x11
+ 2262 00a5 01       		.uleb128 0x1
+ 2263 00a6 12       		.uleb128 0x12
+ 2264 00a7 06       		.uleb128 0x6
+ 2265 00a8 40       		.uleb128 0x40
+ 2266 00a9 18       		.uleb128 0x18
+ 2267 00aa 9642     		.uleb128 0x2116
+ 2268 00ac 19       		.uleb128 0x19
+ 2269 00ad 00       		.byte	0
+ 2270 00ae 00       		.byte	0
+ 2271 00af 0B       		.uleb128 0xb
+ 2272 00b0 2E       		.uleb128 0x2e
+ 2273 00b1 00       		.byte	0
+ 2274 00b2 3F       		.uleb128 0x3f
+ 2275 00b3 19       		.uleb128 0x19
+ 2276 00b4 03       		.uleb128 0x3
+ 2277 00b5 0E       		.uleb128 0xe
+ 2278 00b6 3A       		.uleb128 0x3a
+ 2279 00b7 0B       		.uleb128 0xb
+ 2280 00b8 3B       		.uleb128 0x3b
+ 2281 00b9 05       		.uleb128 0x5
+ 2282 00ba 49       		.uleb128 0x49
+ 2283 00bb 13       		.uleb128 0x13
+ 2284 00bc 11       		.uleb128 0x11
+ 2285 00bd 01       		.uleb128 0x1
+ 2286 00be 12       		.uleb128 0x12
+ 2287 00bf 06       		.uleb128 0x6
+ 2288 00c0 40       		.uleb128 0x40
+ 2289 00c1 18       		.uleb128 0x18
+ 2290 00c2 9642     		.uleb128 0x2116
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 47
+
+
+ 2291 00c4 19       		.uleb128 0x19
+ 2292 00c5 00       		.byte	0
+ 2293 00c6 00       		.byte	0
+ 2294 00c7 0C       		.uleb128 0xc
+ 2295 00c8 01       		.uleb128 0x1
+ 2296 00c9 01       		.byte	0x1
+ 2297 00ca 49       		.uleb128 0x49
+ 2298 00cb 13       		.uleb128 0x13
+ 2299 00cc 01       		.uleb128 0x1
+ 2300 00cd 13       		.uleb128 0x13
+ 2301 00ce 00       		.byte	0
+ 2302 00cf 00       		.byte	0
+ 2303 00d0 0D       		.uleb128 0xd
+ 2304 00d1 21       		.uleb128 0x21
+ 2305 00d2 00       		.byte	0
+ 2306 00d3 49       		.uleb128 0x49
+ 2307 00d4 13       		.uleb128 0x13
+ 2308 00d5 2F       		.uleb128 0x2f
+ 2309 00d6 0B       		.uleb128 0xb
+ 2310 00d7 00       		.byte	0
+ 2311 00d8 00       		.byte	0
+ 2312 00d9 0E       		.uleb128 0xe
+ 2313 00da 34       		.uleb128 0x34
+ 2314 00db 00       		.byte	0
+ 2315 00dc 03       		.uleb128 0x3
+ 2316 00dd 0E       		.uleb128 0xe
+ 2317 00de 3A       		.uleb128 0x3a
+ 2318 00df 0B       		.uleb128 0xb
+ 2319 00e0 3B       		.uleb128 0x3b
+ 2320 00e1 0B       		.uleb128 0xb
+ 2321 00e2 49       		.uleb128 0x49
+ 2322 00e3 13       		.uleb128 0x13
+ 2323 00e4 3F       		.uleb128 0x3f
+ 2324 00e5 19       		.uleb128 0x19
+ 2325 00e6 02       		.uleb128 0x2
+ 2326 00e7 18       		.uleb128 0x18
+ 2327 00e8 00       		.byte	0
+ 2328 00e9 00       		.byte	0
+ 2329 00ea 0F       		.uleb128 0xf
+ 2330 00eb 34       		.uleb128 0x34
+ 2331 00ec 00       		.byte	0
+ 2332 00ed 03       		.uleb128 0x3
+ 2333 00ee 08       		.uleb128 0x8
+ 2334 00ef 3A       		.uleb128 0x3a
+ 2335 00f0 0B       		.uleb128 0xb
+ 2336 00f1 3B       		.uleb128 0x3b
+ 2337 00f2 0B       		.uleb128 0xb
+ 2338 00f3 49       		.uleb128 0x49
+ 2339 00f4 13       		.uleb128 0x13
+ 2340 00f5 3F       		.uleb128 0x3f
+ 2341 00f6 19       		.uleb128 0x19
+ 2342 00f7 02       		.uleb128 0x2
+ 2343 00f8 18       		.uleb128 0x18
+ 2344 00f9 00       		.byte	0
+ 2345 00fa 00       		.byte	0
+ 2346 00fb 00       		.byte	0
+ 2347              		.section	.debug_aranges,"",%progbits
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 48
+
+
+ 2348 0000 64000000 		.4byte	0x64
+ 2349 0004 0200     		.2byte	0x2
+ 2350 0006 00000000 		.4byte	.Ldebug_info0
+ 2351 000a 04       		.byte	0x4
+ 2352 000b 00       		.byte	0
+ 2353 000c 0000     		.2byte	0
+ 2354 000e 0000     		.2byte	0
+ 2355 0010 00000000 		.4byte	.LFB37
+ 2356 0014 5C000000 		.4byte	.LFE37-.LFB37
+ 2357 0018 00000000 		.4byte	.LFB38
+ 2358 001c 04010000 		.4byte	.LFE38-.LFB38
+ 2359 0020 00000000 		.4byte	.LFB39
+ 2360 0024 0C010000 		.4byte	.LFE39-.LFB39
+ 2361 0028 00000000 		.4byte	.LFB40
+ 2362 002c 24010000 		.4byte	.LFE40-.LFB40
+ 2363 0030 00000000 		.4byte	.LFB41
+ 2364 0034 14010000 		.4byte	.LFE41-.LFB41
+ 2365 0038 00000000 		.4byte	.LFB42
+ 2366 003c 1E010000 		.4byte	.LFE42-.LFB42
+ 2367 0040 00000000 		.4byte	.LFB43
+ 2368 0044 9C000000 		.4byte	.LFE43-.LFB43
+ 2369 0048 00000000 		.4byte	.LFB44
+ 2370 004c 58010000 		.4byte	.LFE44-.LFB44
+ 2371 0050 00000000 		.4byte	.LFB45
+ 2372 0054 5C000000 		.4byte	.LFE45-.LFB45
+ 2373 0058 00000000 		.4byte	.LFB46
+ 2374 005c 30000000 		.4byte	.LFE46-.LFB46
+ 2375 0060 00000000 		.4byte	0
+ 2376 0064 00000000 		.4byte	0
+ 2377              		.section	.debug_ranges,"",%progbits
+ 2378              	.Ldebug_ranges0:
+ 2379 0000 00000000 		.4byte	.LFB37
+ 2380 0004 5C000000 		.4byte	.LFE37
+ 2381 0008 00000000 		.4byte	.LFB38
+ 2382 000c 04010000 		.4byte	.LFE38
+ 2383 0010 00000000 		.4byte	.LFB39
+ 2384 0014 0C010000 		.4byte	.LFE39
+ 2385 0018 00000000 		.4byte	.LFB40
+ 2386 001c 24010000 		.4byte	.LFE40
+ 2387 0020 00000000 		.4byte	.LFB41
+ 2388 0024 14010000 		.4byte	.LFE41
+ 2389 0028 00000000 		.4byte	.LFB42
+ 2390 002c 1E010000 		.4byte	.LFE42
+ 2391 0030 00000000 		.4byte	.LFB43
+ 2392 0034 9C000000 		.4byte	.LFE43
+ 2393 0038 00000000 		.4byte	.LFB44
+ 2394 003c 58010000 		.4byte	.LFE44
+ 2395 0040 00000000 		.4byte	.LFB45
+ 2396 0044 5C000000 		.4byte	.LFE45
+ 2397 0048 00000000 		.4byte	.LFB46
+ 2398 004c 30000000 		.4byte	.LFE46
+ 2399 0050 00000000 		.4byte	0
+ 2400 0054 00000000 		.4byte	0
+ 2401              		.section	.debug_line,"",%progbits
+ 2402              	.Ldebug_line0:
+ 2403 0000 2C020000 		.section	.debug_str,"MS",%progbits,1
+ 2403      02004300 
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 49
+
+
+ 2403      00000201 
+ 2403      FB0E0D00 
+ 2403      01010101 
+ 2404              	.LASF27:
+ 2405 0000 785F6D61 		.ascii	"x_mavg\000"
+ 2405      766700
+ 2406              	.LASF38:
+ 2407 0007 76616C75 		.ascii	"value_in\000"
+ 2407      655F696E 
+ 2407      00
+ 2408              	.LASF29:
+ 2409 0010 625F6D61 		.ascii	"b_mavg\000"
+ 2409      766700
+ 2410              	.LASF48:
+ 2411 0017 6D61765F 		.ascii	"mav_data_roed\000"
+ 2411      64617461 
+ 2411      5F726F65 
+ 2411      6400
+ 2412              	.LASF33:
+ 2413 0025 785F6C6F 		.ascii	"x_low\000"
+ 2413      7700
+ 2414              	.LASF3:
+ 2415 002b 73686F72 		.ascii	"short unsigned int\000"
+ 2415      7420756E 
+ 2415      7369676E 
+ 2415      65642069 
+ 2415      6E7400
+ 2416              	.LASF41:
+ 2417 003e 67726164 		.ascii	"grader_roed\000"
+ 2417      65725F72 
+ 2417      6F656400 
+ 2418              	.LASF2:
+ 2419 004a 73686F72 		.ascii	"short int\000"
+ 2419      7420696E 
+ 2419      7400
+ 2420              	.LASF21:
+ 2421 0054 726F6564 		.ascii	"roed_grader\000"
+ 2421      5F677261 
+ 2421      64657200 
+ 2422              	.LASF45:
+ 2423 0060 61636367 		.ascii	"accgroen\000"
+ 2423      726F656E 
+ 2423      00
+ 2424              	.LASF25:
+ 2425 0069 50696E5F 		.ascii	"Pin_SW2_handler\000"
+ 2425      5357325F 
+ 2425      68616E64 
+ 2425      6C657200 
+ 2426              	.LASF20:
+ 2427 0079 6C6F775F 		.ascii	"low_pass_filter\000"
+ 2427      70617373 
+ 2427      5F66696C 
+ 2427      74657200 
+ 2428              	.LASF12:
+ 2429 0089 666C6F61 		.ascii	"float\000"
+ 2429      7400
+ 2430              	.LASF18:
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 50
+
+
+ 2431 008f 64617461 		.ascii	"data\000"
+ 2431      00
+ 2432              	.LASF32:
+ 2433 0094 62325F6D 		.ascii	"b2_mavg\000"
+ 2433      61766700 
+ 2434              	.LASF55:
+ 2435 009c 433A5C55 		.ascii	"C:\\Users\\Linette Helena\\Desktop\\ADC_filtre_saml"
+ 2435      73657273 
+ 2435      5C4C696E 
+ 2435      65747465 
+ 2435      2048656C 
+ 2436 00cb 65745F67 		.ascii	"et_grader.cydsn\000"
+ 2436      72616465 
+ 2436      722E6379 
+ 2436      64736E00 
+ 2437              	.LASF1:
+ 2438 00db 756E7369 		.ascii	"unsigned char\000"
+ 2438      676E6564 
+ 2438      20636861 
+ 2438      7200
+ 2439              	.LASF50:
+ 2440 00e9 73616D6C 		.ascii	"samlet_grader\000"
+ 2440      65745F67 
+ 2440      72616465 
+ 2440      7200
+ 2441              	.LASF11:
+ 2442 00f7 696E7431 		.ascii	"int16\000"
+ 2442      3600
+ 2443              	.LASF28:
+ 2444 00fd 795F6D61 		.ascii	"y_mavg\000"
+ 2444      766700
+ 2445              	.LASF9:
+ 2446 0104 75696E74 		.ascii	"uint8\000"
+ 2446      3800
+ 2447              	.LASF34:
+ 2448 010a 795F6C6F 		.ascii	"y_low\000"
+ 2448      7700
+ 2449              	.LASF24:
+ 2450 0110 4144435F 		.ascii	"ADC_interrupt\000"
+ 2450      696E7465 
+ 2450      72727570 
+ 2450      7400
+ 2451              	.LASF13:
+ 2452 011e 646F7562 		.ascii	"double\000"
+ 2452      6C6500
+ 2453              	.LASF47:
+ 2454 0125 64617461 		.ascii	"data_ready\000"
+ 2454      5F726561 
+ 2454      647900
+ 2455              	.LASF37:
+ 2456 0130 63757272 		.ascii	"current_byte\000"
+ 2456      656E745F 
+ 2456      62797465 
+ 2456      00
+ 2457              	.LASF54:
+ 2458 013d 2E5C6D61 		.ascii	".\\main.c\000"
+ 2458      696E2E63 
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 51
+
+
+ 2458      00
+ 2459              	.LASF49:
+ 2460 0146 6D61765F 		.ascii	"mav_data_groen\000"
+ 2460      64617461 
+ 2460      5F67726F 
+ 2460      656E00
+ 2461              	.LASF53:
+ 2462 0155 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 2462      4320342E 
+ 2462      392E3320 
+ 2462      32303135 
+ 2462      30333033 
+ 2463 0188 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 2463      20726576 
+ 2463      6973696F 
+ 2463      6E203232 
+ 2463      31323230 
+ 2464 01bb 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 2464      66756E63 
+ 2464      74696F6E 
+ 2464      2D736563 
+ 2464      74696F6E 
+ 2465              	.LASF10:
+ 2466 01e3 75696E74 		.ascii	"uint32\000"
+ 2466      333200
+ 2467              	.LASF26:
+ 2468 01ea 6D61696E 		.ascii	"main\000"
+ 2468      00
+ 2469              	.LASF5:
+ 2470 01ef 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2470      20756E73 
+ 2470      69676E65 
+ 2470      6420696E 
+ 2470      7400
+ 2471              	.LASF8:
+ 2472 0201 756E7369 		.ascii	"unsigned int\000"
+ 2472      676E6564 
+ 2472      20696E74 
+ 2472      00
+ 2473              	.LASF39:
+ 2474 020e 76616C75 		.ascii	"value_out\000"
+ 2474      655F6F75 
+ 2474      7400
+ 2475              	.LASF7:
+ 2476 0218 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2476      206C6F6E 
+ 2476      6720756E 
+ 2476      7369676E 
+ 2476      65642069 
+ 2477              	.LASF46:
+ 2478 022f 72657375 		.ascii	"result\000"
+ 2478      6C7400
+ 2479              	.LASF30:
+ 2480 0236 78325F6D 		.ascii	"x2_mavg\000"
+ 2480      61766700 
+ 2481              	.LASF36:
+ 2482 023e 615F6C6F 		.ascii	"a_low\000"
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 52
+
+
+ 2482      7700
+ 2483              	.LASF51:
+ 2484 0244 6C6F775F 		.ascii	"low_pass_data\000"
+ 2484      70617373 
+ 2484      5F646174 
+ 2484      6100
+ 2485              	.LASF42:
+ 2486 0252 64696666 		.ascii	"diff\000"
+ 2486      00
+ 2487              	.LASF15:
+ 2488 0257 73697A65 		.ascii	"sizetype\000"
+ 2488      74797065 
+ 2488      00
+ 2489              	.LASF6:
+ 2490 0260 6C6F6E67 		.ascii	"long long int\000"
+ 2490      206C6F6E 
+ 2490      6720696E 
+ 2490      7400
+ 2491              	.LASF31:
+ 2492 026e 79325F6D 		.ascii	"y2_mavg\000"
+ 2492      61766700 
+ 2493              	.LASF14:
+ 2494 0276 63686172 		.ascii	"char\000"
+ 2494      00
+ 2495              	.LASF16:
+ 2496 027b 666C6F6F 		.ascii	"floor_and_convert\000"
+ 2496      725F616E 
+ 2496      645F636F 
+ 2496      6E766572 
+ 2496      7400
+ 2497              	.LASF22:
+ 2498 028d 67726F65 		.ascii	"groen_grader\000"
+ 2498      6E5F6772 
+ 2498      61646572 
+ 2498      00
+ 2499              	.LASF19:
+ 2500 029a 6D617667 		.ascii	"mavg_filter2\000"
+ 2500      5F66696C 
+ 2500      74657232 
+ 2500      00
+ 2501              	.LASF23:
+ 2502 02a7 64696666 		.ascii	"differentiator\000"
+ 2502      6572656E 
+ 2502      74696174 
+ 2502      6F7200
+ 2503              	.LASF43:
+ 2504 02b6 46697273 		.ascii	"FirstCall\000"
+ 2504      7443616C 
+ 2504      6C00
+ 2505              	.LASF4:
+ 2506 02c0 6C6F6E67 		.ascii	"long int\000"
+ 2506      20696E74 
+ 2506      00
+ 2507              	.LASF35:
+ 2508 02c9 625F6C6F 		.ascii	"b_low\000"
+ 2508      7700
+ 2509              	.LASF0:
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccbErv4n.s 			page 53
+
+
+ 2510 02cf 7369676E 		.ascii	"signed char\000"
+ 2510      65642063 
+ 2510      68617200 
+ 2511              	.LASF52:
+ 2512 02db 64696666 		.ascii	"diff_data\000"
+ 2512      5F646174 
+ 2512      6100
+ 2513              	.LASF44:
+ 2514 02e5 61636372 		.ascii	"accroed\000"
+ 2514      6F656400 
+ 2515              	.LASF40:
+ 2516 02ed 67726164 		.ascii	"grader_groen\000"
+ 2516      65725F67 
+ 2516      726F656E 
+ 2516      00
+ 2517              	.LASF17:
+ 2518 02fa 6D617667 		.ascii	"mavg_filter\000"
+ 2518      5F66696C 
+ 2518      74657200 
+ 2519              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

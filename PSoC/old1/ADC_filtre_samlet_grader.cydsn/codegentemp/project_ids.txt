@@ -1,0 +1,6 @@
+C:\Users\Linette Helena\Documents\GitHub\ST4\PSoC\ADC_filtre_samlet_grader.cydsn\ADC_filtre_samlet_grader.cyprj|1da3cd53-4013-4f10-b8a1-b8b2b3a34099
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|ab3afd81-0f3a-4903-8ecc-2bf5f760face
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|5a034be5-1265-4c7b-957b-621a410070c1
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4a9a5142-39e7-4cc5-903f-446585ae3d2c
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4acb226b-94b3-4ec9-a4e5-c22d5c7084b5
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|61f9118b-61e9-406e-8c7e-a06c02fd355c

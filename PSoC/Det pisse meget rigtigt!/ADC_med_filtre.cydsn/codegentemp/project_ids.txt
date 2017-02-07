@@ -1,0 +1,6 @@
+C:\Users\passw\Desktop\Det pisse meget rigtigt!\ADC_med_filtre.cydsn\ADC_med_filtre.cyprj|e7a2b232-6507-4c5e-be9d-b27df8304ade
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|edafcef2-52d3-40c3-b4a7-f5d7d927fd1e
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|4217c925-bf33-4c72-bde0-470b4dfb9e1f
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|788dc8f2-7210-43b4-a086-55021522105b
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e8b52de2-d40e-403d-824e-01fbd51718fb
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3e609570-1f3a-41de-86e2-a49c43f21498

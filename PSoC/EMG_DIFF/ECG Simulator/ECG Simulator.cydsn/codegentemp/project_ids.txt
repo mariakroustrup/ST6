@@ -1,0 +1,5 @@
+C:\Users\passw\Desktop\EMG-test\ECG Simulator\ECG Simulator.cydsn\ECG Simulator.cyprj|c69ea08f-2a97-4b3c-b74c-dd983adad278
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|899c9fd2-c9d9-48d3-8a07-f95768e7cba6
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a8a2c9c4-e8a5-4962-b44d-4ad89188df16
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|842d1de2-70a4-41dc-bc71-759440298cf9
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|a95ab4ee-545f-4931-85a7-e63b8d1277d7

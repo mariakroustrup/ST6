@@ -1,0 +1,6 @@
+C:\Users\Linette Helena\Desktop\store_kit_3kanaler.cydsn\store_kit_3kanaler.cyprj|85c83ccb-8e0b-4e31-bf52-ed128648d644
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|252ac90d-c8ec-4427-8c09-c6e424a6f8b8
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|e412410e-95c1-4c98-b952-cf2b723af9ca
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4a8b4613-0789-4a85-ae6c-43ac5c7d0b98
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e51e2a8c-a96d-4979-bf8f-c9d2b93099f0
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|b1170c77-3c96-464f-9017-5df56039ff9c

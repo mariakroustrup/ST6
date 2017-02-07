@@ -1,0 +1,86 @@
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/CortexM0/ARM_GCC_493/Debug/ADC.o : C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.c C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.c : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_INT.o : C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_INT.c C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_IRQ.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_intClock.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/EMG.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/EMG_aliases.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y1.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y1_aliases.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y2.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y2_aliases.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cmFunc.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cmInstr.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/project.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/cyapicallbacks.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/my_defines.h 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_INT.c : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_IRQ.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_intClock.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/EMG.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/EMG_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y1.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y1_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y2.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/Y2_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/cyapicallbacks.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/my_defines.h : 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_PM.o : C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_PM.c C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/store_kit_3kanaler.cydsn/Generated_Source/PSoC4/ADC_PM.c : 
+

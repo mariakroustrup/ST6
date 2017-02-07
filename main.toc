@@ -1,0 +1,121 @@
+\changetocdepth {2}
+\select@language {danish}
+\contentsline {chapter}{\chapternumberline {1}Indledning}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Initierende problemstilling}{1}{section.1.1}
+\contentsline {chapter}{\chapternumberline {2}Problemanalyse}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Amyotrofisk lateral sklerose}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Livskvalitet hos ALS-patienter}{4}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Hj\IeC {\ae }lpemidler til ALS-patienter}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Teknologiske hj\IeC {\ae }lpemidler}{5}{subsection.2.2.1}
+\contentsline {subsubsection}{Udfordringer ved brug af hj\IeC {\ae }lpemidler}{5}{section*.12}
+\contentsline {subsection}{\numberline {2.2.2}Body augmentation-system som hj\IeC {\ae }lpemiddel}{5}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Gangfunktion}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Kn\IeC {\ae }ets opbygning}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Kn\IeC {\ae }ets funktion}{7}{subsection.2.3.2}
+\contentsline {subsubsection}{Kn\IeC {\ae }ets funktion under en squat-\IeC {\o }velse}{8}{section*.16}
+\contentsline {section}{\numberline {2.4}Problemafgr\IeC {\ae }nsning}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Problemformulering}{10}{subsection.2.4.1}
+\contentsline {chapter}{\chapternumberline {3}Systemudvikling}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Systembeskrivelse}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Overordnet krav til systemet}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Blokdiagram}{11}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}L\IeC {\o }sningsstrategi}{12}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Teori og design}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Analog del}{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Opsamling af accelerometersignaler}{13}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Opsamling og behandling af EMG-signaler}{14}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Sp\IeC {\ae }ndingsforsyning}{14}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Digital del}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Analog-to-Digital Converter}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Digital filtrering}{16}{subsection.4.2.2}
+\contentsline {subsubsection}{Filtrering af EMG-signal}{18}{section*.26}
+\contentsline {subsubsection}{Filtrering af accelerometer signaler}{20}{section*.29}
+\contentsline {subsection}{\numberline {4.2.3}Accelerometeralgoritme}{21}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}EMG-algoritme}{22}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Tr\IeC {\r a}dl\IeC {\o }s kommunikation}{22}{subsection.4.2.5}
+\contentsline {chapter}{\chapternumberline {5}Implementering}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Analog del}{24}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Opsamling af accelerometersignaler}{24}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Opsamling og behandling af EMG-signaler}{25}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Sp\IeC {\ae }ndingsforsyning}{26}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Digital del}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Analog-to-Digital Converter}{27}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Digital filtrering}{29}{subsection.5.2.2}
+\contentsline {subsubsection}{IIR-lavpasfilter}{29}{section*.38}
+\contentsline {subsubsection}{Moving average filter}{29}{section*.40}
+\contentsline {subsection}{\numberline {5.2.3}Accelerometeralgoritme}{29}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}EMG-algoritme}{31}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Tr\IeC {\r a}dl\IeC {\o }s kommunikation}{31}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Flowdiagram}{33}{subsection.5.2.6}
+\contentsline {subsubsection}{Overordnet flowdiagram}{33}{section*.46}
+\contentsline {subsubsection}{Initialiserende flowdiagram}{34}{section*.48}
+\contentsline {subsubsection}{Accelerometeralgoritme}{35}{section*.50}
+\contentsline {subsubsection}{EMG-algoritme}{36}{section*.52}
+\contentsline {section}{\numberline {5.3}\IeC {\AE }ndringer ved det samlede system}{37}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sp\IeC {\ae }ndingsforsyning}{37}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Accelerometeralgoritme}{38}{subsection.5.3.2}
+\contentsline {chapter}{\chapternumberline {6}Test}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Analog del}{39}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Opsamling af accelerometersignaler}{39}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Opsamling og behandling af EMG-signaler}{40}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Sp\IeC {\ae }ndingsforsyning}{41}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Digital del}{42}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Analog-to-Digital Converter}{43}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Digital filtrering}{44}{subsection.6.2.2}
+\contentsline {subsubsection}{Lavpasfilter}{44}{section*.62}
+\contentsline {subsubsection}{Moving average filter}{46}{section*.65}
+\contentsline {subsection}{\numberline {6.2.3}Accelerometeralgoritme}{48}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}EMG-algoritme}{51}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Tr\IeC {\r a}dl\IeC {\o }s kommunikation}{54}{subsection.6.2.5}
+\contentsline {chapter}{\chapternumberline {7}Systemtest}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Systemtest med kendt input}{55}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Beskrivelse}{55}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Resultater af test}{55}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Systemtest med bruger-input}{57}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Beskrivelse}{57}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Resultater af fors\IeC {\o }g}{57}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Konklusion af systemtest}{60}{section.7.3}
+\contentsline {chapter}{\chapternumberline {8}Syntese}{62}{chapter.8}
+\contentsline {section}{\numberline {8.1}Diskussion}{62}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Test af blokke}{62}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Samlet systemtest}{63}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Konklusion}{64}{section.8.2}
+\contentsline {section}{\numberline {8.3}Perspektivering}{64}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Et ideelt system}{65}{subsection.8.3.1}
+\contentsline {chapter}{Litteratur}{67}{section*.81}
+\contentsline {appendix}{\chapternumberline {A}Pilotfors\IeC {\o }g}{71}{appendix.A}
+\contentsline {section}{\numberline {A.1}Form\IeC {\r a}l}{71}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}EMG-m\IeC {\r a}ling}{71}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Accelerometerm\IeC {\r a}ling}{71}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Materialer}{71}{section.A.2}
+\contentsline {section}{\numberline {A.3}Metode}{72}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Fors\IeC {\o }gsopstilling}{73}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Oversigt af fors\IeC {\o }gsopstilling}{74}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Fremgangsm\IeC {\r a}de}{74}{subsection.A.3.3}
+\contentsline {subsubsection}{Pilotfors\IeC {\o }g}{74}{section*.85}
+\contentsline {section}{\numberline {A.4}Databehandling}{74}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Resultater for EMG-m\IeC {\r a}linger}{75}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Resultater for accelerometer m\IeC {\r a}linger}{76}{subsection.A.4.2}
+\contentsline {appendix}{\chapternumberline {B}Test af accelerometer}{79}{appendix.B}
+\contentsline {section}{\numberline {B.1}Form\IeC {\r a}l}{79}{section.B.1}
+\contentsline {section}{\numberline {B.2}Materialer}{79}{section.B.2}
+\contentsline {section}{\numberline {B.3}Metode}{79}{section.B.3}
+\contentsline {section}{\numberline {B.4}Fors\IeC {\o }gsopstilling}{79}{section.B.4}
+\contentsline {subsection}{\numberline {B.4.1}Deltest 1}{80}{subsection.B.4.1}
+\contentsline {subsection}{\numberline {B.4.2}Deltest 2}{80}{subsection.B.4.2}
+\contentsline {section}{\numberline {B.5}Fremgangsm\IeC {\r a}de}{81}{section.B.5}
+\contentsline {subsection}{\numberline {B.5.1}Deltest 1}{81}{subsection.B.5.1}
+\contentsline {subsection}{\numberline {B.5.2}Deltest 2}{81}{subsection.B.5.2}
+\contentsline {section}{\numberline {B.6}Resultater}{81}{section.B.6}
+\contentsline {subsection}{\numberline {B.6.1}Deltest 1}{81}{subsection.B.6.1}
+\contentsline {subsection}{\numberline {B.6.2}Deltest 2}{82}{subsection.B.6.2}
+\contentsline {appendix}{\chapternumberline {C}ADC}{84}{appendix.C}
+\contentsline {section}{\numberline {C.1}Ops\IeC {\ae }tning}{84}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Bestemmelse af samplingsfrekvens}{84}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Arbejdsomr\IeC {\r a}de for ADC}{85}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}Gennemsnits samples}{85}{subsection.C.1.3}
+\contentsline {appendix}{\chapternumberline {D}Brugersikkerhed}{86}{appendix.D}
+\contentsline {section}{\numberline {D.1}Sikkerhedsforanstaltninger}{87}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Jording}{87}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Isolation}{87}{subsection.D.1.2}
+\contentsline {section}{\numberline {D.2}Implementering af brugersikkerhed}{87}{section.D.2}

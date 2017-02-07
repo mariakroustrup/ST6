@@ -1,0 +1,12 @@
+# ECG Simulator
+# 2016-05-06 11:40:20Z
+
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "\UART:tx(0)\" iocell 7 1
+set_io "\UART:rx(0)\" iocell 7 0
+set_io "\UART_BLE:tx(0)\" iocell 3 1
+set_io "\UART_BLE:rx(0)\" iocell 3 0

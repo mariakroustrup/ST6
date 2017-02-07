@@ -1,0 +1,92 @@
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/CortexM0/ARM_GCC_493/Debug/main.o : C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Measure_When_Low.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Timer.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Timer_ISR.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_BOOT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_PINS.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_PVT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_RX_ISR.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SCBCLK.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SPI_UART.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SPI_UART_PVT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_rx.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_rx_aliases.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_tx.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_tx_aliases.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_RX_ISR.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cmFunc.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cmInstr.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/project.h C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/main.c 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Measure_When_Low.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Timer.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/Timer_ISR.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_BOOT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_PINS.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_PVT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_RX_ISR.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SCBCLK.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SPI_UART.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_SPI_UART_PVT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_rx.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_rx_aliases.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_tx.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BLE_tx_aliases.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_RX_ISR.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/passw/Desktop/EMG-test/ECG\ Simulator/ECG\ Simulator.cydsn/main.c : 
+

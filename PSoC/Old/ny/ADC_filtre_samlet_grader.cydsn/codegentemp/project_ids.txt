@@ -1,0 +1,6 @@
+C:\Users\Signe\Documents\GitHub\ST4\PSoC\ny\ADC_filtre_samlet_grader.cydsn\ADC_filtre_samlet_grader.cyprj|e6c7f251-e8e9-4df5-beb3-7b7944b2a8a9
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c4dd824f-073b-4d6a-a468-4543d3053981
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|7b2c7850-08f6-4e98-9603-ccb2ffac675f
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|88144fc7-f0cf-4712-8578-44566e649c4a
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d094a175-6feb-4323-888b-209c04b82c07
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|36d7d7c4-636b-4cac-96a2-873b4a9b02c3

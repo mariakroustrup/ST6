@@ -1,0 +1,6 @@
+C:\Users\Linette Helena\Desktop\ADC_filtre_samlet_grader.cydsn\ADC_filtre_samlet_grader.cyprj|7cc0a6d8-0472-49c4-8916-dd0fd0bdd731
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|e06b5e7d-35f3-42a3-9356-78b6661f9c93
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|4163e78e-e8a5-4433-b125-6edaa1616839
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9fc1810f-df75-4b6f-acc2-89c19fb52157
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bfb8b27b-2c72-4f5f-ba5f-61f5e2720b85
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|55d3f847-b58c-4471-b651-3db07faacc5f

@@ -1,0 +1,250 @@
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_INT.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_INT.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_INT.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_IRQ.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_IRQ.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_IRQ.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_IRQ.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_IRQ.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_ISR.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_ISR.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_ISR.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_ISR.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_ISR.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/ADC_intClock.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_intClock.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_intClock.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_intClock.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/ADC_intClock.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Cm0Start.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Cm0Start.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/CyFlash.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyFlash.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/CyLFClk.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/CyLib.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Debug.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Debug_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Debug_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/EMG.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/EMG_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/EMG_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_Green.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_Green_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Green_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_Red.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_Red_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_Red_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_SW2.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Pin_SW2_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Pin_SW2_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_BOOT.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_BOOT.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_BOOT.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_BOOT.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_RX_ISR.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_RX_ISR.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_RX_ISR.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_RX_ISR.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_RX_ISR.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_SCBCLK.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_SPI_UART.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_SPI_UART_INT.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_INT.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_INT.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_UART.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_UART.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_UART.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_UART_BOOT.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_BOOT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PINS.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_PVT.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SCBCLK.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_SPI_UART.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_UART_BOOT.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_UART_BOOT.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_rx.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_rx_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_rx_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_tx.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/UART_tx_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/UART_tx_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Y1.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Y1_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y1_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Y2.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2_aliases.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/Y2_PM.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2_PM.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2_aliases.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/Y2_PM.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/cyPm.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyPm.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/cyfitter_cfg.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/cymetadata.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cymetadata.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cymetadata.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/cyutils.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/CortexM0/ARM_GCC_493/Debug/pin_SW2_int.o : C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/pin_SW2_int.c C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/pin_SW2_int.h C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/cyapicallbacks.h 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/pin_SW2_int.c : 
+
+C:/Users/Linette\ Helena/Desktop/ADC_filtre_samlet_grader.cydsn/Generated_Source/PSoC4/pin_SW2_int.h : 
+

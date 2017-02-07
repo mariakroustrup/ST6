@@ -1,0 +1,635 @@
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 6
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"ADC_INT.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.ADC_ISR,"ax",%progbits
+  18              		.align	2
+  19              		.global	ADC_ISR
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	ADC_ISR, %function
+  23              	ADC_ISR:
+  24              	.LFB37:
+  25              		.file 1 ".\\Generated_Source\\PSoC4\\ADC_INT.c"
+   1:.\Generated_Source\PSoC4/ADC_INT.c **** /*******************************************************************************
+   2:.\Generated_Source\PSoC4/ADC_INT.c **** * File Name: ADC_INT.c
+   3:.\Generated_Source\PSoC4/ADC_INT.c **** * Version 2.30
+   4:.\Generated_Source\PSoC4/ADC_INT.c **** *
+   5:.\Generated_Source\PSoC4/ADC_INT.c **** *  Description:
+   6:.\Generated_Source\PSoC4/ADC_INT.c **** *    This file contains the code that operates during the ADC_SAR interrupt
+   7:.\Generated_Source\PSoC4/ADC_INT.c **** *    service routine.
+   8:.\Generated_Source\PSoC4/ADC_INT.c **** *
+   9:.\Generated_Source\PSoC4/ADC_INT.c **** *   Note:
+  10:.\Generated_Source\PSoC4/ADC_INT.c **** *
+  11:.\Generated_Source\PSoC4/ADC_INT.c **** ********************************************************************************
+  12:.\Generated_Source\PSoC4/ADC_INT.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  13:.\Generated_Source\PSoC4/ADC_INT.c **** * You may use this file only in accordance with the license, terms, conditions,
+  14:.\Generated_Source\PSoC4/ADC_INT.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  15:.\Generated_Source\PSoC4/ADC_INT.c **** * the software package with which this file was provided.
+  16:.\Generated_Source\PSoC4/ADC_INT.c **** *******************************************************************************/
+  17:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  18:.\Generated_Source\PSoC4/ADC_INT.c **** #include "ADC.h"
+  19:.\Generated_Source\PSoC4/ADC_INT.c **** #include "cyapicallbacks.h"
+  20:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  21:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  22:.\Generated_Source\PSoC4/ADC_INT.c **** /******************************************************************************
+  23:.\Generated_Source\PSoC4/ADC_INT.c **** * Custom Declarations and Variables
+  24:.\Generated_Source\PSoC4/ADC_INT.c **** * - add user inlcude files, prototypes and variables between the following
+  25:.\Generated_Source\PSoC4/ADC_INT.c **** *   #START and #END tags
+  26:.\Generated_Source\PSoC4/ADC_INT.c **** ******************************************************************************/
+  27:.\Generated_Source\PSoC4/ADC_INT.c **** /* `#START ADC_SYS_VAR`  */
+  28:.\Generated_Source\PSoC4/ADC_INT.c **** #include <my_defines.h>
+  29:.\Generated_Source\PSoC4/ADC_INT.c **** extern int16 result[num_of_channels];
+  30:.\Generated_Source\PSoC4/ADC_INT.c **** extern uint8 data_ready;
+  31:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  32:.\Generated_Source\PSoC4/ADC_INT.c **** /* `#END`  */
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 2
+
+
+  33:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  34:.\Generated_Source\PSoC4/ADC_INT.c **** #if(ADC_IRQ_REMOVE == 0u)
+  35:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  36:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  37:.\Generated_Source\PSoC4/ADC_INT.c ****     /******************************************************************************
+  38:.\Generated_Source\PSoC4/ADC_INT.c ****     * Function Name: ADC_ISR
+  39:.\Generated_Source\PSoC4/ADC_INT.c ****     *******************************************************************************
+  40:.\Generated_Source\PSoC4/ADC_INT.c ****     *
+  41:.\Generated_Source\PSoC4/ADC_INT.c ****     * Summary:
+  42:.\Generated_Source\PSoC4/ADC_INT.c ****     *  Handle Interrupt Service Routine.
+  43:.\Generated_Source\PSoC4/ADC_INT.c ****     *
+  44:.\Generated_Source\PSoC4/ADC_INT.c ****     * Parameters:
+  45:.\Generated_Source\PSoC4/ADC_INT.c ****     *  None.
+  46:.\Generated_Source\PSoC4/ADC_INT.c ****     *
+  47:.\Generated_Source\PSoC4/ADC_INT.c ****     * Return:
+  48:.\Generated_Source\PSoC4/ADC_INT.c ****     *  None.
+  49:.\Generated_Source\PSoC4/ADC_INT.c ****     *
+  50:.\Generated_Source\PSoC4/ADC_INT.c ****     * Reentrant:
+  51:.\Generated_Source\PSoC4/ADC_INT.c ****     *  No.
+  52:.\Generated_Source\PSoC4/ADC_INT.c ****     *
+  53:.\Generated_Source\PSoC4/ADC_INT.c ****     ******************************************************************************/
+  54:.\Generated_Source\PSoC4/ADC_INT.c ****     CY_ISR( ADC_ISR )
+  55:.\Generated_Source\PSoC4/ADC_INT.c ****     {
+  26              		.loc 1 55 0
+  27              		.cfi_startproc
+  28 0000 80B5     		push	{r7, lr}
+  29              		.cfi_def_cfa_offset 8
+  30              		.cfi_offset 7, -8
+  31              		.cfi_offset 14, -4
+  32 0002 82B0     		sub	sp, sp, #8
+  33              		.cfi_def_cfa_offset 16
+  34 0004 00AF     		add	r7, sp, #0
+  35              		.cfi_def_cfa_register 7
+  56:.\Generated_Source\PSoC4/ADC_INT.c ****         uint32 intr_status;
+  57:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  58:.\Generated_Source\PSoC4/ADC_INT.c ****         /* Read interrupt status register */
+  59:.\Generated_Source\PSoC4/ADC_INT.c ****         intr_status = ADC_SAR_INTR_REG;
+  36              		.loc 1 59 0
+  37 0006 0F4B     		ldr	r3, .L4
+  38 0008 1B68     		ldr	r3, [r3]
+  39 000a 3B60     		str	r3, [r7]
+  60:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  61:.\Generated_Source\PSoC4/ADC_INT.c ****         #ifdef ADC_ISR_INTERRUPT_CALLBACK
+  62:.\Generated_Source\PSoC4/ADC_INT.c ****             ADC_ISR_InterruptCallback();
+  63:.\Generated_Source\PSoC4/ADC_INT.c ****         #endif /* ADC_ISR_INTERRUPT_CALLBACK */
+  64:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  65:.\Generated_Source\PSoC4/ADC_INT.c **** 
+  66:.\Generated_Source\PSoC4/ADC_INT.c ****         /************************************************************************
+  67:.\Generated_Source\PSoC4/ADC_INT.c ****         *  Custom Code
+  68:.\Generated_Source\PSoC4/ADC_INT.c ****         *  - add user ISR code between the following #START and #END tags
+  69:.\Generated_Source\PSoC4/ADC_INT.c ****         *************************************************************************/
+  70:.\Generated_Source\PSoC4/ADC_INT.c ****         /* `#START MAIN_ADC_ISR`  */
+  71:.\Generated_Source\PSoC4/ADC_INT.c ****         int i;
+  72:.\Generated_Source\PSoC4/ADC_INT.c ****         for(i=0; i<num_of_channels;i++)
+  40              		.loc 1 72 0
+  41 000c 0023     		mov	r3, #0
+  42 000e 7B60     		str	r3, [r7, #4]
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 3
+
+
+  43 0010 0CE0     		b	.L2
+  44              	.L3:
+  73:.\Generated_Source\PSoC4/ADC_INT.c ****         {
+  74:.\Generated_Source\PSoC4/ADC_INT.c ****             result[i] = ADC_GetResult16(i);
+  45              		.loc 1 74 0 discriminator 3
+  46 0012 7B68     		ldr	r3, [r7, #4]
+  47 0014 181C     		mov	r0, r3
+  48 0016 FFF7FEFF 		bl	ADC_GetResult16
+  49 001a 031C     		mov	r3, r0
+  50 001c 191C     		mov	r1, r3
+  51 001e 0A4B     		ldr	r3, .L4+4
+  52 0020 7A68     		ldr	r2, [r7, #4]
+  53 0022 5200     		lsl	r2, r2, #1
+  54 0024 D152     		strh	r1, [r2, r3]
+  72:.\Generated_Source\PSoC4/ADC_INT.c ****         {
+  55              		.loc 1 72 0 discriminator 3
+  56 0026 7B68     		ldr	r3, [r7, #4]
+  57 0028 0133     		add	r3, r3, #1
+  58 002a 7B60     		str	r3, [r7, #4]
+  59              	.L2:
+  72:.\Generated_Source\PSoC4/ADC_INT.c ****         {
+  60              		.loc 1 72 0 is_stmt 0 discriminator 1
+  61 002c 7B68     		ldr	r3, [r7, #4]
+  62 002e 062B     		cmp	r3, #6
+  63 0030 EFDD     		ble	.L3
+  75:.\Generated_Source\PSoC4/ADC_INT.c ****         }
+  76:.\Generated_Source\PSoC4/ADC_INT.c ****         data_ready = TRUE;
+  64              		.loc 1 76 0 is_stmt 1
+  65 0032 064B     		ldr	r3, .L4+8
+  66 0034 0122     		mov	r2, #1
+  67 0036 1A70     		strb	r2, [r3]
+  77:.\Generated_Source\PSoC4/ADC_INT.c ****         /* `#END`  */
+  78:.\Generated_Source\PSoC4/ADC_INT.c ****         
+  79:.\Generated_Source\PSoC4/ADC_INT.c ****         /* Clear handled interrupt */
+  80:.\Generated_Source\PSoC4/ADC_INT.c ****         ADC_SAR_INTR_REG = intr_status;
+  68              		.loc 1 80 0
+  69 0038 024B     		ldr	r3, .L4
+  70 003a 3A68     		ldr	r2, [r7]
+  71 003c 1A60     		str	r2, [r3]
+  81:.\Generated_Source\PSoC4/ADC_INT.c ****     }
+  72              		.loc 1 81 0
+  73 003e BD46     		mov	sp, r7
+  74 0040 02B0     		add	sp, sp, #8
+  75              		@ sp needed
+  76 0042 80BD     		pop	{r7, pc}
+  77              	.L5:
+  78              		.align	2
+  79              	.L4:
+  80 0044 10023A40 		.word	1077543440
+  81 0048 00000000 		.word	result
+  82 004c 00000000 		.word	data_ready
+  83              		.cfi_endproc
+  84              	.LFE37:
+  85              		.size	ADC_ISR, .-ADC_ISR
+  86              		.text
+  87              	.Letext0:
+  88              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 4
+
+
+  89              		.section	.debug_info,"",%progbits
+  90              	.Ldebug_info0:
+  91 0000 0F010000 		.4byte	0x10f
+  92 0004 0400     		.2byte	0x4
+  93 0006 00000000 		.4byte	.Ldebug_abbrev0
+  94 000a 04       		.byte	0x4
+  95 000b 01       		.uleb128 0x1
+  96 000c 9E000000 		.4byte	.LASF20
+  97 0010 01       		.byte	0x1
+  98 0011 4F010000 		.4byte	.LASF21
+  99 0015 2A000000 		.4byte	.LASF22
+ 100 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 101 001d 00000000 		.4byte	0
+ 102 0021 00000000 		.4byte	.Ldebug_line0
+ 103 0025 02       		.uleb128 0x2
+ 104 0026 01       		.byte	0x1
+ 105 0027 06       		.byte	0x6
+ 106 0028 92010000 		.4byte	.LASF0
+ 107 002c 02       		.uleb128 0x2
+ 108 002d 01       		.byte	0x1
+ 109 002e 08       		.byte	0x8
+ 110 002f 2C010000 		.4byte	.LASF1
+ 111 0033 02       		.uleb128 0x2
+ 112 0034 02       		.byte	0x2
+ 113 0035 05       		.byte	0x5
+ 114 0036 AA010000 		.4byte	.LASF2
+ 115 003a 02       		.uleb128 0x2
+ 116 003b 02       		.byte	0x2
+ 117 003c 07       		.byte	0x7
+ 118 003d 7F010000 		.4byte	.LASF3
+ 119 0041 02       		.uleb128 0x2
+ 120 0042 04       		.byte	0x4
+ 121 0043 05       		.byte	0x5
+ 122 0044 46010000 		.4byte	.LASF4
+ 123 0048 02       		.uleb128 0x2
+ 124 0049 04       		.byte	0x4
+ 125 004a 07       		.byte	0x7
+ 126 004b 69000000 		.4byte	.LASF5
+ 127 004f 02       		.uleb128 0x2
+ 128 0050 08       		.byte	0x8
+ 129 0051 05       		.byte	0x5
+ 130 0052 00000000 		.4byte	.LASF6
+ 131 0056 02       		.uleb128 0x2
+ 132 0057 08       		.byte	0x8
+ 133 0058 07       		.byte	0x7
+ 134 0059 7B000000 		.4byte	.LASF7
+ 135 005d 03       		.uleb128 0x3
+ 136 005e 04       		.byte	0x4
+ 137 005f 05       		.byte	0x5
+ 138 0060 696E7400 		.ascii	"int\000"
+ 139 0064 02       		.uleb128 0x2
+ 140 0065 04       		.byte	0x4
+ 141 0066 07       		.byte	0x7
+ 142 0067 15000000 		.4byte	.LASF8
+ 143 006b 04       		.uleb128 0x4
+ 144 006c 63000000 		.4byte	.LASF9
+ 145 0070 02       		.byte	0x2
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 5
+
+
+ 146 0071 3801     		.2byte	0x138
+ 147 0073 2C000000 		.4byte	0x2c
+ 148 0077 04       		.uleb128 0x4
+ 149 0078 0E000000 		.4byte	.LASF10
+ 150 007c 02       		.byte	0x2
+ 151 007d 3A01     		.2byte	0x13a
+ 152 007f 48000000 		.4byte	0x48
+ 153 0083 04       		.uleb128 0x4
+ 154 0084 A4010000 		.4byte	.LASF11
+ 155 0088 02       		.byte	0x2
+ 156 0089 3C01     		.2byte	0x13c
+ 157 008b 33000000 		.4byte	0x33
+ 158 008f 02       		.uleb128 0x2
+ 159 0090 04       		.byte	0x4
+ 160 0091 04       		.byte	0x4
+ 161 0092 9E010000 		.4byte	.LASF12
+ 162 0096 02       		.uleb128 0x2
+ 163 0097 08       		.byte	0x8
+ 164 0098 04       		.byte	0x4
+ 165 0099 72010000 		.4byte	.LASF13
+ 166 009d 02       		.uleb128 0x2
+ 167 009e 01       		.byte	0x1
+ 168 009f 08       		.byte	0x8
+ 169 00a0 3A010000 		.4byte	.LASF14
+ 170 00a4 04       		.uleb128 0x4
+ 171 00a5 79010000 		.4byte	.LASF15
+ 172 00a9 02       		.byte	0x2
+ 173 00aa E401     		.2byte	0x1e4
+ 174 00ac B0000000 		.4byte	0xb0
+ 175 00b0 05       		.uleb128 0x5
+ 176 00b1 77000000 		.4byte	0x77
+ 177 00b5 02       		.uleb128 0x2
+ 178 00b6 04       		.byte	0x4
+ 179 00b7 07       		.byte	0x7
+ 180 00b8 BF010000 		.4byte	.LASF16
+ 181 00bc 06       		.uleb128 0x6
+ 182 00bd 22000000 		.4byte	.LASF23
+ 183 00c1 01       		.byte	0x1
+ 184 00c2 36       		.byte	0x36
+ 185 00c3 00000000 		.4byte	.LFB37
+ 186 00c7 50000000 		.4byte	.LFE37-.LFB37
+ 187 00cb 01       		.uleb128 0x1
+ 188 00cc 9C       		.byte	0x9c
+ 189 00cd EC000000 		.4byte	0xec
+ 190 00d1 07       		.uleb128 0x7
+ 191 00d2 92000000 		.4byte	.LASF17
+ 192 00d6 01       		.byte	0x1
+ 193 00d7 38       		.byte	0x38
+ 194 00d8 77000000 		.4byte	0x77
+ 195 00dc 02       		.uleb128 0x2
+ 196 00dd 91       		.byte	0x91
+ 197 00de 70       		.sleb128 -16
+ 198 00df 08       		.uleb128 0x8
+ 199 00e0 6900     		.ascii	"i\000"
+ 200 00e2 01       		.byte	0x1
+ 201 00e3 47       		.byte	0x47
+ 202 00e4 5D000000 		.4byte	0x5d
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 6
+
+
+ 203 00e8 02       		.uleb128 0x2
+ 204 00e9 91       		.byte	0x91
+ 205 00ea 74       		.sleb128 -12
+ 206 00eb 00       		.byte	0
+ 207 00ec 09       		.uleb128 0x9
+ 208 00ed 83000000 		.4byte	0x83
+ 209 00f1 FC000000 		.4byte	0xfc
+ 210 00f5 0A       		.uleb128 0xa
+ 211 00f6 B5000000 		.4byte	0xb5
+ 212 00fa 06       		.byte	0x6
+ 213 00fb 00       		.byte	0
+ 214 00fc 0B       		.uleb128 0xb
+ 215 00fd 3F010000 		.4byte	.LASF18
+ 216 0101 01       		.byte	0x1
+ 217 0102 1D       		.byte	0x1d
+ 218 0103 EC000000 		.4byte	0xec
+ 219 0107 0B       		.uleb128 0xb
+ 220 0108 B4010000 		.4byte	.LASF19
+ 221 010c 01       		.byte	0x1
+ 222 010d 1E       		.byte	0x1e
+ 223 010e 6B000000 		.4byte	0x6b
+ 224 0112 00       		.byte	0
+ 225              		.section	.debug_abbrev,"",%progbits
+ 226              	.Ldebug_abbrev0:
+ 227 0000 01       		.uleb128 0x1
+ 228 0001 11       		.uleb128 0x11
+ 229 0002 01       		.byte	0x1
+ 230 0003 25       		.uleb128 0x25
+ 231 0004 0E       		.uleb128 0xe
+ 232 0005 13       		.uleb128 0x13
+ 233 0006 0B       		.uleb128 0xb
+ 234 0007 03       		.uleb128 0x3
+ 235 0008 0E       		.uleb128 0xe
+ 236 0009 1B       		.uleb128 0x1b
+ 237 000a 0E       		.uleb128 0xe
+ 238 000b 55       		.uleb128 0x55
+ 239 000c 17       		.uleb128 0x17
+ 240 000d 11       		.uleb128 0x11
+ 241 000e 01       		.uleb128 0x1
+ 242 000f 10       		.uleb128 0x10
+ 243 0010 17       		.uleb128 0x17
+ 244 0011 00       		.byte	0
+ 245 0012 00       		.byte	0
+ 246 0013 02       		.uleb128 0x2
+ 247 0014 24       		.uleb128 0x24
+ 248 0015 00       		.byte	0
+ 249 0016 0B       		.uleb128 0xb
+ 250 0017 0B       		.uleb128 0xb
+ 251 0018 3E       		.uleb128 0x3e
+ 252 0019 0B       		.uleb128 0xb
+ 253 001a 03       		.uleb128 0x3
+ 254 001b 0E       		.uleb128 0xe
+ 255 001c 00       		.byte	0
+ 256 001d 00       		.byte	0
+ 257 001e 03       		.uleb128 0x3
+ 258 001f 24       		.uleb128 0x24
+ 259 0020 00       		.byte	0
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 7
+
+
+ 260 0021 0B       		.uleb128 0xb
+ 261 0022 0B       		.uleb128 0xb
+ 262 0023 3E       		.uleb128 0x3e
+ 263 0024 0B       		.uleb128 0xb
+ 264 0025 03       		.uleb128 0x3
+ 265 0026 08       		.uleb128 0x8
+ 266 0027 00       		.byte	0
+ 267 0028 00       		.byte	0
+ 268 0029 04       		.uleb128 0x4
+ 269 002a 16       		.uleb128 0x16
+ 270 002b 00       		.byte	0
+ 271 002c 03       		.uleb128 0x3
+ 272 002d 0E       		.uleb128 0xe
+ 273 002e 3A       		.uleb128 0x3a
+ 274 002f 0B       		.uleb128 0xb
+ 275 0030 3B       		.uleb128 0x3b
+ 276 0031 05       		.uleb128 0x5
+ 277 0032 49       		.uleb128 0x49
+ 278 0033 13       		.uleb128 0x13
+ 279 0034 00       		.byte	0
+ 280 0035 00       		.byte	0
+ 281 0036 05       		.uleb128 0x5
+ 282 0037 35       		.uleb128 0x35
+ 283 0038 00       		.byte	0
+ 284 0039 49       		.uleb128 0x49
+ 285 003a 13       		.uleb128 0x13
+ 286 003b 00       		.byte	0
+ 287 003c 00       		.byte	0
+ 288 003d 06       		.uleb128 0x6
+ 289 003e 2E       		.uleb128 0x2e
+ 290 003f 01       		.byte	0x1
+ 291 0040 3F       		.uleb128 0x3f
+ 292 0041 19       		.uleb128 0x19
+ 293 0042 03       		.uleb128 0x3
+ 294 0043 0E       		.uleb128 0xe
+ 295 0044 3A       		.uleb128 0x3a
+ 296 0045 0B       		.uleb128 0xb
+ 297 0046 3B       		.uleb128 0x3b
+ 298 0047 0B       		.uleb128 0xb
+ 299 0048 27       		.uleb128 0x27
+ 300 0049 19       		.uleb128 0x19
+ 301 004a 11       		.uleb128 0x11
+ 302 004b 01       		.uleb128 0x1
+ 303 004c 12       		.uleb128 0x12
+ 304 004d 06       		.uleb128 0x6
+ 305 004e 40       		.uleb128 0x40
+ 306 004f 18       		.uleb128 0x18
+ 307 0050 9642     		.uleb128 0x2116
+ 308 0052 19       		.uleb128 0x19
+ 309 0053 01       		.uleb128 0x1
+ 310 0054 13       		.uleb128 0x13
+ 311 0055 00       		.byte	0
+ 312 0056 00       		.byte	0
+ 313 0057 07       		.uleb128 0x7
+ 314 0058 34       		.uleb128 0x34
+ 315 0059 00       		.byte	0
+ 316 005a 03       		.uleb128 0x3
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 8
+
+
+ 317 005b 0E       		.uleb128 0xe
+ 318 005c 3A       		.uleb128 0x3a
+ 319 005d 0B       		.uleb128 0xb
+ 320 005e 3B       		.uleb128 0x3b
+ 321 005f 0B       		.uleb128 0xb
+ 322 0060 49       		.uleb128 0x49
+ 323 0061 13       		.uleb128 0x13
+ 324 0062 02       		.uleb128 0x2
+ 325 0063 18       		.uleb128 0x18
+ 326 0064 00       		.byte	0
+ 327 0065 00       		.byte	0
+ 328 0066 08       		.uleb128 0x8
+ 329 0067 34       		.uleb128 0x34
+ 330 0068 00       		.byte	0
+ 331 0069 03       		.uleb128 0x3
+ 332 006a 08       		.uleb128 0x8
+ 333 006b 3A       		.uleb128 0x3a
+ 334 006c 0B       		.uleb128 0xb
+ 335 006d 3B       		.uleb128 0x3b
+ 336 006e 0B       		.uleb128 0xb
+ 337 006f 49       		.uleb128 0x49
+ 338 0070 13       		.uleb128 0x13
+ 339 0071 02       		.uleb128 0x2
+ 340 0072 18       		.uleb128 0x18
+ 341 0073 00       		.byte	0
+ 342 0074 00       		.byte	0
+ 343 0075 09       		.uleb128 0x9
+ 344 0076 01       		.uleb128 0x1
+ 345 0077 01       		.byte	0x1
+ 346 0078 49       		.uleb128 0x49
+ 347 0079 13       		.uleb128 0x13
+ 348 007a 01       		.uleb128 0x1
+ 349 007b 13       		.uleb128 0x13
+ 350 007c 00       		.byte	0
+ 351 007d 00       		.byte	0
+ 352 007e 0A       		.uleb128 0xa
+ 353 007f 21       		.uleb128 0x21
+ 354 0080 00       		.byte	0
+ 355 0081 49       		.uleb128 0x49
+ 356 0082 13       		.uleb128 0x13
+ 357 0083 2F       		.uleb128 0x2f
+ 358 0084 0B       		.uleb128 0xb
+ 359 0085 00       		.byte	0
+ 360 0086 00       		.byte	0
+ 361 0087 0B       		.uleb128 0xb
+ 362 0088 34       		.uleb128 0x34
+ 363 0089 00       		.byte	0
+ 364 008a 03       		.uleb128 0x3
+ 365 008b 0E       		.uleb128 0xe
+ 366 008c 3A       		.uleb128 0x3a
+ 367 008d 0B       		.uleb128 0xb
+ 368 008e 3B       		.uleb128 0x3b
+ 369 008f 0B       		.uleb128 0xb
+ 370 0090 49       		.uleb128 0x49
+ 371 0091 13       		.uleb128 0x13
+ 372 0092 3F       		.uleb128 0x3f
+ 373 0093 19       		.uleb128 0x19
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 9
+
+
+ 374 0094 3C       		.uleb128 0x3c
+ 375 0095 19       		.uleb128 0x19
+ 376 0096 00       		.byte	0
+ 377 0097 00       		.byte	0
+ 378 0098 00       		.byte	0
+ 379              		.section	.debug_aranges,"",%progbits
+ 380 0000 1C000000 		.4byte	0x1c
+ 381 0004 0200     		.2byte	0x2
+ 382 0006 00000000 		.4byte	.Ldebug_info0
+ 383 000a 04       		.byte	0x4
+ 384 000b 00       		.byte	0
+ 385 000c 0000     		.2byte	0
+ 386 000e 0000     		.2byte	0
+ 387 0010 00000000 		.4byte	.LFB37
+ 388 0014 50000000 		.4byte	.LFE37-.LFB37
+ 389 0018 00000000 		.4byte	0
+ 390 001c 00000000 		.4byte	0
+ 391              		.section	.debug_ranges,"",%progbits
+ 392              	.Ldebug_ranges0:
+ 393 0000 00000000 		.4byte	.LFB37
+ 394 0004 50000000 		.4byte	.LFE37
+ 395 0008 00000000 		.4byte	0
+ 396 000c 00000000 		.4byte	0
+ 397              		.section	.debug_line,"",%progbits
+ 398              	.Ldebug_line0:
+ 399 0000 73000000 		.section	.debug_str,"MS",%progbits,1
+ 399      02004600 
+ 399      00000201 
+ 399      FB0E0D00 
+ 399      01010101 
+ 400              	.LASF6:
+ 401 0000 6C6F6E67 		.ascii	"long long int\000"
+ 401      206C6F6E 
+ 401      6720696E 
+ 401      7400
+ 402              	.LASF10:
+ 403 000e 75696E74 		.ascii	"uint32\000"
+ 403      333200
+ 404              	.LASF8:
+ 405 0015 756E7369 		.ascii	"unsigned int\000"
+ 405      676E6564 
+ 405      20696E74 
+ 405      00
+ 406              	.LASF23:
+ 407 0022 4144435F 		.ascii	"ADC_ISR\000"
+ 407      49535200 
+ 408              	.LASF22:
+ 409 002a 433A5C55 		.ascii	"C:\\Users\\Linette Helena\\Desktop\\store_kit_7kana"
+ 409      73657273 
+ 409      5C4C696E 
+ 409      65747465 
+ 409      2048656C 
+ 410 0059 6C65722E 		.ascii	"ler.cydsn\000"
+ 410      63796473 
+ 410      6E00
+ 411              	.LASF9:
+ 412 0063 75696E74 		.ascii	"uint8\000"
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 10
+
+
+ 412      3800
+ 413              	.LASF5:
+ 414 0069 6C6F6E67 		.ascii	"long unsigned int\000"
+ 414      20756E73 
+ 414      69676E65 
+ 414      6420696E 
+ 414      7400
+ 415              	.LASF7:
+ 416 007b 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 416      206C6F6E 
+ 416      6720756E 
+ 416      7369676E 
+ 416      65642069 
+ 417              	.LASF17:
+ 418 0092 696E7472 		.ascii	"intr_status\000"
+ 418      5F737461 
+ 418      74757300 
+ 419              	.LASF20:
+ 420 009e 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 420      4320342E 
+ 420      392E3320 
+ 420      32303135 
+ 420      30333033 
+ 421 00d1 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 421      20726576 
+ 421      6973696F 
+ 421      6E203232 
+ 421      31323230 
+ 422 0104 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 422      66756E63 
+ 422      74696F6E 
+ 422      2D736563 
+ 422      74696F6E 
+ 423              	.LASF1:
+ 424 012c 756E7369 		.ascii	"unsigned char\000"
+ 424      676E6564 
+ 424      20636861 
+ 424      7200
+ 425              	.LASF14:
+ 426 013a 63686172 		.ascii	"char\000"
+ 426      00
+ 427              	.LASF18:
+ 428 013f 72657375 		.ascii	"result\000"
+ 428      6C7400
+ 429              	.LASF4:
+ 430 0146 6C6F6E67 		.ascii	"long int\000"
+ 430      20696E74 
+ 430      00
+ 431              	.LASF21:
+ 432 014f 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\ADC_INT.c\000"
+ 432      6E657261 
+ 432      7465645F 
+ 432      536F7572 
+ 432      63655C50 
+ 433              	.LASF13:
+ 434 0172 646F7562 		.ascii	"double\000"
+ 434      6C6500
+ARM GAS  C:\Users\LINETT~1\AppData\Local\Temp\ccue8JKI.s 			page 11
+
+
+ 435              	.LASF15:
+ 436 0179 72656733 		.ascii	"reg32\000"
+ 436      3200
+ 437              	.LASF3:
+ 438 017f 73686F72 		.ascii	"short unsigned int\000"
+ 438      7420756E 
+ 438      7369676E 
+ 438      65642069 
+ 438      6E7400
+ 439              	.LASF0:
+ 440 0192 7369676E 		.ascii	"signed char\000"
+ 440      65642063 
+ 440      68617200 
+ 441              	.LASF12:
+ 442 019e 666C6F61 		.ascii	"float\000"
+ 442      7400
+ 443              	.LASF11:
+ 444 01a4 696E7431 		.ascii	"int16\000"
+ 444      3600
+ 445              	.LASF2:
+ 446 01aa 73686F72 		.ascii	"short int\000"
+ 446      7420696E 
+ 446      7400
+ 447              	.LASF19:
+ 448 01b4 64617461 		.ascii	"data_ready\000"
+ 448      5F726561 
+ 448      647900
+ 449              	.LASF16:
+ 450 01bf 73697A65 		.ascii	"sizetype\000"
+ 450      74797065 
+ 450      00
+ 451              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

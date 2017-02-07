@@ -1,0 +1,1 @@
+Den lille stick der er koblet op med pioneer boardet er central og den ved computeren er peripheral. Begge sticks har echo_interrupt 

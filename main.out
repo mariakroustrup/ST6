@@ -1,0 +1,108 @@
+\BOOKMARK [0][-]{titelblad.0}{Titelblad}{}% 1
+\BOOKMARK [0][-]{indhold.0}{Indholdsfortegnelse}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Indledning}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Initierende problemstilling}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Problemanalyse}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Amyotrofisk lateral sklerose}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Livskvalitet hos ALS-patienter}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Hj\346lpemidler til ALS-patienter}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Teknologiske hj\346lpemidler}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Body augmentation-system som hj\346lpemiddel}{section.2.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Gangfunktion}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.3.1}{Kn\346ets opbygning}{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.2}{Kn\346ets funktion}{section.2.3}% 13
+\BOOKMARK [1][-]{section.2.4}{Problemafgr\346nsning}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{Problemformulering}{section.2.4}% 15
+\BOOKMARK [0][-]{chapter.3}{Systemudvikling}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Systembeskrivelse}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{Overordnet krav til systemet}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{Blokdiagram}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{L\370sningsstrategi}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Teori og design}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Analog del}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.1.1}{Opsamling af accelerometersignaler}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{Opsamling og behandling af EMG-signaler}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.3}{Sp\346ndingsforsyning}{section.4.1}% 25
+\BOOKMARK [1][-]{section.4.2}{Digital del}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Analog-to-Digital Converter}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.2}{Digital filtrering}{section.4.2}% 28
+\BOOKMARK [2][-]{subsection.4.2.3}{Accelerometeralgoritme}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.4}{EMG-algoritme}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.5}{Tr\345dl\370s kommunikation}{section.4.2}% 31
+\BOOKMARK [0][-]{chapter.5}{Implementering}{}% 32
+\BOOKMARK [1][-]{section.5.1}{Analog del}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.1.1}{Opsamling af accelerometersignaler}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.2}{Opsamling og behandling af EMG-signaler}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.3}{Sp\346ndingsforsyning}{section.5.1}% 36
+\BOOKMARK [1][-]{section.5.2}{Digital del}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{Analog-to-Digital Converter}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{Digital filtrering}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.3}{Accelerometeralgoritme}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.4}{EMG-algoritme}{section.5.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.5}{Tr\345dl\370s kommunikation}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.6}{Flowdiagram}{section.5.2}% 43
+\BOOKMARK [1][-]{section.5.3}{\306ndringer ved det samlede system}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.3.1}{Sp\346ndingsforsyning}{section.5.3}% 45
+\BOOKMARK [2][-]{subsection.5.3.2}{Accelerometeralgoritme}{section.5.3}% 46
+\BOOKMARK [0][-]{chapter.6}{Test}{}% 47
+\BOOKMARK [1][-]{section.6.1}{Analog del}{chapter.6}% 48
+\BOOKMARK [2][-]{subsection.6.1.1}{Opsamling af accelerometersignaler}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.2}{Opsamling og behandling af EMG-signaler}{section.6.1}% 50
+\BOOKMARK [2][-]{subsection.6.1.3}{Sp\346ndingsforsyning}{section.6.1}% 51
+\BOOKMARK [1][-]{section.6.2}{Digital del}{chapter.6}% 52
+\BOOKMARK [2][-]{subsection.6.2.1}{Analog-to-Digital Converter}{section.6.2}% 53
+\BOOKMARK [2][-]{subsection.6.2.2}{Digital filtrering}{section.6.2}% 54
+\BOOKMARK [2][-]{subsection.6.2.3}{Accelerometeralgoritme}{section.6.2}% 55
+\BOOKMARK [2][-]{subsection.6.2.4}{EMG-algoritme}{section.6.2}% 56
+\BOOKMARK [2][-]{subsection.6.2.5}{Tr\345dl\370s kommunikation}{section.6.2}% 57
+\BOOKMARK [0][-]{chapter.7}{Systemtest}{}% 58
+\BOOKMARK [1][-]{section.7.1}{Systemtest med kendt input}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.1.1}{Beskrivelse}{section.7.1}% 60
+\BOOKMARK [2][-]{subsection.7.1.2}{Resultater af test}{section.7.1}% 61
+\BOOKMARK [1][-]{section.7.2}{Systemtest med bruger-input}{chapter.7}% 62
+\BOOKMARK [2][-]{subsection.7.2.1}{Beskrivelse}{section.7.2}% 63
+\BOOKMARK [2][-]{subsection.7.2.2}{Resultater af fors\370g}{section.7.2}% 64
+\BOOKMARK [1][-]{section.7.3}{Konklusion af systemtest}{chapter.7}% 65
+\BOOKMARK [0][-]{chapter.8}{Syntese}{}% 66
+\BOOKMARK [1][-]{section.8.1}{Diskussion}{chapter.8}% 67
+\BOOKMARK [2][-]{subsection.8.1.1}{Test af blokke}{section.8.1}% 68
+\BOOKMARK [2][-]{subsection.8.1.2}{Samlet systemtest}{section.8.1}% 69
+\BOOKMARK [1][-]{section.8.2}{Konklusion}{chapter.8}% 70
+\BOOKMARK [1][-]{section.8.3}{Perspektivering}{chapter.8}% 71
+\BOOKMARK [2][-]{subsection.8.3.1}{Et ideelt system}{section.8.3}% 72
+\BOOKMARK [0][-]{section*.81}{Litteratur}{}% 73
+\BOOKMARK [0][-]{appendix.A}{Pilotfors\370g}{}% 74
+\BOOKMARK [1][-]{section.A.1}{Form\345l}{appendix.A}% 75
+\BOOKMARK [2][-]{subsection.A.1.1}{EMG-m\345ling}{section.A.1}% 76
+\BOOKMARK [2][-]{subsection.A.1.2}{Accelerometerm\345ling}{section.A.1}% 77
+\BOOKMARK [1][-]{section.A.2}{Materialer}{appendix.A}% 78
+\BOOKMARK [1][-]{section.A.3}{Metode}{appendix.A}% 79
+\BOOKMARK [2][-]{subsection.A.3.1}{Fors\370gsopstilling}{section.A.3}% 80
+\BOOKMARK [2][-]{subsection.A.3.2}{Oversigt af fors\370gsopstilling}{section.A.3}% 81
+\BOOKMARK [2][-]{subsection.A.3.3}{Fremgangsm\345de}{section.A.3}% 82
+\BOOKMARK [1][-]{section.A.4}{Databehandling}{appendix.A}% 83
+\BOOKMARK [2][-]{subsection.A.4.1}{Resultater for EMG-m\345linger}{section.A.4}% 84
+\BOOKMARK [2][-]{subsection.A.4.2}{Resultater for accelerometer m\345linger}{section.A.4}% 85
+\BOOKMARK [0][-]{appendix.B}{Test af accelerometer}{}% 86
+\BOOKMARK [1][-]{section.B.1}{Form\345l}{appendix.B}% 87
+\BOOKMARK [1][-]{section.B.2}{Materialer}{appendix.B}% 88
+\BOOKMARK [1][-]{section.B.3}{Metode}{appendix.B}% 89
+\BOOKMARK [1][-]{section.B.4}{Fors\370gsopstilling}{appendix.B}% 90
+\BOOKMARK [2][-]{subsection.B.4.1}{Deltest 1}{section.B.4}% 91
+\BOOKMARK [2][-]{subsection.B.4.2}{Deltest 2}{section.B.4}% 92
+\BOOKMARK [1][-]{section.B.5}{Fremgangsm\345de}{appendix.B}% 93
+\BOOKMARK [2][-]{subsection.B.5.1}{Deltest 1}{section.B.5}% 94
+\BOOKMARK [2][-]{subsection.B.5.2}{Deltest 2}{section.B.5}% 95
+\BOOKMARK [1][-]{section.B.6}{Resultater}{appendix.B}% 96
+\BOOKMARK [2][-]{subsection.B.6.1}{Deltest 1}{section.B.6}% 97
+\BOOKMARK [2][-]{subsection.B.6.2}{Deltest 2}{section.B.6}% 98
+\BOOKMARK [0][-]{appendix.C}{ADC}{}% 99
+\BOOKMARK [1][-]{section.C.1}{Ops\346tning}{appendix.C}% 100
+\BOOKMARK [2][-]{subsection.C.1.1}{Bestemmelse af samplingsfrekvens}{section.C.1}% 101
+\BOOKMARK [2][-]{subsection.C.1.2}{Arbejdsomr\345de for ADC}{section.C.1}% 102
+\BOOKMARK [2][-]{subsection.C.1.3}{Gennemsnits samples}{section.C.1}% 103
+\BOOKMARK [0][-]{appendix.D}{Brugersikkerhed}{}% 104
+\BOOKMARK [1][-]{section.D.1}{Sikkerhedsforanstaltninger}{appendix.D}% 105
+\BOOKMARK [2][-]{subsection.D.1.1}{Jording}{section.D.1}% 106
+\BOOKMARK [2][-]{subsection.D.1.2}{Isolation}{section.D.1}% 107
+\BOOKMARK [1][-]{section.D.2}{Implementering af brugersikkerhed}{appendix.D}% 108
