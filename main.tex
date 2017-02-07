@@ -7,9 +7,6 @@
 
 \frontmatter	 % Forindhold - nummereres med romertal
 \input{rapportAfsnit/xFormaliteter/Forside}
-\input{rapportAfsnit/xFormaliteter/titelblad}
-\input{rapportAfsnit/xFormaliteter/Forord}
-\input{rapportAfsnit/xFormaliteter/Laesevejledning}
 \clearpage
 
 %%%% Indholdsfortegnelse (TOC) %%%%
@@ -22,110 +19,39 @@
 \mainmatter
 
 %Introduktion--------------------------------
-%\chapter{Indledning}\label{Indledning}
-\input{rapportAfsnit/bInitierende/Indledning}
-\input{rapportAfsnit/bInitierende/initierende_spg}
+
 
 %-----------------------Problemanalyse---------------------------
-\chapter{Problemanalyse}
-\input{rapportAfsnit/cProblemanalyse/ALS}
-%\input{rapportAfsnit/cProblemanalyse/Foelger} Denne skal ikke være med i master dokumentet. 
-\input{rapportAfsnit/cProblemanalyse/Livskvalitet}
-\input{rapportAfsnit/cProblemanalyse/Nuvaerende_teknologier} 
-\input{rapportAfsnit/cProblemanalyse/Knaeleddet}
-\input{rapportAfsnit/dProblemformulering/Problemafgraensning}
+
 
 %%-----------------------System udvikling-------------------------
-\chapter{Systemudvikling} 
-\input{rapportAfsnit/eProblemloesning/systembeskrivelse}
-%\input{rapportAfsnit/eProblemloesning/EMG}
-%\input{rapportAfsnit/eProblemloesning/acc}
-\input{rapportAfsnit/eProblemloesning/loesningsstrategi}
 
 
 
 %%-----------------------Teori-------------------------
-\chapter{Teori og design}
-%%\section{Analog del}
-\input{rapportAfsnit/eProblemloesning/opsamling}
-\input{rapportAfsnit/eProblemloesning/acc_teori_krav}
-\input{rapportAfsnit/eProblemloesning/EMG_teori_krav}
-\input{rapportAfsnit/eProblemloesning/spaendingsforsyning}
-%\section{Digital del}
-\input{rapportAfsnit/eProblemloesning/indledning_digital}
-\input{rapportAfsnit/eProblemloesning/adc_teori}
-\input{rapportAfsnit/eProblemloesning/digital_filtrering}
-\input{rapportAfsnit/eProblemloesning/vinkelberegning}
-\input{rapportAfsnit/eProblemloesning/emg_algoritme}
-\input{rapportAfsnit/eProblemloesning/traadloes_kommunikation}
+
 
 
 
 %%-----------------------Implementering-------------------------
-\chapter{Implementering}
 
-%%\section{Analog del}
-\input{rapportAfsnit/eProblemloesning/Implementering/opsamling_imp}
-\input{rapportAfsnit/eProblemloesning/Implementering/acc}
-\input{rapportAfsnit/eProblemloesning/Implementering/EMG}
-\input{rapportAfsnit/eProblemloesning/Implementering/spaendingsforsyning_imp}
-
-%%\section{Digital del}
-\input{rapportAfsnit/eProblemloesning/Implementering/indledning_digital_imp}
-\input{rapportAfsnit/eProblemloesning/Implementering/ADC}
-\input{rapportAfsnit/eProblemloesning/Implementering/digital_filtrering}
-\input{rapportAfsnit/eProblemloesning/Implementering/lavpasfilter}
-\input{rapportAfsnit/eProblemloesning/Implementering/mavgfilter}
-\input{rapportAfsnit/eProblemloesning/Implementering/vinkelberegning} 
-\input{rapportAfsnit/eProblemloesning/Implementering/emg_algo_imp}
-\input{rapportAfsnit/eProblemloesning/Implementering/traadloes_komm_imp}
-%\input{rapportAfsnit/eProblemloesning/Implementering/lowpower}
-\input{rapportAfsnit/eProblemloesning/Implementering/flowchart}
-\input{rapportAfsnit/eProblemloesning/Implementering/samlet_imp}
 
 %%-----------------------Test-------------------------%%
-\chapter{Test}
-%%\section{Analog del}
-\input{rapportAfsnit/eProblemloesning/Test/analog_test}
-\input{rapportAfsnit/eProblemloesning/Test/test_emg_acc}
-\input{rapportAfsnit/eProblemloesning/Test/spaendingsforsyning_test} 
 
-%%\section{Digital del}
-\input{rapportAfsnit/eProblemloesning/Test/digital_test}
-\input{rapportAfsnit/eProblemloesning/Test/ADC_test}
-\input{rapportAfsnit/eProblemloesning/Test/digital_filtrering}
-\input{rapportAfsnit/eProblemloesning/Test/lavpas_test}
-\input{rapportAfsnit/eProblemloesning/Test/mavg_test}
-\input{rapportAfsnit/eProblemloesning/Test/test_grader}
-\input{rapportAfsnit/eProblemloesning/Test/emg_algo_test}
-\input{rapportAfsnit/eProblemloesning/Test/traadloes_komm_test} 
-%%-----------------------Systemtest-------------------------%%
-\input{rapportAfsnit/eProblemloesning/Systemtest/systemtest}
-
-
-
-%%-----------------------Syntese-------------------------%%
-\chapter{Syntese}
-\input{rapportAfsnit/rSyntese/diskussion}
-\input{rapportAfsnit/rSyntese/konklusion}
-\input{rapportAfsnit/rSyntese/perspektivering}
 
 %\iffalse
 \begingroup
 \raggedright
 
 \bibliographystyle{unsrtnat}
-\bibliography{kilder}
+%\bibliography{kilder}
 
 \endgroup
 
 %-----------------------Bilag-------------------------
 \appendix
 %\chapter{Bilag}
-\input{rapportAfsnit/gPilotforsoeg/Pilotforsoeg}
-\input{rapportAfsnit/gPilotforsoeg/test_acc}
-\input{rapportAfsnit/mBilag/ADC_bilag}
-\input{rapportAfsnit/mBilag/Brugersikkerhed}
+
 
 %\fi
 \end{document}
