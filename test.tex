@@ -5,18 +5,14 @@
 
 \begin{document}
 
-
 \frontmatter	 % Forindhold - nummereres med romertal
-
-%implementing title sheet:
 \input{rapportAfsnit/xFormaliteter/Forside}
-\input{rapportAfsnit/xFormaliteter/titleSheet.tex} %	\cleardoublepage
 \clearpage
 
 %%%% Indholdsfortegnelse (TOC) %%%%
 \phantomsection													% Kunstigt afsnit, som hyperlinks kan 'holde fast i'
 \pdfbookmark[0]{Indholdsfortegnelse}{indhold}					% Tildeler en klikbar bookmark til den endelige PDF
-\tableofcontents*												% Indholdsfortegnelsen (kaldet ToC) 
+\tableofcontents*												% Indholdsfortegnelsen (kaldet To) 
 %\clearpage
 %\addtocontents{toc}{\protect\newpage}							% Fremtvinger sideskift i ToC hvis noedvendig (der hvor koden placeres)
 
@@ -41,7 +37,7 @@
 
 
 %%-----------------------Test-------------------------%%
-
+\input{rapportAfsnit/cProblemanalyse/Lungerne}
 
 %\iffalse
 \begingroup
