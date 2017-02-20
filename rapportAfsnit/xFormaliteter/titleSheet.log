@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  10 FEB 2017 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  20 FEB 2017 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -90,7 +90,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-<argument> ...tBlue}{{$5$. Semester}}}}\\ {\small 
+<argument> ...tBlue}{{$6$. Semester}}}}\\ {\small 
                                                   \textbf {\textcolor {Midni...
 l.17 			\end{tabular}}}
                        
@@ -241,7 +241,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -254,7 +254,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
+              &
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -265,9 +295,9 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-<argument> ...\par \par \item {Tema:} \par \small 
-                                                  { Klinisk teknologi } \par...
-l.66 \vfill }
+<argument> ...XX\\ \par \item {Tema:} \par \small 
+                                                  { Design af sundhedsteknol...
+l.62 \vfill }
               &
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -275,13 +305,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no K in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no k in font nullfont!
@@ -291,6 +330,17 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 
 ! LaTeX Error: \begin{tabular} on input line 20 ended by \end{description}.
 
@@ -298,7 +348,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -311,7 +361,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -324,7 +374,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -346,10 +396,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no Ã in font nullfont!
 Missing character: There is no ¥ in font nullfont!
@@ -357,7 +405,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -368,7 +416,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -390,7 +438,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -401,7 +449,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -418,6 +466,31 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -459,103 +532,42 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no J in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no M in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no K in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no k in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -566,7 +578,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -595,77 +607,26 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no B in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no E in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no R in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no C in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no K in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 
 ! LaTeX Error: \begin{tabular} on input line 20 ended by \end{description}.
 
@@ -673,29 +634,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -706,14 +657,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 66--66
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 62--62
 []$[]$ 
  []
 
@@ -724,7 +675,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -735,8 +686,6 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -744,7 +693,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -755,7 +704,6 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no 3 in font nullfont!
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -763,7 +711,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -787,7 +735,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \vfill }
+l.62 \vfill }
               &
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -804,8 +752,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
 <argument> ...boxrestore \bigskip {\vfill {\small 
-                                                  \input {contents/xFormalit...
-l.77    \end{tabular}}
+                                                  \input {rapportAfsnit/xFor...
+l.73    \end{tabular}}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -814,7 +762,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: File `contents/xFormaliteter/synopsis.tex' not found.
+! LaTeX Error: File `rapportAfsnit/xFormaliteter/synopsis.tex' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
@@ -823,14 +771,14 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.77    \end{tabular}}
+l.73    \end{tabular}}
                       ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
  17 strings out of 493089
- 277 string characters out of 6134843
+ 282 string characters out of 6134843
  55199 words of memory out of 5000000
  3599 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
