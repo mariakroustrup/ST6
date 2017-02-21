@@ -1,0 +1,76 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hauschildt and Ravn(2016)]{Basisbogen2016}
+Pernille Hauschildt and Jesper Ravn.
+\newblock \emph{{Basisbogen i Medicin og Kirurgi}}.
+\newblock 2016.
+
+\bibitem[Martinez(2016)]{Martinez2016}
+Fernado~D. Martinez.
+\newblock {Early-Life Origins of Chronic Obstructive Pulmonary Diease}.
+\newblock \emph{Asthma and Airway Disease Research Center, University of
+  Arizona, Tucson.}, 2016.
+
+\bibitem[{Dansk Selskab for Almen Medicin}(2016)]{dsam2016}
+{Dansk Selskab for Almen Medicin}.
+\newblock {KOL}.
+\newblock 2016.
+\newblock URL
+  \url{http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=942{\&}gotoChapter=942}.
+
+\bibitem[Lange(2015)]{Lange2015}
+Peter Lange.
+\newblock {Kronisk obstruktiv lungesygdom}.
+\newblock \emph{Sygdomsleksikon}, 2015.
+\newblock URL
+  \url{http://www.apoteket.dk/Sygdomsleksikon/SygdommeEgenproduktion/Kronisk
+  bronkitis - KOL Rygerlunger.aspx}.
+
+\bibitem[Healthguidances(2016)]{Healthguidances2016}
+Healthguidances.
+\newblock {Are You A Pink Puffer or A Blue Bloater}.
+\newblock 2016.
+\newblock URL
+  \url{http://www.healthguidances.com/pink-puffer-vs-blue-bloater/}.
+
+\bibitem[Frausing(2011{\natexlab{a}})]{Frausing2011}
+Ejvind Frausing.
+\newblock {Kronisk bronkitis}.
+\newblock \emph{Lungeforeningen}, 2011{\natexlab{a}}.
+\newblock URL \url{https://www.lunge.dk/kronisk-bronkitis}.
+
+\bibitem[{The Editors of Encyclop{\ae}dia Britannica}(2016)]{Britannica2016}
+{The Editors of Encyclop{\ae}dia Britannica}.
+\newblock {Bronchitis}.
+\newblock \emph{Encyctop{\ae}dia Britannica}, 2016.
+\newblock URL \url{https://global.britannica.com/science/bronchitis}.
+
+\bibitem[Frausing(2011{\natexlab{b}})]{Frausing2011a}
+Ejvind Frausing.
+\newblock {Emfysem}.
+\newblock \emph{Lungeforeningen}, 2011{\natexlab{b}}.
+\newblock URL \url{https://www.lunge.dk/emfysem}.
+
+\bibitem[Flaschen-Hansen(2008)]{Flaschen-Hansen2008}
+John Flaschen-Hansen.
+\newblock {Emphysema}.
+\newblock \emph{Encyctop{\ae}dia Britannica}, 2008.
+
+\bibitem[and Others(2012)]{Martini2012}
+Frederic H.~Martini and Others.
+\newblock \emph{{Fundamentals of Anatomy {\&} Physiology}}.
+\newblock 2012.
+\newblock ISBN 978-0-321-70933-2.
+
+\bibitem[and~others Sand(2008)]{Sand2008}
+Olav and~others Sand.
+\newblock \emph{{Menneskets anatomi og fysiologi}}.
+\newblock 2008.
+\newblock ISBN 9788712042983.
+
+\end{thebibliography}

@@ -12,10 +12,11 @@
 \contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{5}{section*.8}
 \contentsline {subsection}{\numberline {2.1.4}Behandling}{6}{subsection.2.1.4}
 \contentsline {subsection}{\numberline {2.1.5}Livskvalitet}{7}{subsection.2.1.5}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{8}{appendix.A}
-\contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{8}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Ventilation}{8}{subsection.A.1.1}
-\contentsline {subsubsection}{Inspiration}{8}{section*.12}
-\contentsline {subsubsection}{Eksspiration}{8}{section*.13}
-\contentsline {subsection}{\numberline {A.1.2}Respiration}{8}{subsection.A.1.2}
-\contentsline {subsubsection}{Transport af ilt}{9}{section*.14}
+\contentsline {chapter}{Litteratur}{8}{section*.13}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{9}{appendix.A}
+\contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{9}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Ventilation}{9}{subsection.A.1.1}
+\contentsline {subsubsection}{Inspiration}{9}{section*.14}
+\contentsline {subsubsection}{Eksspiration}{9}{section*.15}
+\contentsline {subsection}{\numberline {A.1.2}Respiration}{9}{subsection.A.1.2}
+\contentsline {subsubsection}{Transport af ilt}{10}{section*.16}
