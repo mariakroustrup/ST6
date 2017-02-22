@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  22 FEB 2017 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  22 FEB 2017 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2085,7 +2085,7 @@ Package babel Info: Redefining danish shorthand "~
 Package natbib Warning: Citation `Sundhed2013' on page 3 undefined on input lin
 e 8.
 
-<figures/FEV.png, id=174, 612.2875pt x 388.45125pt>
+<figures/FEV.png, id=172, 612.2875pt x 388.45125pt>
 File: figures/FEV.png Graphic file (type png)
  <use figures/FEV.png>
 Package pdftex.def Info: figures/FEV.png used on input line 12.
@@ -2104,13 +2104,13 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 23.
 [3 <./figures/FEV.png (PNG copy)>]
-<figures/MRC.png, id=186, 588.1975pt x 207.77625pt>
+<figures/MRC.png, id=184, 588.1975pt x 207.77625pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 28.
 (pdftex.def)             Requested size: 396.89731pt x 140.20169pt.
 
-<figures/CAT.png, id=192, 737.75626pt x 530.98375pt>
+<figures/CAT.png, id=190, 737.75626pt x 530.98375pt>
 File: figures/CAT.png Graphic file (type png)
  <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 40.
@@ -2124,7 +2124,7 @@ e 41.
 Package natbib Warning: Citation `Sundhed2013' on page 4 undefined on input lin
 e 41.
 
-<figures/GOLD.png, id=196, 407.5225pt x 319.1925pt>
+<figures/GOLD.png, id=194, 407.5225pt x 319.1925pt>
 File: figures/GOLD.png Graphic file (type png)
  <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 49.
@@ -2210,37 +2210,22 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 15.
  [8
-
-]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 16.
- [9
 
 ])
 
@@ -2256,7 +2241,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 68.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 68.
-[10]
+[9]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 68.
 Package babel Info: Redefining danish shorthand "~
@@ -2281,38 +2266,41 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: EFA2EC44C577946EF93C74DC64505050;782
-(rerunfilecheck)             After:  8DB7C7531FE525BF3DFDE4E679AC87D2;782.
+(rerunfilecheck)             Before: 8DB7C7531FE525BF3DFDE4E679AC87D2;782
+(rerunfilecheck)             After:  6013D96DCCE7C9D56C54BA7021F38C8A;740.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 28226 strings out of 493089
- 501147 string characters out of 6134843
+ 28225 strings out of 493089
+ 501130 string characters out of 6134843
  842112 words of memory out of 5000000
  31199 multiletter control sequences out of 15000+600000
  33334 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10481b,891s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.6} has been referenced but does not 
-exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
+pdfTeX warning (dest): name{page.10} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{subsection.B.1.2} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.13} has been referenced but does not exist
+pdfTeX warning (dest): name{subsection.B.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.B.1} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.B} has been referenced but does not exist,
+ replaced by a fixed one
 
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
@@ -2336,10 +2324,10 @@ st/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dist
 onts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (13 pages, 603718 bytes).
+Output written on main.pdf (12 pages, 603100 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
