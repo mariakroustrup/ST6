@@ -15,6 +15,7 @@
 \contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{7}{section*.12}
 \contentsline {subsection}{\numberline {3.1.4}Behandling}{8}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Livskvalitet}{8}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Rehabilitering}{9}{section.3.2}
 \contentsline {chapter}{Litteratur}{10}{section*.17}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{11}{appendix.A}
 \contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{11}{section.A.1}
