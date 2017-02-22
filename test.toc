@@ -1,0 +1,9 @@
+\changetocdepth {2}
+\select@language {danish}
+\contentsline {chapter}{\chapternumberline {1}Bilag}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Lungernes anatomi og fysiologi}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Ventilation}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Inspiration}{1}{section*.3}
+\contentsline {subsubsection}{Eksspiration}{1}{section*.4}
+\contentsline {subsection}{\numberline {1.1.2}Respiration}{1}{subsection.1.1.2}
+\contentsline {subsubsection}{Transport af ilt}{2}{section*.5}

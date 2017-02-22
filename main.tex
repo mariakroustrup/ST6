@@ -2,7 +2,6 @@
 \input{preambleNy.tex}
 \input{macros.tex}
 \raggedbottom % Soerger for at LaTeX ikke "straekker" teksten
-
 \begin{document}
 
 
@@ -12,6 +11,7 @@
 \input{rapportAfsnit/xFormaliteter/Forside}
 \input{rapportAfsnit/xFormaliteter/titleSheet.tex} %	\cleardoublepage
 \clearpage
+\input{rapportAfsnit/xFormaliteter/Forord.tex}
 
 %%%% Indholdsfortegnelse (TOC) %%%%
 \phantomsection													% Kunstigt afsnit, som hyperlinks kan 'holde fast i'
@@ -23,10 +23,10 @@
 \mainmatter
 
 %Introduktion--------------------------------
-\input{rapportAfsnit/bInitierende/indledning.tex}
+%\input{rapportAfsnit/bInitierende/indledning.tex}
 
 %-----------------------Problemanalyse---------------------------
-\chapter{Problemanalyse}
+%\chapter{Problemanalyse}
 \input{rapportAfsnit/cProblemanalyse/KOL.tex}
 \input{rapportAfsnit/cProblemanalyse/behandlingdiagnose.tex}
 %%-----------------------System udvikling-------------------------
@@ -60,7 +60,7 @@
 
 %-----------------------Bilag-------------------------
 \appendix
-%\chapter{Bilag}
+\chapter{Bilag}
 \input{rapportAfsnit/zBilag/lungerne.tex}
 
 

@@ -1,22 +1,20 @@
 \changetocdepth {2}
 \select@language {danish}
-\contentsline {chapter}{\chapternumberline {1}Indledning}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Initierende problemstilling}{1}{section.1.1}
-\contentsline {chapter}{\chapternumberline {2}Problemanalyse}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Kronisk obstruktiv lungesygdom}{2}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Patologier}{2}{subsection.2.1.1}
-\contentsline {subsubsection}{Kronisk bronkitis}{2}{section*.3}
-\contentsline {subsubsection}{Emfysem}{3}{section*.5}
-\contentsline {subsection}{\numberline {2.1.2}Symptomer}{4}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Diagnose}{4}{subsection.2.1.3}
-\contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{5}{section*.8}
-\contentsline {subsection}{\numberline {2.1.4}Behandling}{6}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Livskvalitet}{7}{subsection.2.1.5}
-\contentsline {chapter}{Litteratur}{8}{section*.13}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{9}{appendix.A}
-\contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{9}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Ventilation}{9}{subsection.A.1.1}
-\contentsline {subsubsection}{Inspiration}{9}{section*.14}
-\contentsline {subsubsection}{Eksspiration}{9}{section*.15}
-\contentsline {subsection}{\numberline {A.1.2}Respiration}{9}{subsection.A.1.2}
-\contentsline {subsubsection}{Transport af ilt}{10}{section*.16}
+\contentsline {section}{\numberline {0.1}Kronisk obstruktiv lungesygdom}{1}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Patologier}{1}{subsection.0.1.1}
+\contentsline {subsubsection}{Kronisk bronkitis}{1}{section*.6}
+\contentsline {subsubsection}{Emfysem}{2}{section*.8}
+\contentsline {subsection}{\numberline {0.1.2}Symptomer}{3}{subsection.0.1.2}
+\contentsline {subsection}{\numberline {0.1.3}Diagnose}{3}{subsection.0.1.3}
+\contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{4}{section*.11}
+\contentsline {subsection}{\numberline {0.1.4}Behandling}{5}{subsection.0.1.4}
+\contentsline {subsection}{\numberline {0.1.5}Livskvalitet}{5}{subsection.0.1.5}
+\contentsline {chapter}{Litteratur}{7}{section*.16}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{8}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Bilag}{9}{appendix.B}
+\contentsline {section}{\numberline {B.1}Lungernes anatomi og fysiologi}{9}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Ventilation}{9}{subsection.B.1.1}
+\contentsline {subsubsection}{Inspiration}{9}{section*.17}
+\contentsline {subsubsection}{Eksspiration}{9}{section*.18}
+\contentsline {subsection}{\numberline {B.1.2}Respiration}{9}{subsection.B.1.2}
+\contentsline {subsubsection}{Transport af ilt}{10}{section*.19}
