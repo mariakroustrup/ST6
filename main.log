@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  27 FEB 2017 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  27 FEB 2017 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2233,26 +2233,17 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
 [6 <./figures/FEV.png (PNG copy)>])
 (./rapportAfsnit/cProblemanalyse/klassifikationprognose.tex
-<figures/MRC.png, id=223, 588.1975pt x 207.77625pt>
+<figures/MRC.png, id=223, 448.67625pt x 170.6375pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 8.
-(pdftex.def)             Requested size: 396.89731pt x 140.20169pt.
+(pdftex.def)             Requested size: 441.0pt x 167.72351pt.
 
-<figures/CAT.png, id=229, 737.75626pt x 530.98375pt>
+<figures/CAT.png, id=227, 609.77812pt x 435.12563pt>
 File: figures/CAT.png Graphic file (type png)
  <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 18.
-(pdftex.def)             Requested size: 220.5pt x 158.69678pt.
-
-
-Package natbib Warning: Citation `Sundhed2013' on page 7 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Sundhed2013' on page 7 undefined on input lin
-e 19.
-
+(pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
@@ -2261,58 +2252,51 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 22.
-[7 <./figures/MRC.png>] <figures/GOLD.png, id=242, 407.5225pt x 319.1925pt>
+
+[7 <./figures/MRC.png>] <figures/GOLD.png, id=238, 363.3575pt x 111.41624pt>
 File: figures/GOLD.png Graphic file (type png)
 
 <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 34.
-(pdftex.def)             Requested size: 220.5pt x 172.70718pt.
-
-
-Package natbib Warning: Citation `Sundhed2013' on page 8 undefined on input lin
-e 35.
-
-
-Package natbib Warning: Citation `Sundhed2013' on page 8 undefined on input lin
-e 35.
-
+(pdftex.def)             Requested size: 352.80135pt x 108.18242pt.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 40.
-<figures/fletcher.png, id=246, 600.2425pt x 357.335pt>
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+ [8 <./figures/CAT.png> <./figures/GOLD.png>]
+<figures/fletcher.png, id=248, 600.2425pt x 357.335pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
-Package pdftex.def Info: figures/fletcher.png used on input line 47.
+Package pdftex.def Info: figures/fletcher.png used on input line 46.
 (pdftex.def)             Requested size: 220.5pt x 131.26859pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 51.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 51.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 51.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 51.
- [8 <./figures/CAT.png (PNG copy)> <./figures/GOLD.png>]
-Underfull \hbox (badness 1442) in paragraph at lines 55--56
+
+Underfull \hbox (badness 1442) in paragraph at lines 54--55
 \T1/cmr/m/n/10.95 udfører fysisk aktivitet og patienter med en BMI under $\OT1/
 cmr/m/n/10.95 20$ \T1/cmr/m/n/10.95 bør desuden deltage i
  []
 
 
-Overfull \hbox (2.81429pt too wide) in paragraph at lines 57--58
+Overfull \hbox (2.81429pt too wide) in paragraph at lines 56--57
 []\T1/cmr/m/n/10.95 Patienter med se-kret-pro-ble-mer til-by-des des-u-den con-
 ti-nous po-si-ti-ve airway pres-su-re (CPAP)
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 59.
 
 Package natbib Warning: Citation `Habraken2011' on page 9 undefined on input li
-ne 63.
+ne 62.
 
 ) (./main.bbl
 Package babel Info: Redefining danish shorthand "|
@@ -2440,10 +2424,10 @@ st/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dist
 onts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (16 pages, 538688 bytes).
+Output written on main.pdf (16 pages, 534105 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
+ 389 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
  65 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
