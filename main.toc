@@ -9,15 +9,16 @@
 \contentsline {section}{\numberline {3.1}Kronisk obstruktiv lungesygdom}{4}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Symptomer}{5}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Diagnose}{5}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Rehabilitering}{6}{section.3.2}
-\contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{7}{section*.9}
-\contentsline {subsection}{\numberline {3.2.1}Behandling}{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Prognose}{9}{subsection.3.2.2}
-\contentsline {chapter}{Litteratur}{10}{section*.15}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{11}{appendix.A}
-\contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{11}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Ventilation}{11}{subsection.A.1.1}
-\contentsline {subsubsection}{Inspiration}{11}{section*.16}
-\contentsline {subsubsection}{Eksspiration}{11}{section*.17}
-\contentsline {subsection}{\numberline {A.1.2}Respiration}{11}{subsection.A.1.2}
-\contentsline {subsubsection}{Transport af ilt}{12}{section*.18}
+\contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{6}{section*.9}
+\contentsline {subsection}{\numberline {3.1.3}Behandling}{8}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Prognose}{9}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Rehabilitering}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Rehabiliteringsforl\IeC {\o }bet}{9}{subsection.3.2.1}
+\contentsline {chapter}{Litteratur}{11}{section*.15}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{12}{appendix.A}
+\contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{12}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Ventilation}{12}{subsection.A.1.1}
+\contentsline {subsubsection}{Inspiration}{12}{section*.16}
+\contentsline {subsubsection}{Eksspiration}{12}{section*.17}
+\contentsline {subsection}{\numberline {A.1.2}Respiration}{12}{subsection.A.1.2}
+\contentsline {subsubsection}{Transport af ilt}{13}{section*.18}
