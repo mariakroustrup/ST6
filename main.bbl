@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -75,11 +75,24 @@ McCarthy~B. Et.al.
 \newblock URL
   \url{https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/sjaelland/patientforloeb/forloebsbeskrivelser/r-luftveje/kol/}.
 
+\bibitem[Frausing(2011{\natexlab{c}})]{Frausing2011b}
+Ejvind Frausing.
+\newblock {Rehabilitering}.
+\newblock \emph{Lungeforeningen}, 2011{\natexlab{c}}.
+
 \bibitem[Habraken(2011)]{Habraken2011}
 J.~M. Habraken.
 \newblock {Health-related quality of life and functional status in end-stage
   COPD: a longitudinal study}.
 \newblock \emph{European Respiratory journal}, 2011.
+
+\bibitem[Sundhedsstyrelsen(2015)]{Sundhedsstyrelsen2015}
+Sundhedsstyrelsen.
+\newblock {Anbefalinger for tv{\ae}rsektorielle forl{\o}b for mennesker med
+  KOL}.
+\newblock \emph{Sundhedsstyrrelsen}, 2015.
+\newblock URL
+  \url{https://www.sst.dk/da/udgivelser/2015/{~}/media/8365DCEC9BB240A0BD6387A81CBDBB49.ashx}.
 
 \bibitem[and Others(2012)]{Martini2012}
 Frederic H.~Martini and Others.

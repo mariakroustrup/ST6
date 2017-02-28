@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 FEB 2017 13:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 FEB 2017 14:17
 entering extended mode
 **main.tex
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.tex
@@ -1961,8 +1961,8 @@ Underfull \hbox (badness 1418) in paragraph at lines 4--5
  []
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/beh
-andlingdiagnose.tex [4
+(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/sym
+ptomerdiagnose.tex [4
 
 ] <figures/FEV.png, id=213, 612.2875pt x 388.45125pt>
 File: figures/FEV.png Graphic file (type png)
@@ -1972,34 +1972,35 @@ Package pdftex.def Info: figures/FEV.png used on input line 16.
 (pdftex.def)             Requested size: 220.5pt x 139.88976pt.
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/kla
-ssifikationprognose.tex [5 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figure
-s/FEV.png (PNG copy)>] <figures/MRC.png, id=230, 928.46875pt x 352.31625pt>
+ssifikationbehandlingprognose.tex [5 <C:/Users/passw/OneDrive/Documents/GitHub/
+ST6/figures/FEV.png (PNG copy)>]
+<figures/MRC.png, id=230, 928.46875pt x 352.31625pt>
 File: figures/MRC.png Graphic file (type png)
-
-<use figures/MRC.png>
+ <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 9.
 (pdftex.def)             Requested size: 396.89731pt x 150.606pt.
- <figures/CAT.png, id=234, 380.42125pt x 565.11125pt>
-File: figures/CAT.png Graphic file (type png)
 
-<use figures/CAT.png>
+<figures/CAT.png, id=234, 380.42125pt x 565.11125pt>
+File: figures/CAT.png Graphic file (type png)
+ <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 19.
 (pdftex.def)             Requested size: 220.5pt x 327.5578pt.
- [6 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MRC.png>] <figures/KA
-T.png, id=245, 609.77812pt x 435.12563pt>
-File: figures/KAT.png Graphic file (type png)
 
-<use figures/KAT.png>
+[6 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MRC.png>]
+<figures/KAT.png, id=245, 609.77812pt x 435.12563pt>
+File: figures/KAT.png Graphic file (type png)
+ <use figures/KAT.png>
 Package pdftex.def Info: figures/KAT.png used on input line 29.
 (pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
- [7 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/CAT.png>] <figures/GO
-LD.png, id=254, 750.805pt x 224.84pt>
-File: figures/GOLD.png Graphic file (type png)
 
-<use figures/GOLD.png>
+[7 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/CAT.png>]
+<figures/GOLD.png, id=254, 750.805pt x 224.84pt>
+File: figures/GOLD.png Graphic file (type png)
+ <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 39.
 (pdftex.def)             Requested size: 352.80135pt x 105.65422pt.
- <figures/fletcher.png, id=256, 600.2425pt x 357.335pt>
+
+<figures/fletcher.png, id=256, 600.2425pt x 357.335pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
@@ -2009,7 +2010,13 @@ Package pdftex.def Info: figures/fletcher.png used on input line 51.
 ssw/OneDrive/Documents/GitHub/ST6/figures/GOLD.png>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/reh
 abilitering.tex [9 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/fletch
-er.png>]) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [10]
+er.png>]
+Underfull \hbox (badness 2042) in paragraph at lines 17--18
+\T1/cmr/m/n/10.95 af eksacerbationer.[[], []] Her fokuseres blandt andet på de 
+gavnlige effekter ved
+ []
+
+) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [10]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -2038,10 +2045,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 26231 strings out of 493921
- 459092 string characters out of 3144876
- 766798 words of memory out of 3000000
- 28967 multiletter control sequences out of 15000+200000
+ 26239 strings out of 493921
+ 459331 string characters out of 3144876
+ 767798 words of memory out of 3000000
+ 28973 multiletter control sequences out of 15000+200000
  33334 words of font info for 90 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,1089b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2070,9 +2077,9 @@ lic/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 -super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
 per/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
 /sftt1095.pfb>
-Output written on main.pdf (17 pages, 692048 bytes).
+Output written on main.pdf (17 pages, 696541 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
