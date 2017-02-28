@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 FEB 2017 14:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 FEB 2017 14:34
 entering extended mode
 **main.tex
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.tex
@@ -1843,7 +1843,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 \c__siunitx_mathtt_int=\count352
 
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forsi
-de.tex <figures/Lunger.jpg, id=79, 220.825pt x 190.7125pt>
+de.tex <figures/Lunger.jpg, id=83, 220.825pt x 190.7125pt>
 File: figures/Lunger.jpg Graphic file (type jpg)
 
 <use figures/Lunger.jpg>
@@ -1851,7 +1851,7 @@ Package pdftex.def Info: figures/Lunger.jpg used on input line 44.
 (pdftex.def)             Requested size: 396.89731pt x 342.79332pt.
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/title
-Sheet.tex <figures/aaulogo-da.png, id=80, 122.4575pt x 76.285pt>
+Sheet.tex <figures/aaulogo-da.png, id=84, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1944,7 +1944,7 @@ LaTeX Warning: Reference `tab:viden' on page 2 undefined on input line 5.
 
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 5.
-<figures/AAUModel.png, id=154, 293.095pt x 754.82pt>
+<figures/AAUModel.png, id=159, 293.095pt x 754.82pt>
 File: figures/AAUModel.png Graphic file (type png)
 
 <use figures/AAUModel.png>
@@ -1964,7 +1964,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 4--5
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/sym
 ptomerdiagnose.tex [4
 
-] <figures/FEV.png, id=213, 612.2875pt x 388.45125pt>
+] <figures/FEV.png, id=218, 612.2875pt x 388.45125pt>
 File: figures/FEV.png Graphic file (type png)
 
 <use figures/FEV.png>
@@ -1974,38 +1974,38 @@ Package pdftex.def Info: figures/FEV.png used on input line 16.
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/kla
 ssifikationbehandlingprognose.tex [5 <C:/Users/passw/OneDrive/Documents/GitHub/
 ST6/figures/FEV.png (PNG copy)>]
-<figures/MRC.png, id=230, 928.46875pt x 352.31625pt>
+<figures/MRC.png, id=235, 928.46875pt x 352.31625pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 9.
 (pdftex.def)             Requested size: 396.89731pt x 150.606pt.
 
-<figures/CAT.png, id=234, 380.42125pt x 565.11125pt>
+<figures/CAT.png, id=239, 380.42125pt x 565.11125pt>
 File: figures/CAT.png Graphic file (type png)
  <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 19.
 (pdftex.def)             Requested size: 220.5pt x 327.5578pt.
 
 [6 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MRC.png>]
-<figures/KAT.png, id=245, 609.77812pt x 435.12563pt>
+<figures/KAT.png, id=250, 609.77812pt x 435.12563pt>
 File: figures/KAT.png Graphic file (type png)
  <use figures/KAT.png>
 Package pdftex.def Info: figures/KAT.png used on input line 29.
 (pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
 
 [7 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/CAT.png>]
-<figures/GOLD.png, id=254, 750.805pt x 224.84pt>
+<figures/GOLD.png, id=259, 750.805pt x 224.84pt>
 File: figures/GOLD.png Graphic file (type png)
  <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 39.
 (pdftex.def)             Requested size: 352.80135pt x 105.65422pt.
 
-<figures/fletcher.png, id=256, 600.2425pt x 357.335pt>
+<figures/fletcher.png, id=261, 550.30594pt x 298.11375pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
 Package pdftex.def Info: figures/fletcher.png used on input line 51.
-(pdftex.def)             Requested size: 220.5pt x 131.26859pt.
+(pdftex.def)             Requested size: 220.5pt x 119.44807pt.
  [8 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/KAT.png> <C:/Users/pa
 ssw/OneDrive/Documents/GitHub/ST6/figures/GOLD.png>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/reh
@@ -2016,20 +2016,42 @@ Underfull \hbox (badness 2042) in paragraph at lines 17--18
 gavnlige effekter ved
  []
 
-) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [10]
+
+Package natbib Warning: Citation `Beauchamp2013' on page 10 undefined on input 
+line 19.
+
+
+Package natbib Warning: Citation `Beauchamp2013' on page 10 undefined on input 
+line 20.
+
+
+Package natbib Warning: Citation `Sundhedsstryrrelsen2015' on page 10 undefined
+ on input line 24.
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 29--31
+\T1/cmr/m/n/10.95 kommer app'en med anbefalet behandlingsmulighed, med henblik 
+på fysisk træning,
+ []
+
+[10]) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [11]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) [11
+) [12
 
-]
+]) [13]
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/zBilag/lungerne.tex
-[12
+[14
 
-]) 
+])
+
+Package natbib Warning: There were undefined citations.
+
+
 AED: lastpage setting LastPage
-[13]
+[15]
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
@@ -2037,7 +2059,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 882631242BFCF040320265B2EE285DA4;1176.
+(rerunfilecheck)             Checksum: AD73BB636A3376B2F641FFC4369C2B09;1271.
 
 
 LaTeX Warning: There were undefined references.
@@ -2045,13 +2067,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
  ) 
 Here is how much of TeX's memory you used:
- 26239 strings out of 493921
- 459331 string characters out of 3144876
- 767798 words of memory out of 3000000
- 28973 multiletter control sequences out of 15000+200000
+ 26269 strings out of 493921
+ 459925 string characters out of 3144876
+ 768798 words of memory out of 3000000
+ 28994 multiletter control sequences out of 15000+200000
  33334 words of font info for 90 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 57i,22n,92p,1089b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,22n,92p,1089b,942s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2077,9 +2099,9 @@ lic/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 -super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-su
 per/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super
 /sftt1095.pfb>
-Output written on main.pdf (17 pages, 696541 bytes).
+Output written on main.pdf (19 pages, 680698 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 477 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
