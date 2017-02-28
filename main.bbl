@@ -1,27 +1,9 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Hauschildt and Ravn(2016)]{Basisbogen2016}
-Pernille Hauschildt and Jesper Ravn.
-\newblock \emph{{Basisbogen i Medicin og Kirurgi}}.
-\newblock 2016.
-
-\bibitem[Martinez(2016)]{Martinez2016}
-Fernado~D. Martinez.
-\newblock {Early-Life Origins of Chronic Obstructive Pulmonary Diease}.
-\newblock \emph{Asthma and Airway Disease Research Center, University of
-  Arizona, Tucson.}, 2016.
-
-\bibitem[{Dansk Selskab for Almen Medicin}(2016)]{dsam2016}
-{Dansk Selskab for Almen Medicin}.
-\newblock {KOL}.
-\newblock 2016.
-\newblock URL
-  \url{http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=942{\&}gotoChapter=942}.
 
 \bibitem[Lange(2015)]{Lange2015}
 Peter Lange.
@@ -30,6 +12,19 @@ Peter Lange.
 \newblock URL
   \url{http://www.apoteket.dk/Sygdomsleksikon/SygdommeEgenproduktion/Kronisk
   bronkitis - KOL Rygerlunger.aspx}.
+
+\bibitem[{Dansk Selskab for Almen Medicin}(2016)]{dsam2016}
+{Dansk Selskab for Almen Medicin}.
+\newblock {KOL}.
+\newblock 2016.
+\newblock URL
+  \url{http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=942{\&}gotoChapter=942
+  http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=951{\&}gotoChapter=951}.
+
+\bibitem[Hauschildt and Ravn(2016)]{Basisbogen2016}
+Pernille Hauschildt and Jesper Ravn.
+\newblock \emph{{Basisbogen i Medicin og Kirurgi}}.
+\newblock 2016.
 
 \bibitem[Healthguidances(2016)]{Healthguidances2016}
 Healthguidances.
@@ -60,6 +55,31 @@ Ejvind Frausing.
 John Flaschen-Hansen.
 \newblock {Emphysema}.
 \newblock \emph{Encyctop{\ae}dia Britannica}, 2008.
+
+\bibitem[Martinez(2016)]{Martinez2016}
+Fernado~D. Martinez.
+\newblock {Early-Life Origins of Chronic Obstructive Pulmonary Diease}.
+\newblock \emph{Asthma and Airway Disease Research Center, University of
+  Arizona, Tucson.}, 2016.
+
+\bibitem[Et.al.(2015)]{McCarthy2015}
+McCarthy~B. Et.al.
+\newblock {Pulmonary rehabilitation for chronic obstructive pulmonary disease}.
+\newblock \emph{Cochrane Library}, 2015.
+
+\bibitem[{De specialeansvarlige lungemedicinere i Storstr{\o}mmens
+  Sygehus.}(2013)]{Sundhed2013}
+{De specialeansvarlige lungemedicinere i Storstr{\o}mmens Sygehus.}
+\newblock {KOL, behandling, udredning}.
+\newblock \emph{Sundhed.dk}, 2013.
+\newblock URL
+  \url{https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/sjaelland/patientforloeb/forloebsbeskrivelser/r-luftveje/kol/}.
+
+\bibitem[Habraken(2011)]{Habraken2011}
+J.~M. Habraken.
+\newblock {Health-related quality of life and functional status in end-stage
+  COPD: a longitudinal study}.
+\newblock \emph{European Respiratory journal}, 2011.
 
 \bibitem[and Others(2012)]{Martini2012}
 Frederic H.~Martini and Others.
