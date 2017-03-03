@@ -12,9 +12,9 @@
 \contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{6}{section*.9}
 \contentsline {subsection}{\numberline {3.1.3}Behandling}{8}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Prognose}{9}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Rehabilitering af KOL}{9}{section.3.2}
+\contentsline {section}{\numberline {3.2}Rehabilitering af KOL-patienter}{9}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Rehabiliteringsforl\IeC {\o }b}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Applikationer med relation til KOL-patienter}{11}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Applikationer med relation til KOL-patienter}{11}{section.3.3}
 \contentsline {chapter}{Litteratur}{12}{section*.16}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{14}{appendix.A}
 \contentsline {section}{\numberline {A.1}Lungernes anatomi og fysiologi}{14}{section.A.1}

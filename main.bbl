@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,13 +26,6 @@ Pernille Hauschildt and Jesper Ravn.
 \newblock \emph{{Basisbogen i Medicin og Kirurgi}}.
 \newblock 2016.
 
-\bibitem[Healthguidances(2016)]{Healthguidances2016}
-Healthguidances.
-\newblock {Are You A Pink Puffer or A Blue Bloater}.
-\newblock 2016.
-\newblock URL
-  \url{http://www.healthguidances.com/pink-puffer-vs-blue-bloater/}.
-
 \bibitem[Frausing(2011{\natexlab{a}})]{Frausing2011}
 Ejvind Frausing.
 \newblock {Kronisk bronkitis}.
@@ -44,6 +37,13 @@ Ejvind Frausing.
 \newblock {Bronchitis}.
 \newblock \emph{Encyctop{\ae}dia Britannica}, 2016.
 \newblock URL \url{https://global.britannica.com/science/bronchitis}.
+
+\bibitem[Healthguidances(2016)]{Healthguidances2016}
+Healthguidances.
+\newblock {Are You A Pink Puffer or A Blue Bloater}.
+\newblock 2016.
+\newblock URL
+  \url{http://www.healthguidances.com/pink-puffer-vs-blue-bloater/}.
 
 \bibitem[Frausing(2011{\natexlab{b}})]{Frausing2011a}
 Ejvind Frausing.
@@ -100,6 +100,12 @@ Clarie and~others Egan.
   physical activity in COPD}.
 \newblock \emph{Respiratory Medicine}, 2012.
 
+\bibitem[Beachamp(2013)]{Beachamp2013}
+Maria~K. Beachamp.
+\newblock {A novel approach to long-term respiratory care: Results of a
+  community-based post-rehabilitation maintenance program in COPD}.
+\newblock \emph{Respiratory Medicine}, 2013.
+
 \bibitem[Zanaboni(2017)]{Zanaboni2017}
 Paolo Zanaboni.
 \newblock {Long-term exercise maintenance in COPD via telerehabilitation: a
@@ -120,6 +126,16 @@ Lungeforeningen.
 \newblock {Lokalafdelinger og netw{\ae}rk}.
 \newblock \emph{Lungeforeningen}, 2016.
 \newblock URL \url{https://www.lunge.dk/lokalafdelinger-og-netvaerk}.
+
+\bibitem[{Boehringer Ingelheim}(2012)]{KOLguidelines2012}
+{Boehringer Ingelheim}.
+\newblock {KOL-guidelines}.
+\newblock 2012.
+
+\bibitem[{Region Hovedstaden}(2014)]{Kronika2014}
+{Region Hovedstaden}.
+\newblock {Kronika appen}.
+\newblock 2014.
 
 \bibitem[{Healthcare Denmark}()]{HealthcareDenmark2017}
 {Healthcare Denmark}.
