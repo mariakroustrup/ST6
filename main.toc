@@ -19,5 +19,14 @@
 \contentsline {section}{\numberline {3.5}Problemformulering}{11}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Metode}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Objektorienteret programmering}{12}{section.4.1}
-\contentsline {chapter}{\chapternumberline {5}Systemudvikling}{13}{chapter.5}
-\contentsline {chapter}{Litteratur}{14}{section*.16}
+\contentsline {section}{\numberline {4.2}Unified Modellig Language}{12}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Use-case diagrammer}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Aktivitetsdiagrammer}{13}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Klassediagrammer}{13}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Software Development Lifecycle}{14}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Vandfaldsmodel}{14}{subsection.4.3.1}
+\contentsline {chapter}{\chapternumberline {5}Systemudvikling}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Systembeskrivelse}{16}{section.5.1}
+\contentsline {subsubsection}{Funktionelle krav}{17}{section*.18}
+\contentsline {subsubsection}{Non-funktionelle krav}{17}{section*.19}
+\contentsline {chapter}{Litteratur}{18}{section*.21}

@@ -17,5 +17,12 @@
 \BOOKMARK [1][-]{section.3.5}{Problemformulering}{chapter.3}% 17
 \BOOKMARK [0][-]{chapter.4}{Metode}{}% 18
 \BOOKMARK [1][-]{section.4.1}{Objektorienteret programmering}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Systemudvikling}{}% 20
-\BOOKMARK [0][-]{section*.16}{Litteratur}{}% 21
+\BOOKMARK [1][-]{section.4.2}{Unified Modellig Language}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Use-case diagrammer}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Aktivitetsdiagrammer}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.3}{Klassediagrammer}{section.4.2}% 23
+\BOOKMARK [1][-]{section.4.3}{Software Development Lifecycle}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.3.1}{Vandfaldsmodel}{section.4.3}% 25
+\BOOKMARK [0][-]{chapter.5}{Systemudvikling}{}% 26
+\BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 27
+\BOOKMARK [0][-]{section*.21}{Litteratur}{}% 28
