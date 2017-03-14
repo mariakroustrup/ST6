@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -62,8 +62,8 @@ Fernado~D. Martinez.
 \newblock \emph{Asthma and Airway Disease Research Center, University of
   Arizona, Tucson.}, 2016.
 
-\bibitem[Et.al.(2015)]{McCarthy2015}
-McCarthy~B. Et.al.
+\bibitem[{McCarthy B. et al}(2015)]{McCarthy2015}
+{McCarthy B. et al}.
 \newblock {Pulmonary rehabilitation for chronic obstructive pulmonary disease}.
 \newblock \emph{Cochrane Library}, 2015.
 
@@ -79,6 +79,12 @@ McCarthy~B. Et.al.
 Ejvind Frausing.
 \newblock {Rehabilitering}.
 \newblock \emph{Lungeforeningen}, 2011{\natexlab{c}}.
+
+\bibitem[Lungeforeningen(2016)]{Lungeforeningen2016}
+Lungeforeningen.
+\newblock {Lokalafdelinger og netw{\ae}rk}.
+\newblock \emph{Lungeforeningen}, 2016.
+\newblock URL \url{https://www.lunge.dk/lokalafdelinger-og-netvaerk}.
 
 \bibitem[Habraken(2011)]{Habraken2011}
 J.~M. Habraken.
@@ -100,8 +106,8 @@ Clarie and~others Egan.
   physical activity in COPD}.
 \newblock \emph{Respiratory Medicine}, 2012.
 
-\bibitem[Beachamp(2013)]{Beachamp2013}
-Maria~K. Beachamp.
+\bibitem[et.~al. Beachamp(2013)]{Beachamp2013}
+Maria~K. et.~al. Beachamp.
 \newblock {A novel approach to long-term respiratory care: Results of a
   community-based post-rehabilitation maintenance program in COPD}.
 \newblock \emph{Respiratory Medicine}, 2013.
@@ -114,28 +120,20 @@ Paolo Zanaboni.
 \newblock URL
   \url{http://journals.sagepub.com/doi/pdf/10.1177/1357633X15625545}.
 
-\bibitem[and~others Ringbaek(2008)]{Ringbaek2008}
-T~and~others Ringbaek.
+\bibitem[et.~al. Ringbaek(2008)]{Ringbaek2008}
+T~et.~al. Ringbaek.
 \newblock {Rehabilitation in COPD: the long-term effect of a supervised 7-week
   program succeeded by a self-monitored walking program.}
 \newblock \emph{Pulmonary Rehabilitation Research Group}, 2008.
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/pubmed/18539720}.
 
-\bibitem[Lungeforeningen(2016)]{Lungeforeningen2016}
-Lungeforeningen.
-\newblock {Lokalafdelinger og netw{\ae}rk}.
-\newblock \emph{Lungeforeningen}, 2016.
-\newblock URL \url{https://www.lunge.dk/lokalafdelinger-og-netvaerk}.
-
-\bibitem[{Boehringer Ingelheim}(2012)]{KOLguidelines2012}
-{Boehringer Ingelheim}.
-\newblock {KOL-guidelines}.
-\newblock 2012.
-
-\bibitem[{Region Hovedstaden}(2014)]{Kronika2014}
-{Region Hovedstaden}.
-\newblock {Kronika appen}.
+\bibitem[Williams et~al.(2014)Williams, Price, and Et.al]{Williams2014}
+Veronika Williams, Jonathan Price, and Et.al.
+\newblock {Using a mobile health application to support self-management in
+  COPD}.
 \newblock 2014.
+\newblock URL
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4073724/pdf/bjgpjul2014-64-624-e392.pdf}.
 
 \bibitem[{Healthcare Denmark}()]{HealthcareDenmark2017}
 {Healthcare Denmark}.
@@ -143,22 +141,34 @@ Lungeforeningen.
 \newblock \emph{Healthcare Denmark}.
 \newblock URL \url{http://healthcaredenmark.dk/profiles/aidcube.aspx}.
 
-\bibitem[AidCube(2017)]{AidCube2017}
-AidCube.
-\newblock {Municipality of Silkeborg}.
-\newblock \emph{AidCube}, 2017.
-\newblock URL \url{https://aidcube.com/cases/{\#}frederiksberg}.
+\bibitem[Stefanov and Sharma(2013)]{Stefanov2013}
+Stoyan Stefanov and Kumar~C. Sharma.
+\newblock {Object-Oriented JavaScript}.
+\newblock \emph{Packt Publishing}, pages 32--38, 2013.
 
-\bibitem[and Others(2012)]{Martini2012}
-Frederic H.~Martini and Others.
-\newblock \emph{{Fundamentals of Anatomy {\&} Physiology}}.
+\bibitem[Brahma and Sarnath(2015)]{Brahma2015}
+Dathan Brahma and Ramnath Sarnath.
+\newblock {Object-Oriented Analysis, Design and Implementation}.
+\newblock \emph{Springer}, 2015.
+\newblock \doi{978-3-319-24280-4}.
+
+\bibitem[Fowler(2004)]{Fowler2004}
+Martin Fowler.
+\newblock \emph{{UML Distilled: A Brief Guide to the Standard Object Modeling
+  Language}}.
+\newblock Third edit edition, 2004.
+\newblock ISBN 978-0321193681.
+
+\bibitem[Alshamrani and Bahattab(2015)]{Alshamrani2015}
+Adel Alshamrani and Abdullah Bahattab.
+\newblock {A Comparison Between Three SDLC Models Waterfall Model, Spiral
+  Model, and Incremental/Iterative Model}.
+\newblock 2015.
+
+\bibitem[Bassil(2012)]{Bassil2012}
+Youssef Bassil.
+\newblock {A Simulation Model for the Waterfall Software Development Life
+  Cycle}.
 \newblock 2012.
-\newblock ISBN 978-0-321-70933-2.
-
-\bibitem[and~others Sand(2008)]{Sand2008}
-Olav and~others Sand.
-\newblock \emph{{Menneskets anatomi og fysiologi}}.
-\newblock 2008.
-\newblock ISBN 9788712042983.
 
 \end{thebibliography}
