@@ -10,23 +10,23 @@
 \contentsline {subsection}{\numberline {3.1.1}Symptomer}{5}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Diagnose}{5}{subsection.3.1.2}
 \contentsline {subsubsection}{Klassifikation af KOLs sv\IeC {\ae }rhedsgrad}{6}{section*.8}
-\contentsline {subsection}{\numberline {3.1.3}Behandling}{9}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Behandling}{8}{subsection.3.1.3}
 \contentsline {subsection}{\numberline {3.1.4}Prognose}{9}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Rehabilitering af KOL-patienter}{10}{section.3.2}
+\contentsline {section}{\numberline {3.2}Rehabilitering af KOL-patienter}{9}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Rehabiliteringsforl\IeC {\o }b}{10}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Efter rehabiliteringsforl\IeC {\o }b}{10}{section.3.3}
 \contentsline {section}{\numberline {3.4}Projektafgr\IeC {\ae }nsning}{11}{section.3.4}
 \contentsline {section}{\numberline {3.5}Problemformulering}{11}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Metode}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Objektorienteret programmering}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Unified Modellig Language}{12}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Use-case diagrammer}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Aktivitetsdiagrammer}{13}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Klassediagrammer}{13}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Software Development Lifecycle}{14}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Vandfaldsmodel}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.1.1}Unified Modellig Language}{13}{subsection.4.1.1}
+\contentsline {subsubsection}{Use case diagrammer}{13}{section*.15}
+\contentsline {subsubsection}{Aktivitetsdiagrammer}{13}{section*.17}
+\contentsline {subsubsection}{Klassediagrammer}{13}{section*.18}
+\contentsline {subsection}{\numberline {4.1.2}Software Development Lifecycle}{14}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Vandfaldsmodel}{14}{subsection.4.1.3}
 \contentsline {chapter}{\chapternumberline {5}Systemudvikling}{16}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{16}{section.5.1}
-\contentsline {subsubsection}{Funktionelle krav}{17}{section*.18}
-\contentsline {subsubsection}{Non-funktionelle krav}{17}{section*.19}
-\contentsline {chapter}{Litteratur}{18}{section*.21}
+\contentsline {subsubsection}{Funktionelle krav}{17}{section*.21}
+\contentsline {subsubsection}{Non-funktionelle krav}{17}{section*.22}
+\contentsline {chapter}{Litteratur}{18}{section*.24}

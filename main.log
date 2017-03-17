@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  14 MAR 2017 16:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.26)  17 MAR 2017 14:04
 entering extended mode
 **main.tex
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\preambleNy.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\preambleNy.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
 ment class
@@ -1753,8 +1753,8 @@ Package caption Info: rotating package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\macros.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.aux)
+(C:\Users\Birgithe\Documents\GitHub\ST6\macros.tex)
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1820,8 +1820,8 @@ Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.out)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.out)
+ (C:\Users\Birgithe\Documents\GitHub\ST6\main.out)
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.out)
 \@outlinefile=\write4
 LaTeX Info: Redefining \Ref on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1842,10 +1842,10 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 \c__siunitx_mathtt_int=\count352
 
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forsi
-de.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/title
-Sheet.tex <figures/aaulogo-da.png, id=115, 122.4575pt x 76.285pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forside.tex
+)
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/titleSheet.
+tex <figures/aaulogo-da.png, id=115, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1887,17 +1887,17 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 62--62
  []
 
 
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/synop
-sis.tex) [1
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/synopsis.te
+x) [1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/passw/OneDrive/D
-ocuments/GitHub/ST6/figures/aaulogo-da.png>]) [2]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Foror
-d.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Birgithe/Documen
+ts/GitHub/ST6/figures/aaulogo-da.png>]) [2]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forord.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 1354) in paragraph at lines 5--7
@@ -1920,14 +1920,13 @@ problemstilling, hvor
 ) [3
 
 
-] (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.toc) [4]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/bInitierende/indled
-ning.tex) [1
+] (C:\Users\Birgithe\Documents\GitHub\ST6\main.toc) [4]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/bInitierende/indledning.t
+ex) [1
 
 
 ]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/metod
-e.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/metode.tex
 Underfull \hbox (badness 1400) in paragraph at lines 1--2
 \T1/cmr/m/n/10.95 Der er indsamlet litteratur for at opnå tilstrækkelig viden i
  forhold til at udvikle
@@ -1941,9 +1940,9 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tab:viden' on page 2 undefined on input line 4.
 
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 4.
+line 12.
 
-Overfull \hbox (39.42487pt too wide) in paragraph at lines 9--14
+Overfull \hbox (212.04959pt too wide) in paragraph at lines 9--14
  [][] 
  []
 
@@ -1955,11 +1954,10 @@ Package pdftex.def Info: figures/AAUModel.png used on input line 23.
 (pdftex.def)             Requested size: 132.30135pt x 340.71397pt.
 ) [2
 
-] [3 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/AAUModel.png>]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/KOL
-.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/sym
-ptomerdiagnose.tex [4
+] [3 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/AAUModel.png>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/KOL.tex)
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/symptomer
+diagnose.tex [4
 
 ]
 Underfull \hbox (badness 2229) in paragraph at lines 6--9
@@ -1967,23 +1965,23 @@ Underfull \hbox (badness 2229) in paragraph at lines 6--9
 ienter, der kan
  []
 
-<figures/FEV.png, id=255, 396.7322pt x 273.27094pt>
+<figures/FEV.png, id=256, 396.7322pt x 273.27094pt>
 File: figures/FEV.png Graphic file (type png)
  <use figures/FEV.png>
 Package pdftex.def Info: figures/FEV.png used on input line 16.
 (pdftex.def)             Requested size: 352.80135pt x 243.01854pt.
 
 [5])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/kla
-ssifikationbehandlingprognose.tex
-<figures/MRC.png, id=274, 928.46875pt x 352.31625pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/klassifik
+ationbehandlingprognose.tex
+<figures/MRC.png, id=275, 928.46875pt x 352.31625pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 9.
 (pdftex.def)             Requested size: 396.89731pt x 150.606pt.
 
-[6 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/FEV.png>]
-<figures/CAT.png, id=288, 380.42125pt x 565.11125pt>
+[6 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/FEV.png>]
+<figures/CAT.png, id=289, 380.42125pt x 565.11125pt>
 File: figures/CAT.png Graphic file (type png)
  <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 19.
@@ -1994,86 +1992,73 @@ Underfull \hbox (badness 1137) in paragraph at lines 24--26
 stest og antallet af
  []
 
-[7 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MRC.png> <C:/Users/pas
-sw/OneDrive/Documents/GitHub/ST6/figures/CAT.png>]
-<figures/KAT.png, id=300, 609.77812pt x 435.12563pt>
+[7 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MRC.png> <C:/Users/Birgithe/
+Documents/GitHub/ST6/figures/CAT.png>]
+<figures/KAT.png, id=301, 609.77812pt x 435.12563pt>
 File: figures/KAT.png Graphic file (type png)
  <use figures/KAT.png>
 Package pdftex.def Info: figures/KAT.png used on input line 29.
 (pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
 
-<figures/GOLD.png, id=305, 750.805pt x 224.84pt>
+<figures/GOLD.png, id=306, 750.805pt x 224.84pt>
 File: figures/GOLD.png Graphic file (type png)
  <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 39.
 (pdftex.def)             Requested size: 352.80135pt x 105.65422pt.
 
-[8 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/KAT.png> <C:/Users/pas
-sw/OneDrive/Documents/GitHub/ST6/figures/GOLD.png>]
-<figures/fletcher.png, id=321, 550.30594pt x 298.11375pt>
+[8 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/KAT.png> <C:/Users/Birgithe/
+Documents/GitHub/ST6/figures/GOLD.png>]
+<figures/fletcher.png, id=322, 550.30594pt x 298.11375pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
 Package pdftex.def Info: figures/fletcher.png used on input line 53.
 (pdftex.def)             Requested size: 441.0pt x 238.90982pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/reh
-abilitering.tex [9 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/fletch
-er.png>] [10])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/bInitierende/proble
-mformulering.tex) [11]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/OO
-P.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Me
-todeUML.tex
-Underfull \hbox (badness 1675) in paragraph at lines 17--1
-\T1/cmr/m/n/10.95 OOP består af tre grundprincipper, herunder indkapsling, neda
-rvning og polymorfi.
- []
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/rehabilit
+ering.tex [9 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/fletcher.png>]
+[10])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/bInitierende/problemformu
+lering.tex) [11]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/OOP.tex)
 
-
-Underfull \hbox (badness 2486) in paragraph at lines 17--1
-\T1/cmr/m/n/10.95 såsom knapper og display, mens skjult information kan være im
-plementeringen af
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/MetodeUM
+L.tex
+Underfull \hbox (badness 1924) in paragraph at lines 19--1
+\T1/cmr/m/n/10.95 Objektorienteret programmering består af tre grundprincipper,
+ herunder indkapsling,
  []
 
 [12
 
-] <figures/USE_CASE2.png, id=413, 208.3785pt x 140.9265pt>
+] <figures/USE_CASE2.png, id=416, 354.72525pt x 243.309pt>
 File: figures/USE_CASE2.png Graphic file (type png)
 
 <use figures/USE_CASE2.png>
-Package pdftex.def Info: figures/USE_CASE2.png used on input line 11.
-(pdftex.def)             Requested size: 220.5pt x 149.12547pt.
+Package pdftex.def Info: figures/USE_CASE2.png used on input line 10.
+(pdftex.def)             Requested size: 220.5pt x 151.24356pt.
 
-
-LaTeX Warning: Reference `fig:xx2' on page 13 undefined on input line 16.
-
-<figures/klassediag.png, id=418, 240.9pt x 199.34476pt>
+<figures/klassediag.png, id=421, 240.9pt x 199.34476pt>
 File: figures/klassediag.png Graphic file (type png)
 
 <use figures/klassediag.png>
-Package pdftex.def Info: figures/klassediag.png used on input line 29.
+Package pdftex.def Info: figures/klassediag.png used on input line 31.
 (pdftex.def)             Requested size: 220.5pt x 182.46861pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Va
-ndfaldsmodel.tex [13 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/USE_
-CASE2.png>] <figures/vandfaldsmodel.png, id=431, 533.995pt x 292.09125pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Vandfald
+smodel.tex [13 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/USE_CASE2.png>]
+<figures/vandfaldsmodel.png, id=438, 533.995pt x 292.09125pt>
 File: figures/vandfaldsmodel.png Graphic file (type png)
 
 <use figures/vandfaldsmodel.png>
 Package pdftex.def Info: figures/vandfaldsmodel.png used on input line 10.
 (pdftex.def)             Requested size: 352.80135pt x 192.98582pt.
- [14 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/klassediag.png> <C:/
-Users/passw/OneDrive/Documents/GitHub/ST6/figures/vandfaldsmodel.png>]) [15]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/sy
-stembeskrivelse.tex [16
+ [14 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/klassediag.png> <C:/Users/
+Birgithe/Documents/GitHub/ST6/figures/vandfaldsmodel.png>]) [15]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/systembe
+skrivelse.tex [16
 
-]
-
-LaTeX Warning: Reference `cha:problem' on page 17 undefined on input line 13.
-
-) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [17]
+]) (C:\Users\Birgithe\Documents\GitHub\ST6\main.bbl [17]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 14.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -2087,27 +2072,60 @@ AED: lastpage setting LastPage
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
- (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.aux)
+ (C:\Users\Birgithe\Documents\GitHub\ST6\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 868B10D434109850EB9DC143B0894A1C;1828.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 868B10D434109850EB9DC143B0894A1C;1828
+(rerunfilecheck)             After:  8B7235B08B0C56F7908A7AFCF45CACD3;1622.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 26351 strings out of 493921
- 462281 string characters out of 3144876
+ 26358 strings out of 493921
+ 462067 string characters out of 3144866
  767798 words of memory out of 3000000
- 29044 multiletter control sequences out of 15000+200000
+ 29042 multiletter control sequences out of 15000+200000
  33675 words of font info for 91 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,1243b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
-st, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.17} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
 
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:
 /Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/P
@@ -2127,14 +2145,15 @@ nts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 pe1/public/cm-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
 blic/cm-super/sfss0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
-m-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
-uper/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
-ftt1095.pfb>
-Output written on main.pdf (23 pages, 703021 bytes).
+c/cm-super/sfsx1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
+m-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
+uper/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
+fti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sftt
+1095.pfb>
+Output written on main.pdf (23 pages, 727705 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
  280 words of extra memory for PDF output out of 10000 (max. 10000000)
 
