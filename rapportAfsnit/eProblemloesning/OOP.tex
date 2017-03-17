@@ -1,7 +1,9 @@
-\section{Objektorienteret programmering}
-Objektorienteret programmering(OOP) er et programmeringsparadigme, som anvendes til at analysere, designe, implementere samt udvikle app's. Termer inden for OOP er blandt andet objekter, klasser, indkapsling, nedarvning og polymorfi.\cite{Stefanov2013,Brahma2015}
+***    Mangler indledning (evt. hvorfor vi bruger OOP)   *****
 
-I OOP opdeles programmeringskoden i klasser, hvor hver klasse fungerer som en opskrift for et objekt. Hvert objekt er en instans af en bestemt klasse, hvor en klasse kan være bygget op omkring en eller flere instanser. De forskellige objekter repræsenterer hver sin del af app'en og indeholder hver sin data og logik. Derudover har objekterne mulighed for at kommunikere mellem hinanden. Objekter er karakteriseret ud fra dens egenskaber og funktionen af objektet er beskrevet ved metoder.\cite{Stefanov2013,Brahma2015} Eksempler på egenskaber og metoder fremgår af \autoref{tab:objekt}. 
+\section{Objektorienteret programmering}
+Objektorienteret programmering er et programmeringsparadigme, som anvendes til at analysere, designe, implementere samt udvikle app's. Hyppige termer inden for objektorienteret programmering er blandt andet objekter, klasser, indkapsling, nedarvning og polymorfi.\cite{Stefanov2013,Brahma2015}
+
+I objektorienteret programmering opdeles programmeringskoden i klasser, hvor hver klasse fungerer som en opskrift for et objekt. Hvert objekt er en instans af en bestemt klasse, hvor en klasse kan være bygget op omkring en eller flere instanser. De forskellige objekter repræsenterer hver sin del af app'en og indeholder data og logik. Derudover har objekterne mulighed for at kommunikere mellem hinanden. Objekter er karakteriseret ud fra deres egenskaber, og deres funktioner er beskrevet ved metoder.\cite{Stefanov2013,Brahma2015} Eksempler på egenskaber og metoder fremgår af \autoref{tab:objekt}. 
 
 \begin{table}[H]
 \centering
@@ -10,9 +12,9 @@ I OOP opdeles programmeringskoden i klasser, hvor hver klasse fungerer som en op
 \textbf{Egenskaber} & \textbf{Metoder} \\ \hline
 \begin{tabular}[c]{@{}l@{}}Navn \\ Køn\\ Alder\\ Højde \\ Vægt\end{tabular} & \begin{tabular}[c]{@{}l@{}}Gå\\ Løbe\\ Hoppe\\ Sove\\ Tale\end{tabular} \\ \hline
 \end{tabular}
-\caption{Objekter karakteriseres ud fra dens egenskaber som f.eks. navn, mens metoder beskriver funktionen som f.eks. sove.}
+\caption{Objekter karakteriseres ud fra deres egenskaber som for eksempel navn, mens metoder beskriver deres funktion som for eksempel sove.}
 \label{tab:objekt}
 \end{table}
 
 \noindent
-OOP består af tre grundprincipper, herunder indkapsling, nedarvning og polymorfi. Indkapsling er en illustration af, at objekter både indeholder egenskaber og metoder. Egenskaberne opbevarer data, mens der anvendes metoder til at behandle data. Indkapsling kan både have synlige og skjulte informationer. Synlig information udgør  ofte grænsefladen, såsom knapper og display, mens skjult information kan være implementeringen af grænsefladen. Dette gør sig også gældende for objekter, hvilket defineres som public eller private. Ved public har alle objekter  adgang til denne, mens private kun er metoder med samme objekt der kan tilgå denne. Nedarvning betyder, at et objekt kan arve data og funktioner fra et andet objekt. Dette muliggør, at objektet kan udvides med ekstra data og funktioner. Polymorfi giver mulighed for at to klasser kan have samme grænseflade. Denne er defineret ved nedarvningen. \cite{Stefanov2013}
+Objektorienteret programmering består af tre grundprincipper, herunder indkapsling, nedarvning og polymorfi. Indkapsling er en illustration af, at objekter både indeholder egenskaber og metoder. Egenskaber opbevarer data, mens metoder anvendes til at behandle data. Indkapsling kan både have synlige og skjulte informationer. Synlig information udgør  ofte grænsefladen, såsom knapper og display, mens skjult information kan være implementeringen af grænsefladen. Dette gør sig også gældende for objekter, hvilket defineres som public eller private. Ved public har alle objekter adgang til metoderne, mens private kun er metoder med samme objekt, der kan tilgå denne. Nedarvning betyder, at et objekt kan arve data og funktioner fra et andet objekt. Dette muliggør, at objektet kan udvides med ekstra data og funktioner. Polymorfi giver mulighed for, at to klasser kan have samme grænseflade. Denne er defineret ved nedarvningen.\cite{Stefanov2013}
