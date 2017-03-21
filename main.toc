@@ -27,10 +27,10 @@
 \contentsline {subsection}{\numberline {4.2.1}Vandfaldsmodel}{14}{subsection.4.2.1}
 \contentsline {chapter}{\chapternumberline {5}Systemudvikling}{16}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{16}{section.5.1}
-\contentsline {subsubsection}{Funktionelle krav}{17}{section*.23}
-\contentsline {subsubsection}{Non-funktionelle krav}{17}{section*.24}
+\contentsline {subsection}{\numberline {5.1.1}Funktionelle krav}{17}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Non-funktionelle krav}{17}{subsection.5.1.2}
 \contentsline {chapter}{\chapternumberline {6}Design}{18}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Implementering}{19}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Test}{20}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Syntese}{21}{chapter.9}
-\contentsline {chapter}{Litteratur}{22}{section*.26}
+\contentsline {chapter}{Litteratur}{22}{section*.24}
