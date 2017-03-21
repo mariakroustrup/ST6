@@ -2,8 +2,8 @@
 \BOOKMARK [0][-]{chapter.1}{Indledning}{}% 2
 \BOOKMARK [1][-]{section.1.1}{Initierende problemstilling}{chapter.1}% 3
 \BOOKMARK [0][-]{chapter.2}{Metode}{}% 4
-\BOOKMARK [1][-]{section.2.1}{Vidensindsamling}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.2}{Opbygning af rapporten}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.1}{Opbygning af rapporten}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Vidensindsamling}{chapter.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Problemanalyse}{}% 7
 \BOOKMARK [1][-]{section.3.1}{Kronisk obstruktiv lungesygdom}{chapter.3}% 8
 \BOOKMARK [2][-]{subsection.3.1.1}{Symptomer}{section.3.1}% 9
@@ -18,8 +18,12 @@
 \BOOKMARK [0][-]{chapter.4}{Metode}{}% 18
 \BOOKMARK [1][-]{section.4.1}{Objektorienteret programmering}{chapter.4}% 19
 \BOOKMARK [2][-]{subsection.4.1.1}{Unified Modellig Language}{section.4.1}% 20
-\BOOKMARK [2][-]{subsection.4.1.2}{Software Development Lifecycle}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.3}{Vandfaldsmodel}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Software Development Lifecycle}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{Vandfaldsmodel}{section.4.2}% 22
 \BOOKMARK [0][-]{chapter.5}{Systemudvikling}{}% 23
 \BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 24
-\BOOKMARK [0][-]{section*.24}{Litteratur}{}% 25
+\BOOKMARK [0][-]{chapter.6}{Design}{}% 25
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 26
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 27
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 28
+\BOOKMARK [0][-]{section*.26}{Litteratur}{}% 29
