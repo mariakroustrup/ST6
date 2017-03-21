@@ -17,44 +17,36 @@ Af \autoref{fig:use_case} ses aktørens interaktion med use case visualiseret so
 
 
 \subsubsection{Aktivitetsdiagrammer} 
-Aktivitetsdiagrammer anvendes til at beskrive hvad der sker i programmet, herunder proceduremæssig logik, business processer og arbejdsflow. Aktiviteter kan opdeles i subaktiviteter eller metoder. Subaktiviteter vil fremgå af diagrammet ved et rivesymbol, mens metoder vil fremgå ved syntaxen klasse-navn::metode-navn. Aktivitetsdiagrammer fortæller ikke hvem der udføre aktiviteten, hertil kan der anvendes skillevæge, som viser, hvilken aktivitet en klasse eller organisation tilhører. Et simpelt aktivitetsdiagram fremgår af \autoref{fig:aktivitetsdiagram}.
+Aktivitetsdiagrammer anvendes til at beskrive, hvad der sker i programmet, herunder proceduremæssig logik, business processer og arbejdsflow. Aktiviteter kan opdeles i subaktiviteter eller metoder. Subaktiviteter vil fremgå af diagrammet ved et rivesymbol, mens metoder vil fremgå ved syntaxen klasse-navn::metode-navn. Aktivitetsdiagrammer fortæller ikke, hvem der udfører aktiviteten, hertil kan der anvendes skillevæge, som viser, hvilken aktivitet en klasse eller organisation tilhører. Symboler der kan anvendes inden for aktivitetsdiagrammer fremgår af \autoref{fig:aktivitetsdiagram}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/aktivitetsdiagram}
+\caption{Symboler der kan anvendes i aktivitetsdiagrammer \cite{Fowler2014}.}
+\label{fig:aktivitetsdiagram}
+\end{figure}
+
+\noindent
+På \autoref{fig:aktivitetsdiagram} ses symboler 
 
 
-
-
-
-
-
-
-
- Hvert aktivitetsdiagram starter ved en initial node, som 
-påkalder et program eller en rutine.
-
-
-
-Aktiviteter kan også svare på signaler eksempelvis tid. 
-
-
-
-Et signal angiver
-at aktiviteten modtager en begivenhed fra en ekstern proces. Dette indikerer, at
-aktiviteten lytter konstant til Valgte signaler, og diagrammet definerer, hvordan den
-aktivitet reagerer.
-I tilfælde af
-
-
-slutter med en final. Derudover kan aktivitet 
 %Til at beskrive komplekse use cases eller klassemetoder anvendes aktivitetsdiagrammer. Dette giver overblik over flowet gennem de forskellige aktiviteter i den givne funktion eller metode. \cite{Fowler2004}    
 
 %Såfremt der i et aktivitetsdiagram anvendes et 'brille' symbol, indikerer dette at den aktivitet i sig selv er kompleks og er beskrevet i et særskilt aktivitetsdiagram.  
 
 \subsubsection{Klassediagrammer}
-Klassediagrammer anvendes som redskab til at designe og give overblik over de forskellige klasser. Hertil vil relationerne mellem de forskellige klasser blive tydeliggjort ved anvendelse af tilhørende symbolisering: nedarvning, association %aggregation, composition 
-med mere. Som det ses af \autoref{fig:klassediagram} beskrives hver klasse ud fra et unikt klassenavn, hvor der yderligere kan tildeles attributter og metoder til den givne klasse.\cite{Fowler2004} 
+Klassediagrammer anvendes som redskab til at beskrive strukturen i et givent system og dermed skabe overblik over forskellige klasser og relationer, der indgår i systemet. 
+
+Som det ses af \autoref{fig:klassediagram} identificeres hver klasse ud fra et unikt klassenavn, hvor der yderligere kan tildeles attributter og metoder til klassen.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/klassediag}
-\caption{}
+\caption{I klassediagrammer identificeres klasser ud fra et klassenavn, og dertilhørende attributter og metoder tilføjes nedenfor navnet.}
 \label{fig:klassediagram}
 \end{figure}
+
+\noindent
+Attributter og metoder kan markeres med symbolerne; +, - eller #, som symboliserer, at de henholdsvis er public, private eller protected, jf. \autoref{sec:oop}.
+
+Relationerne mellem klasserne illustreres ved brug af forskellige pile, og disse kan navngives for at tydeliggøre forholdet mellem  klasserne. Yderligere kan multipliciteten angives ved at tilføje symbolet *, der angiver "mange", eller specifikke værdier i pilenes ender. 
