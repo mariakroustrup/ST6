@@ -30,8 +30,13 @@
 \contentsline {subsection}{\numberline {5.1.1}Funktionelle krav}{17}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Non-funktionelle krav}{17}{subsection.5.1.2}
 \contentsline {chapter}{\chapternumberline {6}Design}{18}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Aktivitetsdiagram}{18}{subsection.6.0.1}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{20}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{21}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{22}{chapter.9}
-\contentsline {chapter}{Litteratur}{23}{section*.26}
+\contentsline {section}{\numberline {6.1}Use case}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Aktivitetsdiagram}{19}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Log ind}{19}{subsection.6.2.1}
+\contentsline {subsubsection}{Kategorisering af KOL-patienter}{20}{section*.26}
+\contentsline {subsection}{\numberline {6.2.2}Tr\IeC {\ae }ning}{22}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Resultater}{24}{subsection.6.2.3}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{25}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{26}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{27}{chapter.9}
+\contentsline {chapter}{Litteratur}{28}{section*.32}
