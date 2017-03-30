@@ -26,11 +26,15 @@
 \BOOKMARK [2][-]{subsection.5.1.2}{Non-funktionelle krav}{section.5.1}% 26
 \BOOKMARK [0][-]{chapter.6}{Design}{}% 27
 \BOOKMARK [1][-]{section.6.1}{Use case}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Aktivitetsdiagram}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.2.1}{Log ind}{section.6.2}% 30
-\BOOKMARK [2][-]{subsection.6.2.2}{Tr\346ning}{section.6.2}% 31
-\BOOKMARK [2][-]{subsection.6.2.3}{Resultater}{section.6.2}% 32
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 33
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 34
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 35
-\BOOKMARK [0][-]{section*.32}{Litteratur}{}% 36
+\BOOKMARK [1][-]{section.6.2}{Registrering}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Aktivitetsdiagram}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.3.1}{Log ind}{section.6.3}% 31
+\BOOKMARK [2][-]{subsection.6.3.2}{Redigering af brugeroplysninger}{section.6.3}% 32
+\BOOKMARK [2][-]{subsection.6.3.3}{Kategorisering af KOL-patienter}{section.6.3}% 33
+\BOOKMARK [2][-]{subsection.6.3.4}{Daglig helbredstilstand}{section.6.3}% 34
+\BOOKMARK [2][-]{subsection.6.3.5}{Tr\346ning}{section.6.3}% 35
+\BOOKMARK [2][-]{subsection.6.3.6}{Resultater}{section.6.3}% 36
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 37
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 38
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 39
+\BOOKMARK [0][-]{section*.32}{Litteratur}{}% 40
