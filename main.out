@@ -20,21 +20,20 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Unified Modellig Language}{section.4.1}% 20
 \BOOKMARK [1][-]{section.4.2}{Software Development Lifecycle}{chapter.4}% 21
 \BOOKMARK [2][-]{subsection.4.2.1}{Vandfaldsmodel}{section.4.2}% 22
-\BOOKMARK [0][-]{chapter.5}{Systemudvikling}{}% 23
+\BOOKMARK [0][-]{chapter.5}{Systemanalyse}{}% 23
 \BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 24
-\BOOKMARK [2][-]{subsection.5.1.1}{Funktionelle krav}{section.5.1}% 25
-\BOOKMARK [2][-]{subsection.5.1.2}{Non-funktionelle krav}{section.5.1}% 26
-\BOOKMARK [0][-]{chapter.6}{Design}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Use case}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Registrering}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{Aktivitetsdiagram}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.3.1}{Log ind}{section.6.3}% 31
-\BOOKMARK [2][-]{subsection.6.3.2}{Redigering af brugeroplysninger}{section.6.3}% 32
-\BOOKMARK [2][-]{subsection.6.3.3}{Kategorisering af KOL-patienter}{section.6.3}% 33
-\BOOKMARK [2][-]{subsection.6.3.4}{Daglig helbredstilstand}{section.6.3}% 34
-\BOOKMARK [2][-]{subsection.6.3.5}{Tr\346ning}{section.6.3}% 35
-\BOOKMARK [2][-]{subsection.6.3.6}{Resultater}{section.6.3}% 36
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 37
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 38
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 39
-\BOOKMARK [0][-]{section*.32}{Litteratur}{}% 40
+\BOOKMARK [1][-]{section.5.2}{Kravspecifikationer}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.3}{Use case}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.4}{Registrering}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.5}{Aktivitetsdiagram}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.5.1}{Log ind}{section.5.5}% 29
+\BOOKMARK [2][-]{subsection.5.5.2}{Redigering af brugeroplysninger}{section.5.5}% 30
+\BOOKMARK [2][-]{subsection.5.5.3}{Kategorisering af KOL-patienter}{section.5.5}% 31
+\BOOKMARK [2][-]{subsection.5.5.4}{Daglig helbredstilstand}{section.5.5}% 32
+\BOOKMARK [2][-]{subsection.5.5.5}{Tr\346ning}{section.5.5}% 33
+\BOOKMARK [2][-]{subsection.5.5.6}{Resultater}{section.5.5}% 34
+\BOOKMARK [0][-]{chapter.6}{Design}{}% 35
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 36
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 37
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 38
+\BOOKMARK [0][-]{section*.34}{Litteratur}{}% 39
