@@ -1,0 +1,21 @@
+\subsection{Social relationer} 
+For at motivere KOL-patienter til en reglmæssig træning er sociale relationer integreret i app'en. Dette muliggøre, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere af app'en har opnået. Det skal hertil være muligt for brugeren at tilføje og fjerne venner fra deres venneliste. Af \autoref{fig:venner} fremgår et aktivitetsdiagram for sociale relationer. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.65\textwidth]{figures/aktivitetsdiagram/venner}
+\caption{Aktivitetsdiagram for sociale relationer}
+\label{fig:venner}
+\end{figure}
+
+\noindent
+Brugeren har en venneliste, der indeholder de andre brugere, som følges. Herunder er det muligt at tilgå en specifik ven, hvortil dennes belønninger vises. Brugeren skal både have mulighed for at tilføje samt fjerne venner fra sin venneliste. Tilføjelsen af venner beskrives yderligere af \autoref{tilfoejven}. Ønskes det at fjerne en ven fra vennelisten, sendes informationer om den valgte ven til databasen, hvorved vennerelationen slettes. Derefter returneres en bekræftigelse til systemet, der viser, at den valgte ven er fjernet fra vennelisten. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.65\textwidth]{figures/aktivitetsdiagram/foelgnyven}
+\caption{Aktivitetsdiagram for tilføjelse af venner til vennelisten.}
+\label{fig:tilfoejven}
+\end{figure}
+
+Ved tilføjelse af nye venner indtastes brugernavnet eller medlemsID'et på den ønskede ven. Brugernavnet eller medlemsID'et sendes til databasen, der returnerer brugernavn, medlemsID, vennerelation eller fejlmelding til systemet. Hvis der allerede er en relation mellem de to brugerer eller, at brugerinformationen ikke eksisterer i databasen, forekommer en fejlmelding, hvortil et andet brugernavn eller medlemsID kan indtastes. Eksisterer brugernavnet eller medlemsID'et derimod, vises brugeren og det er dertil muligt at følge brugeren. Ønskes den valgte ven at følges sendes en anmodning til databasen som opretter en vennerelation. Derefter sendes en bekræftelse om vennerelationen til systemet.
