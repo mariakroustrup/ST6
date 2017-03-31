@@ -1,5 +1,6 @@
 \subsection{Social relationer} 
-For at motivere KOL-patienter til en reglmæssig træning er sociale relationer integreret i app'en. Dette muliggøre, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere af app'en har opnået. Det skal hertil være muligt for brugeren at tilføje og fjerne venner fra deres venneliste. Af \autoref{fig:venner} fremgår et aktivitetsdiagram for sociale relationer. 
+For at motivere KOL-patienter til en regelmæssig træning, vælges at integrere mulighed for sociale relationer i app'en. Dette muliggøre, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere har opnået. Hertil skal det være muligt for brugeren at tilføje og fjerne venner fra deres venneliste. 
+Af \autoref{fig:venner} fremgår et aktivitetsdiagram for sociale relationer. 
 
 \begin{figure} [H]
 \centering
@@ -9,7 +10,9 @@ For at motivere KOL-patienter til en reglmæssig træning er sociale relationer 
 \end{figure}
 
 \noindent
-Brugeren har en venneliste, der indeholder de andre brugere, som følges. Herunder er det muligt at tilgå en specifik ven, hvortil dennes belønninger vises. Brugeren skal både have mulighed for at tilføje samt fjerne venner fra sin venneliste. Tilføjelsen af venner beskrives yderligere af \autoref{tilfoejven}. Ønskes det at fjerne en ven fra vennelisten, sendes informationer om den valgte ven til databasen, hvorved vennerelationen slettes. Derefter returneres en bekræftigelse til systemet, der viser, at den valgte ven er fjernet fra vennelisten. 
+Vennelisten viser en oversigt over andre brugere, som den individuelle bruger vælger at følge. Heraf skal det være muligt for den individuelle bruger at tilgå information fra disse andre brugere. Denne information begrænses til at vise vundet belønninger for de andre brugere, da den resterende information ases som værende personlig til den enkelte bruger. 
+Fra vennelisten skal den individuelle bruger have mulighed for at fjerne brugere fra listen eller tilføje andre brugere, hvortil disse funktioner uddybes af henholdsvis af \autoref{fig:venner} og \autoref{fig:tilfoejven}.  
+Ønskes det at fjerne en bruger fra vennelisten, sendes informationer om den valgte bruger til databasen, hvorved vennerelationen slettes. Derefter returneres en bekræftigelse, der viser, at den valgte bruger er fjernet fra vennelisten. 
 
 \begin{figure} [H]
 \centering
@@ -18,4 +21,6 @@ Brugeren har en venneliste, der indeholder de andre brugere, som følges. Herund
 \label{fig:tilfoejven}
 \end{figure}
 
-Ved tilføjelse af nye venner indtastes brugernavnet eller medlemsID'et på den ønskede ven. Brugernavnet eller medlemsID'et sendes til databasen, der returnerer brugernavn, medlemsID, vennerelation eller fejlmelding til systemet. Hvis der allerede er en relation mellem de to brugerer eller, at brugerinformationen ikke eksisterer i databasen, forekommer en fejlmelding, hvortil et andet brugernavn eller medlemsID kan indtastes. Eksisterer brugernavnet eller medlemsID'et derimod, vises brugeren og det er dertil muligt at følge brugeren. Ønskes den valgte ven at følges sendes en anmodning til databasen som opretter en vennerelation. Derefter sendes en bekræftelse om vennerelationen til systemet.
+Ved tilføjelse af nye bruger indtastes brugernavnet eller medlemsID'et på den givne bruger. Brugernavnet eller medlemsID'et sendes til databasen, der returnerer et brugernavn, medlemsID, vennerelation eller fejlmelding til systemet. Hvis der allerede er en relation mellem de to brugere eller, at brugerinformationen ikke eksisterer i databasen, forekommer en fejlmelding, hvortil et andet brugernavn eller medlemsID kan indtastes på ny. 
+Såfremt at der ikke forekommer en fejlmelding, vises den søgte bruger, hvortil det er muligt at følge vedkommende. 
+Vælges dette, sendes en anmodning til databasen som opretter en vennerelation mellem de to brugere. Efterfølgende returneres en bekræftelse om vennerelationen til systemet.
