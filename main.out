@@ -24,19 +24,10 @@
 \BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 24
 \BOOKMARK [1][-]{section.5.2}{Kravspecifikationer}{chapter.5}% 25
 \BOOKMARK [1][-]{section.5.3}{Use case}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.4}{Sikkerhed}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.4.1}{Registrering}{section.5.4}% 28
-\BOOKMARK [1][-]{section.5.5}{Aktivitetsdiagram}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.5.1}{Log ind}{section.5.5}% 30
-\BOOKMARK [2][-]{subsection.5.5.2}{Redigering af brugeroplysninger}{section.5.5}% 31
-\BOOKMARK [2][-]{subsection.5.5.3}{Kategorisering af KOL-patienter}{section.5.5}% 32
-\BOOKMARK [2][-]{subsection.5.5.4}{Daglig helbredstilstand}{section.5.5}% 33
-\BOOKMARK [2][-]{subsection.5.5.5}{Tr\346ning}{section.5.5}% 34
-\BOOKMARK [2][-]{subsection.5.5.6}{Resultater}{section.5.5}% 35
-\BOOKMARK [2][-]{subsection.5.5.7}{Social relationer}{section.5.5}% 36
-\BOOKMARK [0][-]{chapter.6}{Design}{}% 37
-\BOOKMARK [1][-]{subsection.6.0.1}{Brugervenlighed}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 39
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 40
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 41
-\BOOKMARK [0][-]{section*.36}{Litteratur}{}% 42
+\BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Design}{}% 28
+\BOOKMARK [1][-]{subsection.6.0.1}{Brugervenlighed}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 30
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 31
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 32
+\BOOKMARK [0][-]{section*.44}{Litteratur}{}% 33

@@ -1,12 +1,25 @@
-\section{Sikkerhed}
+\section{Funktionalitet}
+I dette afsnit beskrives funktionaliteterne, der er udarbejdet ud fra systembeskrivelsen samt use case diagrammet. De enkelte funktionaliteter er opdelt efter registrering, log ind, redigering, kategorisering af KOL, daglig helbredstilstand, træning, resultater og sociale relationer. 
+
+
+
+
+
+*** NOGET AF DETTE KAN BRUGES NEDENFOR! ****
 Da app'en skal implementeres på en mobilenhed skal der være nogle sikkerhedsforanstaltninger i forhold til at beskytte KOL-patienters personfølsomme oplysninger. Sundhedsdatastyrelsen har udarbejdet vejledning om informationssikkerhed i sundhedsvæsnet, herunder mobilsikkerhed \cite{Sundhedsdatastyrelsen2016}.
 
-Da information fra mobileenheder har større risiko for at blive misbrugt, da uvedkommende kan tilgå informationer via netadgang eller enheden. For at reducere risikoen for dette skal app'en tilgås via brugernavn og adgangskode før brug. Derudover registreres KOL-patienter i  en database i et sikkert miljø af sundhedspersonalet. Derudover angives patienterne med medlemsID fremfor personnummer for, at gøre patienter uidentificerbare \cite{Sundhedsdatastyrelsen2016}. 
+Da information fra mobileenheder har større risiko for at blive misbrugt, da uvedkommende kan tilgå informationer via netadgang eller enheden. For at reducere risikoen for dette skal app'en tilgås via brugernavn og adgangskode før brug. Derudover registreres KOL-patienter i en database i et sikkert miljø af sundhedspersonalet. Derudover angives patienterne med medlemsID fremfor personnummer for, at gøre patienter uidentificerbare \cite{Sundhedsdatastyrelsen2016}. 
 
-\subsection{Registrering} \label{sec:registrering}
-Inden KOL-patienter kan anvende app'en skal de registreres som brugere af systemet. Dette skal foregå i forbindelse med rehabiliteringsforløbet, hvor sundhedspersonale opretter patienterne i en database. Patienterne får tilknyttet et medlemsID og en nuværende adgangskode. MedlemsID'et består af tal, der identificerer lokalisation, årstal og måned for påbegyndt rehabilieringsforløb samt nummerering af den enkelte KOL-patient. Et eksempel på medlemsID kan være 01-2017-03-01.
-Adgangskoden, der bliver udleveret af sundhedspersonalet, kan senere ændres i app'en, hvis en personlig adgangskode ønskes. Denne adgangskode skal være på minimum seks karakterer, jf. \autoref{sec:sikkerhed}.
+\subsection*{Registrering} \label{sec:registrering}
+Inden KOL-patienter kan anvende app'en skal de registreres som brugere af systemet. Dette skal foregå i forbindelse med rehabiliteringsforløbet, hvor sundhedspersonale opretter patienterne i databasen. Patienterne får tilknyttet et medlemsID og en adgangskode. MedlemsID'et består af tal, eksempelvis \textit{01170301}, som er sammensat ud fra lokalisation, årstal og måned for påbegyndt rehabilieringsforløb samt nummerering af den enkelte KOL-patient.
+Adgangskoden, der bliver udleveret af sundhedspersonalet, kan senere ændres i app'en, hvis en personlig adgangskode ønskes. 
 
-Under registrering skal KOL-patienter ligeledes vælge et personligt brugernavn, som gør dem identificerbare i forhold til andre KOL-patienter. Brugernavn tilføjes til databasen, og KOL-patienter kan dermed vælge at logge ind på app'en ved brug af dette brugernavn eller det udleverede medlemsID samt adgangskode. 
+Under registrering skal KOL-patienter ligeledes vælge et brugernavn, som gør dem identificerbare, således andre brugere kan følge dem. Brugernavn tilføjes til databasen, og KOL-patienter kan dermed vælge at logge ind på app'en ved brug af brugernavn eller  medlemsID samt adgangskode. 
 
 I forbindelse med registrering skal sundhedspersonalet introducere KOL-patienter til brugen af app'en. Herunder skal de hjælpe KOL-patienterne med at kategorisere patientens sygdom før app'en anvendes til træning i hjemmet. Dette skal gøres i et forsøg på at skabe tryghed hos patienterne, da denne kategorisering har betydning for, hvilket træningsniveau patienten senere får foreslået af app'en. Der er desuden mulighed for at kunne få besvaret eventuelle tvivlsspørgsmål, der kan opstå første gang app'en anvendes. 
+
+
+
+**** Denne adgangskode skal være på minimum seks karakterer, jf. \autoref{sec:sikkerhed}. DET SKAL NED ****
+
+

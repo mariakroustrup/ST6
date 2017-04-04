@@ -1,9 +1,5 @@
-\section{Aktivitetsdiagram}
-I dette afsnit beskrives aktivitetsdiagrammer der er udarbejdet ud fra use case diagrammet i \autoref{sec:usecase}. De enkelte aktivitetsdiagrammer er opdelt efter log ind, redigering, kategorisering af KOL, daglig helbredstilstand, træning og resultater.    
-
-\subsection{Log ind}
-For at opfylde ønsket om sikkerhed jf. \autoref{sec:sikkerhed} skal brugeren logge ind hver gang app'en anvendes. Dette er med til at skabe en individuel bruger for den enkelte KOL-patient med henblik på at sikre brugerens private oplysninger samt resultater. Aktivitetsdiagrammet over log ind fremgår af \autoref{fig:logind}. 
-
+\subsection*{Log ind}
+Der oprettes en log ind funktion, for at skabe en individuel bruger for den enkelte KOL-patient med henblik på at sikre brugerens private oplysninger samt resultater. Aktivitetsdiagrammet over log ind fremgår af \autoref{fig:logind}. 
 
 \begin{figure} [H]
 \centering
@@ -12,10 +8,6 @@ For at opfylde ønsket om sikkerhed jf. \autoref{sec:sikkerhed} skal brugeren lo
 \label{fig:logind}
 \end{figure}
 
+
 \noindent
-Når KOL-patienten vil anvende app'en skal medlemsID eller brugernavn samt kodeord indtastes. Systemet sender det indtastede medlemsID eller brugernavn til databasen, som tilbagesender det tilhørende kodeord, hvis det findes i databasen. Hvis de indtastede informationer ikke findes i databasen sendes en fejlmeddelelse i form af 0. Systemet sammenligner herefter brugerens indtastede kodeord med den returnerede værdi fra databasen. Er de to værdier ens, har brugeren indtastet korrekte informationer sender databasen brugerdata og viser app'ens hovedmenu. Er de to værdier ikke ens, tilbagesender systemet en fejlmeddelelse og brugeren får derefter mulighed for at indtaste informationer igen. Aktivitetsdiagrammet over log ind fremgår af \autoref{fig:logind}.
-
-
-
-
-
+Når KOL-patienten vil anvende app'en skal medlemsID eller brugernavn samt kodeord indtastes. Systemet sender det indtastede medlemsID eller brugernavn til databasen, som tilbagesender det tilhørende kodeord, hvis det findes i databasen. Hvis de indtastede informationer ikke findes i databasen sendes en fejlmeddelelse i form af 0. Systemet sammenligner herefter brugerens indtastede kodeord med den returnerede værdi fra databasen. Er de to værdier ens, har brugeren indtastet de korrekte informationer, hvortil brugerinformationen hentes fra databasen og hovedmenuen vises. Er de to værdier ikke ens, tilbagesender systemet en fejlmeddelelse og brugeren får derefter mulighed for at indtaste informationer igen. 
