@@ -9,8 +9,7 @@ Brugeren kan ud fra app'ens hovedmenu have mulighed for at redigere adgangskode 
 \end{figure}
 
 \noindent
-Det skal både være muligt at ændre sin adgangskode samt kategoriseringen, som blev defineret i forbindelse med registrering af brugeren. Da brugeren får tildelt en tilfældig adgangskode, skal det være muligt at ændre denne til en personlig adgangskode. For at kunne foretage en ændring af adgangskoden, skal den nye adgangskode som minimum være seks karakterer lang. *** TILFØJ HVORFOR ADGANGSKODEN SKAL VÆRE MIN 6 KARAKTERER LANG ***
-
-Hvis dette ikke opfyldes sendes en fejlmeddelse tilbage til brugeren, hvortil en ny adgangskode skal indtastes. 
+Det skal både være muligt at ændre sin adgangskode samt kategoriseringen, som blev defineret i forbindelse med registrering af brugeren. Da brugeren får tildelt en tilfældig adgangskode, skal det være muligt at ændre denne til en personlig adgangskode. For at kunne foretage en ændring af adgangskoden, skal den nye adgangskode som minimum være 10 karakterer lang. Grunden til dette er, at der ved log ind sendes en fejlmeddelelse, hvis indtastede informationer ikke findes i databasen. Adgangskoden skal derfor ikke kunne forveksles med fejlmeddelelsen. Desuden anbefalder Rådet for Digital Sikkerhed, at adgangskoder bør være minimum 10 karakterer lang, men der er ingen krav om en minimumslængde \citep{sikkerhed2015}.
+Hvis kravet om minimum 10 karakterer ikke opfyldes, sendes en fejlmeddelse tilbage til brugeren, hvortil en ny adgangskode skal indtastes. 
 I tilfælde af, at brugerens tilstand ændres er det ligeledes muligt at redigere denne. Aktivitetsdiagrammet for kategorisering af KOL fremgår af \autoref{fig:Kate}.
 Ved korrekt redigering af brugeroplysningerne sendes ændringerne til databasen, hvorefter de gemmes i databasen.
