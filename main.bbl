@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,6 +20,12 @@ Peter Lange.
 \newblock URL
   \url{http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=942{\&}gotoChapter=942
   http://vejledninger.dsam.dk/kol/?mode=visKapitel{\&}cid=951{\&}gotoChapter=951}.
+
+\bibitem[WHO({\natexlab{a}})]{WHO2017}
+WHO.
+\newblock {The top 10 causes of death}, {\natexlab{a}}.
+\newblock URL
+  \url{http://www.who.int/mediacentre/factsheets/fs310/en/index3.html}.
 
 \bibitem[Hauschildt and Ravn(2016)]{Basisbogen2016}
 Pernille Hauschildt and Jesper Ravn.
@@ -75,6 +81,21 @@ Fernado~D. Martinez.
 \newblock URL
   \url{https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/sjaelland/patientforloeb/forloebsbeskrivelser/r-luftveje/kol/}.
 
+\bibitem[Hellem et~al.(2012)Hellem, Bruusgaard, and Al.]{Hellem2012}
+Elisabet Hellem, Kari Bruusgaard, and Et. Al.
+\newblock {Exercise maintenance: COPD patients' perception and perspectives on
+  elements of success in sustaining long-term exercise}.
+\newblock \emph{Physiotherapy Theory and Practice}, pages 206--220, 2012.
+\newblock \doi{10.3109/09593985.2011.587502}.
+
+\bibitem[Williams et~al.(2014)Williams, Price, and Et.al]{Williams2014}
+Veronika Williams, Jonathan Price, and Et.al.
+\newblock {Using a mobile health application to support self-management in
+  COPD}.
+\newblock 2014.
+\newblock URL
+  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4073724/pdf/bjgpjul2014-64-624-e392.pdf}.
+
 \bibitem[Frausing(2011{\natexlab{c}})]{Frausing2011b}
 Ejvind Frausing.
 \newblock {Rehabilitering}.
@@ -127,13 +148,18 @@ T~et.~al. Ringbaek.
 \newblock \emph{Pulmonary Rehabilitation Research Group}, 2008.
 \newblock URL \url{https://www.ncbi.nlm.nih.gov/pubmed/18539720}.
 
-\bibitem[Williams et~al.(2014)Williams, Price, and Et.al]{Williams2014}
-Veronika Williams, Jonathan Price, and Et.al.
-\newblock {Using a mobile health application to support self-management in
-  COPD}.
-\newblock 2014.
+\bibitem[WHO({\natexlab{b}})]{WHOtelehealth2017}
+WHO.
+\newblock {Telehealth}, {\natexlab{b}}.
 \newblock URL
-  \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4073724/pdf/bjgpjul2014-64-624-e392.pdf}.
+  \url{http://www.who.int/sustainable-development/health-sector/strategies/telehealth/en/}.
+
+\bibitem[WHO(2017)]{WHOrehab2017}
+WHO.
+\newblock {WORLD REPORT ON DISABILITY}.
+\newblock 2017.
+\newblock URL
+  \url{http://www.who.int/disabilities/world{\_}report/2011/report.pdf?ua=1}.
 
 \bibitem[{Healthcare Denmark}()]{HealthcareDenmark2017}
 {Healthcare Denmark}.
@@ -159,6 +185,20 @@ Martin Fowler.
 \newblock Third edit edition, 2004.
 \newblock ISBN 978-0321193681.
 
+\bibitem[Williams(2004)]{Williams2004}
+Laurie Williams.
+\newblock {An Introduction to the Unified Modeling Language}.
+\newblock 2004.
+\newblock URL \url{http://agile.csc.ncsu.edu/SEMaterials/UMLOverview.pdf}.
+
+\bibitem[Jain and Jain(2011)]{Jain2011}
+Namrata Jain and Anurag Jain.
+\newblock {Software Development Life Cycle: A Detailed Study}.
+\newblock \emph{International Journal of Advanced Research in Computer
+  Science}, 2011.
+\newblock URL
+  \url{http://search.proquest.com/docview/1443708677?rfr{\_}id=info{\%}3Axri{\%}2Fsid{\%}3Aprimo}.
+
 \bibitem[Alshamrani and Bahattab(2015)]{Alshamrani2015}
 Adel Alshamrani and Abdullah Bahattab.
 \newblock {A Comparison Between Three SDLC Models Waterfall Model, Spiral
@@ -170,5 +210,27 @@ Youssef Bassil.
 \newblock {A Simulation Model for the Waterfall Software Development Life
   Cycle}.
 \newblock 2012.
+
+\bibitem[Sundhedsdatastyrelsen(2016)]{Sundhedsdatastyrelsen2016}
+Sundhedsdatastyrelsen.
+\newblock {Vejledning om informationssikkerhed i sundhedsv{\ae}senet}.
+\newblock \emph{Sundhedsdatastyrelsen}, 2016.
+
+\bibitem[for~digital sikkerhed(2015)]{sikkerhed2015}
+R{\aa}det for~digital sikkerhed.
+\newblock {Sikre adgangskoder}.
+\newblock \emph{R{\aa}det for digital sikkerhed}, 2015.
+\newblock URL \url{http://www.digitalsikkerhed.dk/sikre-adgangskoder/}.
+
+\bibitem[Chang and Et.al(2002)]{Chang2002}
+Dempsey Chang and Et.al.
+\newblock {Gestalt Theory in Visual Screen Design – A New Look at an Old
+  Subject}.
+\newblock \emph{Monash University}, 2002.
+
+\bibitem[Ferr{\'{e}} et~al.(2001)Ferr{\'{e}}, Juristo, and Et.al]{ferre2001}
+Xavier Ferr{\'{e}}, Natalia Juristo, and Et.al.
+\newblock {Usability Basics for Software Developers}.
+\newblock 2001.
 
 \end{thebibliography}
