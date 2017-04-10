@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  10 APR 2017 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  10 APR 2017 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2021,19 +2021,24 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+
+Package natbib Warning: Citation `Studieordning2014' on page iii undefined on i
+nput line 6.
+
+
 Underfull \hbox (badness 1354) in paragraph at lines 5--7
 \T1/cmr/m/n/10.95 ved Aalborg Universitet i perioden 1. februar 2017 til 30. ju
 ni år 2017. Projektet
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 13--14
+Underfull \hbox (badness 2376) in paragraph at lines 11--12
 \T1/cmr/m/n/10.95 Projektet er delt op i to dele, herunder problemanalyse og en
  problemløsning. I
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 13--14
+Underfull \hbox (badness 1939) in paragraph at lines 11--12
 \T1/cmr/m/n/10.95 problemanalysen analyseres der på baggrund af den opstillede 
 problemstilling, hvor
  []
@@ -2070,9 +2075,9 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 17.
 )
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 31.
@@ -2596,30 +2601,39 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
 [23 <./figures/aktivitetsdiagram/Kategorisering.pdf>]
-<figures/aktivitetsdiagram/Helbredstilstand.pdf, id=601, 563.10374pt x 584.1825
-pt>
-File: figures/aktivitetsdiagram/Helbredstilstand.pdf Graphic file (type pdf)
- <use figures/aktivitetsdiagram/Helbredstilstand.pdf>
-Package pdftex.def Info: figures/aktivitetsdiagram/Helbredstilstand.pdf used on
- input line 7.
-(pdftex.def)             Requested size: 396.89731pt x 411.75957pt.
+<figures/aktivitetsdiagram/NYHelbredstilstand.pdf, id=601, 563.10374pt x 664.48
+25pt>
+File: figures/aktivitetsdiagram/NYHelbredstilstand.pdf Graphic file (type pdf)
+ <use figures/aktivitetsdiagram/NYHelbredstilstand.pdf>
+Package pdftex.def Info: figures/aktivitetsdiagram/NYHelbredstilstand.pdf used 
+on input line 7.
+(pdftex.def)             Requested size: 396.89731pt x 468.35883pt.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
- [24 <./figures/aktivitetsdiagram/Helbredstilstand.pdf>])
+(babel)             in language  on input line 11.
+ [24])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Traening.tex
-<figures/aktivitetsdiagram/Traening.pdf, id=621, 847.165pt x 1334.9875pt>
-File: figures/aktivitetsdiagram/Traening.pdf Graphic file (type pdf)
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+ [25 <./figures/aktivitetsdiagram/NYHelbredstilstand.pdf>]
+<figures/aktivitetsdiagram/NYTraening.pdf, id=626, 847.165pt x 1475.5125pt>
+File: figures/aktivitetsdiagram/NYTraening.pdf Graphic file (type pdf)
 
-<use figures/aktivitetsdiagram/Traening.pdf>
-Package pdftex.def Info: figures/aktivitetsdiagram/Traening.pdf used on input l
-ine 7.
-(pdftex.def)             Requested size: 396.89731pt x 625.42757pt.
+<use figures/aktivitetsdiagram/NYTraening.pdf>
+Package pdftex.def Info: figures/aktivitetsdiagram/NYTraening.pdf used on input
+ line 7.
+(pdftex.def)             Requested size: 352.80135pt x 614.46516pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
@@ -2628,7 +2642,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 11.
- [25]
+ [26]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
@@ -2637,9 +2651,9 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 14.
- [26 <./figures/aktivitetsdiagram/Traening.pdf>])
+ [27 <./figures/aktivitetsdiagram/NYTraening.pdf>])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Resultater.tex
-<figures/aktivitetsdiagram/Resultater.pdf, id=641, 565.11125pt x 442.65375pt>
+<figures/aktivitetsdiagram/Resultater.pdf, id=647, 565.11125pt x 442.65375pt>
 File: figures/aktivitetsdiagram/Resultater.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Resultater.pdf>
@@ -2654,8 +2668,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 16.
- [27 <./figures/aktivitetsdiagram/Resultater.pdf>]
-<figures/aktivitetsdiagram/beloeninnger.png, id=655, 899.36pt x 268.00125pt>
+ [28 <./figures/aktivitetsdiagram/Resultater.pdf>]
+<figures/aktivitetsdiagram/beloeninnger.png, id=660, 899.36pt x 268.00125pt>
 File: figures/aktivitetsdiagram/beloeninnger.png Graphic file (type png)
 
 <use figures/aktivitetsdiagram/beloeninnger.png>
@@ -2664,7 +2678,7 @@ ut line 19.
 (pdftex.def)             Requested size: 441.0pt x 131.4158pt.
 )
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/venner.tex
-<figures/aktivitetsdiagram/venner.pdf, id=658, 844.15375pt x 1007.765pt>
+<figures/aktivitetsdiagram/venner.pdf, id=663, 844.15375pt x 1007.765pt>
 File: figures/aktivitetsdiagram/venner.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/venner.pdf>
@@ -2679,8 +2693,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
- [28 <./figures/aktivitetsdiagram/beloeninnger.png>]
-<figures/aktivitetsdiagram/foelgnyven.pdf, id=671, 844.15375pt x 1004.75375pt>
+ [29 <./figures/aktivitetsdiagram/beloeninnger.png>]
+<figures/aktivitetsdiagram/foelgnyven.pdf, id=676, 844.15375pt x 1004.75375pt>
 File: figures/aktivitetsdiagram/foelgnyven.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/foelgnyven.pdf>
@@ -2695,7 +2709,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 25.
- [29 <./figures/aktivitetsdiagram/venner.pdf>])
+ [30 <./figures/aktivitetsdiagram/venner.pdf>])
 Underfull \hbox (badness 1546) in paragraph at lines 26--62
 \T1/cmr/m/n/10.95 Ønskes det at følge nye brugere indtastes brugernavnet eller 
 medlemsID'et på den
@@ -2709,7 +2723,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 62.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 62.
-[30 <./figures/aktivitetsdiagram/foelgnyven.pdf>]
+[31 <./figures/aktivitetsdiagram/foelgnyven.pdf>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 62.
 Package babel Info: Redefining danish shorthand "~
@@ -2735,37 +2749,37 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 66.
- [31
-
-]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 66.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 69.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 69.
  [32
 
 ]
 Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 66.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 66.
+Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 69.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 72.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 69.
  [33
+
+]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 69.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 72.
+ [34
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -2781,7 +2795,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [34
+ [35
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -2801,7 +2815,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 109.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 109.
- [35
+ [36
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -2812,7 +2826,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 208.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 208.
- [36])
+ [37])
 
 Package natbib Warning: There were undefined citations.
 
@@ -2826,7 +2840,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 94.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 94.
-[37]
+[38]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 94.
 Package babel Info: Redefining danish shorthand "~
@@ -2844,10 +2858,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 28615 strings out of 493089
- 511943 string characters out of 6134843
+ 28621 strings out of 493089
+ 512044 string characters out of 6134843
  845112 words of memory out of 5000000
- 31437 multiletter control sequences out of 15000+600000
+ 31440 multiletter control sequences out of 15000+600000
  32846 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10481b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2874,10 +2888,10 @@ t/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (41 pages, 1542869 bytes).
+Output written on main.pdf (42 pages, 1576050 bytes).
 PDF statistics:
- 879 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 155 named destinations out of 1000 (max. 500000)
+ 884 PDF objects out of 1000 (max. 8388607)
+ 752 compressed objects within 8 object streams
+ 156 named destinations out of 1000 (max. 500000)
  380 words of extra memory for PDF output out of 10000 (max. 10000000)
 
