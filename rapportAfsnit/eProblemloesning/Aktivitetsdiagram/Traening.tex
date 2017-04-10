@@ -10,6 +10,20 @@ Når brugeren har angivet sin daglige helbredstilstand samt om der ønskes at ti
 \end{figure}
 
 \noindent
-Før selve træningen kan påbegyndes, skal brugeren angive træningsform, herunder konditions-, styrketræning og vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype f.eks. gå, løbe eller cykle. Efterfølgende beregnes et anbefalet træningsniveau ud fra en algoritme på baggrund af kategoriseringen af KOL, den daglige helbredstilstand samt evalueringer fra forhenværende træning. Oplysninger om det anbefalede træningsniveau vises og træningen samt måleenheder kan påbegyndes. 
+Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning og vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis gå, løbe eller cykle. Efterfølgende beregnes et anbefalet træningsniveau ud fra en algoritme, der ses af \autoref{tab:beslutningstabel}. Oplysninger om det anbefalede træningsniveau vises og træningen samt måleenheder kan påbegyndes. 
 
-Under træningen kan brugeren pause træningen og måleenhederne, hvorefter der er mulighed for at fortsætte træningen eller afslutte træningen. Afsluttes eller fuldføres træningen, skal brugere evaluere træningen. Denne evalueres som let, moderat eller hård. Herefter vises resultater fra den udførte træning. Systemet sender træningsparametre, som består af den daglige helbredstilstand, resultater fra den udførte træning samt evaluering til databasen, som lagrer informationerne. 
+Under træningen kan brugeren pause træningen og måleenhederne, hvorefter det er muligt at fortsætte eller afslutte træningen. Derefter skal brugeren evaluere træningen som værende let, moderat eller hård, hvorefter resultaterne fra den pågældende træning beregnes samt vises. Ligeledes sender systemet træningsparametre, bestående af den daglige helbredstilstand, resultater fra den udførte træning samt evaluering til databasen, som lagrer informationerne. 
+
+\subsubsection*{Algoritme til valg af træningsniveau}
+Algoritmen til valg af træningsniveau er illustreret som en beslutningstabel, der viser, hvilke parameter, som ligger til grund for valg af træningsniveau til den enkelte bruger. Af \autoref{tab:beslutningstabel} ses beslutningstabellen for valg af træningsniveau.
+
+\begin{table}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/aktivitetsdiagram/beslutningstabel}
+\caption{Beslutningstabel for træningsniveau. Til at bestemme træningsniveau medregnes kategorisering, helbredstilstand samt eventuel evaluering. Af dette eksempel er brugeren kategoriseret B med en helbredstilstand, der er angivet som moderat. Den ønskede træningsform er valgt til konditionstræning og derunder løb.}
+\label{tab:beslutningstabel}
+\end{table} 
+
+Af \autoref{tab:beslutningstabel} fremgår beslutningstabellen for, hvorledes et træningssæt tilpasses den enkelte bruger. Beslutningstabellen tager udgangspunkt i brugerens kategorisering, daglig helbredstilstand samt en eventuel evaluering. Brugeren er i dette tilfælde kategoriseret til B. Helbredstilstanden angives førend en træning påbegyndes, for således at tilpasse niveauet til den pågældende dag. Helbredstilstanden angives efter \textit{1: Meget dårligt}, \textit{2: Dåligt}, \textit{3: Moderat}, \textit{4: Godt} eller \textit{5: Meget godt}.
+Træningsniveauet vurderes dermed ud fra brugerens kategorisering samt helbredstilstand. 
+For at have mulighed for at kunne regulere træningssættet yderligere, medregnes den forhenværende evaluering, der er forbundet med samme helbredstilstand, træningsform og type. I dette tilfælde har brugeren før haft samme helbredstilstand, træningsform samt type og dertil evalueret denne træning til værende hård. Algoritmen regulerer hertil træningsniveauet ned, for således at give brugeren en bedre træningsoplevelse. 
