@@ -19,11 +19,12 @@ Algoritmen til valg af træningsniveau er illustreret som en beslutningstabel, d
 
 \begin{table}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/aktivitetsdiagram/beslutningstabel}
+\includegraphics[width=1\textwidth]{figures/aktivitetsdiagram/beslutningstabel}
 \caption{Beslutningstabel for træningsniveau. Til at bestemme træningsniveau medregnes kategorisering, helbredstilstand samt eventuel evaluering. Af dette eksempel er brugeren kategoriseret B med en helbredstilstand, der er angivet som moderat. Den ønskede træningsform er valgt til konditionstræning og derunder løb.}
 \label{tab:beslutningstabel}
 \end{table} 
 
+\noindent
 Af \autoref{tab:beslutningstabel} fremgår beslutningstabellen for, hvorledes et træningssæt tilpasses den enkelte bruger. Beslutningstabellen tager udgangspunkt i brugerens kategorisering, daglig helbredstilstand samt en eventuel evaluering. Brugeren er i dette tilfælde kategoriseret til B. Helbredstilstanden angives førend en træning påbegyndes, for således at tilpasse niveauet til den pågældende dag. Helbredstilstanden angives efter \textit{1: Meget dårligt}, \textit{2: Dåligt}, \textit{3: Moderat}, \textit{4: Godt} eller \textit{5: Meget godt}.
 Træningsniveauet vurderes dermed ud fra brugerens kategorisering samt helbredstilstand. 
 For at have mulighed for at kunne regulere træningssættet yderligere, medregnes den forhenværende evaluering, der er forbundet med samme helbredstilstand, træningsform og type. I dette tilfælde har brugeren før haft samme helbredstilstand, træningsform samt type og dertil evalueret denne træning til værende hård. Algoritmen regulerer hertil træningsniveauet ned, for således at give brugeren en bedre træningsoplevelse. 
