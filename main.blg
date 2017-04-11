@@ -1,12 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: kilder123.bib
-Warning--I didn't find a database entry for "Fowler2014"
-Warning--I didn't find a database entry for "Gade2007"
-Warning--I didn't find a database entry for "Tricomi2016"
-Warning--empty journal in dsam2016
-Warning--empty year in WHO2017
+Warning--empty journal in Studieordning2014
 Warning--empty publisher in Basisbogen2016
+Warning--empty year in WHO2017
+Warning--empty journal in dsam2016
 Warning--empty journal in Healthguidances2016
 Warning--empty journal in Williams2014
 Warning--empty year in WHOtelehealth2017
@@ -17,5 +15,6 @@ Warning--empty publisher in Fowler2004
 Warning--empty journal in Williams2004
 Warning--empty journal in Alshamrani2015
 Warning--empty journal in Bassil2012
+Warning--empty publisher in Tricomi2016
 Warning--empty journal in ferre2001
-(There were 17 warnings)
+(There were 16 warnings)
