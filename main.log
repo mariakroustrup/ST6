@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  11 APR 2017 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  12 APR 2017 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1923,7 +1923,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 \c__siunitx_mathtt_int=\count371
 
 (./rapportAfsnit/xFormaliteter/Forside.tex
-<figures/Forside.png, id=140, 533.995pt x 473.77pt>
+<figures/Forside.png, id=132, 533.995pt x 473.77pt>
 File: figures/Forside.png Graphic file (type png)
  <use figures/Forside.png>
 Package pdftex.def Info: figures/Forside.png used on input line 40.
@@ -1944,7 +1944,7 @@ Package babel Info: Redefining danish shorthand "~
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/Forside.png>] (./rapportAfsnit/xFormaliteter/titleSheet.tex
-<figures/aaulogo-da.png, id=153, 122.4575pt x 76.285pt>
+<figures/aaulogo-da.png, id=145, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -2069,6 +2069,12 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+Underfull \hbox (badness 1371) in paragraph at lines 6--7
+\T1/cmr/m/n/10.95 årsag til KOL er tobaksrygning, der fremskynder tabet af lung
+efunktionen.[[], [], []]
+ []
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
@@ -2090,8 +2096,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 31.
-
-(./rapportAfsnit/xFormaliteter/metode.tex
+ (./rapportAfsnit/xFormaliteter/metode.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining danish shorthand "~
@@ -2102,7 +2107,7 @@ Underfull \hbox (badness 1442) in paragraph at lines 5--6
 ges i problemanalysen,
  []
 
-<figures/AAUModel.png, id=247, 443.6575pt x 515.9275pt>
+<figures/AAUModel.png, id=237, 443.6575pt x 515.9275pt>
 File: figures/AAUModel.png Graphic file (type png)
 
 <use figures/AAUModel.png>
@@ -2173,7 +2178,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 11.
-<figures/FEV.png, id=300, 396.7322pt x 273.27094pt>
+<figures/FEV.png, id=290, 396.7322pt x 273.27094pt>
 File: figures/FEV.png Graphic file (type png)
  <use figures/FEV.png>
 Package pdftex.def Info: figures/FEV.png used on input line 16.
@@ -2188,7 +2193,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 20.
 
 [5]) (./rapportAfsnit/cProblemanalyse/klassifikationbehandlingprognose.tex
-<figures/MRC.png, id=319, 928.46875pt x 352.31625pt>
+<figures/MRC.png, id=309, 928.46875pt x 352.31625pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 9.
@@ -2202,7 +2207,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 13.
 
-[6 <./figures/FEV.png>] <figures/CAT.png, id=334, 411.5375pt x 574.145pt>
+[6 <./figures/FEV.png>] <figures/CAT.png, id=324, 411.5375pt x 574.145pt>
 File: figures/CAT.png Graphic file (type png)
 
 <use figures/CAT.png>
@@ -2223,13 +2228,13 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 26.
 [7 <./figures/MRC.png> <./figures/CAT.png>]
-<figures/KAT.png, id=346, 609.77812pt x 435.12563pt>
+<figures/KAT.png, id=336, 609.77812pt x 435.12563pt>
 File: figures/KAT.png Graphic file (type png)
  <use figures/KAT.png>
 Package pdftex.def Info: figures/KAT.png used on input line 29.
 (pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
 
-<figures/GOLD.png, id=351, 750.805pt x 224.84pt>
+<figures/GOLD.png, id=341, 750.805pt x 224.84pt>
 File: figures/GOLD.png Graphic file (type png)
  <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 39.
@@ -2248,7 +2253,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 48.
 
 [8 <./figures/KAT.png> <./figures/GOLD.png>]
-<figures/fletcher.png, id=367, 550.30594pt x 298.11375pt>
+<figures/fletcher.png, id=357, 550.30594pt x 298.11375pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
@@ -2344,7 +2349,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
 [12
 
-] <figures/USE_CASE2.png, id=474, 354.72525pt x 243.309pt>
+] <figures/USE_CASE2.png, id=464, 354.72525pt x 243.309pt>
 File: figures/USE_CASE2.png Graphic file (type png)
 
 <use figures/USE_CASE2.png>
@@ -2356,7 +2361,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 20--21
 iviteter kan opdeles i
  []
 
-<figures/aktivitetsdiagram.png, id=480, 578.16pt x 137.51375pt>
+<figures/aktivitetsdiagram.png, id=470, 578.16pt x 137.51375pt>
 File: figures/aktivitetsdiagram.png Graphic file (type png)
 
 <use figures/aktivitetsdiagram.png>
@@ -2371,7 +2376,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 28.
  [13 <./figures/USE_CASE2.png>]
-<figures/klassediag.png, id=497, 240.9pt x 199.34476pt>
+<figures/klassediag.png, id=487, 240.9pt x 199.34476pt>
 File: figures/klassediag.png Graphic file (type png)
 
 <use figures/klassediag.png>
@@ -2396,7 +2401,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 6.
  [14 <./figures/aktivitetsdiagram.png> <./figures/klassediag.png>]
-<figures/vandfaldsmodel.png, id=515, 533.995pt x 292.09125pt>
+<figures/vandfaldsmodel.png, id=505, 533.995pt x 292.09125pt>
 File: figures/vandfaldsmodel.png Graphic file (type png)
 
 <use figures/vandfaldsmodel.png>
@@ -2443,7 +2448,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<figures/aktivitetsdiagram/Usecase.pdf, id=547, 668.4975pt x 626.34pt>
+<figures/aktivitetsdiagram/Usecase.pdf, id=537, 668.4975pt x 626.34pt>
 File: figures/aktivitetsdiagram/Usecase.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Usecase.pdf>
@@ -2475,7 +2480,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 )
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Logind.tex
-<figures/aktivitetsdiagram/Logind.pdf, id=568, 847.165pt x 866.23625pt>
+<figures/aktivitetsdiagram/Logind.pdf, id=557, 847.165pt x 866.23625pt>
 File: figures/aktivitetsdiagram/Logind.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Logind.pdf>
@@ -2499,7 +2504,7 @@ turnerede værdi fra
  []
 
 
-<figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf, id=579, 844.15375pt x 
+<figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf, id=569, 844.15375pt x 
 806.01125pt>
 File: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf Graphic file (type
  pdf)
@@ -2527,7 +2532,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 4.
  [21 <./figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf>]
-<figures/aktivitetsdiagram/Kategorisering.pdf, id=611, 563.10374pt x 1266.7325p
+<figures/aktivitetsdiagram/Kategorisering.pdf, id=601, 563.10374pt x 1266.7325p
 t>
 File: figures/aktivitetsdiagram/Kategorisering.pdf Graphic file (type pdf)
  <use figures/aktivitetsdiagram/Kategorisering.pdf>
@@ -2554,7 +2559,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
 [23 <./figures/aktivitetsdiagram/Kategorisering.pdf>]
-<figures/aktivitetsdiagram/NYHelbredstilstand.pdf, id=632, 563.10374pt x 664.48
+<figures/aktivitetsdiagram/NYHelbredstilstand.pdf, id=622, 563.10374pt x 664.48
 25pt>
 File: figures/aktivitetsdiagram/NYHelbredstilstand.pdf Graphic file (type pdf)
  <use figures/aktivitetsdiagram/NYHelbredstilstand.pdf>
@@ -2571,7 +2576,7 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 15.
  [24 <./figures/aktivitetsdiagram/NYHelbredstilstand.pdf>])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Traening.tex
-<figures/aktivitetsdiagram/NYTraening.pdf, id=652, 847.165pt x 1475.5125pt>
+<figures/aktivitetsdiagram/NYTraening.pdf, id=642, 847.165pt x 1475.5125pt>
 File: figures/aktivitetsdiagram/NYTraening.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/NYTraening.pdf>
@@ -2596,7 +2601,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 14.
  [26 <./figures/aktivitetsdiagram/NYTraening.pdf>]
-<figures/aktivitetsdiagram/beslutningstabel.png, id=673, 1099.10625pt x 271.614
+<figures/aktivitetsdiagram/beslutningstabel.png, id=663, 1099.10625pt x 271.614
 75pt>
 File: figures/aktivitetsdiagram/beslutningstabel.png Graphic file (type png)
  <use figures/aktivitetsdiagram/beslutningstabel.png>
@@ -2615,7 +2620,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 27--1
 edes et træningssæt tilpasses den
  []
 
-<figures/aktivitetsdiagram/Resultater.pdf, id=676, 565.11125pt x 442.65375pt>
+<figures/aktivitetsdiagram/Resultater.pdf, id=666, 565.11125pt x 442.65375pt>
 File: figures/aktivitetsdiagram/Resultater.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Resultater.pdf>
@@ -2631,7 +2636,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
  [27 <./figures/aktivitetsdiagram/beslutningstabel.png>]
-<figures/aktivitetsdiagram/beloeninnger.png, id=690, 899.36pt x 268.00125pt>
+<figures/aktivitetsdiagram/beloeninnger.png, id=680, 899.36pt x 268.00125pt>
 File: figures/aktivitetsdiagram/beloeninnger.png Graphic file (type png)
 
 <use figures/aktivitetsdiagram/beloeninnger.png>
@@ -2649,7 +2654,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 4.
  [28 <./figures/aktivitetsdiagram/Resultater.pdf> <./figures/aktivitetsdiagram/
-beloeninnger.png>] <figures/aktivitetsdiagram/venner.pdf, id=704, 844.15375pt x
+beloeninnger.png>] <figures/aktivitetsdiagram/venner.pdf, id=693, 844.15375pt x
  1007.765pt>
 File: figures/aktivitetsdiagram/venner.pdf Graphic file (type pdf)
 
@@ -2658,7 +2663,7 @@ Package pdftex.def Info: figures/aktivitetsdiagram/venner.pdf used on input lin
 e 8.
 (pdftex.def)             Requested size: 352.80135pt x 421.1825pt.
 
-<figures/aktivitetsdiagram/foelgnyven.pdf, id=708, 844.15375pt x 1004.75375pt>
+<figures/aktivitetsdiagram/foelgnyven.pdf, id=697, 844.15375pt x 1004.75375pt>
 File: figures/aktivitetsdiagram/foelgnyven.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/foelgnyven.pdf>
@@ -2689,7 +2694,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
 [30 <./figures/aktivitetsdiagram/foelgnyven.pdf>]
-<figures/aktivitetsdiagram/substantiveverber.pdf, id=737, 402.50375pt x 375.402
+<figures/aktivitetsdiagram/substantiveverber.pdf, id=727, 402.50375pt x 375.402
 5pt>
 File: figures/aktivitetsdiagram/substantiveverber.pdf Graphic file (type pdf)
  <use figures/aktivitetsdiagram/substantiveverber.pdf>
@@ -2697,7 +2702,7 @@ Package pdftex.def Info: figures/aktivitetsdiagram/substantiveverber.pdf used o
 n input line 6.
 (pdftex.def)             Requested size: 441.0pt x 411.30577pt.
 
-<figures/aktivitetsdiagram/analyseklasser.pdf, id=739, 502.87875pt x 694.595pt>
+<figures/aktivitetsdiagram/analyseklasser.pdf, id=729, 502.87875pt x 694.595pt>
 File: figures/aktivitetsdiagram/analyseklasser.pdf Graphic file (type pdf)
 <use figures/aktivitetsdiagram/analyseklasser.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/analyseklasser.pdf used on i
@@ -2834,67 +2839,42 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8DDAF72CB5B9DC333A489403A821FAFF;2080
-(rerunfilecheck)             After:  B621B1C56FF508ECD89CF8A4D9E0C97C;1945.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B621B1C56FF508ECD89CF8A4D9E0C97C;1945.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 28635 strings out of 493089
- 512861 string characters out of 6134843
+ 28628 strings out of 493089
+ 512749 string characters out of 6134843
  845112 words of memory out of 5000000
- 31448 multiletter control sequences out of 15000+600000
+ 31446 multiletter control sequences out of 15000+600000
  28623 words of font info for 79 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10481b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.45} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.48} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.0.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
-usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (43 pages, 1904273 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (43 pages, 1903819 bytes).
 PDF statistics:
- 930 PDF objects out of 1000 (max. 8388607)
- 794 compressed objects within 8 object streams
- 168 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 917 PDF objects out of 1000 (max. 8388607)
+ 781 compressed objects within 8 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
