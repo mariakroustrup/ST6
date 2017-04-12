@@ -1,19 +1,18 @@
 I dette kapitel beskrives funktionaliteten af den ønskede app. På baggrund af dette opstilles funktionelle samt non-funktionelle krav. Herefter er systemet beskrevet ved hjælp af et use case diagram, hvortil de enkelte funktionaliteter er beskrevet yderligere. 
 
 \section{Systembeskrivelse} \label{sec:systembeskrivelse}
-I dette projekt udvikles en app, der har til formål at hjælpe KOL-patienter til at opretholde regelmæssig motion efter et endt rehabiliteringshold. App'en skal kunne håndtere forskellige træningsformer herunder konditions- samt styrketræning og vejrtrækningsøvelser, hvilket alle har symptom reducerende effekt, jf. \autoref{sec:rehabilitering}. 
+I dette projekt udvikles en app, der har til formål at hjælpe KOL-patienter til at opretholde regelmæssig motion efter et endt rehabiliteringshold. App'en skal kunne håndtere forskellige træningsformer herunder konditions- samt styrketræning og vejrtrækningsøvelser, hvilket alle har symptomreducerende effekt, jf. \autoref{sec:rehabilitering}. 
 
 KOL-patienter introduceres samt registreres i app'en i forbindelse med deres rehabiliteringsforløb. 
-Dette skal sikre, at det kun er KOL-patienter, der er tilmeldt rehabiliteringshold, som har adgang til app'en. Ved registrering oprettes KOL-patienter med medlemsID, brugernavn, navn, efternavn samt kodeord.  
+Dette skal sikre, at det kun er KOL-patienter, der er tilmeldt rehabiliteringshold, som har adgang til app'en. Ved registrering oprettes KOL-patienter med medlemsID, brugernavn, fornavn, efternavn samt adgangskode.  
 
-Der er forskel på, hvor meget fysisk aktivitet KOL-patienter kan udføre, og der skal derved være forskel i varighed og distance af den træning som app'en foreslår. Dertil skal app'en kunne tilpasse træningsniveau ud fra den enkelte patients parametre. Disse parametre består af kategoriseringen af KOL-patienter efter ABCD, jf. \autoref{cha:problemanalyse}, daglige helbredstilstande, der skal tage højde for dag til dag variationer samt evalueringer af træning. 
+Der er forskel på, hvor meget fysisk aktivitet KOL-patienter kan udføre, og der skal derved være forskel i varighed og distance af den træning som app'en foreslår. Dertil skal app'en kunne tilpasse træningsniveau ud fra den enkelte patients parametre. Disse parametre består af kategoriseringen af KOL-patienter efter ABCD, jf. \autoref{cha:problemanalyse}, daglige helbredstilstande, der skal tage højde for dag til dag variationer samt evalueringer fra lignende træning. 
 
-Under selve træningen kontrolleres træningen ved brug af timer og GPS, derudover kan app'en tilkobles eksterne enheder til måling af biologiske målinger. Kontrolleringen er med til at vejlede patienten til at følge det valgte træningsniveau. Dertil kan biologiske målinger støtte patienten i forhold til at kontrollere, at patienten ikke overanstrenges. 
+Under selve træningen kontrolleres træningen ved brug af timer og GPS, derudover kan app'en tilkobles eksterne måleenheder til biologiske målinger. Kontrolleringen er med til at vejlede patienten til at følge det valgte træningsniveau. Dertil kan biologiske målinger støtte patienten i forhold til at kontrollere, at patienten ikke overanstrenges. 
 
-For at hjælpe KOL-patienter med vedligeholdelse af den daglige træning skal app’en virke motiverende for patienterne. Dette gøres blandt andet ved, at KOL-patienter kan følge sin egen udvikling via app'en. Desuden skal app'en informere, hvis KOL-patienter ikke har fuldført træning med app'en i længere tid. For at øge motivation hos KOL-patienter skal de derudover kunne opnå virtuelle belønninger ved at udføre gentagne eller forskellige træningsformer.\citep{Gade2007, Tricomi2016}
+For at hjælpe KOL-patienter med vedligeholdelse af den daglige træning skal app’en virke motiverende for patienterne. Dette gøres blandt andet ved, at KOL-patienter kan følge sin egen udvikling via app'en. Desuden skal app'en informere, hvis KOL-patienter ikke har udført træning med app'en i længere tid. For at øge motivationen hos KOL-patienter skal de derudover kunne opnå virtuelle belønninger ved at udføre gentagne eller forskellige træningsformer.\citep{Gade2007, Tricomi2016}
 
-Som nævnt i afsnit \ref{sec:efterRehabilitering}, er det sociale fællesskab en væsentlig faktor i opretholdelse af resultaterne fra rehabiliteringsforløb. Ved at indføre denne faktor i app’en kan dette være med til at motivere KOL-patienter til vedligeholdelse af den forbedrede livsstil. 
-Sundhedsfagligt personale skal kunne tilgå KOL-patienters resultater, så de kan følge med i patientens udvikling. De har herved mulighed for at informere patienter om deres indsats, hvilket også kan have en motiverende effekt.\citep{Gade2007, Tricomi2016}
+Som nævnt i afsnit \ref{sec:efterRehabilitering}, er det sociale fællesskab en væsentlig faktor for at opretholde resultaterne fra rehabiliteringsforløb. Ved at implementere denne faktor i app'en, forsøges det at motivere patienterne til vedligeholdelse af den forbedrede livsstil. Sundhedsfagligt personale skal kunne tilgå KOL-patienters resultater, så de kan følge med i patientens udvikling. De har herved mulighed for at informere patienter om deres indsats, hvilket ligeledes kan have en motiverende effekt.\citep{Gade2007, Tricomi2016}
 
 
 \section{Kravspecifikationer} \label{sec:funktionellekrav}
@@ -27,7 +26,7 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 \begin{itemize}
 \item Systemet skal kunne gemme og hente data i databasen
 	\\
-	\textit{Dette er nødvendigt for, at sundhedspersonale og brugere kan tilgå tidligere resultater}	
+	\textit{Dette er nødvendigt for, at brugere og sundhedspersonale kan tilgå tidligere resultater}	
 \item Sundhedspersonalet skal kunne oprette brugere i databasen
 	\\
 	\textit{Dette er nødvendigt for, at flere brugere kan anvende app'en}
@@ -39,7 +38,7 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 \item Brugere skal kunne redigere brugeroplysninger
 	\\
 	\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode og kategorisering}
-\item Brugere skal kunne angive deres daglige helbredstilstand, hvilket skal tage højde for daglige variationer samt evaluere hver træning
+\item Brugere skal kunne angive deres daglige helbredstilstand, hvilket skal tage højde for daglige variationer. Derudover skal brugeren evaluere hver træning
 \\
 \textit{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger}
 \item Brugere skal kunne tilgå deres egne resultater
@@ -56,12 +55,12 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 	\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
 \item Systemet skal muliggøre interaktion mellem brugere
 	\\
-	\textit{Dette er nødvendigt for motivering mellem brugere samt skabe fællesskab, og at brugere kan tilgå hinandens virtuelle belønninger}
+	\textit{Dette er nødvendigt for, at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
 
 	\item Systemet skal tilgås med et medlemsID eller brugernavn og kodeord
 	\\
 \textit{Dette er nødvendigt for at sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
-\item Systemet skal kunne synkronisere med eksterne måleenheder
+\item Systemet skal kunne håndtere målinger fra eksterne måleenheder
 \\
 \textit{Dette er nødvendigt for at måle biologiske målinger under træning}
 \end{itemize}
