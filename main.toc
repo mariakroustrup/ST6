@@ -33,7 +33,10 @@
 \contentsline {section}{\numberline {5.3}Use case}{17}{section.5.3}
 \contentsline {section}{\numberline {5.4}Funktionalitet}{19}{section.5.4}
 \contentsline {chapter}{\chapternumberline {6}Design}{35}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{36}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{37}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{38}{chapter.9}
-\contentsline {chapter}{Litteratur}{39}{section*.49}
+\contentsline {section}{\numberline {6.1}Design af database}{35}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}ER-diagram}{35}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Schema}{36}{subsection.6.1.2}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{37}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{38}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{39}{chapter.9}
+\contentsline {chapter}{Litteratur}{40}{section*.52}
