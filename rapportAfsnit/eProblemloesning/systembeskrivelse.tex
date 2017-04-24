@@ -4,11 +4,11 @@ I dette kapitel beskrives funktionaliteten af den ønskede app. På baggrund af 
 I dette projekt udvikles en app, der har til formål at hjælpe KOL-patienter til at opretholde regelmæssig motion efter et endt rehabiliteringshold. App'en skal kunne håndtere forskellige træningsformer herunder konditions- samt styrketræning og vejrtrækningsøvelser, hvilket alle har symptomreducerende effekt, jf. \autoref{sec:rehabilitering}. 
 
 KOL-patienter introduceres samt registreres i app'en i forbindelse med deres rehabiliteringsforløb. 
-Dette skal sikre, at det kun er KOL-patienter, der er tilmeldt rehabiliteringshold, som kan benytte app'en. Ved registrering oprettes KOL-patienter med medlemsID, fornavn, efternavn samt adgangskode.  
+Dette skal sikre, at det kun er KOL-patienter, der er tilmeldt rehabiliteringshold, som kan anvende app'en til træning. Ved registrering oprettes KOL-patienter med medlemsID, fornavn, efternavn samt adgangskode.  
 
 Der er forskel på, hvor meget fysisk aktivitet KOL-patienter kan udføre, og der skal derved være forskel i varighed og distance af den træning som app'en foreslår. Dertil skal app'en kunne tilpasse træningsniveau ud fra den enkelte patients parametre. Disse parametre består af kategoriseringen af KOL-patienter efter ABCD, jf. \autoref{cha:problemanalyse}, daglige helbredstilstande, der skal tage højde for dag til dag variationer samt evalueringer fra lignende træning. Dette medvirker til at app'en er henvendt specifik til KOL-patienter i modsætningen til andre træningsapp's. 
 
-Under selve træningen monitoreres træningen ved brug af timer og GPS, derudover kan app'en tilkobles eksterne måleenheder. Monitoreringen er med til at vejlede patienten til at følge det valgte træningsniveau. Eksterne måleenheder, for eksempel et pulsur, kan støtte patienten i forhold til at kontrollere, at patienten ikke overanstrenges. 
+Under selve træningen monitoreres træningen ved brug af timer og GPS, derudover kan app'en tilkobles kompatible måleenheder. Monitoreringen er med til at vejlede patienten til at følge det valgte træningsniveau. Kompatible måleenheder er for eksempel et pulsur, som kan støtte patienten i forhold til at kontrollere, at patienten ikke overanstrenges. 
 
 For at hjælpe KOL-patienter med vedligeholdelse af den daglige træning skal app’en virke motiverende for patienterne. Dette gøres blandt andet ved, at KOL-patienter kan følge sin egen udvikling via app'en. Desuden skal app'en informere, hvis KOL-patienter ikke har udført træning med app'en i længere tid. For at øge motivationen hos KOL-patienter skal de derudover kunne opnå virtuelle belønninger ved at udføre gentagne eller forskellige træningsformer.\citep{Gade2007, Tricomi2016}
 
@@ -21,55 +21,51 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 
 \subsubsection{Funktionelle krav}
 
-\noindent
-%\textbf{Database:}  
+\noindent 
 \begin{itemize}
-\item Systemet skal kunne gemme og hente data i databasen
+\item Sundhedspersonalet skal kunne oprette brugere i en database
 	\\
-	\textit{Dette er nødvendigt for, at brugere og sundhedspersonale kan tilgå tidligere resultater}	
-\item Sundhedspersonalet skal kunne oprette brugere i databasen
+	\textit{Dette er nødvendigt for, at brugeren og flere brugere kan anvende app'en}
+\item Brugere skal kunne log ind med et medlemsID og adgangskode
 	\\
-	\textit{Dette er nødvendigt for, at flere brugere kan anvende app'en}
-\end{itemize}
-	
-\noindent	
-%\textbf{Systemet:}
-\begin{itemize}
-\item Brugere skal kunne redigere brugeroplysninger
+	\textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
+\item Systemet skal kunne kategorisere brugere i ABCD
 	\\
-	\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode og kategorisering}
-\item Brugere skal kunne angive deres daglige helbredstilstand, hvilket skal tage højde for daglige variationer. Derudover skal brugeren evaluere hver træning
+	\textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
+\item Brugere skal kunne angive deres daglige helbredstilstand 
+	\\
+\textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
+\item Systemet skal kunne håndtere målinger fra kompatible måleenheder
+	\\
+\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning}
+\item Brugere skal kunne evaluere hver træning
+	\\
+\textit{Dette er nødvendigt for tilpasse træningen efter den enkelte bruger}	
+\item Systemet skal kunne gemme og hente data i en database
 \\
-\textit{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger}
+\textit{Dette er nødvendigt for, at brugere og sundhedspersonale kan tilgå tidligere resultater}	
 \item Brugere skal kunne tilgå deres egne resultater
 	\\
 	\textit{Dette er nødvendigt for, at brugere kan se deres udvikling}
-\item Brugere skal kunne log ind og log ud
-	\\
-	\textit{Dette er nødvendigt for at tilgå og sikre brugerens individuelle data}
-\item Systemet skal kunne kategorisere brugere i ABCD
-\\
-	\textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
 \item Systemet skal kunne sende notifikationer og give virtuelle belønninger 
 	\\
 	\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
-\item Systemet skal muliggøre interaktion mellem brugere
+\item Brugere skal kunne følge andre brugere
 	\\
 	\textit{Dette er nødvendigt for, at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
-
-	\item Systemet skal tilgås med et medlemsID eller brugernavn og kodeord
+\item Brugere skal kunne redigere deres adgangskode
 	\\
-\textit{Dette er nødvendigt for at sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
-\item Systemet skal kunne håndtere målinger fra eksterne måleenheder
-\\
-\textit{Dette er nødvendigt for at måle biologiske målinger under træning}
+	\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode}
+\item Brugere skal kunne log ud
+	\\
+	\textit{Dette er nødvendigt for sikre brugerens individuelle data}
 \end{itemize}
 
 
 \subsubsection{Non-funktionelle krav}
 
 \begin{itemize}
-\item Systemet skal kunne fungere på en smartphone eller tablet med android og bluetooth
+\item Systemet skal visualiseres på en smartphone eller tablet med android og bluetooth
 \item Systemet skal være brugervenligt
 	\\
 	\textit{Dette er nødvendigt for at sikre let orientering i app'en}
