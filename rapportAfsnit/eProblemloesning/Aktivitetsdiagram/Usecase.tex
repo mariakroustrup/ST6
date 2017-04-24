@@ -4,22 +4,22 @@ På baggrund af systembeskrivelsen samt opstillede krav er der udarbejdet et use
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/aktivitetsdiagram/Usecase}
-\caption{Use case for app til KOL-patienter}
+\caption{Use case diagram for app til KOL-patienter}
 \label{fig:usecase}
 \end{figure}
 
 \noindent
-KOL-patienter skal \textit{Log ind} i app'en via medlemsID og adgangskode. Første gang de logger ind skal de \textit{Foretag kategorisering}. Denne gemmes efterfølgende i en database.
+KOL-patienter skal \textit{Log ind} i app'en via medlemsID og adgangskode. Første gang de logger ind skal de \textit{Foretag kategorisering}. Denne kategorisering gemmes efterfølgende i en database.
 Hvis kategoriseringen er foretaget har brugere adgang til en hovedmenu, hvorfra de kan vælge at udføre træning, tilgå resultater, følge andre brugere, redigere adgangskode og logge ud. 
 
-Vælger brugeren at \textit{Uføre træning} tilpasses denne først ud fra \textit{Tilpasning af træningsniveau}, der vurderes på baggrund af kategoriseringen, daglig helbredstilstand samt evaluering af tidligere træning. 
+Vælger brugeren at \textit{Udføre træning} tilpasses træningsniveauet før selve træningen kan påbegyndes ud fra \textit{Tilpasning af træningsniveau}, der vurderes på baggrund af kategoriseringen, daglig helbredstilstand samt evaluering af tidligere træning. 
 Under træningen kan kompatible måleenheder tilkobles systemet, således målinger kan opsamles. 
 
-Efter træningen skal brugere evaluerer træningen og kan efterfølgende se sine resultater. Evaluering og resultater fra træningen gemmes efterfølgende i en database. Brugeren kan \textit{Tilgå resultater}, som ugentlige-, daglige træningsresultater og individuelle belønninger. 
+Efter træningen skal brugere evaluere træningen, og de kan efterfølgende se deres resultater. Evaluering og resultater fra træningen gemmes efterfølgende i en database. Brugere kan \textit{Tilgå resultater}, der vises som daglige og ugentlige træningsresultater samt individuelle belønninger. 
 
 Brugere kan via \textit{Følg andre brugere} tilgå andres KOL-patienters belønninger, hvilket medvirker til, at brugere kan motivere hinanden til at udføre træning. 
 
-Brugere kan \textit{Redigere adgangskode}, da det skal være muligt for brugeren at ændre adgangskoden til en personlig adgangskode, da de ved registrering får en randomiseret adgangskode udleveret. Hvis der foretages ændringer gemmes disse efterfølgende i databasen.
+Brugere kan \textit{Redigere adgangskode}, da det skal være muligt for brugeren at ændre adgangskoden til en personlig adgangskode, idet de ved registrering får en randomiseret adgangskode udleveret. Hvis der foretages ændringer gemmes disse efterfølgende i databasen.
 
 Brugeren kan \textit{Log ud} af app'en. 
 
