@@ -1,14 +1,15 @@
 \subsection*{Log ud}
-I forlængelse af log ind funktionen, er det også en log ud funktion. Denne funktion tillader brugeren at logge sig ud af systemet, således at brugeren ikke forbliver logget ind, og tillader yderligere andre brugere at logge ind fra samme app.
-Aktiviteterne for log ind funktion fremgår af \autoref{fig:logind}.
+Log ud-funktion kan tilgås fra hovedmenuen og tillader brugeren at logge sig ud af systemet. Dette medvirker til, at brugeren ikke forbliver logget ind og tillader at andre  kan logge ind på samme app.
+Aktiviteterne for log ud fremgår af \autoref{fig:logud}.
 
 \begin{figure} [H]
 \centering
 \textbf{Aktivitetsdiagram: Log ud}\par\medskip
 \includegraphics[width=0.9\textwidth]{figures/aktivitetsdiagram/Logud}
-\caption{Aktivitetsdiagram over log ud, hvor aktiviteter forekommer hos brugen, systemet eller databasen.}
+\caption{Aktivitetsdiagram over log ud.}
 \label{fig:logud}
 \end{figure}
 
-Brugeren har fra hovedmenuen, muligheden for at logge ud af systemet. Vælger brugen dette, vil grænsefladen for log ud vises. 
-Brugeren skal efterfølgende bekræfte at de ønsker at logge ud, før at systemet systemt gennemføre handlingen og vis grænsefladen for log ind. Brugeren kan dog også vælge at fortryde log ud handlingen, i tilfælde af at bruger ved fejl valgte log ud, hvor systemet vil returnere til hovedmenuen.  
+\noindent
+Vælger brugen at logge ud, vises grænsefladen for log ud. 
+Brugeren skal efterfølgende bekræfte, at de ønsker at logge ud. Ønskes dette, logges brugeren ud og grænsefladen for log ind vises. Fortryder brugeren at logge ud, vil systemet returnere til hovedmenuen og grænsefladen for denne vises.  

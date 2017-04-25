@@ -1,18 +1,24 @@
-\subsection*{Sociale relationer} 
+\subsection*{Venneliste og følg andre brugere} 
 For at motivere brugere til regelmæssig træning, vælges at integrere muligheden for sociale relationer i app'en. Dette muliggør, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere har opnået. Hertil skal det være muligt for brugeren at tilføje nye brugere til vennelisten. 
-Af \autoref{fig:venner} fremgår et aktivitetsdiagram for sociale relationer. 
+Af \autoref{fig:venner} fremgår et aktivitetsdiagram for venneliste og følg andre brugere . 
 
 \begin{figure} [H]
 \centering
-\textbf{Aktivitetsdiagram: Sociale relationer}\par\medskip
+\textbf{Aktivitetsdiagram: Venneliste og følg andre brugere}\par\medskip
 \includegraphics[width=0.8\textwidth]{figures/aktivitetsdiagram/venner}
-\caption{Aktivitetsdiagram for sociale relationer. Opret vennerelation fremgår af \autoref{fig:tilfoejven}.}
+\caption{Aktivitetsdiagram for venneliste og følg andre brugere.}
 \label{fig:venner}
 \end{figure}
 
 \noindent
-Vennelisten viser en oversigt over andre brugere, som den individuelle bruger følger. Heraf skal det være muligt for den individuelle bruger at tilgå information fra disse. Denne information begrænses til at vise vundne belønninger for de andre brugere, da den resterende information anses som værende personlig til den enkelte bruger. 
-Fra vennelisten skal den individuelle bruger have mulighed for tilføje andre brugere, hvilket fremgår af \autoref{fig:tilfoejven}.  
+Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at følge en ny bruger eller tilgå en bruger den allerede følger. Ønsker brugeren at følge en ny, skal brugeren angive MedlemsID på denne. Systemet sender det indtastede MedlemsID til databasen, som tjekker om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive MedlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvorefter en ny bruger kan følges. Ønskes dette, sender systemet en anmodning om at følge brugeren. Databasen gemmer brugeren, der ønskes at følges, og sender en bekræftelse. Efter bekræftelse eller ved angivet ven viser systemet grænsefladen for den valgte eller tilføjede brugers belønninger.
+
+ 
+
+
+
+%Heraf skal det være muligt for den individuelle bruger at tilgå information fra disse. Denne information begrænses til at vise vundne belønninger for de andre brugere, da den resterende information anses som værende personlig til den enkelte bruger. 
+%Fra vennelisten skal den individuelle bruger have mulighed for tilføje andre brugere, hvilket fremgår af \autoref{fig:tilfoejven}.  
 % Ønskes det at fjerne en bruger fra vennelisten, sendes informationer om den valgte bruger til databasen, hvorved vennerelationen slettes. Derefter returneres en bekræftelse, der viser, at den valgte bruger er fjernet fra vennelisten. 
 
 %\begin{figure} [H]
@@ -23,7 +29,7 @@ Fra vennelisten skal den individuelle bruger have mulighed for tilføje andre br
 %\label{fig:tilfoejven}
 %\end{figure}
 
-\noindent
-Ønskes det at oprette vennerelation, indtastes fornavn og efternavn på den givne bruger. Denne information sendes til databasen, der returnerer fornavn og efternavn på fundne brugere i databasen, eller fejlmeddelelse til systemet. Hvis der allerede er en relation mellem de to brugere eller, at brugerinformationen ikke eksisterer i databasen, forekommer en fejlmelding, hvortil en ny brugersøgning kan indtastes på ny. 
-Såfremt, at der ikke forekommer en fejlmeddelelse vises den søgte bruger, hvortil det er muligt at oprette vennerelation. 
-Vælges dette, sendes en anmodning til databasen, som gemmer en vennerelation mellem de to brugere. Efterfølgende returneres en bekræftelse om vennerelationen til systemet.
+%\noindent
+%Ønskes det at oprette vennerelation, indtastes fornavn og efternavn på den givne bruger. Denne information sendes til databasen, der returnerer fornavn og efternavn på fundne brugere i databasen, eller fejlmeddelelse til systemet. Hvis der allerede er en relation mellem de to brugere eller, at brugerinformationen ikke eksisterer i databasen, forekommer en fejlmelding, hvortil en ny brugersøgning kan indtastes på ny. 
+%Såfremt, at der ikke forekommer en fejlmeddelelse vises den søgte bruger, hvortil det er muligt at oprette vennerelation. 
+%Vælges dette, sendes en anmodning til databasen, som gemmer en vennerelation mellem de to brugere. Efterfølgende returneres en bekræftelse om vennerelationen til systemet.
