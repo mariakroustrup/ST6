@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,17 @@
 Pernille Hauschildt and Jesper Ravn.
 \newblock \emph{{Basisbogen i Medicin og Kirurgi}}.
 \newblock 2016.
+
+\bibitem[Lungeforeningen(2016)]{Lungeforeningen2016}
+Lungeforeningen.
+\newblock {Lokalafdelinger og netw{\ae}rk}.
+\newblock \emph{Lungeforeningen}, 2016.
+\newblock URL \url{https://www.lunge.dk/lokalafdelinger-og-netvaerk}.
+
+\bibitem[Sundhedsstyrelsen(2015{\natexlab{a}})]{Sygdomsbyrden2015}
+Sundhedsstyrelsen.
+\newblock {SYGDOMSBYRDEN I DANMARK}.
+\newblock 2015{\natexlab{a}}.
 
 \bibitem[WHO({\natexlab{a}})]{WHO2017}
 WHO.
@@ -36,10 +47,11 @@ Fernado~D. Martinez.
 \newblock \emph{Asthma and Airway Disease Research Center, University of
   Arizona, Tucson.}, 2016.
 
-\bibitem[{McCarthy B. et al}(2015)]{McCarthy2015}
-{McCarthy B. et al}.
-\newblock {Pulmonary rehabilitation for chronic obstructive pulmonary disease}.
-\newblock \emph{Cochrane Library}, 2015.
+\bibitem[Sundhedsdatastyrelsen(2016{\natexlab{a}})]{Kontaktforbrug2016}
+Sundhedsdatastyrelsen.
+\newblock {Borgere med KOL – kontaktforbrug i sundheds-v{\ae}senet og
+  medicinforbrug}.
+\newblock \emph{Sundhedsdatastyrelsen}, 2016{\natexlab{a}}.
 
 \bibitem[Frausing(2011{\natexlab{a}})]{Frausing2011}
 Ejvind Frausing.
@@ -71,6 +83,11 @@ John Flaschen-Hansen.
 \newblock {Emphysema}.
 \newblock \emph{Encyctop{\ae}dia Britannica}, 2008.
 
+\bibitem[for Folkesundhed(2017)]{Folkesundhed2007}
+Statens~Institut for Folkesundhed.
+\newblock {Kronisk obstruktiv lungesygdom (KOL)}.
+\newblock \emph{Folkesundhedsrapporten}, 2017.
+
 \bibitem[Lange(2015)]{Lange2015}
 Peter Lange.
 \newblock {Kronisk obstruktiv lungesygdom}.
@@ -79,6 +96,17 @@ Peter Lange.
   \url{http://www.apoteket.dk/Sygdomsleksikon/SygdommeEgenproduktion/Kronisk
   bronkitis - KOL Rygerlunger.aspx}.
 
+\bibitem[Anzueto(2010)]{Anzueto2010}
+A.~Anzueto.
+\newblock {Impact of exacerbations on COPD}.
+\newblock \emph{European Respiratory Review}, 2010.
+\newblock \doi{10.1183/09059180.00002610}.
+
+\bibitem[{McCarthy B. et al}(2015)]{McCarthy2015}
+{McCarthy B. et al}.
+\newblock {Pulmonary rehabilitation for chronic obstructive pulmonary disease}.
+\newblock \emph{Cochrane Library}, 2015.
+
 \bibitem[{De specialeansvarlige lungemedicinere i Storstr{\o}mmens
   Sygehus.}(2013)]{Sundhed2013}
 {De specialeansvarlige lungemedicinere i Storstr{\o}mmens Sygehus.}
@@ -86,6 +114,11 @@ Peter Lange.
 \newblock \emph{Sundhed.dk}, 2013.
 \newblock URL
   \url{https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/sjaelland/patientforloeb/forloebsbeskrivelser/r-luftveje/kol/}.
+
+\bibitem[Sundhedsdatastyrelsen(2015)]{Sundhedsdatastyrelsen2015}
+Sundhedsdatastyrelsen.
+\newblock {KOL Flere borgere med KOL i medicinsk behandling}.
+\newblock 2015.
 
 \bibitem[Hellem et~al.(2012)Hellem, Bruusgaard, and Al.]{Hellem2012}
 Elisabet Hellem, Kari Bruusgaard, and Et. Al.
@@ -107,23 +140,17 @@ Ejvind Frausing.
 \newblock {Rehabilitering}.
 \newblock \emph{Lungeforeningen}, 2011{\natexlab{c}}.
 
-\bibitem[Lungeforeningen(2016)]{Lungeforeningen2016}
-Lungeforeningen.
-\newblock {Lokalafdelinger og netw{\ae}rk}.
-\newblock \emph{Lungeforeningen}, 2016.
-\newblock URL \url{https://www.lunge.dk/lokalafdelinger-og-netvaerk}.
-
 \bibitem[Habraken(2011)]{Habraken2011}
 J.~M. Habraken.
 \newblock {Health-related quality of life and functional status in end-stage
   COPD: a longitudinal study}.
 \newblock \emph{European Respiratory journal}, 2011.
 
-\bibitem[Sundhedsstyrelsen(2015)]{Sundhedsstyrelsen2015}
+\bibitem[Sundhedsstyrelsen(2015{\natexlab{b}})]{Sundhedsstyrelsen2015}
 Sundhedsstyrelsen.
 \newblock {Anbefalinger for tv{\ae}rsektorielle forl{\o}b for mennesker med
   KOL}.
-\newblock \emph{Sundhedsstyrrelsen}, 2015.
+\newblock \emph{Sundhedsstyrrelsen}, 2015{\natexlab{b}}.
 \newblock URL
   \url{https://www.sst.dk/da/udgivelser/2015/{~}/media/8365DCEC9BB240A0BD6387A81CBDBB49.ashx}.
 
@@ -197,25 +224,11 @@ Laurie Williams.
 \newblock 2004.
 \newblock URL \url{http://agile.csc.ncsu.edu/SEMaterials/UMLOverview.pdf}.
 
-\bibitem[Jain and Jain(2011)]{Jain2011}
-Namrata Jain and Anurag Jain.
-\newblock {Software Development Life Cycle: A Detailed Study}.
-\newblock \emph{International Journal of Advanced Research in Computer
-  Science}, 2011.
-\newblock URL
-  \url{http://search.proquest.com/docview/1443708677?rfr{\_}id=info{\%}3Axri{\%}2Fsid{\%}3Aprimo}.
-
-\bibitem[Alshamrani and Bahattab(2015)]{Alshamrani2015}
-Adel Alshamrani and Abdullah Bahattab.
-\newblock {A Comparison Between Three SDLC Models Waterfall Model, Spiral
-  Model, and Incremental/Iterative Model}.
-\newblock 2015.
-
-\bibitem[Bassil(2012)]{Bassil2012}
-Youssef Bassil.
-\newblock {A Simulation Model for the Waterfall Software Development Life
-  Cycle}.
-\newblock 2012.
+\bibitem[Arlow and Neustadt(2002)]{Arlow2002}
+Jim Arlow and Ila Neustadt.
+\newblock \emph{{UML and the Unified Process}}.
+\newblock 2002.
+\newblock ISBN 0 201 77060 1.
 
 \bibitem[Gade(2007)]{Gade2007}
 Anders Gade.
@@ -228,10 +241,10 @@ Elizabeth and Tricomi and Samantha DePasque.
 \newblock 2016.
 \newblock ISBN 978-1-78635-474-7.
 
-\bibitem[Sundhedsdatastyrelsen(2016)]{Sundhedsdatastyrelsen2016}
+\bibitem[Sundhedsdatastyrelsen(2016{\natexlab{b}})]{Sundhedsdatastyrelsen2016}
 Sundhedsdatastyrelsen.
 \newblock {Vejledning om informationssikkerhed i sundhedsv{\ae}senet}.
-\newblock \emph{Sundhedsdatastyrelsen}, 2016.
+\newblock \emph{Sundhedsdatastyrelsen}, 2016{\natexlab{b}}.
 
 \bibitem[for~digital sikkerhed(2015)]{sikkerhed2015}
 R{\aa}det for~digital sikkerhed.

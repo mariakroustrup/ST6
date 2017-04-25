@@ -3,9 +3,11 @@ The style file: unsrtnat.bst
 Database file #1: kilder123.bib
 Warning--empty journal in Studieordning2014
 Warning--empty publisher in Basisbogen2016
+Warning--empty journal in Sygdomsbyrden2015
 Warning--empty year in WHO2017
 Warning--empty journal in dsam2016
 Warning--empty journal in Healthguidances2016
+Warning--empty journal in Sundhedsdatastyrelsen2015
 Warning--empty journal in Williams2014
 Warning--empty year in WHOtelehealth2017
 Warning--empty journal in WHOrehab2017
@@ -13,7 +15,6 @@ Warning--empty year in HealthcareDenmark2017
 Warning--empty year in HealthcareDenmark2017
 Warning--empty publisher in Fowler2004
 Warning--empty journal in Williams2004
-Warning--empty journal in Alshamrani2015
-Warning--empty journal in Bassil2012
+Warning--empty publisher in Arlow2002
 Warning--empty publisher in Tricomi2016
-(There were 15 warnings)
+(There were 16 warnings)
