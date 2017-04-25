@@ -1,6 +1,6 @@
 \subsection*{Kategorisering af KOL-patienter} \label{sec:kategorisering}
-KOL-patienter skal have en individuel kategorisering, dette er nødvendigt for således at sikre patienter får en træning tilpasset til deres niveau. Kategoriseringen forekommer ved registrering og kan efterfølgende redigeres.
-Hertil inddeles patienter i ABCD-kategorisering, der er beskrevet i \autoref{sec:klassifikation}. Af \autoref{fig:Kate} ses aktivitetsdiagrammet for kategoriseringen.
+KOL-patienter skal have en individuel kategorisering, dette er nødvendigt for således at sikre patienter får en træning tilpasset til deres niveau. Kategoriseringen fortages første gang brugeren logger ind, som vist af \autoref{fig:logind. 
+Kategoriseringen inddeler brugerne i A, B, C eller D, som beskrevet i \autoref{sec:klassifikation}. Af \autoref{fig:Kate} ses aktivitetsdiagrammet for kategoriseringen.
 
 \begin{figure} [H]
 \centering
@@ -11,4 +11,6 @@ Hertil inddeles patienter i ABCD-kategorisering, der er beskrevet i \autoref{sec
 \end{figure}
 
 \noindent
-Brugeren stilles otte udsagn, jf. \autoref{fig:CAT}, hvorved de vurderer deres tilstand fra 0 til 5. Tilstanden skal herefter bekræftes af brugeren, førend næste spørgsmål stilles. På baggrund af vurderingen fra udsagnene udregnes den samlede CAT-score. Herefter skal brugeren angive antal indlæggelser forårsaget af KOL inden for det seneste år som værende ingen eller én til flere indlæggelser. Ud fra den samlede CAT-score samt de årlige indlæggelser oplyses ABCD-kategoriseringen af patienten. 
+Systemet starter med at vise en grænseflade for de otte udsagn der udgør CAT, jf. \autoref{fig:CAT}. Til hvert af udsagnene angiver brugeren således en score passende til deres sygdomstilstand, hvor systemet ud fra de individuelle score udregner en samlet CAT-score. 
+Dernæst vises grænsefladen for årlig antal indlæggelser på grund af KOL, hvor bruger skal angiv en passende værdi. 
+Ud fra den samlede CAT-score og antal indlæggelser, udregner systemet brugers kategorisering af KOL, og viser den efterfølgende. Kategoriseringen sendes til en database for at informationen er ajourført.

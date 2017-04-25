@@ -1,5 +1,6 @@
 \subsection*{Træning} \label{sec:traening}
-Når brugeren har angivet sin daglige helbredstilstand samt om det ønskes at tilkoble kompatible måleenheder til træningen, kan denne påbegyndes. Aktivitetsdiagrammet over træningen fremgår af \autoref{fig:traening}. 
+Brugeren har mulighed for at fortage træninger baseret på forskellige træningsformer og træningstyper. Derudover skal træningen kunne tilpasses individuelt under hver enkelt træningssession, samt tilkolbe yderligere måleenheder for at opnå en mere vejledende og fyldestgørende træning.  
+Aktivitetsdiagrammet over træningen fremgår af \autoref{fig:traening}. 
 
 \begin{figure} [H]
 \centering
@@ -10,11 +11,31 @@ Når brugeren har angivet sin daglige helbredstilstand samt om det ønskes at ti
 \end{figure}
 
 \noindent
-Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der forekomme gå, løbe eller cykle under konditionstræning. Efterfølgende beregnes et anbefalet træningsniveau ud fra en simpel beslutningstabel, der ses af \autoref{tab:beslutningstabel}. Oplysninger om det anbefalede træningsniveau vises og træningen samt måleenheder kan påbegyndes. 
+Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der i forlængelse af konditionstræning vælges gå, løbe eller cykle. 
+Efterfølgende tilpasses træningsniveauet til den enkelte bruger, og er beskrevet af et særskilt aktivitetsdiagram i \autoref{fig:traeningsniveau}.
+Systemet vil efterfølgende undersøge om der er kompatible måleenheder til rådighed, og tilkoble dem til træningen før den påbegyndes af brugeren. 
+Under træningen vil systemet kontinuert vise træningen og målinger der fortages. Brugeren kan til hver en tid vælge at afslutte træningen, dog skal denne handlingen bekræftes i tilfælde af at brugeren ved fejl angiver at træningen skal stoppes. 
+Systemet stopper dermed træningen og afventer en evalueringen som skal angives af brugeren. 
+Efter at træningssættet er evalueret sender systemet informationen relateret til træningssessionen til databasen, hvor det gemmes.  
 
-Under træningen kan brugeren pause træningen, hvorefter det er muligt at fortsætte eller afslutte træningen. Derefter skal brugeren evaluere træningen som værende let, moderat eller hård, hvorefter resultaterne fra den pågældende træning beregnes samt vises. Ligeledes sender systemet træningsparametre, bestående af den daglige helbredstilstand, resultater fra den udførte træning samt evaluering til databasen, som lagrer informationerne. 
+\subsection*{Tilpasning af træningsniveau} \label{sec:traeningsniveau}
+Tilpasning af træningsniveau er en funktion der skal varetage træningen for brugeren, ved at anbefale et træningsniveau ud fra brugeres kategorisering, dag til dag variationer og tidligere evalueringer af træninger. Aktivitetsdiagrammet over valg af træningsniveau fremgår af \autoref{fig:traening}.
+ 
+\begin{figure} [H]
+\centering
+\textbf{Aktivitetsdiagram: Træning}\par\medskip
+\includegraphics[width=0.8\textwidth]{figures/aktivitetsdiagram/NYTraening}
+\caption{Aktivitetsdiagram over træning.}
+\label{fig:traeningsniveau}
+\end{figure}
 
-\subsubsection*{Algoritme til valg af træningsniveau}
+\noindent
+Valg af træningsniveau ses som en aktivitet i aktivitetsdiagrammet for træning i \autoref{fig:traening}. For at systemet kan tilpasse træningsniveauet, vil brugeren skulle angive sin helbredstilstand før den givne træning. Yderligere beregnes træningsniveauet af brugers kategorisering, som blev defineret første gang brugeren loggede ind på app'en, og på tidligere evalueringer, såfremt tidligere evalueringer er fortaget.
+
+
+Tilpasningen af træningsniveauet kan også visualiseres som en simpel beslutningstabel, der ses af \autoref{tab:beslutningstabel}. Tabellen beskriver hvordan en algoritme, ville regulere i træningsniveauet således det er passende til den enkelte bruger.  
+
+\subsubsection*{Algoritme til tilpasning af træningsniveau}
 Algoritmen til valg af træningsniveau er illustreret som en simpel beslutningstabel, der viser, hvilke parameter, som ligger til grund for valg af træningsniveau til den enkelte bruger. Af \autoref{tab:beslutningstabel} ses beslutningstabellen for valg af træningsniveau.
 
 \begin{table}[H]
