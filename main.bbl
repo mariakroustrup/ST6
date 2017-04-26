@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -251,5 +251,16 @@ R{\aa}det for~digital sikkerhed.
 \newblock {Sikre adgangskoder}.
 \newblock \emph{R{\aa}det for digital sikkerhed}, 2015.
 \newblock URL \url{http://www.digitalsikkerhed.dk/sikre-adgangskoder/}.
+
+\bibitem[Chang and Et.al(2002)]{Chang2002}
+Dempsey Chang and Et.al.
+\newblock {Gestalt Theory in Visual Screen Design – A New Look at an Old
+  Subject}.
+\newblock \emph{Monash University}, 2002.
+
+\bibitem[Ferr{\'{e}} et~al.(2001)Ferr{\'{e}}, Juristo, and Et.al]{ferre2001}
+Xavier Ferr{\'{e}}, Natalia Juristo, and Et.al.
+\newblock {Usability Basics for Software Developers}.
+\newblock 2001.
 
 \end{thebibliography}

@@ -26,15 +26,13 @@
 \BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 26
 \BOOKMARK [0][-]{chapter.6}{Design}{}% 27
 \BOOKMARK [1][-]{section.6.1}{Designklasser}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.1.1}{Kategorisering}{section.6.1}% 29
-\BOOKMARK [2][-]{subsection.6.1.2}{Hovedmenu}{section.6.1}% 30
-\BOOKMARK [1][-]{section.6.2}{Sekvensdiagram}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.3}{Design af brugergr\346nseflade}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.3.1}{Brugervenlighed}{section.6.3}% 33
-\BOOKMARK [1][-]{section.6.4}{Design af database}{chapter.6}% 34
-\BOOKMARK [2][-]{subsection.6.4.1}{ER-diagram}{section.6.4}% 35
-\BOOKMARK [2][-]{subsection.6.4.2}{Schema}{section.6.4}% 36
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 37
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 38
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 39
-\BOOKMARK [0][-]{section*.79}{Litteratur}{}% 40
+\BOOKMARK [1][-]{section.6.2}{Sekvensdiagram}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Design af brugergr\346nseflade}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.3.1}{Brugervenlighed}{section.6.3}% 31
+\BOOKMARK [1][-]{section.6.4}{Design af database}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.4.1}{ER-diagram}{section.6.4}% 33
+\BOOKMARK [2][-]{subsection.6.4.2}{Schema}{section.6.4}% 34
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 35
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 36
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 37
+\BOOKMARK [0][-]{section*.80}{Litteratur}{}% 38
