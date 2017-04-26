@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  26 APR 2017 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  26 APR 2017 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1923,7 +1923,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 \c__siunitx_mathtt_int=\count371
 
 (./rapportAfsnit/xFormaliteter/Forside.tex
-<figures/Forside.png, id=160, 533.995pt x 473.77pt>
+<figures/Forside.png, id=120, 533.995pt x 473.77pt>
 File: figures/Forside.png Graphic file (type png)
  <use figures/Forside.png>
 Package pdftex.def Info: figures/Forside.png used on input line 40.
@@ -1944,7 +1944,7 @@ Package babel Info: Redefining danish shorthand "~
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/Forside.png>] (./rapportAfsnit/xFormaliteter/titleSheet.tex
-<figures/aaulogo-da.png, id=173, 122.4575pt x 76.285pt>
+<figures/aaulogo-da.png, id=133, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -2021,6 +2021,11 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+
+Package natbib Warning: Citation `Studieordning2014' on page iii undefined on i
+nput line 6.
+
+
 Underfull \hbox (badness 1142) in paragraph at lines 5--7
 \T1/cmr/m/n/10.95 i det overordnede tema "Design af sundhedsteknologiske system
 er"og projektforslaget
@@ -2033,6 +2038,9 @@ Underfull \hbox (badness 2376) in paragraph at lines 11--12
  []
 
 )
+
+LaTeX Warning: Reference `LastPage' on page iii undefined on input line 16.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
@@ -2041,7 +2049,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 16.
- [3
+[3
 
 
 ]
@@ -2050,15 +2058,21 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 20.
  (./main.toc
+
+LaTeX Warning: Reference `LastPage' on page iv undefined on input line 48.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 49.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 49.
- [4])
+(babel)             in language  on input line 48.
+[4])
+
+LaTeX Warning: Reference `LastPage' on page v undefined on input line 26.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
@@ -2067,25 +2081,88 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 26.
- [5] (./rapportAfsnit/bInitierende/indledning.tex
+[5] (./rapportAfsnit/bInitierende/indledning.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 1 undefined on input 
+line 2.
+
+
+Package natbib Warning: Citation `Lungeforeningen2016' on page 1 undefined on i
+nput line 2.
+
+
+Package natbib Warning: Citation `Sygdomsbyrden2015' on page 1 undefined on inp
+ut line 4.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 1 undefined on input 
+line 4.
+
+
+Package natbib Warning: Citation `WHO2017' on page 1 undefined on input line 4.
+
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 1 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `dsam2016' on page 1 undefined on input line 6
+.
+
+
+Package natbib Warning: Citation `Martinez2016' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Sygdomsbyrden2015' on page 1 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `Martinez2016' on page 1 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `dsam2016' on page 1 undefined on input line 9
+.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 1 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `dsam2016' on page 1 undefined on input line 9
+.
+
+
+Package natbib Warning: Citation `dsam2016' on page 1 undefined on input line 1
+0.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 1 undefined on input 
+line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 15.
 )
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 31.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 31.
 
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 31.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 31.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 31.
 [1
 
 
@@ -2111,7 +2188,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 4--5
 illes kravspecifikationer.
  []
 
-<figures/AAUModel.png, id=280, 443.6575pt x 515.9275pt>
+<figures/AAUModel.png, id=219, 443.6575pt x 515.9275pt>
 File: figures/AAUModel.png Graphic file (type png)
 
 <use figures/AAUModel.png>
@@ -2121,6 +2198,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 14.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 16.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
@@ -2129,24 +2210,26 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 16.
- [2
+[2
 
  <./figures/AAUModel.png>])
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
- [3]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
 
-(./rapportAfsnit/cProblemanalyse/KOL.tex
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 35.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+[3]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+ (./rapportAfsnit/cProblemanalyse/KOL.tex
 Underfull \hbox (badness 1895) in paragraph at lines 1--2
 \T1/cmr/m/n/10.95 KOL-patienter tilbydes. Heraf analyseres KOL-patienters resul
 tater efter gennemgået
@@ -2156,6 +2239,65 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
+
+Package natbib Warning: Citation `Lungeforeningen2016' on page 4 undefined on i
+nput line 4.
+
+
+Package natbib Warning: Citation `WHO2017' on page 4 undefined on input line 4.
+
+
+
+Package natbib Warning: Citation `Sygdomsbyrden2015' on page 4 undefined on inp
+ut line 4.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 4 undefined on input 
+line 4.
+
+
+Package natbib Warning: Citation `Kontaktforbrug2016' on page 4 undefined on in
+put line 4.
+
+
+Package natbib Warning: Citation `Kontaktforbrug2016' on page 4 undefined on in
+put line 4.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 4 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `Frausing2011' on page 4 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `Britannica2016' on page 4 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `Healthguidances2016' on page 4 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `Frausing2011a' on page 4 undefined on input l
+ine 9.
+
+
+Package natbib Warning: Citation `Flaschen-Hansen2008' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `Healthguidances2016' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 4 undefined on input 
+line 11.
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2166,11 +2308,81 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
 [4
 
-]) (./rapportAfsnit/cProblemanalyse/symptomerdiagnose.tex
+]
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 1
+3.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `Martinez2016' on page 5 undefined on input li
+ne 13.
+
+
+Package natbib Warning: Citation `Sygdomsbyrden2015' on page 5 undefined on inp
+ut line 13.
+
+
+Package natbib Warning: Citation `Folkesundhed2007' on page 5 undefined on inpu
+t line 13.
+
+
+Package natbib Warning: Citation `Martinez2016' on page 5 undefined on input li
+ne 14.
+
+) (./rapportAfsnit/cProblemanalyse/symptomerdiagnose.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+Package natbib Warning: Citation `Lange2015' on page 5 undefined on input line 
+2.
+
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 2
+.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 4.
+
+
+Package natbib Warning: Citation `Anzueto2010' on page 5 undefined on input lin
+e 4.
+
+
+Package natbib Warning: Citation `Anzueto2010' on page 5 undefined on input lin
+e 4.
+
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 5
+.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 5.
+
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 8
+.
+
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 8
+.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 5 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `dsam2016' on page 5 undefined on input line 9
+.
+
 
 Underfull \hbox (badness 2229) in paragraph at lines 7--10
 []\T1/cmr/m/n/10.95 Der er en række komorbiditeter, som hyppigt ses hos KOL-pat
@@ -2181,52 +2393,117 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
-<figures/FEV.png, id=343, 713.66624pt x 443.40656pt>
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `Sundhed2013' on page 5 undefined on input lin
+e 13.
+
+<figures/FEV.png, id=240, 713.66624pt x 443.40656pt>
 File: figures/FEV.png Graphic file (type png)
  <use figures/FEV.png>
 Package pdftex.def Info: figures/FEV.png used on input line 17.
 (pdftex.def)             Requested size: 352.80135pt x 219.19937pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
 
-[5]) (./rapportAfsnit/cProblemanalyse/klassifikationbehandlingprognose.tex
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 18.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 5 undefined on input 
+line 18.
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 21.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 21.
+[5]
+
+Package natbib Warning: Citation `Basisbogen2016' on page 6 undefined on input 
+line 23.
+
+
+Package natbib Warning: Citation `Sundhed2013' on page 6 undefined on input lin
+e 23.
+
+
+Package natbib Warning: Citation `Sundhed2013' on page 6 undefined on input lin
+e 24.
+
+) (./rapportAfsnit/cProblemanalyse/klassifikationbehandlingprognose.tex
 Underfull \hbox (badness 1253) in paragraph at lines 22--1
 \T1/cmr/m/n/10.95 Det fremgår af [][]figur 3.1[][][], at der ved obstruktivt ne
 dsat lungefunktion er et fald i
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 22--1
-\T1/cmr/m/n/10.95 foruden lungefunktionsundersøgelser også BMI, røntgen af thor
-ax, EKG-målinger og
- []
+Package natbib Warning: Citation `Basisbogen2016' on page 6 undefined on input 
+line 2.
 
-<figures/MRC.png, id=367, 928.46875pt x 352.31625pt>
+
+Package natbib Warning: Citation `Basisbogen2016' on page 6 undefined on input 
+line 5.
+
+<figures/MRC.png, id=250, 928.46875pt x 352.31625pt>
 File: figures/MRC.png Graphic file (type png)
  <use figures/MRC.png>
 Package pdftex.def Info: figures/MRC.png used on input line 9.
 (pdftex.def)             Requested size: 396.89731pt x 150.606pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 13.
 
-[6 <./figures/FEV.png>] <figures/CAT.png, id=381, 411.5375pt x 574.145pt>
+
+Package natbib Warning: Citation `Basisbogen2016' on page 6 undefined on input 
+line 10.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 6 undefined on input 
+line 10.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 13.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 13.
+[6 <./figures/FEV.png>]
+
+Package natbib Warning: Citation `dsam2016' on page 7 undefined on input line 1
+5.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 7 undefined on input 
+line 15.
+
+<figures/CAT.png, id=259, 411.5375pt x 574.145pt>
 File: figures/CAT.png Graphic file (type png)
-
-<use figures/CAT.png>
+ <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 19.
 (pdftex.def)             Requested size: 220.5pt x 307.62448pt.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 7 undefined on input 
+line 20.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 7 undefined on input 
+line 20.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 27.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining danish shorthand "~
@@ -2235,43 +2512,106 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 27.
- [7 <./figures/MRC.png> <./figures/CAT.png>]
-<figures/KAT.png, id=393, 609.77812pt x 435.12563pt>
+[7 <./figures/MRC.png> <./figures/CAT.png>]
+<figures/KAT.png, id=268, 609.77812pt x 435.12563pt>
 File: figures/KAT.png Graphic file (type png)
  <use figures/KAT.png>
 Package pdftex.def Info: figures/KAT.png used on input line 30.
 (pdftex.def)             Requested size: 352.80135pt x 251.7622pt.
 
-<figures/GOLD.png, id=398, 750.805pt x 224.84pt>
+
+Package natbib Warning: Citation `Basisbogen2016' on page 8 undefined on input 
+line 31.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 8 undefined on input 
+line 31.
+
+
+Package natbib Warning: Citation `dsam2016' on page 8 undefined on input line 3
+6.
+
+<figures/GOLD.png, id=270, 750.805pt x 224.84pt>
 File: figures/GOLD.png Graphic file (type png)
  <use figures/GOLD.png>
 Package pdftex.def Info: figures/GOLD.png used on input line 40.
 (pdftex.def)             Requested size: 352.80135pt x 105.65422pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 45.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 47.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 47.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 47.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 47.
 
+
+Package natbib Warning: Citation `Basisbogen2016' on page 8 undefined on input 
+line 41.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 8 undefined on input 
+line 41.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 45.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 45.
+
+Package natbib Warning: Citation `Basisbogen2016' on page 8 undefined on input 
+line 46.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 47.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 47.
 [8 <./figures/KAT.png> <./figures/GOLD.png>]
-<figures/fletcher.png, id=416, 550.30594pt x 298.11375pt>
+
+Package natbib Warning: Citation `Sundhedsdatastyrelsen2015' on page 9 undefine
+d on input line 49.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 9 undefined on input 
+line 49.
+
+
+Package natbib Warning: Citation `Kontaktforbrug2016' on page 9 undefined on in
+put line 52.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 9 undefined on input 
+line 54.
+
+<figures/fletcher.png, id=280, 550.30594pt x 298.11375pt>
 File: figures/fletcher.png Graphic file (type png)
 
 <use figures/fletcher.png>
 Package pdftex.def Info: figures/fletcher.png used on input line 58.
 (pdftex.def)             Requested size: 441.0pt x 238.90982pt.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 9 undefined on input 
+line 59.
+
+
+Package natbib Warning: Citation `Basisbogen2016' on page 9 undefined on input 
+line 59.
+
+
+Package natbib Warning: Citation `dsam2016' on page 9 undefined on input line 6
+4.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 66.
+
+Package natbib Warning: Citation `dsam2016' on page 9 undefined on input line 6
+9.
+
 ) (./rapportAfsnit/cProblemanalyse/rehabilitering.tex
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2285,10 +2625,106 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+Package natbib Warning: Citation `Hellem2012' on page 10 undefined on input lin
+e 2.
+
+
+Package natbib Warning: Citation `Williams2014' on page 10 undefined on input l
+ine 2.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 4.
+
+
+Package natbib Warning: Citation `Frausing2011b' on page 10 undefined on input 
+line 4.
+
+
+Package natbib Warning: Citation `Lungeforeningen2016' on page 10 undefined on 
+input line 4.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Habraken2011' on page 10 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 6.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Hellem2012' on page 10 undefined on input lin
+e 6.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `Habraken2011' on page 10 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 8.
+
+
+Package natbib Warning: Citation `Frausing2011b' on page 10 undefined on input 
+line 8.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 11.
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 12.
+
+
+Package natbib Warning: Citation `Habraken2011' on page 10 undefined on input l
+ine 12.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 12.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 14.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 15.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 16.
+
+
+Package natbib Warning: Citation `McCarthy2015' on page 10 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 10 undefined o
+n input line 18.
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 19.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
@@ -2297,11 +2733,80 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 19.
- [10]
+[10]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 20.
+
+
+Package natbib Warning: Citation `Egan2012' on page 11 undefined on input line 
+21.
+
+
+Package natbib Warning: Citation `Beachamp2013' on page 11 undefined on input l
+ine 21.
+
+
+Package natbib Warning: Citation `Zanaboni2017' on page 11 undefined on input l
+ine 21.
+
+
+Package natbib Warning: Citation `Ringbaek2008' on page 11 undefined on input l
+ine 21.
+
+
+Package natbib Warning: Citation `Egan2012' on page 11 undefined on input line 
+22.
+
+
+Package natbib Warning: Citation `Ringbaek2008' on page 11 undefined on input l
+ine 22.
+
+
+Package natbib Warning: Citation `dsam2016' on page 11 undefined on input line 
+25.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 11 undefined o
+n input line 25.
+
+
+Package natbib Warning: Citation `Lungeforeningen2016' on page 11 undefined on 
+input line 25.
+
+
+Package natbib Warning: Citation `dsam2016' on page 11 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Williams2014' on page 11 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `WHOtelehealth2017' on page 11 undefined on in
+put line 28.
+
+
+Package natbib Warning: Citation `Zanaboni2017' on page 11 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `WHOrehab2017' on page 11 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Zanaboni2017' on page 11 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Zanaboni2017' on page 11 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `HealthcareDenmark2017' on page 11 undefined o
+n input line 29.
+
 
 Underfull \hbox (badness 1043) in paragraph at lines 28--30
 \T1/cmr/m/n/10.95 at skabe en forbindelse mellem professionel behandling og sel
@@ -2312,42 +2817,111 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 31.
-) (./rapportAfsnit/bInitierende/problemformulering.tex
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
- [11]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
-)
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 43.
- [12]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 43.
 
-(./rapportAfsnit/eProblemloesning/OOP.tex
+Package natbib Warning: Citation `McCarthy2015' on page 11 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Lungeforeningen2016' on page 11 undefined on 
+input line 32.
+
+
+Package natbib Warning: Citation `Habraken2011' on page 11 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 11 undefined o
+n input line 32.
+
+
+Package natbib Warning: Citation `Egan2012' on page 11 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Beachamp2013' on page 11 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Zanaboni2017' on page 11 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Ringbaek2008' on page 11 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Sundhedsstyrelsen2015' on page 11 undefined o
+n input line 32.
+
+
+Package natbib Warning: Citation `HealthcareDenmark2017' on page 11 undefined o
+n input line 32.
+
+
+Package natbib Warning: Citation `dsam2016' on page 11 undefined on input line 
+32.
+
+) (./rapportAfsnit/bInitierende/problemformulering.tex
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 1.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+[11]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+)
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 43.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+[12]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 43.
+ (./rapportAfsnit/eProblemloesning/OOP.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
-)
-(./rapportAfsnit/eProblemloesning/MetodeUML.tex
+
+
+Package natbib Warning: Citation `Stefanov2013' on page 13 undefined on input l
+ine 4.
+
+
+Package natbib Warning: Citation `Brahma2015' on page 13 undefined on input lin
+e 4.
+
+
+Package natbib Warning: Citation `Stefanov2013' on page 13 undefined on input l
+ine 6.
+
+
+Package natbib Warning: Citation `Brahma2015' on page 13 undefined on input lin
+e 6.
+
+
+Package natbib Warning: Citation `Stefanov2013' on page 13 undefined on input l
+ine 20.
+
+) (./rapportAfsnit/eProblemloesning/MetodeUML.tex
 Underfull \hbox (badness 1924) in paragraph at lines 19--1
 \T1/cmr/m/n/10.95 Objektorienteret programmering består af tre grundprincipper,
  herunder indkapsling,
@@ -2357,6 +2931,17 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+Package natbib Warning: Citation `Fowler2004' on page 13 undefined on input lin
+e 2.
+
+
+Package natbib Warning: Citation `Williams2004' on page 13 undefined on input l
+ine 2.
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 3.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
@@ -2367,17 +2952,38 @@ Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
 [13
 
-] <figures/USE_CASE2.png, id=527, 354.72525pt x 243.309pt>
+]
+
+Package natbib Warning: Citation `Williams2004' on page 14 undefined on input l
+ine 6.
+
+<figures/USE_CASE2.png, id=307, 354.72525pt x 243.309pt>
 File: figures/USE_CASE2.png Graphic file (type png)
 
 <use figures/USE_CASE2.png>
 Package pdftex.def Info: figures/USE_CASE2.png used on input line 10.
 (pdftex.def)             Requested size: 220.5pt x 151.24356pt.
 
+
+Package natbib Warning: Citation `Fowler2004' on page 14 undefined on input lin
+e 16.
+
+
+Package natbib Warning: Citation `Williams2004' on page 14 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `Fowler2004' on page 14 undefined on input lin
+e 20.
+
+
 Underfull \hbox (badness 2103) in paragraph at lines 20--21
 \T1/cmr/m/n/10.95 proceduremæssig logik, business processer og arbejdsflow. Akt
 iviteter kan opdeles i
  []
+
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 21.
 
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 21.
@@ -2388,26 +2994,62 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 21.
 [14 <./figures/USE_CASE2.png>]
-<figures/aktivitetsdiagram.png, id=545, 578.16pt x 137.51375pt>
+<figures/aktivitetsdiagram.png, id=320, 578.16pt x 137.51375pt>
 File: figures/aktivitetsdiagram.png Graphic file (type png)
 
 <use figures/aktivitetsdiagram.png>
 Package pdftex.def Info: figures/aktivitetsdiagram.png used on input line 24.
 (pdftex.def)             Requested size: 396.89731pt x 94.39987pt.
 
-<figures/klassediag.png, id=550, 240.9pt x 199.34476pt>
+
+Package natbib Warning: Citation `Fowler2004' on page 15 undefined on input lin
+e 25.
+
+
+Package natbib Warning: Citation `Fowler2004' on page 15 undefined on input lin
+e 25.
+
+
+Package natbib Warning: Citation `Fowler2004' on page 15 undefined on input lin
+e 35.
+
+<figures/klassediag.png, id=322, 240.9pt x 199.34476pt>
 File: figures/klassediag.png Graphic file (type png)
 
 <use figures/klassediag.png>
 Package pdftex.def Info: figures/klassediag.png used on input line 39.
 (pdftex.def)             Requested size: 132.30135pt x 109.48177pt.
 
-<figures/sekvens.pdf, id=556, 427.5975pt x 303.1325pt>
+
+Package natbib Warning: Citation `Fowler2004' on page 15 undefined on input lin
+e 40.
+
+
+Package natbib Warning: Citation `Fowler2004' on page 15 undefined on input lin
+e 40.
+
+
+Package natbib Warning: Citation `Brahma2015' on page 15 undefined on input lin
+e 51.
+
+<figures/sekvens.pdf, id=325, 427.5975pt x 303.1325pt>
 File: figures/sekvens.pdf Graphic file (type pdf)
 
 <use figures/sekvens.pdf>
 Package pdftex.def Info: figures/sekvens.pdf used on input line 55.
 (pdftex.def)             Requested size: 308.69865pt x 218.84265pt.
+
+
+Package natbib Warning: Citation `Brahma2015' on page 15 undefined on input lin
+e 56.
+
+
+Package natbib Warning: Citation `Brahma2015' on page 15 undefined on input lin
+e 56.
+
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 59.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
@@ -2416,8 +3058,12 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 59.
- [15 <./figures/aktivitetsdiagram.png> <./figures/klassediag.png>]) (./rapportA
-fsnit/eProblemloesning/Vandfaldsmodel.tex
+[15 <./figures/aktivitetsdiagram.png> <./figures/klassediag.png>]
+
+Package natbib Warning: Citation `Brahma2015' on page 16 undefined on input lin
+e 61.
+
+) (./rapportAfsnit/eProblemloesning/Vandfaldsmodel.tex
 Underfull \hbox (badness 1314) in paragraph at lines 60--1
 \T1/cmr/m/n/10.95 Af [][]figur 4.4[][][] fremgår det, at hver entitet i et use 
 case diagram har en kolonne i
@@ -2427,11 +3073,27 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
-<figures/UP.pdf, id=575, 483.8075pt x 361.35pt>
+
+Package natbib Warning: Citation `Arlow2002' on page 16 undefined on input line
+ 2.
+
+<figures/UP.pdf, id=339, 483.8075pt x 361.35pt>
 File: figures/UP.pdf Graphic file (type pdf)
  <use figures/UP.pdf>
 Package pdftex.def Info: figures/UP.pdf used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 263.51314pt.
+
+
+Package natbib Warning: Citation `Arlow2002' on page 16 undefined on input line
+ 7.
+
+
+Package natbib Warning: Citation `Arlow2002' on page 16 undefined on input line
+ 7.
+
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 10.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
@@ -2440,29 +3102,50 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
- [16 <./figures/sekvens.pdf>]
+[16 <./figures/sekvens.pdf>]
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 12.
 )
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 49.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 49.
- [17 <./figures/UP.pdf>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 49.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 49.
 
-(./rapportAfsnit/eProblemloesning/systembeskrivelse.tex
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 49.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 49.
+[17 <./figures/UP.pdf>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 49.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 49.
+ (./rapportAfsnit/eProblemloesning/systembeskrivelse.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
+
+Package natbib Warning: Citation `Gade2007' on page 18 undefined on input line 
+13.
+
+
+Package natbib Warning: Citation `Tricomi2016' on page 18 undefined on input li
+ne 13.
+
+
+Package natbib Warning: Citation `Gade2007' on page 18 undefined on input line 
+15.
+
+
+Package natbib Warning: Citation `Tricomi2016' on page 18 undefined on input li
+ne 15.
+
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 18.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
@@ -2471,19 +3154,22 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 18.
- [18
+[18
 
 ]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 18.
-)
-(./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Usecase.tex
+) (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Usecase.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 3.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
@@ -2492,8 +3178,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
- [19]
-<figures/aktivitetsdiagram/Usecase.pdf, id=631, 784.9325pt x 576.1525pt>
+[19] <figures/aktivitetsdiagram/Usecase.pdf, id=381, 784.9325pt x 576.1525pt>
 File: figures/aktivitetsdiagram/Usecase.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Usecase.pdf>
@@ -2506,6 +3191,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 3.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
@@ -2514,15 +3203,23 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
- [20 <./figures/aktivitetsdiagram/Usecase.pdf>])
-(./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Logind.tex
-<figures/aktivitetsdiagram/Logind.pdf, id=643, 844.15375pt x 1808.7575pt>
+[20 <./figures/aktivitetsdiagram/Usecase.pdf>]
+
+Package natbib Warning: Citation `Sundhedsdatastyrelsen2016' on page 21 undefin
+ed on input line 5.
+
+) (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Logind.tex
+<figures/aktivitetsdiagram/Logind.pdf, id=391, 844.15375pt x 1808.7575pt>
 File: figures/aktivitetsdiagram/Logind.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Logind.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/Logind.pdf used on input lin
 e 8.
 (pdftex.def)             Requested size: 308.69865pt x 661.4468pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2531,27 +3228,34 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
- [21]
+[21]
 Overfull \vbox (10.73178pt too high) has occurred while \output is active []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 12.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 12.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 12.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 12.
 
+
+LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 12.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 12.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 12.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 12.
 [22 <./figures/aktivitetsdiagram/Logind.pdf>])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Kategorisering.tex
-<figures/aktivitetsdiagram/Kategorisering.pdf, id=671, 844.15375pt x 925.4575pt
+<figures/aktivitetsdiagram/Kategorisering.pdf, id=416, 844.15375pt x 925.4575pt
 >
 File: figures/aktivitetsdiagram/Kategorisering.pdf Graphic file (type pdf)
  <use figures/aktivitetsdiagram/Kategorisering.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/Kategorisering.pdf used on i
 nput line 8.
 (pdftex.def)             Requested size: 396.89731pt x 435.13454pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2560,15 +3264,18 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
- [23])
-(./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Traening.tex
-<figures/aktivitetsdiagram/Traening.pdf, id=680, 847.165pt x 1466.47874pt>
+[23]) (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Traening.tex
+<figures/aktivitetsdiagram/Traening.pdf, id=424, 847.165pt x 1466.47874pt>
 File: figures/aktivitetsdiagram/Traening.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Traening.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/Traening.pdf used on input l
 ine 8.
 (pdftex.def)             Requested size: 352.80135pt x 610.70313pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2577,7 +3284,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
- [24 <./figures/aktivitetsdiagram/Kategorisering.pdf>]
+[24 <./figures/aktivitetsdiagram/Kategorisering.pdf>]
+
+LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 16.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
@@ -2586,8 +3296,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 16.
- [25 <./figures/aktivitetsdiagram/Traening.pdf>]
-<figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf, id=713, 563.10374pt
+[25 <./figures/aktivitetsdiagram/Traening.pdf>]
+<figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf, id=455, 563.10374pt
  x 857.2025pt>
 File: figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf Graphic file (t
 ype pdf)
@@ -2595,23 +3305,30 @@ ype pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.
 pdf used on input line 25.
 (pdftex.def)             Requested size: 352.80135pt x 537.05823pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 29.
 
+
+LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 29.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 29.
 [26]
-<figures/aktivitetsdiagram/beslutningstabel.png, id=722, 777.90625pt x 278.0387
+<figures/aktivitetsdiagram/beslutningstabel.png, id=463, 777.90625pt x 278.0387
 6pt>
 File: figures/aktivitetsdiagram/beslutningstabel.png Graphic file (type png)
  <use figures/aktivitetsdiagram/beslutningstabel.png>
 Package pdftex.def Info: figures/aktivitetsdiagram/beslutningstabel.png used on
  input line 35.
 (pdftex.def)             Requested size: 441.0pt x 157.62674pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 38.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining danish shorthand "~
@@ -2620,7 +3337,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 38.
- [27 <./figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf>])
+[27 <./figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf>])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Resultater.tex
 Underfull \hbox (badness 1009) in paragraph at lines 40--1
 \T1/cmr/m/n/10.95 til den pågældende dag. Helbredstilstanden angives efter \T1/
@@ -2628,13 +3345,17 @@ cmr/m/it/10.95 1: Meget dårligt\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 2: Dåligt
 \T1/cmr/m/n/10.95 ,
  []
 
-<figures/aktivitetsdiagram/Resultater.pdf, id=738, 565.11125pt x 522.95375pt>
+<figures/aktivitetsdiagram/Resultater.pdf, id=478, 565.11125pt x 522.95375pt>
 File: figures/aktivitetsdiagram/Resultater.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Resultater.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/Resultater.pdf used on input
  line 8.
 (pdftex.def)             Requested size: 396.89731pt x 367.29399pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 12.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2643,8 +3364,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 12.
- [28 <./figures/aktivitetsdiagram/beslutningstabel.png>]
-<figures/aktivitetsdiagram/beloeninnger.png, id=748, 899.36pt x 268.00125pt>
+[28 <./figures/aktivitetsdiagram/beslutningstabel.png>]
+<figures/aktivitetsdiagram/beloeninnger.png, id=487, 899.36pt x 268.00125pt>
 File: figures/aktivitetsdiagram/beloeninnger.png Graphic file (type png)
 
 <use figures/aktivitetsdiagram/beloeninnger.png>
@@ -2653,6 +3374,9 @@ ut line 18.
 (pdftex.def)             Requested size: 441.0pt x 131.4158pt.
 )
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/venner.tex
+
+LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2661,15 +3385,19 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [29 <./figures/aktivitetsdiagram/Resultater.pdf> <./figures/aktivitetsdiagram/
-beloeninnger.png>] <figures/aktivitetsdiagram/venner.pdf, id=761, 844.15375pt x
- 1205.50375pt>
+[29 <./figures/aktivitetsdiagram/Resultater.pdf> <./figures/aktivitetsdiagram/b
+eloeninnger.png>]
+<figures/aktivitetsdiagram/venner.pdf, id=499, 844.15375pt x 1205.50375pt>
 File: figures/aktivitetsdiagram/venner.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/venner.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/venner.pdf used on input lin
 e 8.
 (pdftex.def)             Requested size: 352.80135pt x 503.82487pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 15.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining danish shorthand "~
@@ -2678,10 +3406,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 15.
- [30 <./figures/aktivitetsdiagram/venner.pdf>])
+[30 <./figures/aktivitetsdiagram/venner.pdf>])
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Redigerbrugeroplysninger.te
 x
-<figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf, id=773, 844.15375pt x 
+<figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf, id=510, 844.15375pt x 
 806.01125pt>
 File: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf Graphic file (type
  pdf)
@@ -2689,8 +3417,15 @@ File: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf Graphic file (type
 Package pdftex.def Info: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf
  used on input line 7.
 (pdftex.def)             Requested size: 396.89731pt x 378.97292pt.
-)
-(./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/logud.tex
+
+
+Package natbib Warning: Citation `sikkerhed2015' on page 31 undefined on input 
+line 15.
+
+) (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/logud.tex
+
+LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2699,8 +3434,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [31 <./figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf>]
-<figures/aktivitetsdiagram/Logud.pdf, id=790, 563.10374pt x 513.92pt>
+[31 <./figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf>]
+<figures/aktivitetsdiagram/Logud.pdf, id=525, 563.10374pt x 513.92pt>
 File: figures/aktivitetsdiagram/Logud.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Logud.pdf>
@@ -2709,6 +3444,9 @@ Package pdftex.def Info: figures/aktivitetsdiagram/Logud.pdf used on input line
 (pdftex.def)             Requested size: 396.89731pt x 362.23521pt.
 )
 (./rapportAfsnit/eProblemloesning/Aktivitetsdiagram/Analyseklasser.tex
+
+LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2717,8 +3455,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [32 <./figures/aktivitetsdiagram/Logud.pdf>]
-<figures/aktivitetsdiagram/substantiveverber.pdf, id=804, 402.50375pt x 375.402
+[32 <./figures/aktivitetsdiagram/Logud.pdf>]
+<figures/aktivitetsdiagram/substantiveverber.pdf, id=537, 402.50375pt x 375.402
 5pt>
 File: figures/aktivitetsdiagram/substantiveverber.pdf Graphic file (type pdf)
  <use figures/aktivitetsdiagram/substantiveverber.pdf>
@@ -2742,13 +3480,17 @@ Package natbib Warning: Citation `RSC2002' on page 33 undefined on input line 2
 Package natbib Warning: Citation `RSC2002' on page 33 undefined on input line 2
 1.
 
-<figures/aktivitetsdiagram/analyseklasser.pdf, id=807, 505.89pt x 807.015pt>
+<figures/aktivitetsdiagram/analyseklasser.pdf, id=540, 505.89pt x 807.015pt>
 File: figures/aktivitetsdiagram/analyseklasser.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/analyseklasser.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/analyseklasser.pdf used on i
 nput line 29.
 (pdftex.def)             Requested size: 308.69865pt x 492.45084pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 32.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining danish shorthand "~
@@ -2757,7 +3499,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 32.
- [33 <./figures/aktivitetsdiagram/substantiveverber.pdf>])
+[33 <./figures/aktivitetsdiagram/substantiveverber.pdf>])
+
+LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 64.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining danish shorthand "~
@@ -2766,35 +3511,39 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 64.
- [34 <./figures/aktivitetsdiagram/analyseklasser.pdf>]
+[34 <./figures/aktivitetsdiagram/analyseklasser.pdf>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 64.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 64.
+
+(./rapportAfsnit/eProblemloesning/Design/Designklasser.tex
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 66.
- (./rapportAfsnit/eProblemloesning/Design/MVC.tex)
+(babel)             in language  on input line 1.
+)
 (./rapportAfsnit/eProblemloesning/Design/MVCDatabase.tex
-<figures/MVC/MVCDatabase.pdf, id=830, 347.2975pt x 151.56625pt>
+<figures/MVC/MVCDatabase.pdf, id=561, 347.2975pt x 151.56625pt>
 File: figures/MVC/MVCDatabase.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCDatabase.pdf>
 Package pdftex.def Info: figures/MVC/MVCDatabase.pdf used on input line 6.
 (pdftex.def)             Requested size: 220.5pt x 96.23192pt.
 
-Underfull \hbox (badness 1067) in paragraph at lines 11--13
-\T1/cmr/m/n/10.95 Databasen indeholder brugeroplysninger, venneliste, resultate
-r og registrerede brugere.
- []
 
-<figures/MVC/Entity.pdf, id=833, 600.2425pt x 217.81375pt>
+LaTeX Warning: Reference `sec:ER' on page 35 undefined on input line 12.
+
+<figures/MVC/Entity.pdf, id=563, 600.2425pt x 217.81375pt>
 File: figures/MVC/Entity.pdf Graphic file (type pdf)
 
 <use figures/MVC/Entity.pdf>
 Package pdftex.def Info: figures/MVC/Entity.pdf used on input line 20.
 (pdftex.def)             Requested size: 396.89731pt x 144.02672pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 35 undefined on input line 24.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 24.
 Package babel Info: Redefining danish shorthand "~
@@ -2803,7 +3552,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 24.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 24.
- [35
+[35
 
  <./figures/MVC/MVCDatabase.pdf>]
 
@@ -2814,7 +3563,7 @@ LaTeX Warning: Reference `fig:MVCRedigering' on page 36 undefined on input line
 LaTeX Warning: Reference `MVCResultat' on page 36 undefined on input line 28.
 
 ) (./rapportAfsnit/eProblemloesning/Design/MVCLogind.tex
-<figures/MVC/MVCLogInd.pdf, id=850, 623.32875pt x 242.9075pt>
+<figures/MVC/MVCLogInd.pdf, id=579, 623.32875pt x 242.9075pt>
 File: figures/MVC/MVCLogInd.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCLogInd.pdf>
@@ -2822,57 +3571,178 @@ Package pdftex.def Info: figures/MVC/MVCLogInd.pdf used on input line 7.
 (pdftex.def)             Requested size: 396.89731pt x 154.67078pt.
 )
 (./rapportAfsnit/eProblemloesning/Design/MVCKategorisering.tex
-Underfull \hbox (badness 1062) in paragraph at lines 15--1
+Underfull \hbox (badness 1062) in paragraph at lines 15--2
 []\T1/cmr/m/n/10.95 Der er til \T1/cmr/m/it/10.95 LogindGrænseflade \T1/cmr/m/n
 /10.95 opstillet en \T1/cmr/m/it/10.95 LogindController\T1/cmr/m/n/10.95 , der 
 har til formål at
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 15--1
+Underfull \hbox (badness 1975) in paragraph at lines 15--2
 \T1/cmr/m/n/10.95 omfatter brugerens oplysninger, resultater samt venneliste. I
 ndgår kategoriseringen i
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 36 undefined on input line 2.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 2.
 [36 <./figures/MVC/Entity.pdf> <./figures/MVC/MVCLogInd.pdf>]
-<figures/MVC/MVCKategorisering.pdf, id=868, 587.19376pt x 393.47pt>
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 2.
+
+<figures/MVC/MVCKategorisering.pdf, id=595, 587.19376pt x 393.47pt>
 File: figures/MVC/MVCKategorisering.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCKategorisering.pdf>
-Package pdftex.def Info: figures/MVC/MVCKategorisering.pdf used on input line 6
-.
+Package pdftex.def Info: figures/MVC/MVCKategorisering.pdf used on input line 1
+0.
 (pdftex.def)             Requested size: 396.89731pt x 265.95302pt.
 )
+(./rapportAfsnit/eProblemloesning/Design/MVCHovedmenu.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+
+
+LaTeX Warning: Reference `fig:Designhovedmenu' on page 37 undefined on input li
+ne 2.
+
+<figures/MVC/MVCHovedmenu.pdf, id=596, 606.265pt x 293.095pt>
+File: figures/MVC/MVCHovedmenu.pdf Graphic file (type pdf)
+
+<use figures/MVC/MVCHovedmenu.pdf>
+Package pdftex.def Info: figures/MVC/MVCHovedmenu.pdf used on input line 6.
+(pdftex.def)             Requested size: 396.89731pt x 191.87799pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 37 undefined on input line 10.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+[37 <./figures/MVC/MVCKategorisering.pdf>])
+(./rapportAfsnit/eProblemloesning/Design/MVCTraening.tex
+Underfull \hbox (badness 1067) in paragraph at lines 13--1
+[]\T1/cmr/m/n/10.95 Til grænsefladen er der ligeledes en \T1/cmr/m/it/10.95 Hov
+edmenuController\T1/cmr/m/n/10.95 , som viser layoutet for
+ []
+
+
+LaTeX Warning: Reference `fig:DesignTraening' on page 38 undefined on input lin
+e 2.
+
+
+! LaTeX Error: File `figures/MVC/MVCTraening' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...dth=0.9\textwidth]{figures/MVC/MVCTraening}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./rapportAfsnit/eProblemloesning/Design/MVCTilpasning.tex
+Underfull \hbox (badness 1418) in paragraph at lines 11--1
+\T1/cmr/m/n/10.95 kan bekræfte, at træningen skal stoppes eller fortsætte træni
+ngen ved hjælp af de
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 38 undefined on input line 1.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+[38 <./figures/MVC/MVCHovedmenu.pdf>]
+
+LaTeX Warning: Reference `fig:DesignTilpasning' on page 39 undefined on input l
+ine 2.
+
+<figures/MVC/MVCTilpasning.pdf, id=618, 884.30376pt x 493.845pt>
+File: figures/MVC/MVCTilpasning.pdf Graphic file (type pdf)
+
+<use figures/MVC/MVCTilpasning.pdf>
+Package pdftex.def Info: figures/MVC/MVCTilpasning.pdf used on input line 6.
+(pdftex.def)             Requested size: 396.89731pt x 221.64795pt.
+
+
+LaTeX Warning: Reference `sec:MVCHovedmenu' on page 39 undefined on input line 
+12.
+
+
+LaTeX Warning: Reference `LastPage' on page 39 undefined on input line 16.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 16.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 16.
+[39 <./figures/MVC/MVCTilpasning.pdf>]
+
+LaTeX Warning: Reference `fig:kompatiblem\IeC {\r a}leenheder' on page 40 undef
+ined on input line 20.
+
+<figures/MVC/MVCKompMaale.pdf, id=628, 282.05376pt x 162.6075pt>
+File: figures/MVC/MVCKompMaale.pdf Graphic file (type pdf)
+
+<use figures/MVC/MVCKompMaale.pdf>
+Package pdftex.def Info: figures/MVC/MVCKompMaale.pdf used on input line 24.
+(pdftex.def)             Requested size: 396.89731pt x 228.83247pt.
+)
 (./rapportAfsnit/eProblemloesning/Design/MVCResultater.tex
-<figures/MVC/Resultater.pdf, id=870, 472.76625pt x 202.7575pt>
+<figures/MVC/Resultater.pdf, id=630, 472.76625pt x 202.7575pt>
 File: figures/MVC/Resultater.pdf Graphic file (type pdf)
 
 <use figures/MVC/Resultater.pdf>
 Package pdftex.def Info: figures/MVC/Resultater.pdf used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 151.30975pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 10.
- [37 <./figures/MVC/MVCKategorisering.pdf>]
 
-LaTeX Warning: Reference `fig:MVCTraening' on page 38 undefined on input line 1
+
+LaTeX Warning: Reference `LastPage' on page 40 undefined on input line 10.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+[40 <./figures/MVC/MVCKompMaale.pdf>]
+
+LaTeX Warning: Reference `fig:MVCTraening' on page 41 undefined on input line 1
 4.
 
 ) (./rapportAfsnit/eProblemloesning/Design/MVCVenneliste.tex
-<figures/MVC/MVCVenneliste.pdf, id=883, 488.82625pt x 218.8175pt>
+<figures/MVC/MVCVenneliste.pdf, id=641, 488.82625pt x 218.8175pt>
 File: figures/MVC/MVCVenneliste.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVenneliste.pdf>
@@ -2880,7 +3750,10 @@ Package pdftex.def Info: figures/MVC/MVCVenneliste.pdf used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 157.9291pt.
 
 
-LaTeX Warning: Reference `MVCVen' on page 38 undefined on input line 16.
+LaTeX Warning: Reference `MVCVen' on page 41 undefined on input line 16.
+
+
+LaTeX Warning: Reference `LastPage' on page 41 undefined on input line 17.
 
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 17.
@@ -2890,8 +3763,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 17.
-[38 <./figures/MVC/Resultater.pdf> <./figures/MVC/MVCVenneliste.pdf>]
-<figures/MVC/MVCVen.pdf, id=898, 482.80376pt x 242.9075pt>
+[41 <./figures/MVC/Resultater.pdf> <./figures/MVC/MVCVenneliste.pdf>]
+<figures/MVC/MVCVen.pdf, id=656, 482.80376pt x 242.9075pt>
 File: figures/MVC/MVCVen.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVen.pdf>
@@ -2905,12 +3778,20 @@ Underfull \hbox (badness 1603) in paragraph at lines 33--1
 il formål vise
  []
 
-<figures/MVC/Redigering.pdf, id=900, 512.91624pt x 278.03876pt>
+
+LaTeX Warning: Reference `fig:Redigering' on page 42 undefined on input line 2.
+
+
+<figures/MVC/Redigering.pdf, id=657, 512.91624pt x 278.03876pt>
 File: figures/MVC/Redigering.pdf Graphic file (type pdf)
 
 <use figures/MVC/Redigering.pdf>
 Package pdftex.def Info: figures/MVC/Redigering.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 215.15112pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 42 undefined on input line 10.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
@@ -2919,69 +3800,84 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
- [39 <./figures/MVC/MVCVen.pdf>])
+[42 <./figures/MVC/MVCVen.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCLogUd.tex
-<figures/MVC/Logud.pdf, id=913, 322.20375pt x 182.6825pt>
+
+LaTeX Warning: Reference `fig:MVCLogUd' on page 43 undefined on input line 2.
+
+<figures/MVC/Logud.pdf, id=668, 322.20375pt x 182.6825pt>
 File: figures/MVC/Logud.pdf Graphic file (type pdf)
 
 <use figures/MVC/Logud.pdf>
 Package pdftex.def Info: figures/MVC/Logud.pdf used on input line 6.
 (pdftex.def)             Requested size: 264.60269pt x 150.02917pt.
 )
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 78.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 78.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 78.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 78.
- [40 <./figures/MVC/Redigering.pdf> <./figures/MVC/Logud.pdf>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 79.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 79.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 81.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 81.
- (./rapportAfsnit/eProblemloesning/Design/brugervenlighed.tex
+(./rapportAfsnit/eProblemloesning/Sekvensdiagram/sekvensdiagram.tex
+
+LaTeX Warning: Reference `LastPage' on page 43 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
-
-
-Package natbib Warning: Citation `Chang2002' on page 41 undefined on input line
- 4.
-
-
-Package natbib Warning: Citation `ferre2001' on page 41 undefined on input line
- 4.
-
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+[43 <./figures/MVC/Redigering.pdf> <./figures/MVC/Logud.pdf>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
 )
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 84.
- (./rapportAfsnit/eProblemloesning/Design/ERdiagram.tex
+(./rapportAfsnit/eProblemloesning/Design/brugervenlighed.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+
+
+Package natbib Warning: Citation `Chang2002' on page 44 undefined on input line
+ 6.
+
+
+Package natbib Warning: Citation `ferre2001' on page 44 undefined on input line
+ 6.
+
+) (./rapportAfsnit/eProblemloesning/Design/ERdiagram.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 4.
+
+
+LaTeX Warning: Reference `fig:ERdiagram' on page 44 undefined on input line 5.
+
 
 Underfull \hbox (badness 1221) in paragraph at lines 5--6
 \T1/cmr/m/n/10.95 sig til én KOL-patient i databasen. Databasen tager udgangspu
 nkt i entiteter, som
  []
 
-<figures/Aktivitetsdiagram/ERdiagram.pdf, id=931, 894.34125pt x 520.94624pt>
+<figures/Aktivitetsdiagram/ERdiagram.pdf, id=684, 894.34125pt x 520.94624pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
 <use figures/Aktivitetsdiagram/ERdiagram.pdf>
 Package pdftex.def Info: figures/Aktivitetsdiagram/ERdiagram.pdf used on input 
 line 10.
 (pdftex.def)             Requested size: 441.0pt x 256.87953pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 44 undefined on input line 14.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
@@ -2990,17 +3886,30 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 14.
- [41]
-Underfull \hbox (badness 1997) in paragraph at lines 15--17
-\T1/cmr/m/n/10.95 Af [][]figur 6.10[][][] ses ER-diagrammet over databasen, hvo
-ri KOL-patienter oprettes og
- []
+[44]
+
+LaTeX Warning: Reference `fig:ERdiagram' on page 45 undefined on input line 16.
+
+
+
+LaTeX Warning: Reference `fig:ERdiagram' on page 45 undefined on input line 16.
+
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 19.
+
+LaTeX Warning: Reference `tab:schema' on page 45 undefined on input line 20.
 
 
 Overfull \hbox (51.73586pt too wide) in paragraph at lines 24--30
  [][] 
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 45 undefined on input line 33.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining danish shorthand "~
@@ -3009,56 +3918,74 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 33.
-[42 <./figures/Aktivitetsdiagram/ERdiagram.pdf>]
+[45 <./figures/Aktivitetsdiagram/ERdiagram.pdf>]
+
+LaTeX Warning: Reference `tab:schema3' on page 46 undefined on input line 35.
+
+
 Overfull \hbox (34.13673pt too wide) in paragraph at lines 39--46
  [][] 
  []
 
 )
+
+LaTeX Warning: Reference `LastPage' on page 46 undefined on input line 86.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 87.
- [43]
+(babel)             in language  on input line 86.
+[46]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 86.
+
+
+LaTeX Warning: Reference `LastPage' on page 47 undefined on input line 89.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 90.
- [44
+(babel)             in language  on input line 89.
+[47
 
 ]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 89.
+
+
+LaTeX Warning: Reference `LastPage' on page 48 undefined on input line 92.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 93.
- [45
+(babel)             in language  on input line 92.
+[48
 
 ]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
  (./main.bbl
+
+LaTeX Warning: Reference `LastPage' on page 49 undefined on input line 1.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -3067,7 +3994,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [46
+[49
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -3075,10 +4002,12 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+
+LaTeX Warning: Reference `LastPage' on page 50 undefined on input line 117.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining danish shorthand "~
@@ -3087,9 +4016,12 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 117.
- [47
+[50
 
 ]
+
+LaTeX Warning: Reference `LastPage' on page 51 undefined on input line 213.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 213.
 Package babel Info: Redefining danish shorthand "~
@@ -3098,33 +4030,44 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 213.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 213.
- [48])
+[51])
 
 Package natbib Warning: There were undefined citations.
 
 
+Package lastpage Warning: Rerun to get the references right on input line 114.
+
+
 AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 52 undefined on input line 114.
+
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 115.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 115.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 115.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 115.
-[49]
+(babel)             in language  on input line 114.
+[52]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 115.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 115.
+(babel)             in language  on input line 114.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+ (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -3132,41 +4075,32 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: EF713068BC0A219785174343C03A94DD;2374
-(rerunfilecheck)             After:  7E7FFA97A2AC1B44880004145D86CA2A;2252.
+(rerunfilecheck)             Before: 698CFA41BE3CC7B4226F4C5C5F2204FD;1809
+(rerunfilecheck)             After:  76273A3DC42476EDA78BA80F660F151B;2449.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 28834 strings out of 493089
- 517890 string characters out of 6134843
+ 28882 strings out of 493089
+ 519498 string characters out of 6134843
  844112 words of memory out of 5000000
- 31555 multiletter control sequences out of 15000+600000
+ 31570 multiletter control sequences out of 15000+600000
  32846 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,22n,92p,10481b,958s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.caption.71} has been referenced but does no
-t exist, replaced by a fixed one
+ 57i,22n,92p,10481b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.60} has been referenced but does n
+ot exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.73} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.75} has been referenced but does not exist
 , replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.1.1} has been referenced but does not 
-exist, replaced by a fixed one
 
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
 usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
@@ -3192,10 +4126,10 @@ onts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (54 pages, 3060021 bytes).
+Output written on main.pdf (57 pages, 3527084 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 980 compressed objects within 10 object streams
- 214 named destinations out of 1000 (max. 500000)
- 498 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 925 PDF objects out of 1000 (max. 8388607)
+ 769 compressed objects within 8 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

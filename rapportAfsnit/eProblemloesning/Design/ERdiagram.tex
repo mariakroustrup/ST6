@@ -1,7 +1,7 @@
-\subsection{Design af database} \label{sec:ER}
+\section{Design af database} \label{sec:ER}
 Det ønskes, at brugerdata er knyttet til den enkelte bruger i databasen. Dette er med henblik på, at app'en ikke skal lagre større mængder data på den mobile enhed samt sikre data i tilfælde af uforudsete hændelser, som eksempelvis tab af mobil enhed. Databasen skal indeholde oplysninger om de enkelte KOL-patienter, herunder resultater opnået ved træning og vennerelation. 
 
-\subsubsection{ER-diagram}
+\subsection{ER-diagram}
 Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relaterer sig til én KOL-patient i databasen. Databasen tager udgangspunkt i entiteter, som sundhedspersonale, KOL-patient, vennerelation, træning, konditionstræning, styrketræning og vejrtrækningsøvelser. ER-diagrammet for databasen fremgår af \autoref{fig:ERdiagram}.
 
 
@@ -16,7 +16,7 @@ Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relatere
 Af \autoref{fig:ERdiagram} ses ER-diagrammet over databasen, hvori KOL-patienter oprettes og informationer om patienterne samt deres resultater lagres. Sundhedspersonalet fremgår som en stærk entitet, der opretter alle KOL-patienter, hvor én KOL-patient oprettes i databasen én gang. Sundhedspersonalet defineres med et \textit{personaleID}, fornavn, efternavn og afdelingsID, hvor \textit{personaleID} er primærnøglen, der kan identificere personen. Den enkelte KOL-patient er en stærk entitiet, som registreres med primærnøglen, \textit{medlemsID}, samt brugernavn, fornavn, efternavn, adgangskode og kategorisering. Derudover fremgår de svage entiteter, herunder vennerelation, træning, konditionstræning, styrketræning og vejrtrækningsøvesler. Én KOL-patient har mange vennerelationer, som kan identificeres ved KOL-patientens \textit{medlemsID} og \textit{venMedlemsID}. Det samme gør sig gældende for træninger, hvor én KOL-patient kan udføre mange træninger, der identificeres ved  \textit{dato/tid} og \textit{medlemsID}. Af \autoref{fig:ERdiagram} fremgår det, at konditionstræning, styrketræning og vejrtrækningsøvelser nedarver flere attributter fra træningen, da entiteterne har ligheder og forskelligheder. Konditionstræning har foruden de nedarvede attributter afstand. 
 
 
-\subsubsection{Schema}
+\subsection{Schema}
 ER-diagrammet omskrives til schema for at kunne normalisere og implementere databasen. Normaliseringen anvendes med henblik på at reducere redundans og inkonsistens. Schema er i anden normalform og fremgår af \autoref{tab:schema}. 
 
 \begin{table}[H]

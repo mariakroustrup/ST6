@@ -35,14 +35,15 @@
 \contentsline {subsubsection}{Analyseklasse stereotyper}{33}{section*.49}
 \contentsline {chapter}{\chapternumberline {6}Design}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Designklasser}{35}{section.6.1}
-\contentsline {section}{\numberline {6.2}Sekvensdiagram}{41}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af gr\IeC {\ae }nseflade}{41}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{41}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}ER-diagram}{41}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Design af database}{41}{subsection.6.4.1}
-\contentsline {subsubsection}{ER-diagram}{41}{section*.69}
-\contentsline {subsubsection}{Schema}{42}{section*.71}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{44}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{45}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{46}{chapter.9}
-\contentsline {chapter}{Litteratur}{47}{section*.75}
+\contentsline {subsection}{\numberline {6.1.1}Kategorisering}{37}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Hovedmenu}{37}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Sekvensdiagram}{44}{section.6.2}
+\contentsline {section}{\numberline {6.3}Design af brugergr\IeC {\ae }nseflade}{44}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{44}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Design af database}{44}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}ER-diagram}{44}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Schema}{45}{subsection.6.4.2}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{47}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{48}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{49}{chapter.9}
+\contentsline {chapter}{Litteratur}{50}{section*.79}
