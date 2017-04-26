@@ -6,37 +6,24 @@
 \BOOKMARK [1][-]{section.2.2}{Vidensindsamling}{chapter.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Problemanalyse}{}% 7
 \BOOKMARK [1][-]{section.3.1}{Kronisk obstruktiv lungesygdom}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.1.1}{Symptomer}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.2}{Diagnose}{section.3.1}% 10
-\BOOKMARK [2][-]{subsection.3.1.3}{Behandling}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.1.4}{Prognose}{section.3.1}% 12
-\BOOKMARK [1][-]{section.3.2}{Rehabilitering af KOL-patienter}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.2.1}{Rehabiliteringsforl\370b}{section.3.2}% 14
-\BOOKMARK [1][-]{section.3.3}{Efter rehabiliteringsforl\370b}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.4}{Projektafgr\346nsning}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.5}{Problemformulering}{chapter.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Metode}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Objektorienteret programmering}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.1.1}{Unified Modellig Language}{section.4.1}% 20
-\BOOKMARK [1][-]{section.4.2}{Unified Process}{chapter.4}% 21
-\BOOKMARK [0][-]{chapter.5}{Systemanalyse}{}% 22
-\BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.2}{Kravspecifikationer}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.3}{Use case}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{Design}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Design diagram}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.1.1}{Database}{section.6.1}% 29
-\BOOKMARK [2][-]{subsection.6.1.2}{Entity}{section.6.1}% 30
-\BOOKMARK [1][-]{section.6.2}{Log ind}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.3}{Kategorisering}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.3.1}{Resultater}{section.6.3}% 33
-\BOOKMARK [2][-]{subsection.6.3.2}{Venneliste}{section.6.3}% 34
-\BOOKMARK [2][-]{subsection.6.3.3}{Redigering}{section.6.3}% 35
-\BOOKMARK [1][-]{section.6.4}{Log ud}{chapter.6}% 36
-\BOOKMARK [1][-]{section.6.5}{ER-diagram}{chapter.6}% 37
-\BOOKMARK [2][-]{subsection.6.5.1}{Design af database}{section.6.5}% 38
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 39
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 40
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 41
-\BOOKMARK [0][-]{section*.66}{Litteratur}{}% 42
+\BOOKMARK [1][-]{section.3.2}{Rehabilitering af KOL-patienter}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Efter rehabiliteringsforl\370b}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Projektafgr\346nsning}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.5}{Problemformulering}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Metode}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Objektorienteret programmering}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Unified Process}{chapter.4}% 15
+\BOOKMARK [0][-]{chapter.5}{Systemanalyse}{}% 16
+\BOOKMARK [1][-]{section.5.1}{Systembeskrivelse}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.2}{Kravspecifikationer}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.3}{Use case}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 20
+\BOOKMARK [0][-]{chapter.6}{Design}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Klassediagram}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.2}{Sekvensdiagram}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.3}{Design af gr\346nseflade}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.4}{ER-diagram}{chapter.6}% 25
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 26
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 27
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 28
+\BOOKMARK [0][-]{section*.72}{Litteratur}{}% 29
