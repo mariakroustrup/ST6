@@ -26,14 +26,17 @@
 \BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 26
 \BOOKMARK [0][-]{chapter.6}{Design}{}% 27
 \BOOKMARK [1][-]{section.6.1}{Design diagram}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Log ind}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{Kategorisering}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.3.1}{Resultater}{section.6.3}% 31
-\BOOKMARK [2][-]{subsection.6.3.2}{Venneliste}{section.6.3}% 32
-\BOOKMARK [2][-]{subsection.6.3.3}{Redigering}{section.6.3}% 33
-\BOOKMARK [1][-]{section.6.4}{ER-diagram}{chapter.6}% 34
-\BOOKMARK [2][-]{subsection.6.4.1}{Design af database}{section.6.4}% 35
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 36
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 37
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 38
-\BOOKMARK [0][-]{section*.63}{Litteratur}{}% 39
+\BOOKMARK [2][-]{subsection.6.1.1}{Database}{section.6.1}% 29
+\BOOKMARK [2][-]{subsection.6.1.2}{Entity}{section.6.1}% 30
+\BOOKMARK [1][-]{section.6.2}{Log ind}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.3}{Kategorisering}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.3.1}{Resultater}{section.6.3}% 33
+\BOOKMARK [2][-]{subsection.6.3.2}{Venneliste}{section.6.3}% 34
+\BOOKMARK [2][-]{subsection.6.3.3}{Redigering}{section.6.3}% 35
+\BOOKMARK [1][-]{section.6.4}{Log ud}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.5}{ER-diagram}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.5.1}{Design af database}{section.6.5}% 38
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 39
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 40
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 41
+\BOOKMARK [0][-]{section*.66}{Litteratur}{}% 42

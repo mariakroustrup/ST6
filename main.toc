@@ -34,17 +34,20 @@
 \contentsline {section}{\numberline {5.4}Funktionalitet}{21}{section.5.4}
 \contentsline {chapter}{\chapternumberline {6}Design}{37}{chapter.6}
 \contentsline {section}{\numberline {6.1}Design diagram}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}Log ind}{37}{section.6.2}
-\contentsline {section}{\numberline {6.3}Kategorisering}{37}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Resultater}{38}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.1.1}Database}{37}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Entity}{37}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Log ind}{38}{section.6.2}
+\contentsline {section}{\numberline {6.3}Kategorisering}{39}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Resultater}{39}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Venneliste}{40}{subsection.6.3.2}
-\contentsline {subsubsection}{Ven}{42}{section*.54}
-\contentsline {subsection}{\numberline {6.3.3}Redigering}{44}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}ER-diagram}{46}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Design af database}{46}{subsection.6.4.1}
-\contentsline {subsubsection}{ER-diagram}{46}{section*.57}
-\contentsline {subsubsection}{Schema}{47}{section*.59}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{48}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{49}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{50}{chapter.9}
-\contentsline {chapter}{Litteratur}{51}{section*.63}
+\contentsline {subsubsection}{Ven}{41}{section*.56}
+\contentsline {subsection}{\numberline {6.3.3}Redigering}{41}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Log ud}{42}{section.6.4}
+\contentsline {section}{\numberline {6.5}ER-diagram}{43}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Design af database}{43}{subsection.6.5.1}
+\contentsline {subsubsection}{ER-diagram}{43}{section*.60}
+\contentsline {subsubsection}{Schema}{44}{section*.62}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{46}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{47}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{48}{chapter.9}
+\contentsline {chapter}{Litteratur}{49}{section*.66}
