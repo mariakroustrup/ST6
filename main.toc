@@ -32,11 +32,17 @@
 \contentsline {subsubsection}{Non-funktionelle krav}{19}{section*.26}
 \contentsline {section}{\numberline {5.3}Use case}{19}{section.5.3}
 \contentsline {section}{\numberline {5.4}Funktionalitet}{21}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Design}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Design af database}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}ER-diagram}{37}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Schema}{38}{subsection.6.1.2}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{39}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{40}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{41}{chapter.9}
-\contentsline {chapter}{Litteratur}{42}{section*.55}
+\contentsline {subsubsection}{Analyseklasse stereotyper}{33}{section*.49}
+\contentsline {chapter}{\chapternumberline {6}Design}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Designklasser}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Sekvensdiagram}{41}{section.6.2}
+\contentsline {section}{\numberline {6.3}Design af gr\IeC {\ae }nseflade}{41}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{41}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}ER-diagram}{41}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Design af database}{41}{subsection.6.4.1}
+\contentsline {subsubsection}{ER-diagram}{41}{section*.69}
+\contentsline {subsubsection}{Schema}{42}{section*.71}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{44}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{45}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{46}{chapter.9}
+\contentsline {chapter}{Litteratur}{47}{section*.75}

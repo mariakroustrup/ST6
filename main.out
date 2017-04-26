@@ -25,10 +25,13 @@
 \BOOKMARK [1][-]{section.5.3}{Use case}{chapter.5}% 25
 \BOOKMARK [1][-]{section.5.4}{Funktionalitet}{chapter.5}% 26
 \BOOKMARK [0][-]{chapter.6}{Design}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Design af database}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.1.1}{ER-diagram}{section.6.1}% 29
-\BOOKMARK [2][-]{subsection.6.1.2}{Schema}{section.6.1}% 30
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 31
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 32
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 33
-\BOOKMARK [0][-]{section*.55}{Litteratur}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Designklasser}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Sekvensdiagram}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Design af gr\346nseflade}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.3.1}{Brugervenlighed}{section.6.3}% 31
+\BOOKMARK [1][-]{section.6.4}{ER-diagram}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.4.1}{Design af database}{section.6.4}% 33
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 34
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 35
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 36
+\BOOKMARK [0][-]{section*.75}{Litteratur}{}% 37
