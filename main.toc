@@ -32,18 +32,17 @@
 \contentsline {subsubsection}{Non-funktionelle krav}{19}{section*.26}
 \contentsline {section}{\numberline {5.3}Use case}{19}{section.5.3}
 \contentsline {section}{\numberline {5.4}Funktionalitet}{21}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Design}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Klassediagram}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Database}{37}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Entity}{37}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Sekvensdiagram}{43}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af gr\IeC {\ae }nseflade}{43}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{43}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}ER-diagram}{43}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Design af database}{43}{subsection.6.4.1}
-\contentsline {subsubsection}{ER-diagram}{43}{section*.66}
-\contentsline {subsubsection}{Schema}{44}{section*.68}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{46}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{47}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{48}{chapter.9}
-\contentsline {chapter}{Litteratur}{49}{section*.72}
+\contentsline {subsubsection}{Analyseklasse stereotyper}{33}{section*.49}
+\contentsline {chapter}{\chapternumberline {6}Design}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Designklasser}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Sekvensdiagram}{41}{section.6.2}
+\contentsline {section}{\numberline {6.3}Design af gr\IeC {\ae }nseflade}{41}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{41}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}ER-diagram}{41}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Design af database}{41}{subsection.6.4.1}
+\contentsline {subsubsection}{ER-diagram}{41}{section*.69}
+\contentsline {subsubsection}{Schema}{42}{section*.71}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{44}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{45}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{46}{chapter.9}
+\contentsline {chapter}{Litteratur}{47}{section*.75}
