@@ -36,12 +36,12 @@
 \contentsline {chapter}{\chapternumberline {6}Design}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Designklasser}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}Sekvensdiagram}{45}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af brugergr\IeC {\ae }nseflade}{45}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{45}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Design af database}{45}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}ER-diagram}{45}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Schema}{46}{subsection.6.4.2}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{48}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{49}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{50}{chapter.9}
-\contentsline {chapter}{Litteratur}{51}{section*.80}
+\contentsline {section}{\numberline {6.3}Design af brugergr\IeC {\ae }nseflade}{51}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{51}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Design af database}{52}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}ER-diagram}{52}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Schema}{53}{subsection.6.4.2}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{54}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{55}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{56}{chapter.9}
+\contentsline {chapter}{Litteratur}{57}{section*.98}
