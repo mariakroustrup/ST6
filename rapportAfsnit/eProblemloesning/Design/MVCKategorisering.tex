@@ -1,5 +1,5 @@
 \subsection*{Kategorisering}
-Kategoriseringsfunktionen inddeles i klasser af typen boundary og en dertilhørende controller, som det fremgår af \autoref{fig:DesignKategorisering}.
+Kategoriseringsfunktionen inddeles i tre klasser af typen boundary og en dertilhørende controller, som det fremgår af \autoref{fig:DesignKategorisering}.
 
 \begin{figure} [H]
 \centering
@@ -9,6 +9,17 @@ Kategoriseringsfunktionen inddeles i klasser af typen boundary og en dertilhøre
 \end{figure}
 
 \noindent
-I \textit{KategoriseringGrænseflade} stilles otte udsagn fra CAT-scoren, som besvares af brugeren ved hjælp af knapper af typen button. Dertil fremgår der ligeledes en videre knap for således, at brugeren kan bekræfte sit svar og fortsætte til næste udsagn. Efter udsagnene er besvaret, skal indlæggelser det seneste år forårsaget af KOL besvares ud fra to yderligere knapper. Når kategoriseringen er beregnet vises denne i et tekstfelt. 
+Kategoriseringen inddeles i tre grænseflader, herunder \textit{CATScore}, \textit{Indlæggelser} samt \textit{Kategorisering}. Dette er valgt, da det ønskes at gøre app’en overskuelig samt
+brugervenlig. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således
+brugeren ikke eksponeres til for mange valg samt informationer. De tre grænseflader indeholder tekstfelter, der informerer brugeren om den følgende handling. Dertil er der ligeledes opsat knapper af typen button, således brugeren kan besvare spørgsmålene. 
 
-\textit{KategoriseringController} håndterer de forskellige knapper samt beregning af kategoriseringen ud fra den samlede CAT-score og antal indlæggelser. Kontrolleren lytter efter knapperne til besvarelse af de otte udsagn samt indlæggelser. Efter kategoriseringen er beregnet sendes denne til databasen, hvorefter den gemmes. Dertil har kontrolleren metoden til at starte hovedmenuen efter gennemført kategorisering.  
+Controlleren, \textit{Kategorisering}, håndterer visningen af de tre boundarys samt respektive knapper og tekst. Der er ligeledes udarbejdet et sekvensdiagram for kategorisering, hvilket ses af \autoref{fig:SEKKategorisering}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/Sek/SEKKategorisering}
+\caption{Sekvensdiagram for kategorisering.}
+\label{fig:SEKKategorisering}
+\end{figure}
+
+Det fremgår af sekvensdiagrammet, at grænsefladen for \textit{CATScore} vises som det første. Hertil er der opstillet en loop, som har til formål at stille otte spørgsmål som brugeren skal besvare ved hjælp af knapper, \textit{0til5Knap}. Idet brugeren trykker videre, adderes CAT-scoren. Efter de otte udsagn er besvaret og den samlet CAT-score er fundet, vises grænsefladen for \textit{Indlæggelser}. Controlleren lytter dertil til \textit{IndlæggelserKnap}, hvori brugeren besvarer antal årlige indlæggelser forårsaget af KOL. Besvarelsen bekræftes ved at benytte \textit{VidereKnappen}. ABCD-kategoriseringen kan derved beregnes og vises i \textit{Kategorisering} grænsefladen. Denne kategorisering gemmes i entityen \textit{Brugeroplysninger}, når brugeren trykker videre. Herefter startes hovedmenuen.
