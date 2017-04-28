@@ -20,7 +20,7 @@ I sammenspil med designklasserne er der udarbejdet et sekvensdiagram, hvilket fr
 \label{fig:SEKTraening}
 \end{figure}
 
-\noindet
+\noindent
 \textit{Træning} er den første grænseflade, der vises ved en igangværende træning. Controlleren \textit{TræningEvaluering} starter timer og GPS. Herefter vises tiden og afstanden i grænsefladen. Controlleren henter målinger fra kompatible enheder, hvis disse er tilsluttet og viser dem. \textit{OBS!! Dette er stadig lidt uklart}. Brugeren kan under træningen eller efter endt træning trykke på StopTræningKnap, hvorefter grænsefladen for \textit{StopTræning} vises. I denne grænseflade har brugeren mulighed for at trykke på FortsætTræningKnap eller BekræftStopTræningKnap. Vælges FortsætTræningKnap vises grænsefladen for \textit{Træning}. Vælges BekræftStopTræningKnap stopper controlleren for \textit{TræningEvaluering} GPS, timer og eventuel kompatible måleenheder. Herefter vises grænsefladen \textit{Evaluering}, hvor brugeren angive evaluering. Evaluering bekræftes ved VidereKnap. Herefter sender controlleren træningsoplysninger til controlleren for \textit{Database}, som gemmer træningen i \textit{Database}. Herefter gives der besked til \textit{Hovedmenu} controlleren om at vise hovedmenuen.
 
 

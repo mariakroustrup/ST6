@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 APR 2017 11:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  28 APR 2017 15:56
 entering extended mode
 **main.tex
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.tex
@@ -2327,138 +2327,174 @@ LaTeX Warning: Reference `MVCResultat' on page 36 undefined on input line 28.
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/MVCLogind.tex
-<figures/MVC/MVCLogInd.pdf, id=838, 623.32875pt x 242.9075pt>
+<figures/MVC/MVCLogInd.pdf, id=838, 613.29124pt x 283.0575pt>
 File: figures/MVC/MVCLogInd.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCLogInd.pdf>
 Package pdftex.def Info: figures/MVC/MVCLogInd.pdf used on input line 6.
-(pdftex.def)             Requested size: 396.89731pt x 154.67078pt.
- [36 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Entity.pdf> <C:/
-Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCLogInd.pdf>])
+(pdftex.def)             Requested size: 396.89731pt x 183.18182pt.
+ [36 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Entity.pdf>]
+<figures/Sek/SEKLogInd.pdf, id=855, 1161.33875pt x 911.405pt>
+File: figures/Sek/SEKLogInd.pdf Graphic file (type pdf)
+
+<use figures/Sek/SEKLogInd.pdf>
+Package pdftex.def Info: figures/Sek/SEKLogInd.pdf used on input line 18.
+(pdftex.def)             Requested size: 485.10269pt x 380.70145pt.
+
+Overfull \hbox (44.10269pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+[37 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCLogInd.pdf>]
+
+LaTeX Warning: Reference `fig:SEKhovedmenu' on page 38 undefined on input line 
+23.
+
+
+LaTeX Warning: Reference `fig:SEKkate' on page 38 undefined on input line 24.
+
+)
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/MVCKategorisering.tex
-Underfull \hbox (badness 1048) in paragraph at lines 14--1
-[]\T1/cmr/m/n/10.95 Der er til denne grænseflade opstillet en \T1/cmr/m/it/10.9
-5 LogindController\T1/cmr/m/n/10.95 , der har til formål at
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 14--1
-\T1/cmr/m/n/10.95 omfatter brugerens oplysninger, resultater samt venneliste. I
-ndgår kategoriseringen i
- []
-
-<figures/MVC/MVCKategorisering.pdf, id=857, 587.19376pt x 393.47pt>
+<figures/MVC/MVCKategorisering.pdf, id=866, 552.0625pt x 363.3575pt>
 File: figures/MVC/MVCKategorisering.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCKategorisering.pdf>
 Package pdftex.def Info: figures/MVC/MVCKategorisering.pdf used on input line 6
 .
-(pdftex.def)             Requested size: 396.89731pt x 265.95302pt.
+(pdftex.def)             Requested size: 396.89731pt x 261.24017pt.
+ [38 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKLogInd.pdf>]
+Underfull \hbox (badness 1968) in paragraph at lines 11--15
+\T1/cmr/m/n/10.95 Kategoriseringen inddeles i tre grænseflader, herunder \T1/cm
+r/m/it/10.95 CATScore\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 Indlæggelser \T1/cm
+r/m/n/10.95 samt
+ []
+
+<figures/Sek/SEKKategorisering.pdf, id=880, 948.54375pt x 443.6575pt>
+File: figures/Sek/SEKKategorisering.pdf Graphic file (type pdf)
+
+<use figures/Sek/SEKKategorisering.pdf>
+Package pdftex.def Info: figures/Sek/SEKKategorisering.pdf used on input line 2
+0.
+(pdftex.def)             Requested size: 441.0pt x 206.26474pt.
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCHovedmenu.tex
-<figures/MVC/MVCHovedmenu.pdf, id=859, 606.265pt x 293.095pt>
+sign/MVCHovedmenu.tex [39 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures
+/MVC/MVCKategorisering.pdf> <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figur
+es/Sek/SEKKategorisering.pdf>]
+<figures/MVC/MVCHovedmenu.pdf, id=895, 558.085pt x 252.945pt>
 File: figures/MVC/MVCHovedmenu.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCHovedmenu.pdf>
 Package pdftex.def Info: figures/MVC/MVCHovedmenu.pdf used on input line 6.
-(pdftex.def)             Requested size: 396.89731pt x 191.87799pt.
- [37 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCKategoriserin
-g.pdf>])
+(pdftex.def)             Requested size: 396.89731pt x 179.89325pt.
+
+
+LaTeX Warning: Reference `sec:SEKHovedmenu' on page 40 undefined on input line 
+14.
+
+<figures/Sek/SEKHovedmenu.pdf, id=896, 1097.09875pt x 503.8825pt>
+File: figures/Sek/SEKHovedmenu.pdf Graphic file (type pdf)
+
+<use figures/Sek/SEKHovedmenu.pdf>
+Package pdftex.def Info: figures/Sek/SEKHovedmenu.pdf used on input line 18.
+(pdftex.def)             Requested size: 396.89731pt x 182.28944pt.
+ [40 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCHovedmenu.pdf
+>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/MVCTilpasning.tex
-Underfull \hbox (badness 1067) in paragraph at lines 14--1
-[]\T1/cmr/m/n/10.95 Til grænsefladen er der ligeledes en \T1/cmr/m/it/10.95 Hov
-edmenuController\T1/cmr/m/n/10.95 , som viser layoutet for
- []
-
-<figures/MVC/MVCTilpasning.pdf, id=871, 625.33624pt x 313.17pt>
+<figures/MVC/MVCTilpasning.pdf, id=908, 625.33624pt x 313.17pt>
 File: figures/MVC/MVCTilpasning.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCTilpasning.pdf>
 Package pdftex.def Info: figures/MVC/MVCTilpasning.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 198.76993pt.
- [38 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCHovedmenu.pdf
+ [41 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKHovedmenu.pdf
 > <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCTilpasning.pdf>]
 
-<figures/MVC/MVCKompMaale.pdf, id=889, 282.05376pt x 162.6075pt>
+<figures/MVC/MVCKompMaale.pdf, id=925, 282.05376pt x 162.6075pt>
 File: figures/MVC/MVCKompMaale.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCKompMaale.pdf>
 Package pdftex.def Info: figures/MVC/MVCKompMaale.pdf used on input line 20.
 (pdftex.def)             Requested size: 264.60269pt x 152.55829pt.
 
-<figures/Sek/SEKTilpasning.pdf, id=891, 1266.7325pt x 685.56125pt>
+<figures/Sek/SEKTilpasning.pdf, id=927, 1266.7325pt x 685.56125pt>
 File: figures/Sek/SEKTilpasning.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKTilpasning.pdf>
 Package pdftex.def Info: figures/Sek/SEKTilpasning.pdf used on input line 32.
 (pdftex.def)             Requested size: 441.0pt x 238.66335pt.
- [39 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCKompMaale.pdf
->]
-Underfull \hbox (badness 1270) in paragraph at lines 37--40
-\T1/cmr/m/n/10.95 ud fra tre typer. Dette vil for eksempel ved konditionstrænin
-g være gå, løbe eller
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 37--40
-\T1/cmr/m/n/10.95 cykle. Brugeren angiver dette ved at trykke på VidereKnap, hv
-or efter controlleren
- []
-
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/MVCTraening.tex
-<figures/MVC/MVCTraening.pdf, id=904, 433.62pt x 443.6575pt>
+Underfull \hbox (badness 1112) in paragraph at lines 37--1
+\T1/cmr/m/n/10.95 henter controlleren kategoriseringen i modellen for \T1/cmr/m
+/it/10.95 Brugeroplysninger \T1/cmr/m/n/10.95 og efterfølgende
+ []
+
+[42 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCKompMaale.pdf>
+ <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKTilpasning.pdf>]
+<figures/MVC/MVCTraening.pdf, id=945, 433.62pt x 443.6575pt>
 File: figures/MVC/MVCTraening.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCTraening.pdf>
 Package pdftex.def Info: figures/MVC/MVCTraening.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 406.10509pt.
- [40 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKTilpasning.pd
-f>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCResultater.tex
-Underfull \hbox (badness 1127) in paragraph at lines 11--1
-\T1/cmr/m/n/10.95 til kompatiblemålinger, hvis disse er tilsluttet. Da \T1/cmr/
-m/it/10.95 TræningsGrænsefladen \T1/cmr/m/n/10.95 skal oplyse
+ [43]
+<figures/Sek/SEKTraening.pdf, id=955, 1157.32375pt x 881.2925pt>
+File: figures/Sek/SEKTraening.pdf Graphic file (type pdf)
+
+<use figures/Sek/SEKTraening.pdf>
+Package pdftex.def Info: figures/Sek/SEKTraening.pdf used on input line 18.
+(pdftex.def)             Requested size: 396.89731pt x 302.23083pt.
+ [44 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCTraening.pdf>
+]
+Underfull \hbox (badness 1137) in paragraph at lines 23--25
+\T1/cmr/m/n/10.95 angive evaluering. Evaluering bekræftes ved VidereKnap. Heref
+ter sender controlleren
  []
 
-[41 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCTraening.pdf>]
-<figures/MVC/Resultater.pdf, id=926, 472.76625pt x 202.7575pt>
+)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
+sign/MVCResultater.tex
+<figures/MVC/Resultater.pdf, id=967, 442.65375pt x 212.795pt>
 File: figures/MVC/Resultater.pdf Graphic file (type pdf)
 
 <use figures/MVC/Resultater.pdf>
 Package pdftex.def Info: figures/MVC/Resultater.pdf used on input line 6.
-(pdftex.def)             Requested size: 352.80135pt x 151.30975pt.
+(pdftex.def)             Requested size: 352.80135pt x 169.60954pt.
+ [45 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKTraening.pdf>
+]
+<figures/Sek/SEKResultater.pdf, id=980, 582.175pt x 353.32pt>
+File: figures/Sek/SEKResultater.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Reference `fig:MVCTraening' on page 42 undefined on input line 1
-4.
-
+<use figures/Sek/SEKResultater.pdf>
+Package pdftex.def Info: figures/Sek/SEKResultater.pdf used on input line 19.
+(pdftex.def)             Requested size: 441.0pt x 267.64722pt.
 )
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCVenneliste.tex
-<figures/MVC/MVCVenneliste.pdf, id=928, 488.82625pt x 218.8175pt>
+sign/MVCVenneliste.tex [46 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figure
+s/MVC/Resultater.pdf> <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek
+/SEKResultater.pdf>]
+<figures/MVC/MVCVenneliste.pdf, id=996, 416.55624pt x 180.675pt>
 File: figures/MVC/MVCVenneliste.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVenneliste.pdf>
 Package pdftex.def Info: figures/MVC/MVCVenneliste.pdf used on input line 6.
-(pdftex.def)             Requested size: 352.80135pt x 157.9291pt.
- [42 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Resultater.pdf> 
-<C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCVenneliste.pdf>]
+(pdftex.def)             Requested size: 352.80135pt x 153.0286pt.
 
-LaTeX Warning: Reference `MVCVen' on page 43 undefined on input line 16.
 
-<figures/MVC/MVCVen.pdf, id=944, 482.80376pt x 242.9075pt>
+LaTeX Warning: Reference `MVCVen' on page 47 undefined on input line 16.
+
+<figures/MVC/MVCVen.pdf, id=998, 412.54124pt x 232.87pt>
 File: figures/MVC/MVCVen.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVen.pdf>
 Package pdftex.def Info: figures/MVC/MVCVen.pdf used on input line 24.
-(pdftex.def)             Requested size: 352.80135pt x 177.5063pt.
-)
+(pdftex.def)             Requested size: 352.80135pt x 199.1521pt.
+ [47 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCVenneliste.pd
+f>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/MVCRediger.tex
 Underfull \hbox (badness 1603) in paragraph at lines 33--1
@@ -2467,24 +2503,25 @@ Underfull \hbox (badness 1603) in paragraph at lines 33--1
 il formål vise
  []
 
-<figures/MVC/Redigering.pdf, id=946, 512.91624pt x 278.03876pt>
+<figures/MVC/Redigering.pdf, id=1010, 433.62pt x 242.9075pt>
 File: figures/MVC/Redigering.pdf Graphic file (type pdf)
 
 <use figures/MVC/Redigering.pdf>
 Package pdftex.def Info: figures/MVC/Redigering.pdf used on input line 6.
-(pdftex.def)             Requested size: 396.89731pt x 215.15112pt.
- [43 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCVen.pdf>])
+(pdftex.def)             Requested size: 396.89731pt x 222.34712pt.
+ [48 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCVen.pdf> <C:/
+Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Redigering.pdf>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCLogUd.tex <figures/MVC/Logud.pdf, id=957, 322.20375pt x 182.6825pt>
+sign/MVCLogUd.tex <figures/MVC/Logud.pdf, id=1025, 415.5525pt x 242.9075pt>
 File: figures/MVC/Logud.pdf Graphic file (type pdf)
 
 <use figures/MVC/Logud.pdf>
 Package pdftex.def Info: figures/MVC/Logud.pdf used on input line 6.
-(pdftex.def)             Requested size: 264.60269pt x 150.02917pt.
- [44 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Redigering.pdf> 
-<C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Logud.pdf>])
+(pdftex.def)             Requested size: 264.60269pt x 154.67819pt.
+)
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/brugervenlighed.tex)
+sign/brugervenlighed.tex [49 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figu
+res/MVC/Logud.pdf>])
 (C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
 sign/ERdiagram.tex
 Underfull \hbox (badness 1221) in paragraph at lines 5--6
@@ -2492,51 +2529,51 @@ Underfull \hbox (badness 1221) in paragraph at lines 5--6
 nkt i entiteter, som
  []
 
-<figures/Aktivitetsdiagram/ERdiagram.pdf, id=979, 894.34125pt x 520.94624pt>
+<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1041, 894.34125pt x 520.94624pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
 <use figures/Aktivitetsdiagram/ERdiagram.pdf>
 Package pdftex.def Info: figures/Aktivitetsdiagram/ERdiagram.pdf used on input 
 line 10.
 (pdftex.def)             Requested size: 441.0pt x 256.87953pt.
- [45]
+
 Underfull \hbox (badness 1997) in paragraph at lines 15--17
-\T1/cmr/m/n/10.95 Af [][]figur 6.15[][][] ses ER-diagrammet over databasen, hvo
+\T1/cmr/m/n/10.95 Af [][]figur 6.20[][][] ses ER-diagrammet over databasen, hvo
 ri KOL-patienter oprettes og
  []
 
-
+[50 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Aktivitetsdiagram/ERd
+iagram.pdf>]
 Overfull \hbox (51.73586pt too wide) in paragraph at lines 24--30
  [][] 
  []
 
-[46 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Aktivitetsdiagram/ERd
-iagram.pdf>]
+
 Overfull \hbox (34.13673pt too wide) in paragraph at lines 39--46
  [][] 
  []
 
-) [47] [48
+) [51] [52
 
-] [49
+] [53
 
 ] (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl
-[50
+[54
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [51
+) [55
 
 ]
-[52])
+[56])
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[53]
+[57]
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
@@ -2544,7 +2581,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8A23898D3AAD9A44F7F2B6781FCB3029;2383.
+(rerunfilecheck)             Checksum: CA68A348AE18F5AD1CBE66D955638F79;2383.
 
 
 LaTeX Warning: There were undefined references.
@@ -2552,10 +2589,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 26852 strings out of 493921
- 479510 string characters out of 3144876
+ 26894 strings out of 493921
+ 480503 string characters out of 3144876
  769798 words of memory out of 3000000
- 29328 multiletter control sequences out of 15000+200000
+ 29355 multiletter control sequences out of 15000+200000
  32846 words of font info for 90 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,1398b,976s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2583,9 +2620,9 @@ m-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
 uper/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
 r/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
 ftt1095.pfb>
-Output written on main.pdf (58 pages, 3878127 bytes).
+Output written on main.pdf (62 pages, 4595836 bytes).
 PDF statistics:
- 1187 PDF objects out of 1200 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 515 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1247 PDF objects out of 1440 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 
