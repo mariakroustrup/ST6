@@ -9,9 +9,9 @@ Førend træningen kan påbegyndes tilpasses træningsniveauet den enkelte bruge
 \end{figure}
 
 \noindent
-Der er opstilles fire grænseflader for henholdsvis \textit{Træningsform}, \textit{Træningstype}, \textit{Helbredstilstand} og \textit{AnbefaldetTræning}. Dette er valgt, da det ønskes at gøre app’en overskuelig samt brugervenlig. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således brugeren ikke eksponeres til for mange valg samt informationer. Til disse er der opstillet tekstfelter af typen textview og knapper af typen button.   
+Der er opstilles fire grænseflader for henholdsvis \textit{Træningsform}, \textit{Træningstype}, \textit{Helbredstilstand} og \textit{AnbefaldetTræning}. Dette er valgt, da det ønskes at gøre app’en overskuelig samt brugervenlig. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således brugeren ikke eksponeres til for mange valg samt informationer. Til disse er der opstillet tekstfelter af typen TextView og knapper af typen Button.   
 
-Den tilhørende controller, \textit{Tilpasning}, til de ovenstående boundarys lagrer den angivne træningsform, træningstype samt helbredstilstand, således disse senere kan benyttes til at beregne det passende træningsniveau. Der er opstillet vis, lyt, hent og beregn metoder til denne controller. 
+Den tilhørende controller, \textit{Tilpasning}, til de ovenstående boundarys lagrer den angivne træningsform, træningstype samt helbredstilstand, således disse senere kan benyttes til at beregne det passende træningsniveau. Der er opstillet Vis, Lyt, Hent og Beregn metoder til denne controller. 
 
 Da det for brugeren skal være muligt at tilkoble kompatible enheder, forekommer endnu en controller. Denne skal håndterer kommunikation mellem systemet og kompatible måleenheder. Designklasse for kompatible måleenheder ses af \autoref{fig:kompatiblemåleenheder}.
 
@@ -23,7 +23,7 @@ Da det for brugeren skal være muligt at tilkoble kompatible enheder, forekommer
 \end{figure}
 
 \noindent 
-Controlleren, \textit{KompatibleEnheder}, tilgås ikke af brugeren, da det ønskes, at denne er en autonom funktion, der søger efter kompatible måleenheder førend en træning påbegyndes. Controlleren har en lyt og tilslut metode. 
+Controlleren, \textit{KompatibleEnheder}, tilgås ikke af brugeren, da det ønskes, at denne er en autonom funktion, der lytter efter og eventuelt tilslutter kompatible måleenheder førend en træning påbegyndes. Controlleren har en Lyt og Tilslut metode. 
 
 I sammenspil med designklasserne er der udarbejdet et sekvensdiagram, hvilket fremgår af \autoref{fig:SEKTilpasning}. 
 
