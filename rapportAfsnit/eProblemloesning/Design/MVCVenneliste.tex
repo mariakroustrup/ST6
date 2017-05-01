@@ -1,16 +1,16 @@
 \subsection*{Venneliste}
-Venneliste inddeles i to boundaryklasser og en dertilhørende controlklasse, som det fremgår af \autoref{fig:MVCVenneliste}. 
+Venneliste inddeles i to boundaryklasser og en dertilhørende controlklasse, som fremgår af \autoref{fig:MVCVenneliste}. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/MVC/MVCVenneliste}
-\caption{Designklasser for venneliste og valgt ven.}
+\caption{Designklasser for venneliste. Til venstre ses boundary for Venneliste og Ven, hvor der til højre ses tilhørende controller.}
 \label{fig:MVCVenneliste}
 \end{figure}
 
 \noindent
-I grænsefladen \textit{Venneliste} findes tekstfelter med fornavn og efternavn på de brugere, der følges. Hver brugerer, der vises af den givne grænseflade kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflad et søgefelt med en tilhørende SøgKnap, som muliggører, at brugeren kan søge på andre brugerer med deres medlemsID. 
-Når en brugere tilgås, enten via vennelisten eller ved at søge på en brugere, vises grænsefladen for den pågældende ven. Hertil vises brugerens medlemsID, fornavn, efternavn samt vedkommendes belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgKnap.
+I grænsefladen \textit{Venneliste} findes tekstfelter, af typen TextView, med fornavn og efternavn på de brugere, der følges. Hver bruger, der vises af den givne grænseflade, kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflade et søgefelt, af typen EditText, med en tilhørende SøgKnap, af typen Button, som muliggør, at brugeren kan søge på andre brugere med deres medlemsID. 
+Når en bruger tilgås, enten via vennelisten eller ved at søge på en bruger, vises grænsefladen for den pågældende ven. Hertil vises  tekstfelter, af typen TextView, med brugerens medlemsID, fornavn, efternavn samt vedkommendes belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgKnap.
 Den tilhørende controller har metoderne Vis, Hent, Lyt, Valider og Opret. 
 Ud fra de nævnte designklasser er udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKVenneliste}.
 
@@ -22,8 +22,8 @@ Ud fra de nævnte designklasser er udarbejdet et sekvensdiagram, der fremgår af
 \end{figure}
 
 \noindent
-Controlleren henter brugerens venneliste fra vennelistemodellen, hvorefter grænsefladen for venneliste vises. Dertil lytter controlleren på VenKnap samt SøgKnap. Vælger brugeren at tilgå en ven fra vennelisten, vises grænsefladen for den valgte ven. Vælger brugeren derimod at søge efter en anden bruger, hentes det indskrevne medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren findes i databasen, vises VenOplysninger, hvorimod en grænseflade for fejlmeddelelse vises, hvis brugeren ikke findes. Brugeren skal herved benytte OKKnappen på grænsefladen for at bekræfte, at fejlen er set, hvorefter systemet returneres til brugerens venneliste.
-Grænsefladen for den søgte ven tillader ligeledes muligheden for at følge brugeren, hvis vedkommende ikke følges. Ønskes det at følge brugeren oprettes en vennerelation i vennelistemodellen. 
+Controlleren henter brugerens venneliste fra vennelistemodellen, hvorefter grænsefladen for venneliste vises. Dertil lytter controlleren på VenKnap samt SøgKnap. Vælger brugeren at tilgå en ven fra vennelisten, vises grænsefladen for den valgte ven. Vælger brugeren derimod at søge efter en anden bruger, hentes det indskrevne medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren findes i databasen, vises VenOplysninger, hvorimod en grænseflade for fejlmeddelelse vises, hvis brugeren ikke findes. Brugeren skal herved benytte OKKnap på grænsefladen for at bekræfte, at fejlen er set, hvorefter systemet returneres til brugerens venneliste.
+Grænsefladen for den søgte ven tillader ligeledes muligheden for at følge brugeren, hvis vedkommende ikke følges. Ønskes det at følge brugeren, oprettes en vennerelation i vennelistemodellen. 
 
 
 
