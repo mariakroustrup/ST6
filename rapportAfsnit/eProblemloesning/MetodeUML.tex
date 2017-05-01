@@ -46,6 +46,13 @@ Attributter og metoder kan markeres med symbolerne; +, - eller \#, som symbolise
 
 Relationerne mellem klasserne illustreres ved brug af forskellige pile, og disse kan navngives for at tydeliggøre forholdet mellem  klasserne. Yderligere kan multipliciteten angives ved at tilføje symbolet *, der angiver "mange", eller specifikke værdier i pilenes ender. 
 
+Klassediagrammer kan inddeles i tre stereotyper, herunder entity, boundary og control, hvilket anvendes til at identificere klasser i analyse og tidlig designfase \cite{RSC2002}.
+
+\begin{itemize}
+\item \textit{Entity} anvendes til at lagre og opdatere informationer om objekter. Dens attributværdier gives ofte af en aktør.\cite{RSC2002}
+\item \textit{Boundary} anvendes til interaktion mellem bruger og system og sikre at ændringer i boundary ikke påvirker resten af systemet \cite{RSC2002}.
+\item \textit{Control} anvendes til at kontrollere handlinger \cite{RSC2002}. 
+\end{itemize}
 
 \subsubsection{Sekvensdiagrammer}
 Sekvensdiagrammer anvendes til at beskrive detaljer om, hvilke og hvornår forskellige operationer udføres. Disse diagrammer er organiseret efter tid. De forskellige objekter, som anvendes i operationerne er angivet fra venstre mod højre. Sekvensdiagrammer anvendes i design og er udarbejdet ud fra use case diagrammer.\cite{Brahma2015} Et simpelt sekvensdiagram fremgår af \autoref{fig:sekvens}.
@@ -59,3 +66,11 @@ Sekvensdiagrammer anvendes til at beskrive detaljer om, hvilke og hvornår forsk
 
 \noindent
 Af \autoref{fig:sekvens} fremgår det, at hver entitet i et use case diagram har en kolonne i sekvensdiagrammet. Den vertikale retning beskriver tiden, og de horisontale linjer illustrerer funktionaliteter. For enden af de horisontale linjer er der navngivet metoden på entiteten.\cite{Brahma2015}
+
+Sekvensdiagrammer kan opdeles i Model-View-Controller (MVC) arkitektur, der har ligheder med de definerede stereotyper i klassediagrammer. MVC anvendes til at organisere systemet og giver større fleksibilitet \cite{Brahma2015}. 
+
+\begin{itemize}
+\item \textit{Model} anvendes til at lagre data \cite{Brahma2015}.
+\item \textit{View} anvendes til interaktion mellem bruger og system \cite{Brahma2015}.
+\item \textit{Controller} anvendes til at kontrollere brugerinput og kalde metoder \cite{Brahma2015}.
+\end{itemize}
