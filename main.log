@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  1 MAY 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  1 MAY 2017 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3012,55 +3012,55 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
  [45 <./figures/Sek/SEKTraening.pdf>]
-<figures/Sek/SEKResultater.pdf, id=1014, 582.175pt x 353.32pt>
+<figures/Sek/SEKResultater.pdf, id=1014, 822.07124pt x 353.32pt>
 File: figures/Sek/SEKResultater.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKResultater.pdf>
 Package pdftex.def Info: figures/Sek/SEKResultater.pdf used on input line 19.
-(pdftex.def)             Requested size: 441.0pt x 267.64722pt.
+(pdftex.def)             Requested size: 441.0pt x 189.53918pt.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 23.
- [46 <./figures/MVC/MVCResultater.pdf>])
+(babel)             in language  on input line 26.
+ [46 <./figures/MVC/MVCResultater.pdf> <./figures/Sek/SEKResultater.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCVenneliste.tex
-<figures/MVC/MVCVenneliste.pdf, id=1027, 416.55624pt x 180.675pt>
+<figures/MVC/MVCVenneliste.pdf, id=1030, 416.55624pt x 180.675pt>
 File: figures/MVC/MVCVenneliste.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVenneliste.pdf>
 Package pdftex.def Info: figures/MVC/MVCVenneliste.pdf used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 153.0286pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 13.
- [47 <./figures/Sek/SEKResultater.pdf> <./figures/MVC/MVCVenneliste.pdf>]
-<figures/MVC/MVCVen.pdf, id=1043, 412.54124pt x 232.87pt>
+
+<figures/MVC/MVCVen.pdf, id=1032, 412.54124pt x 232.87pt>
 File: figures/MVC/MVCVen.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVen.pdf>
 Package pdftex.def Info: figures/MVC/MVCVen.pdf used on input line 18.
 (pdftex.def)             Requested size: 352.80135pt x 199.1521pt.
-
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 22.
+ [47 <./figures/MVC/MVCVenneliste.pdf>]
 Underfull \hbox (badness 1077) in paragraph at lines 23--25
 \T1/cmr/m/n/10.95 medlemsID, fornavn og efternavn. Herudover vises en tabel med
  den valgte brugers
  []
 
-<figures/Sek/SEKVenneliste.pdf, id=1045, 1083.04625pt x 827.09pt>
+<figures/Sek/SEKVenneliste.pdf, id=1045, 1119.18124pt x 1441.385pt>
 File: figures/Sek/SEKVenneliste.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKVenneliste.pdf>
 Package pdftex.def Info: figures/Sek/SEKVenneliste.pdf used on input line 30.
-(pdftex.def)             Requested size: 441.0pt x 336.77432pt.
+(pdftex.def)             Requested size: 441.0pt x 567.96623pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
@@ -3069,41 +3069,41 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 34.
- [48 <./figures/MVC/MVCVen.pdf>])
+ [48 <./figures/MVC/MVCVen.pdf>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 39.
+ [49 <./figures/Sek/SEKVenneliste.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCRediger.tex
-<figures/MVC/Redigering.pdf, id=1058, 433.62pt x 242.9075pt>
+<figures/MVC/Redigering.pdf, id=1066, 433.62pt x 242.9075pt>
 File: figures/MVC/Redigering.pdf Graphic file (type pdf)
 
 <use figures/MVC/Redigering.pdf>
 Package pdftex.def Info: figures/MVC/Redigering.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 222.34712pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 10.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 10.
- [49 <./figures/Sek/SEKVenneliste.pdf>])
+)
 (./rapportAfsnit/eProblemloesning/Design/MVCLogUd.tex
-<figures/MVC/Logud.pdf, id=1071, 415.5525pt x 242.9075pt>
+<figures/MVC/Logud.pdf, id=1068, 415.5525pt x 242.9075pt>
 File: figures/MVC/Logud.pdf Graphic file (type pdf)
 
 <use figures/MVC/Logud.pdf>
 Package pdftex.def Info: figures/MVC/Logud.pdf used on input line 6.
 (pdftex.def)             Requested size: 264.60269pt x 154.67819pt.
-)
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 91.
- [50 <./figures/MVC/Redigering.pdf> <./figures/MVC/Logud.pdf>] (./rapportAfsnit
-/eProblemloesning/Design/brugervenlighed.tex
+(babel)             in language  on input line 10.
+ [50 <./figures/MVC/Redigering.pdf>])
+(./rapportAfsnit/eProblemloesning/Design/brugervenlighed.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -3119,6 +3119,15 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+ [51 <./figures/MVC/Logud.pdf>]
+Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 4.
@@ -3128,22 +3137,14 @@ Underfull \hbox (badness 1221) in paragraph at lines 5--6
 nkt i entiteter, som
  []
 
-<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1092, 894.34125pt x 520.94624pt>
+<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1099, 894.34125pt x 520.94624pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
 <use figures/Aktivitetsdiagram/ERdiagram.pdf>
 Package pdftex.def Info: figures/Aktivitetsdiagram/ERdiagram.pdf used on input 
 line 10.
 (pdftex.def)             Requested size: 441.0pt x 256.87953pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 14.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 14.
- [51]
+
 Underfull \hbox (badness 1997) in paragraph at lines 15--17
 \T1/cmr/m/n/10.95 Af [][]figur 6.21[][][] ses ER-diagrammet over databasen, hvo
 ri KOL-patienter oprettes og
@@ -3153,20 +3154,20 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 19.
-
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 21.
+[52 <./figures/Aktivitetsdiagram/ERdiagram.pdf>]
 Overfull \hbox (51.73586pt too wide) in paragraph at lines 24--30
  [][] 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 33.
-[52 <./figures/Aktivitetsdiagram/ERdiagram.pdf>]
+
 Overfull \hbox (34.13673pt too wide) in paragraph at lines 39--46
  [][] 
  []
@@ -3356,10 +3357,10 @@ onts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (65 pages, 4628192 bytes).
+Output written on main.pdf (65 pages, 4762939 bytes).
 PDF statistics:
- 1313 PDF objects out of 1440 (max. 8388607)
- 1128 compressed objects within 12 object streams
+ 1312 PDF objects out of 1440 (max. 8388607)
+ 1127 compressed objects within 12 object streams
  244 named destinations out of 1000 (max. 500000)
  561 words of extra memory for PDF output out of 10000 (max. 10000000)
 
