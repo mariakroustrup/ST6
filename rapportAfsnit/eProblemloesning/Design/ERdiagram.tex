@@ -25,7 +25,7 @@ ER-diagrammet omskrives til schema for at kunne normalisere og implementere data
 \hline
 \textbf{Stærke entiteter} & \begin{tabular}[c]{@{}l@{}}Sundhedspersonale = (\underline{personaleID}, afdelingsID, personaleFornavn, \\ personaleEfternavn)\\
 KOL-patient = (\underline{medlemsID}, brugernavn, adgangskode, fornavn, efternavn, \\ kategorisering)\end{tabular}                     \\ \hline
-\textbf{Svage entiteter}  & \begin{tabular}[c]{@{}l@{}}Træning = (\underline{medlemsID}, \underline{tid/dato}, type, nedtælling, daglig helbredstilstand, \\ evaluering, måleenheder, timer, belønninger)\\ Vennerelation = (\underline{medlemsID}, \underline{venMedlemsID}, venBrugernavn, venBelønninger)\end{tabular} \\ \hline
+\textbf{Svage entiteter}  & \begin{tabular}[c]{@{}l@{}}Træning = (\underline{medlemsID}, \underline{tid/dato}, type, nedtælling, daglig helbredstilstand, \\ evaluering, måleenheder, timer, belønninger)\\ Vennerelation = (\underline{medlemsID}, \underline{venMedlemsID}, \\ venBrugernavn, venBelønninger)\end{tabular} \\ \hline
 \end{tabular}
 \caption{ER-diagram for databasen omskrevet til schema på anden normalform.}
 \label{tab:schema}
