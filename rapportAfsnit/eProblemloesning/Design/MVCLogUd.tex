@@ -9,8 +9,8 @@ Log ud inddeles i en boundary og en dertilhørende controller, som det fremgår 
 \end{figure}
 
 \noindent
-Der opstilles i \textit{LogudGrænseflade} et tekstfelt, af typen TextView, for log ud. Dertil opstilles en OKKnap og FortrydKnap af typen Button. 
-Den tilhørende controller indeholder metoderne, Lyt, Vis, Nulstil, Gem og Start. I sammenspil med designklasserne er der opstillet et sekvensdiagram, som fremgår af \autoref{fig:SEKlogUd}.
+Der opstilles i log ud et tekstfelt, af typen TextView, for log ud. Dertil opstilles en OKKnap og FortrydKnap af typen Button. 
+Den tilhørende controller indeholder metoderne, Lyt, Vis, Nulstil, Send, Gem og Start. I sammenspil med designklasserne er der opstillet et sekvensdiagram, som fremgår af \autoref{fig:SEKlogUd}.
 
 \begin{figure} [H]
 \centering
@@ -20,7 +20,4 @@ Den tilhørende controller indeholder metoderne, Lyt, Vis, Nulstil, Gem og Start
 \end{figure}
 
 \noindent
-Når brugeren via grænsefladen for hovedmenuen
-
-
-Der er til \textit{LogudGrænseflade} opstillet en \textit{LogudController}, der har til formål at lytte til OK eller tilbage knap. Hvis brugeren trykker på OK knappen afsluttet forbindelse til databasen og skærmen for log ind vises. Hvis brugeren trykker på tilbage knappen vises hovedmenuen. Glemmer brugeren at logge ud startes en timer derved inaktivitet i længere tid logger brugeren ud. 
+Når brugeren via grænsefladen for hovedmenuen trykker på knappen for log ud vises grænsefladen for \textit{Log ud}. Her har brugeren mulighed for at trykke på OKKnap eller FortrydKnap. Hvis brugeren trykker på OKKnap eller timer udløst nulstiller controlleren, \textit{Log ud}, modellen for Brugeroplysninger. Herefter sendes besked til modellerne KonditionResultater og Venneliste om at gemme oplysningerne i databasen, hvorefter modellerne nulstilles. Grænsefladen for \textit{Log ind} vises efterfølgende, så brugeren har mulighed for at logge ind igen. Trykker brugeren på FortrydKnap, vises grænsefladen for hovedmenu igen. Hvis brugeren ikke angiver noget vil den forblive på grænsefladen for \textit{Log ud}. 
