@@ -16,17 +16,23 @@
         android:textAlignment="center"
         android:textSize="20sp"/>
 
+
+    <Button
+        android:id="@+id/nul"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="0" />
+
     <Button
         android:id="@+id/en"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="5dp"
         android:text="1" />
 
     <Button
         android:id="@+id/to"
-        android:layout_margin="5dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -34,7 +40,6 @@
 
     <Button
         android:id="@+id/tre"
-        android:layout_margin="5dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -42,7 +47,6 @@
 
     <Button
         android:id="@+id/fire"
-        android:layout_margin="5dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -50,7 +54,6 @@
 
     <Button
         android:id="@+id/fem"
-        android:layout_margin="5dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -70,7 +73,7 @@
         android:id="@+id/CATvidere1"
         android:layout_width="111dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="240dp"
         android:text="Videre" />
 

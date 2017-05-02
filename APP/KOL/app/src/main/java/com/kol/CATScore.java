@@ -15,7 +15,6 @@ import org.w3c.dom.Text;
  */
 
 public class CATScore extends AppCompatActivity {
-
     TextView myTextView;
     int counter = 0;
 
@@ -23,6 +22,50 @@ public class CATScore extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.catscore);
+
+
+    /*     TextView tvResult;
+
+        Button btn0;
+        Button btn1;
+        Button btn2;
+        Button btn3;
+        Button btn4;
+        Button btn5;
+
+        tvResult = (TextView)findViewById(R.id.ABCD);
+
+        btn0.setOnClickListener(R.id.nul);
+        btn1.setOnClickListener(R.id.en);
+        btn2.setOnClickListener(R.id.to);
+        btn3.setOnClickListener(R.id.tre);
+        btn4.setOnClickListener(R.id.fire);
+        btn5.setOnClickListener(R.id.fem);
+
+        int result;
+
+
+        public void OnClick (View v){
+
+        switch (v.getId()) {
+            case R.id.nul:
+                result = 0;
+                break;
+            case R.id.en:
+                result = 1;
+                break;
+            case R.id.to:
+                 result = 2;
+                break;
+            case R.id.tre:
+                 result = 3;
+                break;
+            default:
+                break;
+        }} */
+
+
+
 
         Button CATVidere1= (Button) findViewById(R.id.CATvidere1);
         CATVidere1.setOnClickListener(new View.OnClickListener() {
@@ -57,19 +100,23 @@ public class CATScore extends AppCompatActivity {
                     myTextView = (TextView) findViewById(R.id.altid1);
                     myTextView.setText("Jeg er ikke tryg ved at forlade mit hjem");
                     counter++;
-                } else if (counter == 5){
+                } else if (counter == 5) {
                     myTextView = (TextView) findViewById(R.id.aldrig1);
                     myTextView.setText("Jeg sover dybt");
                     myTextView = (TextView) findViewById(R.id.altid1);
                     myTextView.setText("Jeg sover ikke dybt");
                     counter++;
-                 } else  {
+                } else  if (counter == 6){
                     myTextView = (TextView) findViewById(R.id.aldrig1);
                     myTextView.setText("Jeg har masser af energi");
                     myTextView = (TextView) findViewById(R.id.altid1);
                     myTextView.setText("Jeg har slet ingen energi ");
-                 }
-        }
+                    counter++;
+                } else if (counter == 7){
+                Intent myIntent = new Intent(v.getContext(), Indlaeg.class);
+                startActivity(myIntent); }
+            }
         });
+
     }
 }
