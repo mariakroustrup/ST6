@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/LogUd"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="280dp"
+        android:layout_weight="0.03"
+        android:text="Log ud" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.00"
+        android:text="Hovedmenu"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/traening"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#227ea3"
+        android:text="Træning"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/resultater"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#227ea3"
+        android:text="Resultater"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Venneliste"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#227ea3"
+        android:text="Venneliste"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/RedigerAdgangskode"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#227ea3"
+        android:text="Rediger adgangskode"
+        android:textSize="20dp" />
+
+
+
+
+
+
+</LinearLayout>

@@ -7,66 +7,60 @@
     android:weightSum="1">
 
     <TextView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
-        android:id="@+id/textView"
         android:layout_width="300dp"
-        android:layout_height="159dp"
+        android:layout_height="130dp"
         android:layout_gravity="center"
-        style="@style/AppTheme"
         android:text="Kronisk \nObstruktiv \nLungesygdom"
-        android:textColor="@android:color/black"
-        android:textSize="40sp" />
+        android:textSize="35sp" />
 
     <ImageView
         android:id="@+id/KOL"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:src="@drawable/KOL"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
-        android:layout_weight="0.19" />
+        android:layout_weight="0.9"
+        android:src="@drawable/kol" />
 
     <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView"
         android:layout_width="200dp"
         android:layout_height="20dp"
-        android:text="Indtast medlemsID:"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Indtast medlemsID:"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textSize="16sp">
+        android:textSize="16sp"/>
 
     <EditText
         android:layout_gravity="center"
-        android:id="@+id/editText"
+        android:id="@+id/PersonName"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName" />
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:id="@+id/textView"
         android:layout_width="200dp"
         android:layout_height="20dp"
-        android:textAlignment="center"
-        android:text="Indtast adgangskode:"
-        android:textColor="@android:color/black"
         android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Indtast adgangskode:"
+        android:textAlignment="center"
         android:textSize="16sp" />
 
     <EditText
         android:layout_gravity="center"
-        android:id="@+id/editText2"
+        android:id="@+id/Password"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword" />
 
-  <Button
-      android:layout_marginTop="10dp"
-      android:layout_gravity="center"
-      android:layout_width="100dp"
-      android:layout_height="50dp"
-      android:text="Log ind"/>
+    <Button
+        android:id="@+id/LogInd"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Log ind" />
 
 </LinearLayout>
