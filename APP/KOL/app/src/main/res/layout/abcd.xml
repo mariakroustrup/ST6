@@ -21,7 +21,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="A"
+        android:text=""
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="100sp" />

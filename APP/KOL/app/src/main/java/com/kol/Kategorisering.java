@@ -28,9 +28,4 @@ public class Kategorisering extends AppCompatActivity{
         });
 }
 
-
-
-
-
-
 }

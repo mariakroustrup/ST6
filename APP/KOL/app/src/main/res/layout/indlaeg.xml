@@ -22,7 +22,8 @@
         android:layout_gravity="center"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:text="0 indlæggelser"/>
+        android:text="0 indlæggelser"
+        android:onClick="ButtonOnClick"/>
 
     <Button
         android:id="@+id/stoerre"
@@ -30,6 +31,27 @@
         android:layout_gravity="center"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:text="1 eller flere indlæggelser"/>
+        android:text="1 eller flere indlæggelser"
+        android:onClick="ButtonOnClick"/>
+
+    <TextView
+        android:id="@+id/prove"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/indlaegVidere"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="250dp"
+        android:text="Videre"
+        android:onClick="buttonOnClick"/>
+
+
 
 </LinearLayout>
