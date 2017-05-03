@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,7 +73,11 @@ public class CATScore extends AppCompatActivity {
         for (int i : list) {
             sum = sum + i;
         }
+
+        TextView output = (TextView)findViewById(R.id.altid1);
+        output.setText("summen er:" + sum);
         return sum;
+
     }
 
     public void OnGone (View view){
@@ -127,12 +133,15 @@ public class CATScore extends AppCompatActivity {
     public void beregnCAT (int i) {
         int resultat = i + 1;
         list.add(i);
-        int res = sum(list);
+        int sum = sum(list);
 
-        if (resultat >=1);
+               /*ABCD c = new ABCD();
+                c.setSum(sum);*/
+
+        if (resultat >= 1) ;
 
         {
-            Button CATVidere1= (Button) findViewById(R.id.CATvidere1);
+            Button CATVidere1 = (Button) findViewById(R.id.CATvidere1);
             CATVidere1.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
 
@@ -173,17 +182,23 @@ public class CATScore extends AppCompatActivity {
                         myTextView = (TextView) findViewById(R.id.altid1);
                         myTextView.setText("Jeg sover ikke dybt");
                         counter++;
-                    } else  if (counter == 6){
+                    } else if (counter == 6) {
                         myTextView = (TextView) findViewById(R.id.aldrig1);
                         myTextView.setText("Jeg har masser af energi");
                         myTextView = (TextView) findViewById(R.id.altid1);
                         myTextView.setText("Jeg har slet ingen energi ");
                         counter++;
-                    } else if (counter == 7){
-                    Intent myIntent = new Intent(v.getContext(), Indlaeg.class);
-                    startActivity(myIntent);
+                    } else if (counter == 7) {
+                        Intent myIntent = new Intent(v.getContext(), Indlaeg.class);
+                        startActivity(myIntent);
+
                     }
+
                 }
-            }); }}
+            });
+        }
+
+    }
+
 
 }

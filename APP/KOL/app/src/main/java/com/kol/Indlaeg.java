@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 /**
  * Created by Maria on 02/05/2017.
  */
@@ -27,20 +29,30 @@ public class Indlaeg extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });}
+
+
+    final ArrayList<Integer> list = new ArrayList<Integer>();
+
     public void ButtonOnClick(View view) {
+
 
                 TextView output = (TextView) findViewById(R.id.prove);
 
                switch (view.getId()) {
                    case R.id.mindre:
                         result = 0;
+                        beregnIndlaeg(0);
                         break;
                    case R.id.stoerre:
-                        //
                         result = 1;
+                       beregnIndlaeg(0);
                         break;
                 }
-                output.setText("Resultat:" + result);
             }
+
+    public void beregnIndlaeg (int i) {
+        list.add(i);
+
     }
+}
 
