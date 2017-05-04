@@ -33,7 +33,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:layout_marginTop="20dp"
-        android:background="#227ea3"
         android:text="Træning"
         android:textSize="20dp" />
 
@@ -44,7 +43,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:layout_marginTop="10dp"
-        android:background="#227ea3"
         android:text="Resultater"
         android:textSize="20dp" />
 
@@ -55,7 +53,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:layout_marginTop="10dp"
-        android:background="#227ea3"
         android:text="Venneliste"
         android:textSize="20dp" />
 
@@ -66,7 +63,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:layout_marginTop="10dp"
-        android:background="#227ea3"
         android:text="Rediger adgangskode"
         android:textSize="20dp" />
 

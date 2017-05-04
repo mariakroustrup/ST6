@@ -21,6 +21,7 @@
         <activity android:name=".CATScore"></activity>
         <activity android:name=".Indlaeg"></activity>
         <activity android:name="ABCD"></activity>
+        <activity android:name="MENU"></activity>
     </application>
 
 </manifest>

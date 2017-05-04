@@ -40,7 +40,6 @@ public class Indlaeg extends AppCompatActivity {
                 result = 1;
                 OnGone(view);
                 beregnIndlaeg(1);
-                start(view);
                 break;
         }
 
@@ -55,43 +54,47 @@ public class Indlaeg extends AppCompatActivity {
         Button stoerre = (Button) findViewById(R.id.stoerre);
         stoerre.setEnabled(false);
         stoerre.setClickable(false);
-        Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere);
+        Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere1);
         indlaegVidere.setVisibility(view.VISIBLE);
         indlaegVidere.setEnabled(true);
         indlaegVidere.setClickable(true);
     }
+    public void OnVisible (View view) {
+        Button mindre = (Button) findViewById(R.id.mindre);
+        mindre.setEnabled(true);
+        mindre.setClickable(true);
+        Button stoerre = (Button) findViewById(R.id.stoerre);
+        stoerre.setEnabled(true);
+        stoerre.setClickable(true);
+        Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere1);
+        indlaegVidere.setVisibility(view.INVISIBLE);
+        indlaegVidere.setEnabled(false);
+        indlaegVidere.setClickable(false);
+    }
 
 
-    int counter = 0;
 
     public void beregnIndlaeg(int i) {
-        int resultat = i + 1;
-        int ABCD = 1;
-        int CATscore = getIntent().getExtras().getInt("int_value");
+            Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere1);
+            indlaegVidere.setOnClickListener(new View.OnClickListener() {
+                public void onClick (View v) {
+                    int ABCD = 1;
+                    int CATscore = getIntent().getExtras().getInt("int_value");
 
-        if (CATscore < 10 && result == 0) {
-            ABCD = 1;
-        } else if (CATscore < 10 && result == 1) {
-            ABCD = 2;
-        } else if (CATscore >= 10 && result == 0) {
-            ABCD = 3;
-        } else if (CATscore >= 10 && result == 1) {
-            ABCD = 4;
-        }
-    }
-
-
-    public void start (View view) {
-        Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere);
-        indlaegVidere.setOnClickListener(new View.OnClickListener() {
-            public void onClick (View v){
-                Intent myIntent = new Intent(Indlaeg.this, ABCD.class);
-                startActivity(myIntent);
-            }
-        });
-    }
-
-
+                    if (CATscore < 10 && result == 0) {
+                        ABCD = 1;
+                    } else if (CATscore < 10 && result == 1) {
+                        ABCD = 2;
+                    } else if (CATscore >= 10 && result == 0) {
+                        ABCD = 3;
+                    } else if (CATscore >= 10 && result == 1) {
+                        ABCD = 4;
+                    }
+                    Intent myIntent = new Intent(v.getContext(), ABCD.class);
+                    myIntent.putExtra("int_value", ABCD);
+                    startActivity(myIntent);
+                    }
+                } ); }
 }
 
 

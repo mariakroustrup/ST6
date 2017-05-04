@@ -24,6 +24,7 @@ public class CATScore extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.catscore);
+
     }
 
     int result;
@@ -74,11 +75,7 @@ public class CATScore extends AppCompatActivity {
         for (int i : list) {
             sum = sum + i;
         }
-
-        TextView output = (TextView)findViewById(R.id.altid1);
-        output.setText("summen er:" + sum);
         return sum;
-
     }
 
     public void OnGone (View view){
