@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -34,33 +35,33 @@ public class CATScore extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.nul:
                 result = 0;
-                beregnCAT(0);
                 OnGone(v);
+                beregnCAT(0);
                 break;
             case R.id.en:
                 result = 1;
-                beregnCAT(1);
                 OnGone(v);
+                beregnCAT(1);
                 break;
             case R.id.to:
                 result = 2;
-                beregnCAT(2);
                 OnGone(v);
+                beregnCAT(2);
                 break;
             case R.id.tre:
                 result = 3;
-                beregnCAT(3);
                 OnGone(v);
+                beregnCAT(3);
                 break;
             case R.id.fire:
                 result = 4;
-                beregnCAT(4);
                 OnGone(v);
+                beregnCAT(4);
                 break;
             case R.id.fem:
                 result = 5;
-                beregnCAT(5);
                 OnGone(v);
+                beregnCAT(5);
                 break;
         }
     }
@@ -131,12 +132,10 @@ public class CATScore extends AppCompatActivity {
     }
 
     public void beregnCAT (int i) {
-        int resultat = i + 1;
+        final int resultat = i + 1;
         list.add(i);
-        int sum = sum(list);
+        final int sum = sum(list);
 
-               /*ABCD c = new ABCD();
-                c.setSum(sum);*/
 
         if (resultat >= 1) ;
 
@@ -144,7 +143,6 @@ public class CATScore extends AppCompatActivity {
             Button CATVidere1 = (Button) findViewById(R.id.CATvidere1);
             CATVidere1.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
-
                     OnVisible(v);
                     if (counter < 1) {
                         myTextView = (TextView) findViewById(R.id.aldrig1);
@@ -189,16 +187,16 @@ public class CATScore extends AppCompatActivity {
                         myTextView.setText("Jeg har slet ingen energi ");
                         counter++;
                     } else if (counter == 7) {
-                        Intent myIntent = new Intent(v.getContext(), Indlaeg.class);
+                        Intent myIntent = new Intent(CATScore.this, Indlaeg.class);
+                        myIntent.putExtra("int_value",sum(list));
                         startActivity(myIntent);
 
                     }
 
                 }
-            });
-        }
+            });}
 
-    }
+        }
 
 
 }

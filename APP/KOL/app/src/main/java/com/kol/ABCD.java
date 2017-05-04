@@ -3,10 +3,8 @@ package com.kol;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.TextView;
-
-import java.util.ArrayList;
+import static android.R.id.list;
 
 
 /**
@@ -21,18 +19,14 @@ public class ABCD extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.abcd);
-}
+
+       int ABCDscore = getIntent().getExtras().getInt("int_value");
 
 
-        int sum;
-
-        void setSum (int s){
-            s = sum;
-            TextView output = (TextView) findViewById(R.id.ABCD);
-            output.setText(s);
-        }
-        int getSum(){
-            return sum;
-        }
+        TextView textView = (TextView)findViewById(R.id.ABCD);
+        textView.setText("HEJ" + ABCDscore);
 
 }
+
+}
+
