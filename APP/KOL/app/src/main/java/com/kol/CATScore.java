@@ -27,7 +27,6 @@ public class CATScore extends AppCompatActivity {
 
     }
 
-    int result;
 
     final ArrayList<Integer> list = new ArrayList<Integer>();
 
@@ -35,32 +34,26 @@ public class CATScore extends AppCompatActivity {
 
         switch (v.getId()) {
             case R.id.nul:
-                result = 0;
                 OnGone(v);
                 beregnCAT(0);
                 break;
             case R.id.en:
-                result = 1;
                 OnGone(v);
                 beregnCAT(1);
                 break;
             case R.id.to:
-                result = 2;
                 OnGone(v);
                 beregnCAT(2);
                 break;
             case R.id.tre:
-                result = 3;
                 OnGone(v);
                 beregnCAT(3);
                 break;
             case R.id.fire:
-                result = 4;
                 OnGone(v);
                 beregnCAT(4);
                 break;
             case R.id.fem:
-                result = 5;
                 OnGone(v);
                 beregnCAT(5);
                 break;

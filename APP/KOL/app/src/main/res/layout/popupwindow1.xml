@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/logud1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Stop træning"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/logud2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+
+    <TextView
+        android:id="@+id/logud2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Er du sikker på, at du vil stoppe træningen? "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/Fortryd"
+        android:layout_alignLeft="@+id/logud1"
+        android:layout_alignStart="@+id/logud1" />
+
+
+
+    <Button
+        android:id="@+id/Fortryd"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Fortryd"
+        android:layout_alignBaseline="@+id/Bekræft"
+        android:layout_alignBottom="@+id/Bekræft"
+        android:layout_toRightOf="@+id/Bekræft"
+        android:layout_toEndOf="@+id/Bekræft"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <Button
+        android:id="@+id/Bekræft"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Bekræft"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/logud2"
+        android:layout_alignStart="@+id/logud2"
+        android:layout_marginBottom="53dp" />
+
+</RelativeLayout>

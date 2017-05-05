@@ -2,14 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:id="@+id/popUp_position">
 
 
     <Button
         android:id="@+id/LogUd"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="280dp"
+        android:layout_marginLeft="260dp"
         android:layout_weight="0.03"
         android:text="Log ud" />
 
@@ -23,45 +24,44 @@
         android:layout_weight="0.00"
         android:text="Hovedmenu"
         android:textAlignment="center"
-        android:textSize="40dp"
-        android:textStyle="bold" />
+        android:textSize="40dp" />
 
     <Button
         android:id="@+id/traening"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:text="Træning"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/resultater"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:layout_marginTop="10dp"
         android:text="Resultater"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/Venneliste"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:layout_marginTop="10dp"
         android:text="Venneliste"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/RedigerAdgangskode"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:layout_marginTop="10dp"
         android:text="Rediger adgangskode"
         android:textSize="20dp" />

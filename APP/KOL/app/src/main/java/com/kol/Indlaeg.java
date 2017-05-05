@@ -59,18 +59,6 @@ public class Indlaeg extends AppCompatActivity {
         indlaegVidere.setEnabled(true);
         indlaegVidere.setClickable(true);
     }
-    public void OnVisible (View view) {
-        Button mindre = (Button) findViewById(R.id.mindre);
-        mindre.setEnabled(true);
-        mindre.setClickable(true);
-        Button stoerre = (Button) findViewById(R.id.stoerre);
-        stoerre.setEnabled(true);
-        stoerre.setClickable(true);
-        Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere1);
-        indlaegVidere.setVisibility(view.INVISIBLE);
-        indlaegVidere.setEnabled(false);
-        indlaegVidere.setClickable(false);
-    }
 
 
 
@@ -84,9 +72,9 @@ public class Indlaeg extends AppCompatActivity {
                     if (CATscore < 10 && result == 0) {
                         ABCD = 1;
                     } else if (CATscore < 10 && result == 1) {
-                        ABCD = 2;
-                    } else if (CATscore >= 10 && result == 0) {
                         ABCD = 3;
+                    } else if (CATscore >= 10 && result == 0) {
+                        ABCD = 2;
                     } else if (CATscore >= 10 && result == 1) {
                         ABCD = 4;
                     }

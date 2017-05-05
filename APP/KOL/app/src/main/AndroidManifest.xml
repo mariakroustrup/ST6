@@ -17,11 +17,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Kategorisering"></activity>
-        <activity android:name=".CATScore"></activity>
-        <activity android:name=".Indlaeg"></activity>
+        <activity android:name="Kategorisering"></activity>
+        <activity android:name="CATScore"></activity>
+        <activity android:name="Indlaeg"></activity>
         <activity android:name="ABCD"></activity>
         <activity android:name="MENU"></activity>
+        <activity android:name="TILPASNING"></activity>
+        <activity android:name="HELBRED"></activity>
+        <activity android:name="TRAENING"></activity>
+        <activity android:name="RESULTATER"></activity>
+        <activity android:name="VENNELISTE"></activity>
+        <activity android:name="REDIGERING"></activity>
+        <activity android:name="POP"></activity>
+        <activity android:name="POP1"></activity>
     </application>
 
 </manifest>

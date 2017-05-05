@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="Jeg hoster aldrig"
         android:textAlignment="center"
         android:textSize="20sp"/>
@@ -74,7 +74,7 @@
     <TextView
         android:id="@+id/altid1"
         android:layout_marginTop="15dp"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:text="Jeg hoster altid"
@@ -85,7 +85,7 @@
         android:id="@+id/CATvidere1"
         android:layout_width="111dp"
         android:layout_height="50dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="240dp"
         android:text="Videre"
         android:visibility="invisible"/>

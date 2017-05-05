@@ -20,8 +20,43 @@ public class MENU extends AppCompatActivity {
         traening.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), TRAENING.class);
+                Intent myIntent = new Intent(view.getContext(), TILPASNING.class);
                 startActivity(myIntent);
+            }
+        });
+
+        Button resultater = (Button) findViewById(R.id.resultater);
+        resultater.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), RESULTATER.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button venneliste = (Button) findViewById(R.id.Venneliste);
+        venneliste.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), VENNELISTE.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button redigering = (Button) findViewById(R.id.RedigerAdgangskode);
+        redigering.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), REDIGERING.class);
+                startActivity(myIntent);
+            }
+        });
+
+        Button logud = (Button) findViewById(R.id.LogUd);
+        logud.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MENU.this, POP.class));
             }
         });
     }
