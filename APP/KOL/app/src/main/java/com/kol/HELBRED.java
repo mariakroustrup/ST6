@@ -124,6 +124,4 @@ int result = 0;
                 startActivity(myIntent);
             }
         } ); }
-
-
 }

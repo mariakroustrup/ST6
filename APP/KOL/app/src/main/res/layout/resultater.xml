@@ -6,7 +6,7 @@
     <com.github.mikephil.charting.charts.BarChart
         android:layout_marginTop="10dp"
         android:layout_height="350dp"
-        android:id="@+id/bargraph"
+        android:id="@+id/chart1"
         android:layout_width="350dp"
         android:layout_gravity="center"/>
 
@@ -18,8 +18,7 @@
         android:layout_width="270dp"
         android:layout_height="60dp"
         android:textSize="20sp"
-        android:text="Kalender"
-        android:onClick="ButtonOnClick2"/>
+        android:text="Kalender" />
 
 
     <Button
@@ -29,8 +28,7 @@
         android:layout_width="270dp"
         android:layout_height="60dp"
         android:textSize="20sp"
-        android:text="Beløninger"
-        android:onClick="ButtonOnClick2"/>
+        android:text="Beløninger" />
 
 
 

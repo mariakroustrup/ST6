@@ -30,6 +30,9 @@
         <activity android:name="REDIGERING"></activity>
         <activity android:name="POP"></activity>
         <activity android:name="POP1"></activity>
+        <activity android:name="KALENDER"></activity>
+        <activity android:name="BELOENINGER"></activity>
+        <activity android:name="SOGVEN"></activity>
     </application>
 
 </manifest>
