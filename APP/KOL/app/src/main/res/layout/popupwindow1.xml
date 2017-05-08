@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="1"
+    android:background="@android:color/holo_blue_light"
     android:baselineAligned="false">
 
     <TextView
@@ -16,9 +17,9 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_above="@+id/logud2"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginTop="82dp" />
 
 
     <TextView
@@ -29,10 +30,10 @@
         android:text="Er du sikker på, at du vil stoppe træningen? "
         android:textAlignment="center"
         android:textSize="25sp"
-        android:layout_marginBottom="20dp"
-        android:layout_above="@+id/Fortryd"
+        android:layout_below="@+id/logud1"
         android:layout_alignLeft="@+id/logud1"
-        android:layout_alignStart="@+id/logud1" />
+        android:layout_alignStart="@+id/logud1"
+        android:layout_marginTop="15dp" />
 
 
 
@@ -53,11 +54,11 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:text="Bekræft"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/logud2"
         android:layout_alignLeft="@+id/logud2"
         android:layout_alignStart="@+id/logud2"
-        android:layout_marginBottom="53dp" />
+        android:layout_marginTop="102dp" />
 
 </RelativeLayout>

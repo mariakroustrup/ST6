@@ -25,7 +25,6 @@
         <activity android:name="VENNELISTE"></activity>
         <activity android:name="REDIGERING"></activity>
         <activity android:name="LOGUD"></activity>
-        <activity android:name="POP1"></activity>
 
     </application>
 

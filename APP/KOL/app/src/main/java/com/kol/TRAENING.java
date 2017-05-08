@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
@@ -31,7 +32,7 @@ public class TRAENING extends AppCompatActivity{
         int Seconds, Minutes, MilliSeconds;
         Handler handler;
         PopupWindow myPopUp;
-    LinearLayout positionOfPopup;
+        RelativeLayout positionOfPopup;
 
 
         @Override
@@ -58,6 +59,8 @@ public class TRAENING extends AppCompatActivity{
 
             });
 
+
+
             stop.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View view) {
@@ -65,6 +68,7 @@ public class TRAENING extends AppCompatActivity{
                     TimeBuff += MillisecondTime;
                     handler.removeCallbacks(runnable);
 
+                    positionOfPopup = (RelativeLayout)findViewById(R.id.popUp_position);
                     LayoutInflater inflater = (LayoutInflater) getBaseContext().getSystemService(LAYOUT_INFLATER_SERVICE);
                     View customView = inflater.inflate(R.layout.popupwindow1, null);
 
@@ -73,7 +77,6 @@ public class TRAENING extends AppCompatActivity{
                             RelativeLayout.LayoutParams.WRAP_CONTENT,
                             RelativeLayout.LayoutParams.WRAP_CONTENT
                     );
-
                     Button closePopUp = (Button) customView.findViewById(R.id.Fortryd);
                     closePopUp.setOnClickListener(new View.OnClickListener() {
                         @Override
@@ -91,10 +94,11 @@ public class TRAENING extends AppCompatActivity{
                         }
 
                     });
-
-
                     myPopUp.showAtLocation(positionOfPopup, Gravity.CENTER, 0, 0);
-                }});}
+
+                }});
+        }
+
 
 
     public Runnable runnable = new Runnable() {
@@ -120,34 +124,51 @@ public class TRAENING extends AppCompatActivity{
     public void ButtonOnClick(View view) {
 
         switch (view.getId()) {
-            case R.id.mindre:
+            case R.id.smiley_1:
                 result = 0;
                 OnGone1(view);
-                /*start(0);*/
+                startmenu(0);
                 break;
-            case R.id.stoerre:
+            case R.id.smiley_2:
                 result = 1;
                 OnGone1(view);
-                /*start(1);*/
+                startmenu(1);
                 break;
+            case R.id.smiley_3:
+                result = 2;
+                OnGone1(view);
+                startmenu(2);
+                break;
+
         }}
 
     public void OnGone1(View view) {
-        Button en = (Button) findViewById(R.id.enhelbred);
+        ImageView en = (ImageView) findViewById(R.id.smiley_1);
         en.setEnabled(false);
         en.setClickable(false);
-        Button to = (Button) findViewById(R.id.tohelbred);
+        ImageView to = (ImageView) findViewById(R.id.smiley_2);
         to.setEnabled(false);
         to.setClickable(false);
-
-        Button videre = (Button) findViewById(R.id.Viderehelbred);
+        ImageView tre = (ImageView) findViewById(R.id.smiley_3);
+        tre.setEnabled(false);
+        tre.setClickable(false);
+        Button videre= (Button) findViewById(R.id.Videreeval);
         videre.setVisibility(view.VISIBLE);
         videre.setEnabled(true);
         videre.setClickable(true);
     }
 
+    public void startmenu(int i){
+        Button videre = (Button) findViewById(R.id.Videreeval);
+        videre.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent myIntent = new Intent(TRAENING.this, MENU.class);
+                startActivity(myIntent); }});}
 
-        }
+
+
+
+}
 
 
 
