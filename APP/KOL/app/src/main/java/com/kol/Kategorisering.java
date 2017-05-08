@@ -227,8 +227,6 @@ public class KATEGORISERING extends AppCompatActivity{
     }
 
 
-
-
     public void start(int i){
         Button indlaegVidere = (Button) findViewById(R.id.indlaegVidere1);
             indlaegVidere.setOnClickListener(new View.OnClickListener() {
