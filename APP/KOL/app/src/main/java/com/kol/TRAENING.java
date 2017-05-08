@@ -14,7 +14,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import static android.R.attr.width;
 
 /**
  * Created by Maria on 05/05/2017.
@@ -27,7 +30,8 @@ public class TRAENING extends AppCompatActivity{
         long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
         int Seconds, Minutes, MilliSeconds;
         Handler handler;
-
+        PopupWindow myPopUp;
+    LinearLayout positionOfPopup;
 
 
         @Override
@@ -54,56 +58,43 @@ public class TRAENING extends AppCompatActivity{
 
             });
 
-            private  PopupWindow myPopUp;
-            private LinearLayout positionOfPopup;
-
             stop.setOnClickListener(new View.OnClickListener(){
                 @Override
-
-                
-
                 public void onClick(View view) {
 
                     TimeBuff += MillisecondTime;
                     handler.removeCallbacks(runnable);
 
-                    setContentView(R.layout.popupwindow1);
-                    DisplayMetrics dm = new DisplayMetrics();
-                    getWindowManager().getDefaultDisplay().getMetrics(dm);
-
-                   final int width = dm.widthPixels;
-                    final int height = dm.heightPixels;
+                    LayoutInflater inflater = (LayoutInflater) getBaseContext().getSystemService(LAYOUT_INFLATER_SERVICE);
+                    View customView = inflater.inflate(R.layout.popupwindow1, null);
 
                     myPopUp = new PopupWindow(
-                            costumeView
-                            getWindow().setLayout((int) (height * .6), (int) (width * .8));
+                            customView,
+                            RelativeLayout.LayoutParams.WRAP_CONTENT,
+                            RelativeLayout.LayoutParams.WRAP_CONTENT
                     );
 
-
-                    Button Fortryd = (Button) findViewById(R.id.Fortryd);
-                    Fortryd.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        DisplayMetrics dm = new DisplayMetrics();
-                        getWindowManager().getDefaultDisplay().getMetrics(dm);
-                        Intent myIntent = new Intent(TRAENING.this, TRAENING.class);
-                        startActivity(myIntent);
-
-                    }  });
-
-                    Button Bekræft = (Button) findViewById(R.id.Bekræft);
-                    Bekræft.setOnClickListener(new View.OnClickListener() {
+                    Button closePopUp = (Button) customView.findViewById(R.id.Fortryd);
+                    closePopUp.setOnClickListener(new View.OnClickListener() {
                         @Override
-                        public void onClick(View view) {
-                            getWindow().setLayout((int) (width), (int) (height));
+                        public void onClick(View v) {
+                            myPopUp.dismiss();
+                        }
+
+                    });
+                    Button closePopUp1 = (Button) customView.findViewById(R.id.Bekræft);
+                    closePopUp1.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            myPopUp.dismiss();
                             setContentView(R.layout.evaluering);
+                        }
+
+                    });
 
 
-                        }  });}
-            });}
-
-
-    myPopUp.showAtLocation(positionOfPopup, Gravity.CENTER,0,0);
+                    myPopUp.showAtLocation(positionOfPopup, Gravity.CENTER, 0, 0);
+                }});}
 
 
     public Runnable runnable = new Runnable() {
@@ -121,7 +112,7 @@ public class TRAENING extends AppCompatActivity{
             handler.postDelayed(this, 0);
         }
 
-    };}
+    };
 
 
     int result;
@@ -132,14 +123,14 @@ public class TRAENING extends AppCompatActivity{
             case R.id.mindre:
                 result = 0;
                 OnGone1(view);
-                start(0);
+                /*start(0);*/
                 break;
             case R.id.stoerre:
                 result = 1;
                 OnGone1(view);
-                start(1);
+                /*start(1);*/
                 break;
-        }
+        }}
 
     public void OnGone1(View view) {
         Button en = (Button) findViewById(R.id.enhelbred);
@@ -154,6 +145,9 @@ public class TRAENING extends AppCompatActivity{
         videre.setEnabled(true);
         videre.setClickable(true);
     }
+
+
+        }
 
 
 
