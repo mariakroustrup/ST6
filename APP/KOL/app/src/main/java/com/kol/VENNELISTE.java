@@ -20,8 +20,7 @@ public class VENNELISTE extends AppCompatActivity {
         sogven.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), SOGVEN.class);
-                startActivity(myIntent);
+                setContentView(R.layout.sogven);
             }
         });
 

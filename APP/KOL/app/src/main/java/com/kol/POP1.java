@@ -14,35 +14,34 @@ import android.widget.Button;
 
 
     public class POP1 extends AppCompatActivity {
-        @Override
-        protected void onCreate(@Nullable Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-            setContentView(R.layout.popupwindow1);
-            DisplayMetrics dm = new DisplayMetrics();
-            getWindowManager().getDefaultDisplay().getMetrics(dm);
+        setContentView(R.layout.popupwindow1);
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
 
-            int width = dm.widthPixels;
-            int height = dm.heightPixels;
+        int width = dm.widthPixels;
+        int height = dm.heightPixels;
 
-            getWindow().setLayout((int)(width*.8),(int)(height*.6));
+        getWindow().setLayout((int) (width * .8), (int) (height * .6));
 
-            Button Bekræft= (Button) findViewById(R.id.Bekræft);
-            Bekræft.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View view) {
-                    Intent myIntent = new Intent(view.getContext(), MENU.class);
-                    startActivity(myIntent);
-                }
-            });
+        Button Bekræft = (Button) findViewById(R.id.Bekræft);
+        Bekræft.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            }
+        });
 
-            final Button Fortryd= (Button) findViewById(R.id.Fortryd);
-            Fortryd.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View view) {
-                   startActivity(new Intent(view.getContext(), TRAENING.class));
-                }
-            });
-        }
+        final Button Fortryd = (Button) findViewById(R.id.Fortryd);
+        Fortryd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
+}
+
 

@@ -56,7 +56,7 @@ public class MENU extends AppCompatActivity {
         logud.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MENU.this, POP.class));
+                startActivity(new Intent(MENU.this, LOGUD.class));
             }
         });
     }

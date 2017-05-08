@@ -82,16 +82,14 @@ public class RESULTATER extends AppCompatActivity {
         Button kalender = (Button) findViewById(R.id.Kalender);
         kalender.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(RESULTATER.this, KALENDER.class);
-                startActivity(myIntent);
+                setContentView(R.layout.kalender);
 
             }
         });
         Button beloen = (Button) findViewById(R.id.Beloenniger);
         beloen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(RESULTATER.this, BELOENINGER.class);
-                startActivity(myIntent);
+                setContentView(R.layout.beloeninger);
 
             }
         });

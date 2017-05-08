@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <LinearLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:weightSum="1"
-    android:baselineAligned="false">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/anbefalingkondi"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="Skriv tekst her"
+        android:layout_marginTop="90dp"
+        android:text="Konditionstræning"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="40sp" />
+        android:textSize="35sp" />
 
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/anbefaling"
         android:layout_width="350dp"
-        android:layout_height="150dp"
+        android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Skriv tekst her"
+        android:text="Det anbefales at der trænes i XX minutter "
         android:textAlignment="center"
         android:textSize="25sp"/>
 
     <Button
-        android:id="@+id/OK"
-        android:layout_marginTop="10dp"
+        android:id="@+id/OKanbefal"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"

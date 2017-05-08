@@ -13,7 +13,7 @@ import android.widget.TextView;
  * Created by Maria on 05/05/2017.
  */
 
-public class POP extends AppCompatActivity{
+public class LOGUD extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
