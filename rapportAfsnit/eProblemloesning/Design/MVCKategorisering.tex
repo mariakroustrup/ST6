@@ -9,9 +9,11 @@ Kategorisering inddeles i boundarys og en dertilhørende controlklasse, som det 
 \end{figure}
 
 \noindent
-Kategoriseringen inddeles i tre grænseflader, herunder \textit{CATScore}, \textit{Indlæggelser} samt \textit{Kategorisering}. Dette er valgt, da det ønskes at gøre app’en overskuelig og
-brugervenlig. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således
-brugeren ikke eksponeres til for mange valg på samme tid samt informationer på en grænseflade. De tre grænseflader indeholder tekstfelter af typen TextView, der informerer brugeren om den følgende handling. Dertil er der ligeledes opsat knapper af typen Button, således brugeren kan besvare spørgsmålene. 
+Kategoriseringen inddeles i tre grænseflader, herunder \textit{CATScore}, \textit{Indlæggelser} samt \textit{Kategorisering}. Dette er valgt, idet grænsefladerne skal have forskellige layouts, og en opdeling vil gøre implementeringen af grænsefladerne mere overskuelig. Desuden ønskes det at gøre app’en overskuelig og
+brugervenlig, hvilket kan opnås ved at tydeliggøre adskillelsen mellem CAT-score og besvarelse af antal årlige indlæggelser, j.f. gestaltloven om lighed i \autoref{sec:brugervenlighed}. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således
+brugeren ikke eksponeres til for mange valg på samme tid samt informationer på en grænseflade.
+
+De tre grænseflader indeholder tekstfelter af typen TextView, der informerer brugeren om den følgende handling. Dertil er der ligeledes opsat knapper af typen Button, således brugeren kan besvare spørgsmålene. I boundaryklassen \textit{CATScore} ses 0til5Knap, som repræsenterer seks forskellige knapper, der skal implementeres i grænsefladen. Disse seks knapper vil gøre det muligt for brugeren at vælge en værdi mellem nul og fem for hvert CAT-udsagn. Ligeledes ses der i boundaryklassen \textit{Indlæggelser} en knap, IndlæggelserKnap, som repræsenterer to knapper i grænsefladen. Brugeren skal på denne grænseflade angive antallet af årlige indlæggelser på grund af KOL, hvor knapperne gør det muligt at vælge mellem nul og en eller flere indlæggelser.
 
 Den dertilhørende controller, \textit{Kategorisering}, håndterer visningen af de tre boundarys samt respektive knapper og tekst. Controlleren indeholder metoderne Vis, Lyt, Beregn, Gem og Start. 
 Der er ligeledes udarbejdet et sekvensdiagram for kategorisering, hvilket ses af \autoref{fig:SEKKategorisering}.
