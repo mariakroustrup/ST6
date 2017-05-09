@@ -26,15 +26,17 @@
 \BOOKMARK [1][-]{section.5.3}{Funktionalitet}{chapter.5}% 26
 \BOOKMARK [0][-]{chapter.6}{Systemdesign}{}% 27
 \BOOKMARK [1][-]{section.6.1}{Designafgr\346nsning}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Objektorienteret design}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{Design af gr\346nseflade}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.3.1}{Brugervenlighed}{section.6.3}% 31
-\BOOKMARK [1][-]{section.6.4}{Design af database}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.4.1}{ER-diagram}{section.6.4}% 33
-\BOOKMARK [2][-]{subsection.6.4.2}{Schema}{section.6.4}% 34
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 35
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 36
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 37
-\BOOKMARK [0][-]{section*.88}{Litteratur}{}% 38
-\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 39
-\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 40
+\BOOKMARK [1][-]{section.6.2}{Design af gr\346nseflade}{chapter.6}% 29
+\BOOKMARK [2][-]{subsection.6.2.1}{Brugervenlighed}{section.6.2}% 30
+\BOOKMARK [1][-]{section.6.3}{Objektorienteret design}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.4}{Design af gr\346nseflade}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.4.1}{Brugervenlighed}{section.6.4}% 33
+\BOOKMARK [1][-]{section.6.5}{Design af database}{chapter.6}% 34
+\BOOKMARK [2][-]{subsection.6.5.1}{ER-diagram}{section.6.5}% 35
+\BOOKMARK [2][-]{subsection.6.5.2}{Schema}{section.6.5}% 36
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 37
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 38
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 39
+\BOOKMARK [0][-]{section*.88}{Litteratur}{}% 40
+\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 41
+\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 42

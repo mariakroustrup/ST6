@@ -34,15 +34,17 @@
 \contentsline {section}{\numberline {5.3}Funktionalitet}{21}{section.5.3}
 \contentsline {chapter}{\chapternumberline {6}Systemdesign}{36}{chapter.6}
 \contentsline {section}{\numberline {6.1}Designafgr\IeC {\ae }nsning}{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Objektorienteret design}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af gr\IeC {\ae }nseflade}{58}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Brugervenlighed}{58}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Design af database}{58}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}ER-diagram}{58}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Schema}{59}{subsection.6.4.2}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{61}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Test}{62}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{63}{chapter.9}
-\contentsline {chapter}{Litteratur}{64}{section*.88}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{67}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{67}{section.A.1}
+\contentsline {section}{\numberline {6.2}Design af gr\IeC {\ae }nseflade}{36}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Brugervenlighed}{36}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Objektorienteret design}{36}{section.6.3}
+\contentsline {section}{\numberline {6.4}Design af gr\IeC {\ae }nseflade}{61}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Brugervenlighed}{61}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}Design af database}{61}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}ER-diagram}{61}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Schema}{62}{subsection.6.5.2}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{64}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Test}{65}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{66}{chapter.9}
+\contentsline {chapter}{Litteratur}{67}{section*.88}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{70}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{70}{section.A.1}
