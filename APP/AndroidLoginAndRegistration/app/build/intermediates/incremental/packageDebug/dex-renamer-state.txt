@@ -1,7 +1,4 @@
-#Tue May 09 13:22:51 CEST 2017
-base.0=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3301d2e085718ee945740ff35f60a0297da21cfd
-renamed.1=classes2.dex
+#Tue May 09 13:29:49 CEST 2017
+base.0=/Users/Maria/Desktop/ST6/APP/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3cd5d7f3bb3b98a97ef2272cee97410265992b88\\classes.dex
-base.1=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3cd5d7f3bb3b98a97ef2272cee97410265992b88
-file.0=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3301d2e085718ee945740ff35f60a0297da21cfd\\classes.dex
+file.0=/Users/Maria/Desktop/ST6/APP/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
