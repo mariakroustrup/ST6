@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\passw\\Projekter_Virker\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 254
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 318
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 389
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 457
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -126,7 +126,7 @@
                     "endOffset": 639
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\085214b58bfa1d3a53b9c4e870f65f0af7293222\\output\\res\\values-land\\values-land.xml",
+                    "file": "/Users/Maria/.android/build-cache/e2eb1947369eb4f2e7451ba784652a835715cc61/output/res/values-land/values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

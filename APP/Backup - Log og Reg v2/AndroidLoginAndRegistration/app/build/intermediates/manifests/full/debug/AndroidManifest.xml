@@ -9,10 +9,14 @@
         android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:name="info.androidhive.loginandregistration.app.AppController"
-        android:allowBackup="true" >
+        android:allowBackup="true"
+        android:theme="@style/AppTheme" >
         <activity
             android:name="info.androidhive.loginandregistration.activity.LoginActivity"
             android:launchMode="singleTop"
@@ -29,6 +33,14 @@
         <activity
             android:name="info.androidhive.loginandregistration.activity.RedigeringController"
             android:launchMode="singleTop" />
+        <activity android:name="info.androidhive.loginandregistration.activity.KATEGORISERING" />
+        <activity android:name="info.androidhive.loginandregistration.activity.MENU" />
+        <activity android:name="info.androidhive.loginandregistration.activity.LOGUD" />
+        <activity android:name="info.androidhive.loginandregistration.activity.REDIGERING" />
+        <activity android:name="info.androidhive.loginandregistration.activity.RESULTATER" />
+        <activity android:name="info.androidhive.loginandregistration.activity.TILPASNING" />
+        <activity android:name="info.androidhive.loginandregistration.activity.TRAENING" />
+        <activity android:name="info.androidhive.loginandregistration.activity.VENNELISTE" />
     </application>
 
 </manifest>

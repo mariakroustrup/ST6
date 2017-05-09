@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\passw\\Projekter_Virker\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+        "outputFile": "/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 393
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 586
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

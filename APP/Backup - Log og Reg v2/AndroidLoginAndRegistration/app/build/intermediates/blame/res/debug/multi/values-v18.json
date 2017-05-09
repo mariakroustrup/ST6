@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\passw\\Projekter_Virker\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/res/values-v18/values-v18.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
