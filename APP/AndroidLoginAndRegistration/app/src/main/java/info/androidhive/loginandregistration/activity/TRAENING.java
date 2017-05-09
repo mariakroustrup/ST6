@@ -49,8 +49,6 @@ public class TRAENING extends AppCompatActivity {
     RelativeLayout positionOfPopup;
 
     // det her er til GPS
-    private Button button;
-    private TextView textView, textView10, textView11;
     private LocationManager locationManager;
     private LocationListener locationListener;
     double lat2;
@@ -92,17 +90,13 @@ public class TRAENING extends AppCompatActivity {
 
         handler = new Handler();
 
-
+        /*
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                StartTime = SystemClock.uptimeMillis();
-                handler.postDelayed(runnable, 0);
             }
-
         });
-
+        */
 
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -213,6 +207,8 @@ public class TRAENING extends AppCompatActivity {
             public void onClick(View view) {
                 //noinspection MissingPermission
                 locationManager.requestLocationUpdates("gps", 5000, 0, locationListener);
+                StartTime = SystemClock.uptimeMillis();
+                handler.postDelayed(runnable, 0);
 
             }
         });
