@@ -1,8 +1,6 @@
 package info.androidhive.loginandregistration.activity;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -33,17 +31,18 @@ public class RedigeringController extends Activity {
     private TextView Navn;
     private TextView Kategorisering;
     private EditText Adgangskode;
+    private EditText GenAdgangskode;
     private Button btnAdgangskode;
     private SQLiteHandler db;
     private SessionManager session;
     private ProgressDialog pDialog;
-    public static String URL_ADGANGSKODE = "http://172.31.159.63/android_login_api/register.php";
+    public static String URL_ADGANGSKODE = "http://172.31.159.63/android_login_api/register2.php";
     private static final String TAG = RedigeringController.class.getSimpleName();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_redigering);
+        setContentView(R.layout.redigering);
 
         // Progress Dialog
         pDialog = new ProgressDialog(this);
@@ -53,6 +52,7 @@ public class RedigeringController extends Activity {
         Navn = (TextView) findViewById(R.id.navn);
         Kategorisering = (TextView) findViewById(R.id.kategorisering);
         Adgangskode = (EditText) findViewById(R.id.adgangskode);
+        GenAdgangskode = (EditText) findViewById(R.id.genadgangskode);
         btnAdgangskode = (Button) findViewById(R.id.btnNyAdgangskode);
 
         // SqLite database handler
@@ -78,26 +78,48 @@ public class RedigeringController extends Activity {
 
         btnAdgangskode.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-            String adgangskode = Adgangskode.getText().toString().trim();
+                String adgangskode = Adgangskode.getText().toString().trim();
+                String genadgangskode = GenAdgangskode.getText().toString().trim();
 
-            if(!adgangskode.isEmpty()){
-                gemAdgangskode(medlemsid, adgangskode);
-            }
-            else{
-                Toast.makeText(getApplicationContext(),
-                        "Ikke angivet ny adgangskode",
-                        Toast.LENGTH_LONG)
-                        .show();
+
+                //Tjekker om tekstfeltet er tom
+                if(!adgangskode.isEmpty() && !genadgangskode.isEmpty()){
+
+                    if(adgangskode.equals(genadgangskode)) {
+
+                        //Tjekker om adgangskoden er min 10 karakter lang
+                        if (adgangskode.length() >= 10) {
+                            gemAdgangskode(adgangskode, medlemsid);
+                        }
+                        else {
+                            Toast.makeText(getApplicationContext(),
+                                    "Adgangskoden skal minimum være 10 karakterer!",
+                                    Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(),
+                                "Adgangskoderne er ikke identiske",
+                                Toast.LENGTH_LONG)
+                                .show();
+                    }
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),
+                            "Begge felter skal udfyldes",
+                            Toast.LENGTH_LONG)
+                            .show();
                 }
             }
         });
     }
 
-    private void gemAdgangskode(final String medlemsid, final String adgangskode){
+    private void gemAdgangskode(final String adgangskode, final String medlemsid){
         // Tag used to cancel the request
         String tag_string_req = "req_register";
 
-        pDialog.setMessage("Registering ...");
+        pDialog.setMessage("Gemmer adgangskode");
         showDialog();
 
         StringRequest strReq = new StringRequest(Request.Method.POST,
@@ -114,9 +136,7 @@ public class RedigeringController extends Activity {
                     if (!error) {
                         // User successfully stored in MySQL
                         // Now store the user in sqlite
-
-
-                        String uid = jObj.getString("uid");
+                        //String uid = jObj.getString("uid");
                         /*
                         JSONObject user = jObj.getJSONObject("user");
                         String name = user.getString("name");
@@ -143,6 +163,7 @@ public class RedigeringController extends Activity {
                         Toast.makeText(getApplicationContext(),errorMsg, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {
+                    Toast.makeText(getApplicationContext(), "Adgangskoden er gemt", Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
             }
@@ -161,8 +182,8 @@ public class RedigeringController extends Activity {
             protected Map<String, String> getParams() {
                 // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
-                //params.put("medlemsid", medlemsid);
                 params.put("adgangskode", adgangskode);
+                params.put("medlemsid", medlemsid);
                 return params;
             }
 

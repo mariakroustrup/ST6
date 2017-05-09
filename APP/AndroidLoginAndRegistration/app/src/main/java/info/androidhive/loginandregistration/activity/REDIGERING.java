@@ -19,7 +19,7 @@ public class REDIGERING extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.redigering);
 
-        Button gem = (Button) findViewById(R.id.gem);
+        Button gem = (Button) findViewById(R.id.btnNyAdgangskode);
         gem.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

@@ -2207,7 +2207,6 @@ containing a value of this type.
         public static final int KOL=0x7f0b006c;
         public static final int Kalender=0x7f0b00bb;
         public static final int Kondi=0x7f0b00c1;
-        public static final int MedlemsID=0x7f0b00b8;
         public static final int OKKat=0x7f0b00a0;
         public static final int OKanbefal=0x7f0b0075;
         public static final int PersonName=0x7f0b00cf;
@@ -2294,7 +2293,7 @@ containing a value of this type.
         public static final int firehelbred=0x7f0b0095;
         public static final int fixed=0x7f0b0037;
         public static final int gange=0x7f0b0077;
-        public static final int gem=0x7f0b00b9;
+        public static final int genadgangskode=0x7f0b00b9;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000f;
         public static final int icon=0x7f0b0042;
@@ -2387,6 +2386,7 @@ containing a value of this type.
         public static final int textView2=0x7f0b00ce;
         public static final int textView3=0x7f0b009e;
         public static final int textView4=0x7f0b009f;
+        public static final int textView6=0x7f0b00b8;
         public static final int tilpasningtekst=0x7f0b00c0;
         public static final int time=0x7f0b00ad;
         public static final int title=0x7f0b0043;

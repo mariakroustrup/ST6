@@ -55,7 +55,7 @@ public class MENU extends AppCompatActivity {
         redigering.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), REDIGERING.class);
+                Intent myIntent = new Intent(view.getContext(), RedigeringController.class);
                 startActivity(myIntent);
             }
         });

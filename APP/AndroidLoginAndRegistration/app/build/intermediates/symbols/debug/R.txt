@@ -561,7 +561,6 @@ int id Fortryd 0x7f0b00b6
 int id KOL 0x7f0b006c
 int id Kalender 0x7f0b00bb
 int id Kondi 0x7f0b00c1
-int id MedlemsID 0x7f0b00b8
 int id OKKat 0x7f0b00a0
 int id OKanbefal 0x7f0b0075
 int id PersonName 0x7f0b00cf
@@ -648,7 +647,7 @@ int id fire 0x7f0b0081
 int id firehelbred 0x7f0b0095
 int id fixed 0x7f0b0037
 int id gange 0x7f0b0077
-int id gem 0x7f0b00b9
+int id genadgangskode 0x7f0b00b9
 int id home 0x7f0b0004
 int id homeAsUp 0x7f0b000f
 int id icon 0x7f0b0042
@@ -741,6 +740,7 @@ int id textView 0x7f0b006b
 int id textView2 0x7f0b00ce
 int id textView3 0x7f0b009e
 int id textView4 0x7f0b009f
+int id textView6 0x7f0b00b8
 int id tilpasningtekst 0x7f0b00c0
 int id time 0x7f0b00ad
 int id title 0x7f0b0043

@@ -94,6 +94,8 @@ public class LoginActivity extends Activity {
 
     }
 
+
+
     /**
      * function to verify login details in mysql db
      */
@@ -133,9 +135,17 @@ public class LoginActivity extends Activity {
                         db.addUser(navn, medlemsid, uid, kategorisering);
 
                         // Launch main activity
-                        Intent intent = new Intent(LoginActivity.this, MENU.class);
-                        startActivity(intent);
-                        finish();
+                        if(kategorisering.equals("F")){
+                            Intent intent = new Intent(LoginActivity.this, KATEGORISERING.class);
+                            startActivity(intent);
+                            finish();
+
+                        }
+                        else{
+                            Intent intent = new Intent(LoginActivity.this, MENU.class);
+                            startActivity(intent);
+                            finish();
+                        }
                     } else {
                         // Error in login. Get the error message
                         String errorMsg = jObj.getString("error_msg");

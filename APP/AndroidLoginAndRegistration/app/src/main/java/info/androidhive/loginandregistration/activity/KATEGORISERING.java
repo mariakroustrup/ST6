@@ -19,7 +19,7 @@ import info.androidhive.loginandregistration.R;
 
 
 public class KATEGORISERING extends AppCompatActivity{
-
+    String ABCD;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -193,10 +193,8 @@ public class KATEGORISERING extends AppCompatActivity{
 
     }
 
-    // Indlæg
-
+    // Håndtering af indlæggelser
     int result;
-
     public void ButtonOnClick(View view) {
 
         switch (view.getId()) {
@@ -211,8 +209,6 @@ public class KATEGORISERING extends AppCompatActivity{
                 start(1);
                 break;
         }
-
-
     }
 
     // Gør knapper videre knappen synlig når en af de andre knapper trykkes på
@@ -244,29 +240,32 @@ public class KATEGORISERING extends AppCompatActivity{
     public void beregnIndlaeg(int i) {
 
         int CATscore = sum(list);
-        int ABCD = 1;
 
         if (CATscore < 10 && result == 0) {
-            ABCD = 1;
+            ABCD = "A";
             TextView textView = (TextView) findViewById(R.id.ABCD);
             textView.setText("A");
         } else if (CATscore < 10 && result == 1) {
-            ABCD = 3;
+            ABCD = "C";
             TextView textView = (TextView) findViewById(R.id.ABCD);
             textView.setText("C");
         } else if (CATscore >= 10 && result == 0) {
-            ABCD = 2;
+            ABCD = "B";
             TextView textView = (TextView) findViewById(R.id.ABCD);
             textView.setText("B");
         } else if (CATscore >= 10 && result == 1) {
-            ABCD = 4;
+            ABCD = "D";
             TextView textView = (TextView) findViewById(R.id.ABCD);
             textView.setText("D");
         }   Button ABCDVidere= (Button) findViewById(R.id.ABCDVidere);
         ABCDVidere.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-              Intent myIntent = new Intent(KATEGORISERING.this, MENU.class);
+                //gemKategoriseringen();
+                Intent myIntent = new Intent(KATEGORISERING.this, MENU.class);
                 startActivity(myIntent); }});}
 
+    public void gemKategoriseringen (final String medlemsid, final String ABCD){
+        
+    }
 }
 
