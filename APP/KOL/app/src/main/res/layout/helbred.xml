@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textHelbred1"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Inden du kan starte træningen, bedes du angive din helbredstilstand, således et træningsniveau kan tilpasses dig."
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/enhelbred"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Meget dårligt"
+            android:onClick="ButtonOnClick3"
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/tohelbred"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Dårligt"
+            android:onClick="ButtonOnClick3"
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/trehelbred"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Moderat"
+            android:onClick="ButtonOnClick3"
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/firehelbred"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Godt"
+            android:onClick="ButtonOnClick3"
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/femhelbred"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Meget godt"
+            android:onClick="ButtonOnClick3"
+            android:visibility="visible"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/Viderehelbred"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:text="Videre"/>
+
+</LinearLayout>

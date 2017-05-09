@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/1d5e29f9ee8658967bf9c021e70e6dde2c58b91f/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_506d4ca9638353fa2a62aee36d505adcac352f5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/1d5e29f9ee8658967bf9c021e70e6dde2c58b91f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/classes_5e2a12dc0c06506a71733e18e2a9e2b1753f9cd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_20926568697b858d7c69826a3a2f3f7d25651fe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/a0c06d706f3465fb248662a1b9d2b4036dec4f2a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/classes_8882002b5aba3f5261119403d91c73f4f82e54c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/c4ee1100493cb8700c34016972bbf0182b497e0b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/classes_b9f9a86c8fcb998952c20ebea1036254a1984531.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/f12168ca3df36563f64faaaefcb8245a6d97c659/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/classes_0c22d0e8a72cc556d5aa4cc073beafc76d80cc34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maria/.android/build-cache/e2eb1947369eb4f2e7451ba784652a835715cc61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/Maria/Desktop/ST6/APP/Backup - Log og Reg v2/AndroidLoginAndRegistration/app/build/intermediates/pre-dexed/debug/classes_2716d648e60bef648414d31c24a1f33241154e5b.jar" />
+    </item>
+
+</items>

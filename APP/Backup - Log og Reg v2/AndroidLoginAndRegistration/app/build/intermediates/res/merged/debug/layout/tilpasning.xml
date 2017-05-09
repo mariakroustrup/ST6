@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tilpasningtekst"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Vælg træningstype"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/Kondi"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Konditionstræning"
+        android:onClick="ButtonOnClick2" />
+
+    <Button
+        android:id="@+id/Styrke"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Styrketræning"
+        android:onClick="ButtonOnClick2"/>
+
+    <Button
+        android:id="@+id/vejr"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Vejrtrækningsøvelse"
+        android:onClick="ButtonOnClick2"/>
+
+    <Button
+        android:id="@+id/VidereTilpasning"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="240dp"
+        android:text="Videre"
+        android:visibility="invisible"/>
+
+</LinearLayout>
