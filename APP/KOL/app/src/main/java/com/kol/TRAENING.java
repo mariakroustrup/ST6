@@ -96,6 +96,7 @@ public class TRAENING extends AppCompatActivity {
 
                 StartTime = SystemClock.uptimeMillis();
                 handler.postDelayed(runnable, 0);
+
             }
 
         });
@@ -205,11 +206,11 @@ public class TRAENING extends AppCompatActivity {
         }
 
         // this code won't execute IF permissions are not allowed, because in the line above there is return statement.
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+    start.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
                 //noinspection MissingPermission
-                locationManager.requestLocationUpdates("gps", 5000, 0, locationListener);
+               locationManager.requestLocationUpdates("gps", 5000, 0, locationListener);
 
             }
         });
