@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         LogInd.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), TRAENING.class);
+                Intent myIntent = new Intent(view.getContext(), KATEGORISERING.class);
                 startActivity(myIntent);
         }
         });
