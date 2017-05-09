@@ -29,6 +29,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static android.R.attr.onClick;
 import static android.R.attr.width;
 
 /**
@@ -36,7 +37,7 @@ import static android.R.attr.width;
  */
 
 public class TRAENING extends AppCompatActivity {
-
+    // det her er til timer
     TextView textViewTimer, textViewKm;
     Button start, stop;// reset;
     long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
@@ -46,8 +47,6 @@ public class TRAENING extends AppCompatActivity {
     RelativeLayout positionOfPopup;
 
     // det her er til GPS
-    private Button button;
-    private TextView textView, textView10, textView11;
     private LocationManager locationManager;
     private LocationListener locationListener;
     double lat2;
@@ -56,7 +55,6 @@ public class TRAENING extends AppCompatActivity {
 
     ArrayList<Double> listLat = new ArrayList<Double>();
     ArrayList<Double> listLng = new ArrayList<Double>();
-
 
     // her starter timer
     public Runnable runnable = new Runnable() {
@@ -69,7 +67,7 @@ public class TRAENING extends AppCompatActivity {
             Seconds = Seconds % 60;
             MilliSeconds = (int) (UpdateTime % 1000);
 
-            textView.setText("" + Minutes + ":" + String.format("%02d", Seconds) + ":" + String.format("%03d", MilliSeconds));
+            textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds) + ":" + String.format("%03d", MilliSeconds));
 
             handler.postDelayed(this, 0);
         }
@@ -90,7 +88,7 @@ public class TRAENING extends AppCompatActivity {
         handler = new Handler();
 
 
-        start.setOnClickListener(new View.OnClickListener() {
+      /*  start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -99,7 +97,7 @@ public class TRAENING extends AppCompatActivity {
 
             }
 
-        });
+        });*/
 
 
         stop.setOnClickListener(new View.OnClickListener() {
@@ -142,14 +140,13 @@ public class TRAENING extends AppCompatActivity {
 
         // her starter GPS
 
-        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+       locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
         locationListener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) { //Kaldes nÂr lokation opdateres.
 
               /*  textView.append("\n " + location.getLatitude() + " " + location.getLongitude());*/
-
 
                 lat2 = location.getLatitude();
                 lng2 = location.getLongitude();
@@ -207,10 +204,12 @@ public class TRAENING extends AppCompatActivity {
 
         // this code won't execute IF permissions are not allowed, because in the line above there is return statement.
     start.setOnClickListener(new View.OnClickListener() {
-           @Override
            public void onClick(View view) {
                 //noinspection MissingPermission
                locationManager.requestLocationUpdates("gps", 5000, 0, locationListener);
+
+               StartTime = SystemClock.uptimeMillis();
+               handler.postDelayed(runnable, 0);
 
             }
         });
