@@ -33,7 +33,6 @@
         <activity
             android:name="info.androidhive.loginandregistration.activity.RedigeringController"
             android:launchMode="singleTop" />
-        <activity android:name="info.androidhive.loginandregistration.activity.KATEGORISERING" />
         <activity android:name="info.androidhive.loginandregistration.activity.MENU" />
         <activity android:name="info.androidhive.loginandregistration.activity.LOGUD" />
         <activity android:name="info.androidhive.loginandregistration.activity.REDIGERING" />

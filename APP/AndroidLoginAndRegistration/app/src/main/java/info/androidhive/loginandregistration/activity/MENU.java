@@ -10,13 +10,19 @@ import android.view.View;
 import android.widget.Button;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
 
 
 public class MENU extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
+
+
 
         Button traening = (Button) findViewById(R.id.traening);
         traening.setOnClickListener(new View.OnClickListener(){
@@ -54,7 +60,7 @@ public class MENU extends AppCompatActivity {
             }
         });
 
-        Button logud = (Button) findViewById(R.id.LogUd);
+        Button logud = (Button) findViewById(R.id.btnLogout);
         logud.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -62,5 +68,7 @@ public class MENU extends AppCompatActivity {
             }
         });
     }
+
+
 
 }

@@ -7,7 +7,7 @@
 
 
     <Button
-        android:id="@+id/LogUd"
+        android:id="@+id/btnLogout"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginLeft="260dp"

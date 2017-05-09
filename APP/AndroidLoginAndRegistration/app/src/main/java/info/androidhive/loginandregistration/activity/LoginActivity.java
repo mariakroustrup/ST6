@@ -39,7 +39,7 @@ public class LoginActivity extends Activity {
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
-    public static String URL_LOGIN = "http://172.31.157.156/android_login_api/login.php";
+    public static String URL_LOGIN = "http://172.31.159.63/android_login_api/login.php";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,7 +66,7 @@ public class LoginActivity extends Activity {
         // Check if user is already logged in or not
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, MENU.class);
             startActivity(intent);
             finish();
         }
@@ -133,7 +133,7 @@ public class LoginActivity extends Activity {
                         db.addUser(navn, medlemsid, uid, kategorisering);
 
                         // Launch main activity
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, MENU.class);
                         startActivity(intent);
                         finish();
                     } else {

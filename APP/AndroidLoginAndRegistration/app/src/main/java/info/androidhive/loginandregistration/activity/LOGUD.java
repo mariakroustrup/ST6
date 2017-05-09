@@ -11,14 +11,26 @@ import android.view.View;
 import android.widget.Button;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
 
 
 public class LOGUD extends AppCompatActivity{
+
+    private SQLiteHandler db;
+    private SessionManager session;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.popupwindow);
+
+        // SqLite database handler
+        db = new SQLiteHandler(getApplicationContext());
+
+        // session manager
+        session = new SessionManager(getApplicationContext());
+
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
 
@@ -31,7 +43,8 @@ public class LOGUD extends AppCompatActivity{
         Bekræft.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), MENU.class);
+                logoutUser();
+                Intent myIntent = new Intent(view.getContext(), LoginActivity.class);
                 startActivity(myIntent);
             }
         });
@@ -40,9 +53,20 @@ public class LOGUD extends AppCompatActivity{
         Fortryd.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), MainActivity.class);
+                Intent myIntent = new Intent(view.getContext(), MENU.class);
                 startActivity(myIntent);
             }
         });
+    }
+
+    private void logoutUser() {
+        session.setLogin(false);
+
+        db.deleteUsers();
+
+        // Launching the login activity
+        //  Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        //  startActivity(intent);
+        //  finish();
     }
 }

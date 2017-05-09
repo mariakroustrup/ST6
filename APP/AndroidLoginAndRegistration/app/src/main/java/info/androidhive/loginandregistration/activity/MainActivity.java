@@ -26,12 +26,12 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.menu);
 
-		txtNavn = (TextView) findViewById(R.id.navn);
-		txtMedlemsid = (TextView) findViewById(R.id.medlemsid);
-		btnLogout = (Button) findViewById(R.id.btnLogout);
-		btnRedigering = (Button) findViewById(R.id.btnRedigering);
+		//txtNavn = (TextView) findViewById(R.id.navn);
+		//txtMedlemsid = (TextView) findViewById(R.id.medlemsid);
+		//btnLogout = (Button) findViewById(R.id.btnLogout);
+		//btnRedigering = (Button) findViewById(R.id.btnRedigering);
 
 
 		// SqLite database handler
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
 
 		String navn = user.get("navn");
 		String medlemsid = user.get("medlemsid");
-		String kategorisering = user.get("kategorisering");
+		//String kategorisering = user.get("kategorisering");
 
 
 		// Displaying the user details on the screen

@@ -32,7 +32,6 @@
 
         <activity android:name=".activity.MainActivity" android:launchMode="singleTop" />
         <activity android:name=".activity.RedigeringController" android:launchMode="singleTop"/>
-        <activity android:name=".activity.KATEGORISERING"></activity>
         <activity android:name=".activity.MENU"></activity>
         <activity android:name=".activity.LOGUD"></activity>
         <activity android:name=".activity.REDIGERING"></activity>

@@ -37,7 +37,7 @@ public class RedigeringController extends Activity {
     private SQLiteHandler db;
     private SessionManager session;
     private ProgressDialog pDialog;
-    public static String URL_ADGANGSKODE = "http://172.31.157.156/android_login_api/register.php";
+    public static String URL_ADGANGSKODE = "http://172.31.159.63/android_login_api/register.php";
     private static final String TAG = RedigeringController.class.getSimpleName();
 
     @Override
