@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\passw\Projekter_Virker\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="475572702daac260672979f85cf6b1f3de01e045">
+        <dex dex="C:\Users\passw\Projekter_Virker\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4d4db1ab59cbaeab92a1d01498466acf3b765f7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\passw\Projekter_Virker\Backup - Log og Reg v2\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\passw\Projekter_Virker\Backup - Log og Reg v2\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_851dd83b6e1420d6ba4f74fe6e6c4f019c2bcf23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\passw\Projekter_Virker\Backup - Log og Reg v2\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c93a0dfe084d2ce61a9210cc4f0746f81808b76e">
+        <dex dex="C:\Users\passw\Projekter_Virker\Backup - Log og Reg v2\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c76b10d1e0a1c15656102d4031c0c50976f21878\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\passw\Projekter_Virker\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\passw\Projekter_Virker\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_08346cb69bfeb4e0b54a002be3cdc1026b5681e4\classes.dex" />
+    </item>
+
+</items>
