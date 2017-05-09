@@ -14,7 +14,7 @@ Databasen indeholder Brugeroplysninger, Venneliste og KonditionResultater. Bruge
 Designet af databasen er beskrevet i et ER-diagram og vil fremgå af \autoref{sec:ER}. \textit{Database} controlleren indeholder metoderne Gem, Send og Modtag. Disse har til formål at kommunikere mellem databasen og de forskellige controllere. Der oprettes forbindelse til denne ved log ind, hvor Brugeroplysninger, Venneliste og KonditionResultater sendes og gemmes i forskellige entitys.
 
 \subsection*{Lagring af data}  \label{sec:entity}
-Når der oprettes forbindelse til databasen ved log ind, sendes og gemmes data i tre forskellige entity, som fremgår af \autoref{fig:MVCEntity}. Der er valgt at udarbejde entitys for ikke at skulle tilgå databasen hver gang data skal hentes. Dertil er det også muligt at opdele data, som har med en specifik controller at gøre, så irrelevant data undgås. 
+Når der oprettes forbindelse til databasen i forbindelse med, at brugeren logger ind på app'en, sendes og gemmes data i tre forskellige entity, som fremgår af \autoref{fig:MVCEntity}. Der er valgt at udarbejde entitys for ikke at skulle tilgå databasen hver gang data skal hentes. Dertil er det også muligt at opdele data, som har med en specifik controller at gøre, så irrelevant data undgås. 
 
 \begin{figure} [H]
 \centering
