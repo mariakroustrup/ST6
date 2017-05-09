@@ -85,7 +85,7 @@ public class LoginActivity extends Activity {
                 } else {
                     // Prompt user to enter credentials
                     Toast.makeText(getApplicationContext(),
-                            "Please enter the credentials!", Toast.LENGTH_LONG)
+                            "Angiv log ind informationer", Toast.LENGTH_LONG)
                             .show();
                 }
             }
@@ -138,13 +138,12 @@ public class LoginActivity extends Activity {
                         if(kategorisering.equals("F")){
                             Intent intent = new Intent(LoginActivity.this, KATEGORISERING.class);
                             startActivity(intent);
-                            finish();
-
+                            //finish();
                         }
                         else{
                             Intent intent = new Intent(LoginActivity.this, MENU.class);
                             startActivity(intent);
-                            finish();
+                            //finish();
                         }
                     } else {
                         // Error in login. Get the error message

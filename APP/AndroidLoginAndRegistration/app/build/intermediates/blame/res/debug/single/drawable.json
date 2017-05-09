@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\.android\\build-cache\\f12168ca3df36563f64faaaefcb8245a6d97c659\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\.android\\build-cache\\f12168ca3df36563f64faaaefcb8245a6d97c659\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\.android\\build-cache\\e2eb1947369eb4f2e7451ba784652a835715cc61\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\.android\\build-cache\\f12168ca3df36563f64faaaefcb8245a6d97c659\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\.android\\build-cache\\e2eb1947369eb4f2e7451ba784652a835715cc61\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\Maria\\Desktop\\ST6\\APP\\Backup - Log og Reg v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
