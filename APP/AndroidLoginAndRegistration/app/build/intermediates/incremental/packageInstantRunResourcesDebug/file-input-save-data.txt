@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 09 14:27:02 CEST 2017
+#Tue May 09 16:33:52 CEST 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_chronometer.xml
 118.set=ANDROID_RESOURCE

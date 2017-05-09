@@ -5,25 +5,52 @@ package info.androidhive.loginandregistration.activity;
  * Created by Maria on 09/05/2017.
  */
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppController;
+import info.androidhive.loginandregistration.helper.SQLiteHandler;
+import info.androidhive.loginandregistration.helper.SessionManager;
 
 
 public class KATEGORISERING extends AppCompatActivity{
     String ABCD;
+    private ProgressDialog pDialog;
+    public static final String URL_KATEGORISERING = "http://172.31.159.63/android_login_api/kategorisering.php";
+    private static final String TAG = KATEGORISERING.class.getSimpleName();
+    private SQLiteHandler db;
+    private SessionManager session;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kategoriseringintro);
+
+        //Progress Dialog
+        pDialog = new ProgressDialog(this);
+        pDialog.setCancelable(false);
 
         Button OKKat= (Button) findViewById(R.id.OKKat);
         OKKat.setOnClickListener(new View.OnClickListener(){
@@ -239,6 +266,17 @@ public class KATEGORISERING extends AppCompatActivity{
 
     public void beregnIndlaeg(int i) {
 
+        db = new SQLiteHandler(getApplicationContext());
+
+        // session manager
+        session = new SessionManager(getApplicationContext());
+
+        // Fetching user details from SQLite
+        HashMap<String, String> user = db.getUserDetails();
+
+        // Vises i den respektive TextView
+        final String medlemsid = user.get("medlemsid");
+
         int CATscore = sum(list);
 
         if (CATscore < 10 && result == 0) {
@@ -260,12 +298,76 @@ public class KATEGORISERING extends AppCompatActivity{
         }   Button ABCDVidere= (Button) findViewById(R.id.ABCDVidere);
         ABCDVidere.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                //gemKategoriseringen();
+                db.updateKat(medlemsid,ABCD);
+                gemKategoriseringen(ABCD,medlemsid);
                 Intent myIntent = new Intent(KATEGORISERING.this, MENU.class);
                 startActivity(myIntent); }});}
 
-    public void gemKategoriseringen (final String medlemsid, final String ABCD){
-        
+
+
+    private void gemKategoriseringen (final String ABCD, final String medlemsid) {
+        String tag_string_req = "req_kategorisering";
+
+        // Viser at kategoriseringen er ved at blive gemt
+        pDialog.setMessage("Gemmer kategoriseringen");
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Request.Method.POST,
+                URL_KATEGORISERING, new Response.Listener<String>() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, "Kategorisering Response: " + response.toString());
+                hideDialog();
+
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    boolean error = jObj.getBoolean("error");
+
+                    if (!error) {
+                        Toast.makeText(getApplicationContext(), "aaaaaaaaa", Toast.LENGTH_LONG).show();
+                    } else {
+                        String errorMsg = jObj.getString("error_msg");
+                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+                    }
+                } catch (JSONException e) {
+                    Toast.makeText(getApplicationContext(), "Kategoriseringen er gemt", Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener(){
+
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "Registration Error: " + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to register url
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("ABCD", ABCD);
+                params.put("medlemsid", medlemsid);
+                return params;
+            }
+        };
+
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    }
+    private void showDialog() {
+        if (!pDialog.isShowing())
+            pDialog.show();
+    }
+
+    private void hideDialog() {
+        if (pDialog.isShowing())
+            pDialog.dismiss();
     }
 }
 

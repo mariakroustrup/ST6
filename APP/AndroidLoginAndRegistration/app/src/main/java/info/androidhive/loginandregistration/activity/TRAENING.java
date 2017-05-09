@@ -72,7 +72,7 @@ public class TRAENING extends AppCompatActivity {
             Seconds = Seconds % 60;
             MilliSeconds = (int) (UpdateTime % 1000);
 
-            textView.setText("" + Minutes + ":" + String.format("%02d", Seconds) + ":" + String.format("%03d", MilliSeconds));
+            textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds) + ":" + String.format("%03d", MilliSeconds));
 
             handler.postDelayed(this, 0);
         }

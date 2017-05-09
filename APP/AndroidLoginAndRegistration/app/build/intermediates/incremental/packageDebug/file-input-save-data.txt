@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 09 14:27:04 CEST 2017
+#Tue May 09 16:33:53 CEST 2017
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png
 118.set=ANDROID_RESOURCE

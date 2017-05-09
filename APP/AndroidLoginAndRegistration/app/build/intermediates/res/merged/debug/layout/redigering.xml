@@ -28,7 +28,7 @@
 
     <TextView
         android:id="@+id/navn"
-        android:layout_width="120dp"
+        android:layout_width="300dp"
         android:layout_height="30dp"
         android:layout_marginLeft="20dp"
         android:textSize="20dp" />
@@ -97,7 +97,7 @@
         android:layout_gravity="center"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Gem Ændringer" />
+        android:text="Gem adgangskode" />
 
 
 

@@ -80,6 +80,21 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		Log.d(TAG, "New user inserted into sqlite: " + id);
 	}
 
+	public void updateKat (String medlemsid, String kategorisering){
+		SQLiteDatabase db = this.getWritableDatabase();
+
+		ContentValues values = new ContentValues();
+		values.put(KEY_KATEGORISERING, kategorisering);
+
+		// Updating Row
+		long id = db.update(TABLE_USER, values, KEY_MEDLEMSID +" = "+medlemsid, null);
+		db.close();
+
+		Log.d(TAG, "Kategorisering is updated in sqlite: " + id);
+
+	}
+
+
 	/**
 	 * Getting user data from database
 	 * */

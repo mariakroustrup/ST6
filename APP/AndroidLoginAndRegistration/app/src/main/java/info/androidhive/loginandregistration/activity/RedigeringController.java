@@ -117,7 +117,7 @@ public class RedigeringController extends Activity {
 
     private void gemAdgangskode(final String adgangskode, final String medlemsid){
         // Tag used to cancel the request
-        String tag_string_req = "req_register";
+        String tag_string_req = "req_register2";
 
         pDialog.setMessage("Gemmer adgangskode");
         showDialog();
