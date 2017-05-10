@@ -34,8 +34,7 @@
 \contentsline {section}{\numberline {5.3}Funktionalitet}{21}{section.5.3}
 \contentsline {chapter}{\chapternumberline {6}Systemdesign}{36}{chapter.6}
 \contentsline {section}{\numberline {6.1}Designafgr\IeC {\ae }nsning}{36}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Brugervenlighed}{36}{subsection.6.1.1}
-\contentsline {section}{\numberline {6.2}Objektorienteret design}{37}{section.6.2}
+\contentsline {section}{\numberline {6.2}Objektorienteret design}{36}{section.6.2}
 \contentsline {section}{\numberline {6.3}Design af database}{61}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}ER-diagram}{61}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Schema}{62}{subsection.6.3.2}
@@ -43,17 +42,16 @@
 \contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{63}{subsection.7.0.1}
 \contentsline {subsection}{\numberline {7.0.2}Implementering af database}{63}{subsection.7.0.2}
 \contentsline {chapter}{\chapternumberline {8}Test}{64}{chapter.8}
-\contentsline {subsection}{\numberline {8.0.1}Test af kravsspecifikationer}{64}{subsection.8.0.1}
-\contentsline {subsubsection}{Database}{64}{section*.88}
-\contentsline {subsubsection}{Log ind}{64}{section*.90}
-\contentsline {subsubsection}{Kategorisering}{65}{section*.92}
-\contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ning}{65}{section*.94}
-\contentsline {subsubsection}{Tr\IeC {\ae }ning}{67}{section*.97}
-\contentsline {subsubsection}{Resultater}{67}{section*.99}
-\contentsline {subsubsection}{Venneliste}{68}{section*.101}
-\contentsline {subsubsection}{Redigering}{69}{section*.103}
-\contentsline {subsubsection}{Log ud}{69}{section*.105}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{70}{chapter.9}
-\contentsline {chapter}{Litteratur}{71}{section*.108}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{75}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{75}{section.A.1}
+\contentsline {section}{\numberline {8.1}Database}{64}{section.8.1}
+\contentsline {section}{\numberline {8.2}Log ind}{65}{section.8.2}
+\contentsline {section}{\numberline {8.3}Kategorisering}{65}{section.8.3}
+\contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ningsniveau}{66}{section*.91}
+\contentsline {subsubsection}{Tr\IeC {\ae }ning}{67}{section*.94}
+\contentsline {subsubsection}{Resultater}{68}{section*.96}
+\contentsline {subsubsection}{Venneliste}{69}{section*.98}
+\contentsline {subsubsection}{Redigering}{70}{section*.100}
+\contentsline {subsubsection}{Log ud}{70}{section*.102}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{72}{chapter.9}
+\contentsline {chapter}{Litteratur}{73}{section*.105}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{77}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{77}{section.A.1}

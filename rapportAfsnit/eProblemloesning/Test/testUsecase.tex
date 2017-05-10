@@ -1,15 +1,17 @@
-\subsection{Test af kravsspecifikationer}
-
-\subsubsection{Database}
-
+\section{Database}
+Databasen anvendes i forbindelse med registrering af brugere. Derudover skal det være muligt for systemet at hente og gemme data i en database. Der blev opstillet følgende funktionelle krav til database:
+ 
 \begin{itemize}
-\item Sundhedspersonalet skal kunne oprette brugere i en database
+\item Sundhedspersonalet \textcolor{red}{kan vi teste dette} skal kunne oprette brugere i en database
 \\
 \textit{Dette er nødvendigt for, at brugere kan anvende app’en}
 \item Systemet skal kunne gemme og hente data i en database
 \\
 \textit{Dette er nødvendigt for, at brugere kan tilgå brugerdata}
 \end{itemize}
+
+\noindent
+For at teste om de opstillede krav til database er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
 
 \begin{table} [H]
 	\centering
@@ -36,13 +38,17 @@
 \end{table}
 
 
-\subsubsection{Log ind}
+\section{Log ind}
+Log ind anvendes for at adskille at brugere, som er registeret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere der bliver registeret i databasen. Der er opstillet funktionelle krav til log ind:
 
 \begin{itemize}
 \item Brugere skal kunne log ind med et medlemsID og adgangskode, \textcolor{red}{der er registreret i databasen}
 \\
 \textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
 \end{itemize}
+
+\noindent
+Til at teste, hvorvidt kravene til log ind er opfyldt udføres testen, der fremgår af \autoref{fig:Designlogind}.
 
 \begin{table} [H]
 	\centering
@@ -69,14 +75,17 @@
     \label{tab:testLogInd}
 \end{table}
 
-\subsubsection{Kategorisering}
+\section{Kategorisering}
+Kategoriseringen skal foretages første gang brugeren logger ind i app'en og skal være en parameter i tilpasningen af et træningsniveau for den enkelte bruger. Følgende krav blev opstillet til kategoriseringen:
 
 \begin{itemize}
-\item Systemet skal kunne kategorisere brugere i ABCD \textcolor{red}{efter brugeren har angivet svar på udsagn fra CATscore og antallet af årlige indlæggelser på grund af KOL.}
+\item Systemet skal kunne kategorisere brugere i ABCD \textcolor{red}{efter brugeren har angivet svar på udsagn fra CATscore og antallet af årlige indlæggelser på grund af KOL. Og kun første gang de logger ind}
 \\
 \textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
 \end{itemize}
 
+\noindent
+Det testes om de opstillede krav til kategorisering er overholdt. Testen fremgår af \autoref{tab:testKategorisering}.
 
 \begin{table} [H]
 	\centering
@@ -99,32 +108,29 @@
 4.~ Få en samlet CATscore over 10. (“5,1,2,3,4,5,1,5), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“1 ELLER FLERE INDLÆGGELSER”).
 \begin{itemize}[label={\checkmark}]
 \item Forventet kategorisering er D.
-\end{itemize}
- \\  \hline
+\end{itemize}   \\ \hline
  \textbf{Resultat} &\\ \hline
    \end{tabular}
    \caption{Test af kategorisering}
-    \label{tab:testLogInd}
+    \label{tab:testKategorisering}
 \end{table}
 
-\subsubsection{Tilpasning af træning}
-
-(Da der er afgrænset til konditionstræning testes der kun for konditionstræning) + den er opdelt i uden og med evaluering
+\subsubsection{Tilpasning af træningsniveau}
+I tilpasningen af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametre som kategorisering, daglig helbredstilstand og tidligere evalueringer af træninger. Følgende krav blev opstillet til tilpasningen af træningsnivauet: 
 
 \begin{itemize}
 \item Brugere skal kunne angive deres daglige helbredstilstand
 \\
 \textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
-\item \textcolor{red}{Brugeren skal kunne angive ønskede træningsform og træningstype}
-\\
-\textit{\textcolor{red}{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger og tage højde for brugerens ønsker}}
 \end{itemize}
 
+\noindent
+Da der blev afgrænset til konditionstræning er testen kun udført med konditionstræning. Derudover er testen opdelt i med og uden evaluering, da der ved første anvendelse ikke eksisterer en evaluering. Testen for tilpasning af træningsniveau uden evaluering fremgår af \autoref{tab:testTilpasningudenevaluering} og med evaluering af \autoref{tab:testTilpasningmedevaluering}.
 
 \begin{table} [H]
 	\centering
   \begin{tabular}{ | l | p{14cm} |} \hline
-    \textbf{Test:} & Tilpasning af træningsniveau (uden evaluering) \\ \hline
+    \textbf{Test:} & Tilpasning af træningsniveau uden evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
  \\ \hline
  	\textbf{Main flow:} & 1~ Vælg “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “GÅ” og tryk videre. Vælg “MODERAT” og tryk videre.
@@ -142,7 +148,7 @@
  \\  \hline
  \textbf{Resultat} &\\ \hline
    \end{tabular}
-   \caption{Test af tilpasning af træningsniveau (uden evaluering)}
+   \caption{Test af tilpasning af træningsniveau uden evaluering}
     \label{tab:testTilpasningudenevaluering}
 \end{table}
 
@@ -150,7 +156,7 @@
 \begin{table} [H]
 	\centering
   \begin{tabular}{ | l | p{14cm} |} \hline
-    \textbf{Test:} & Tilpasning af træningsniveau (med evaluering) \\ \hline
+    \textbf{Test:} & Tilpasning af træningsniveau med evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
  \\ \hline
  	\textbf{Main flow:} & 1~ Tidligere evaluering af samme træning er: “:)”. 
@@ -171,27 +177,31 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
  \\  \hline
  \textbf{Resultat} &\\ \hline
    \end{tabular}
-   \caption{Test af tilpasning af træningsniveau (med evaluering)}
+   \caption{Test af tilpasning af træningsniveau med evaluering}
     \label{tab:testTilpasningmedevaluering}
 \end{table}
 
 
 \subsubsection{Træning}
+Træning skal muliggøre måling af biologiske målinger under træning, derudover skal brugeren have mulig for at evaluere træningen efterfølgende. For træning er følgende krav opstillet:
 
 \begin{itemize}
 \item Systemet skal kunne \textcolor{red}{måle tid og afstand samt} håndtere målinger fra kompatible måleenheder
 \\
-\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning}
+\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning \textcolor{red}{Det er vel ikke biologiske målinger længere}}
 \item {Brugere skal kunne evaluere hver træning}
 \\
 \textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
 \end{itemize}
 
+\noindent
+For at test, hvorvidt de opstillede krav til træningen er opfyldt udføres testen, som fremgår af \autoref{tab:testTraening}.
+
 \begin{table} [H]
 	\centering
   \begin{tabular}{ | l | p{14cm} |} \hline
     \textbf{Test:} & Træning \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Hvis der er tilkoblet en sensor til måling af optisk oximetri skal dette ligeledes fremgå af grænsefladen for træning. \textcolor{red}{Derudover skal det angive hvis brugeren overanstrenges} Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved at at måle tid, afstand og sensor samt evaluere træningen efterfølgende.
+  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved at at måle tid, afstand og sensor samt evaluere træningen efterfølgende.
  \\ \hline
  	\textbf{Main flow:} & 1.~ Tryk “START TRÆNING” og vent til efter 2 minutter. Tryk herefter “STOP TRÆNING”.
  	\begin{itemize} [label={\checkmark}]
@@ -203,11 +213,7 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
  	\item Forventet afstand ved 0.01 er 1.572 km.
  	\item Forventet afstand ved 0.02 er 3.145 km.
 	\end{itemize}
-	3.~ HER SKAL STÅ OMKRING SENSOREN!!!!!
- \begin{itemize}[label={\checkmark}]
-  \item HER SKAL STÅ OMKRING SENSOREN!!!!!
-  \end{itemize}
-  4.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
+  3.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
   \begin{itemize}[label={\checkmark}]
   \item Forventet evaluering er gemt i databasen.
   \end{itemize}
@@ -220,12 +226,15 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
 
 
 \subsubsection{Resultater}
+Resultater skal motivere brugeren til at udføre træningen. Følgende krav opstillet for resultater:
 \begin{itemize}
-\item Systemet skal kunne sende notifikationer og give virtuelle belønninger
+\item \textcolor{red}{Systemet skal kunne sende notifikationer - synes ikke rigtig det passer ind længere} og give virtuelle belønninger
 \\
 \textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
 \end{itemize}
 
+\noindent
+For at teste om de opstillede krav til resultater er overholdt udføres testen, der fremgår af \autoref{tab:testResultater}.
 
 \begin{table} [H]
 	\centering
@@ -254,12 +263,16 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
 \end{table}
 
 \subsubsection{Venneliste}
+Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge og kunne tilgå andre brugeres virtuelle belønninger. Derudover skal den motivere brugeren til at udføre træning. Følgende krav er opstillet til vennelisten: 
+
 \begin{itemize}
 \item Brugere skal kunne følge andre brugere og \textcolor{red}{tilgå hinandens belønninger}
 \\
 \textit{Dette er nødvendigt for at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
 \end{itemize}
 
+\noindent
+Der testes om ovenstående krav til vennelisten er opfyldt. Testen fremgår af \autoref{tab:testVenneliste}.
 
 \begin{table} [H]
 	\centering
@@ -292,13 +305,16 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
 
 
 \subsubsection{Redigering}
+Redigering skal give brugeren mulighed for at redigere adgangskoden til en personlig adgangskode, da brugeren for udleveret en ved registreringen. Der blev opstillet følgende krav for redigering:
+
 \begin{itemize}
 \item Brugere skal kunne redigere deres adgangskode
 \\
 \textit{Dette er nødvendigt for, at brugere kan ændre adgangskode}
 \end{itemize}
 
-
+\noindent
+Til at teste, hvorvidt kravene til redigering er overholdt udføres testen, som fremgår af \autoref{tab:testRedigering}.
 
 \begin{table} [H]
 	\centering
@@ -323,11 +339,15 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
 
 
 \subsubsection{Log ud}
+Log ud-funktionen skal sikre brugerens individuelle data. De opstillede krav til log ud er følgende:
 \begin{itemize}
 \item Brugere skal kunne log ud \textcolor{red}{af app’en}
 \\
 \textit{Dette er nødvendigt for sikre brugerens individuelle data}
 \end{itemize}
+
+\noindet
+For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \autoref{tab:testLogud}.
 
 \begin{table} [H]
 	\centering
