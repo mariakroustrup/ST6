@@ -1,0 +1,118 @@
+\subsection{Test af kravsspecifikationer}
+
+\subsubsection{Database}
+
+\begin{itemize}
+\item Sundhedspersonalet skal kunne oprette brugere i en database
+\\
+\textit{Dette er nødvendigt for, at brugere kan anvende app’en}
+\item Systemet skal kunne gemme og hente data i en database
+\\
+\textit{Dette er nødvendigt for, at brugere kan tilgå brugerdata}
+\end{itemize}
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Database \\ \hline
+     \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data i databasen. Dette gøres ved at oprette en bruger i databasen, efterfølgende udføre en kategorisering af brugeren i app'en, hvorefter der tjekkes om denne kategorisering er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
+ 	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel ("INTO users ( , , navn, medlemsid, db\_adgangskode,  ) VALUES ( , , Jens Jensen, 01170301, adgangskode, );").
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item  Bruger er oprettet i databasen.
+ 	\end{itemize}
+ 2.~ Åben app’en og log ind med medlemsID og adgangskode. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne (“0,1,2,1,0,1,0,1), tryk videre  efter hver angivet værdi. Herefter vælges antallet af indlæggelser til (“0 INDLÆGGELSER”). 
+ \begin{itemize}[label={\checkmark}]
+ \item Kategorisering er gemt i databasen 
+ \end{itemize}
+3.~ Tryk på "REDIGER ADGANGSKODE" via hovedmenuen.
+\begin{itemize}[label={\checkmark}]
+\item Kategorisering er hentet til rediger adgangskode.
+\end{itemize}
+ \\  \hline
+  \textbf{Resultat} &\\ \hline
+    \end{tabular}
+    \caption{Test af database}
+    \label{tab:testDatabase}
+\end{table}
+
+
+\subsubsection{Log ind}
+
+\begin{itemize}
+\item Brugere skal kunne log ind med et medlemsID og adgangskode, \textcolor{red}{der er registreret i databasen}
+\\
+\textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
+\end{itemize}
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Log ind \\ \hline
+     \textbf{Formål:} & Formålet er at teste hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Indtast et medlemsID, som ikke eksisterer i databasen (“123456”) og en adgangskode som eksisterer i databasen (“adgangskode”) og tryk på log ind knappen.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ 	\end{itemize}
+2.~ Indtast et MedlemsID som eksisterer i databasen (“01170301”) og en adgangskode, som ikke tilhører medlemsID’et (“forkertadgangskode”) og tryk på log ind knappen.
+ \begin{itemize}[label={\checkmark}]
+ \item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ \end{itemize}
+3.~ Indtast et medlemsID ( “01170301”) og et adgangskode ( “adgangskode”) som eksisterer i databasen. 
+\begin{itemize}[label={\checkmark}]
+\item Forventet log ind lykkes.
+\end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+    \end{tabular}
+    \caption{Test af Log ind}
+    \label{tab:testLogInd}
+\end{table}
+
+\subsection{Kategorisering}
+
+\begin{itemize}
+\item Systemet skal kunne kategorisere brugere i ABCD \textcolor{red}{efter brugeren har angivet svar på udsagn fra CATscore og antallet af årlige indlæggelser på grund af KOL.}
+\\
+\textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
+\end{itemize}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Kategorisering \\ \hline
+     \textbf{Formål:} & Formålet er at om systemet kan kategorisere brugere i ABCD efter at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Få en samlet CATscore under 10. (“0,1,2,1,0,1,0,1), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“0 INDLÆGGELSER”). 
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet kategorisering er A.
+ 	\end{itemize}	
+ 	2.~ Få en samlet CATscore over 10. (“5,1,2,3,4,5,1,5), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“0 INDLÆGGELSER”).
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet kategorisering er B.
+ 	\end{itemize}
+3.~ Få en samlet CATscore under 10. (“0,1,2,1,0,1,0,1), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“1 ELLER FLERE INDLÆGGELSER”).
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet kategorisering er C.
+  \end{itemize}
+4.~ Få en samlet CATscore over 10. (“5,1,2,3,4,5,1,5), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“1 ELLER FLERE INDLÆGGELSER”).
+\begin{itemize}[label={\checkmark}]
+\item Forventet kategorisering er D.
+\end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af kategorisering}
+    \label{tab:testLogInd}
+\end{table}
+
+\subsubsection{Tilpasning af træning}
+\begin{itemize}
+\item Brugere skal kunne angive deres daglige helbredstilstand
+\\
+\textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
+\item  \textcolor{red} {Brugeren skal kunne angive ønskede træningsform og træningstype}
+\\
+\textcolor{red}{\textit{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger og tage højde for brugerens ønsker}
+\end{itemize}
