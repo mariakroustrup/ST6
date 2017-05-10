@@ -69,7 +69,7 @@
     \label{tab:testLogInd}
 \end{table}
 
-\subsection{Kategorisering}
+\subsubsection{Kategorisering}
 
 \begin{itemize}
 \item Systemet skal kunne kategorisere brugere i ABCD \textcolor{red}{efter brugeren har angivet svar på udsagn fra CATscore og antallet af årlige indlæggelser på grund af KOL.}
@@ -82,7 +82,7 @@
 	\centering
   \begin{tabular}{ | l | p{14cm} |} \hline
     \textbf{Test:} & Kategorisering \\ \hline
-     \textbf{Formål:} & Formålet er at om systemet kan kategorisere brugere i ABCD efter at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år.
+     \textbf{Formål:} & Formålet er at systemet skal kunne kategorisere brugere i ABCD efter at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier svarende til A, B, C, eller D.
  \\ \hline
  	\textbf{Main flow:} & 1.~ Få en samlet CATscore under 10. (“0,1,2,1,0,1,0,1), tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser (“0 INDLÆGGELSER”). 
  	\begin{itemize} [label={\checkmark}]
@@ -108,11 +108,111 @@
 \end{table}
 
 \subsubsection{Tilpasning af træning}
+
+(Da der er afgrænset til konditionstræning testes der kun for konditionstræning) + den er opdelt i uden og med evaluering
+
 \begin{itemize}
 \item Brugere skal kunne angive deres daglige helbredstilstand
 \\
 \textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
-\item  \textcolor{red} {Brugeren skal kunne angive ønskede træningsform og træningstype}
+\item \textcolor{red}{Brugeren skal kunne angive ønskede træningsform og træningstype}
 \\
-\textcolor{red}{\textit{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger og tage højde for brugerens ønsker}
+\textit{\textcolor{red}{Dette er nødvendigt for at tilpasse træningen for den enkelte bruger og tage højde for brugerens ønsker}}
 \end{itemize}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Tilpasning af træningsniveau (uden evaluering) \\ \hline
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
+ \\ \hline
+ 	\textbf{Main flow:} & 1~ Vælg “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “GÅ” og tryk videre. Vælg “MODERAT” og tryk videre.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 30 min
+ 	\end{itemize}	
+ 	2.~ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “LØB” og tryk videre. Vælg “MEGET DÅRLIGT” og tryk videre.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 10 min
+ 	\end{itemize}
+3.~ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tryk videre. Vælg “MEGET GODT” og tryk videre.
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet anbefaling af træningstid er 50 min
+  \end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af tilpasning af træningsniveau (uden evaluering)}
+    \label{tab:testTilpasningudenevaluering}
+\end{table}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Tilpasning af træningsniveau (med evaluering) \\ \hline
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
+ \\ \hline
+ 	\textbf{Main flow:} & 1~ Tidligere evaluering af samme træning er: “:)”. 
+Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “GÅ” og tryk videre. Vælg “MODERAT” og tryk videre.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 30 min
+ 	\end{itemize}	
+ 	2.~ Tidligere evaluering af samme træning er: “:D”. 
+Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “LØB” og tryk videre. Vælg “MEGET DÅRLIGT” og tryk videre.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 20 min
+ 	\end{itemize}
+3.~ Tidligere evaluering af samme træning er: “:-(”. 
+Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tryk videre. Vælg “MEGET GODT” og tryk videre.
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet anbefaling af træningstid er 40 min
+  \end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af tilpasning af træningsniveau (med evaluering)}
+    \label{tab:testTilpasningmedevaluering}
+\end{table}
+
+
+\subsubsection{Træning}
+
+\begin{itemize}
+\item Systemet skal kunne \textcolor{red}{måle tid og afstand samt} håndtere målinger fra kompatible måleenheder
+\\
+\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning}
+\item {Brugere skal kunne evaluere hver træning}
+\\
+\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
+\end{itemize}
+
+%\begin{table} [H]
+%	\centering
+%  \begin{tabular}{ | l | p{14cm} |} \hline
+%    \textbf{Test:} & Træning \\ \hline
+%     \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Hvis der er tilkoblet en sensor til måling af optisk oximetri skal dette ligeledes fremgå af grænsefladen for træning. \textcolor{red}{Derudover skal det angive hvis brugeren overanstrenges} Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved ...
+ \\ \hline
+% 	\textbf{Main flow:} & 1.~ Tryk “START TRÆNING” og vent til efter 2 minutter. Tryk herefter “STOP TRÆNING”.
+% 	\begin{itemize} [label={\checkmark}]
+% 	\item Forventet tid er over 2 minutter
+% 	\end{itemize}	
+%% 	2.~ Tryk “START TRÆNING” åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter “STOP TRÆNING”.
+%% 	\begin{itemize}[label={\checkmark}]
+%% 	\item Forventet afstand ved 0 er 0 km.
+%% 	\item Forventet afstand ved 0.01 er 1.572 km.
+%% 	\item Forventet afstand ved 0.02 er 3.145 km.
+%%	\end{itemize}
+%%	3.~ HER SKAL STÅ OMKRING SENSOREN!!!!!
+%% \begin{itemize}[label={\checkmark}]
+%%  \item HER SKAL STÅ OMKRING SENSOREN!!!!!
+%%  \end{itemize}
+%%  4.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
+%%  \begin{itemize}[label={\checkmark}]
+%%  \item Forventet evaluering er gemt i databasen.
+%%  \end{itemize}
+%% \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af træning}
+    \label{tab:testTræning}
+\end{table}

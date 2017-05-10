@@ -46,9 +46,10 @@
 \contentsline {subsection}{\numberline {8.0.1}Test af kravsspecifikationer}{64}{subsection.8.0.1}
 \contentsline {subsubsection}{Database}{64}{section*.88}
 \contentsline {subsubsection}{Log ind}{64}{section*.90}
-\contentsline {subsection}{\numberline {8.0.2}Kategorisering}{65}{subsection.8.0.2}
-\contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ning}{65}{section*.93}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{67}{chapter.9}
-\contentsline {chapter}{Litteratur}{68}{section*.95}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{71}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{71}{section.A.1}
+\contentsline {subsubsection}{Kategorisering}{65}{section*.92}
+\contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ning}{65}{section*.94}
+\contentsline {subsubsection}{Tr\IeC {\ae }ning}{67}{section*.97}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{68}{chapter.9}
+\contentsline {chapter}{Litteratur}{69}{section*.100}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{73}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{73}{section.A.1}
