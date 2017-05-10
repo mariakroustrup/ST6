@@ -45,13 +45,13 @@
 \contentsline {section}{\numberline {8.1}Database}{64}{section.8.1}
 \contentsline {section}{\numberline {8.2}Log ind}{65}{section.8.2}
 \contentsline {section}{\numberline {8.3}Kategorisering}{65}{section.8.3}
-\contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ningsniveau}{66}{section*.91}
-\contentsline {subsubsection}{Tr\IeC {\ae }ning}{67}{section*.94}
-\contentsline {subsubsection}{Resultater}{68}{section*.96}
-\contentsline {subsubsection}{Venneliste}{69}{section*.98}
-\contentsline {subsubsection}{Redigering}{70}{section*.100}
-\contentsline {subsubsection}{Log ud}{70}{section*.102}
+\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{66}{section.8.4}
+\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{67}{section.8.5}
+\contentsline {section}{\numberline {8.6}Resultater}{68}{section.8.6}
+\contentsline {section}{\numberline {8.7}Venneliste}{69}{section.8.7}
+\contentsline {section}{\numberline {8.8}Redigering}{70}{section.8.8}
+\contentsline {section}{\numberline {8.9}Log ud}{71}{section.8.9}
 \contentsline {chapter}{\chapternumberline {9}Syntese}{72}{chapter.9}
-\contentsline {chapter}{Litteratur}{73}{section*.105}
+\contentsline {chapter}{Litteratur}{73}{section*.99}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{77}{appendix.A}
 \contentsline {section}{\numberline {A.1}Bilag A}{77}{section.A.1}
