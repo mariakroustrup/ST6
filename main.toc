@@ -49,7 +49,11 @@
 \contentsline {subsubsection}{Kategorisering}{65}{section*.92}
 \contentsline {subsubsection}{Tilpasning af tr\IeC {\ae }ning}{65}{section*.94}
 \contentsline {subsubsection}{Tr\IeC {\ae }ning}{67}{section*.97}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{68}{chapter.9}
-\contentsline {chapter}{Litteratur}{69}{section*.100}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{73}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{73}{section.A.1}
+\contentsline {subsubsection}{Resultater}{67}{section*.99}
+\contentsline {subsubsection}{Venneliste}{68}{section*.101}
+\contentsline {subsubsection}{Redigering}{69}{section*.103}
+\contentsline {subsubsection}{Log ud}{69}{section*.105}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{70}{chapter.9}
+\contentsline {chapter}{Litteratur}{71}{section*.108}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{75}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{75}{section.A.1}

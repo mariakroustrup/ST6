@@ -187,32 +187,166 @@ Vælg  “KONDITIONSTRÆNING” og tryk videre. Vælg herefter “CYKEL” og tr
 \textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
 \end{itemize}
 
-%\begin{table} [H]
-%	\centering
-%  \begin{tabular}{ | l | p{14cm} |} \hline
-%    \textbf{Test:} & Træning \\ \hline
-%     \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Hvis der er tilkoblet en sensor til måling af optisk oximetri skal dette ligeledes fremgå af grænsefladen for træning. \textcolor{red}{Derudover skal det angive hvis brugeren overanstrenges} Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved ...
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Træning \\ \hline
+  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Hvis der er tilkoblet en sensor til måling af optisk oximetri skal dette ligeledes fremgå af grænsefladen for træning. \textcolor{red}{Derudover skal det angive hvis brugeren overanstrenges} Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved at at måle tid, afstand og sensor samt evaluere træningen efterfølgende.
  \\ \hline
-% 	\textbf{Main flow:} & 1.~ Tryk “START TRÆNING” og vent til efter 2 minutter. Tryk herefter “STOP TRÆNING”.
-% 	\begin{itemize} [label={\checkmark}]
-% 	\item Forventet tid er over 2 minutter
-% 	\end{itemize}	
-%% 	2.~ Tryk “START TRÆNING” åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter “STOP TRÆNING”.
-%% 	\begin{itemize}[label={\checkmark}]
-%% 	\item Forventet afstand ved 0 er 0 km.
-%% 	\item Forventet afstand ved 0.01 er 1.572 km.
-%% 	\item Forventet afstand ved 0.02 er 3.145 km.
-%%	\end{itemize}
-%%	3.~ HER SKAL STÅ OMKRING SENSOREN!!!!!
-%% \begin{itemize}[label={\checkmark}]
-%%  \item HER SKAL STÅ OMKRING SENSOREN!!!!!
-%%  \end{itemize}
-%%  4.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
-%%  \begin{itemize}[label={\checkmark}]
-%%  \item Forventet evaluering er gemt i databasen.
-%%  \end{itemize}
-%% \textbf{Resultat} &\\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “START TRÆNING” og vent til efter 2 minutter. Tryk herefter “STOP TRÆNING”.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet tid er over 2 minutter
+ 	\end{itemize}	
+ 	2.~ Tryk “START TRÆNING” åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter “STOP TRÆNING”.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet afstand ved 0 er 0 km.
+ 	\item Forventet afstand ved 0.01 er 1.572 km.
+ 	\item Forventet afstand ved 0.02 er 3.145 km.
+	\end{itemize}
+	3.~ HER SKAL STÅ OMKRING SENSOREN!!!!!
+ \begin{itemize}[label={\checkmark}]
+  \item HER SKAL STÅ OMKRING SENSOREN!!!!!
+  \end{itemize}
+  4.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
+  \begin{itemize}[label={\checkmark}]
+  \item Forventet evaluering er gemt i databasen.
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
    \end{tabular}
    \caption{Test af træning}
-    \label{tab:testTræning}
+    \label{tab:testTraening}
 \end{table}
+
+
+\subsubsection{Resultater}
+\begin{itemize}
+\item Systemet skal kunne sende notifikationer og give virtuelle belønninger
+\\
+\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
+\end{itemize}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Resultater \\ \hline
+  \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger og sende en notifikation når brugeren har været inaktiv i 1 time. Dette gøres ved at træne imens der måles tid, afstand. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk på “TRÆNING” via hovedmenu. “START TRÆNING” vent 5 minutter og tryk “ STOP TRÆNING” evaluer træningen til “:D”. Tryk herefter på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER”. 
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet stjerner under tid er en.
+ 	\end{itemize}	
+ 	2.~ Tryk på “TRÆNING” via hovedmenu. “START TRÆNING” og åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre herefter til 0.2. Tryk “ STOP TRÆNING” evaluer træningen til “:)”. Tryk herefter på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER”.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet stjerner under afstand er fire.
+	\end{itemize}
+  3.~ Tryk på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER” 
+  \begin{itemize}[label={\checkmark}]
+  \item Forventet stjerner under antal træninger er to.
+  \item Forventet stjerner under konditionstræning.
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af resultater}
+    \label{tab:testResultater}
+\end{table}
+
+\subsubsection{Venneliste}
+\begin{itemize}
+\item Brugere skal kunne følge andre brugere og \textcolor{red}{tilgå hinandens belønninger}
+\\
+\textit{Dette er nødvendigt for at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
+\end{itemize}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Venneliste \\ \hline
+  \textbf{Formål:} & Formålet er, at brugeren kan følge andre brugere og tilgå deres belønninger. Dette gøres ved at indtaste et MedlemsID på en bruger, som findes i databasen og et som ikke eksistere, hvorefter denne bruger følges.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567890” og tryk søg.  
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet søgning mislykket. Fejlmeddelelse vises i grænsefladen for venneliste.
+ 	\end{itemize}	
+ 	2.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567891” og tryk søg.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet søgning lykkes. Grænsefladen for søgte vens belønninger vises.
+	\end{itemize}
+  3.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567891” og tryk søg. Herefter trykkes følg.
+  \begin{itemize}[label={\checkmark}]
+  \item  Forventet følg knap forsvinder i grænsefalden for vennelisten.
+  \end{itemize}
+  4. ~ Tryk “VENNELISTE” via hovedmenuen
+  \begin{itemize}
+  \item Forventet bruger med medlemsID “1234567891” vises i grænsefladen forvennelisten. 
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af venneliste}
+    \label{tab:testVenneliste}
+\end{table}
+
+
+\subsubsection{Redigering}
+\begin{itemize}
+\item Brugere skal kunne redigere deres adgangskode
+\\
+\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode}
+\end{itemize}
+
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Redigering \\ \hline
+  \textbf{Formål:} & Formålet er at brugeren skal have mulighed for at redigere sin adgangskode. Dette gøres ved at indtaste to forskellige adgangskode og to ens adgangskoder. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “REDIGER ADGANGSKODE” via hovedmenuen. Indtast “nyadgangskode“ i ny adgangskode og indtast “adgangskode” i gentag adgangskoden . Tryk “GEM ÆNDRINGER”.   
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet ændring mislykkes. Fejlmeddelelse vises i grænsefladen for redigering.
+ 	\end{itemize}	
+ 	2.~ Tryk “REDIGER ADGANGSKODE” via hovedmenuen. Indtast “nyadgangskode“ i ny adgangskode og gentag adgangskode. Tryk “GEM ÆNDRINGER”. 
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet ændring lykkes. Meddelelse viser at adgangskoden er gemt. 
+	\end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af redigering}
+    \label{tab:testRedigering}
+\end{table}
+
+
+\subsubsection{Log ud}
+\begin{itemize}
+\item Brugere skal kunne log ud \textcolor{red}{af app’en}
+\\
+\textit{Dette er nødvendigt for sikre brugerens individuelle data}
+\end{itemize}
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Log ud \\ \hline
+  \textbf{Formål:} & Formålet er at brugeren skal have mulighed for at logge ud af app’en.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “LOG UD” via hovedmenuen og tryk bekræft.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet grænseflade for Log ind vises.
+ 	\end{itemize}	
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af log ud}
+    \label{tab:testLogud}
+\end{table}
+
+
+
+
+
