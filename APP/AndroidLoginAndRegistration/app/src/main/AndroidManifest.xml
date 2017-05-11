@@ -20,7 +20,7 @@
         android:allowBackup="true">
 
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.LoginController"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
@@ -31,14 +31,14 @@
         </activity>
 
         <activity android:name=".activity.RedigeringController" android:launchMode="singleTop"/>
-        <activity android:name=".activity.MENU"></activity>
-        <activity android:name=".activity.KATEGORISERING"></activity>
-        <activity android:name=".activity.LOGUD"></activity>
-        <activity android:name=".activity.REDIGERING"></activity>
-        <activity android:name=".activity.RESULTATER"></activity>
-        <activity android:name=".activity.TILPASNING"></activity>
-        <activity android:name=".activity.TRAENING"></activity>
-        <activity android:name=".activity.VENNELISTE"></activity>
+        <activity android:name=".activity.MenuController"></activity>
+        <activity android:name=".activity.KategoriseringController"></activity>
+        <activity android:name=".activity.LogUdController"></activity>
+        <activity android:name=".activity.ResultaterController"></activity>
+        <activity android:name=".activity.TilpasningController"></activity>
+        <activity android:name=".activity.TraeningController"></activity>
+        <activity android:name=".activity.VennelisteController"></activity>
+        <activity android:name=".activity.VenController"></activity>
     </application>
 
 </manifest>

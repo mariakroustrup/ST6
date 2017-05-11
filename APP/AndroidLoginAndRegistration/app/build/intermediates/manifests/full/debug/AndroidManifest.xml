@@ -18,7 +18,7 @@
         android:allowBackup="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="info.androidhive.loginandregistration.activity.LoginActivity"
+            android:name="info.androidhive.loginandregistration.activity.LoginController"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
@@ -30,14 +30,14 @@
         <activity
             android:name="info.androidhive.loginandregistration.activity.RedigeringController"
             android:launchMode="singleTop" />
-        <activity android:name="info.androidhive.loginandregistration.activity.MENU" />
-        <activity android:name="info.androidhive.loginandregistration.activity.KATEGORISERING" />
-        <activity android:name="info.androidhive.loginandregistration.activity.LOGUD" />
-        <activity android:name="info.androidhive.loginandregistration.activity.REDIGERING" />
-        <activity android:name="info.androidhive.loginandregistration.activity.RESULTATER" />
-        <activity android:name="info.androidhive.loginandregistration.activity.TILPASNING" />
-        <activity android:name="info.androidhive.loginandregistration.activity.TRAENING" />
-        <activity android:name="info.androidhive.loginandregistration.activity.VENNELISTE" />
+        <activity android:name="info.androidhive.loginandregistration.activity.MenuController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.KategoriseringController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.LogUdController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.ResultaterController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.TilpasningController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.TraeningController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.VennelisteController" />
+        <activity android:name="info.androidhive.loginandregistration.activity.VenController" />
     </application>
 
 </manifest>

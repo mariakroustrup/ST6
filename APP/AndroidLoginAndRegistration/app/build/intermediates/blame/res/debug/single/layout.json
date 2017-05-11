@@ -148,6 +148,10 @@
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\popupwindow.xml"
     },
     {
+        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kondi.xml",
+        "source": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\kondi.xml"
+    },
+    {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\Maria\\.android\\build-cache\\e2eb1947369eb4f2e7451ba784652a835715cc61\\output\\res\\layout\\design_menu_item_action_area.xml"
     },

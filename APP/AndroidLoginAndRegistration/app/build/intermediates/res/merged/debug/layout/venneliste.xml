@@ -16,25 +16,25 @@
         android:layout_marginRight="12dp"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="11dp"
-        android:layout_above="@+id/PersonName"
-        android:layout_toLeftOf="@+id/soeg"
-        android:layout_toStartOf="@+id/soeg" />
+        android:layout_above="@+id/etSoegVen"
+        android:layout_toLeftOf="@+id/btnSoegVen"
+        android:layout_toStartOf="@+id/btnSoegVen" />
 
 
     <EditText
-        android:id="@+id/PersonName"
+        android:id="@+id/etSoegVen"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:inputType="textPersonName"
-        android:layout_alignBottom="@+id/soeg"
+        android:layout_alignBottom="@+id/btnSoegVen"
         android:layout_alignRight="@+id/textView2"
         android:layout_alignEnd="@+id/textView2"
-        android:layout_alignTop="@+id/soeg" />
+        android:layout_alignTop="@+id/btnSoegVen" />
 
 
     <Button
-        android:id="@+id/soeg"
+        android:id="@+id/btnSoegVen"
         android:layout_gravity="center"
         android:layout_width="100dp"
         android:layout_height="50dp"
