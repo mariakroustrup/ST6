@@ -732,6 +732,10 @@
         "source": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
+        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_listview.xml"
+    },
+    {
         "merged": "C:\\Users\\Maria\\Desktop\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Maria\\.android\\build-cache\\e2eb1947369eb4f2e7451ba784652a835715cc61\\output\\res\\layout\\design_layout_snackbar.xml"
     },

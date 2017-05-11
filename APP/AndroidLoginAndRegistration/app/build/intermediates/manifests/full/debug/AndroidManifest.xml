@@ -36,7 +36,10 @@
         <activity android:name="info.androidhive.loginandregistration.activity.ResultaterController" />
         <activity android:name="info.androidhive.loginandregistration.activity.TilpasningController" />
         <activity android:name="info.androidhive.loginandregistration.activity.TraeningController" />
-        <activity android:name="info.androidhive.loginandregistration.activity.VennelisteController" />
+        <activity
+            android:name="info.androidhive.loginandregistration.activity.VennelisteController"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
         <activity android:name="info.androidhive.loginandregistration.activity.VenController" />
     </application>
 

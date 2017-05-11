@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
 
     <TextView
         android:layout_width="220dp"
@@ -41,17 +43,16 @@
         android:text="Søg"
         android:onClick="ButtonOnClick"
         android:layout_marginBottom="32dp"
-        android:layout_above="@+id/venneliste"
-        android:layout_alignRight="@+id/venneliste"
-        android:layout_alignEnd="@+id/venneliste" />
+        android:layout_above="@+id/list"
+        android:layout_alignRight="@+id/list"
+        android:layout_alignEnd="@+id/list" />
 
     <ListView
-        android:id="@+id/venneliste"
+        android:id="@+id/list"
         android:layout_width="350dp"
         android:layout_gravity="center"
         android:layout_height="300dp"
         android:listSelector="@android:color/holo_blue_light"
-        android:layout_marginBottom="9dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 

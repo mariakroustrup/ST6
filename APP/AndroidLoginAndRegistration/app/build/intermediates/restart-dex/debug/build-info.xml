@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494497103735"
+    timestamp="1494505549779"
     token="6823303904322499204"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -66,26 +66,34 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494495208987"
+        timestamp="1494502127747"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494496613064"
+        timestamp="1494502823434"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494497103735"
+        timestamp="1494505460483"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1494505549779"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
