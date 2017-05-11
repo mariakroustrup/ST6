@@ -44,7 +44,7 @@ public class TilpasningController extends AppCompatActivity {
         btnVidereForm = (Button) findViewById(R.id.btnVidereForm);
         btnGaa = (Button) findViewById(R.id.btnGaa);
         btnLoeb = (Button) findViewById(R.id.btnLoeb);
-        btnCykel = (Button) findViewById(R.id.btnCykle);
+        btnCykel = (Button) findViewById(R.id.btnCykel);
         btnVidereType = (Button) findViewById(R.id.btnVidereType);
         btnEn = (Button) findViewById(R.id.enhelbred);
         btnTo = (Button) findViewById(R.id.tohelbred);
@@ -103,19 +103,19 @@ public class TilpasningController extends AppCompatActivity {
 
 
     int resultat;
-    public void ButtonOnClick (View v){
+    public void ButtonOnClick5 (View v){
     switch (v.getId()) {
-        case R.id.Gaa:
+        case R.id.btnGaa:
             resultat = 0;
             OnGone1(v);
             starthelbred(0);
             break;
-        case R.id.Loeb:
+        case R.id.btnLoeb:
             resultat = 1;
             OnGone1(v);
             starthelbred(1);
             break;
-        case R.id.Cykel:
+        case R.id.btnCykel:
             resultat = 2;
             OnGone1(v);
             starthelbred(2);
@@ -135,8 +135,7 @@ public class TilpasningController extends AppCompatActivity {
     }
 
     public void starthelbred(int i){
-        Button VidereTilpas1 = (Button) findViewById(R.id.VidereTilpas1);
-        VidereTilpas1.setOnClickListener(new View.OnClickListener() {
+        btnVidereType.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 setContentView(R.layout.helbred);
                 beregntræningsform(resultat);

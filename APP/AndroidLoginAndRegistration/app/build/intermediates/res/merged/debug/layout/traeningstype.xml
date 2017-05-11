@@ -9,22 +9,22 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Vælg træningsform"
+        android:text="Vælg træningstype"
         android:textAlignment="center"
         android:textSize="30sp"/>
 
     <Button
-        android:id="@+id/Gaa"
+        android:id="@+id/btnGaa"
         android:layout_marginTop="60dp"
         android:layout_gravity="center"
         android:layout_width="270dp"
         android:layout_height="60dp"
         android:textSize="20sp"
         android:text="Gå"
-        android:onClick="ButtonOnClick" />
+        android:onClick="ButtonOnClick5" />
 
     <Button
-        android:id="@+id/Loeb"
+        android:id="@+id/btnLoeb"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:layout_width="270dp"
@@ -34,7 +34,7 @@
         android:onClick="ButtonOnClick"/>
 
     <Button
-        android:id="@+id/Cykel"
+        android:id="@+id/btnCykel"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:layout_width="270dp"
@@ -44,7 +44,7 @@
         android:onClick="ButtonOnClick"/>
 
     <Button
-        android:id="@+id/VidereTilpas1"
+        android:id="@+id/btnVidereType"
         android:layout_width="111dp"
         android:layout_height="50dp"
         android:layout_marginTop="95dp"

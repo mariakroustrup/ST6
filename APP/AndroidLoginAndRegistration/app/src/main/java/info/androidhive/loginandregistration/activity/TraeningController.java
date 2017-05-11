@@ -34,7 +34,7 @@ import info.androidhive.loginandregistration.R;
 
 public class TraeningController extends AppCompatActivity {
 
-    Button btnFortryd, btnBekræft;
+    //Button btnFortryd, btnBekræft;
 
 
 

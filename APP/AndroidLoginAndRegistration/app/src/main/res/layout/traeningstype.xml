@@ -9,7 +9,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:text="Vælg træningsform"
+        android:text="Vælg træningstype"
         android:textAlignment="center"
         android:textSize="30sp"/>
 
@@ -21,7 +21,7 @@
         android:layout_height="60dp"
         android:textSize="20sp"
         android:text="Gå"
-        android:onClick="ButtonOnClick" />
+        android:onClick="ButtonOnClick5" />
 
     <Button
         android:id="@+id/btnLoeb"
