@@ -39,7 +39,7 @@ public class LoginController extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.menu);  // ændret til menu fra activity_login
 
         // Edit Text
         inputMedlemsID = (EditText) findViewById(R.id.medlemsid);

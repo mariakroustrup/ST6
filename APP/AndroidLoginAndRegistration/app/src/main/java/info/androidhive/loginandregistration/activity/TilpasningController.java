@@ -35,7 +35,7 @@ public class TilpasningController extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tilpasning); // viser layoutet for tilpasning
+        setContentView(R.layout.traeningsform); // viser layoutet for tilpasning
 
         //Buttons
         btnKondi = (Button) findViewById(R.id.btnKondi);

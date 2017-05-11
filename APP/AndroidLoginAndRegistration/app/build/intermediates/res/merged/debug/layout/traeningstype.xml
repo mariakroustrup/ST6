@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tilpasningtekst"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Vælg træningsform"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/Gaa"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Gå"
+        android:onClick="ButtonOnClick" />
+
+    <Button
+        android:id="@+id/Loeb"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Løb"
+        android:onClick="ButtonOnClick"/>
+
+    <Button
+        android:id="@+id/Cykel"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:text="Cykel"
+        android:onClick="ButtonOnClick"/>
+
+    <Button
+        android:id="@+id/VidereTilpas1"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="240dp"
+        android:text="Videre"
+        android:visibility="invisible"/>
+
+</LinearLayout>

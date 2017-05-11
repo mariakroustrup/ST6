@@ -89,6 +89,7 @@ public class LogUdController extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), MenuController.class);
+                myIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(myIntent);
             }
         });
