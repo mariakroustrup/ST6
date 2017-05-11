@@ -19,7 +19,7 @@
 
 
     <TextView
-        android:id="@+id/anbefaling"
+        android:id="@+id/TVanbefaling"
         android:layout_width="350dp"
         android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
@@ -29,7 +29,7 @@
         android:textSize="25sp"/>
 
     <Button
-        android:id="@+id/OKanbefal"
+        android:id="@+id/btnOKanbefal"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_width="100dp"

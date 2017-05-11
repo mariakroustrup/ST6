@@ -28,14 +28,14 @@ public class MenuController extends AppCompatActivity {
             }
         });
 
-        /*Button resultater = (Button) findViewById(R.id.resultater);
+        Button resultater = (Button) findViewById(R.id.resultater);
         resultater.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), RESULTATER.class);
+                Intent myIntent = new Intent(view.getContext(), ResultaterController.class);
                 startActivity(myIntent);
             }
-        });*/
+        });
 
         Button venneliste = (Button) findViewById(R.id.Venneliste);
         venneliste.setOnClickListener(new View.OnClickListener(){

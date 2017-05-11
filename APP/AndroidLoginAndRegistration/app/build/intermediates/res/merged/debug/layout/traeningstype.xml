@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
@@ -31,7 +33,7 @@
         android:layout_height="60dp"
         android:textSize="20sp"
         android:text="Løb"
-        android:onClick="ButtonOnClick"/>
+        android:onClick="ButtonOnClick5"/>
 
     <Button
         android:id="@+id/btnCykel"
@@ -41,7 +43,7 @@
         android:layout_height="60dp"
         android:textSize="20sp"
         android:text="Cykel"
-        android:onClick="ButtonOnClick"/>
+        android:onClick="ButtonOnClick5"/>
 
     <Button
         android:id="@+id/btnVidereType"

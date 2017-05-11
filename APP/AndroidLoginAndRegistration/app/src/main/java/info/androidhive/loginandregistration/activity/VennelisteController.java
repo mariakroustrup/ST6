@@ -8,8 +8,10 @@ package info.androidhive.loginandregistration.activity;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -28,6 +30,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import info.androidhive.loginandregistration.R;
@@ -78,7 +81,7 @@ public class VennelisteController extends AppCompatActivity {
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
 
-        hentallevenner(medlemsid);
+       hentallevenner(medlemsid);
 
         btnsoegven = (Button) findViewById(R.id.btnSoegVen);
         etsoegven = (EditText) findViewById(R.id.etSoegVen);
@@ -229,6 +232,8 @@ public class VennelisteController extends AppCompatActivity {
         // Adding request to request queue
         AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
     }
+
+
 
     private void showDialog() {
         if (!pDialog.isShowing())

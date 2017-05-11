@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 11 16:01:55 CEST 2017
+#Thu May 11 19:29:11 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_media_cancel_action.xml

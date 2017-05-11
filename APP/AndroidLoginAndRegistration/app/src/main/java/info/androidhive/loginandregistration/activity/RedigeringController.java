@@ -42,7 +42,7 @@ public class RedigeringController extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.redigering);
+        setContentView(R.layout.beloeninger);
 
         // Progress Dialog
         pDialog = new ProgressDialog(this);

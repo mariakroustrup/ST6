@@ -80,8 +80,9 @@ public class LogUdController extends AppCompatActivity{
                 //*************************
                 logoutUser();
                 Intent myIntent = new Intent(view.getContext(), LoginController.class);
-                myIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                myIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(myIntent);
+
             }
         });
 
@@ -93,7 +94,17 @@ public class LogUdController extends AppCompatActivity{
                 startActivity(myIntent);
             }
         });
+
+
     }
+
+
+
+
+    public void OnBackPressed(){
+
+    }
+
 
     private void logoutUser() {
         session.setLogin(false);

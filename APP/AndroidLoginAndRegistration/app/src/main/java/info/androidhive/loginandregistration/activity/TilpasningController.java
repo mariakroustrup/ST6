@@ -16,7 +16,7 @@ import info.androidhive.loginandregistration.helper.SQLiteHandler;
 
 public class TilpasningController extends AppCompatActivity {
 
-    static konditiontraening kondi = new konditiontraening();
+   static konditiontraening kondi = new konditiontraening();
     int helbredstilstand;
     Button btnKondi, btnStyrke, btnVejr;
     Button btnVidereForm;
@@ -24,6 +24,7 @@ public class TilpasningController extends AppCompatActivity {
     Button btnVidereType;
     Button btnEn, btnTo, btnTre, btnFire, btnFem;
     Button btnVidereHelbred;
+    Button btnOKanbefal;
     int evalueringgaa, evalueringloeb, evalueringcykel, helbred;
     TextView TVAnbefaling;
     long mm;
@@ -51,20 +52,21 @@ public class TilpasningController extends AppCompatActivity {
         btnTre = (Button) findViewById(R.id.trehelbred);
         btnFire = (Button) findViewById(R.id.firehelbred);
         btnFem = (Button) findViewById(R.id.femhelbred);
-        btnVidereHelbred = (Button)findViewById(R.id.Viderehelbred);
-        TVAnbefaling = (TextView)findViewById(R.id.anbefaling);
+        btnVidereHelbred = (Button)findViewById(R.id.btnVidereHelbred);
+        TVAnbefaling = (TextView)findViewById(R.id.TVanbefaling);
+        btnOKanbefal = (Button)findViewById(R.id.btnOKanbefal);
 
 
-        // SqLite database handler
-        db = new SQLiteHandler(getApplicationContext());
+    // SqLite database handler
+       db = new SQLiteHandler(getApplicationContext());
 
-        // Fetching user details from SQLite
+        //Fetching user details from SQLite
         user = db.getUserDetails();
     }
 
     int counter = 0;
     TextView myTextView;
-    android.widget.Button Button;
+   // android.widget.Button Button;
 
     public void ButtonOnClick2(View v) {
 
@@ -96,181 +98,218 @@ public class TilpasningController extends AppCompatActivity {
 
     // ***** Hvis man vælger konditræning****** //
     public void valgkondi(int i) {
+        btnVidereForm = (Button) findViewById(R.id.btnVidereForm);
             btnVidereForm.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     setContentView(R.layout.traeningstype);
-                }});}
+}});}
 
 
-    int resultat;
-    public void ButtonOnClick5 (View v){
-    switch (v.getId()) {
+        int resultat;
+public void ButtonOnClick5 (View v){
+
+        switch (v.getId()) {
         case R.id.btnGaa:
-            resultat = 0;
-            OnGone1(v);
-            starthelbred(0);
-            break;
+        resultat = 0;
+        OnGone5(v);
+        starthelbred(0);
+        break;
         case R.id.btnLoeb:
-            resultat = 1;
-            OnGone1(v);
-            starthelbred(1);
-            break;
+        resultat = 1;
+        OnGone5(v);
+        starthelbred(1);
+        break;
         case R.id.btnCykel:
-            resultat = 2;
-            OnGone1(v);
-            starthelbred(2);
-            break;
-    }}
+        resultat = 2;
+        OnGone5(v);
+        starthelbred(2);
+        break;
+        }}
 
-    public void OnGone1(View view) {
+public void OnGone5(View view) {
+        btnGaa = (Button) findViewById(R.id.btnGaa);
         btnGaa.setEnabled(false);
         btnGaa.setClickable(false);
+        btnLoeb = (Button) findViewById(R.id.btnLoeb);
         btnLoeb.setEnabled(true);
         btnLoeb.setClickable(true);
+        btnCykel = (Button) findViewById(R.id.btnCykel);
         btnCykel.setEnabled(true);
         btnCykel.setClickable(true);
+        Button btnVidereType = (Button)findViewById(R.id.btnVidereType);
         btnVidereType.setVisibility(view.VISIBLE);
         btnVidereType.setEnabled(true);
         btnVidereType.setClickable(true);
-    }
+        }
 
-    public void starthelbred(int i){
-        btnVidereType.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                setContentView(R.layout.helbred);
-                beregntræningsform(resultat);
-            }
-        });
-    }
-
-    public void beregntræningsform (int i){ // det er de her data der skal sendes til databasen
+public void beregntraeningsform (int i){ // det er de her data der skal sendes til databasen
         String.valueOf(i);
         String form;
         if (resultat == 0){
-            form = "Gå";
+        form = "Gå";
         } if (resultat == 1){
-            form = "Løb";
-        } if(resultat== 2){
-            form = "Cykel";
+        form = "Løb";
+        } if(resultat == 2){
+        form = "Cykel";
         }
-    }
+        }
+
+public void starthelbred(int i){
+        btnVidereType = (Button) findViewById(R.id.btnVidereType);
+        btnVidereType.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v) {
+        setContentView(R.layout.helbred);
+        beregntraeningsform(resultat);
+        }
+        });
+        }
 
 
 
-    // Daglig helbredstilstand
-    public void ButtonOnClick3(View v) {
+
+
+// Daglig helbredstilstand
+public void ButtonOnClick3(View v) {
         helbredstilstand = 0;
         switch (v.getId()) {
-            case R.id.enhelbred:
-                helbredstilstand = 1;
-                OnGone3(v);
-                startanbefaling(1);
-                break;
-            case R.id.tohelbred:
-                helbredstilstand = 2;
-                OnGone3(v);
-                startanbefaling(2);
-                break;
-            case R.id.trehelbred:
-                helbredstilstand = 3;
-                OnGone3(v);
-                startanbefaling(3);
-                break;
-            case R.id.firehelbred:
-                helbredstilstand = 4;
-                OnGone3(v);
-                startanbefaling(4);
-                break;
-            case R.id.femhelbred:
-                helbredstilstand = 5;
-                OnGone3(v);
-                startanbefaling(5);
-                break;
+        case R.id.enhelbred:
+        helbredstilstand = 1;
+        OnGone3(v);
+        startanbefaling(1);
+        break;
+        case R.id.tohelbred:
+        helbredstilstand = 2;
+        OnGone3(v);
+        startanbefaling(2);
+        break;
+        case R.id.trehelbred:
+        helbredstilstand = 3;
+        OnGone3(v);
+        startanbefaling(3);
+        break;
+        case R.id.firehelbred:
+        helbredstilstand = 4;
+        OnGone3(v);
+        startanbefaling(4);
+        break;
+        case R.id.femhelbred:
+        helbredstilstand = 5;
+        OnGone3(v);
+        startanbefaling(5);
+        break;
         }
         kondi.setHelbredstilstand(helbredstilstand);
-    }
+        }
 
 
     public void OnGone3(View view) {
+        btnEn = (Button) findViewById(R.id.enhelbred);
         btnEn.setEnabled(false);
         btnEn.setClickable(false);
+        btnTo = (Button) findViewById(R.id.tohelbred);
         btnTo.setEnabled(false);
         btnTo.setClickable(false);
+        btnTre = (Button) findViewById(R.id.trehelbred);
         btnTre.setEnabled(false);
         btnTre.setClickable(false);
+        btnFire = (Button) findViewById(R.id.firehelbred);
         btnFire.setEnabled(false);
         btnFire.setClickable(false);
+        btnFem = (Button) findViewById(R.id.femhelbred);
         btnFem.setEnabled(false);
         btnFem.setClickable(false);
+        Button btnVidereHelbred= (Button)findViewById(R.id.btnVidereHelbred);
         btnVidereHelbred.setVisibility(view.VISIBLE);
         btnVidereHelbred.setEnabled(true);
         btnVidereHelbred.setClickable(true);
     }
 
-
     public void beregnanbefaling(int i) {
+
+        int evalueringgaa = 0;
+        int helbred = 1;
         if (evalueringgaa == 0 && evalueringloeb == 0 && evalueringcykel == 0 ) {
             if (helbred == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 10 minutter");
                 setMinutter(1);
             } else if (helbred == 2) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 20 minutter");
                 setMinutter(20);
             } else if (helbred == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 30 minutter");
                 setMinutter(30);
             } else if (helbred == 4) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 40 minutter");
                 setMinutter(40);
             } else if (helbred == 5) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 50 minutter");
                 setMinutter(50);
             }
         }
         else if (evalueringgaa != 0 || evalueringloeb != 0 ||evalueringcykel != 0 ){
             if (evalueringgaa == 1 && helbred == 1){
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 20 minutter");
                 setMinutter(1);
             } else if (evalueringgaa == 1 && helbred == 2)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 30 minutter");
                 setMinutter(30);
             }  else if (evalueringgaa == 1 && helbred == 3)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 40 minutter");
                 setMinutter(40);
             } else if (evalueringgaa == 1 && helbred == 4)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 50 minutter");
                 setMinutter(50);
             } else if (evalueringgaa == 1 && helbred == 5)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 60 minutter");
                 setMinutter(60);
             } else if (evalueringgaa == 2 && helbred == 1){
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 10 minutter");
                 setMinutter(10);
             } else if (evalueringgaa == 2 && helbred == 2)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 20 minutter");
                 setMinutter(20);
             } else if (evalueringgaa == 2 && helbred == 3)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 30 minutter");
                 setMinutter(30);
             } else if (evalueringgaa == 2 && helbred == 4)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er40 minutter");
                 setMinutter(40);
             } else if (evalueringgaa == 2 && helbred == 5)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                TVAnbefaling.setText("Den anbefalede træningstid er 50 minutter");
                 setMinutter(50);
             } else if (evalueringgaa == 3 && helbred == 1){
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 5 minutter");
                 setMinutter(5);}
             else if (evalueringgaa == 3 && helbred == 2)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 10 minutter");
                 setMinutter(10);
             } else if (evalueringgaa == 3 && helbred == 3)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                TVAnbefaling.setText("Den anbefalede træningstid er 20 minutter");
                 setMinutter(20);
             } else if (evalueringgaa == 3 && helbred == 4)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 30 minutter");
                 setMinutter(30);
             } else if (evalueringgaa == 3 && helbred == 5)  {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Den anbefalede træningstid er 40 minutter");
                 setMinutter(40);
             }
@@ -280,25 +319,21 @@ public class TilpasningController extends AppCompatActivity {
     public void setMinutter(long newMinutter){
         mm = newMinutter;
     }
-    public long getMinutes(){
-        return mm;
-    }
 
     public void startanbefaling (int i) {
+        Button btnVidereHelbred= (Button)findViewById(R.id.btnVidereHelbred);
         btnVidereHelbred.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
                 setContentView(R.layout.anbefaling);
-                //beregnhelbred(0);
-                setContentView(R.layout.anbefaling);
-                beregnanbefaling(0);
+               beregnanbefaling(0);
                 starttraening(0);
             }
         });}
 
 
     public void starttraening (int i) {
-        Button OKanbefal = (Button) findViewById(R.id.OKanbefal);
-        OKanbefal.setOnClickListener(new View.OnClickListener() {
+        Button btnOKanbefal = (Button) findViewById(R.id.btnOKanbefal);
+        btnOKanbefal.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
                 Intent myIntent = new Intent(TilpasningController.this, TraeningController.class);
                 myIntent.putExtra("Value", mm);

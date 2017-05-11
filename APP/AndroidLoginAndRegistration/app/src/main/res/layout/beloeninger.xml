@@ -24,17 +24,16 @@
         android:textSize="25dp" />
 
 
-    <RatingBar
-        android:layout_margin="5dp"
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
+    <ImageView
+        android:id="@+id/starantal"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:clickable="true"
-        android:numStars="6" />
+        android:src="@drawable/star0" />
 
 
     <TextView
+        android:layout_margin="5dp"
         android:id="@+id/beloentid"
         android:layout_width="50dp"
         android:layout_height="30dp"
@@ -42,16 +41,15 @@
         android:layout_gravity="center_horizontal"
         android:textSize="25dp" />
 
-    <RatingBar
-        android:layout_margin="5dp"
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
+    <ImageView
+        android:id="@+id/startid"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:clickable="true"
-        android:numStars="6" />
+        android:src="@drawable/star0" />
 
     <TextView
+        android:layout_margin="5dp"
         android:id="@+id/beloenafstand"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -59,17 +57,16 @@
         android:layout_gravity="center"
         android:textSize="25dp" />
 
-    <RatingBar
-        android:layout_margin="5dp"
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
+    <ImageView
+        android:id="@+id/starafstand"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:clickable="true"
-        android:numStars="6" />
+        android:src="@drawable/star0" />
 
 
     <TextView
+        android:layout_margin="5dp"
         android:id="@+id/kondition"
         android:layout_width="210dp"
         android:layout_height="30dp"
@@ -77,15 +74,11 @@
         android:layout_gravity="center"
         android:textSize="25dp" />
 
-    <RatingBar
-        android:layout_margin="5dp"
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
+    <ImageView
+        android:id="@+id/starkondi"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:clickable="true"
-        android:numStars="6" />
-
-
+        android:src="@drawable/star0" />
 
 </LinearLayout>
