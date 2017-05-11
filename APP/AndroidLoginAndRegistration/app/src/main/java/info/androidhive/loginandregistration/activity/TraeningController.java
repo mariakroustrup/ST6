@@ -10,6 +10,7 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -33,6 +34,13 @@ import info.androidhive.loginandregistration.R;
 
 public class TraeningController extends AppCompatActivity {
 
+    Button btnFortryd, btnBekræft;
+
+
+
+    Button btnFortryd =(Button)findViewById(R.id.Fortryd);
+    Button btnBekræft =(Button)findViewById(R.id.Bekræft);
+
     TextView textViewTimer, textViewKm;
     Button start, stop;// reset;
     long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
@@ -47,6 +55,8 @@ public class TraeningController extends AppCompatActivity {
     double lat2;
     double lng2;
 
+    long mm;
+    long minutter;
 
     ArrayList<Double> listLat = new ArrayList<Double>();
     ArrayList<Double> listLng = new ArrayList<Double>();
@@ -63,17 +73,33 @@ public class TraeningController extends AppCompatActivity {
             Seconds = Seconds % 60;
             MilliSeconds = (int) (UpdateTime % 1000);
 
-            textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds) + ":" + String.format("%03d", MilliSeconds));
+            textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
+            Long m = getMinutes();
+            MediaPlayer player = MediaPlayer.create(TraeningController.this, R.raw.beep);
+            if (Minutes == m && Seconds == 0) {
+                player.start();
+            }
+
         }
 
     };
+
+    public long getMinutes(){
+        return minutter;
+    }
+    public void setMinutes(long newminutter){
+        minutter = newminutter;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.traening);
+        long min = getIntent().getLongExtra("Value", mm);
+        setMinutes(min);
+
 
 
         textViewTimer = (TextView) findViewById(R.id.Timer);
@@ -83,13 +109,6 @@ public class TraeningController extends AppCompatActivity {
 
         handler = new Handler();
 
-        /*
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            }
-        });
-        */
 
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,8 +126,8 @@ public class TraeningController extends AppCompatActivity {
                         RelativeLayout.LayoutParams.WRAP_CONTENT,
                         RelativeLayout.LayoutParams.WRAP_CONTENT
                 );
-                Button closePopUp = (Button) customView.findViewById(R.id.Fortryd);
-                closePopUp.setOnClickListener(new View.OnClickListener() {
+
+                btnFortryd.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         OnVisible1(v);
@@ -116,11 +135,12 @@ public class TraeningController extends AppCompatActivity {
                     }
 
                 });
-                Button closePopUp1 = (Button) customView.findViewById(R.id.Bekræft);
-                closePopUp1.setOnClickListener(new View.OnClickListener() {
+
+                btnBekræft.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         myPopUp.dismiss();
+                        locationManager.removeUpdates(locationListener);
                         setContentView(R.layout.evaluering);
                     }
 
@@ -221,19 +241,22 @@ public class TraeningController extends AppCompatActivity {
     }
 
     public void dis() {
-        double Lng_first = listLng.get(0);
-        double Lat_first = listLat.get(0);
 
         double Lng_last = listLng.get(listLng.size() - 1);
         double Lat_last = listLat.get(listLat.size() - 1);
 
 
-        //textView10.setText("F¯rste long koordinat er: ");
-        distance(Lat_first, Lng_first, Lat_last, Lng_last);
+        if (listLat.size() > 1) {
+            double Lng_nl = listLng.get(listLng.size() - 2);
+            double Lat_nl = listLat.get(listLat.size() - 2);
+            distance(Lat_nl, Lng_nl, Lat_last, Lng_last);
+
+        }
     }
 
 
     private double distance(double lat1, double lon1, double lat2, double lon2) {
+        double gammelDist = getDist();
         double theta = lon1 - lon2;
         double dist = Math.sin(deg2rad(lat1))
                 * Math.sin(deg2rad(lat2))
@@ -242,10 +265,23 @@ public class TraeningController extends AppCompatActivity {
                 * Math.cos(deg2rad(theta));
         dist = Math.acos(dist);
         dist = rad2deg(dist);
-        dist = ((dist * 60 * 1.1515) * 1609.344/1000);
-        textViewKm.setText(String.format("%.3f",dist) + " km");
+        dist = ((dist * 60 * 1.1515) * 1609.344 / 1000);
+        double nyDist = gammelDist + dist;
+        textViewKm.setText(String.format("%.2f", nyDist) + " km"); // HER
+        setDist(dist);
         return (dist);
     }
+
+    double distance = 0;
+
+    private void setDist(double newDist){
+        distance = newDist;
+    }
+
+    public double getDist(){
+        return distance;
+    }
+
 
     private double deg2rad(double deg) {
         return (deg * Math.PI / 180.0);

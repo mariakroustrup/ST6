@@ -31,7 +31,7 @@ public class ResultaterController extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.resultater);
+        setContentView(R.layout.beloeninger);
 
     /*    chart = (BarChart) findViewById(R.id.chart1);
 
