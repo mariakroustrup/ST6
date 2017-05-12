@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,8 +17,12 @@ import info.androidhive.loginandregistration.helper.SQLiteHandler;
 
 public class TilpasningController extends AppCompatActivity {
 
-   static konditiontraening kondi = new konditiontraening();
+    static konditiontraening kondi = new konditiontraening();
     int helbredstilstand;
+    String kondi_type;
+    String medlemsid;
+
+    // Buttons
     Button btnKondi, btnStyrke, btnVejr;
     Button btnVidereForm;
     Button btnGaa, btnLoeb, btnCykel;
@@ -62,6 +67,7 @@ public class TilpasningController extends AppCompatActivity {
 
         //Fetching user details from SQLite
         user = db.getUserDetails();
+        medlemsid = user.get("medlemsid");
     }
 
     int counter = 0;
@@ -144,25 +150,26 @@ public void OnGone5(View view) {
 
 public void beregntraeningsform (int i){ // det er de her data der skal sendes til databasen
         String.valueOf(i);
-        String form;
         if (resultat == 0){
-        form = "Gå";
+        kondi_type = "Gaa";
         } if (resultat == 1){
-        form = "Løb";
+        kondi_type = "Loeb";
         } if(resultat == 2){
-        form = "Cykel";
+        kondi_type = "Cykel";
         }
+        kondi.setKondi_type(kondi_type);
         }
+
 
 public void starthelbred(int i){
         btnVidereType = (Button) findViewById(R.id.btnVidereType);
         btnVidereType.setOnClickListener(new View.OnClickListener() {
-public void onClick(View v) {
-        setContentView(R.layout.helbred);
-        beregntraeningsform(resultat);
-        }
+            public void onClick(View v) {
+                setContentView(R.layout.helbred);
+                beregntraeningsform(resultat);
+            }
         });
-        }
+}
 
 
 
@@ -286,7 +293,7 @@ public void ButtonOnClick3(View v) {
                 setMinutter(30);
             } else if (evalueringgaa == 2 && helbred == 4)  {
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-                TVAnbefaling.setText("Den anbefalede træningstid er40 minutter");
+                TVAnbefaling.setText("Den anbefalede træningstid er 40 minutter");
                 setMinutter(40);
             } else if (evalueringgaa == 2 && helbred == 5)  {
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
@@ -325,19 +332,28 @@ public void ButtonOnClick3(View v) {
         btnVidereHelbred.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
                 setContentView(R.layout.anbefaling);
-               beregnanbefaling(0);
+                beregnanbefaling(0);
                 starttraening(0);
             }
-        });}
+        });
+    }
 
-
+// *********** KNAP DER STARTER TRÆNING ************ //
     public void starttraening (int i) {
         Button btnOKanbefal = (Button) findViewById(R.id.btnOKanbefal);
         btnOKanbefal.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
+                boolean error = kondi.gemTraening(medlemsid, kondi_type, helbredstilstand);
+                if(error == false){
+                    Toast.makeText(getApplicationContext(), "Træningen er gemt!", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Træningen kunne ikke gemmes!", Toast.LENGTH_LONG).show();
+                }
+
                 Intent myIntent = new Intent(TilpasningController.this, TraeningController.class);
                 myIntent.putExtra("Value", mm);
                 startActivity(myIntent);
             }
-        });}
+        });
+    }
 }

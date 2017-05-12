@@ -28,7 +28,6 @@ import info.androidhive.loginandregistration.helper.SessionManager;
 
 public class LoginController extends Activity {
     private Button btnLogin;
-    //private Button btnLinkToRegister;
     private EditText inputMedlemsID;
     private EditText inputAdgangskode;
     private ProgressDialog pDialog;

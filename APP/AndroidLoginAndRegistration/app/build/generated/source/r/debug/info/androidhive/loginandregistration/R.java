@@ -2211,6 +2211,7 @@ containing a value of this type.
         public static final int CATvidere1=0x7f0c0088;
         public static final int Fortryd=0x7f0c00ba;
         public static final int KOL=0x7f0c006d;
+        public static final int Navn=0x7f0c006b;
         public static final int OKKat=0x7f0c00a4;
         public static final int RedigerAdgangskode=0x7f0c00aa;
         public static final int TVanbefaling=0x7f0c0075;
@@ -2317,7 +2318,6 @@ containing a value of this type.
         public static final int km=0x7f0c00c6;
         public static final int kondistyrkevejr=0x7f0c00c8;
         public static final int kondition=0x7f0c007e;
-        public static final int label=0x7f0c006b;
         public static final int left=0x7f0c0022;
         public static final int line1=0x7f0c00b0;
         public static final int line3=0x7f0c00b4;

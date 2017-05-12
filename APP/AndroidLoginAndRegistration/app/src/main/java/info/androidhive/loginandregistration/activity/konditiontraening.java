@@ -1,8 +1,6 @@
 package info.androidhive.loginandregistration.activity;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -18,8 +16,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import info.androidhive.loginandregistration.app.AppController;
-import info.androidhive.loginandregistration.helper.SQLiteHandler;
-import info.androidhive.loginandregistration.helper.SessionManager;
 
 
 
@@ -27,12 +23,13 @@ public class konditiontraening extends Activity {
 
     private String kondi_type;
     private int helbredstilstand;
-    private ProgressDialog pDialog;
-    public static String URL_kondi= "http://172.25.147.84/android_login_api/konditiontraening.php";
+    private int tid;
+    private int afstand;
+    private int evaluering;
+
+    public static String URL_kondi= "http://172.31.159.63/android_login_api/konditiontraening.php";
     private static final String TAG = konditiontraening.class.getSimpleName();
-    private SQLiteHandler db;
-    String medlemsid;
-    HashMap<String, String> user;
+
 
 
     public int getHelbredstilstand() {
@@ -52,44 +49,59 @@ public class konditiontraening extends Activity {
         this.kondi_type = kondi_type;
     }
 
+    public int getTid() {
+        return tid;
+    }
+
+    public void setTid(int tid) {
+        this.tid = tid;
+    }
+
+    public int getAfstand() {
+        return afstand;
+    }
+
+    public void setAfstand(int afstand) {
+        this.afstand = afstand;
+    }
+
+    public int getEvaluering() {
+        return evaluering;
+    }
+
+    public void setEvaluering(int evaluering) {
+        this.evaluering = evaluering;
+    }
 
 
 
-
-
-
-
-
-
-/*
-
-    public void gemHelbredstilstand(final String helbredstilstand, final String medlemsid) {
+    public boolean gemTraening(final String medlemsid,final String kondi_type, final int helbredstilstand) {
         String tag_string_req = "req_kondi";
-
+        boolean error = false;
         // Viser at kategoriseringen er ved at blive gemt
-        pDialog.setMessage("Gemmer helbredstilstand");
-        showDialog();
+        //pDialog.setMessage("Gemmer træningsparametre");
+        //showDialog();
 
         StringRequest strReq = new StringRequest(Request.Method.POST,
                 URL_kondi, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {
-                Log.d(TAG, "Helbredstilstand Response: " + response.toString());
-                hideDialog();
+                Log.d(TAG, "Parametre Response: " + response.toString());
+                //hideDialog();
 
                 try {
                     JSONObject jObj = new JSONObject(response);
                     boolean error = jObj.getBoolean("error");
 
                     if (!error) {
-                        Toast.makeText(getApplicationContext(), "aaaaaaaaa", Toast.LENGTH_LONG).show();
+                        error = false; //Toast.makeText(getApplicationContext(), "aaaaaaaaa", Toast.LENGTH_LONG).show();
                     } else {
                         String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+                       error = true; //Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {
-                    Toast.makeText(getApplicationContext(), "Helbredstilstand er gemt", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), "Helbredstilstand er gemt", Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
 
@@ -99,10 +111,10 @@ public class konditiontraening extends Activity {
 
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e(TAG, "Helbredstilstand Error: " + error.getMessage());
+                Log.e(TAG, "Parametre Error: " + error.getMessage());
                 Toast.makeText(getApplicationContext(),
                         error.getMessage(), Toast.LENGTH_LONG).show();
-                hideDialog();
+                //hideDialog();
             }
         }) {
 
@@ -110,25 +122,14 @@ public class konditiontraening extends Activity {
             protected Map<String, String> getParams() {
                 // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("helbredstilstand", helbredstilstand);
                 params.put("medlemsid", medlemsid);
+                params.put("kondi_type", kondi_type);
+                params.put("helbredstilstand", String.valueOf(helbredstilstand));
                 return params;
             }
         };
 
         AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    return error;
     }
-
-    private void showDialog() {
-        if (!pDialog.isShowing())
-            pDialog.show();
-    }
-
-    private void hideDialog() {
-        if (pDialog.isShowing())
-            pDialog.dismiss();
-    }
-
-*/
-
 }

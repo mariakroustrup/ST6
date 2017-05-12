@@ -565,6 +565,7 @@ int id Beloenniger1 0x7f0c0077
 int id CATvidere1 0x7f0c0088
 int id Fortryd 0x7f0c00ba
 int id KOL 0x7f0c006d
+int id Navn 0x7f0c006b
 int id OKKat 0x7f0c00a4
 int id RedigerAdgangskode 0x7f0c00aa
 int id TVanbefaling 0x7f0c0075
@@ -671,7 +672,6 @@ int id kategorisering 0x7f0c0072
 int id km 0x7f0c00c6
 int id kondistyrkevejr 0x7f0c00c8
 int id kondition 0x7f0c007e
-int id label 0x7f0c006b
 int id left 0x7f0c0022
 int id line1 0x7f0c00b0
 int id line3 0x7f0c00b4

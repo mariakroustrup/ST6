@@ -5,18 +5,16 @@ package info.androidhive.loginandregistration.activity;
  */
 
 
-import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -30,13 +28,11 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import info.androidhive.loginandregistration.R;
 import info.androidhive.loginandregistration.app.AppController;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
-import info.androidhive.loginandregistration.helper.SessionManager;
 
 
 public class VennelisteController extends AppCompatActivity {
@@ -45,11 +41,16 @@ public class VennelisteController extends AppCompatActivity {
     private Button btnsoegven;
     private SQLiteHandler db;
     private ProgressDialog pDialog;
-    String[] vennelist3 = {"Linette","Maria","Mads","Birgithe"};
+
+    // products JSONArray
+    JSONArray venner_array = null;
+
+    // Arrayliste til at lagre venner i
+    ArrayList<HashMap<String, String>> VenneListe = new ArrayList<HashMap<String, String>>();
 
     // URL's
     public static String URL_SOEGVEN = "http://172.31.159.63/android_login_api/soegven.php";
-    public static String URL_ALLE_VENNER = "http://172.31.159.63/android_login_api/allevenner.php";
+    public static String URL_ALLE_VENNER = "http://172.31.159.63/android_login_api/allevenner4.php";
 
 
     @Override
@@ -66,22 +67,13 @@ public class VennelisteController extends AppCompatActivity {
 
         // Vises i den respektive TextView
         final String medlemsid = user.get("medlemsid");
-        //****************
-
-
-        // DETTE ER FASTE VÆRIDER DER SÆTTES I LISTEN FRA "venneliste3"
-        /*
-        ArrayAdapter adapter = new ArrayAdapter<String>(this,
-                R.layout.activity_listview,vennelist3);
-        ListView listView = (ListView)findViewById(R.id.list);
-        listView.setAdapter(adapter);
-        */
 
         // Progress Dialog
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
 
-       hentallevenner(medlemsid);
+        hentallevenner(medlemsid);
+        updateList();
 
         btnsoegven = (Button) findViewById(R.id.btnSoegVen);
         etsoegven = (EditText) findViewById(R.id.etSoegVen);
@@ -179,29 +171,38 @@ public class VennelisteController extends AppCompatActivity {
         pDialog.setMessage("Henter venner...");
         showDialog();
 
-        StringRequest strReq = new StringRequest(Request.Method.POST,
-                URL_ALLE_VENNER, new Response.Listener<String>() {
-
+        final StringRequest strReq = new StringRequest(Request.Method.POST, URL_ALLE_VENNER, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 hideDialog();
 
                 try {
-                    JSONObject jObj = new JSONObject(response);
-                    boolean error = jObj.getBoolean("error");
+                    JSONObject json = new JSONObject(response);
+                    boolean error = json.getBoolean("error");
 
-                    // Check for error node in json
-                    if (!error) {
+                    venner_array = json.getJSONArray("venner");
 
-                        // Now store the user in SQLite
-                        //String uid = jObj.getString("uid");
-                        Toast.makeText(getApplicationContext(),"Vi går ind i metoden og får ikke fejl tilbage",Toast.LENGTH_LONG).show();
-                        //JSONObject user = jObj.getJSONObject("user");
-                        //String ven_medlemsid = user.getString("ven_medlemsid");
+                    if(!error){
+                        for(int i = 0; i < venner_array.length(); i++){
+                            JSONObject c = venner_array.getJSONObject(i);
 
+                            // Vi lagre det i en variable
+                            String navn = c.getString("navn");
+                            String ven_medlemsid = c.getString("ven_medlemsid");
+
+                            //Hashmap
+                            HashMap<String, String> map = new HashMap<String, String>();
+
+                            // Værdier i Hashmap
+                            map.put("navn", navn);
+                            map.put("ven_medlemsid",ven_medlemsid);
+
+                            // Tilfjer HashList to ArrayList VenneListe
+                            VenneListe.add(map);
+                        }
                     } else {
                         // Error in login. Get the error message
-                        String errorMsg = jObj.getString("error_msg");
+                        String errorMsg = json.getString("error_msg");
                         Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {
@@ -243,6 +244,23 @@ public class VennelisteController extends AppCompatActivity {
     private void hideDialog() {
         if (pDialog.isShowing())
             pDialog.dismiss();
+    }
+
+    public void updateList(){
+        runOnUiThread(new Runnable() {
+            public void run() {
+                /**
+                 * Updating parsed JSON data into ListView
+                 * */
+                ListAdapter adapter = new SimpleAdapter(
+                        VennelisteController.this, VenneListe,
+                        R.layout.activity_listview, new String[] {"navn"},
+                        new int[] { R.id.Navn });
+                ListView listView = (ListView)findViewById(R.id.list);
+                // updating listview
+                listView.setAdapter(adapter);
+            }
+        });
     }
 }
 

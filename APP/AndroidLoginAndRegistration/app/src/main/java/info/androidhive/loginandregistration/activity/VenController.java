@@ -158,9 +158,11 @@ public class VenController extends AppCompatActivity {
 
                     if (!error) {
                         Toast.makeText(getApplicationContext(), "aaaaaaaaa", Toast.LENGTH_LONG).show();
+                        //updateList();
                     } else {
                         String errorMsg = jObj.getString("error_msg");
                         Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+
                     }
                 } catch (JSONException e) {
                     Toast.makeText(getApplicationContext(), "Ven tilføjet til venneliste", Toast.LENGTH_LONG).show();
