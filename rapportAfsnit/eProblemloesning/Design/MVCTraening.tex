@@ -1,5 +1,5 @@
 \subsection*{Træning og evaluering}
-Træningen er opdelt i tre boundarys, hvor de to er aktive under træningen samt ved stop træning. Den sidste boundary er aktiv efter træningen, idet træningen skal evalueres. Der er til disse tre boundarys opstillet en fælles controller. Boundarys og controller fremgår af \autoref{fig:DesignTraening}. 
+Træningen er opdelt i tre boundarys. Boundaryen \textit{Evaluering} er først aktiv efter træningen, idet træningen skal evalueres. Der er til disse tre boundarys opstillet en fælles controller. Boundarys og controller fremgår af \autoref{fig:DesignTraening}. 
 
 \begin{figure} [H]
 \centering
@@ -16,13 +16,12 @@ I sammenspil med designklasserne er der udarbejdet et sekvensdiagram, hvilket fr
 \begin{figure} [H]
 \centering
 \includegraphics[width=1.55\textwidth, angle=90]{figures/Sek/SEKTraening}
-\caption{Sekvensdiagram for træning. \fxnote{Hvor skal ting gemmes?}}
+\caption{Sekvensdiagram for træning.}
 \label{fig:SEKTraening}
 \end{figure}
 
 \noindent
-\textit{Træning} er den første grænseflade, der vises ved en igangværende træning. Controlleren \textit{TræningEvaluering} starter timer og GPS. Herefter vises tiden og afstanden i grænsefladen. Controlleren henter målinger fra kompatible enheder, hvis disse er tilsluttet og viser dem. \fxnote{OBS!! Dette er stadig lidt uklart}. Brugeren kan under træningen, eller når træningen er fuldført, afslutte ved at trykke på StopTræningKnap, hvorefter grænsefladen for \textit{StopTræning} vises. I denne grænseflade har brugeren mulighed for at trykke på FortsætTræningKnap eller BekræftStopTræningKnap. Vælges FortsætTræningKnap vises grænsefladen for \textit{Træning} igen og brugeren kan fortsætte træningen. Vælges BekræftStopTræningKnap stopper controlleren med at lagre data fra GPS, timer og eventuelle kompatible måleenheder. Herefter vises grænsefladen \textit{Evaluering}, hvor brugeren skal angive en evaluering af dagens træning. Evaluering bekræftes ved VidereKnap. Herefter sender controlleren træningsoplysninger til controlleren for \textit{Database}, som gemmer træningen i \textit{Database} \fxnote{Hvad gør vi i forhold til dette?}. Herefter gives der besked til \textit{Hovedmenu} controlleren om at vise hovedmenuen.
-
+\textit{Træning} er den første grænseflade, der vises efter tilpasningen af træningsniveauet. Controlleren \textit{TræningEvaluering} starter timer og GPS, når brugeren har trykket på StartTræningKnap. Herefter vises tiden og afstanden i grænsefladen. Brugeren kan under træningen, eller når træningen er fuldført, afslutte ved at trykke på StopTræningKnap, hvorefter grænsefladen for \textit{StopTræning} vises. I denne grænseflade har brugeren mulighed for at trykke på FortsætTræningKnap eller BekræftStopTræningKnap. Vælges FortsætTræningKnap vises grænsefladen for \textit{Træning} og brugeren skal igen trykke på StartTræningKnap for at starte træning og måleenheder. Vælges BekræftStopTræningKnap stopper controlleren med at lagre data fra GPS og timer. Herefter vises grænsefladen \textit{Evaluering}, hvor brugeren skal angive en evaluering af dagens træning. Evaluering bekræftes ved VidereKnap. Herefter sender controlleren træningsoplysninger til controlleren for \textit{Database}, som gemmer træningen i \textit{Database}. Herefter gives der besked til \textit{Hovedmenu} controlleren om at vise hovedmenuen.
 
 
 

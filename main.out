@@ -24,26 +24,27 @@
 \BOOKMARK [1][-]{section.5.2}{Kravspecifikationer}{chapter.5}% 24
 \BOOKMARK [2][-]{subsection.5.2.1}{Use case}{section.5.2}% 25
 \BOOKMARK [1][-]{section.5.3}{Funktionalitet}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{Systemdesign}{}% 27
-\BOOKMARK [1][-]{section.6.1}{Designafgr\346nsning}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{Objektorienteret design}{chapter.6}% 29
-\BOOKMARK [1][-]{section.6.3}{Design af database}{chapter.6}% 30
-\BOOKMARK [2][-]{subsection.6.3.1}{ER-diagram}{section.6.3}% 31
-\BOOKMARK [2][-]{subsection.6.3.2}{Schema}{section.6.3}% 32
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 33
-\BOOKMARK [1][-]{subsection.7.0.1}{Implementering af objektorienteret design}{chapter.7}% 34
-\BOOKMARK [2][-]{subsection.7.0.2}{Implementering af database}{subsection.7.0.1}% 35
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 36
-\BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 37
-\BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.3}{Kategorisering}{chapter.8}% 39
-\BOOKMARK [1][-]{section.8.4}{Tilpasning af tr\346ningsniveau}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.5}{Tr\346ning}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.6}{Resultater}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.7}{Venneliste}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.8}{Redigering}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 45
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 46
-\BOOKMARK [0][-]{section*.99}{Litteratur}{}% 47
-\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 48
-\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 49
+\BOOKMARK [1][-]{section.5.4}{Analyseklasser}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Systemdesign}{}% 28
+\BOOKMARK [1][-]{section.6.1}{Designafgr\346nsning}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{Objektorienteret design}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.3}{Design af database}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.6.3.1}{ER-diagram}{section.6.3}% 32
+\BOOKMARK [2][-]{subsection.6.3.2}{Schema}{section.6.3}% 33
+\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 34
+\BOOKMARK [1][-]{subsection.7.0.1}{Implementering af objektorienteret design}{chapter.7}% 35
+\BOOKMARK [2][-]{subsection.7.0.2}{Implementering af database}{subsection.7.0.1}% 36
+\BOOKMARK [0][-]{chapter.8}{Test}{}% 37
+\BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 38
+\BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.3}{Kategorisering}{chapter.8}% 40
+\BOOKMARK [1][-]{section.8.4}{Tilpasning af tr\346ningsniveau}{chapter.8}% 41
+\BOOKMARK [1][-]{section.8.5}{Tr\346ning}{chapter.8}% 42
+\BOOKMARK [1][-]{section.8.6}{Resultater}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.7}{Venneliste}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.8}{Redigering}{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 46
+\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 47
+\BOOKMARK [0][-]{section*.97}{Litteratur}{}% 48
+\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 49
+\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 50

@@ -1,17 +1,17 @@
-\subsection*{Venneliste og følg andre brugere} 
+\subsection*{Venneliste} 
 For at motivere brugere til regelmæssig træning, vælges at integrere muligheden for sociale relationer i app'en. Dette muliggør, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere har opnået. Hertil skal det være muligt for brugeren at tilføje nye brugere til vennelisten. 
-Af \autoref{fig:venner} fremgår et aktivitetsdiagram for venneliste og følg andre brugere . 
+Af \autoref{fig:venner} fremgår et aktivitetsdiagram for vennelisten.
 
 \begin{figure} [H]
 \centering
 \textbf{Aktivitetsdiagram: Venneliste og følg andre brugere}\par\medskip
 \includegraphics[width=0.95\textwidth]{figures/aktivitetsdiagram/venner}
-\caption{Aktivitetsdiagram for venneliste og følg andre brugere.}
+\caption{Aktivitetsdiagram for venneliste.}
 \label{fig:venner}
 \end{figure}
 
 \noindent
-Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at følge en ny bruger eller tilgå en bruger den allerede følger. Ønsker brugeren at følge en ny, skal brugeren angive MedlemsID på denne. Systemet sender det indtastede MedlemsID til databasen, som tjekker om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive MedlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvorefter en ny bruger kan følges. Ønskes dette, sender systemet en anmodning om at følge brugeren. Databasen gemmer brugeren, der ønskes at følges, og sender en bekræftelse. Efter bekræftelse eller ved angivet ven viser systemet grænsefladen for den valgte eller tilføjede brugers belønninger.
+Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at søge efter en bruger eller vælge en bruger i vennelisten. Ønsker brugeren at søg efter en ny, skal brugeren angive MedlemsID på denne. Systemet sender det indtastede MedlemsID til databasen, som validerer om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive medlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvorefter brugeren kan følges, hvis den ikke allerede følges. Ønskes dette, sender systemet en anmodning om at følge brugeren. Databasen gemmer brugeren, der ønskes at følges, og sender en bekræftelse. Efter bekræftelse eller ved at vælge en ven fra vennelisten viser systemet grænsefladen for den valgte eller tilføjede brugers belønninger.
 
  
 

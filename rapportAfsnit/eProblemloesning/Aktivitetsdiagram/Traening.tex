@@ -15,13 +15,11 @@ Når systemet har tilpasset træning vises grænsefladen for træning. Brugeren 
 
 
 \subsubsection*{Tilpasning af træningsniveau} \label{sec:traeningsniveau}
-
-
-%Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der ved valg af konditionstræning vælges gå, løbe eller cykle. Træningsniveau skal efterfølgende tilpasses.
+Før selve træningen påbegyndes, skal træningsniveauet tilpasses brugeren. 
 
 Tilpasning af træningsniveau er en funktion der skal tage højde for daglige variationer ved at anbefale et træningsniveau ud fra brugeres kategorisering, daglige helbredstilstand og tidligere evalueringer af træninger.  
 Aktivitetsdiagrammet over tilpasning af træningsniveau fremgår af \autoref{fig:traening}.
- 
+
 \begin{figure} [H]
 \centering
 \textbf{Aktivitetsdiagram: Tilpasning af træning}\par\medskip
@@ -31,7 +29,7 @@ Aktivitetsdiagrammet over tilpasning af træningsniveau fremgår af \autoref{fig
 \end{figure}
 
 \noindent
-For at systemet kan tilpasse træningsniveauet vises grænsefladen for valg af daglig helbredstilstand, hvortil brugeren skal angive sin helbredstilstand. Systemet henter kategorisering og tjekker om der er tidligere evalueringer for den valgte træningsform og -type. Hvis brugeren ikke har angivet tidligere evalueringer bestemmes niveauet ud fra resterende parametre. Hvis de findes hentes de tidligere evalueringer. Tilpasningen af træningsniveau beregnes efterfølgende. Et simpel eksempel på denne beregning fremgår af \autoref{tab:beslutningstabel}. Tabellen beskriver hvordan en algoritme, ville regulere træningsniveauet, således der tages højde for den enkelte bruger.
+Systemet viser grænsefladen for valg af træningsform, hvor brugeren skal angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der ved valg af konditionstræning vælges gå, løbe eller cykle. Herefter vises grænsefladen for valg af daglig helbredstilstande, hvortil brugeren skal angive sin helbredstilstand. Systemet henter kategorisering, hvorefter den anmoder om tidligere evaluering i databasen. Databasen tjekker om der er tidligere evalueringer for den valgte træningsform og -type. Hvis brugeren ikke har angivet tidligere evalueringer bestemmes niveauet ud fra de resterende parametre. Hvis der findes tidligere evalueringer hentes disse og medregnes som en parameter.  Et simpel eksempel på denne beregning fremgår af \autoref{tab:beslutningstabel}. Tabellen beskriver, hvordan en algoritme vil kunne regulere træningsniveauet, således der tages højde for den enkelte bruger.
 
 \begin{table}[H]
 \centering
@@ -41,6 +39,6 @@ For at systemet kan tilpasse træningsniveauet vises grænsefladen for valg af d
 \end{table} 
 
 \noindent
-Af \autoref{tab:beslutningstabel} fremgår en simpel beslutningstabel for, hvorledes et træningssæt tilpasses den enkelte bruger. Beslutningstabellen tager udgangspunkt i brugerens kategorisering, valgt træningsform og -type samt daglig helbredstilstand og en eventuel evaluering. Brugeren er i dette tilfælde kategoriseret til B. Valgt at udføre konditionstræning herunder løb. Helbredstilstanden angives førend en træning påbegyndes, for således at tilpasse niveauet til den pågældende dag. Helbredstilstanden angives efter \textit{1: Meget dårligt}, \textit{2: Dåligt}, \textit{3: Moderat}, \textit{4: Godt} eller \textit{5: Meget godt}, hvortil brugerens helbredstilstand her angives som moderat.
+Af \autoref{tab:beslutningstabel} fremgår en simpel beslutningstabel for, hvorledes et træningsniveau tilpasses den enkelte bruger. Beslutningstabellen tager udgangspunkt i brugerens kategorisering, valgt træningsform og -type samt daglig helbredstilstand og en eventuel evaluering. Brugeren er i dette tilfælde kategoriseret til B. Valgt at udføre konditionstræning herunder løb. Helbredstilstanden angives førend en træning påbegyndes, for således at tilpasse niveauet til den pågældende dag. Helbredstilstanden angives efter \textit{1: Meget dårligt}, \textit{2: Dåligt}, \textit{3: Moderat}, \textit{4: Godt} eller \textit{5: Meget godt}, hvortil brugerens helbredstilstand her angives som moderat.
 Træningsniveauet vurderes dermed ud fra brugerens kategorisering, valg af træningsform og -type samt helbredstilstand. 
-For at have mulighed for at kunne regulere træningsniveauet yderligere, medregnes den forhenværende evaluering, der er forbundet med samme helbredstilstand, træningsform og type. I dette tilfælde har brugeren før haft samme helbredstilstand, træningsform samt type og dertil evalueres denne træning til værende hård. Algoritmen regulerer hertil træningsniveauet for denne træning ned, for således at give brugeren en bedre og mere tilpasset træningsoplevelse. 
+For at have mulighed for at kunne regulere træningsniveauet yderligere, medregnes den forhenværende evaluering, der er forbundet med samme helbredstilstand, træningsform og type. I dette tilfælde har brugeren før haft samme helbredstilstand, træningsform samt -type og dertil evalueres denne træning til værende hård. Algoritmen regulerer hertil træningsniveauet for denne træning ned, for således at give brugeren en bedre og mere tilpasset træningsoplevelse. 

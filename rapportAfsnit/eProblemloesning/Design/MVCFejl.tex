@@ -3,10 +3,10 @@ Til at vise fejlmeddelelser er der opstillet en fælles grænseflade, hvori teks
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/MVC/MVCfejl}
+\includegraphics[width=0.2\textwidth]{figures/MVC/MVCfejl}
 \caption{Designklasse for fejlmeddelelse.}
 \label{fig:Designfejl}
 \end{figure}
 
 \noindent
-Grænsefladen indeholder, foruden et tekstfelt, en OKKnap, der ved tryk henviser systemet til den forhenværende grænseflade. Fejlmeddelelsesgrænsefladen håndteres af den pågældende controller, hvori fejlen opstår. 
+Grænsefladen indeholder en metode makeText. Denne anvendes i log ind, venneliste og redigering af adgangskode til at oplyse brugeren om at indtastede værdier ikke stemmer overens med oplyste værdier i databasen eller ikke eksisterer i databasen. 

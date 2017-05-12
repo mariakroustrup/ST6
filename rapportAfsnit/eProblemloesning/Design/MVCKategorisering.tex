@@ -1,19 +1,19 @@
 \subsection*{Kategorisering}
-Kategorisering inddeles i boundarys og en dertilhørende controlklasse, som det fremgår af \autoref{fig:DesignKategorisering}.
+Kategorisering inddeles i tre boundarys og en dertilhørende controlklasse, som det fremgår af \autoref{fig:DesignKategorisering}.
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/MVC/MVCKategorisering}
+\includegraphics[width=0.5\textwidth]{figures/MVC/MVCKategorisering}
 \caption{Designklasser for kategorisering. Til venstre ses de forskellige grænseflader, henholdsvis CATScore, Indlæggelser og Kategorisering. Til højre fremgår den dertilhørende controller.}
 \label{fig:DesignKategorisering}
 \end{figure}
 
 \noindent
 Kategoriseringen inddeles i tre grænseflader, herunder \textit{CATScore}, \textit{Indlæggelser} samt \textit{Kategorisering}. Dette er valgt, idet grænsefladerne skal have forskellige layouts, og en opdeling vil gøre implementeringen af grænsefladerne mere overskuelig. Desuden ønskes det at gøre app’en overskuelig og
-brugervenlig, hvilket kan opnås ved at tydeliggøre adskillelsen mellem CAT-score og besvarelse af antal årlige indlæggelser, j.f. gestaltloven om lighed i \autoref{sec:brugervenlighed}. Hertil skal brugeren foretage minimale valg på hver brugergrænseflade, således
+brugervenlig, hvilket kan opnås ved at tydeliggøre adskillelsen mellem CATscore og besvarelse af antal årlige indlæggelser, j.f. gestaltloven om lighed i \autoref{sec:brugervenlighed}. Hertil skal brugeren foretage minimale valg på hver grænseflade, således
 brugeren ikke eksponeres til for mange valg på samme tid samt informationer på en grænseflade.
 
-De tre grænseflader indeholder tekstfelter af typen TextView, der informerer brugeren om den følgende handling. Dertil er der ligeledes opsat knapper af typen Button, således brugeren kan besvare spørgsmålene. I boundaryklassen \textit{CATScore} ses 0til5Knap, som repræsenterer seks forskellige knapper, der skal implementeres i grænsefladen. Disse seks knapper vil gøre det muligt for brugeren at vælge en værdi mellem nul og fem for hvert CAT-udsagn. Ligeledes ses der i boundaryklassen \textit{Indlæggelser} en knap, IndlæggelserKnap, som repræsenterer to knapper i grænsefladen. Brugeren skal på denne grænseflade angive antallet af årlige indlæggelser på grund af KOL, hvor knapperne gør det muligt at vælge mellem nul og en eller flere indlæggelser.
+De tre grænseflader indeholder tekstfelter af typen TextView, der informerer brugeren om den følgende handling. Dertil er der ligeledes opsat knapper af typen Button, således brugeren kan besvare udsagn. I boundaryklassen \textit{CATScore} ses 0til5Knap, som repræsenterer seks forskellige knapper, der skal implementeres i grænsefladen. Disse seks knapper vil gøre det muligt for brugeren at vælge en værdi mellem nul og fem for hvert udsagn. Ligeledes ses der i boundaryklassen \textit{Indlæggelser} en knap, IndlæggelserKnap, som repræsenterer to knapper i grænsefladen. Brugeren skal på denne grænseflade angive antallet af årlige indlæggelser på grund af KOL, hvor knapperne gør det muligt at vælge mellem nul og en eller flere indlæggelser.
 
 Den dertilhørende controller, \textit{Kategorisering}, håndterer visningen af de tre boundarys samt respektive knapper og tekst. Controlleren indeholder metoderne Vis, Lyt, Beregn, Gem og Start. 
 Der er ligeledes udarbejdet et sekvensdiagram for kategorisering, hvilket ses af \autoref{fig:SEKKategorisering}.
@@ -26,4 +26,4 @@ Der er ligeledes udarbejdet et sekvensdiagram for kategorisering, hvilket ses af
 \end{figure}
 
 \noindent
-Det fremgår af sekvensdiagrammet, at grænsefladen for \textit{CATScore} vises som det første. Brugeren introduceres her til CAT-score, hvorefter brugeren har mulighed for at trykke på VidereKnap. Herefter er der opstillet en loop, som har til formål at stille otte spørgsmål, som brugeren skal besvare ved hjælp af knapper, \textit{0til5Knap}. Idet brugeren trykker videre fra hvert spørgsmål, adderes CAT-scoren. Efter de otte udsagn er besvaret, og den samlede CAT-score er beregnet, vises grænsefladen for \textit{Indlæggelser}. Controlleren lytter dertil til \textit{IndlæggelserKnap}, hvori brugeren besvarer antal årlige indlæggelser forårsaget af KOL. Besvarelsen bekræftes ved at benytte \textit{VidereKnappen}. ABCD-kategoriseringen kan derved beregnes og vises i \textit{Kategorisering} grænsefladen. Denne kategorisering gemmes i entityen \textit{Brugeroplysninger}, når brugeren trykker videre. Herefter startes hovedmenuen.
+Det fremgår af sekvensdiagrammet, at grænsefladen for \textit{CATScore} vises som det første. Brugeren introduceres her til CATscore, hvorefter brugeren har mulighed for at trykke på VidereKnap. Herefter er der opstillet en loop, som har til formål at stille otte spørgsmål, som brugeren skal besvare ved hjælp af knapper, \textit{0til5Knap}. Idet brugeren trykker videre fra hvert spørgsmål, adderes CATscoren. Efter de otte udsagn er besvaret, og den samlede CATscore er beregnet, vises grænsefladen for \textit{Indlæggelser}. Controlleren lytter dertil til \textit{IndlæggelserKnap}, hvori brugeren besvarer antal årlige indlæggelser forårsaget af KOL. Besvarelsen bekræftes ved at benytte \textit{VidereKnappen}. ABCD-kategoriseringen kan derved beregnes og vises i \textit{Kategorisering} grænsefladen. Denne kategorisering gemmes i entityen \textit{Brugeroplysninger} og databasen, når brugeren trykker videre. Herefter startes hovedmenuen.

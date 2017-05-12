@@ -1,5 +1,5 @@
-\subsection*{Analyseklasser}
-Inden analyseklasserne udarbejdes, foretages en analyse ud fra systembeskrivelsen, use case og funktionaliteter til at identificere substantiver og verber. Dette gøres for at sikre, at alle funktionaliteter indgår i klassediagrammet. Substantiver og verber fremgår af \autoref{tab:subverb}.
+\section{Analyseklasser}
+Inden analyseklasserne udarbejdes, foretages en analyse ud fra systembeskrivelsen, use case og funktionaliteter til at identificere substantiver og verber. Dette gøres for at sikre, at alle funktionaliteter indgår i design af klassediagrammer. Substantiver og verber fra analysen fremgår af \autoref{tab:subverb}.
 
 \begin{table}[H]
 \centering
@@ -11,7 +11,7 @@ Inden analyseklasserne udarbejdes, foretages en analyse ud fra systembeskrivelse
 \noindent
 De fremhævede substantiver, brugeroplysninger, træning, resultater, venneliste og database, identificeres som klasser. Under hver klasse fremgår deres tilhørende attributter, der beskriver den overordnede klasse. Verberne betegner de metoder, der kan tilgås i de forskellige klasser. 
 
-Efter analyseklasserne er identificeres i  \autoref{tab:subverb} inddeles disse i analyseklasser og opdeles i stereotyper. Dette kan ses af \autoref{fig:analyseklasse}. 
+Efter substantiver og verber er identificeret inddeles disse i analyseklasser og opdeles i stereotyperne, entity, boundary og control. Dette kan ses af \autoref{fig:analyseklasse}. 
 
 \begin{figure}[H]
 \centering
@@ -21,5 +21,5 @@ Efter analyseklasserne er identificeres i  \autoref{tab:subverb} inddeles disse 
 \end{figure}
 
 \noindent
-Af \autoref{fig:analyseklasse} fremgår relationen mellem klasserne og deres tilhørende attributter samt metoder.  \textit{Database} er defineret som entityklasser, da de skal lagre og opdatere informationer. \textit{Resultater} er defineret som boundaryklasse, da den skal vise resultater på grænseflade.  \textit{Brugeroplysninger}, \textit{Tilpasning af træningsniveau}, \textit{Træning} og \textit{Venneliste} defineres som controlklasser, idet disse anvendes til at kontrollere handlinger. 
+Af \autoref{fig:analyseklasse} fremgår relationen mellem klasserne og deres tilhørende attributter samt metoder.  \textit{Database} er defineret som entityklasse, da den skal lagre og opdatere informationer. \textit{Resultater} er defineret som boundaryklasse, da den skal vise resultater på en grænseflade.  \textit{Brugeroplysninger}, \textit{Tilpasning af træningsniveau}, \textit{Træning} og \textit{Venneliste} defineres som controlklasser, idet disse anvendes til at kontrollere handlinger. 
 
