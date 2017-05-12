@@ -32,26 +32,26 @@
 \contentsline {subsubsection}{Non-funktionelle krav}{19}{section*.26}
 \contentsline {subsection}{\numberline {5.2.1}Use case}{19}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Funktionalitet}{21}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}Systemdesign}{36}{chapter.6}
-\contentsline {section}{\numberline {6.1}Designafgr\IeC {\ae }nsning}{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Objektorienteret design}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af database}{61}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}ER-diagram}{61}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Schema}{62}{subsection.6.3.2}
-\contentsline {chapter}{\chapternumberline {7}Implementering}{63}{chapter.7}
-\contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{63}{subsection.7.0.1}
-\contentsline {subsection}{\numberline {7.0.2}Implementering af database}{63}{subsection.7.0.2}
-\contentsline {chapter}{\chapternumberline {8}Test}{64}{chapter.8}
-\contentsline {section}{\numberline {8.1}Database}{64}{section.8.1}
-\contentsline {section}{\numberline {8.2}Log ind}{65}{section.8.2}
-\contentsline {section}{\numberline {8.3}Kategorisering}{65}{section.8.3}
-\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{66}{section.8.4}
-\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{67}{section.8.5}
-\contentsline {section}{\numberline {8.6}Resultater}{68}{section.8.6}
-\contentsline {section}{\numberline {8.7}Venneliste}{69}{section.8.7}
-\contentsline {section}{\numberline {8.8}Redigering}{70}{section.8.8}
-\contentsline {section}{\numberline {8.9}Log ud}{71}{section.8.9}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{72}{chapter.9}
-\contentsline {chapter}{Litteratur}{73}{section*.99}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{77}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{77}{section.A.1}
+\contentsline {chapter}{\chapternumberline {6}Systemdesign}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Designafgr\IeC {\ae }nsning}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Objektorienteret design}{35}{section.6.2}
+\contentsline {section}{\numberline {6.3}Design af database}{60}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}ER-diagram}{60}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Schema}{61}{subsection.6.3.2}
+\contentsline {chapter}{\chapternumberline {7}Implementering}{62}{chapter.7}
+\contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{62}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.2}Implementering af database}{62}{subsection.7.0.2}
+\contentsline {chapter}{\chapternumberline {8}Test}{63}{chapter.8}
+\contentsline {section}{\numberline {8.1}Database}{63}{section.8.1}
+\contentsline {section}{\numberline {8.2}Log ind}{64}{section.8.2}
+\contentsline {section}{\numberline {8.3}Kategorisering}{64}{section.8.3}
+\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{65}{section.8.4}
+\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{66}{section.8.5}
+\contentsline {section}{\numberline {8.6}Resultater}{67}{section.8.6}
+\contentsline {section}{\numberline {8.7}Venneliste}{68}{section.8.7}
+\contentsline {section}{\numberline {8.8}Redigering}{69}{section.8.8}
+\contentsline {section}{\numberline {8.9}Log ud}{70}{section.8.9}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{71}{chapter.9}
+\contentsline {chapter}{Litteratur}{72}{section*.99}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{76}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{76}{section.A.1}

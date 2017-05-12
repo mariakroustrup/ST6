@@ -1,16 +1,16 @@
 I dette kapitel beskrives funktionaliteten af den ønskede app. På baggrund af dette opstilles funktionelle samt non-funktionelle krav. Herefter er systemet beskrevet ved hjælp af et use case diagram, hvortil de enkelte funktionaliteter er beskrevet yderligere. 
 
 \section{Systembeskrivelse} \label{sec:systembeskrivelse}
-I dette projekt udvikles en app, der har til formål at hjælpe KOL-patienter til at opretholde regelmæssig motion efter et endt rehabiliteringsforløb. App'en skal kunne håndtere forskellige træningsformer herunder konditions- samt styrketræning og vejrtrækningsøvelser, hvilket alle har symptomreducerende effekt, jf. \autoref{sec:rehabilitering}. 
+I dette projekt udvikles en app, der har til formål at hjælpe KOL-patienter til at opretholde regelmæssig motion efter et endt rehabiliteringsforløb. App'en skal kunne håndtere forskellige træningsformer herunder konditions- samt styrketræning og vejrtrækningsøvelser, hvilket alle har symptomreducerende effekt, jf. \autoref{sec:rehabilitering}. Ligeledes skal app'en kunne håndtere forskellige træningstyper, som for eksempel gå, løbe eller cykle.
 
 KOL-patienter introduceres samt registreres i app'en i forbindelse med deres rehabiliteringsforløb. 
 Dette skal sikre, at det kun er KOL-patienter, der er tilmeldt rehabiliteringshold, som kan anvende app'en til træning. Ved registrering oprettes KOL-patienter med medlemsID, fornavn, efternavn samt adgangskode.  
 
-Der er forskel på, hvor meget fysisk aktivitet KOL-patienter kan udføre, og der skal derved være forskel i varighed og distance af den træning som app'en foreslår. Dertil skal app'en kunne tilpasse træningsniveau ud fra den enkelte patients parametre. Disse parametre består af kategoriseringen af KOL-patienter efter ABCD, jf. \autoref{cha:problemanalyse}, daglige helbredstilstande, der skal tage højde for dag til dag variationer samt tidligere evalueringer fra lignende træning. Dette medvirker til, at app'en er henvendt specifik til KOL-patienter i modsætning til andre træningsapp's, der henvender sig til hele befolkningen. 
+Der er forskel på, hvor meget fysisk aktivitet KOL-patienter kan udføre, og der skal derved være forskel i varighed af den træning som app'en foreslår. Dertil skal app'en kunne tilpasse træningsniveau ud fra den enkelte patients parametre. Disse parametre består af kategoriseringen af KOL-patienter efter ABCD, jf. \autoref{cha:problemanalyse}, daglige helbredstilstande, der skal tage højde for dag til dag variationer samt tidligere evalueringer fra lignende træningstype. Dette medvirker til, at app'en er henvendt specifik til KOL-patienter i modsætning til andre træningsapp's, der henvender sig til hele befolkningen. 
 
-Under selve træningen monitoreres træningen ved brug af timer og GPS, derudover kan app'en tilkobles kompatible måleenheder. Monitoreringen er med til at vejlede patienten til at følge det valgte træningsniveau. Kompatible måleenheder er for eksempel et pulsur, som kan støtte patienten i forhold til at kontrollere, at patienten ikke overanstrenges. 
+Under selve træningen monitoreres træningen ved brug af timer og GPS. Monitoreringen er med til at vejlede patienten til at følge det valgte træningsniveau. 
 
-For at hjælpe KOL-patienter med vedligeholdelse af den daglige træning skal app’en virke motiverende for patienterne. Dette gøres blandt andet ved, at KOL-patienter kan følge sin egen udvikling via app'en. Desuden skal app'en informere, hvis KOL-patienter ikke har udført træning med app'en i længere tid. For at øge motivationen hos KOL-patienter skal de derudover kunne opnå virtuelle belønninger ved at udføre gentagne eller forskellige træningsformer.\citep{Gade2007, Tricomi2016}
+For at hjælpe KOL-patienter med vedligeholdelse af den daglige træning skal app’en virke motiverende for patienterne. Dette gøres blandt andet ved, at KOL-patienter kan opnå virtuelle belønninger ved at udføre gentagne eller forskellige træningsformer. Desuden skal app'en informere, hvis KOL-patienter ikke har udført træning med app'en i længere tid. \citep{Gade2007, Tricomi2016}
 
 Som nævnt i afsnit \ref{sec:efterRehabilitering}, er det sociale fællesskab en væsentlig faktor for at opretholde resultaterne fra rehabiliteringsforløb. Dette gøres ved, at KOL-patienter kan følge og tilgå andre KOL-patienters virtuelle belønninger, hvormed dette motiverer patienterne til vedligeholdelse af den forbedrede livsstil. Derudover skal sundhedsfagligt personale kunne tilgå KOL-patienters resultater i en database, så de kan følge med i patienters udvikling. De har herved mulighed for at informere patienter om deres indsats, hvilket ligeledes kan have en motiverende effekt.\citep{Gade2007, Tricomi2016}
 
@@ -23,40 +23,41 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 
 \noindent 
 \begin{itemize}
-\item Sundhedspersonalet skal kunne oprette brugere i en database
+\item Brugere skal kunne oprettes i en database
 	\\
 	\textit{Dette er nødvendigt for, at brugere kan anvende app'en}
-\item Brugere skal kunne log ind med et medlemsID og adgangskode
+	\item Systemet skal kunne gemme og hente data i en database
+\\
+\textit{Dette er nødvendigt for, at brugere kan tilgå brugerdata}
+\item Brugere skal kunne log ind med et personligt medlemsID og adgangskode
 	\\
-	\textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
-\item Systemet skal kunne kategorisere brugere i ABCD
+	\textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugernes data}
+\item Systemet skal kunne kategorisere brugere i ABCD på baggrund af CATscore og  antallet af indlæggelser på grund af KOL. 
 	\\
 	\textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
 \item Brugere skal kunne angive deres daglige helbredstilstand 
 	\\
 \textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
-\item Systemet skal kunne håndtere målinger fra kompatible måleenheder
+\item Systemet skal kunne måle tid og afstand
 	\\
-\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning}
+\textit{Dette er nødvendigt for at monitorere træningen}
 \item Brugere skal kunne evaluere hver træning
 	\\
-\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}	
-\item Systemet skal kunne gemme og hente data i en database
-\\
-\textit{Dette er nødvendigt for, at brugere kan tilgå brugerdata}	
-%\item Brugere skal kunne tilgå deres egne resultater
-%	\\
-%	\textit{Dette er nødvendigt for, at brugere kan se deres udvikling}
-\item Systemet skal kunne sende notifikationer og give virtuelle belønninger 
+\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}		
+\item Systemet skal kunne sende en notifikation, hvis brugere ikke har trænet før klokken 15. 
 	\\
 	\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
-\item Brugere skal kunne følge andre brugere
+	
+	\item Systemet skal kunne give virtuelle belønninger 
+	\\
+	\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
+\item Brugere skal kunne følge andre brugere 
 	\\
 	\textit{Dette er nødvendigt for at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
 \item Brugere skal kunne redigere deres adgangskode
 	\\
-	\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode}
-\item Brugere skal kunne log ud
+	\textit{Dette er nødvendigt for, at brugere skal kunne gøre deres adgangskode personlig}
+\item Brugere skal kunne log ud af app'en
 	\\
 	\textit{Dette er nødvendigt for sikre brugerens individuelle data}
 \end{itemize}
@@ -65,7 +66,7 @@ På baggrund af systembeskrivelsen er funktionelle og non-funktionelle krav til 
 \subsubsection{Non-funktionelle krav}
 
 \begin{itemize}
-\item Systemet skal visualiseres på en smartphone eller tablet med android og bluetooth
+\item Systemet skal visualiseres på en smartphone eller tablet med android 
 \item Systemet skal være brugervenligt
 	\\
 	\textit{Dette er nødvendigt for at sikre let orientering i app'en}

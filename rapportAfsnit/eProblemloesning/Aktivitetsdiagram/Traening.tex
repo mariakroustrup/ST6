@@ -1,5 +1,5 @@
 \subsection*{Træning} \label{sec:traening}
-Brugeren har mulighed for at foretage træninger baseret på forskellige træningsformer og træningstyper. Derudover skal træningen kunne tilpasses individuelt under hver enkelt træningssession, samt tilkoble kompatible måleenheder for at opnå en vejledende træning.  
+Inden brugeren kan træne skal træningen tilpasses den enkelte bruger. Tilpasning af træningsniveauet er  yderligere beskrevet af \autoref{fig:traeningsniveau}.
 Aktivitetsdiagrammet over træningen fremgår af \autoref{fig:traening}. 
 
 \begin{figure} [H]
@@ -11,11 +11,14 @@ Aktivitetsdiagrammet over træningen fremgår af \autoref{fig:traening}.
 \end{figure}
 
 \noindent
-Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der ved valg af konditionstræning vælges gå, løbe eller cykle. Træningsniveau skal efterfølgende tilpasses. Tilpasning af træningsniveauet er  yderligere beskrevet af \autoref{fig:traeningsniveau}. Når systemet har tilpasset træning, tjekker systemet automatisk om der er kompatible måleenheder, hvis dette er tilfældet tilkobles disse. Ellers kan træningen påbegyndes uden. Brugeren starter herefter træningen og grænsefladen for denne vises. Under træningen vil systemet kontinuert vise træningen og målinger, der foretages. Brugeren kan til en hver tid vælge at afslutte træningen, dog skal denne handling bekræftes i tilfælde af, at brugeren ved en fejl angiver, at træningen skal stoppes. 
-Ved bekræftelse stopper systemet træningen og afventer, at brugeren giver en evaluering. Efter evalueringen sendes evaluering og træningsresultater til en database, hvor det gemmes.
+Når systemet har tilpasset træning vises grænsefladen for træning. Brugeren kan påbegynde træningen ved at trykke start, hvorefter timer og GPS starter. Under træningen vil tid og afstand kontinuert fremgå af grænsefladen. Brugeren kan til en hver tid vælge at afslutte træningen ved at trykke på stop træningen, hvilket medfører, at timer og GPS stoppes og grænsefladen for afslut træning vises. Denne handling skal bekræftes i tilfælde af, at brugeren ved en fejl angiver, at træningen skal stoppes. Ved en fejl vises grænsefladen for træning. Ved bekræftelse af stop træning, vises grænsefladen for evaluering af udført træning, hvor brugeren skal angive en evaluering. Efterfølgende sendes evalueringen og træningsresultater til en database, hvor det gemmes.
 
 
 \subsubsection*{Tilpasning af træningsniveau} \label{sec:traeningsniveau}
+
+
+%Før selve træningen påbegyndes, skal brugeren angive den ønskede træningsform, herunder konditions-, styrketræning eller vejrtrækningsøvelser. Ud fra den valgte træningsform skal brugeren angive træningstype, eksempelvis kan der ved valg af konditionstræning vælges gå, løbe eller cykle. Træningsniveau skal efterfølgende tilpasses.
+
 Tilpasning af træningsniveau er en funktion der skal tage højde for daglige variationer ved at anbefale et træningsniveau ud fra brugeres kategorisering, daglige helbredstilstand og tidligere evalueringer af træninger.  
 Aktivitetsdiagrammet over tilpasning af træningsniveau fremgår af \autoref{fig:traening}.
  
