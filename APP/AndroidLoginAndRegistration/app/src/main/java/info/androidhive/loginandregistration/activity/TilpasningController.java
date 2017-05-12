@@ -343,14 +343,8 @@ public void ButtonOnClick3(View v) {
         Button btnOKanbefal = (Button) findViewById(R.id.btnOKanbefal);
         btnOKanbefal.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
-                boolean error = kondi.gemTraening(medlemsid, kondi_type, helbredstilstand);
-                if(error == false){
-                    Toast.makeText(getApplicationContext(), "Træningen er gemt!", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(getApplicationContext(), "Træningen kunne ikke gemmes!", Toast.LENGTH_LONG).show();
-                }
-
                 Intent myIntent = new Intent(TilpasningController.this, TraeningController.class);
+                myIntent.putExtra("medlemsid",medlemsid);
                 myIntent.putExtra("Value", mm);
                 startActivity(myIntent);
             }

@@ -4,42 +4,38 @@ package info.androidhive.loginandregistration.activity;
  * Created by Maria on 09/05/2017.
  */
 
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.media.MediaPlayer;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.SystemClock;
+import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
-        import android.Manifest;
-        import android.content.Context;
-        import android.content.Intent;
-        import android.content.pm.PackageManager;
-        import android.location.Location;
-        import android.location.LocationListener;
-        import android.location.LocationManager;
-        import android.media.MediaPlayer;
-        import android.os.Build;
-        import android.os.Bundle;
-        import android.os.Handler;
-        import android.os.SystemClock;
-        import android.provider.Settings;
-        import android.support.v4.app.ActivityCompat;
-        import android.support.v7.app.AppCompatActivity;
-        import android.util.DisplayMetrics;
-        import android.view.Gravity;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.Button;
-        import android.widget.EditText;
-        import android.widget.ImageView;
-        import android.widget.LinearLayout;
-        import android.widget.PopupWindow;
-        import android.widget.RelativeLayout;
-        import android.widget.TextView;
-
-        import java.util.ArrayList;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 
 import info.androidhive.loginandregistration.R;
-
-import static android.R.attr.onClick;
-        import static android.R.attr.width;
+import static info.androidhive.loginandregistration.activity.TilpasningController.kondi;
 
 /**
  * Created by Maria on 05/05/2017.
@@ -51,6 +47,7 @@ public class TraeningController extends AppCompatActivity {
     Button start, stop;// reset;
     long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
     int Seconds, Minutes, MilliSeconds;
+    String medlemsid;
     Handler handler;
     PopupWindow myPopUp;
     RelativeLayout positionOfPopup;
@@ -103,6 +100,7 @@ public class TraeningController extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.traening);
         long min = getIntent().getLongExtra("Value", mm);
+        medlemsid = getIntent().getStringExtra("medlemsid");
         //minutter = Long.parseLong(min);
         setMinutes(min);
 
@@ -149,6 +147,28 @@ public class TraeningController extends AppCompatActivity {
                 closePopUp1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+
+                        //***** HER SKRIVER MADS OG LINETTE HARDCORE KODE ****//
+
+                        String temp = String.format("%02d:%02d:%02d",
+                                TimeUnit.MILLISECONDS.toHours(MillisecondTime),
+                                TimeUnit.MILLISECONDS.toMinutes(MillisecondTime) -
+                                        TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(MillisecondTime)),
+                                TimeUnit.MILLISECONDS.toSeconds(MillisecondTime) -
+                                        TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(MillisecondTime)));
+                        kondi.setTid(temp);
+
+                        String temp1 = kondi.getKondi_type();
+                        int temp2 = kondi.getHelbredstilstand();
+                        String temp3 = kondi.getTid();
+
+                        boolean error = kondi.gemTraening(medlemsid, temp1, temp2, temp3);
+                        if(error == false){
+                            Toast.makeText(getApplicationContext(), "Træningen er gemt!", Toast.LENGTH_LONG).show();
+                        } else {
+                            Toast.makeText(getApplicationContext(), "Træningen kunne ikke gemmes!", Toast.LENGTH_LONG).show();
+                        }
+                        //*********
                         myPopUp.dismiss();
                         // if(locationManager != null){
                         locationManager.removeUpdates(locationListener);

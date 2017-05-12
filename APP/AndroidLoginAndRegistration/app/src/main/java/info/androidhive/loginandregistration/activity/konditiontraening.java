@@ -23,7 +23,7 @@ public class konditiontraening extends Activity {
 
     private String kondi_type;
     private int helbredstilstand;
-    private int tid;
+    private String tid;
     private int afstand;
     private int evaluering;
 
@@ -49,11 +49,11 @@ public class konditiontraening extends Activity {
         this.kondi_type = kondi_type;
     }
 
-    public int getTid() {
+    public String getTid() {
         return tid;
     }
 
-    public void setTid(int tid) {
+    public void setTid(String tid) {
         this.tid = tid;
     }
 
@@ -75,7 +75,7 @@ public class konditiontraening extends Activity {
 
 
 
-    public boolean gemTraening(final String medlemsid,final String kondi_type, final int helbredstilstand) {
+    public boolean gemTraening(final String medlemsid,final String kondi_type, final int helbredstilstand, final String tid) {
         String tag_string_req = "req_kondi";
         boolean error = false;
         // Viser at kategoriseringen er ved at blive gemt
@@ -125,6 +125,7 @@ public class konditiontraening extends Activity {
                 params.put("medlemsid", medlemsid);
                 params.put("kondi_type", kondi_type);
                 params.put("helbredstilstand", String.valueOf(helbredstilstand));
+                params.put("tid",tid);
                 return params;
             }
         };
