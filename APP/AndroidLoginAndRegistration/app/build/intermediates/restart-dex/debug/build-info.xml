@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494759409701"
+    timestamp="1494767165316"
     token="6823303904322499204"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="299" />
+        duration="249" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="24" />
     <task
         name="verifier"
-        duration="18" />
+        duration="7" />
 
     <artifact
         location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -70,10 +70,13 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494755843325"
+        timestamp="1494766844377"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
@@ -81,7 +84,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494759409701"
+        timestamp="1494767165316"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

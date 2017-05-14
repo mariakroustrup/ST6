@@ -5,16 +5,19 @@ package info.androidhive.loginandregistration.activity;
  */
 
 
+import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -39,6 +42,7 @@ public class VennelisteController extends AppCompatActivity {
 
     private EditText etsoegven;
     private Button btnsoegven;
+    private ListView lv;
     private SQLiteHandler db;
     private ProgressDialog pDialog;
 
@@ -77,6 +81,7 @@ public class VennelisteController extends AppCompatActivity {
 
         btnsoegven = (Button) findViewById(R.id.btnSoegVen);
         etsoegven = (EditText) findViewById(R.id.etSoegVen);
+        lv = (ListView) findViewById(R.id.list);
 
         btnsoegven.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -91,7 +96,34 @@ public class VennelisteController extends AppCompatActivity {
                 }
             }
         });
+      // ListView lv = getListView();
+
+        // on seleting single product
+        // launching Edit Product Screen
+      lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // getting values from selected ListItem
+                String medlemsid = ((TextView) view.findViewById(R.id.user_medlemsid)).getText()
+                        .toString();
+
+                // Starting new intent
+                Intent in = new Intent(getApplicationContext(),
+                        VenController.class);
+                // sending pid to next activity
+                in.putExtra("list_medlemsid", medlemsid);
+                //in.putExtra("list_navn", navn);
+
+
+                // starting new activity and expecting some response back
+                //startActivityForResult(in, 100);
+            }
+        });
+
     }
+
+
+
 
 
     private void checkVen(final String ven_medlemsid){
