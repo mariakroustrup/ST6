@@ -35,7 +35,7 @@ din næste træning"
         android:layout_centerVertical="true" />
 
     <ImageView
-        android:id="@+id/smiley_1"
+        android:id="@+id/smiley_Middel"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_weight="0.5"
@@ -43,34 +43,30 @@ din næste træning"
         android:layout_below="@+id/textHelbred2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="ButtonOnClick"/>
+        android:onClick="ButtonOnClickMiddel"/>
 
     <ImageView
-        android:id="@+id/smiley_2"
+        android:id="@+id/smiley_glad"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_weight="0.9"
         android:src="@drawable/smiley_2"
-        android:layout_alignTop="@+id/smiley_1"
-        android:layout_toLeftOf="@+id/smiley_1"
-        android:layout_toStartOf="@+id/smiley_1"
-        android:layout_marginRight="12dp"
-        android:layout_marginEnd="12dp"
-        android:onClick="ButtonOnClick"/>
+        android:onClick="ButtonOnClickGlad"
+        android:layout_alignTop="@+id/smiley_Middel"
+        android:layout_toRightOf="@+id/smiley_Middel"
+        android:layout_toEndOf="@+id/smiley_Middel" />
 
 
     <ImageView
-        android:id="@+id/smiley_3"
+        android:id="@+id/smiley_Sur"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_weight="0.9"
         android:src="@drawable/smiley_3"
-        android:layout_alignTop="@+id/smiley_1"
-        android:layout_toRightOf="@+id/smiley_1"
-        android:layout_toEndOf="@+id/smiley_1"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:onClick="ButtonOnClick"/>
+        android:onClick="ButtonOnClickSur"
+        android:layout_alignTop="@+id/smiley_Middel"
+        android:layout_toLeftOf="@+id/smiley_Middel"
+        android:layout_toStartOf="@+id/smiley_Middel" />
     <Button
         android:id="@+id/Videreeval"
         android:layout_gravity="center"

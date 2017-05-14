@@ -24,10 +24,10 @@ public class konditiontraening extends Activity {
     private String kondi_type;
     private int helbredstilstand;
     private String tid;
-    private int afstand;
+    private double afstand;
     private int evaluering;
 
-    public static String URL_kondi= "http://172.31.159.63/android_login_api/konditiontraening.php";
+    public static String URL_kondi= "http://192.168.1.149/android_login_api/konditiontraening.php";
     private static final String TAG = konditiontraening.class.getSimpleName();
 
 
@@ -57,11 +57,11 @@ public class konditiontraening extends Activity {
         this.tid = tid;
     }
 
-    public int getAfstand() {
+    public double getAfstand() {
         return afstand;
     }
 
-    public void setAfstand(int afstand) {
+    public void setAfstand(double afstand) {
         this.afstand = afstand;
     }
 
@@ -75,7 +75,7 @@ public class konditiontraening extends Activity {
 
 
 
-    public boolean gemTraening(final String medlemsid,final String kondi_type, final int helbredstilstand, final String tid) {
+    public boolean gemTraening(final String medlemsid,final String kondi_type, final int helbredstilstand, final String tid, final int evaluering, final double afstand) {
         String tag_string_req = "req_kondi";
         boolean error = false;
         // Viser at kategoriseringen er ved at blive gemt
@@ -126,6 +126,8 @@ public class konditiontraening extends Activity {
                 params.put("kondi_type", kondi_type);
                 params.put("helbredstilstand", String.valueOf(helbredstilstand));
                 params.put("tid",tid);
+                params.put("evaluering", String.valueOf(evaluering));
+                params.put("afstand", String.valueOf(afstand));
                 return params;
             }
         };

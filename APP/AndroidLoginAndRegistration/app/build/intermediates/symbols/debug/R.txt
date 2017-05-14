@@ -724,9 +724,9 @@ int id shortcut 0x7f0c0053
 int id showCustom 0x7f0c0011
 int id showHome 0x7f0c0012
 int id showTitle 0x7f0c0013
-int id smiley_1 0x7f0c0092
-int id smiley_2 0x7f0c0093
-int id smiley_3 0x7f0c0094
+int id smiley_Middel 0x7f0c0092
+int id smiley_Sur 0x7f0c0094
+int id smiley_glad 0x7f0c0093
 int id snackbar_action 0x7f0c008a
 int id snackbar_text 0x7f0c0089
 int id snap 0x7f0c0019

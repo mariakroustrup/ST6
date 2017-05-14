@@ -2370,9 +2370,9 @@ containing a value of this type.
         public static final int showCustom=0x7f0c0011;
         public static final int showHome=0x7f0c0012;
         public static final int showTitle=0x7f0c0013;
-        public static final int smiley_1=0x7f0c0092;
-        public static final int smiley_2=0x7f0c0093;
-        public static final int smiley_3=0x7f0c0094;
+        public static final int smiley_Middel=0x7f0c0092;
+        public static final int smiley_Sur=0x7f0c0094;
+        public static final int smiley_glad=0x7f0c0093;
         public static final int snackbar_action=0x7f0c008a;
         public static final int snackbar_text=0x7f0c0089;
         public static final int snap=0x7f0c0019;

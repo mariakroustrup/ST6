@@ -37,9 +37,6 @@ import java.util.concurrent.TimeUnit;
 import info.androidhive.loginandregistration.R;
 import static info.androidhive.loginandregistration.activity.TilpasningController.kondi;
 
-/**
- * Created by Maria on 05/05/2017.
- */
 
 public class TraeningController extends AppCompatActivity {
     // det her er til timer
@@ -148,8 +145,7 @@ public class TraeningController extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-                        //***** HER SKRIVER MADS OG LINETTE HARDCORE KODE ****//
-
+                        //********* Her gemmer vi tid og afstand ********
                         String temp = String.format("%02d:%02d:%02d",
                                 TimeUnit.MILLISECONDS.toHours(MillisecondTime),
                                 TimeUnit.MILLISECONDS.toMinutes(MillisecondTime) -
@@ -157,18 +153,8 @@ public class TraeningController extends AppCompatActivity {
                                 TimeUnit.MILLISECONDS.toSeconds(MillisecondTime) -
                                         TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(MillisecondTime)));
                         kondi.setTid(temp);
+                        kondi.setAfstand(getDist());
 
-                        String temp1 = kondi.getKondi_type();
-                        int temp2 = kondi.getHelbredstilstand();
-                        String temp3 = kondi.getTid();
-
-                        boolean error = kondi.gemTraening(medlemsid, temp1, temp2, temp3);
-                        if(error == false){
-                            Toast.makeText(getApplicationContext(), "Træningen er gemt!", Toast.LENGTH_LONG).show();
-                        } else {
-                            Toast.makeText(getApplicationContext(), "Træningen kunne ikke gemmes!", Toast.LENGTH_LONG).show();
-                        }
-                        //*********
                         myPopUp.dismiss();
                         // if(locationManager != null){
                         locationManager.removeUpdates(locationListener);
@@ -200,7 +186,6 @@ public class TraeningController extends AppCompatActivity {
                 setLng2(lng2);
 
             }
-
 
             @Override
             public void onStatusChanged(String provider, int status, Bundle extras) {
@@ -331,38 +316,49 @@ public class TraeningController extends AppCompatActivity {
 
 
     // her begynder evalueringen
-    int result;
+    int evaluering;
 
-    public void ButtonOnClick(View view) {
-
+    public void ButtonOnClickSur(View view) {
         switch (view.getId()) {
-            case R.id.smiley_1:
-                result = 0;
-                OnGone1(view);
-                startmenu(0);
-                break;
-            case R.id.smiley_2:
-                result = 1;
+            case R.id.smiley_Sur:
+                evaluering = 1;
                 OnGone1(view);
                 startmenu(1);
+                kondi.setEvaluering(evaluering);
                 break;
-            case R.id.smiley_3:
-                result = 2;
-                OnGone1(view);
-                startmenu(2);
-                break;
-
         }
     }
 
+    public void ButtonOnClickMiddel(View view) {
+        switch (view.getId()) {
+            case R.id.smiley_Middel:
+                evaluering = 2;
+                OnGone1(view);
+                startmenu(1);
+                kondi.setEvaluering(evaluering);
+                break;
+        }
+    }
+
+    public void ButtonOnClickGlad(View view) {
+        switch (view.getId()) {
+            case R.id.smiley_glad:
+                evaluering = 3;
+                OnGone1(view);
+                startmenu(1);
+                kondi.setEvaluering(evaluering);
+                break;
+       }
+    }
+
     public void OnGone1(View view) {
-        ImageView en = (ImageView) findViewById(R.id.smiley_1);
+        ImageView en = (ImageView) findViewById(R.id.smiley_glad);
         en.setEnabled(false);
         en.setClickable(false);
-        ImageView to = (ImageView) findViewById(R.id.smiley_2);
+        ImageView to = (ImageView) findViewById(R.id.smiley_Middel);
         to.setEnabled(false);
         to.setClickable(false);
-        ImageView tre = (ImageView) findViewById(R.id.smiley_3);
+        ImageView tre = (ImageView) findViewById(R.id.smiley_Sur);
         tre.setEnabled(false);
         tre.setClickable(false);
         Button videre = (Button) findViewById(R.id.Videreeval);
@@ -375,6 +371,21 @@ public class TraeningController extends AppCompatActivity {
         Button videre = (Button) findViewById(R.id.Videreeval);
         videre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+
+
+                String temp1 = kondi.getKondi_type();
+                int temp2 = kondi.getHelbredstilstand();
+                String temp3 = kondi.getTid();
+                int temp4 = kondi.getEvaluering();
+                double temp5 = kondi.getAfstand();
+
+                boolean error = kondi.gemTraening(medlemsid, temp1, temp2, temp3, temp4, temp5);
+                if(error == false){
+                    Toast.makeText(getApplicationContext(), "Træningen er gemt!", Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Træningen kunne ikke gemmes!", Toast.LENGTH_LONG).show();
+                }
+
                 Intent myIntent = new Intent(TraeningController.this, MenuController.class);
                 startActivity(myIntent);
                 finish();

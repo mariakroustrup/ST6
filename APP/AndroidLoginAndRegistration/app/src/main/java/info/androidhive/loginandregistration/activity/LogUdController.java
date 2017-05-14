@@ -35,7 +35,7 @@ public class LogUdController extends AppCompatActivity{
     private SQLiteHandler db;
     private SessionManager session;
     private ProgressDialog pDialog;
-    public static String URL_kondi= "http://172.31.159.63/android_login_api/konditiontraening.php";
+    public static String URL_kondi= "http://192.168.1.149/android_login_api/konditiontraening.php";
     private static final String TAG = LogUdController.class.getSimpleName();
  
 

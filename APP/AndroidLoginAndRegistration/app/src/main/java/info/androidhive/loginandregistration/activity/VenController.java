@@ -35,8 +35,8 @@ public class VenController extends AppCompatActivity {
     private ProgressDialog pDialog;
     private SQLiteHandler db;
     private static final String TAG = VenController.class.getSimpleName();
-    public static String URL_CHECKVENNERELATION = "http://172.31.159.63/android_login_api/checkvennerelation.php";
-    public static String URL_VENNERELATION= "http://172.31.159.63/android_login_api/opretvennerelation.php";
+    public static String URL_CHECKVENNERELATION = "http://192.168.1.149/android_login_api/checkvennerelation.php";
+    public static String URL_VENNERELATION= "http://192.168.1.149/android_login_api/opretvennerelation.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
