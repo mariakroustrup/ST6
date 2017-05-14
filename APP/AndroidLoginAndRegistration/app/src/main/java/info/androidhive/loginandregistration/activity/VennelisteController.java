@@ -45,6 +45,7 @@ public class VennelisteController extends AppCompatActivity {
     private ListView lv;
     private SQLiteHandler db;
     private ProgressDialog pDialog;
+    ListAdapter adapter;
 
     // products JSONArray
     JSONArray venner_array = null;
@@ -83,6 +84,7 @@ public class VennelisteController extends AppCompatActivity {
         etsoegven = (EditText) findViewById(R.id.etSoegVen);
         lv = (ListView) findViewById(R.id.list);
 
+
         btnsoegven.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String ven_medlemsid = etsoegven.getText().toString().trim();
@@ -96,27 +98,27 @@ public class VennelisteController extends AppCompatActivity {
                 }
             }
         });
-      // ListView lv = getListView();
 
-        // on seleting single product
+
         // launching Edit Product Screen
       lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // getting values from selected ListItem
-                String medlemsid = ((TextView) view.findViewById(R.id.user_medlemsid)).getText()
-                        .toString();
+
+                //String medlemsid = lv.getItemAtPosition(position).toString(); // Den crasher her, men hvorfor???
+
+                HashMap<String, Object> obj = (HashMap<String, Object>) adapter.getItem(position);
+                String ven_medlemsid = (String) obj.get("ven_medlemsid");
+                String ven_navn = (String) obj.get("navn");
 
                 // Starting new intent
-                Intent in = new Intent(getApplicationContext(),
-                        VenController.class);
+                Intent in = new Intent(getApplicationContext(), VenController.class);
                 // sending pid to next activity
-                in.putExtra("list_medlemsid", medlemsid);
-                //in.putExtra("list_navn", navn);
+                in.putExtra("EXTRA_VENS_ID", ven_medlemsid);
+                in.putExtra("EXTRA_VENS_NAVN", ven_navn);
 
-
-                // starting new activity and expecting some response back
-                //startActivityForResult(in, 100);
+                startActivity(in);
             }
         });
 
@@ -147,7 +149,7 @@ public class VennelisteController extends AppCompatActivity {
                     // Check for error node in json
                     if (!error) {
                         // Now store the user in SQLite
-                        String uid = jObj.getString("uid");
+                        //String uid = jObj.getString("uid");
 
                         JSONObject user = jObj.getJSONObject("user");
                         String ven_navn = user.getString("navn");
@@ -284,7 +286,7 @@ public class VennelisteController extends AppCompatActivity {
                 /**
                  * Updating parsed JSON data into ListView
                  * */
-                ListAdapter adapter = new SimpleAdapter(
+                adapter = new SimpleAdapter(
                         VennelisteController.this, VenneListe,
                         R.layout.activity_listview, new String[] {"navn"},
                         new int[] { R.id.Navn });
