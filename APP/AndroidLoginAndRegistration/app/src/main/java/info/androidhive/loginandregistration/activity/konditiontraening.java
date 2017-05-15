@@ -31,9 +31,9 @@ public class konditiontraening extends Activity {
     private int b_afstand;
     private int b_tid;
 
-    public static String URL_kondi = "http://172.31.159.63/android_login_api/konditiontraening.php";
-    public static String URL_B_RESULTATER = "http://172.31.159.63/android_login_api/b_resultater.php";
-    public static String URL_UPDATEBELOENNINGER = "http://172.31.159.63/android_login_api/updatebeloenninger.php";
+    public static String URL_kondi = "http://192.168.1.149/android_login_api/konditiontraening.php";
+    public static String URL_B_RESULTATER = "http://1192.168.1.149/android_login_api/b_resultater.php";
+    public static String URL_UPDATEBELOENNINGER = "http://192.168.1.149/android_login_api/updatebeloenninger.php";
     private static final String TAG = konditiontraening.class.getSimpleName();
 
 

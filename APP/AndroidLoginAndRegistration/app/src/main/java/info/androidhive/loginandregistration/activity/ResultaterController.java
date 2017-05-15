@@ -37,8 +37,8 @@ public class ResultaterController extends AppCompatActivity {
     ArrayList<HashMap<String, String>> ResultatListe = new ArrayList<HashMap<String, String>>();
 
     // URL's
-    public static String URL_RESULTATER = "http://172.31.159.63/android_login_api/resultater.php";
-    public static String URL_BELOENNINGER = "http://172.31.159.63/android_login_api/beloenninger.php";
+    public static String URL_RESULTATER = "http://192.168.1.149/android_login_api/resultater.php";
+    public static String URL_BELOENNINGER = "http://192.168.1.149/android_login_api/beloenninger.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -256,35 +256,47 @@ public class ResultaterController extends AppCompatActivity {
 
        }
 
-   // antal samt konditionstræning
-        if (b_antal == 1 || b_kondi == 1) {
-            ImageView image1 = (ImageView)findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star1);
+   // antal
+           if (b_antal ==1){
+               ImageView image1 = (ImageView)findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star1);
+           } else if(b_antal==2){
+               ImageView image1 = (ImageView) findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star2);
+           } else if(b_antal==3){
+               ImageView image1 = (ImageView) findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star3);
+           } else if(b_antal==4){
+               ImageView image1 = (ImageView) findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star4);
+           } else if (b_antal ==5){
+               ImageView image1 = (ImageView) findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star5);
+           } else if (b_antal ==6){
+               ImageView image1 = (ImageView) findViewById(R.id.starantal);
+               image1.setImageResource(R.drawable.star5);
+           } else{
+
+           }
+
+
+           // KONDI
+        if (b_kondi == 1) {
             ImageView image = (ImageView)findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star1);
-        } else if (b_antal == 2 || b_kondi == 2) {
-            ImageView image1 = (ImageView) findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star2);
+        } else if (b_kondi == 2) {
             ImageView image = (ImageView) findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star2);
-        } else if (b_antal == 3 || b_kondi == 3) {
-            ImageView image1 = (ImageView) findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star3);
+        } else if (b_kondi == 3) {
             ImageView image = (ImageView) findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star3);
-        } else if (b_antal == 4 || b_kondi == 4) {
-            ImageView image1 = (ImageView) findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star4);
+        } else if (b_kondi == 4) {
             ImageView image = (ImageView) findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star4);
-        } else if (b_antal == 5 || b_kondi == 5) {
-            ImageView image1 = (ImageView) findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star5);
+        } else if (b_kondi == 5) {
             ImageView image = (ImageView) findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star5);
-        } else if (b_antal == 6 || b_kondi == 6) {
-            ImageView image1 = (ImageView) findViewById(R.id.starantal);
-            image1.setImageResource(R.drawable.star5);
+        } else if (b_kondi == 6) {
             ImageView image = (ImageView) findViewById(R.id.starkondi);
             image.setImageResource(R.drawable.star5);
         } else {
