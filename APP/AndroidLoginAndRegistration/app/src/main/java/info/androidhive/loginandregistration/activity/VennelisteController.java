@@ -54,8 +54,8 @@ public class VennelisteController extends AppCompatActivity {
     ArrayList<HashMap<String, String>> VenneListe = new ArrayList<HashMap<String, String>>();
 
     // URL's
-    public static String URL_SOEGVEN = "http://192.168.1.149/android_login_api/soegven.php";
-    public static String URL_ALLE_VENNER = "http://192.168.1.149/android_login_api/allevenner4.php";
+    public static String URL_SOEGVEN = "http://172.31.159.63/android_login_api/soegven.php";
+    public static String URL_ALLE_VENNER = "http://172.31.159.63/android_login_api/allevenner4.php";
 
 
     @Override

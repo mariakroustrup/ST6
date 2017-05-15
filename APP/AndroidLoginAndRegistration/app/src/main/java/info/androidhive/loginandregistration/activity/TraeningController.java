@@ -24,6 +24,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -52,12 +53,13 @@ public class TraeningController extends AppCompatActivity {
     double lng2;
 
 
+
     ArrayList<Double> listLat = new ArrayList<Double>();
     ArrayList<Double> listLng = new ArrayList<Double>();
 
+
     // her starter timer
     public Runnable runnable = new Runnable() {
-
         public void run() {
             MillisecondTime = SystemClock.uptimeMillis() - StartTime;
             UpdateTime = TimeBuff + MillisecondTime;
@@ -69,15 +71,21 @@ public class TraeningController extends AppCompatActivity {
             textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
-
             Long m = getMinutes();
-            MediaPlayer player = MediaPlayer.create(TraeningController.this, R.raw.beep);
-            if (Minutes == m && Seconds == 0) {
-                player.start();
-            }
+
+
+           // MediaPlayer mediaPlayer = new MediaPlayer();
+            //mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
+            //if (Minutes== 1){
+            //    mediaPlayer.start();
+           // }
+           //mediaPlayer.start();
+           // MediaPlayer song = MediaPlayer.create(TraeningController.this, R.raw.beep);
+           // if (UpdateTime == 2){
+            //    song.start();
+            //}
 
         }
-
     };
 
     long mm;
@@ -94,9 +102,18 @@ public class TraeningController extends AppCompatActivity {
         setContentView(R.layout.traening);
         long min = getIntent().getLongExtra("Value", mm);
         medlemsid = getIntent().getStringExtra("medlemsid");
+        //MediaPlayer mediaPlayer = new MediaPlayer();
+        //mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
         //minutter = Long.parseLong(min);
+
         setMinutes(min);
 
+
+
+        // MediaPlayer song = MediaPlayer.create(TraeningController.this, R.raw.beep);
+        // if (UpdateTime == 2){
+        //    song.start();
+        //}
 
         textViewTimer = (TextView) findViewById(R.id.Timer);
         start = (Button) findViewById(R.id.start);
@@ -142,13 +159,8 @@ public class TraeningController extends AppCompatActivity {
                     public void onClick(View v) {
 
                         //********* Her gemmer vi tid og afstand ********
-                        String temp = String.format("%02d:%02d:%02d",
-                                TimeUnit.MILLISECONDS.toHours(MillisecondTime),
-                                TimeUnit.MILLISECONDS.toMinutes(MillisecondTime) -
-                                        TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS.toHours(MillisecondTime)),
-                                TimeUnit.MILLISECONDS.toSeconds(MillisecondTime) -
-                                        TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(MillisecondTime)));
-                        kondi.setTid(temp);
+
+                        kondi.setTid((int) (UpdateTime/1000));
                         kondi.setAfstand(getDist());
 
                         myPopUp.dismiss();
@@ -371,7 +383,7 @@ public class TraeningController extends AppCompatActivity {
 
                 String temp1 = kondi.getKondi_type();
                 int temp2 = kondi.getHelbredstilstand();
-                String temp3 = kondi.getTid();
+                int temp3 = kondi.getTid();
                 int temp4 = kondi.getEvaluering();
                 double temp5 = kondi.getAfstand();
 
@@ -384,6 +396,7 @@ public class TraeningController extends AppCompatActivity {
 
                 Intent myIntent = new Intent(TraeningController.this, MenuController.class);
                 startActivity(myIntent);
+                kondi.hent_b_resultater(medlemsid);
                 finish();
             }
         });

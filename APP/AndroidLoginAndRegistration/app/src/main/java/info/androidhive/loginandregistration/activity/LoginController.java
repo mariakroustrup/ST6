@@ -33,7 +33,7 @@ public class LoginController extends Activity {
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
-    public static String URL_LOGIN = "http://192.168.1.149/android_login_api/login.php";
+    public static String URL_LOGIN = "http://172.31.159.63/android_login_api/login.php";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

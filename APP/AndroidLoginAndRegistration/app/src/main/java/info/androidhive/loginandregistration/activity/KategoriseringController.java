@@ -33,7 +33,7 @@ import info.androidhive.loginandregistration.helper.SessionManager;
 public class KategoriseringController extends AppCompatActivity{
     String ABCD;
     private ProgressDialog pDialog;
-    public static final String URL_KATEGORISERING = "http://192.168.1.149/android_login_api/kategorisering.php";
+    public static final String URL_KATEGORISERING = "http://172.31.159.63/android_login_api/kategorisering.php";
     private static final String TAG = KategoriseringController.class.getSimpleName();
     private SQLiteHandler db;
     private SessionManager session;
