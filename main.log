@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  12 MAY 2017 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  15 MAY 2017 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2802,35 +2802,35 @@ Package babel Info: Redefining danish shorthand "~
 [35
 
 ]) (./rapportAfsnit/eProblemloesning/Design/MVCDatabase.tex
-<figures/MVC/MVCDatabase.pdf, id=895, 347.2975pt x 151.56625pt>
+<figures/MVC/MVCDatabase.pdf, id=895, 352.31625pt x 322.20375pt>
 File: figures/MVC/MVCDatabase.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCDatabase.pdf>
 Package pdftex.def Info: figures/MVC/MVCDatabase.pdf used on input line 6.
-(pdftex.def)             Requested size: 220.5pt x 96.23192pt.
-
-<figures/MVC/Entity.pdf, id=898, 373.395pt x 186.6975pt>
+(pdftex.def)             Requested size: 220.5pt x 201.65216pt.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 18.
+ [36 <./figures/MVC/MVCDatabase.pdf>]
+<figures/MVC/Entity.pdf, id=908, 373.395pt x 186.6975pt>
 File: figures/MVC/Entity.pdf Graphic file (type pdf)
 
 <use figures/MVC/Entity.pdf>
 Package pdftex.def Info: figures/MVC/Entity.pdf used on input line 21.
 (pdftex.def)             Requested size: 220.5pt x 110.25027pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 25.
- [36 <./figures/MVC/MVCDatabase.pdf>])
+)
 (./rapportAfsnit/eProblemloesning/Design/MVCFejl.tex
 Underfull \hbox (badness 2088) in paragraph at lines 26--1
 \T1/cmr/m/n/10.95 indeholder informationer om brugeren, herunder MedlemsID, Adg
 angskode, Fornavn,
  []
 
-<figures/MVC/MVCfejl.pdf, id=913, 151.56625pt x 112.42pt>
+<figures/MVC/MVCfejl.pdf, id=911, 151.56625pt x 112.42pt>
 File: figures/MVC/MVCfejl.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCfejl.pdf>
@@ -2838,12 +2838,12 @@ Package pdftex.def Info: figures/MVC/MVCfejl.pdf used on input line 6.
 (pdftex.def)             Requested size: 88.19865pt x 65.41977pt.
 )
 (./rapportAfsnit/eProblemloesning/Design/MVCLogind.tex
-<figures/MVC/MVCLogInd.pdf, id=915, 613.29124pt x 283.0575pt>
+<figures/MVC/MVCLogInd.pdf, id=913, 382.42876pt x 252.945pt>
 File: figures/MVC/MVCLogInd.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCLogInd.pdf>
 Package pdftex.def Info: figures/MVC/MVCLogInd.pdf used on input line 6.
-(pdftex.def)             Requested size: 396.89731pt x 183.18182pt.
+(pdftex.def)             Requested size: 220.5pt x 145.84364pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
@@ -2853,17 +2853,12 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
  [37 <./figures/MVC/Entity.pdf> <./figures/MVC/MVCfejl.pdf>] <figures/Sek/SEKLo
-gInd.pdf, id=933, 1281.78876pt x 910.40125pt>
+gInd.pdf, id=933, 1130.2225pt x 618.31pt>
 File: figures/Sek/SEKLogInd.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKLogInd.pdf>
 Package pdftex.def Info: figures/Sek/SEKLogInd.pdf used on input line 18.
-(pdftex.def)             Requested size: 683.55135pt x 485.51094pt.
-
-Overfull \hbox (44.51094pt too wide) in paragraph at lines 18--19
- [][] 
- []
-
+(pdftex.def)             Requested size: 683.55135pt x 373.95134pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
@@ -2872,7 +2867,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 22.
-[38 <./figures/MVC/MVCLogInd.pdf>]
+ [38 <./figures/MVC/MVCLogInd.pdf>]
 Overfull \vbox (16.15103pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining danish shorthand "|
@@ -2884,17 +2879,14 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 22.
 
-[39 <./figures/Sek/SEKLogInd.pdf>]
-
-LaTeX Warning: Reference `fig:SEKKate' on page 40 undefined on input line 25.
-
-) (./rapportAfsnit/eProblemloesning/Design/MVCKategorisering.tex
+[39 <./figures/Sek/SEKLogInd.pdf>])
+(./rapportAfsnit/eProblemloesning/Design/MVCKategorisering.tex
 Underfull \hbox (badness 1158) in paragraph at lines 23--1
 \T1/cmr/m/n/10.95 Det fremgår af sekvensdiagrammet, at controlleren for \T1/cmr
 /m/it/10.95 Log ind \T1/cmr/m/n/10.95 starter med at vise
  []
 
-<figures/MVC/MVCKategorisering.pdf, id=956, 367.3725pt x 363.3575pt>
+<figures/MVC/MVCKategorisering.pdf, id=954, 367.3725pt x 363.3575pt>
 File: figures/MVC/MVCKategorisering.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCKategorisering.pdf>
@@ -2917,7 +2909,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 17.
 [40 <./figures/MVC/MVCKategorisering.pdf>]
-<figures/Sek/SEKKategorisering.pdf, id=972, 1187.43625pt x 539.01375pt>
+<figures/Sek/SEKKategorisering.pdf, id=968, 1187.43625pt x 539.01375pt>
 File: figures/Sek/SEKKategorisering.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKKategorisering.pdf>
@@ -2946,14 +2938,14 @@ Package babel Info: Redefining danish shorthand "~
 
 [42 <./figures/Sek/SEKKategorisering.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCHovedmenu.tex
-<figures/MVC/MVCHovedmenu.pdf, id=989, 327.2225pt x 262.9825pt>
+<figures/MVC/MVCHovedmenu.pdf, id=985, 327.2225pt x 262.9825pt>
 File: figures/MVC/MVCHovedmenu.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCHovedmenu.pdf>
 Package pdftex.def Info: figures/MVC/MVCHovedmenu.pdf used on input line 7.
 (pdftex.def)             Requested size: 220.5pt x 177.21259pt.
 
-<figures/Sek/SEKHovedmenu.pdf, id=991, 1095.09125pt x 483.8075pt>
+<figures/Sek/SEKHovedmenu.pdf, id=987, 1095.09125pt x 483.8075pt>
 File: figures/Sek/SEKHovedmenu.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKHovedmenu.pdf>
@@ -2981,14 +2973,14 @@ Package babel Info: Redefining danish shorthand "~
 
 [44 <./figures/Sek/SEKHovedmenu.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCTilpasning.tex
-<figures/MVC/MVCTilpasning.pdf, id=1013, 585.18625pt x 283.0575pt>
+<figures/MVC/MVCTilpasning.pdf, id=1010, 585.18625pt x 283.0575pt>
 File: figures/MVC/MVCTilpasning.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCTilpasning.pdf>
 Package pdftex.def Info: figures/MVC/MVCTilpasning.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 191.98848pt.
 
-<figures/Sek/SEKTilpasning.pdf, id=1015, 1167.36125pt x 507.8975pt>
+<figures/Sek/SEKTilpasning.pdf, id=1012, 1167.36125pt x 507.8975pt>
 File: figures/Sek/SEKTilpasning.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKTilpasning.pdf>
@@ -3016,14 +3008,14 @@ Package babel Info: Redefining danish shorthand "~
 
 [46 <./figures/Sek/SEKTilpasning.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCTraening.tex
-<figures/MVC/MVCTraening.pdf, id=1037, 412.54124pt x 393.47pt>
+<figures/MVC/MVCTraening.pdf, id=1034, 412.54124pt x 393.47pt>
 File: figures/MVC/MVCTraening.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCTraening.pdf>
 Package pdftex.def Info: figures/MVC/MVCTraening.pdf used on input line 6.
 (pdftex.def)             Requested size: 308.69865pt x 294.42932pt.
 
-<figures/Sek/SEKTraening.pdf, id=1039, 1033.8625pt x 539.01375pt>
+<figures/Sek/SEKTraening.pdf, id=1036, 1033.8625pt x 539.01375pt>
 File: figures/Sek/SEKTraening.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKTraening.pdf>
@@ -3060,14 +3052,14 @@ Package babel Info: Redefining danish shorthand "~
 
 [49 <./figures/Sek/SEKTraening.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCResultater.tex
-<figures/MVC/MVCResultater.pdf, id=1066, 392.46625pt x 152.57pt>
+<figures/MVC/MVCResultater.pdf, id=1063, 392.46625pt x 152.57pt>
 File: figures/MVC/MVCResultater.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCResultater.pdf>
 Package pdftex.def Info: figures/MVC/MVCResultater.pdf used on input line 6.
 (pdftex.def)             Requested size: 220.5pt x 85.7203pt.
 
-<figures/Sek/SEKResultater.pdf, id=1068, 699.61375pt x 174.6525pt>
+<figures/Sek/SEKResultater.pdf, id=1065, 699.61375pt x 174.6525pt>
 File: figures/Sek/SEKResultater.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKResultater.pdf>
@@ -3084,19 +3076,19 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
  [50 <./figures/MVC/MVCResultater.pdf> <./figures/Sek/SEKResultater.pdf>]
-<figures/MVC/MVCVenneliste.pdf, id=1086, 416.55624pt x 312.16624pt>
+<figures/MVC/MVCVenneliste.pdf, id=1083, 372.39125pt x 272.01625pt>
 File: figures/MVC/MVCVenneliste.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVenneliste.pdf>
 Package pdftex.def Info: figures/MVC/MVCVenneliste.pdf used on input line 6.
-(pdftex.def)             Requested size: 352.80135pt x 264.39943pt.
+(pdftex.def)             Requested size: 220.5pt x 161.06927pt.
 
-<figures/Sek/SEKVenneliste.pdf, id=1088, 966.61125pt x 599.23875pt>
+<figures/Sek/SEKVenneliste.pdf, id=1085, 954.56625pt x 558.085pt>
 File: figures/Sek/SEKVenneliste.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKVenneliste.pdf>
 Package pdftex.def Info: figures/Sek/SEKVenneliste.pdf used on input line 19.
-(pdftex.def)             Requested size: 683.55135pt x 423.77092pt.
+(pdftex.def)             Requested size: 683.55135pt x 399.63237pt.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining danish shorthand "~
@@ -3117,16 +3109,22 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 23.
 
-[52 <./figures/Sek/SEKVenneliste.pdf>])
-(./rapportAfsnit/eProblemloesning/Design/MVCRediger.tex
-<figures/MVC/Redigering.pdf, id=1111, 433.62pt x 182.6825pt>
+[52 <./figures/Sek/SEKVenneliste.pdf>]
+Underfull \hbox (badness 1052) in paragraph at lines 24--27
+\T1/cmr/m/n/10.95 Controlleren \T1/cmr/m/it/10.95 Venneliste \T1/cmr/m/n/10.95 
+henter venneliste fra \T1/cmr/m/it/10.95 Database \T1/cmr/m/n/10.95 via dens ti
+lhørende controller,
+ []
+
+) (./rapportAfsnit/eProblemloesning/Design/MVCRediger.tex
+<figures/MVC/Redigering.pdf, id=1108, 433.62pt x 182.6825pt>
 File: figures/MVC/Redigering.pdf Graphic file (type pdf)
 
 <use figures/MVC/Redigering.pdf>
 Package pdftex.def Info: figures/MVC/Redigering.pdf used on input line 6.
 (pdftex.def)             Requested size: 396.89731pt x 167.21973pt.
 
-<figures/Sek/SEKRedigering.pdf, id=1113, 932.48375pt x 338.26375pt>
+<figures/Sek/SEKRedigering.pdf, id=1110, 932.48375pt x 338.26375pt>
 File: figures/Sek/SEKRedigering.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKRedigering.pdf>
@@ -3154,14 +3152,14 @@ Package babel Info: Redefining danish shorthand "~
 
 [54 <./figures/Sek/SEKRedigering.pdf>])
 (./rapportAfsnit/eProblemloesning/Design/MVCLogUd.tex
-<figures/MVC/Logud.pdf, id=1135, 415.5525pt x 182.6825pt>
+<figures/MVC/Logud.pdf, id=1132, 415.5525pt x 182.6825pt>
 File: figures/MVC/Logud.pdf Graphic file (type pdf)
 
 <use figures/MVC/Logud.pdf>
 Package pdftex.def Info: figures/MVC/Logud.pdf used on input line 6.
 (pdftex.def)             Requested size: 264.60269pt x 116.32822pt.
 
-<figures/Sek/SEKLogUd.pdf, id=1137, 1114.1625pt x 344.28625pt>
+<figures/Sek/SEKLogUd.pdf, id=1134, 1114.1625pt x 344.28625pt>
 File: figures/Sek/SEKLogUd.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKLogUd.pdf>
@@ -3197,7 +3195,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 5--6
 nkt i entiteter, som
  []
 
-<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1154, 894.34125pt x 520.94624pt>
+<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1151, 894.34125pt x 520.94624pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
 <use figures/Aktivitetsdiagram/ERdiagram.pdf>
@@ -3518,7 +3516,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<figures/MVC/Designklasse.pdf, id=1297, 1216.545pt x 1408.26125pt>
+<figures/MVC/Designklasse.pdf, id=1294, 1216.545pt x 1408.26125pt>
 File: figures/MVC/Designklasse.pdf Graphic file (type pdf)
 
 <use figures/MVC/Designklasse.pdf>
@@ -3573,13 +3571,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 29053 strings out of 493089
- 523720 string characters out of 6134843
+ 29051 strings out of 493089
+ 523696 string characters out of 6134843
  845112 words of memory out of 5000000
- 31674 multiletter control sequences out of 15000+600000
+ 31673 multiletter control sequences out of 15000+600000
  32846 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10481b,958s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3608,10 +3609,10 @@ dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (77 pages, 5919150 bytes).
+Output written on main.pdf (77 pages, 5907774 bytes).
 PDF statistics:
- 1449 PDF objects out of 1728 (max. 8388607)
- 1249 compressed objects within 13 object streams
- 270 named destinations out of 1000 (max. 500000)
+ 1446 PDF objects out of 1728 (max. 8388607)
+ 1246 compressed objects within 13 object streams
+ 269 named destinations out of 1000 (max. 500000)
  651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
