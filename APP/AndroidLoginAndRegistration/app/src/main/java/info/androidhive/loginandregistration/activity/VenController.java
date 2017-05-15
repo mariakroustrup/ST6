@@ -98,7 +98,7 @@ public class VenController extends AppCompatActivity {
 
                     // Check for error node in json
                     if (!error) {
-                        Toast.makeText(getApplicationContext(),"I er pisse meget allerede venner!",Toast.LENGTH_LONG).show();
+                        //Toast.makeText(getApplicationContext(),"I er pisse meget allerede venner!",Toast.LENGTH_LONG).show();
                         btnFoelgVen.setVisibility(INVISIBLE);
 
                     } else {
@@ -157,7 +157,7 @@ public class VenController extends AppCompatActivity {
                     boolean error = jObj.getBoolean("error");
 
                     if (!error) {
-                        Toast.makeText(getApplicationContext(), "aaaaaaaaa", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Ven er tilføjet til din venneliste", Toast.LENGTH_LONG).show();
                         //updateList();
                     } else {
                         String errorMsg = jObj.getString("error_msg");

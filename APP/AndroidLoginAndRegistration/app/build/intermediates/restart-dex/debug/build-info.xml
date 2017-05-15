@@ -6,19 +6,19 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494782123387"
+    timestamp="1494784754824"
     token="6823303904322499204"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="272" />
+        duration="359" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="6" />
     <task
         name="verifier"
         duration="3" />
@@ -84,7 +84,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494782123387"
+        timestamp="1494784754824"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\passw\OneDrive\Documents\GitHub\ST6\APP\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
