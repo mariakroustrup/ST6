@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{Use case diagrammer}{14}{section*.16}
 \contentsline {subsubsection}{Aktivitetsdiagrammer}{14}{section*.18}
 \contentsline {subsubsection}{Klassediagrammer}{15}{section*.20}
-\contentsline {subsubsection}{Sekvensdiagrammer}{15}{section*.22}
+\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.22}
 \contentsline {section}{\numberline {4.2}Unified Process}{16}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Systemanalyse}{18}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{18}{section.5.1}
@@ -40,11 +40,11 @@
 \contentsline {subsection}{\numberline {6.3.1}ER-diagram}{56}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Schema}{57}{subsection.6.3.2}
 \contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}
-\contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{59}{subsection.7.0.1}
-\contentsline {subsection}{\numberline {7.0.2}Implementering af database}{59}{subsection.7.0.2}
+\contentsline {subsection}{\numberline {7.0.3}Implementering af objektorienteret design}{59}{subsection.7.0.3}
+\contentsline {subsection}{\numberline {7.0.4}Implementering af database}{59}{subsection.7.0.4}
 \contentsline {chapter}{\chapternumberline {8}Test}{60}{chapter.8}
 \contentsline {section}{\numberline {8.1}Database}{60}{section.8.1}
-\contentsline {section}{\numberline {8.2}Log ind}{61}{section.8.2}
+\contentsline {section}{\numberline {8.2}Log ind}{60}{section.8.2}
 \contentsline {section}{\numberline {8.3}Kategorisering}{61}{section.8.3}
 \contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{62}{section.8.4}
 \contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{63}{section.8.5}
