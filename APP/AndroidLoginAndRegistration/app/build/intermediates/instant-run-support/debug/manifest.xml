@@ -42,6 +42,8 @@
         </activity>
         <activity android:name="info.androidhive.loginandregistration.activity.VenController" />
 
+        <receiver android:name="info.androidhive.loginandregistration.activity.NotificationPublisher" />
+
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
             android:authorities="info.androidhive.loginandregistration.com.android.tools.fd.runtime.InstantRunContentProvider"

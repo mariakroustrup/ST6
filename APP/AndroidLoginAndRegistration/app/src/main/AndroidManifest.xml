@@ -42,6 +42,7 @@
             android:windowSoftInputMode="adjustResize">
         </activity>
         <activity android:name=".activity.VenController"></activity>
+        <receiver android:name=".activity.NotificationPublisher"/>
     </application>
 
 </manifest>

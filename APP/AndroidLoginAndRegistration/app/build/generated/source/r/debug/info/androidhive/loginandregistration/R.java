@@ -2191,17 +2191,18 @@ containing a value of this type.
         public static final int design_fab_background=0x7f020045;
         public static final int design_snackbar_background=0x7f020046;
         public static final int kol=0x7f020047;
-        public static final int notification_template_icon_bg=0x7f020052;
-        public static final int smiley_1=0x7f020048;
-        public static final int smiley_2=0x7f020049;
-        public static final int smiley_3=0x7f02004a;
-        public static final int star0=0x7f02004b;
-        public static final int star1=0x7f02004c;
-        public static final int star2=0x7f02004d;
-        public static final int star3=0x7f02004e;
-        public static final int star4=0x7f02004f;
-        public static final int star5=0x7f020050;
-        public static final int star6=0x7f020051;
+        public static final int notification=0x7f020048;
+        public static final int notification_template_icon_bg=0x7f020053;
+        public static final int smiley_1=0x7f020049;
+        public static final int smiley_2=0x7f02004a;
+        public static final int smiley_3=0x7f02004b;
+        public static final int star0=0x7f02004c;
+        public static final int star1=0x7f02004d;
+        public static final int star2=0x7f02004e;
+        public static final int star3=0x7f02004f;
+        public static final int star4=0x7f020050;
+        public static final int star5=0x7f020051;
+        public static final int star6=0x7f020052;
     }
     public static final class id {
         public static final int ABCD=0x7f0c0069;

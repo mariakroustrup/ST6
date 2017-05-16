@@ -1,4 +1,4 @@
-#Tue May 16 20:54:19 CEST 2017
+#Tue May 16 21:25:50 CEST 2017
 base.0=C\:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3301d2e085718ee945740ff35f60a0297da21cfd
 renamed.1=classes2.dex
 renamed.0=classes.dex
