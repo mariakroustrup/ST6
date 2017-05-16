@@ -13,9 +13,7 @@ Databasen anvendes i forbindelse med registrering af brugere. Derudover skal det
 \noindent
 For at teste om de opstillede krav til database er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Database \\ \hline
      \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data i databasen. Dette gøres ved at oprette en bruger i databasen, efterfølgende udføre en kategorisering af brugeren i app'en, hvorefter der tjekkes om denne kategorisering er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
  	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textbf{INSERT INTO 'users' ('id' , 'unique\_id' , 'navn', 'medlemsid', 'db\_adgangskode' , 'kategorisering') VALUES ('' , '' , 'Jens Jensen', '11170301', 'adgangskode', 'F').}
@@ -45,10 +43,9 @@ Resultater for test af database fremgår af ovenstående figurer. Til venstre er
  \item På baggrund af dette er kravene for databasen opfyldt.
  \end{itemize}
   \\ \hline
-    \end{tabular}
     \caption{Test af database}
     \label{tab:testDatabase}
-\end{table}
+\end{longtable}
 
 
 \section{Log ind}
@@ -63,9 +60,7 @@ Log ind anvendes for at adskille at brugere, som er registeret i databasen. Deru
 \noindent
 Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der fremgår af \autoref{fig:Designlogind}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Log ind \\ \hline
      \textbf{Formål:} & Formålet er at teste hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
  \\ \hline
@@ -95,10 +90,9 @@ Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og 
  \item På baggrund af dette er kravet for log ind opfyldt.
  \end{itemize}
  \\ \hline
-    \end{tabular}
     \caption{Test af Log ind}
     \label{tab:testLogInd}
-\end{table}
+\end{longtable}
 
 \section{Kategorisering}
 Kategoriseringen skal foretages første gang brugeren logger ind i app'en og skal være en parameter i tilpasningen af et træningsniveau for den enkelte bruger. Følgende krav blev opstillet til kategoriseringen:
@@ -112,9 +106,7 @@ Kategoriseringen skal foretages første gang brugeren logger ind i app'en og ska
 \noindent
 Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremgår af \autoref{tab:testKategorisering}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Kategorisering  \\ \hline
      \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
  \\ \hline
@@ -146,10 +138,9 @@ Resultater for test af kategorisering fremgår af ovenstående figurer. Fra vens
 \item På baggrund af dette er kravet for kategorisering er opfyldt. 
 \end{itemize} 
 \\ \hline
-   \end{tabular}
    \caption{Test af kategorisering}
     \label{tab:testKategorisering}
-\end{table}
+\end{longtable}
 
 \section{Tilpasning af træningsniveau}
 I tilpasningen af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametre som kategorisering, daglig helbredstilstand og tidligere evalueringer af træninger. Følgende krav blev opstillet til tilpasningen af træningsnivauet:
@@ -163,9 +154,7 @@ I tilpasningen af træningsniveau skal brugeren oplyses et anbefalet træningsni
 \noindent
 Da der blev afgrænset til konditionstræning er testen kun udført med konditionstræning. Derudover er testen opdelt i tilpasning af træningsniveau med og uden evaluering, da der ved første anvendelse ikke eksisterer en evaluering. Testen for tilpasning af træningsniveau uden evaluering fremgår af \autoref{tab:testTilpasningudenevaluering} og med evaluering af \autoref{tab:testTilpasningmedevaluering}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau uden evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
  \\ \hline
@@ -192,15 +181,12 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
     \newline
     Resultater for test af tilpasning af træningsniveau uden evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
  \\ \hline
-   \end{tabular}
    \caption{Test af tilpasning af træningsniveau uden evaluering}
     \label{tab:testTilpasningudenevaluering}
-\end{table}
+\end{longtable}
 
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau med evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
  \\ \hline
@@ -233,10 +219,9 @@ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{CYKEL}, \textbf{MEG
 \item På baggrund af test af tilpasning af træningsniveau uden og med evaluering der kravet for tilpasning af træningsniveau opfyldt. 
 \end{itemize}
     \\ \hline
-   \end{tabular}
    \caption{Test af tilpasning af træningsniveau med evaluering}
     \label{tab:testTilpasningmedevaluering}
-\end{table}
+\end{longtable}
 
 
 \section{Træning}
@@ -332,9 +317,8 @@ Resultater skal motivere brugeren til at udføre træningen. Følgende krav opst
 \noindent
 For at teste om de opstillede krav til resultater er overholdt, udføres testen, der fremgår af \autoref{tab:testResultater}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+
+  \begin{longtable}{ | l | p{14cm} |} \hline
     \textbf{Test:} & Resultater \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger og sende en notifikation når brugeren har været inaktiv i 1 time. Dette gøres ved at træne imens der måles tid, afstand. 
  \\ \hline
@@ -353,10 +337,9 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
   \end{itemize}
 \\ \hline
 \textbf{Resultat} &\\ \hline
-   \end{tabular}
    \caption{Test af resultater}
     \label{tab:testResultater}
-\end{table}
+\end{longtable}
 
 \section{Venneliste}
 Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge og kunne tilgå andre brugeres virtuelle belønninger. Derudover skal vennelisten motivere brugeren til at udføre træning. Følgende krav er opstillet til vennelisten: 
@@ -370,9 +353,7 @@ Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge o
 \noindent
 Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af \autoref{tab:testVenneliste}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Venneliste \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren kan følge andre brugere og tilgå deres belønninger. Dette gøres ved at indtaste et medlemsID på en bruger, som findes i databasen og et, som ikke eksisterer, hvorefter denne bruger følges.
  \\ \hline
@@ -394,10 +375,9 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
   \end{itemize}
 \\ \hline
 \textbf{Resultat} &\\ \hline
-   \end{tabular}
    \caption{Test af venneliste}
     \label{tab:testVenneliste}
-\end{table}
+\end{longtable}
 
 
 \section{Redigering}
@@ -412,9 +392,7 @@ Redigering skal give brugeren mulighed for at redigere adgangskoden til en perso
 \noindent
 For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som fremgår af \autoref{tab:testRedigering}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Redigering \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at redigere sin adgangskode. Dette gøres ved at indtaste to forskellige adgangskoder og to ens adgangskoder. Efterfølgende logges der ind med den ændrede adgangskode.
  \\ \hline
@@ -441,10 +419,9 @@ Ovenstående figurer viser resultater for test af redigering. Til venstre ses re
 \item å baggrund af dette er kravet for redigering 
 \end{itemize}
     \\ \hline
-   \end{tabular}
    \caption{Test af redigering}
     \label{tab:testRedigering}
-\end{table}
+\end{longtable}
 
 
 \section{Log ud}
@@ -458,9 +435,7 @@ Log ud-funktionen skal sikre brugerens individuelle data. De opstillede krav til
 \noindent
 For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \autoref{tab:testLogud}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{13cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Log ud \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at logge ud af app’en.
  \\ \hline
@@ -476,10 +451,9 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
        \newline
        her skal stå noget
 \\ \hline
-   \end{tabular}
    \caption{Test af log ud}
     \label{tab:testLogud}
-\end{table}
+\end{longtable}
 
 
 
