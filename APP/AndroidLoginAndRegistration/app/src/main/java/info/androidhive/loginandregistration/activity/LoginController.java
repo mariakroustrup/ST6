@@ -131,10 +131,14 @@ public class LoginController extends Activity {
                         // Launch main activity
                         if(kategorisering.equals("F")){
                             Intent intent = new Intent(LoginController.this, KategoriseringController.class);
+                            String v_Msg = jObj.getString("v_msg");
+                            Toast.makeText(getApplicationContext(), v_Msg, Toast.LENGTH_LONG).show();
                             startActivity(intent);
                             //finish();
                         }
                         else{
+                            String v_Msg = jObj.getString("v_msg");
+                            Toast.makeText(getApplicationContext(), v_Msg, Toast.LENGTH_LONG).show();
                             Intent intent = new Intent(LoginController.this, MenuController.class);
                             startActivity(intent);
                             //finish();

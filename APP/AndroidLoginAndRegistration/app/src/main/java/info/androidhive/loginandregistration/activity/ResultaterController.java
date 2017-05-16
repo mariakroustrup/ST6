@@ -55,7 +55,7 @@ public class ResultaterController extends AppCompatActivity {
         // Progress Dialog
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
-        
+
         hentbeloenninger(medlemsid);
 
     }

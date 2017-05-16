@@ -87,7 +87,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		values.put(KEY_KATEGORISERING, kategorisering);
 
 		// Updating Row
-		long id = db.update(TABLE_USER, values, KEY_MEDLEMSID +" = "+medlemsid, null);
+		long id = db.update(TABLE_USER, values, KEY_MEDLEMSID+" = "+medlemsid, null);
 		db.close();
 
 		Log.d(TAG, "Kategorisering is updated in sqlite: " + id);

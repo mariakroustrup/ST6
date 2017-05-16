@@ -1,0 +1,372 @@
+\section{Database}
+Databasen anvendes i forbindelse med registrering af brugere. Derudover skal det være muligt for systemet at hente og gemme data i en database. Der blev opstillet følgende funktionelle krav til database:
+ 
+\begin{itemize}
+\item Brugere skal kunne oprettes i en database
+\\
+\textit{Dette er nødvendigt for, at brugere kan anvende app’en}
+\item Systemet skal kunne gemme og hente data i en database
+\\
+\textit{Dette er nødvendigt for, at brugere kan tilgå brugerdata}
+\end{itemize}
+
+\noindent
+For at teste om de opstillede krav til database er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Database \\ \hline
+     \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data i databasen. Dette gøres ved at oprette en bruger i databasen, efterfølgende udføre en kategorisering af brugeren i app'en, hvorefter der tjekkes om denne kategorisering er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
+ 	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textbf{INSERT INTO 'users' ('id' , 'unique\_id' , 'navn', 'medlemsid', 'db\_adgangskode' , 'kategorisering') VALUES ('' , '' , 'Jens Jensen', '11170301', 'adgangskode', 'F').}
+ 	\begin{itemize}[label={\checkmark}]
+	\item Bruger er oprettet i databasen.
+	\end{itemize}
+ 2.~ Åben app’en og log ind med medlemsID og adgangskode. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textbf{0,1,2,1,0,1,0,1}, tryk videre  efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textbf{0 INDLÆGGELSER}. 
+ \begin{itemize}[label={\checkmark}]
+ \item Kategorisering er gemt i databasen 
+ \end{itemize}
+3.~ Tryk på \textbf{REDIGER ADGANGSKODE} via hovedmenuen.
+\begin{itemize}[label={\checkmark}]
+\item Kategorisering vises som A under rediger adgangskode.
+\end{itemize}
+ \\  \hline
+  \textbf{Resultat} &\\ \hline
+    \end{tabular}
+    \caption{Test af database}
+    \label{tab:testDatabase}
+\end{table}
+
+
+\section{Log ind}
+Log ind anvendes for at adskille at brugere, som er registeret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere, der bliver registreret i databasen. Der er opstillet funktionelle krav til log ind:
+
+\begin{itemize}
+\item Brugere skal kunne logge ind med et personligt medlemsID og adgangskode, der er registreret i databasen
+\\
+\textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
+\end{itemize}
+
+\noindent
+Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der fremgår af \autoref{fig:Designlogind}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Log ind \\ \hline
+     \textbf{Formål:} & Formålet er at teste hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Indtast et medlemsID, som ikke eksisterer i databasen \textbf{123456} og en adgangskode, som eksisterer i databasen \textbf{adgangskode} og tryk på log ind knappen.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ 	\end{itemize}
+2.~ Indtast et MedlemsID, som eksisterer i databasen \textbf{11170301} og en adgangskode, som ikke tilhører medlemsID’et \textbf{forkertadgangskode} og tryk på log ind knappen.
+ \begin{itemize}[label={\checkmark}]
+ \item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ \end{itemize}
+3.~ Indtast et medlemsID \textbf{11170301} og en adgangskode \textbf{adgangskode}, som eksisterer i databasen. 
+\begin{itemize}[label={\checkmark}]
+\item Forventet log ind lykkes og hovedmenu vises.
+\end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+    \end{tabular}
+    \caption{Test af Log ind}
+    \label{tab:testLogInd}
+\end{table}
+
+\section{Kategorisering}
+Kategoriseringen skal foretages første gang brugeren logger ind i app'en og skal være en parameter i tilpasningen af et træningsniveau for den enkelte bruger. Følgende krav blev opstillet til kategoriseringen:
+
+\begin{itemize}
+\item Systemet skal kunne kategorisere brugere i ABCD på baggrund af CATscore og antallet af årlige indlæggelser på grund af KOL
+\\
+\textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
+\end{itemize}
+
+\noindent
+Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremgår af \autoref{tab:testKategorisering}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Kategorisering  \\ \hline
+     \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Få en samlet CATscore under 10. Vælg \textbf{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{0 INDLÆGGELSER}. 
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet kategorisering er A.
+ 	\end{itemize}	
+ 	2.~ Få en samlet CATscore over 10. \textbf{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{0 INDLÆGGELSER}.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet kategorisering er B.
+ 	\end{itemize}
+3.~ Få en samlet CATscore under 10. \textbf{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{1 ELLER FLERE INDLÆGGELSER}.
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet kategorisering er C.
+  \end{itemize}
+4.~ Få en samlet CATscore over 10. \textbf{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{1 ELLER FLERE INDLÆGGELSER}.
+\begin{itemize}[label={\checkmark}]
+\item Forventet kategorisering er D.
+\end{itemize}   \\ \hline
+ \textbf{Resultat} & \\ \hline
+   \end{tabular}
+   \caption{Test af kategorisering}
+    \label{tab:testKategorisering}
+\end{table}
+
+\section{Tilpasning af træningsniveau}
+I tilpasningen af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametre som kategorisering, daglig helbredstilstand og tidligere evalueringer af træninger. Følgende krav blev opstillet til tilpasningen af træningsnivauet:
+
+\begin{itemize}
+\item Brugere skal kunne angive deres daglige helbredstilstand
+\\
+\textit{Dette er nødvendigt for tage højde for daglige variationer og derved tilpasse træningen for den enkelte bruger}
+\end{itemize}
+
+\noindent
+Da der blev afgrænset til konditionstræning er testen kun udført med konditionstræning. Derudover er testen opdelt i tilpasning af træningsniveau med og uden evaluering, da der ved første anvendelse ikke eksisterer en evaluering. Testen for tilpasning af træningsniveau uden evaluering fremgår af \autoref{tab:testTilpasningudenevaluering} og med evaluering af \autoref{tab:testTilpasningmedevaluering}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Tilpasning af træningsniveau uden evaluering \\ \hline
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
+ \\ \hline
+ 	\textbf{Main flow:} & 1~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{GÅ}, \textbf{MODERAT} og tryk videre efter hver.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 30 min
+ 	\end{itemize}	
+ 	2.~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{LØB},\textbf{MEGET DÅRLIGT} og tryk videre efter videre.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 10 min
+ 	\end{itemize}
+3.~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{CYKEL}, \textbf{MEGET GODT} og tryk videre efter hver.
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet anbefaling af træningstid er 50 min
+  \end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af tilpasning af træningsniveau uden evaluering}
+    \label{tab:testTilpasningudenevaluering}
+\end{table}
+
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Tilpasning af træningsniveau med evaluering \\ \hline
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
+ \\ \hline
+ 	\textbf{Main flow:} & 1~ Tidligere evaluering af samme træning er: \textbf{:-)}. 
+Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{GÅ}, \textbf{MODERAT} og tryk videre efter hver.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 30 min
+ 	\end{itemize}	
+ 	2.~ Tidligere evaluering af samme træning er: \textbf{:-D}. 
+Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{LØB}, \textbf{MEGET DÅRLIGT} og tryk videre efter hver.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet anbefaling af træningstid er 15 min
+ 	\end{itemize}
+3.~ Tidligere evaluering af samme træning er: \textbf{:-(}. 
+Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{CYKEL}, \textbf{MEGET GODT} og tryk videre efter hver.
+ \begin{itemize}[label={\checkmark}]
+  \item Forventet anbefaling af træningstid er 45 min
+  \end{itemize}
+ \\  \hline
+ \textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af tilpasning af træningsniveau med evaluering}
+    \label{tab:testTilpasningmedevaluering}
+\end{table}
+
+
+\section{Træning}
+Træning skal muliggøre måling af biologiske målinger under træning, derudover skal brugeren have mulig for at evaluere træningen efterfølgende. For træning er følgende krav opstillet:
+
+\begin{itemize}
+\item Systemet skal kunne \textcolor{red}{måle tid og afstand samt} håndtere målinger fra kompatible måleenheder
+\\
+\textit{Dette er nødvendigt for at muliggøre måling af biologiske målinger under træning \textcolor{red}{Det er vel ikke biologiske målinger længere}}
+\item {Brugere skal kunne evaluere hver træning}
+\\
+\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
+\end{itemize}
+
+\noindent
+For at test, hvorvidt de opstillede krav til træningen er opfyldt udføres testen, som fremgår af \autoref{tab:testTraening}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Træning \\ \hline
+  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe og brugeren skal kunne angive evaluering. Dette gøres ved at at måle tid, afstand og sensor samt evaluere træningen efterfølgende.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “START TRÆNING” og vent til efter 2 minutter. Tryk herefter “STOP TRÆNING”.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet tid er over 2 minutter
+ 	\end{itemize}	
+ 	2.~ Tryk “START TRÆNING” åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter “STOP TRÆNING”.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet afstand ved 0 er 0 km.
+ 	\item Forventet afstand ved 0.01 er 1.572 km.
+ 	\item Forventet afstand ved 0.02 er 3.145 km.
+	\end{itemize}
+  3.~ Tryk “START TRÆNING” og tryk herefter “STOP TRÆNING” og 	bekræft. Angiv herefter :-) og tryk videre.
+  \begin{itemize}[label={\checkmark}]
+  \item Forventet evaluering er gemt i databasen.
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af træning}
+    \label{tab:testTraening}
+\end{table}
+
+
+\section{Resultater}
+Resultater skal motivere brugeren til at udføre træningen. Følgende krav opstillet for resultater:
+\begin{itemize}
+\item \textcolor{red}{Systemet skal kunne sende notifikationer - synes ikke rigtig det passer ind længere} og give virtuelle belønninger
+\\
+\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
+\end{itemize}
+
+\noindent
+For at teste om de opstillede krav til resultater er overholdt udføres testen, der fremgår af \autoref{tab:testResultater}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Resultater \\ \hline
+  \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger og sende en notifikation når brugeren har været inaktiv i 1 time. Dette gøres ved at træne imens der måles tid, afstand. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk på “TRÆNING” via hovedmenu. “START TRÆNING” vent 5 minutter og tryk “ STOP TRÆNING” evaluer træningen til “:D”. Tryk herefter på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER”. 
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet stjerner under tid er en.
+ 	\end{itemize}	
+ 	2.~ Tryk på “TRÆNING” via hovedmenu. “START TRÆNING” og åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre herefter til 0.2. Tryk “ STOP TRÆNING” evaluer træningen til “:)”. Tryk herefter på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER”.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet stjerner under afstand er fire.
+	\end{itemize}
+  3.~ Tryk på “RESULTATER” via hovedmenuen og vælg “BELØNNINGER” 
+  \begin{itemize}[label={\checkmark}]
+  \item Forventet stjerner under antal træninger er to.
+  \item Forventet stjerner under konditionstræning.
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af resultater}
+    \label{tab:testResultater}
+\end{table}
+
+\section{Venneliste}
+Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge og kunne tilgå andre brugeres virtuelle belønninger. Derudover skal den motivere brugeren til at udføre træning. Følgende krav er opstillet til vennelisten: 
+
+\begin{itemize}
+\item Brugere skal kunne følge andre brugere og \textcolor{red}{tilgå hinandens belønninger}
+\\
+\textit{Dette er nødvendigt for at skabe fællesskab samt gøre det muligt for brugere at tilgå hinandens virtuelle belønninger, hvilket skal øge brugeres motivation}
+\end{itemize}
+
+\noindent
+Der testes om ovenstående krav til vennelisten er opfyldt. Testen fremgår af \autoref{tab:testVenneliste}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Venneliste \\ \hline
+  \textbf{Formål:} & Formålet er, at brugeren kan følge andre brugere og tilgå deres belønninger. Dette gøres ved at indtaste et MedlemsID på en bruger, som findes i databasen og et som ikke eksistere, hvorefter denne bruger følges.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567890” og tryk søg.  
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet søgning mislykket. Fejlmeddelelse vises i grænsefladen for venneliste.
+ 	\end{itemize}	
+ 	2.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567891” og tryk søg.
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet søgning lykkes. Grænsefladen for søgte vens belønninger vises.
+	\end{itemize}
+  3.~ Tryk “VENNELISTE” via hovedmenuen og indtast medlemsID “1234567891” og tryk søg. Herefter trykkes følg.
+  \begin{itemize}[label={\checkmark}]
+  \item  Forventet følg knap forsvinder i grænsefalden for vennelisten.
+  \end{itemize}
+  4. ~ Tryk “VENNELISTE” via hovedmenuen
+  \begin{itemize}
+  \item Forventet bruger med medlemsID “1234567891” vises i grænsefladen forvennelisten. 
+  \end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af venneliste}
+    \label{tab:testVenneliste}
+\end{table}
+
+
+\section{Redigering}
+Redigering skal give brugeren mulighed for at redigere adgangskoden til en personlig adgangskode, da brugeren for udleveret en ved registreringen. Der blev opstillet følgende krav for redigering:
+
+\begin{itemize}
+\item Brugere skal kunne redigere deres adgangskode
+\\
+\textit{Dette er nødvendigt for, at brugere kan ændre adgangskode}
+\end{itemize}
+
+\noindent
+Til at teste, hvorvidt kravene til redigering er overholdt udføres testen, som fremgår af \autoref{tab:testRedigering}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Redigering \\ \hline
+  \textbf{Formål:} & Formålet er at brugeren skal have mulighed for at redigere sin adgangskode. Dette gøres ved at indtaste to forskellige adgangskode og to ens adgangskoder. 
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “REDIGER ADGANGSKODE” via hovedmenuen. Indtast “nyadgangskode“ i ny adgangskode og indtast “adgangskode” i gentag adgangskoden . Tryk “GEM ÆNDRINGER”.   
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet ændring mislykkes. Fejlmeddelelse vises i grænsefladen for redigering.
+ 	\end{itemize}	
+ 	2.~ Tryk “REDIGER ADGANGSKODE” via hovedmenuen. Indtast “nyadgangskode“ i ny adgangskode og gentag adgangskode. Tryk “GEM ÆNDRINGER”. 
+ 	\begin{itemize}[label={\checkmark}]
+ 	\item Forventet ændring lykkes. Meddelelse viser at adgangskoden er gemt. 
+	\end{itemize}
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af redigering}
+    \label{tab:testRedigering}
+\end{table}
+
+
+\section{Log ud}
+Log ud-funktionen skal sikre brugerens individuelle data. De opstillede krav til log ud er følgende:
+\begin{itemize}
+\item Brugere skal kunne log ud \textcolor{red}{af app’en}
+\\
+\textit{Dette er nødvendigt for sikre brugerens individuelle data}
+\end{itemize}
+
+\noindent
+For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \autoref{tab:testLogud}.
+
+\begin{table} [H]
+	\centering
+  \begin{tabular}{ | l | p{14cm} |} \hline
+    \textbf{Test:} & Log ud \\ \hline
+  \textbf{Formål:} & Formålet er at brugeren skal have mulighed for at logge ud af app’en.
+ \\ \hline
+ 	\textbf{Main flow:} & 1.~ Tryk “LOG UD” via hovedmenuen og tryk bekræft.
+ 	\begin{itemize} [label={\checkmark}]
+ 	\item Forventet grænseflade for Log ind vises.
+ 	\end{itemize}	
+\\ \hline
+\textbf{Resultat} &\\ \hline
+   \end{tabular}
+   \caption{Test af log ud}
+    \label{tab:testLogud}
+\end{table}
+
+
+
+
+

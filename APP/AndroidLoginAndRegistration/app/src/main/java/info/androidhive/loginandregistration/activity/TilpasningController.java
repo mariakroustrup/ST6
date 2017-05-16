@@ -378,6 +378,7 @@ public class TilpasningController extends AppCompatActivity {
                 myIntent.putExtra("medlemsid",medlemsid);
                 myIntent.putExtra("Value", mm);
                 startActivity(myIntent);
+                finish();
             }
         });
     }

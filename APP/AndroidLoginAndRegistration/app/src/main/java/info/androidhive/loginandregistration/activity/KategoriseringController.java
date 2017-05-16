@@ -51,7 +51,7 @@ public class KategoriseringController extends AppCompatActivity{
         OKKat.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.catscore); //Videre til layoutet for CATscore
+                setContentView(R.layout.catscore);//Videre til layoutet for CATscore
             }
         });
     }
@@ -262,7 +262,7 @@ public class KategoriseringController extends AppCompatActivity{
         session = new SessionManager(getApplicationContext());
 
         // Fetching user details from SQLite
-        HashMap<String, String> user = db.getUserDetails();
+        final HashMap<String, String> user = db.getUserDetails();
 
         // Vises i den respektive TextView
         final String medlemsid = user.get("medlemsid");
@@ -288,8 +288,8 @@ public class KategoriseringController extends AppCompatActivity{
         }   Button ABCDVidere= (Button) findViewById(R.id.ABCDVidere);
         ABCDVidere.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                db.updateKat(medlemsid,ABCD);
                 gemKategoriseringen(ABCD,medlemsid);
+                db.updateKat(medlemsid,ABCD);
                 Intent myIntent = new Intent(KategoriseringController.this, MenuController.class);
                 startActivity(myIntent); }});}
 
