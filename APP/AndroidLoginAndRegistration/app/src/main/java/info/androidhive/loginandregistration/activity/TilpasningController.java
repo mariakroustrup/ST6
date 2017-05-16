@@ -29,6 +29,7 @@ public class TilpasningController extends AppCompatActivity {
     int helbredstilstand;
     String kondi_type;
     String medlemsid;
+    String kategorisering;
     int evaluering = 0;
 
     // Buttons
@@ -40,7 +41,7 @@ public class TilpasningController extends AppCompatActivity {
     Button btnVidereHelbred;
     Button btnOKanbefal;
     TextView TVAnbefaling;
-    long mm;
+    double mm;
 
     public static String URL_HENTEVALUERING = "http://172.31.159.63/android_login_api/hentevaluering.php";
 
@@ -77,6 +78,7 @@ public class TilpasningController extends AppCompatActivity {
         //Fetching user details from SQLite
         user = db.getUserDetails();
         medlemsid = user.get("medlemsid");
+        kategorisering = user.get("kategorisering");
     }
 
     int counter = 0;
@@ -237,71 +239,251 @@ public class TilpasningController extends AppCompatActivity {
         btnVidereHelbred.setClickable(true);
     }
 
-    public void beregnanbefaling(final int helbredstilstand, final int evaluering) {
-        String temp1 = kondi_type;
-        int temp = evaluering;
+    public void beregnanbefaling(final int helbredstilstand, final int evaluering, final String kategorisering) {
 
-        if (helbredstilstand == 1 && evaluering == 2 || helbredstilstand == 1 && evaluering == 0 || helbredstilstand == 1 && evaluering == 1){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 10 minutter");
-            setMinutter(10);
-        } else if (helbredstilstand == 1 && evaluering == 3){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
-            setMinutter(15);
-        } else if (helbredstilstand == 2 && evaluering == 1){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
-            setMinutter(15);
-        } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
-            setMinutter(20);
-        } else if (helbredstilstand == 2 && evaluering == 3){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 25 minutter");
-            setMinutter(25);
-        } else if (helbredstilstand == 3 && evaluering == 1){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 25 minutter");
-            setMinutter(25);
-        } else if (helbredstilstand == 3 && evaluering == 2 || helbredstilstand== 3 && evaluering == 0){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 30 minutter");
-            setMinutter(30);
-        } else if (helbredstilstand== 3 && evaluering == 3){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 35 minutter");
-            setMinutter(35);
-        } else if (helbredstilstand == 4 && evaluering == 1){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 35 minutter");
-            setMinutter(35);
-        } else if (helbredstilstand == 4 && evaluering == 2 || helbredstilstand == 4 && evaluering == 0){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 40 minutter");
-            setMinutter(40);
-        } else if (helbredstilstand == 4 && evaluering == 3){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 45 minutter");
-            setMinutter(45);
-        } else if (helbredstilstand == 5 && evaluering == 1){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 45 minutter");
-            setMinutter(45);
-        } else if (helbredstilstand == 5 && evaluering == 2 || helbredstilstand == 5 && evaluering ==0){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 50 minutter");
-            setMinutter(50);
-        } else if (helbredstilstand == 5 && evaluering == 3){
-            TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
-            TVAnbefaling.setText("Din anbefalede træningstid er 55 minutter");
-            setMinutter(55);
+        if (kategorisering.equals("A")) {
+            if (helbredstilstand == 1 && evaluering == 2 || helbredstilstand == 1 && evaluering == 0 || helbredstilstand == 1 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 10 minutter");
+                setMinutter(10);
+            } else if (helbredstilstand == 1 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
+                setMinutter(15);
+            } else if (helbredstilstand == 2 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
+                setMinutter(15);
+            } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
+                setMinutter(20);
+            } else if (helbredstilstand == 2 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 25 minutter");
+                setMinutter(25);
+            } else if (helbredstilstand == 3 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 25 minutter");
+                setMinutter(25);
+            } else if (helbredstilstand == 3 && evaluering == 2 || helbredstilstand == 3 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 30 minutter");
+                setMinutter(30);
+            } else if (helbredstilstand == 3 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 35 minutter");
+                setMinutter(35);
+            } else if (helbredstilstand == 4 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 35 minutter");
+                setMinutter(35);
+            } else if (helbredstilstand == 4 && evaluering == 2 || helbredstilstand == 4 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 40 minutter");
+                setMinutter(40);
+            } else if (helbredstilstand == 4 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 45 minutter");
+                setMinutter(45);
+            } else if (helbredstilstand == 5 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 45 minutter");
+                setMinutter(45);
+            } else if (helbredstilstand == 5 && evaluering == 2 || helbredstilstand == 5 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 50 minutter");
+                setMinutter(50);
+            } else if (helbredstilstand == 5 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 55 minutter");
+                setMinutter(55);
+            }
         }
 
+        if (kategorisering.equals("B")) {
+            if (helbredstilstand == 1 && evaluering == 2 || helbredstilstand == 1 && evaluering == 0 || helbredstilstand == 1 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 8 minutter");
+                setMinutter(8);
+            } else if (helbredstilstand == 1 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 12 minutter");
+                setMinutter(12);
+            } else if (helbredstilstand == 2 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 12 minutter");
+                setMinutter(12);
+            } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 16 minutter");
+                setMinutter(16);
+            } else if (helbredstilstand == 2 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
+                setMinutter(20);
+            } else if (helbredstilstand == 3 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
+                setMinutter(20);
+            } else if (helbredstilstand == 3 && evaluering == 2 || helbredstilstand == 3 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 24 minutter");
+                setMinutter(24);
+            } else if (helbredstilstand == 3 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 28 minutter");
+                setMinutter(28);
+            } else if (helbredstilstand == 4 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 28 minutter");
+                setMinutter(28);
+            } else if (helbredstilstand == 4 && evaluering == 2 || helbredstilstand == 4 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 32 minutter");
+                setMinutter(32);
+            } else if (helbredstilstand == 4 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 36 minutter");
+                setMinutter(36);
+            } else if (helbredstilstand == 5 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 36 minutter");
+                setMinutter(36);
+            } else if (helbredstilstand == 5 && evaluering == 2 || helbredstilstand == 5 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 40 minutter");
+                setMinutter(40);
+            } else if (helbredstilstand == 5 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 45 minutter");
+                setMinutter(45);
+            }
         }
 
-        public void hentevaluering(final String medlemsid, final String kondi_type){
+        if (kategorisering.equals("C")) {
+            if (helbredstilstand == 1 && evaluering == 2 || helbredstilstand == 1 && evaluering == 0 || helbredstilstand == 1 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 6 minutter");
+                setMinutter(6);
+            } else if (helbredstilstand == 1 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 9 minutter");
+                setMinutter(9);
+            } else if (helbredstilstand == 2 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 9 minutter");
+                setMinutter(9);
+            } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 12 minutter");
+                setMinutter(12);
+            } else if (helbredstilstand == 2 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
+                setMinutter(15);
+            } else if (helbredstilstand == 3 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
+                setMinutter(15);
+            } else if (helbredstilstand == 3 && evaluering == 2 || helbredstilstand == 3 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 18 minutter");
+                setMinutter(18);
+            } else if (helbredstilstand == 3 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 21 minutter");
+                setMinutter(21);
+            } else if (helbredstilstand == 4 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 21 minutter");
+                setMinutter(21);
+            } else if (helbredstilstand == 4 && evaluering == 2 || helbredstilstand == 4 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 24 minutter");
+                setMinutter(24);
+            } else if (helbredstilstand == 4 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 27 minutter");
+                setMinutter(27);
+            } else if (helbredstilstand == 5 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 27 minutter");
+                setMinutter(27);
+            } else if (helbredstilstand == 5 && evaluering == 2 || helbredstilstand == 5 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 30 minutter");
+                setMinutter(30);
+            } else if (helbredstilstand == 5 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 35 minutter");
+                setMinutter(35);
+            }
+        }
+
+        if (kategorisering.equals("D")) {
+            if (helbredstilstand == 1 && evaluering == 2 || helbredstilstand == 1 && evaluering == 0 || helbredstilstand == 1 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 5 minutter");
+                setMinutter(5);
+            } else if (helbredstilstand == 1 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 8 minutter");
+                setMinutter(8);
+            } else if (helbredstilstand == 2 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 8 minutter");
+                setMinutter(8);
+            } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 10 minutter");
+                setMinutter(10);
+            } else if (helbredstilstand == 2 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 13 minutter");
+                setMinutter(13);
+            } else if (helbredstilstand == 3 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 13 minutter");
+                setMinutter(13);
+            } else if (helbredstilstand == 3 && evaluering == 2 || helbredstilstand == 3 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
+                setMinutter(15);
+            } else if (helbredstilstand == 3 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 18 minutter");
+                setMinutter(18);
+            } else if (helbredstilstand == 4 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 18 minutter");
+                setMinutter(18);
+            } else if (helbredstilstand == 4 && evaluering == 2 || helbredstilstand == 4 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
+                setMinutter(20);
+            } else if (helbredstilstand == 4 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 23 minutter");
+                setMinutter(23);
+            } else if (helbredstilstand == 5 && evaluering == 1) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 23 minutter");
+                setMinutter(23);
+            } else if (helbredstilstand == 5 && evaluering == 2 || helbredstilstand == 5 && evaluering == 0) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 25 minutter");
+                setMinutter(25);
+            } else if (helbredstilstand == 5 && evaluering == 3) {
+                TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
+                TVAnbefaling.setText("Din anbefalede træningstid er 55 minutter");
+                setMinutter(30);
+            }
+        }
+    }
+
+
+        public void hentevaluering(final String medlemsid, final String kondi_type, final int helbred){
             String tag_string_req = "req_evaluering";
 
             StringRequest strReq = new StringRequest(Request.Method.POST,
@@ -318,14 +500,14 @@ public class TilpasningController extends AppCompatActivity {
                             JSONObject hent_evaluering = jObj.getJSONObject("eva");
                              evaluering = hent_evaluering.getInt("evaluering");
                             //metoden til at beregne den anbefaldede træning, hvis en tidligere evaluering er i databasen kaldes
-                            beregnanbefaling(helbredstilstand, evaluering);
+                            beregnanbefaling(helbredstilstand, evaluering, kategorisering);
                       } else {
                             // Error in login. Get the error message
                             String errorMsg = jObj.getString("error_msg");
                             evaluering = 0;
 
                             // metoden til at beregne den anbefaldede træning, hvis der ikke er en tidligere evaluering i databasen kaldes
-                            beregnanbefaling(helbredstilstand, evaluering);
+                            beregnanbefaling(helbredstilstand, evaluering, kategorisering);
                         }
                     } catch (JSONException e) {
                         // JSON error
@@ -345,6 +527,7 @@ public class TilpasningController extends AppCompatActivity {
                     Map<String, String> params = new HashMap<String, String>();
                     params.put("medlemsid", medlemsid);
                     params.put("kondi_type", kondi_type);
+                    params.put("helbredstilstand", String.valueOf(helbred));
                     return params;
                 }
             };
@@ -353,7 +536,7 @@ public class TilpasningController extends AppCompatActivity {
             AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
         }
 
-    public void setMinutter(long newMinutter){
+    public void setMinutter(double newMinutter){
         mm = newMinutter;
     }
 
@@ -362,8 +545,8 @@ public class TilpasningController extends AppCompatActivity {
         btnVidereHelbred.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v) {
                 setContentView(R.layout.anbefaling);
-                hentevaluering(medlemsid,kondi_type);
-                hentevaluering(medlemsid, kondi_type);
+                hentevaluering(medlemsid, kondi_type, helbredstilstand);
+               // beregnanbefaling(helbredstilstand, evaluering);
                 starttraening(0);
             }
         });

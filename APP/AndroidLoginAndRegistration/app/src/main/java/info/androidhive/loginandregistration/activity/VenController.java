@@ -121,6 +121,7 @@ public class VenController extends AppCompatActivity {
                        // String errorMsg = jObj.getString("error_msg");
                         //Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
                         btnFjernVen.setVisibility(INVISIBLE);
+                        hentvenbeloenninger(ven_medlemsid);
 
                     }
                 } catch (JSONException e) {

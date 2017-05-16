@@ -73,17 +73,17 @@ public class TraeningController extends AppCompatActivity {
             handler.postDelayed(this, 0);
             Long m = getMinutes();
 
-
-           // MediaPlayer mediaPlayer = new MediaPlayer();
-            //mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
-            //if (Minutes== 1){
-            //    mediaPlayer.start();
-           // }
-           //mediaPlayer.start();
-           // MediaPlayer song = MediaPlayer.create(TraeningController.this, R.raw.beep);
-           // if (UpdateTime == 2){
-            //    song.start();
-            //}
+//
+//            MediaPlayer mediaPlayer = new MediaPlayer();
+//            mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
+//            if (Minutes== 1){
+//                mediaPlayer.start();
+//            }
+//           mediaPlayer.start();
+//            MediaPlayer song = MediaPlayer.create(TraeningController.this, R.raw.beep);
+//            if (UpdateTime == 2){
+//                song.start();
+//            }
 
         }
     };
@@ -161,7 +161,7 @@ public class TraeningController extends AppCompatActivity {
                         //********* Her gemmer vi tid og afstand ********
 
                         kondi.setTid((int) (UpdateTime/1000));
-                        kondi.setAfstand(getDist());
+                        kondi.setAfstand(getnyDist());
 
                         myPopUp.dismiss();
                         // if(locationManager != null){
@@ -300,6 +300,7 @@ public class TraeningController extends AppCompatActivity {
         double nyDist = gammelDist + dist;
         textViewKm.setText(String.format("%.2f", nyDist) + " km"); // HER
         setDist(dist);
+        setnyDist(nyDist);
         return (dist);
     }
 
@@ -312,6 +313,7 @@ public class TraeningController extends AppCompatActivity {
     }
 
     double distance = 0;
+    double distance1 = 0;
 
     private void setDist(double newDist){
         distance = newDist;
@@ -321,6 +323,13 @@ public class TraeningController extends AppCompatActivity {
         return distance;
     }
 
+    private void setnyDist(double newDist){
+        distance1 = newDist;
+    }
+
+    public double getnyDist(){
+        return distance1;
+    }
 
 
     // her begynder evalueringen

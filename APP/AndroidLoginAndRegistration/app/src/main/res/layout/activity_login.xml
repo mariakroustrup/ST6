@@ -8,7 +8,6 @@
 
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="230dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
@@ -19,7 +18,6 @@
             android:textSize="35sp" />
 
         <ImageView
-            android:id="@+id/KOL"
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
@@ -37,6 +35,7 @@
             android:textAlignment="center"
             android:textSize="16sp"/>
 
+        <!-- user medlemsid -->
         <EditText
             android:id="@+id/medlemsid"
             android:layout_width="200dp"
@@ -55,6 +54,7 @@
             android:textAlignment="center"
             android:textSize="16sp" />
 
+        <!-- user adgangskode -->
         <EditText
             android:id="@+id/adgangskode"
             android:layout_width="200dp"
