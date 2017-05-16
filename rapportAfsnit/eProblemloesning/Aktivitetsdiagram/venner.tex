@@ -5,16 +5,13 @@ Af \autoref{fig:venner} fremgår et aktivitetsdiagram for vennelisten.
 \begin{figure} [H]
 \centering
 \textbf{Aktivitetsdiagram: Venneliste}\par\medskip
-\includegraphics[width=1\textwidth]{figures/aktivitetsdiagram/venner}
+\includegraphics[width=0.9\textwidth]{figures/aktivitetsdiagram/venner}
 \caption{Aktivitetsdiagram for venneliste.}
 \label{fig:venner}
 \end{figure}
 
 \noindent
-Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at søge efter en bruger eller vælge en bruger i vennelisten. Ønsker brugeren at søg efter en ny, skal brugeren angive MedlemsID på denne. Systemet sender det indtastede MedlemsID til databasen, som validerer om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive medlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvorefter brugeren kan følges, hvis den ikke allerede følges. Ønskes dette, sender systemet en anmodning om at følge brugeren. Databasen gemmer brugeren, der ønskes at følges, og sender en bekræftelse. Efter bekræftelse eller ved at vælge en ven fra vennelisten viser systemet grænsefladen for den valgte eller tilføjede brugers belønninger.
-
- 
-
+Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at søge efter en ny bruger eller vælge en bruger fra vennelisten. Ønsker brugeren at søge efter en ny, skal brugeren angive medlemsID på denne. Systemet sender det indtastede medlemsID til databasen, som validerer om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive medlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvor det er muligt at følge brugeren, hvis den ikke allerede følges samt fjerne brugere, hvis det ønskes ikke at følge brugeren mere. Ønskes det at følge brugeren, sender systemet en anmodning om at følge brugeren. Databasen opretter vennerelation, hvorefter systemet sender en bekræftelse. Ligeledes sender systemt en anmodning om at fjerne brugeren, hvis dette ønskes, hvorefter databasen sletter vennerelationen og systemet sender en beskæftigelse. Efter bekræftelse eller ved at vælge en ven fra vennelisten viser systemet grænsefladen for den valgte, tilføjede eller fjernede brugers belønninger.
 
 
 %Heraf skal det være muligt for den individuelle bruger at tilgå information fra disse. Denne information begrænses til at vise vundne belønninger for de andre brugere, da den resterende information anses som værende personlig til den enkelte bruger. 

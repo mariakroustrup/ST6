@@ -36,9 +36,9 @@
 \contentsline {chapter}{\chapternumberline {6}Systemdesign}{36}{chapter.6}
 \contentsline {section}{\numberline {6.1}Designafgr\IeC {\ae }nsning}{36}{section.6.1}
 \contentsline {section}{\numberline {6.2}Objektorienteret design}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Design af database}{57}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}ER-diagram}{57}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Schema}{58}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.3}Design af database}{56}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}ER-diagram}{56}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Schema}{57}{subsection.6.3.2}
 \contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}
 \contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{59}{subsection.7.0.1}
 \contentsline {subsection}{\numberline {7.0.2}Implementering af database}{59}{subsection.7.0.2}
@@ -54,6 +54,6 @@
 \contentsline {section}{\numberline {8.9}Log ud}{67}{section.8.9}
 \contentsline {chapter}{\chapternumberline {9}Syntese}{68}{chapter.9}
 \contentsline {section}{\numberline {9.1}Perspektivering}{68}{section.9.1}
-\contentsline {chapter}{Litteratur}{69}{section*.97}
+\contentsline {chapter}{Litteratur}{69}{section*.96}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{73}{appendix.A}
 \contentsline {section}{\numberline {A.1}Bilag A}{73}{section.A.1}
