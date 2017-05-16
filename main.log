@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  16 MAY 2017 14:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.26)  16 MAY 2017 15:22
 entering extended mode
 **main.tex
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\preambleNy.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\preambleNy.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
 ment class
@@ -1753,8 +1753,8 @@ Package caption Info: rotating package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\macros.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.aux)
+(C:\Users\Birgithe\Documents\GitHub\ST6\macros.tex)
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1820,8 +1820,8 @@ Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.out)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.out)
+ (C:\Users\Birgithe\Documents\GitHub\ST6\main.out)
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.out)
 \@outlinefile=\write4
 LaTeX Info: Redefining \Ref on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1842,21 +1842,21 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 \c__siunitx_mathtt_int=\count352
 
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forsi
-de.tex <figures/Forside.png, id=207, 533.995pt x 473.77pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forside.tex
+<figures/Forside.png, id=207, 533.995pt x 473.77pt>
 File: figures/Forside.png Graphic file (type png)
-
-<use figures/Forside.png>
+ <use figures/Forside.png>
 Package pdftex.def Info: figures/Forside.png used on input line 40.
 (pdftex.def)             Requested size: 308.69865pt x 273.89038pt.
-) [1
+)
+[1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/passw/OneDrive/D
-ocuments/GitHub/ST6/figures/Forside.png>]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/title
-Sheet.tex <figures/aaulogo-da.png, id=220, 122.4575pt x 76.285pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Birgithe/Documen
+ts/GitHub/ST6/figures/Forside.png>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/titleSheet.
+tex <figures/aaulogo-da.png, id=220, 122.4575pt x 76.285pt>
 File: figures/aaulogo-da.png Graphic file (type png)
 
 <use figures/aaulogo-da.png>
@@ -1918,13 +1918,12 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 59--59
  []
 
 
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/synop
-sis.tex)) [2 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aaulogo-da.p
-ng>]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Foror
-d.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/synopsis.te
+x)) [2 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aaulogo-da.png>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/Forord.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 1142) in paragraph at lines 5--7
@@ -1941,14 +1940,13 @@ Underfull \hbox (badness 2376) in paragraph at lines 11--12
 ) [3
 
 
-] (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.toc [4]) [5]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/bInitierende/indled
-ning.tex) [1
+] (C:\Users\Birgithe\Documents\GitHub\ST6\main.toc [4]) [5]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/bInitierende/indledning.t
+ex) [1
 
 
 ]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/metod
-e.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/xFormaliteter/metode.tex
 Underfull \hbox (badness 1442) in paragraph at lines 4--5
 \T1/cmr/m/n/10.95 hvor det initierende problem opstilles. Dette problem undersø
 ges i problemanalysen,
@@ -1968,9 +1966,8 @@ Package pdftex.def Info: figures/AAUModel.png used on input line 9.
 (pdftex.def)             Requested size: 220.5pt x 256.41225pt.
  [2
 
- <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/AAUModel.png>]) [3]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/KOL
-.tex
+ <C:/Users/Birgithe/Documents/GitHub/ST6/figures/AAUModel.png>]) [3]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/KOL.tex
 Underfull \hbox (badness 1895) in paragraph at lines 1--2
 \T1/cmr/m/n/10.95 KOL-patienter tilbydes. Heraf analyseres KOL-patienters resul
 tater efter gennemgået
@@ -1979,8 +1976,8 @@ tater efter gennemgået
 [4
 
 ])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/sym
-ptomerdiagnose.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/symptomer
+diagnose.tex
 Underfull \hbox (badness 2229) in paragraph at lines 7--10
 []\T1/cmr/m/n/10.95 Der er en række komorbiditeter, som hyppigt ses hos KOL-pat
 ienter, der kan
@@ -1993,8 +1990,8 @@ Package pdftex.def Info: figures/FEV.png used on input line 17.
 (pdftex.def)             Requested size: 352.80135pt x 219.19937pt.
 
 [5])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/kla
-ssifikationbehandlingprognose.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/klassifik
+ationbehandlingprognose.tex
 Underfull \hbox (badness 1253) in paragraph at lines 22--1
 \T1/cmr/m/n/10.95 Det fremgår af [][]figur 3.1[][][], at der ved obstruktivt ne
 dsat lungefunktion er et fald i
@@ -2012,15 +2009,15 @@ File: figures/MRC.png Graphic file (type png)
 Package pdftex.def Info: figures/MRC.png used on input line 9.
 (pdftex.def)             Requested size: 396.89731pt x 150.606pt.
 
-[6 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/FEV.png>]
+[6 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/FEV.png>]
 <figures/CAT.png, id=438, 411.5375pt x 574.145pt>
 File: figures/CAT.png Graphic file (type png)
  <use figures/CAT.png>
 Package pdftex.def Info: figures/CAT.png used on input line 19.
 (pdftex.def)             Requested size: 220.5pt x 307.62448pt.
 
-[7 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MRC.png> <C:/Users/pas
-sw/OneDrive/Documents/GitHub/ST6/figures/CAT.png>]
+[7 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MRC.png> <C:/Users/Birgithe/
+Documents/GitHub/ST6/figures/CAT.png>]
 <figures/KAT.png, id=450, 591.71063pt x 435.12563pt>
 File: figures/KAT.png Graphic file (type png)
  <use figures/KAT.png>
@@ -2033,8 +2030,8 @@ File: figures/GOLD.png Graphic file (type png)
 Package pdftex.def Info: figures/GOLD.png used on input line 40.
 (pdftex.def)             Requested size: 352.80135pt x 105.65422pt.
 
-[8 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/KAT.png> <C:/Users/pas
-sw/OneDrive/Documents/GitHub/ST6/figures/GOLD.png>]
+[8 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/KAT.png> <C:/Users/Birgithe/
+Documents/GitHub/ST6/figures/GOLD.png>]
 <figures/fletcher.png, id=473, 550.30594pt x 298.11375pt>
 File: figures/fletcher.png Graphic file (type png)
 
@@ -2042,21 +2039,21 @@ File: figures/fletcher.png Graphic file (type png)
 Package pdftex.def Info: figures/fletcher.png used on input line 58.
 (pdftex.def)             Requested size: 441.0pt x 238.90982pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/reh
-abilitering.tex [9 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/fletch
-er.png>] [10]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/cProblemanalyse/rehabilit
+ering.tex [9 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/fletcher.png>]
+[10]
 Underfull \hbox (badness 1043) in paragraph at lines 28--30
 \T1/cmr/m/n/10.95 at skabe en forbindelse mellem professionel behandling og sel
 f-management uden for
  []
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/bInitierende/proble
-mformulering.tex [11]) [12]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/OO
-P.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Me
-todeUML.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/bInitierende/problemformu
+lering.tex [11]) [12]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/OOP.tex)
+
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/MetodeUM
+L.tex
 Underfull \hbox (badness 1924) in paragraph at lines 19--1
 \T1/cmr/m/n/10.95 Objektorienteret programmering består af tre grundprincipper,
  herunder indkapsling,
@@ -2076,7 +2073,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 20--21
 iviteter kan opdeles i
  []
 
-[14 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/USE_CASE2.png>]
+[14 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/USE_CASE2.png>]
 <figures/aktivitetsdiagram.png, id=601, 578.16pt x 137.51375pt>
 File: figures/aktivitetsdiagram.png Graphic file (type png)
 
@@ -2107,8 +2104,8 @@ Package natbib Warning: Citation `RSC2002' on page 15 undefined on input line 5
 Package natbib Warning: Citation `RSC2002' on page 15 undefined on input line 5
 4.
 
-[15 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram.png
-> <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/klassediag.png>]
+[15 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram.png> <C:/
+Users/Birgithe/Documents/GitHub/ST6/figures/klassediag.png>]
 <figures/sekvens.pdf, id=623, 427.5975pt x 303.1325pt>
 File: figures/sekvens.pdf Graphic file (type pdf)
 
@@ -2122,22 +2119,22 @@ ase diagram har en kolonne i
  []
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Va
-ndfaldsmodel.tex [16 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/sekv
-ens.pdf>] <figures/UP.pdf, id=644, 483.8075pt x 361.35pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Vandfald
+smodel.tex [16 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/sekvens.pdf>]
+<figures/UP.pdf, id=644, 483.8075pt x 361.35pt>
 File: figures/UP.pdf Graphic file (type pdf)
  <use figures/UP.pdf>
 Package pdftex.def Info: figures/UP.pdf used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 263.51314pt.
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
 line 12.
-) [17 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/UP.pdf>]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/sy
-stembeskrivelse.tex [18
+) [17 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/UP.pdf>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/systembe
+skrivelse.tex [18
 
 ])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Usecase.tex [19]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Usecase.tex [19]
 <figures/aktivitetsdiagram/Usecase.pdf, id=690, 784.9325pt x 576.1525pt>
 File: figures/aktivitetsdiagram/Usecase.pdf Graphic file (type pdf)
 
@@ -2146,11 +2143,11 @@ Package pdftex.def Info: figures/aktivitetsdiagram/Usecase.pdf used on input li
 ne 6.
 (pdftex.def)             Requested size: 396.89731pt x 291.33713pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/registrering.tex [20 <C:/Users/passw/OneDrive/Documents/GitHub/
-ST6/figures/aktivitetsdiagram/Usecase.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Logind.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/registrering.tex [20 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/
+aktivitetsdiagram/Usecase.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Logind.tex
 <figures/aktivitetsdiagram/Logind.pdf, id=702, 844.15375pt x 1086.0575pt>
 File: figures/aktivitetsdiagram/Logind.pdf Graphic file (type pdf)
 
@@ -2158,10 +2155,10 @@ File: figures/aktivitetsdiagram/Logind.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/Logind.pdf used on input lin
 e 8.
 (pdftex.def)             Requested size: 441.0pt x 567.38808pt.
- [21] [22 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagr
-am/Logind.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Kategorisering.tex
+ [21] [22 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/Log
+ind.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Kategorisering.tex
 <figures/aktivitetsdiagram/Kategorisering.pdf, id=730, 844.15375pt x 907.39pt>
 File: figures/aktivitetsdiagram/Kategorisering.pdf Graphic file (type pdf)
 
@@ -2170,9 +2167,9 @@ Package pdftex.def Info: figures/aktivitetsdiagram/Kategorisering.pdf used on i
 nput line 8.
 (pdftex.def)             Requested size: 441.0pt x 474.04698pt.
  [23])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Traening.tex [24 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/
-figures/aktivitetsdiagram/Kategorisering.pdf>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Traening.tex [24 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/akti
+vitetsdiagram/Kategorisering.pdf>]
 <figures/aktivitetsdiagram/Traening.pdf, id=752, 847.165pt x 995.72pt>
 File: figures/aktivitetsdiagram/Traening.pdf Graphic file (type pdf)
 
@@ -2180,8 +2177,8 @@ File: figures/aktivitetsdiagram/Traening.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/Traening.pdf used on input l
 ine 8.
 (pdftex.def)             Requested size: 441.0pt x 518.32436pt.
- [25 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram/Tr
-aening.pdf>]
+ [25 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/Traening
+.pdf>]
 <figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf, id=771, 844.15375pt
  x 1106.1325pt>
 File: figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.pdf Graphic file (t
@@ -2191,8 +2188,8 @@ ype pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/Tilpasningaftraeningsniveau.
 pdf used on input line 26.
 (pdftex.def)             Requested size: 396.89731pt x 520.08488pt.
- [26] [27 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagr
-am/Tilpasningaftraeningsniveau.pdf>]
+ [26] [27 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/Til
+pasningaftraeningsniveau.pdf>]
 <figures/aktivitetsdiagram/beslutningstabel.png, id=792, 1376.14125pt x 476.781
 25pt>
 File: figures/aktivitetsdiagram/beslutningstabel.png Graphic file (type png)
@@ -2201,8 +2198,8 @@ Package pdftex.def Info: figures/aktivitetsdiagram/beslutningstabel.png used on
  input line 36.
 (pdftex.def)             Requested size: 441.0pt x 152.78409pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Resultater.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Resultater.tex
 Underfull \hbox (badness 1009) in paragraph at lines 41--1
 \T1/cmr/m/n/10.95 til den pågældende dag. Helbredstilstanden angives efter \T1/
 cmr/m/it/10.95 1: Meget dårligt\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 2: Dåligt
@@ -2216,8 +2213,8 @@ File: figures/aktivitetsdiagram/Resultater.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/Resultater.pdf used on input
  line 8.
 (pdftex.def)             Requested size: 396.89731pt x 395.49315pt.
- [28 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram/be
-slutningstabel.png>]
+ [28 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/beslutni
+ngstabel.png>]
 <figures/aktivitetsdiagram/beloenninger.png, id=806, 1396.21625pt x 379.4175pt>
 File: figures/aktivitetsdiagram/beloenninger.png Graphic file (type png)
 <use figures/aktivitetsdiagram/beloenninger.png>
@@ -2225,10 +2222,10 @@ Package pdftex.def Info: figures/aktivitetsdiagram/beloenninger.png used on inp
 ut line 18.
 (pdftex.def)             Requested size: 441.0pt x 119.84134pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/venner.tex [29 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/fi
-gures/aktivitetsdiagram/Resultater.pdf> <C:/Users/passw/OneDrive/Documents/GitH
-ub/ST6/figures/aktivitetsdiagram/beloenninger.png>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/venner.tex [29 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivi
+tetsdiagram/Resultater.pdf> <C:/Users/Birgithe/Documents/GitHub/ST6/figures/akt
+ivitetsdiagram/beloenninger.png>]
 <figures/aktivitetsdiagram/venner.pdf, id=819, 844.15375pt x 1416.29124pt>
 File: figures/aktivitetsdiagram/venner.pdf Graphic file (type pdf)
 
@@ -2240,10 +2237,10 @@ e 8.
 Overfull \vbox (13.36139pt too high) has occurred while \output is active []
 
 
-[31 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram/ven
-ner.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Redigerbrugeroplysninger.tex
+[31 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/venner.pd
+f>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Redigerbrugeroplysninger.tex
 <figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf, id=836, 844.15375pt x 
 615.29875pt>
 File: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf Graphic file (type
@@ -2253,9 +2250,9 @@ Package pdftex.def Info: figures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf
  used on input line 7.
 (pdftex.def)             Requested size: 441.0pt x 321.44998pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/logud.tex [32 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/fig
-ures/aktivitetsdiagram/Redigerbrugeroplysninger.pdf>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/logud.tex [32 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivit
+etsdiagram/Redigerbrugeroplysninger.pdf>]
 <figures/aktivitetsdiagram/Logud.pdf, id=850, 563.10374pt x 544.0325pt>
 File: figures/aktivitetsdiagram/Logud.pdf Graphic file (type pdf)
 
@@ -2264,9 +2261,9 @@ Package pdftex.def Info: figures/aktivitetsdiagram/Logud.pdf used on input line
  8.
 (pdftex.def)             Requested size: 396.89731pt x 383.45996pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Ak
-tivitetsdiagram/Analyseklasser.tex [33 <C:/Users/passw/OneDrive/Documents/GitHu
-b/ST6/figures/aktivitetsdiagram/Logud.pdf>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Aktivite
+tsdiagram/Analyseklasser.tex [33 <C:/Users/Birgithe/Documents/GitHub/ST6/figure
+s/aktivitetsdiagram/Logud.pdf>]
 <figures/aktivitetsdiagram/substantiveverber.pdf, id=863, 402.50375pt x 365.365
 pt>
 File: figures/aktivitetsdiagram/substantiveverber.pdf Graphic file (type pdf)
@@ -2282,14 +2279,13 @@ File: figures/aktivitetsdiagram/analyseklasser.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/aktivitetsdiagram/analyseklasser.pdf used on i
 nput line 18.
 (pdftex.def)             Requested size: 308.69865pt x 473.46329pt.
- [34 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram/su
-bstantiveverber.pdf>])
-[35 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/aktivitetsdiagram/ana
-lyseklasser.pdf>]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/DesignINTRO.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/Designklasser.tex
+ [34 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitetsdiagram/substant
+iveverber.pdf>]) [35 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/aktivitets
+diagram/analyseklasser.pdf>]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/D
+esignINTRO.tex)
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/D
+esignklasser.tex
 Underfull \hbox (badness 1292) in paragraph at lines 2--3
 \T1/cmr/m/n/10.95 Dette gøres for at specificere de definerede attributter og m
 etoder, hvilket gør det
@@ -2298,16 +2294,15 @@ etoder, hvilket gør det
 [36
 
 ])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCDatabase.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCDatabase.tex
 <figures/MVC/MVCDatabase.pdf, id=898, 352.31625pt x 261.97874pt>
 File: figures/MVC/MVCDatabase.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCDatabase.pdf>
 Package pdftex.def Info: figures/MVC/MVCDatabase.pdf used on input line 6.
 (pdftex.def)             Requested size: 220.5pt x 163.96016pt.
- [37 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCDatabase.pdf>
-]
+ [37 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCDatabase.pdf>]
 <figures/MVC/Entity.pdf, id=913, 373.395pt x 186.6975pt>
 File: figures/MVC/Entity.pdf Graphic file (type pdf)
 
@@ -2315,25 +2310,24 @@ File: figures/MVC/Entity.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/MVC/Entity.pdf used on input line 21.
 (pdftex.def)             Requested size: 220.5pt x 110.25027pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCFejl.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCFejl.tex
 Underfull \hbox (badness 2088) in paragraph at lines 26--1
 \T1/cmr/m/n/10.95 indeholder informationer om brugeren, herunder MedlemsID, Adg
 angskode, Fornavn,
  []
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCLogind.tex
-<figures/MVC/MVCLogInd.pdf, id=916, 382.42876pt x 252.945pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCLogind.tex <figures/MVC/MVCLogInd.pdf, id=916, 382.42876pt x 252.945pt>
 File: figures/MVC/MVCLogInd.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCLogInd.pdf>
 Package pdftex.def Info: figures/MVC/MVCLogInd.pdf used on input line 6.
 (pdftex.def)             Requested size: 220.5pt x 145.84364pt.
- [38 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Entity.pdf> <C:/
-Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCLogInd.pdf>]
-<figures/Sek/SEKLogInd.pdf, id=934, 1002.74625pt x 618.31pt>
+ [38 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/Entity.pdf> <C:/Users/
+Birgithe/Documents/GitHub/ST6/figures/MVC/MVCLogInd.pdf>] <figures/Sek/SEKLogIn
+d.pdf, id=934, 1002.74625pt x 618.31pt>
 File: figures/Sek/SEKLogInd.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKLogInd.pdf>
@@ -2343,9 +2337,9 @@ Package pdftex.def Info: figures/Sek/SEKLogInd.pdf used on input line 18.
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[40 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKLogInd.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCKategorisering.tex
+[40 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKLogInd.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCKategorisering.tex
 Underfull \hbox (badness 1158) in paragraph at lines 23--1
 \T1/cmr/m/n/10.95 Det fremgår af sekvensdiagrammet, at controlleren for \T1/cmr
 /m/it/10.95 Log ind \T1/cmr/m/n/10.95 starter med at vise
@@ -2365,8 +2359,8 @@ r/m/it/10.95 CATScore\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 Indlæggelser \T1/cm
 r/m/n/10.95 samt
  []
 
-[41 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCKategorisering
-.pdf>] <figures/Sek/SEKKategorisering.pdf, id=964, 1187.43625pt x 539.01375pt>
+[41 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCKategorisering.pdf>]
+<figures/Sek/SEKKategorisering.pdf, id=964, 1187.43625pt x 539.01375pt>
 File: figures/Sek/SEKKategorisering.pdf Graphic file (type pdf)
 
 <use figures/Sek/SEKKategorisering.pdf>
@@ -2377,10 +2371,10 @@ Package pdftex.def Info: figures/Sek/SEKKategorisering.pdf used on input line 2
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[43 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKKategorisering
-.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCHovedmenu.tex
+[43 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKKategorisering.pdf>]
+)
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCHovedmenu.tex
 <figures/MVC/MVCHovedmenu.pdf, id=981, 327.2225pt x 262.9825pt>
 File: figures/MVC/MVCHovedmenu.pdf Graphic file (type pdf)
 
@@ -2394,15 +2388,13 @@ File: figures/Sek/SEKHovedmenu.pdf Graphic file (type pdf)
 <use figures/Sek/SEKHovedmenu.pdf>
 Package pdftex.def Info: figures/Sek/SEKHovedmenu.pdf used on input line 19.
 (pdftex.def)             Requested size: 683.55135pt x 301.99506pt.
- [44 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCHovedmenu.pdf
->]
+ [44 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCHovedmenu.pdf>]
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[45 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKHovedmenu.pdf>
-])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCTilpasning.tex
+[45 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKHovedmenu.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCTilpasning.tex
 <figures/MVC/MVCTilpasning.pdf, id=1006, 585.18625pt x 283.0575pt>
 File: figures/MVC/MVCTilpasning.pdf Graphic file (type pdf)
 
@@ -2416,16 +2408,13 @@ File: figures/Sek/SEKTilpasning.pdf Graphic file (type pdf)
 <use figures/Sek/SEKTilpasning.pdf>
 Package pdftex.def Info: figures/Sek/SEKTilpasning.pdf used on input line 20.
 (pdftex.def)             Requested size: 683.55135pt x 297.40947pt.
- [46 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCTilpasning.pd
-f>]
+ [46 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCTilpasning.pdf>]
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[47 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKTilpasning.pdf
->])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCTraening.tex
-<figures/MVC/MVCTraening.pdf, id=1030, 412.54124pt x 393.47pt>
+[47 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKTilpasning.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCTraening.tex <figures/MVC/MVCTraening.pdf, id=1030, 412.54124pt x 393.47pt>
 File: figures/MVC/MVCTraening.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCTraening.pdf>
@@ -2438,15 +2427,14 @@ File: figures/Sek/SEKTraening.pdf Graphic file (type pdf)
 <use figures/Sek/SEKTraening.pdf>
 Package pdftex.def Info: figures/Sek/SEKTraening.pdf used on input line 18.
 (pdftex.def)             Requested size: 683.55135pt x 356.3917pt.
- [48 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCTraening.pdf>
-] [49]
+ [48 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCTraening.pdf>] [49]
+
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[50 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKTraening.pdf>]
-)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCResultater.tex
+[50 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKTraening.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCResultater.tex
 <figures/MVC/MVCResultater.pdf, id=1060, 392.46625pt x 152.57pt>
 File: figures/MVC/MVCResultater.pdf Graphic file (type pdf)
 
@@ -2461,11 +2449,10 @@ File: figures/Sek/SEKResultater.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/Sek/SEKResultater.pdf used on input line 19.
 (pdftex.def)             Requested size: 441.0pt x 110.09294pt.
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCVenneliste.tex [51 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figure
-s/MVC/MVCResultater.pdf> <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/
-Sek/SEKResultater.pdf>]
-<figures/MVC/MVCVenneliste.pdf, id=1079, 532.99126pt x 282.05376pt>
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCVenneliste.tex [51 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCRes
+ultater.pdf> <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKResultater.
+pdf>] <figures/MVC/MVCVenneliste.pdf, id=1079, 532.99126pt x 282.05376pt>
 File: figures/MVC/MVCVenneliste.pdf Graphic file (type pdf)
 
 <use figures/MVC/MVCVenneliste.pdf>
@@ -2478,15 +2465,13 @@ File: figures/Sek/SEKVenneliste.pdf Graphic file (type pdf)
 <use figures/Sek/SEKVenneliste.pdf>
 Package pdftex.def Info: figures/Sek/SEKVenneliste.pdf used on input line 20.
 (pdftex.def)             Requested size: 683.55135pt x 441.12924pt.
- [52 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/MVCVenneliste.pd
-f>]
+ [52 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/MVCVenneliste.pdf>]
 Overfull \vbox (14.31111pt too high) has occurred while \output is active []
 
 
-[53 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKVenneliste.pdf
->])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCRediger.tex <figures/MVC/Redigering.pdf, id=1103, 433.62pt x 192.72pt>
+[53 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKVenneliste.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCRediger.tex <figures/MVC/Redigering.pdf, id=1103, 433.62pt x 192.72pt>
 File: figures/MVC/Redigering.pdf Graphic file (type pdf)
 
 <use figures/MVC/Redigering.pdf>
@@ -2499,10 +2484,9 @@ File: figures/Sek/SEKRedigering.pdf Graphic file (type pdf)
 <use figures/Sek/SEKRedigering.pdf>
 Package pdftex.def Info: figures/Sek/SEKRedigering.pdf used on input line 18.
 (pdftex.def)             Requested size: 441.0pt x 183.02615pt.
- [54 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Redigering.pdf>]
-)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/MVCLogUd.tex <figures/MVC/Logud.pdf, id=1118, 415.5525pt x 182.6825pt>
+ [54 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/Redigering.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/M
+VCLogUd.tex <figures/MVC/Logud.pdf, id=1118, 415.5525pt x 182.6825pt>
 File: figures/MVC/Logud.pdf Graphic file (type pdf)
 
 <use figures/MVC/Logud.pdf>
@@ -2520,10 +2504,10 @@ Overfull \hbox (123.47946pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[55 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKRedigering.pdf
-> <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Logud.pdf>])
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/De
-sign/ERdiagram.tex
+[55 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKRedigering.pdf> <C:/
+Users/Birgithe/Documents/GitHub/ST6/figures/MVC/Logud.pdf>])
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Design/E
+Rdiagram.tex
 <figures/Aktivitetsdiagram/ERdiagram.pdf, id=1137, 804.00375pt x 571.13374pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
@@ -2531,7 +2515,7 @@ File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/Aktivitetsdiagram/ERdiagram.pdf used on input 
 line 10.
 (pdftex.def)             Requested size: 441.0pt x 313.26176pt.
- [56 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Sek/SEKLogUd.pdf>]
+ [56 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Sek/SEKLogUd.pdf>]
 Underfull \hbox (badness 1997) in paragraph at lines 15--17
 \T1/cmr/m/n/10.95 Af [][]figur 6.21[][][] ses ER-diagrammet over databasen, hvo
 ri KOL-patienter oprettes og
@@ -2542,34 +2526,34 @@ Overfull \hbox (14.70294pt too wide) in paragraph at lines 23--30
  [][] 
  []
 
-[57 <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/Aktivitetsdiagram/ERd
-iagram.pdf>]
+[57 <C:/Users/Birgithe/Documents/GitHub/ST6/figures/Aktivitetsdiagram/ERdiagram
+.pdf>]
 Overfull \hbox (14.70294pt too wide) in paragraph at lines 41--48
  [][] 
  []
 
 ) [58]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Im
-plementering/Implementering.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Implemen
+tering/Implementering.tex
 
 LaTeX Warning: Reference `cha:design' on page 59 undefined on input line 3.
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Im
-plementering/objektorienteretdesign.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Implemen
+tering/objektorienteretdesign.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
 
 )
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Im
-plementering/Database.tex) [59
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Implemen
+tering/Database.tex) [59
 
 ]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Te
-st/test.tex)
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Te
-st/testUsecaseny.tex
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Test/tes
+t.tex)
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/eProblemloesning/Test/tes
+tUsecaseny.tex
 Underfull \hbox (badness 1648) in paragraph at lines 20--20
 \T1/cmr/m/n/10.95 Dette gøres ved at oprette en bruger i databasen, efterfølgen
 de udføre en
@@ -2603,45 +2587,132 @@ Overfull \hbox (40.44505pt too wide) in paragraph at lines 158--180
  []
 
 [64]
-Overfull \hbox (40.44505pt too wide) in paragraph at lines 202--223
+! Undefined control sequence.
+l.209  	\textbf{Main flow:} & 1.~ Tryk \textbfb
+                                               {START TRÃ†NING} og vent til ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.44505pt too wide) in paragraph at lines 205--226
  [][] 
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 245--246
-\T1/cmr/m/n/10.95 og tryk  STOP TRÆNING evaluer træningen til :D. Tryk here
-fter på
- []
-
-
-Overfull \hbox (40.44505pt too wide) in paragraph at lines 241--261
+Overfull \hbox (40.44505pt too wide) in paragraph at lines 244--264
  [][] 
  []
 
 [65]
-Overfull \hbox (40.44505pt too wide) in paragraph at lines 279--302
+Overfull \hbox (40.44505pt too wide) in paragraph at lines 282--305
  [][] 
  []
 
 [66]
-Overfull \hbox (40.44505pt too wide) in paragraph at lines 321--336
+Underfull \hbox (badness 1728) in paragraph at lines 334--336
+[]\T1/cmr/m/n/10.95 Forventet ændring lykkes. Meddelelse viser, at adgangskoden
+ er gemt.
+ []
+
+! Extra }, or forgotten \endgroup.
+<recently read> \egroup 
+                        
+l.339 \\ \hline
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+<template> \unskip \relax \@endpbox \egroup 
+                                            \egroup \begingroup \CT@setup \C...
+l.339 \\ \hline
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+<template> ...ip \relax \@endpbox \egroup \egroup 
+                                                  \begingroup \CT@setup \CT@...
+l.339 \\ \hline
+               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.339 \\ \hline
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.339 \\ \hline
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.339 \\ \hline
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.339 \\ \hline
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (40.44505pt too wide) in paragraph at lines 324--342
  [][] 
  []
 
-[67]
-Overfull \hbox (40.44505pt too wide) in paragraph at lines 354--365
+
+Overfull \hbox (40.44505pt too wide) in paragraph at lines 360--371
  [][] 
  []
 
-) [68]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/fSyntese/perspektiv
-ering.tex
+[67]) [68]
+(C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/fSyntese/perspektivering.
+tex
 Underfull \hbox (badness 1859) in paragraph at lines 8--9
 []\T1/cmr/m/n/10.95 Resultaterne, opnået ved træning, er på nuværende tidspunkt
  vist som visuelle
  []
 
-) (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.bbl [69
+) (C:\Users\Birgithe\Documents\GitHub\ST6\main.bbl [69
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
@@ -2651,8 +2722,7 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [70
 
 ] [71])
-[72]
-(C:\Users\passw\OneDrive\Documents\GitHub\ST6\rapportAfsnit/zBilag/BilagA.tex
+[72] (C:\Users\Birgithe\Documents\GitHub\ST6\rapportAfsnit/zBilag/BilagA.tex
 <figures/MVC/Designklasse.pdf, id=1291, 1036.87375pt x 1118.1775pt>
 File: figures/MVC/Designklasse.pdf Graphic file (type pdf)
 
@@ -2667,11 +2737,12 @@ Package natbib Warning: There were undefined citations.
 AED: lastpage setting LastPage
 [73
 
- <C:/Users/passw/OneDrive/Documents/GitHub/ST6/figures/MVC/Designklasse.pdf>]
+ <C:/Users/Birgithe/Documents/GitHub/ST6/figures/MVC/Designklasse.pdf>]
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
- (C:\Users\passw\OneDrive\Documents\GitHub\ST6\main.aux)
+
+(C:\Users\Birgithe\Documents\GitHub\ST6\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -2683,13 +2754,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 27003 strings out of 493921
- 483917 string characters out of 3144876
- 769798 words of memory out of 3000000
- 29397 multiletter control sequences out of 15000+200000
+ 27005 strings out of 493921
+ 483215 string characters out of 3144866
+ 770798 words of memory out of 3000000
+ 29399 multiletter control sequences out of 15000+200000
  32846 words of font info for 90 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 57i,22n,92p,1295b,976s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,22n,92p,1295b,978s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
 C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
@@ -2715,7 +2786,7 @@ c/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
 m-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
 uper/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
 r/sftt1095.pfb>
-Output written on main.pdf (78 pages, 6013668 bytes).
+Output written on main.pdf (78 pages, 6012237 bytes).
 PDF statistics:
  1435 PDF objects out of 1440 (max. 8388607)
  270 named destinations out of 1000 (max. 500000)

@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {8.6}Resultater}{65}{section.8.6}
 \contentsline {section}{\numberline {8.7}Venneliste}{66}{section.8.7}
 \contentsline {section}{\numberline {8.8}Redigering}{67}{section.8.8}
-\contentsline {section}{\numberline {8.9}Log ud}{68}{section.8.9}
+\contentsline {section}{\numberline {8.9}Log ud}{67}{section.8.9}
 \contentsline {chapter}{\chapternumberline {9}Syntese}{69}{chapter.9}
 \contentsline {section}{\numberline {9.1}Perspektivering}{69}{section.9.1}
 \contentsline {chapter}{Litteratur}{70}{section*.96}
