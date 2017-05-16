@@ -52,8 +52,8 @@
 \contentsline {section}{\numberline {8.7}Venneliste}{68}{section.8.7}
 \contentsline {section}{\numberline {8.8}Redigering}{69}{section.8.8}
 \contentsline {section}{\numberline {8.9}Log ud}{70}{section.8.9}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{71}{chapter.9}
-\contentsline {section}{\numberline {9.1}Perspektivering}{71}{section.9.1}
-\contentsline {chapter}{Litteratur}{72}{section*.95}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{75}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{75}{section.A.1}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{72}{chapter.9}
+\contentsline {section}{\numberline {9.1}Perspektivering}{72}{section.9.1}
+\contentsline {chapter}{Litteratur}{73}{section*.95}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{76}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{76}{section.A.1}

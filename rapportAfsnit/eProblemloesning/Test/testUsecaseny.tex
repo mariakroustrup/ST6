@@ -372,7 +372,7 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Venneliste \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren kan følge andre brugere og tilgå deres belønninger. Dette gøres ved at indtaste et medlemsID på en bruger, som findes i databasen og et, som ikke eksisterer, hvorefter denne bruger følges.
  \\ \hline
@@ -414,7 +414,7 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Redigering \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at redigere sin adgangskode. Dette gøres ved at indtaste to forskellige adgangskoder og to ens adgangskoder. Efterfølgende logges der ind med den ændrede adgangskode.
  \\ \hline
@@ -430,16 +430,17 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
  	\begin{itemize}[label={\checkmark}]
  	\item Forventet log ind lykkes og hovedmenu vises. 
 	\end{itemize} \\ \hline
-\textbf{Resultat} & \hspace{1.5mm}
-    \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering2}} 
-      \hspace{5mm}
-        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering}} 
-      \hspace{5mm}
-   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering1}} 
-     \vspace{3mm}
+\textbf{Resultat} &
+    \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering2}} 
+        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering3}} 
+       \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering1}}  \vspace{3mm}
     \newline
-Ovenstående figurer viser resultater for test af redigering. Til venstre  }
-\\ \hline
+Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
+ \begin{itemize}[label={\checkmark}]
+\item å baggrund af dette er kravet for redigering 
+\end{itemize}
+    \\ \hline
    \end{tabular}
    \caption{Test af redigering}
     \label{tab:testRedigering}
@@ -468,7 +469,13 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
  	\item Forventet grænseflade for log ind vises.
  	\end{itemize}	
 \\ \hline
-\textbf{Resultat} &\\ \hline
+\textbf{Resultat} &  \hspace{22mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud}} 
+\hspace{5mm}
+        \raisebox{-\totalheight}
+    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud1}} \vspace{3mm}
+       \newline
+       her skal stå noget
+\\ \hline
    \end{tabular}
    \caption{Test af log ud}
     \label{tab:testLogud}
