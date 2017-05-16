@@ -55,5 +55,5 @@
 \contentsline {chapter}{\chapternumberline {9}Syntese}{68}{chapter.9}
 \contentsline {section}{\numberline {9.1}Perspektivering}{68}{section.9.1}
 \contentsline {chapter}{Litteratur}{69}{section*.96}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{73}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{73}{section.A.1}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{72}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{72}{section.A.1}
