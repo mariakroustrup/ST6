@@ -1,7 +1,7 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand*{\memsetcounter}[2]{}
-\catcode`"\active
+\catcode `"\active 
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
 \global\let\oldcontentsline\contentsline
@@ -17,6 +17,7 @@
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \@writefile{toc}{\changetocdepth  {2}}
 \select@language{danish}
 \@writefile{toc}{\select@language{danish}}
@@ -161,6 +162,7 @@
 \citation{Stefanov2013,Brahma2015}
 \citation{Stefanov2013,Brahma2015}
 \citation{Stefanov2013}
+\citation{Fowler2004,Williams2004}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Metode}{13}{chapter.4}}
@@ -168,7 +170,6 @@
 \newlabel{sec:OOP}{{4.1}{13}{Objektorienteret programmering}{section.4.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Objekter karakteriseres ud fra deres egenskaber som for eksempel navn, mens metoder beskriver deres funktion som for eksempel sove.\relax }}{13}{table.caption.15}}
 \newlabel{tab:objekt}{{4.1}{13}{Objekter karakteriseres ud fra deres egenskaber som for eksempel navn, mens metoder beskriver deres funktion som for eksempel sove.\relax }{table.caption.15}{}}
-\citation{Fowler2004,Williams2004}
 \citation{Williams2004}
 \citation{Fowler2004,Williams2004}
 \citation{Fowler2004}
@@ -192,6 +193,7 @@
 \@writefile{toc}{\contentsline {subsubsection}{Klassediagrammer}{15}{section*.20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces I klassediagrammer identificeres klasser ud fra et klassenavn, og dertilh\IeC {\o }rende attributter og metoder tilf\IeC {\o }jes nedenfor navnet. Revideret \cite  {Fowler2004}.\relax }}{15}{figure.caption.21}}
 \newlabel{fig:klassediagram}{{4.3}{15}{I klassediagrammer identificeres klasser ud fra et klassenavn, og dertilhørende attributter og metoder tilføjes nedenfor navnet. Revideret \cite {Fowler2004}.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Sekvensdiagrammer}{15}{section*.22}}
 \citation{Brahma2015}
 \citation{Brahma2015}
 \citation{Brahma2015}
@@ -200,13 +202,12 @@
 \citation{Brahma2015}
 \citation{Brahma2015}
 \citation{Arlow2002}
-\@writefile{toc}{\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.22}}
+\citation{Arlow2002}
+\citation{Arlow2002}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Simpelt sekvensdiagram. Revideret \cite  {Brahma2015}.\relax }}{16}{figure.caption.23}}
 \newlabel{fig:sekvens}{{4.4}{16}{Simpelt sekvensdiagram. Revideret \cite {Brahma2015}.\relax }{figure.caption.23}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Unified Process}{16}{section.4.2}}
 \newlabel{sec:UP}{{4.2}{16}{Unified Process}{section.4.2}{}}
-\citation{Arlow2002}
-\citation{Arlow2002}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces UP struktur. X-aksen viser tiden over projektet opdelt i opstart, udarbejdelse og konstruktion. Y-aksen viser projektets faser, herunder krav, analyse, design, implementering og test. Kurverne viser arbejdsm\IeC {\ae }ngden. Revideret \cite  {Arlow2002}\relax }}{17}{figure.caption.24}}
 \newlabel{fig:UP}{{4.5}{17}{UP struktur. X-aksen viser tiden over projektet opdelt i opstart, udarbejdelse og konstruktion. Y-aksen viser projektets faser, herunder krav, analyse, design, implementering og test. Kurverne viser arbejdsmængden. Revideret \cite {Arlow2002}\relax }{figure.caption.24}{}}
 \@writefile{lox}{\contentsline {fixme}{Note: Skal \IeC {\ae }ndres lidt til hvis vi oplever fejl}{17}{figure.caption.24}}
@@ -323,8 +324,8 @@
 \@writefile{lot}{\addvspace {10pt}}
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}}
 \@writefile{lox}{\contentsline {fixme}{Note: Her skal muligvis tilf\IeC {\o }jes noget}{59}{chapter.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.3}Implementering af objektorienteret design}{59}{subsection.7.0.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.4}Implementering af database}{59}{subsection.7.0.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.1}Implementering af objektorienteret design}{59}{subsection.7.0.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.2}Implementering af database}{59}{subsection.7.0.2}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {8}Test}{60}{chapter.8}}
@@ -337,32 +338,35 @@
 \@writefile{toc}{\contentsline {section}{\numberline {8.3}Kategorisering}{62}{section.8.3}}
 \@writefile{lot}{\contentsline {table}{\numberline {8.3}{\ignorespaces Test af kategorisering\relax }}{63}{table.caption.87}}
 \newlabel{tab:testKategorisering}{{8.3}{63}{Test af kategorisering\relax }{table.caption.87}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{63}{section.8.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{64}{section.8.4}}
 \@writefile{lot}{\contentsline {table}{\numberline {8.4}{\ignorespaces Test af tilpasning af tr\IeC {\ae }ningsniveau uden evaluering\relax }}{64}{table.caption.88}}
 \newlabel{tab:testTilpasningudenevaluering}{{8.4}{64}{Test af tilpasning af træningsniveau uden evaluering\relax }{table.caption.88}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.5}{\ignorespaces Test af tilpasning af tr\IeC {\ae }ningsniveau med evaluering\relax }}{64}{table.caption.89}}
-\newlabel{tab:testTilpasningmedevaluering}{{8.5}{64}{Test af tilpasning af træningsniveau med evaluering\relax }{table.caption.89}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{64}{section.8.5}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.6}{\ignorespaces Test af tr\IeC {\ae }ning\relax }}{65}{table.caption.90}}
-\newlabel{tab:testTraening}{{8.6}{65}{Test af træning\relax }{table.caption.90}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.6}Resultater}{65}{section.8.6}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.7}{\ignorespaces Test af resultater\relax }}{66}{table.caption.91}}
-\newlabel{tab:testResultater}{{8.7}{66}{Test af resultater\relax }{table.caption.91}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.7}Venneliste}{66}{section.8.7}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.8}{\ignorespaces Test af venneliste\relax }}{67}{table.caption.92}}
-\newlabel{tab:testVenneliste}{{8.8}{67}{Test af venneliste\relax }{table.caption.92}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.8}Redigering}{67}{section.8.8}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.9}{\ignorespaces Test af redigering\relax }}{67}{table.caption.93}}
-\newlabel{tab:testRedigering}{{8.9}{67}{Test af redigering\relax }{table.caption.93}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.9}Log ud}{67}{section.8.9}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.10}{\ignorespaces Test af log ud\relax }}{68}{table.caption.94}}
-\newlabel{tab:testLogud}{{8.10}{68}{Test af log ud\relax }{table.caption.94}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.5}{\ignorespaces Test af tilpasning af tr\IeC {\ae }ningsniveau med evaluering\relax }}{65}{table.caption.89}}
+\newlabel{tab:testTilpasningmedevaluering}{{8.5}{65}{Test af tilpasning af træningsniveau med evaluering\relax }{table.caption.89}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{65}{section.8.5}}
+\gdef \LT@i {\LT@entry 
+    {1}{69.70549pt}\LT@entry 
+    {1}{382.28581pt}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.6}{\ignorespaces Test af tr\IeC {\ae }ning}}{67}{table.8.6}}
+\newlabel{tab:testTraening}{{8.6}{67}{Test af træning}{table.8.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.6}Resultater}{67}{section.8.6}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.7}{\ignorespaces Test af resultater\relax }}{68}{table.caption.90}}
+\newlabel{tab:testResultater}{{8.7}{68}{Test af resultater\relax }{table.caption.90}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.7}Venneliste}{68}{section.8.7}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.8}{\ignorespaces Test af venneliste\relax }}{69}{table.caption.91}}
+\newlabel{tab:testVenneliste}{{8.8}{69}{Test af venneliste\relax }{table.caption.91}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.8}Redigering}{69}{section.8.8}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.9}{\ignorespaces Test af redigering\relax }}{70}{table.caption.92}}
+\newlabel{tab:testRedigering}{{8.9}{70}{Test af redigering\relax }{table.caption.92}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.9}Log ud}{70}{section.8.9}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.10}{\ignorespaces Test af log ud\relax }}{70}{table.caption.93}}
+\newlabel{tab:testLogud}{{8.10}{70}{Test af log ud\relax }{table.caption.93}{}}
 \bibstyle{unsrtnat}
 \bibdata{kilder123}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {9}Syntese}{69}{chapter.9}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}Perspektivering}{69}{section.9.1}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {9}Syntese}{71}{chapter.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}Perspektivering}{71}{section.9.1}}
 \bibcite{Studieordning2014}{{1}{2014}{{Det Sundhedsvidenskabelige Fakultet p{\r a} AAU}}{{}}}
 \bibcite{Basisbogen2016}{{2}{2016}{{Hauschildt and Ravn}}{{}}}
 \bibcite{Lungeforeningen2016}{{3}{2016}{{Lungeforeningen}}{{}}}
@@ -381,7 +385,7 @@
 \bibcite{Anzueto2010}{{16}{2010}{{Anzueto}}{{}}}
 \bibcite{McCarthy2015}{{17}{2015}{{McCarthy B. et al}}{{}}}
 \bibcite{Sundhed2013}{{18}{2013}{{De specialeansvarlige lungemedicinere i Storstr{\o }mmens Sygehus.}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Litteratur}{70}{section*.96}}
+\@writefile{toc}{\contentsline {chapter}{Litteratur}{72}{section*.95}}
 \bibcite{Sundhedsdatastyrelsen2015}{{19}{2015}{{Sundhedsdatastyrelsen}}{{}}}
 \bibcite{Hellem2012}{{20}{2012}{{Hellem et~al.}}{{Hellem, Bruusgaard, and Al.}}}
 \bibcite{Williams2014}{{21}{2014}{{Williams et~al.}}{{Williams, Price, and Et.al}}}
@@ -408,13 +412,13 @@
 \bibcite{ferre2001}{{42}{2001}{{Ferr{\'{e}} et~al.}}{{Ferr{\'{e}}, Juristo, and Et.al}}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Bilag}{73}{appendix.A}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Bilag A}{73}{section.A.1}}
-\newlabel{sec:bilagA}{{A.1}{73}{Bilag A}{section.A.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Designklasser\relax }}{73}{figure.caption.97}}
-\newlabel{fig:Designklasser}{{A.1}{73}{Designklasser\relax }{figure.caption.97}{}}
-\newlabel{LastPage}{{}{73}{}{page.73}{}}
-\xdef\lastpage@lastpage{73}
-\xdef\lastpage@lastpageHy{73}
-\memsetcounter{lastsheet}{78}
-\memsetcounter{lastpage}{73}
+\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Bilag}{75}{appendix.A}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Bilag A}{75}{section.A.1}}
+\newlabel{sec:bilagA}{{A.1}{75}{Bilag A}{section.A.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Designklasser\relax }}{75}{figure.caption.96}}
+\newlabel{fig:Designklasser}{{A.1}{75}{Designklasser\relax }{figure.caption.96}{}}
+\newlabel{LastPage}{{}{75}{}{page.75}{}}
+\xdef\lastpage@lastpage{75}
+\xdef\lastpage@lastpageHy{75}
+\memsetcounter{lastsheet}{80}
+\memsetcounter{lastpage}{75}

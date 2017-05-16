@@ -15,7 +15,7 @@ For at teste om de opstillede krav til database er overholdt udføres testen, so
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Database \\ \hline
      \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data i databasen. Dette gøres ved at oprette en bruger i databasen, efterfølgende udføre en kategorisering af brugeren i app'en, hvorefter der tjekkes om denne kategorisering er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
  	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textbf{INSERT INTO 'users' ('id' , 'unique\_id' , 'navn', 'medlemsid', 'db\_adgangskode' , 'kategorisering') VALUES ('' , '' , 'Jens Jensen', '11170301', 'adgangskode', 'F').}
@@ -31,7 +31,20 @@ For at teste om de opstillede krav til database er overholdt udføres testen, so
 \item Kategorisering vises som A under rediger adgangskode.
 \end{itemize}
  \\  \hline
-  \textbf{Resultat} &\\ \hline
+  \textbf{Resultat:} &
+  \hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase1}} 
+     \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase2}} 
+    \vspace{3mm}
+    \newline
+Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figureren i midten bliver gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Derudover fremgår den opnåede kategorisering A, hvoraf denne er hentet fra databasen. 
+\begin{itemize}[label={\checkmark}]
+ \item På baggrund af dette er kravene for databasen opfyldt.
+ \end{itemize}
+  \\ \hline
     \end{tabular}
     \caption{Test af database}
     \label{tab:testDatabase}
@@ -52,7 +65,7 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Log ind \\ \hline
      \textbf{Formål:} & Formålet er at teste hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
  \\ \hline
@@ -62,14 +75,26 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
  	\end{itemize}
 2.~ Indtast et MedlemsID, som eksisterer i databasen \textbf{11170301} og en adgangskode, som ikke tilhører medlemsID’et \textbf{forkertadgangskode} og tryk på log ind knappen.
  \begin{itemize}[label={\checkmark}]
- \item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ \item Forventet log ind mislykkes. Fejlmeddelelse vises i grænsefladen for log ind.
  \end{itemize}
 3.~ Indtast et medlemsID \textbf{11170301} og en adgangskode \textbf{adgangskode}, som eksisterer i databasen. 
 \begin{itemize}[label={\checkmark}]
 \item Forventet log ind lykkes og hovedmenu vises.
 \end{itemize}
  \\  \hline
- \textbf{Resultat} &\\ \hline
+ \textbf{Resultat:} &  \hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testlogind1}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testlogind}} 
+     \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testlogind2}} 
+    \vspace{3mm}
+    \newline
+Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og i midten testes der for henholdsvis første og andet main flow. Hertil fremgår det, at log ind mislykkes, hvoraf fejlmeddelelsen vises. Til højre fremgår det, at log ind lykkes, og hovedmenuen vises.  
+\begin{itemize}[label={\checkmark}]
+ \item På baggrund af dette er kravet for log ind opfyldt.
+ \end{itemize}
+ \\ \hline
     \end{tabular}
     \caption{Test af Log ind}
     \label{tab:testLogInd}
@@ -89,7 +114,7 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Kategorisering  \\ \hline
      \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
  \\ \hline
@@ -109,7 +134,18 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
 \begin{itemize}[label={\checkmark}]
 \item Forventet kategorisering er D.
 \end{itemize}   \\ \hline
- \textbf{Resultat} & \\ \hline
+ \textbf{Resultat:} & \hspace{0.3mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat1}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat2}} 
+    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat}} 
+ \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat3}} 
+    \vspace{3mm}
+    \newline
+Resultater for test af kategorisering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til fjerde main flow viser de forventede kategoriseringer.
+ \begin{itemize}[label={\checkmark}]
+\item På baggrund af dette er kravet for kategorisering er opfyldt. 
+\end{itemize} 
+\\ \hline
    \end{tabular}
    \caption{Test af kategorisering}
     \label{tab:testKategorisering}
@@ -129,7 +165,7 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau uden evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
  \\ \hline
@@ -146,7 +182,16 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
   \item Forventet anbefaling af træningstid er 50 min
   \end{itemize}
  \\  \hline
- \textbf{Resultat} &\\ \hline
+ \textbf{Resultat:} &\hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning1}} 
+     \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning2}} 
+    \vspace{3mm}
+    \newline
+    Resultater for test af tilpasning af træningsniveau uden evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
+ \\ \hline
    \end{tabular}
    \caption{Test af tilpasning af træningsniveau uden evaluering}
     \label{tab:testTilpasningudenevaluering}
@@ -155,7 +200,7 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau med evaluering \\ \hline
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
  \\ \hline
@@ -175,7 +220,19 @@ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{CYKEL}, \textbf{MEG
   \item Forventet anbefaling af træningstid er 45 min
   \end{itemize}
  \\  \hline
- \textbf{Resultat} &\\ \hline
+ \textbf{Resultat:} &\hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning3}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning4}} 
+     \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning5}} 
+    \vspace{3mm}
+    \newline
+ Resultater for test af tilpasning af træningsniveau med evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
+ \begin{itemize}[label={\checkmark}]
+\item På baggrund af test af tilpasning af træningsniveau uden og med evaluering der kravet for tilpasning af træningsniveau opfyldt. 
+\end{itemize}
+    \\ \hline
    \end{tabular}
    \caption{Test af tilpasning af træningsniveau med evaluering}
     \label{tab:testTilpasningmedevaluering}
@@ -200,13 +257,13 @@ Træning skal muliggøre måling af tid og afstand under træning, derudover ska
 \noindent
 For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres testen, som fremgår af \autoref{tab:testTraening}.
 
-\begin{table} [H]
-	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+%\begin{table} [H]
+%	\centering
+  \begin{longtable}{ | p{2cm} | p{13cm} |} \hline
     \textbf{Test:} & Træning \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk \textbfb{START TRÆNING} og vent til efter 2 minutter. Tryk herefter \textbf{STOP TRÆNING}.
+ 	\textbf{Main flow:} & 1.~ Tryk \textbf{START TRÆNING} og vent til efter 2 minutter. Tryk herefter \textbf{STOP TRÆNING}.
  	\begin{itemize} [label={\checkmark}]
  	\item Forventet tid er over 2 minutter
  	\end{itemize}	
@@ -220,12 +277,48 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
   \begin{itemize}[label={\checkmark}]
   \item Forventet evaluering er gemt i databasen.
   \end{itemize}
+    \textcolor{red}{4.~ Vent til klokken 15 med at udføre en træning}
+  \begin{itemize}[label={\checkmark}]
+  \item \textcolor{red}{Forventet notifikation klokken 15}
+  \vspace{1mm}
+  \end{itemize}
 \\ \hline
-\textbf{Resultat} &\\ \hline
-   \end{tabular}
+\textbf{Resultat main flow 1:} &\hspace{1.5mm}
+    \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening7}} 
+      \hspace{5mm}
+        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening9}} 
+      \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+     \vspace{3mm}
+    \newline
+Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der er trykkes på startknappen for træning starter timer, som kan ses af det midterste figur. Til højre fremgår det at træningen er stoppet. \textcolor{red}{DISSE BILLEDER SKAL TAGES OM - det sidste skal vise popup for stop træning!!}  \\ \hline
+\textbf{Resultat main flow 2:} &  \hspace{1.5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening2}} 
+      \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+      \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening5}} 
+   \vspace{3mm}
+    \newline
+    Resultater for det andet main flow ses af ovenstående figurer. På venstre ses grænsefladen for træningen, hvor det simuleret at brugeren har bevæget sig 0 km. I midten er det simuleret at brugeren har bevæget 1.57 km. Til højre er det simuleret at brugeren har bevæget sig 3.14 km. \\ \hline
+\textbf{Resultat main flow 3 og 4:} &  \hspace{1.5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}}
+      \hspace{5mm}
+%        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+      \hspace{5mm}
+%        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+   \vspace{3mm}
+    \newline
+     Resultater for tredje og fjerde main flow fremgår af ovenstående figurer. På venstre ses at træningen er gemt, hvorved evalueringen for træningen ligeledes er gemt.  
+     \\ \hline
+\textbf{Resultat:} &
+    \begin{itemize}[label={\checkmark}]
+\item På baggrund af resultater for main flow er kravene for træning opfyldt. 
+\end{itemize} \\ \hline
+  % \end{tabular}
    \caption{Test af træning}
     \label{tab:testTraening}
-\end{table}
+\end{longtable}
 
 
 \section{Resultater}
@@ -332,12 +425,21 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
  	2.~ Tryk \text{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textbf{nyadgangskode} i ny adgangskode og gentag adgangskode. Tryk \textbf{GEM ÆNDRINGER}. 
  	\begin{itemize}[label={\checkmark}]
  	\item Forventet ændring lykkes. Meddelelse viser, at adgangskoden er gemt. 
+ 	\end{itemize}
  	3.~ Log ud og log ind med medlemsID \textbf{11170301} og den nye adgangskode \textbf{nyadgangskode}.
  	\begin{itemize}[label={\checkmark}]
  	\item Forventet log ind lykkes og hovedmenu vises. 
-	\end{itemize}
+	\end{itemize} \\ \hline
+\textbf{Resultat} & \hspace{1.5mm}
+    \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering2}} 
+      \hspace{5mm}
+        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering}} 
+      \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/redigering1}} 
+     \vspace{3mm}
+    \newline
+Ovenstående figurer viser resultater for test af redigering. Til venstre  }
 \\ \hline
-\textbf{Resultat} &\\ \hline
    \end{tabular}
    \caption{Test af redigering}
     \label{tab:testRedigering}
@@ -357,7 +459,7 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
 
 \begin{table} [H]
 	\centering
-  \begin{tabular}{ | l | p{14cm} |} \hline
+  \begin{tabular}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Log ud \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at logge ud af app’en.
  \\ \hline

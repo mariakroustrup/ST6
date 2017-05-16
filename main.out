@@ -32,8 +32,8 @@
 \BOOKMARK [2][-]{subsection.6.3.1}{ER-diagram}{section.6.3}% 32
 \BOOKMARK [2][-]{subsection.6.3.2}{Schema}{section.6.3}% 33
 \BOOKMARK [0][-]{chapter.7}{Implementering}{}% 34
-\BOOKMARK [1][-]{subsection.7.0.3}{Implementering af objektorienteret design}{chapter.7}% 35
-\BOOKMARK [2][-]{subsection.7.0.4}{Implementering af database}{subsection.7.0.3}% 36
+\BOOKMARK [1][-]{subsection.7.0.1}{Implementering af objektorienteret design}{chapter.7}% 35
+\BOOKMARK [2][-]{subsection.7.0.2}{Implementering af database}{subsection.7.0.1}% 36
 \BOOKMARK [0][-]{chapter.8}{Test}{}% 37
 \BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 38
 \BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 39
@@ -46,6 +46,6 @@
 \BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 46
 \BOOKMARK [0][-]{chapter.9}{Syntese}{}% 47
 \BOOKMARK [1][-]{section.9.1}{Perspektivering}{chapter.9}% 48
-\BOOKMARK [0][-]{section*.96}{Litteratur}{}% 49
+\BOOKMARK [0][-]{section*.95}{Litteratur}{}% 49
 \BOOKMARK [0][-]{appendix.A}{Bilag}{}% 50
 \BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 51
