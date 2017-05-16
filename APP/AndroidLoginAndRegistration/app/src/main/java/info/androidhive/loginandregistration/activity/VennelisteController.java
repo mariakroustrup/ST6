@@ -1,10 +1,5 @@
 package info.androidhive.loginandregistration.activity;
 
-/**
- * Created by Maria on 09/05/2017.
- */
-
-
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -54,8 +49,8 @@ public class VennelisteController extends AppCompatActivity {
     ArrayList<HashMap<String, String>> VenneListe = new ArrayList<HashMap<String, String>>();
 
     // URL's
-    public static String URL_SOEGVEN = "http://192.168.1.149/android_login_api/soegven.php";
-    public static String URL_ALLE_VENNER = "http://192.168.1.149/android_login_api/allevenner4.php";
+    public static String URL_SOEGVEN = "http://172.31.159.63/android_login_api/soegven.php";
+    public static String URL_ALLE_VENNER = "http://172.31.159.63/android_login_api/allevenner4.php";
 
 
     @Override
@@ -125,9 +120,6 @@ public class VennelisteController extends AppCompatActivity {
     }
 
 
-
-
-
     private void checkVen(final String ven_medlemsid){
         // Tag used to cancel the request
         String tag_string_req = "req_soegven";
@@ -164,8 +156,8 @@ public class VennelisteController extends AppCompatActivity {
 
                     } else {
                         // Error in login. Get the error message
-                        String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+                       String errorMsg = jObj.getString("error_msg");
+                       Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {
                     // JSON error

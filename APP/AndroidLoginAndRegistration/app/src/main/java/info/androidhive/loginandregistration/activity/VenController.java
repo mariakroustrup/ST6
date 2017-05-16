@@ -31,14 +31,16 @@ import static android.view.View.INVISIBLE;
 public class VenController extends AppCompatActivity {
 
     private Button btnFoelgVen;
+    private Button btnFjernVen;
     private TextView ven_medlemsid;
     private TextView ven_navn;
     private ProgressDialog pDialog;
     private SQLiteHandler db;
     private static final String TAG = VenController.class.getSimpleName();
-    public static String URL_CHECKVENNERELATION = "http://192.168.1.149/android_login_api/checkvennerelation.php";
-    public static String URL_VENNERELATION= "http://192.168.1.149/android_login_api/opretvennerelation.php";
-    public static String URL_VENBELOENNINGER= "http://192.168.1.149/android_login_api/venbeloenninger.php";
+    public static String URL_CHECKVENNERELATION = "http://172.31.159.63/android_login_api/checkvennerelation.php";
+    public static String URL_VENNERELATION= "http://172.31.159.63/android_login_api/opretvennerelation.php";
+    public static String URL_VENBELOENNINGER= "http://172.31.159.63/android_login_api/venbeloenninger.php";
+    public static String URL_FJERNVENNERELATION= "http://172.31.159.63/android_login_api/fjernven.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,7 @@ public class VenController extends AppCompatActivity {
         final String medlemsid = user.get("medlemsid");
 
         btnFoelgVen = (Button) findViewById(R.id.btnFoelgVen);
+        btnFjernVen = (Button) findViewById(R.id.btnFjernVen);
         ven_medlemsid = (TextView)findViewById(R.id.venMedlemsid);
         ven_navn = (TextView)findViewById(R.id.venNavn);
 
@@ -74,8 +77,18 @@ public class VenController extends AppCompatActivity {
         btnFoelgVen.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                //opretvennerelation(medlemsid, input_ven_medlemsid);
+                opretvennerelation(medlemsid, input_ven_medlemsid);
                 btnFoelgVen.setVisibility(INVISIBLE);
+                btnFjernVen.setVisibility(View.VISIBLE);
+            }
+        });
+
+        btnFjernVen.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Fjernvennerelation(medlemsid, input_ven_medlemsid);
+                btnFjernVen.setVisibility(INVISIBLE);
+                btnFoelgVen.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -100,14 +113,14 @@ public class VenController extends AppCompatActivity {
 
                     // Check for error node in json
                     if (!error) {
-                        //Toast.makeText(getApplicationContext(),"I er pisse meget allerede venner!",Toast.LENGTH_LONG).show();
                         btnFoelgVen.setVisibility(INVISIBLE);
                         hentvenbeloenninger(ven_medlemsid);
 
                     } else {
                         // Error in login. Get the error message
-                        String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+                       // String errorMsg = jObj.getString("error_msg");
+                        //Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+                        btnFjernVen.setVisibility(INVISIBLE);
 
                     }
                 } catch (JSONException e) {
@@ -326,6 +339,64 @@ public class VenController extends AppCompatActivity {
                     }
                 } catch (JSONException e) {
                     Toast.makeText(getApplicationContext(), "Ven tilføjet til venneliste", Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener(){
+
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e(TAG, "Registration Error: " + error.getMessage());
+                Toast.makeText(getApplicationContext(),
+                        error.getMessage(), Toast.LENGTH_LONG).show();
+                hideDialog();
+            }
+        }) {
+
+            @Override
+            protected Map<String, String> getParams() {
+                // Posting params to register url
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("medlemsid", medlemsid);
+                params.put("ven_medlemsid", ven_medlemsid);
+                return params;
+            }
+        };
+
+        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+    }
+
+    private void Fjernvennerelation(final String medlemsid, final String ven_medlemsid){
+        String tag_string_req = "req_fjernvennerelation";
+
+        // Viser at kategoriseringen er ved at blive gemt
+        pDialog.setMessage("Fjerner vennerelation");
+        showDialog();
+
+        StringRequest strReq = new StringRequest(Request.Method.POST,
+                URL_FJERNVENNERELATION, new Response.Listener<String>() {
+
+            @Override
+            public void onResponse(String response) {
+                Log.d(TAG, "Vennerelation Response: " + response.toString());
+                hideDialog();
+
+                try {
+                    JSONObject jObj = new JSONObject(response);
+                    boolean error = jObj.getBoolean("error");
+
+                    if (!error) {
+                        //Toast.makeText(getApplicationContext(), "Ven er fjernet fra din venneliste", Toast.LENGTH_LONG).show();
+                        //updateList();
+                    } else {
+                        String errorMsg = jObj.getString("error_msg");
+                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
+
+                    }
+                } catch (JSONException e) {
+                   Toast.makeText(getApplicationContext(), "Ven er fjernet fra din venneliste", Toast.LENGTH_LONG).show();
                     e.printStackTrace();
                 }
 

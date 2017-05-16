@@ -42,7 +42,7 @@ public class TilpasningController extends AppCompatActivity {
     TextView TVAnbefaling;
     long mm;
 
-    public static String URL_HENTEVALUERING = "http://192.168.1.149/android_login_api/hentevaluering.php";
+    public static String URL_HENTEVALUERING = "http://172.31.159.63/android_login_api/hentevaluering.php";
 
     private SQLiteHandler db;
     HashMap<String, String> user;

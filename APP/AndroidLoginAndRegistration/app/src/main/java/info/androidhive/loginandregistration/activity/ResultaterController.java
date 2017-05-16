@@ -30,15 +30,13 @@ public class ResultaterController extends AppCompatActivity {
     private ProgressDialog pDialog;
 
     // products JSONArray
-    //JSONArray resultater_kondi = null;
     JSONArray beloenninger_array = null;
 
     // Arrayliste til at lagre resultater i
     ArrayList<HashMap<String, String>> ResultatListe = new ArrayList<HashMap<String, String>>();
 
     // URL's
-    public static String URL_RESULTATER = "http://192.168.1.149/android_login_api/resultater.php";
-    public static String URL_BELOENNINGER = "http://192.168.1.149/android_login_api/beloenninger.php";
+    public static String URL_BELOENNINGER = "http://172.31.159.63/android_login_api/beloenninger.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,11 +55,9 @@ public class ResultaterController extends AppCompatActivity {
         // Progress Dialog
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
-
-
-        //hentresultater(medlemsid);
+        
         hentbeloenninger(medlemsid);
-      //  stjerner();
+
     }
     private void hentbeloenninger(final String medlemsid) {
         // Tag used to cancel the request
@@ -124,78 +120,6 @@ public class ResultaterController extends AppCompatActivity {
         AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
     }
 
-
-    // ***** Metode til at hente alle resultater fra konditræning ******* //
-    /*private void hentresultater (final String medlemsid){
-        // Tag used to cancel the request
-        String tag_string_req = "req_hentresultater";
-
-        pDialog.setMessage("Henter resultater...");
-        showDialog();
-
-        final StringRequest strReq = new StringRequest(Request.Method.POST, URL_RESULTATER, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                hideDialog();
-
-                try {
-                    JSONObject json = new JSONObject(response);
-                    boolean error = json.getBoolean("error");
-
-                    resultater_kondi = json.getJSONArray("kondi");
-
-                    if(!error){
-                        for(int i = 0; i < resultater_kondi.length(); i++){
-                            JSONObject c = resultater_kondi.getJSONObject(i);
-
-                            // Vi lagre det i en variable
-                            String afstand = c.getString("afstand_km");
-                            String tid = c.getString("kondi_tid");
-
-                            //Hashmap
-                            HashMap<String, String> map = new HashMap<String, String>();
-
-                            // Værdier i Hashmap
-                            map.put("afstand", afstand);
-                            map.put("tid",tid);
-
-                            // Tilfjer HashList to ArrayList VenneListe
-                            ResultatListe.add(map);
-                        }
-                    } else {
-                        // Error in login. Get the error message
-                        String errorMsg = json.getString("error_msg");
-                        Toast.makeText(getApplicationContext(), errorMsg, Toast.LENGTH_LONG).show();
-                    }
-                } catch (JSONException e) {
-                    // JSON error
-                    e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "Json error: " + e.getMessage(), Toast.LENGTH_LONG).show();
-                }
-            }
-        }, new Response.ErrorListener() {
-
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                //Log.e(TAG, "Login Error: " + error.getMessage());
-                Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_LONG).show();
-                hideDialog();
-            }
-        }) {
-
-            @Override
-            protected Map<String, String> getParams() {
-                // Posting parameters to login url
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("medlemsid", medlemsid);
-                return params;
-            }
-        };
-
-        // Adding request to request queue
-        AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
-    }
-*/
     private void showDialog() {
         if (!pDialog.isShowing())
             pDialog.show();
