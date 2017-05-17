@@ -172,6 +172,16 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny1}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny2}} 
+\vspace{3mm}
+    \newline
+Ovenstående figurer viser grænsefladerne for valg af træningsform, træningstype og daglig helbredstilstand. Disse grænseflader vises før grænsefladen for anbefalingen af træningstid. 
+   \\ \hline
+  \textbf{} &\hspace{1.5mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning}} 
   \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning1}} 
@@ -246,7 +256,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
 %	\centering
   \begin{longtable}{ | p{2cm} | p{13cm} |} \hline
     \textbf{Test:} & Træning \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende.
+  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende. Derudover skal en notifikation forekomme, \textcolor{red}{hvis brugeren ikke har trænet inden klokken 15.}
  \\ \hline
  	\textbf{Main flow:} & 1.~ Tryk \textbf{START TRÆNING} og vent til efter 2 minutter. Tryk herefter \textbf{STOP TRÆNING}.
  	\begin{itemize} [label={\checkmark}]
@@ -262,39 +272,49 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
   \begin{itemize}[label={\checkmark}]
   \item Forventet evaluering er gemt i databasen.
   \end{itemize}
-    \textcolor{red}{4.~ Vent til klokken 15 med at udføre en træning}
+   4.~ Vent til klokken 15 med at udføre en træning
   \begin{itemize}[label={\checkmark}]
-  \item \textcolor{red}{Forventet notifikation klokken 15}
+  \item Forventet notifikation klokken 15
   \vspace{1mm}
   \end{itemize}
 \\ \hline
 \textbf{Resultat main flow 1:} &\hspace{1.5mm}
-    \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening7}} 
+    \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening2}} 
       \hspace{5mm}
-        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening9}} 
+        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening3}} 
       \hspace{5mm}
-   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening4}} 
      \vspace{3mm}
     \newline
-Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der er trykkes på startknappen for træning starter timer, som kan ses af det midterste figur. Til højre fremgår det at træningen er stoppet. \textcolor{red}{DISSE BILLEDER SKAL TAGES OM - det sidste skal vise popup for stop træning!!}  \\ \hline
+Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der er trykkes på startknappen for træning starter timer, som kan ses af den midterste figur. Til højre fremgår et popup-vindue, der indikerer at træningen er stoppet.  \\ \hline
 \textbf{Resultat main flow 2:} &  \hspace{1.5mm}
-    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening2}} 
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening22}} 
       \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
       \hspace{5mm}
-   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening5}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening55}} 
    \vspace{3mm}
     \newline
-    Resultater for det andet main flow ses af ovenstående figurer. På venstre ses grænsefladen for træningen, hvor det simuleret at brugeren har bevæget sig 0 km. I midten er det simuleret at brugeren har bevæget 1.57 km. Til højre er det simuleret at brugeren har bevæget sig 3.14 km. \\ \hline
-\textbf{Resultat main flow 3 og 4:} &  \hspace{1.5mm}
-    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}}
+    Resultater for det andet main flow ses af ovenstående figurer. På venstre ses grænsefladen for træningen, hvor det simuleret at brugeren har bevæget sig 0 km. I midten er det simuleret at brugeren har bevæget sig 1.57 km. Til højre er det simuleret at brugeren har bevæget sig 3.14 km. \\ \hline
+\textbf{Resultat main flow 3:} &  \hspace{1.5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening5}}
       \hspace{5mm}
-%        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+             \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening6}} 
       \hspace{5mm}
-%        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening}} 
+       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}} 
    \vspace{3mm}
     \newline
-     Resultater for tredje og fjerde main flow fremgår af ovenstående figurer. På venstre ses at træningen er gemt, hvorved evalueringen for træningen ligeledes er gemt.  
+     Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen af der fremkommer efter udført træning. På figuren til højre fremgår det at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
+     \\ \hline
+ \textbf{Resultat main flow 4:} &  \hspace{1.5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification1}}
+      \hspace{5mm}
+             \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification2}} 
+      \hspace{5mm}
+       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification3}} 
+   \vspace{3mm}
+    \newline
+     Resultater for fjerde main flow fremgår af ovenstående figurer. I midten ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Notifikationen vises yderligere af figuren til højre. 
      \\ \hline
 \textbf{Resultat:} &
     \begin{itemize}[label={\checkmark}]
@@ -318,25 +338,37 @@ Resultater skal motivere brugeren til at udføre træningen. Følgende krav opst
 For at teste om de opstillede krav til resultater er overholdt, udføres testen, der fremgår af \autoref{tab:testResultater}.
 
 
-  \begin{longtable}{ | l | p{14cm} |} \hline
+  \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Resultater \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger og sende en notifikation når brugeren har været inaktiv i 1 time. Dette gøres ved at træne imens der måles tid, afstand. 
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING}, vent 5 minutter og tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-D}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}. 
+ 	\textbf{Main flow:} & 1.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING}, vent 60 minutter og tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-D}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}. 
  	\begin{itemize} [label={\checkmark}]
  	\item Forventet stjerner under tid er en.
  	\end{itemize}	
- 	2.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING} og åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre herefter til 0.2. Tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-)}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}.
+ 	2.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING} og åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre herefter til 1.35. Tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-)}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}.
  	\begin{itemize}[label={\checkmark}]
  	\item Forventet stjerner under afstand er fire.
 	\end{itemize}
   3.~ Tryk på \textbf{RESULTATER} via hovedmenuen og vælg \textbf{BELØNNINGER} 
   \begin{itemize}[label={\checkmark}]
-  \item Forventet stjerner under antal træninger er to.
-  \item Forventet stjerner under konditionstræning.
+  \item Forventet stjerner under antal træninger er én.
+  \item Forventet stjerner under konditionstræning er to.
   \end{itemize}
 \\ \hline
-\textbf{Resultat} &\\ \hline
+\textbf{Resultat} & \hspace{1.5mm}
+        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon2}} 
+        \hspace{5mm}
+       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon3}} 
+       \hspace{5mm}
+      \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon5}}
+        \vspace{3mm}
+    \newline
+På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. I midten gemmes resultaterne fra træningen, der af figuren til højre er gemt og belønninger er visualiseret som stjerner. De opnåede stjerner afspejler at brugeren har udført det antal træninger svarende til den opnåede stjerne. 
+  \begin{itemize}[label={\checkmark}]
+\item På baggrund af dette er kravet for resultater opfyldt.
+\end{itemize}
+    \\ \hline
    \caption{Test af resultater}
     \label{tab:testResultater}
 \end{longtable}
@@ -365,16 +397,25 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
  	\begin{itemize}[label={\checkmark}]
  	\item Forventet søgning lykkes. Grænsefladen for søgte vens belønninger vises.
 	\end{itemize}
-  3.~ Tryk \textbf{VENNELISTE} via hovedmenuen og indtast medlemsID \textbf{1234567891} og tryk søg. Herefter trykkes følg.
+  3.~ Tryk \textbf{VENNELISTE} via hovedmenuen og indtast medlemsID \textbf{4444} og tryk søg. Herefter trykkes følg.
   \begin{itemize}[label={\checkmark}]
-  \item  Forventet følg knap forsvinder i grænsefalden for vennelisten.
+  \item  Forventet følg knap forsvinder i grænsefalden for vennelisten og fjern knap synliggøres.
   \end{itemize}
   4. ~ Tryk \textbf{VENNELISTE} via hovedmenuen
   \begin{itemize}
-  \item Forventet bruger med medlemsID \textbf{1234567891} vises i grænsefladen for vennelisten. 
+  \item Forventet bruger med medlemsID \textbf{4444} vises i grænsefladen for vennelisten. 
   \end{itemize}
 \\ \hline
-\textbf{Resultat} &\\ \hline
+\textbf{Resultat} &\raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/venneliste1}} 
+        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/venneliste2}} 
+       \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/venneliste3}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/venneliste4}}  \vspace{3mm}
+    \newline
+   Ovenstående figurere viser resultater for test af venneliste. Til venstre ses figur for første main flow, hvor det indtastede medlemsID ikke eksistere i databasen. Figuren ved siden af viser andet main flow, hvor medlemsID'et eksistere i databasen og belønninger for denne bruger fremgår. Brugeren har mulighed for at tilføje ven til vennelisten, hvilket fremgår af de to figurere til højre, som opfylder tredje og fjerde main flow.
+  \begin{itemize}[label={\checkmark}]
+\item På baggrund af dette er kravet for venneliste opfyldt.
+\end{itemize}
+    \\ \hline
    \caption{Test af venneliste}
     \label{tab:testVenneliste}
 \end{longtable}
@@ -416,7 +457,7 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
     \newline
 Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
  \begin{itemize}[label={\checkmark}]
-\item å baggrund af dette er kravet for redigering 
+\item På baggrund af dette er kravet for redigering 
 \end{itemize}
     \\ \hline
    \caption{Test af redigering}
@@ -444,13 +485,19 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
  	\item Forventet grænseflade for log ind vises.
  	\end{itemize}	
 \\ \hline
-\textbf{Resultat} &  \hspace{22mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud}} 
+\textbf{Resultat} &  \hspace{1.5mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud2}} 
 \hspace{5mm}
+        \raisebox{-\totalheight}
+    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud3}} 
+    \hspace{5mm}
         \raisebox{-\totalheight}
     {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud1}} \vspace{3mm}
        \newline
-       her skal stå noget
-\\ \hline
+Figurerne ovenfor viser resultater for test af log ud. Til venstre ses hovedmenuen, hvor brugeren har mulighed for at logge ud. I midten skal brugeren bekræfte log ud, hvis dette gøres vises grænsefladen for log ind, som ses af figuren til højre.
+ \begin{itemize}[label={\checkmark}]
+\item Ud fra denne test er kravet for log ud opfyldt.
+\end{itemize}
+    \\ \hline
    \caption{Test af log ud}
     \label{tab:testLogud}
 \end{longtable}

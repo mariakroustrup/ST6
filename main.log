@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  16 MAY 2017 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  17 MAY 2017 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3471,28 +3471,51 @@ mr/bx/n/10.95 KON-DI-TIONS-TRÆ-NING\T1/cmr/m/n/10.95 , \T1/cmr/bx/n/10.95 LØB\T
 1/cmr/m/n/10.95 ,\T1/cmr/bx/n/10.95 MEGET
  []
 
-<figures/test/tilpasning.png, id=1242, 1084.05pt x 1927.2pt>
+<figures/test/tilpasningny.png, id=1242, 1084.05pt x 1927.2pt>
+File: figures/test/tilpasningny.png Graphic file (type png)
+
+<use figures/test/tilpasningny.png>
+Package pdftex.def Info: figures/test/tilpasningny.png used on input line 175.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/tilpasningny1.png, id=1243, 1084.05pt x 1927.2pt>
+File: figures/test/tilpasningny1.png Graphic file (type png)
+
+<use figures/test/tilpasningny1.png>
+Package pdftex.def Info: figures/test/tilpasningny1.png used on input line 177.
+
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/tilpasningny2.png, id=1244, 1084.05pt x 1927.2pt>
+File: figures/test/tilpasningny2.png Graphic file (type png)
+
+<use figures/test/tilpasningny2.png>
+Package pdftex.def Info: figures/test/tilpasningny2.png used on input line 179.
+
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/tilpasning.png, id=1245, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning.png Graphic file (type png)
 
 <use figures/test/tilpasning.png>
-Package pdftex.def Info: figures/test/tilpasning.png used on input line 175.
+Package pdftex.def Info: figures/test/tilpasning.png used on input line 185.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning1.png, id=1243, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning1.png, id=1246, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning1.png Graphic file (type png)
 
 <use figures/test/tilpasning1.png>
-Package pdftex.def Info: figures/test/tilpasning1.png used on input line 177.
+Package pdftex.def Info: figures/test/tilpasning1.png used on input line 187.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning2.png, id=1244, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning2.png, id=1247, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning2.png Graphic file (type png)
 
 <use figures/test/tilpasning2.png>
-Package pdftex.def Info: figures/test/tilpasning2.png used on input line 179.
+Package pdftex.def Info: figures/test/tilpasning2.png used on input line 189.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-Overfull \hbox (11.9923pt too wide) in alignment at lines 157--186
+Overfull \hbox (11.9923pt too wide) in alignment at lines 157--196
  [] [] 
  []
 
@@ -3501,35 +3524,49 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  [] [] 
  []
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 196.
+[64 <./figures/test/tilpasningny.png> <./figures/test/tilpasningny1.png> <./fig
+ures/test/tilpasningny2.png>]
+Overfull \hbox (11.9923pt too wide) has occurred while \output is active
+ [] [] 
+ []
 
-Underfull \hbox (badness 1189) in paragraph at lines 193--195
+
+Underfull \hbox (badness 1189) in paragraph at lines 203--205
 []|\T1/cmr/m/n/10.95 1  Tidligere evaluering af samme træning er: \T1/cmr/bx/n/
 10.95 :-)\T1/cmr/m/n/10.95 . Vælg \T1/cmr/bx/n/10.95 TRÆNING\T1/cmr/m/n/10.95 ,
 
  []
 
-<figures/test/tilpasning3.png, id=1245, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning3.png, id=1258, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning3.png Graphic file (type png)
 
 <use figures/test/tilpasning3.png>
-Package pdftex.def Info: figures/test/tilpasning3.png used on input line 210.
+Package pdftex.def Info: figures/test/tilpasning3.png used on input line 220.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning4.png, id=1246, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning4.png, id=1259, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning4.png Graphic file (type png)
 
 <use figures/test/tilpasning4.png>
-Package pdftex.def Info: figures/test/tilpasning4.png used on input line 212.
+Package pdftex.def Info: figures/test/tilpasning4.png used on input line 222.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning5.png, id=1247, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning5.png, id=1260, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning5.png Graphic file (type png)
 
 <use figures/test/tilpasning5.png>
-Package pdftex.def Info: figures/test/tilpasning5.png used on input line 214.
+Package pdftex.def Info: figures/test/tilpasning5.png used on input line 224.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-Overfull \hbox (11.9923pt too wide) in alignment at lines 189--224
+Overfull \hbox (11.9923pt too wide) in alignment at lines 199--234
  [] [] 
  []
 
@@ -3539,59 +3576,25 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 234.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 224.
-[64 <./figures/test/tilpasning.png> <./figures/test/tilpasning1.png> <./figures
+(babel)             in language  on input line 234.
+[65 <./figures/test/tilpasning.png> <./figures/test/tilpasning1.png> <./figures
 /test/tilpasning2.png>]
 Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  [] [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 237.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 227.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 240.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 240.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 240.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 240.
-[65 <./figures/test/tilpasning3.png> <./figures/test/tilpasning4.png> <./figure
-s/test/tilpasning5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
-[]|\T1/cmr/bx/n/10.95 Resultat
- []
+(babel)             in language  on input line 237.
 
-<figures/test/traening7.png, id=1267, 1084.05pt x 1927.2pt>
-File: figures/test/traening7.png Graphic file (type png)
-
-<use figures/test/traening7.png>
-Package pdftex.def Info: figures/test/traening7.png used on input line 272.
-(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
-
-<figures/test/traening9.png, id=1268, 1084.05pt x 1927.2pt>
-File: figures/test/traening9.png Graphic file (type png)
-
-<use figures/test/traening9.png>
-Package pdftex.def Info: figures/test/traening9.png used on input line 274.
-(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
-
-<figures/test/traening.png, id=1269, 1084.05pt x 1927.2pt>
-File: figures/test/traening.png Graphic file (type png)
-
-<use figures/test/traening.png>
-Package pdftex.def Info: figures/test/traening.png used on input line 276.
-(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
@@ -3599,32 +3602,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--280
 File: figures/test/traening2.png Graphic file (type png)
 
 <use figures/test/traening2.png>
-Package pdftex.def Info: figures/test/traening2.png used on input line 281.
-(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
-File: figures/test/traening.png Graphic file (type png)
- <use figures/test/traening.png>
-Package pdftex.def Info: figures/test/traening.png used on input line 283.
+Package pdftex.def Info: figures/test/traening2.png used on input line 282.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening5.png, id=1271, 1084.05pt x 1927.2pt>
-File: figures/test/traening5.png Graphic file (type png)
+<figures/test/traening3.png, id=1271, 1084.05pt x 1927.2pt>
+File: figures/test/traening3.png Graphic file (type png)
 
-<use figures/test/traening5.png>
-Package pdftex.def Info: figures/test/traening5.png used on input line 285.
+<use figures/test/traening3.png>
+Package pdftex.def Info: figures/test/traening3.png used on input line 284.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+<figures/test/traening4.png, id=1272, 1084.05pt x 1927.2pt>
+File: figures/test/traening4.png Graphic file (type png)
+
+<use figures/test/traening4.png>
+Package pdftex.def Info: figures/test/traening4.png used on input line 286.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
-<figures/test/traening1.png, id=1272, 1084.05pt x 1927.2pt>
+<figures/test/traening22.png, id=1273, 1084.05pt x 1927.2pt>
+File: figures/test/traening22.png Graphic file (type png)
+
+<use figures/test/traening22.png>
+Package pdftex.def Info: figures/test/traening22.png used on input line 291.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/traening.png, id=1274, 1084.05pt x 1927.2pt>
+File: figures/test/traening.png Graphic file (type png)
+
+<use figures/test/traening.png>
+Package pdftex.def Info: figures/test/traening.png used on input line 293.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/traening55.png, id=1275, 1084.05pt x 1927.2pt>
+File: figures/test/traening55.png Graphic file (type png)
+
+<use figures/test/traening55.png>
+Package pdftex.def Info: figures/test/traening55.png used on input line 295.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\T1/cmr/bx/n/10.95 Resultat
+ []
+
+<figures/test/traening5.png, id=1276, 1084.05pt x 1927.2pt>
+File: figures/test/traening5.png Graphic file (type png)
+
+<use figures/test/traening5.png>
+Package pdftex.def Info: figures/test/traening5.png used on input line 300.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/traening6.png, id=1277, 1084.05pt x 1927.2pt>
+File: figures/test/traening6.png Graphic file (type png)
+
+<use figures/test/traening6.png>
+Package pdftex.def Info: figures/test/traening6.png used on input line 302.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/traening1.png, id=1278, 1084.05pt x 1927.2pt>
 File: figures/test/traening1.png Graphic file (type png)
 
 <use figures/test/traening1.png>
-Package pdftex.def Info: figures/test/traening1.png used on input line 290.
+Package pdftex.def Info: figures/test/traening1.png used on input line 304.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-Overfull \hbox (10.9913pt too wide) in alignment at lines 247--306
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\T1/cmr/bx/n/10.95 Resultat
+ []
+
+<figures/test/notification1.png, id=1279, 1084.05pt x 1927.2pt>
+File: figures/test/notification1.png Graphic file (type png)
+
+<use figures/test/notification1.png>
+Package pdftex.def Info: figures/test/notification1.png used on input line 310.
+
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/notification2.png, id=1280, 1084.05pt x 1927.2pt>
+File: figures/test/notification2.png Graphic file (type png)
+
+<use figures/test/notification2.png>
+Package pdftex.def Info: figures/test/notification2.png used on input line 312.
+
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/notification3.png, id=1281, 1084.05pt x 1927.2pt>
+File: figures/test/notification3.png Graphic file (type png)
+
+<use figures/test/notification3.png>
+Package pdftex.def Info: figures/test/notification3.png used on input line 314.
+
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+Overfull \hbox (10.9913pt too wide) in alignment at lines 257--326
  [] [] 
  []
 
@@ -3634,54 +3707,86 @@ Overfull \hbox (10.9913pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 306.
-[66 <./figures/test/traening7.png> <./figures/test/traening9.png> <./figures/te
-st/traening.png>]
+(babel)             in language  on input line 326.
+[66 <./figures/test/tilpasning3.png> <./figures/test/tilpasning4.png> <./figure
+s/test/tilpasning5.png>]
 Overfull \hbox (10.9913pt too wide) has occurred while \output is active
  [] [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 309.
-
-Overfull \hbox (40.44505pt too wide) in alignment at lines 321--342
+(babel)             in language  on input line 326.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 326.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 326.
+[67 <./figures/test/traening2.png> <./figures/test/traening3.png> <./figures/te
+st/traening4.png>]
+Overfull \hbox (10.9913pt too wide) has occurred while \output is active
  [] [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 342.
-[67 <./figures/test/traening2.png> <./figures/test/traening5.png> <./figures/te
-st/traening1.png>]
-Overfull \hbox (40.44505pt too wide) has occurred while \output is active
+(babel)             in language  on input line 326.
+[68 <./figures/test/traening22.png> <./figures/test/traening.png> <./figures/te
+st/traening55.png> <./figures/test/traening5.png> <./figures/test/traening6.png
+> <./figures/test/traening1.png>]
+Overfull \hbox (10.9913pt too wide) has occurred while \output is active
  [] [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 329.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 329.
 
-Underfull \hbox (badness 4647) in paragraph at lines 368--369
-\T1/cmr/m/n/10.95 3.  Tryk \T1/cmr/bx/n/10.95 VEN-NE-LI-STE \T1/cmr/m/n/10.95 v
-ia ho-ved-me-nu-en og ind-tast med-lem-sID
+Underfull \hbox (badness 1953) in paragraph at lines 349--350
+\T1/cmr/m/n/10.95 2.  Tryk på \T1/cmr/bx/n/10.95 TRÆNING \T1/cmr/m/n/10.95 via 
+hovedmenu. \T1/cmr/bx/n/10.95 START TRÆNING \T1/cmr/m/n/10.95 og
  []
 
 
-Overfull \hbox (11.9923pt too wide) in alignment at lines 356--380
+Underfull \hbox (badness 1087) in paragraph at lines 349--350
+\T1/cmr/m/n/10.95 åben Extended controls. Sæt herefter longitude samt latitude 
+til 0 og
+ []
+
+<figures/test/belon2.png, id=1312, 1084.05pt x 1927.2pt>
+File: figures/test/belon2.png Graphic file (type png)
+
+<use figures/test/belon2.png>
+Package pdftex.def Info: figures/test/belon2.png used on input line 360.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/belon3.png, id=1313, 1084.05pt x 1927.2pt>
+File: figures/test/belon3.png Graphic file (type png)
+
+<use figures/test/belon3.png>
+Package pdftex.def Info: figures/test/belon3.png used on input line 362.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/belon5.png, id=1314, 1084.05pt x 1927.2pt>
+File: figures/test/belon5.png Graphic file (type png)
+
+<use figures/test/belon5.png>
+Package pdftex.def Info: figures/test/belon5.png used on input line 364.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+Overfull \hbox (11.9923pt too wide) in alignment at lines 341--374
  [] [] 
  []
 
@@ -3691,69 +3796,140 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 380.
+(babel)             in language  on input line 374.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 380.
+(babel)             in language  on input line 374.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 380.
+(babel)             in language  on input line 374.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 380.
-[68]
+(babel)             in language  on input line 374.
+[69 <./figures/test/notification1.png> <./figures/test/notification2.png> <./fi
+gures/test/notification3.png>]
 Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  [] [] 
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 383.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 383.
+(babel)             in language  on input line 376.
 
-Underfull \hbox (badness 2158) in paragraph at lines 399--400
+Underfull \hbox (badness 2027) in paragraph at lines 406--407
+[]\T1/cmr/m/n/10.95 Forventet bruger med medlemsID \T1/cmr/bx/n/10.95 4444 \T1/
+cmr/m/n/10.95 vises i grænsefladen for
+ []
+
+<figures/test/venneliste1.png, id=1325, 1084.05pt x 1927.2pt>
+File: figures/test/venneliste1.png Graphic file (type png)
+
+<use figures/test/venneliste1.png>
+Package pdftex.def Info: figures/test/venneliste1.png used on input line 409.
+(pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
+
+<figures/test/venneliste2.png, id=1326, 1084.05pt x 1927.2pt>
+File: figures/test/venneliste2.png Graphic file (type png)
+
+<use figures/test/venneliste2.png>
+Package pdftex.def Info: figures/test/venneliste2.png used on input line 410.
+(pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
+
+<figures/test/venneliste3.png, id=1327, 1084.05pt x 1927.2pt>
+File: figures/test/venneliste3.png Graphic file (type png)
+
+<use figures/test/venneliste3.png>
+Package pdftex.def Info: figures/test/venneliste3.png used on input line 411.
+(pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
+
+<figures/test/venneliste4.png, id=1328, 1084.05pt x 1927.2pt>
+File: figures/test/venneliste4.png Graphic file (type png)
+
+<use figures/test/venneliste4.png>
+Package pdftex.def Info: figures/test/venneliste4.png used on input line 412.
+(pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
+
+Overfull \hbox (11.9923pt too wide) in alignment at lines 388--421
+ [] [] 
+ []
+
+
+Overfull \hbox (11.9923pt too wide) has occurred while \output is active
+ [] [] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 421.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 421.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 421.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 421.
+[70 <./figures/test/belon2.png> <./figures/test/belon3.png> <./figures/test/bel
+on5.png>]
+Overfull \hbox (11.9923pt too wide) has occurred while \output is active
+ [] [] 
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 424.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 424.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 431.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 431.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 431.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 431.
+[71 <./figures/test/venneliste1.png> <./figures/test/venneliste2.png> <./figure
+s/test/venneliste3.png> <./figures/test/venneliste4.png>]
+Underfull \hbox (badness 2158) in paragraph at lines 440--441
 []|\T1/cmr/m/n/10.95 1.  Tryk \T1/cmr/bx/n/10.95 REDIGER ADGANGSKODE \T1/cmr/m/
 n/10.95 via hovedmenuen. Indtast
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 399--400
+Underfull \hbox (badness 1622) in paragraph at lines 440--441
 \T1/cmr/bx/n/10.95 nyadgangskode \T1/cmr/m/n/10.95 i ny adgangskode og indtast 
 \T1/cmr/bx/n/10.95 adgangskode \T1/cmr/m/n/10.95 i gentag
  []
 
-<figures/test/redigering2.png, id=1301, 1084.05pt x 1927.2pt>
+<figures/test/redigering2.png, id=1348, 1084.05pt x 1927.2pt>
 File: figures/test/redigering2.png Graphic file (type png)
 
 <use figures/test/redigering2.png>
-Package pdftex.def Info: figures/test/redigering2.png used on input line 412.
+Package pdftex.def Info: figures/test/redigering2.png used on input line 453.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering3.png, id=1302, 1084.05pt x 1927.2pt>
+<figures/test/redigering3.png, id=1349, 1084.05pt x 1927.2pt>
 File: figures/test/redigering3.png Graphic file (type png)
 
 <use figures/test/redigering3.png>
-Package pdftex.def Info: figures/test/redigering3.png used on input line 413.
+Package pdftex.def Info: figures/test/redigering3.png used on input line 454.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering.png, id=1303, 1084.05pt x 1927.2pt>
+<figures/test/redigering.png, id=1350, 1084.05pt x 1927.2pt>
 File: figures/test/redigering.png Graphic file (type png)
 
 <use figures/test/redigering.png>
-Package pdftex.def Info: figures/test/redigering.png used on input line 414.
+Package pdftex.def Info: figures/test/redigering.png used on input line 455.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering1.png, id=1304, 1084.05pt x 1927.2pt>
+<figures/test/redigering1.png, id=1351, 1084.05pt x 1927.2pt>
 File: figures/test/redigering1.png Graphic file (type png)
 
 <use figures/test/redigering1.png>
-Package pdftex.def Info: figures/test/redigering1.png used on input line 415.
+Package pdftex.def Info: figures/test/redigering1.png used on input line 456.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-Underfull \hbox (badness 1552) in paragraph at lines 412--418
+Underfull \hbox (badness 1552) in paragraph at lines 453--459
 \T1/cmr/m/n/10.95 Ovenstående figurer viser resultater for test af redigering. 
 Til venstre
  []
 
 
-Overfull \hbox (11.9923pt too wide) in alignment at lines 395--424
+Overfull \hbox (11.9923pt too wide) in alignment at lines 436--465
  [] [] 
  []
 
@@ -3763,55 +3939,51 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  []
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 468.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 468.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 424.
+(babel)             in language  on input line 474.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 424.
-[69]
-Overfull \hbox (11.9923pt too wide) has occurred while \output is active
- [] [] 
- []
-
+(babel)             in language  on input line 474.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 427.
+(babel)             in language  on input line 474.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 427.
-<figures/test/logud.png, id=1312, 1084.05pt x 1927.2pt>
-File: figures/test/logud.png Graphic file (type png)
+(babel)             in language  on input line 474.
+[72 <./figures/test/redigering2.png> <./figures/test/redigering3.png> <./figure
+s/test/redigering.png> <./figures/test/redigering1.png>]
+<figures/test/logud2.png, id=1363, 1084.05pt x 1927.2pt>
+File: figures/test/logud2.png Graphic file (type png)
 
-<use figures/test/logud.png>
-Package pdftex.def Info: figures/test/logud.png used on input line 447.
+<use figures/test/logud2.png>
+Package pdftex.def Info: figures/test/logud2.png used on input line 488.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/logud1.png, id=1313, 1084.05pt x 1927.2pt>
+<figures/test/logud3.png, id=1364, 1084.05pt x 1927.2pt>
+File: figures/test/logud3.png Graphic file (type png)
+
+<use figures/test/logud3.png>
+Package pdftex.def Info: figures/test/logud3.png used on input line 491.
+(pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
+
+<figures/test/logud1.png, id=1365, 1084.05pt x 1927.2pt>
 File: figures/test/logud1.png Graphic file (type png)
 
 <use figures/test/logud1.png>
-Package pdftex.def Info: figures/test/logud1.png used on input line 450.
+Package pdftex.def Info: figures/test/logud1.png used on input line 494.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-Overfull \hbox (11.9923pt too wide) in alignment at lines 438--456
+Underfull \hbox (badness 1803) in paragraph at lines 488--497
+\T1/cmr/m/n/10.95 Figurerne ovenfor viser resultater for test af log ud. Til ve
+nstre ses
+ []
+
+
+Overfull \hbox (11.9923pt too wide) in alignment at lines 479--503
  [] [] 
  []
 
 
-Overfull \hbox (11.9923pt too wide) has occurred while \output is active
- [] [] 
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 456.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 456.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 456.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 456.
-[70 <./figures/test/redigering2.png> <./figures/test/redigering3.png> <./figure
-s/test/redigering.png> <./figures/test/redigering1.png>]
 Overfull \hbox (11.9923pt too wide) has occurred while \output is active
  [] [] 
  []
@@ -3825,13 +3997,13 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 95.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 95.
- [71 <./figures/test/logud.png> <./figures/test/logud1.png>]
+ [73 <./figures/test/logud2.png> <./figures/test/logud3.png> <./figures/test/lo
+gud1.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 95.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 95.
-
-(./rapportAfsnit/fSyntese/perspektivering.tex
+ (./rapportAfsnit/fSyntese/perspektivering.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -3851,7 +4023,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
- [72
+ [74
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -3870,7 +4042,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 117.
- [73
+ [75
 
 ]
 Package babel Info: Redefining danish shorthand "|
@@ -3881,7 +4053,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 213.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 213.
- [74])
+ [76])
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining danish shorthand "~
@@ -3890,7 +4062,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 115.
- [75]
+ [77]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining danish shorthand "~
@@ -3901,7 +4073,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<figures/MVC/Designklasse.pdf, id=1380, 1036.87375pt x 1118.1775pt>
+<figures/MVC/Designklasse.pdf, id=1424, 1036.87375pt x 1118.1775pt>
 File: figures/MVC/Designklasse.pdf Graphic file (type pdf)
 
 <use figures/MVC/Designklasse.pdf>
@@ -3921,7 +4093,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 119.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 119.
-[76
+[78
 
  <./figures/MVC/Designklasse.pdf>]
 Package babel Info: Redefining danish shorthand "|
@@ -3948,10 +4120,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 29206 strings out of 493089
- 527734 string characters out of 6134843
- 850112 words of memory out of 5000000
- 31790 multiletter control sequences out of 15000+600000
+ 29294 strings out of 493089
+ 530175 string characters out of 6134843
+ 856112 words of memory out of 5000000
+ 31858 multiletter control sequences out of 15000+600000
  32846 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10481b,958s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3980,10 +4152,10 @@ dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/cm-super/sfti0700.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (82 pages, 7883605 bytes).
+Output written on main.pdf (84 pages, 9808339 bytes).
 PDF statistics:
- 1528 PDF objects out of 1728 (max. 8388607)
- 1268 compressed objects within 13 object streams
- 275 named destinations out of 1000 (max. 500000)
- 794 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1573 PDF objects out of 1728 (max. 8388607)
+ 1277 compressed objects within 13 object streams
+ 277 named destinations out of 1000 (max. 500000)
+ 879 words of extra memory for PDF output out of 10000 (max. 10000000)
 
