@@ -41,6 +41,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Schema}{57}{subsection.6.3.2}
 \contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}
 \contentsline {subsection}{\numberline {7.0.3}Implementering af database}{59}{subsection.7.0.3}
+\contentsline {subsubsection}{Kommunikation med databasen}{59}{section*.85}
 \contentsline {chapter}{\chapternumberline {8}Test}{61}{chapter.8}
 \contentsline {section}{\numberline {8.1}Database}{61}{section.8.1}
 \contentsline {section}{\numberline {8.2}Log ind}{62}{section.8.2}
@@ -53,6 +54,6 @@
 \contentsline {section}{\numberline {8.9}Log ud}{73}{section.8.9}
 \contentsline {chapter}{\chapternumberline {9}Syntese}{75}{chapter.9}
 \contentsline {section}{\numberline {9.1}Perspektivering}{75}{section.9.1}
-\contentsline {chapter}{Litteratur}{76}{section*.89}
+\contentsline {chapter}{Litteratur}{76}{section*.90}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{79}{appendix.A}
 \contentsline {section}{\numberline {A.1}Bilag A}{79}{section.A.1}

@@ -1,12 +1,14 @@
 \subsection{Implementering af database}
 
-Til implementering af databasen samt kommunnikation med denne benyttes programmet XAMPP. Programmet opretter en lokal apache webserver samt database på en given computer, der fungerer som et Localhost miljø. Den lokale webserver simulerer dertil en ekstern webserver, hvilket giver et passende miljø til udvikling og test af app'en. Databasen er udarbejdet i phpMyAdmin, der er et online databaseadministrationssystem og understøtter Structured Query Language (SQL) \autoref{silbershatz2011}. 
-Databasen er implementeret under navnet \textit{$db_KOL$} og indeholder fire tabeller \textit{users}, \textit{kondi}, \textit{beloenninger} og \textit{vennerelation}. Hertil er værdityperne oprettet som beskrevet i \autoref{ERdiagram}.
+Til implementering af databasen samt kommunnikation med denne benyttes programmet XAMPP. Programmet opretter en lokal apache webserver samt database på en given computer, der fungerer som et Localhost miljø. Den lokale webserver simulerer en ekstern webserver, hvilket giver et passende miljø til at teste og udvikle prototypen. Dertil anses dette ikke som værende fjernt fra et virkelighedsnært senarie, hvor systemet benyttes med ekstern server og database.
+Ved direkte håndtering af databasen benyttes phpMyAdmin, der er et online databaseadministrationssystem, som understøtter Structured Query Language (SQL) \autoref{silbershatz2011}. 
+Databasen er implementeret under navnet \textit{db\_KOL}, hvori tabeller oprettes på baggrund designet jf. \autoref{sec:ER} i relation til attributter og datatyper.
 
-Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor PHP: Hypertext preprocessor scripts benyttes. PHP er et Server-Side Scripting Language, hvilket køres på serveren og muliggører systemet kan tilgå databasen \autoref{silbershatz2011}. 
-Der er oprettet et php-script, \textit{config}, der indeholder informationerne host, bruger, adgangskode samt navn på den oprettede database. Dette script inkluderes i et seperat script, \textit{$DB_connect$}, til at etablerer forbindelsen til databasen. Der er ligeledes opstillet et PHP-scripts, der manupulerer data i databasen ved hjælp SQL-kommandorer. Disse SQL kommandorer manupulerer i forhold til information fået fra app'en. 
+\subsubsection{Kommunikation med databasen}
+Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor PHP: Hypertext preprocessor scripts benyttes. PHP er et Server-Side Scripting Language, hvilket køres på serveren og muliggøre systemet kan tilgå databasen \citep{silbershatz2011}. 
+Der er oprettet et php-script, \textit{config.php}, der indeholder informationerne host, bruger, adgangskode samt navn på den oprettede database. Dette script inkluderes i et seperat script, \textit{DB\_connect.php}, til at etablerer forbindelsen til databasen. Der er opstillet forskellige PHP-scripts, som javakoden refererer til via URL links. Af disse links fremgår ip-adressen for serveren samt filplaceringen af det givne script. 
 
-Informationen sendes fra app'en som en Java Script Object Notation (JSON) repræsentation. JSON er et dataoverførselsformat, der  gør det muligt at pakke data som et object eller array. PHP-scripts tjekker, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af PHP-scriptet for log ind er visualiseret. 
+De forskellige scripts får information fra app'en for således at kunne udføre SQL-kommandoer. Informationen sendes fra app'en som en JavaScript Object Notation (JSON) repræsentation. JSON er et dataoverførselsformat, der  gør det muligt at pakke data som et objekt eller array. PHP-scripts brugt i dette projekt er sat op til at tjekke, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af PHP-scriptet for log ind er visualiseret. 
 
 \begin{figure} [H]
 \centering
@@ -16,7 +18,7 @@ Informationen sendes fra app'en som en Java Script Object Notation (JSON) repræ
 \end{figure}
 
 \noindent
-Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne gemmes i et associativt array, der ved hjælp af en POST-metode gør det muligt at overføre data'en til et andet script, \textit{$db_functions$}, hvori SQL-kommandoen udføres. Linje 21 viser, hvordan variablerne benyttes i et funktionskald, der eksekveres i \textit{$db_functitons$}. Denne funktion er illustreret af \autoref{fig:phplogindsql}.
+Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne gemmes i et associativt array, der ved hjælp af en POST-metode gør det muligt at overføre data til et andet script, \textit{db\_functions.php}, hvori SQL-kommandoer udføres. Linje 21 viser, hvordan variablerne benyttes i et funktionskald, der eksekveres i \textit{db\_functitons.php}. Af \autoref{fig:phplogindsql} ses et udklip af denne funktion.
 
 \begin{figure} [H]
 \centering
@@ -26,7 +28,7 @@ Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne
 \end{figure}
 
 \noindent
-Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Denne SQL-kommando henter alt fra tabellen \textit{users} tilhørende medlemsid i databasen, der er lig spørgsmåltegn. Spørgsmåltegnet markerer et bindingspunkt, hvorpå en parametre kan tilknyttes. Parametren, der bindes på, fremgår af linje 176, hvoraf \textit{"s"} indikerer, at medlemsid'et er af typen string. I dette tilfælde valideres log ind informationerne førend user returneres til log ind PHP-scriptet, der håndterer user, hvilket fremgår af \autoref{fig:phplogindresp}.
+Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Den viste SQL-kommando henter alt fra tabellen \textit{users} tilhørende medlemsid'et i databasen, der er lig spørgsmåltegn. Spørgsmåltegnet markerer et bindingspunkt, hvorpå en parametre kan tilknyttes. Parametren, der bindes på ved brug af \textit{bind\_param}, fremgår af linje 176, hvoraf \textit{"s"} indikerer, at medlemsid'et er af typen string. I dette tilfælde valideres log ind informationerne førend user returneres til log ind PHP-scriptet, der håndterer user, hvilket fremgår af \autoref{fig:phplogindresp}.
 
 
 \begin{figure} [H]
@@ -40,11 +42,3 @@ Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Denne S
 \noindent
 Som det ses af \autoref{fig:phplogindresp} opstilles if/else statement, der håndterer, hvorvidt user returneres. Hvis user returneres bliver brugerdata gemt i \textit{response}, der sendes tilbage til app'en som en JSON repræsentation. Returneres user ikke, gemmes en fejlmeddelelse i \textit{response}, der ligeledes sendes til app'en som en JSON repræsentation. 
 Der er i javakoden opsat en \textit{Response.listener}, der lytter efter respons. Ved respons oprettes et nyt JSON objekt, hvori responset lagres, således dette kan benyttes i app'en. 
-
-
-
-
-
-
-For at indikere, hvilket script systemet skal tilgå opstilles URL links, der definerer ip-adressen på serveren samt placeringen af det ønskede script.
-
