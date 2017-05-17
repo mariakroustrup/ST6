@@ -254,7 +254,7 @@ public class TilpasningController extends AppCompatActivity {
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
                 setMinutter(15);
-            } else if (helbredstilstand == 2 && evaluering == 2 || helbredstilstand == 2 && evaluering == 0) {
+            } else if (helbredstilstand == 2 && evaluering == 0 || helbredstilstand == 2 && evaluering == 2){
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Din anbefalede træningstid er 20 minutter");
                 setMinutter(20);

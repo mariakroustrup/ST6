@@ -43,8 +43,8 @@
       <file leaf-file-name="TilpasningController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/info/androidhive/loginandregistration/activity/TilpasningController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="247" column="32" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
+            <state relative-caret-position="471">
+              <caret line="261" column="66" selection-start-line="261" selection-start-column="66" selection-end-line="261" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -2750,8 +2750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/info/androidhive/loginandregistration/activity/TilpasningController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="247" column="32" selection-start-line="247" selection-start-column="32" selection-end-line="247" selection-end-column="32" />
+        <state relative-caret-position="471">
+          <caret line="261" column="66" selection-start-line="261" selection-start-column="66" selection-end-line="261" selection-end-column="66" />
           <folding />
         </state>
       </provider>
