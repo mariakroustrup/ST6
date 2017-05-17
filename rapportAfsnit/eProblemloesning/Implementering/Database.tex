@@ -1,1 +1,12 @@
 \subsection{Implementering af database}
+Til implementering af databasen samt kommunnikation med denne benyttes programmet XAMPP. Programmet opretter en lokal apache webserver samt database på en given computer, der fungerer som et Localhost miljø. Den lokale webserver simulerer dertil en ekstern webserver, hvilket giver et passende miljø til udvikling og test af app'en. Databasen er udarbejdet i phpMyAdmin, der er et online databaseadministrationssystem og understøtter Structured Query Language (SQL) \autoref{silbershatz2011}. 
+Databasen er implementeret under navnet \textit{db_KOL} og indeholder fire tabeller \textit{users}, \textit{kondi}, \textit{beloenninger} og \textit{vennerelation}. Hertil er værdityperne oprettet som beskrevet i \autoref{ERdiagram}.
+
+
+Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor PHP: Hypertext preprocessor scripts benyttes. PHP er et Server-Side Scripting Language, hvilket køres på serveren og muliggører systemet kan tilgå databasen \autoref{silbershatz2011}. 
+Der er oprettet et php-script, \textit{config.php}, der indeholder informationerne host, bruger, adgangskode samt navn på den oprettede database. Dette script inkluderes i et seperat script, \textit{DB_connect.php}, til at etablerer forbindelsen til databasen. 
+
+For at indikere, hvilket script systemet skal tilgå opstilles URL links, der definerer ip-adressen på serveren samt placeringen af det ønskede script.
+
+- app sender efterspørgelse
+- Evt billed af app --> Webserver --> database

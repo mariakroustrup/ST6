@@ -1,0 +1,33 @@
+\subsection{Implementering af træning}
+Implementering af træning indebærer både tilpasning af træningsniveau og træning. 
+Førend et træningsniveau tilpasses den individuelle bruger, skal kategorisering
+
+Det tilpassede træningsniveau beregnes ud fra brugeres kategorisering, daglige helbredstilstand samt eventuel tidligere evaluering.
+Kategoriseringen hentes idet brugeren logger ind og gemmes i brugeroplysninger, dertil hentes brugerens kategorisering fra denne.
+Evalueringen hentes direkte fra databasen, dog gøres dette efter brugeren har angivet træningsform samt type og heldbredstilstand, da disse er forsætninger for at finde en passende evaluering.
+For hente evalueringen fra databasen er et php-script opstillet. Hertil ses af figur... bla bla parametre der sendes med og hvilken SQL kommando der benyttes til at hente evalueringen. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/phpeva}
+\caption{}
+\label{fig:phpeva}
+\end{figure} 
+
+
+Algoritmen til at beregne træningsniveuet er implementeret ud fra if else statements som det ses af figur.... dertil ses det hvordan niveauet bestemmes ud fra hvilke if else løkker der kan tilgås.  
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/kodeanbe}
+\caption{}
+\label{fig:kodeanbe}
+\end{figure} 
+
+
+
+Idet den anbefalde træningstid beregnes sendes denne til en MediaPlayer, der har til formål at indikere, når den anbefaldede træningstid opnås. 
+
+
+
+
