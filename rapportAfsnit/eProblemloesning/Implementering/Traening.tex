@@ -1,33 +1,13 @@
-\subsection{Implementering af træning}
-Implementering af træning indebærer både tilpasning af træningsniveau og træning. 
-Førend et træningsniveau tilpasses den individuelle bruger, skal kategorisering
-
-Det tilpassede træningsniveau beregnes ud fra brugeres kategorisering, daglige helbredstilstand samt eventuel tidligere evaluering.
-Kategoriseringen hentes idet brugeren logger ind og gemmes i brugeroplysninger, dertil hentes brugerens kategorisering fra denne.
-Evalueringen hentes direkte fra databasen, dog gøres dette efter brugeren har angivet træningsform samt type og heldbredstilstand, da disse er forsætninger for at finde en passende evaluering.
-For hente evalueringen fra databasen er et php-script opstillet. Hertil ses af figur... bla bla parametre der sendes med og hvilken SQL kommando der benyttes til at hente evalueringen. 
-
+\subsection{Implementering af tilpasning af træningsniveau}
+I tilpasningcontrolleren beregnes den andbefalede træningstid. Dette gøre ud fra kategorisering, den daglige helbredstilstand og en tidligere evaluering fortaget efter samme træningsform, -type og heldbredstilstand.
+Beregningen for den anbefalede træning er implementeret ved brug af if/else statement. Et udpluk heraf fremgår af \autoref{fig:anbekode}.  
+   
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/phpeva}
-\caption{}
-\label{fig:phpeva}
+\includegraphics[width=0.8\textwidth]{figures/imple/anbekode}
+\caption{Udpluk af koden for anbefalet træning. If/else løkker afgør, hvilket træningsniveau brugeren får anbefalet.}
+\label{fig:anbekode}
 \end{figure} 
 
-
-Algoritmen til at beregne træningsniveuet er implementeret ud fra if else statements som det ses af figur.... dertil ses det hvordan niveauet bestemmes ud fra hvilke if else løkker der kan tilgås.  
-
-\begin{figure} [H]
-\centering
-\includegraphics[width=0.8\textwidth]{figures/kodeanbe}
-\caption{}
-\label{fig:kodeanbe}
-\end{figure} 
-
-
-
-Idet den anbefalde træningstid beregnes sendes denne til en MediaPlayer, der har til formål at indikere, når den anbefaldede træningstid opnås. 
-
-
-
-
+\noindent
+Af figuren ses beregningen af den anbefalede træningstid for brugeren med kategorisering "A" og heldbredstilstanden på "2". Variationen for anbefalingen afhænger af evalueringen og kan i dette eksempel variere mellem "15", "20" og "25 minutter". Metodekaldet \textit{setMinutter} referer til, at der sættes en bemærkning idet den anbefaldede træningstid er opnået.

@@ -38,7 +38,7 @@ Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Den vis
 \label{fig:phplogindresp}
 \end{figure}
 
-
 \noindent
-Som det ses af \autoref{fig:phplogindresp} opstilles if/else statement, der håndterer, hvorvidt user returneres. Hvis user returneres bliver brugerdata gemt i \textit{response}, der sendes tilbage til app'en som en JSON repræsentation. Returneres user ikke, gemmes en fejlmeddelelse i \textit{response}, der ligeledes sendes til app'en som en JSON repræsentation. 
+Som det ses af \autoref{fig:phplogindresp} opstilles if/else statement, der håndterer, hvorvidt \textit{user} returneres. Hvis \textit{user} returneres bliver brugerdata gemt i \textit{response}, der sendes tilbage til app'en som en JSON repræsentation. Returneres \textit{user} ikke, gemmes en fejlmeddelelse i \textit{response}, der ligeledes sendes til app'en som en JSON repræsentation. 
+
 Der er i javakoden opsat en \textit{Response.listener}, der lytter efter respons. Ved respons oprettes et nyt JSON objekt, hvori responset lagres, således dette kan benyttes i app'en. 
