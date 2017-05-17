@@ -31,21 +31,18 @@
 \BOOKMARK [1][-]{section.6.3}{Design af database}{chapter.6}% 31
 \BOOKMARK [2][-]{subsection.6.3.1}{ER-diagram}{section.6.3}% 32
 \BOOKMARK [2][-]{subsection.6.3.2}{Schema}{section.6.3}% 33
-\BOOKMARK [0][-]{chapter.7}{Implementering}{}% 34
-\BOOKMARK [1][-]{subsection.7.0.1}{Implementering af objektorienteret design}{chapter.7}% 35
-\BOOKMARK [2][-]{subsection.7.0.2}{Implementering af database}{subsection.7.0.1}% 36
-\BOOKMARK [0][-]{chapter.8}{Test}{}% 37
-\BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 39
-\BOOKMARK [1][-]{section.8.3}{Kategorisering}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.4}{Tilpasning af tr\346ningsniveau}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.5}{Tr\346ning}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.6}{Resultater}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.7}{Venneliste}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.8}{Redigering}{chapter.8}% 45
-\BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 46
-\BOOKMARK [0][-]{chapter.9}{Syntese}{}% 47
-\BOOKMARK [1][-]{section.9.1}{Perspektivering}{chapter.9}% 48
-\BOOKMARK [0][-]{section*.87}{Litteratur}{}% 49
-\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 50
-\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 51
+\BOOKMARK [0][-]{chapter.7}{Test}{}% 34
+\BOOKMARK [1][-]{section.7.1}{Database}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.2}{Log ind}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.3}{Kategorisering}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.4}{Tilpasning af tr\346ningsniveau}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.5}{Tr\346ning}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.6}{Resultater}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.7}{Venneliste}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.8}{Redigering}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.9}{Log ud}{chapter.7}% 43
+\BOOKMARK [0][-]{chapter.8}{Syntese}{}% 44
+\BOOKMARK [1][-]{section.8.1}{Perspektivering}{chapter.8}% 45
+\BOOKMARK [0][-]{section*.86}{Litteratur}{}% 46
+\BOOKMARK [0][-]{appendix.A}{Bilag}{}% 47
+\BOOKMARK [1][-]{section.A.1}{Bilag A}{appendix.A}% 48

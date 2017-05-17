@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  16 MAY 2017 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.9)  17 MAY 2017 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -272,8 +272,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \begin{figure}
-                   [H]
+l.39 \begin{figure}
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -282,8 +282,8 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.40 ...minipage}[b]{1\textwidth}	\includegraphics
-                                                  [width=0.7\textwidth]{figu...
+l.41 \includegraphics
+                     [width=0.4\textwidth]{figures/test/KOLKOLforside}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -299,12 +299,12 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.40 ...dth}	\includegraphics[width=0.7\textwidth]
-                                                  {figures/test/forside}
+l.41 \includegraphics[width=0.4\textwidth]
+                                          {figures/test/KOLKOLforside}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -312,8 +312,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.40 ...dth}	\includegraphics[width=0.7\textwidth]
-                                                  {figures/test/forside}
+l.41 \includegraphics[width=0.4\textwidth]
+                                          {figures/test/KOLKOLforside}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -335,6 +335,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no / in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no L in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -364,13 +370,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
-
-Overfull \hbox (8191.99998pt too wide) in paragraph at lines 38--44
- [] 
- []
-
 ! Undefined control sequence.
-l.45 {\Large
+l.52 {\Large
              Gruppe 17gr6403\par}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -393,7 +394,7 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.47 {\color
+l.54 {\color
             {white}X \\ X \\ X \\}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -410,12 +411,12 @@ Missing character: There is no X in font nullfont!
 Missing character: There is no X in font nullfont!
 Missing character: There is no X in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 55--55
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--62
 [] 
  []
 
 
-Overfull \hbox (400.0pt too wide) in paragraph at lines 56--57
+Overfull \hbox (400.0pt too wide) in paragraph at lines 63--64
  | 
  []
 
@@ -433,5 +434,5 @@ Here is how much of TeX's memory you used:
  3592 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 9i,2n,8p,184b,125s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9i,1n,6p,184b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
