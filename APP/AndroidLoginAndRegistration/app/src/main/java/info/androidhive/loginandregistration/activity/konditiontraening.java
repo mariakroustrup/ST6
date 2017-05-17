@@ -223,15 +223,15 @@ public class konditiontraening extends Activity {
         int b_tid = 0;
 
         // ANTAL
-        if (antal_t >= 3 && antal_t < 29){
+        if (antal_t >= 3 && antal_t < 30){
             b_antal = 1;
-        } else if (antal_t >= 30 && antal_t < 89){
+        } else if (antal_t >= 30 && antal_t < 90){
             b_antal = 2;
-        } else if (antal_t >= 90 && antal_t < 209){
+        } else if (antal_t >= 90 && antal_t < 210){
             b_antal = 3;
-        } else if (antal_t >= 210 && antal_t < 299){
+        } else if (antal_t >= 210 && antal_t < 300){
             b_antal = 4;
-        } else if (antal_t >= 300 && antal_t < 449){
+        } else if (antal_t >= 300 && antal_t < 450){
             b_antal = 5;
         } else if (antal_t >= 450){
             b_antal = 6;
@@ -241,30 +241,30 @@ public class konditiontraening extends Activity {
         }
 
         // KONDI
-        if (kondi_t >= 1 && kondi_t < 9){
+        if (kondi_t >= 1 && kondi_t < 10){
             b_kondi = 1;
-        } else if (kondi_t >= 10 && kondi_t < 29){
+        } else if (kondi_t >= 10 && kondi_t < 30){
             b_kondi = 2;
-        } else if (kondi_t >= 30 && kondi_t < 69){
+        } else if (kondi_t >= 30 && kondi_t < 70){
             b_kondi = 3;
-        } else if (kondi_t >= 70 && kondi_t < 99){
+        } else if (kondi_t >= 70 && kondi_t < 100){
             b_kondi = 4;
-        } else if (kondi_t >= 100 && kondi_t < 149){
+        } else if (kondi_t >= 100 && kondi_t < 150){
             b_kondi = 5;
         } else if (kondi_t >= 150){
             b_kondi = 6;
         }
 
         // AFSTAND
-        if (afstand_t >= 5 && afstand_t < 24) {
+        if (afstand_t >= 5 && afstand_t < 25) {
             b_afstand = 1;
-        } else if (afstand_t >= 25 && afstand_t < 49) {
+        } else if (afstand_t >= 25 && afstand_t < 50) {
             b_afstand = 2;
-        } else if (afstand_t >= 50 && afstand_t < 99) {
+        } else if (afstand_t >= 50 && afstand_t < 100) {
             b_afstand = 3;
-        } else if (afstand_t >= 100 && afstand_t < 299) {
+        } else if (afstand_t >= 100 && afstand_t < 300) {
             b_afstand = 4;
-        } else if (afstand_t >= 300 && afstand_t < 499) {
+        } else if (afstand_t >= 300 && afstand_t < 500) {
             b_afstand = 5;
         } else if (afstand_t >= 500) {
             b_afstand = 6;
@@ -273,15 +273,15 @@ public class konditiontraening extends Activity {
         }
 
         // TID
-        if (tid_t >= 3600 && tid_t < 5399) {
+        if (tid_t >= 3600 && tid_t < 5400) {
             b_tid = 1;
-        } else if (tid_t >= 5400 && tid_t < 7199) {
+        } else if (tid_t >= 5400 && tid_t < 7200) {
             b_tid = 2;
-        } else if (tid_t >= 7200 && tid_t < 17999) {
+        } else if (tid_t >= 7200 && tid_t < 18000) {
             b_tid = 3;
-        } else if (tid_t >= 18000 && tid_t < 23999) {
+        } else if (tid_t >= 18000 && tid_t < 24000) {
             b_tid = 4;
-        } else if (tid_t >= 24000 && tid_t < 29999) {
+        } else if (tid_t >= 24000 && tid_t < 30000) {
             b_tid = 5;
         } else if (tid_t >= 30000) {
             b_tid = 6;
