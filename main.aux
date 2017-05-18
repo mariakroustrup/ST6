@@ -1,7 +1,7 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand*{\memsetcounter}[2]{}
-\catcode`"\active
+\catcode `"\active 
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
 \global\let\oldcontentsline\contentsline
@@ -17,6 +17,7 @@
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \@writefile{toc}{\changetocdepth  {2}}
 \select@language{danish}
 \@writefile{toc}{\select@language{danish}}
@@ -162,6 +163,7 @@
 \citation{Stefanov2013,Brahma2015}
 \citation{Stefanov2013,Brahma2015}
 \citation{Stefanov2013}
+\citation{Fowler2004,Williams2004}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Metode}{13}{chapter.4}}
@@ -169,7 +171,6 @@
 \newlabel{sec:OOP}{{4.1}{13}{Objektorienteret programmering}{section.4.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Objekter karakteriseres ud fra deres egenskaber som for eksempel navn, mens metoder beskriver deres funktion som for eksempel sove.\relax }}{13}{table.caption.16}}
 \newlabel{tab:objekt}{{4.1}{13}{Objekter karakteriseres ud fra deres egenskaber som for eksempel navn, mens metoder beskriver deres funktion som for eksempel sove.\relax }{table.caption.16}{}}
-\citation{Fowler2004,Williams2004}
 \citation{Williams2004}
 \citation{Fowler2004,Williams2004}
 \citation{Fowler2004}
@@ -193,6 +194,7 @@
 \@writefile{toc}{\contentsline {subsubsection}{Klassediagrammer}{15}{section*.21}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces I klassediagrammer identificeres klasser ud fra et klassenavn, og dertilh\IeC {\o }rende attributter og metoder tilf\IeC {\o }jes nedenfor navnet. Revideret \cite  {Fowler2004}.\relax }}{15}{figure.caption.22}}
 \newlabel{fig:klassediagram}{{4.3}{15}{I klassediagrammer identificeres klasser ud fra et klassenavn, og dertilhørende attributter og metoder tilføjes nedenfor navnet. Revideret \cite {Fowler2004}.\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Sekvensdiagrammer}{15}{section*.23}}
 \citation{Brahma2015}
 \citation{Brahma2015}
 \citation{Brahma2015}
@@ -201,13 +203,12 @@
 \citation{Brahma2015}
 \citation{Brahma2015}
 \citation{Arlow2002}
-\@writefile{toc}{\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.23}}
+\citation{Arlow2002}
+\citation{Arlow2002}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Simpelt sekvensdiagram. Revideret \cite  {Brahma2015}.\relax }}{16}{figure.caption.24}}
 \newlabel{fig:sekvens}{{4.4}{16}{Simpelt sekvensdiagram. Revideret \cite {Brahma2015}.\relax }{figure.caption.24}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Unified Process}{16}{section.4.2}}
 \newlabel{sec:UP}{{4.2}{16}{Unified Process}{section.4.2}{}}
-\citation{Arlow2002}
-\citation{Arlow2002}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces UP struktur. X-aksen viser tiden over projektet opdelt i opstart, udarbejdelse og konstruktion. Y-aksen viser projektets faser, herunder krav, analyse, design, implementering og test. Kurverne viser arbejdsm\IeC {\ae }ngden. Revideret \cite  {Arlow2002}\relax }}{17}{figure.caption.25}}
 \newlabel{fig:UP}{{4.5}{17}{UP struktur. X-aksen viser tiden over projektet opdelt i opstart, udarbejdelse og konstruktion. Y-aksen viser projektets faser, herunder krav, analyse, design, implementering og test. Kurverne viser arbejdsmængden. Revideret \cite {Arlow2002}\relax }{figure.caption.25}{}}
 \@writefile{lox}{\contentsline {fixme}{Note: Skal \IeC {\ae }ndres lidt til hvis vi oplever fejl}{17}{figure.caption.25}}
@@ -325,7 +326,7 @@
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.3}Implementering af database}{59}{subsection.7.0.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.1}Implementering af database}{59}{subsection.7.0.1}}
 \@writefile{toc}{\contentsline {subsubsection}{Kommunikation med databasen}{59}{section*.85}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Udklip af log ind PHP-script, hvor medlemsid samt adgangskode modtages og inds\IeC {\ae }ttes i tilh\IeC {\o }rende variabler, der benyttes i et funktionskald.\relax }}{60}{figure.caption.86}}
 \newlabel{fig:phplogind}{{7.1}{60}{Udklip af log ind PHP-script, hvor medlemsid samt adgangskode modtages og indsættes i tilhørende variabler, der benyttes i et funktionskald.\relax }{figure.caption.86}{}}
@@ -333,13 +334,13 @@
 \newlabel{fig:phplogindsql}{{7.2}{60}{SQL-kommando for funktionen log ind.\relax }{figure.caption.87}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Datah\IeC {\r a}ndtering i PHP-scriptet f\IeC {\o }rend respons til app'en.\relax }}{60}{figure.caption.88}}
 \newlabel{fig:phplogindresp}{{7.3}{60}{Datahåndtering i PHP-scriptet førend respons til app'en.\relax }{figure.caption.88}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.4}Implementering af boundry klasser}{61}{subsection.7.0.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.2}Implementering af boundry klasser}{61}{subsection.7.0.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Udklip af kode fra log ind layout. Udklippet viser et \textit  {EditText}, hvori brugeren angiver adgangskode samt en button for log ind.\relax }}{61}{figure.caption.89}}
 \newlabel{fig:logindlay}{{7.4}{61}{Udklip af kode fra log ind layout. Udklippet viser et \textit {EditText}, hvori brugeren angiver adgangskode samt en button for log ind.\relax }{figure.caption.89}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.5}Implementering af tilpasning af tr\IeC {\ae }ningsniveau}{61}{subsection.7.0.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.3}Implementering af tilpasning af tr\IeC {\ae }ningsniveau}{61}{subsection.7.0.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Udpluk af koden for anbefalet tr\IeC {\ae }ning. If/else l\IeC {\o }kker afg\IeC {\o }r, hvilket tr\IeC {\ae }ningsniveau brugeren f\IeC {\r a}r anbefalet.\relax }}{62}{figure.caption.90}}
 \newlabel{fig:anbekode}{{7.5}{62}{Udpluk af koden for anbefalet træning. If/else løkker afgør, hvilket træningsniveau brugeren får anbefalet.\relax }{figure.caption.90}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.6}Implementering af resultater}{62}{subsection.7.0.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.0.4}Implementering af resultater}{62}{subsection.7.0.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Udklip af javakode for omregning af samlet afstand til optjente bel\IeC {\o }nninger for brugerer med kategorisering "A".\relax }}{62}{figure.caption.91}}
 \newlabel{fig:kodebelon}{{7.6}{62}{Udklip af javakode for omregning af samlet afstand til optjente belønninger for brugerer med kategorisering "A".\relax }{figure.caption.91}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Kriterier for at opn\IeC {\r a} bel\IeC {\o }nninger inden for henholdsvis samlet tid, afstand og total antal tr\IeC {\ae }ninger samt konditionstr\IeC {\ae }ninger for brugerer med kategorisering "A".\relax }}{62}{table.caption.92}}
@@ -412,10 +413,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {9.1}Diskussion}{77}{section.9.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{77}{subsection.9.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.1.2}Design}{77}{subsection.9.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.3}I praksis}{79}{subsection.9.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}Perspektivering}{79}{section.9.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.3}Implementering}{79}{subsection.9.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1.4}I praksis}{79}{subsection.9.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}Konklusion}{80}{section.9.2}}
 \bibstyle{unsrtnat}
 \bibdata{kilder123}
+\@writefile{toc}{\contentsline {section}{\numberline {9.3}Perspektivering}{81}{section.9.3}}
 \bibcite{Studieordning2014}{{1}{2014}{{Det Sundhedsvidenskabelige Fakultet p{\r a} AAU}}{{}}}
 \bibcite{Basisbogen2016}{{2}{2016}{{Hauschildt and Ravn}}{{}}}
 \bibcite{Lungeforeningen2016}{{3}{2016}{{Lungeforeningen}}{{}}}
@@ -434,7 +437,7 @@
 \bibcite{Anzueto2010}{{16}{2010}{{Anzueto}}{{}}}
 \bibcite{McCarthy2015}{{17}{2015}{{McCarthy B. et al}}{{}}}
 \bibcite{Sundhed2013}{{18}{2013}{{De specialeansvarlige lungemedicinere i Storstr{\o }mmens Sygehus.}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Litteratur}{81}{section*.94}}
+\@writefile{toc}{\contentsline {chapter}{Litteratur}{82}{section*.94}}
 \bibcite{Sundhedsdatastyrelsen2015}{{19}{2015}{{Sundhedsdatastyrelsen}}{{}}}
 \bibcite{Hellem2012}{{20}{2012}{{Hellem et~al.}}{{Hellem, Bruusgaard, and Al.}}}
 \bibcite{Williams2014}{{21}{2014}{{Williams et~al.}}{{Williams, Price, and Et.al}}}
@@ -461,13 +464,13 @@
 \bibcite{ferre2001}{{42}{2001}{{Ferr{\'{e}} et~al.}}{{Ferr{\'{e}}, Juristo, and Et.al}}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Bilag}{84}{appendix.A}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Bilag A}{84}{section.A.1}}
-\newlabel{sec:bilagA}{{A.1}{84}{Bilag A}{section.A.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Designklasser\relax }}{84}{figure.caption.95}}
-\newlabel{fig:Designklasser}{{A.1}{84}{Designklasser\relax }{figure.caption.95}{}}
-\newlabel{LastPage}{{}{84}{}{page.84}{}}
-\xdef\lastpage@lastpage{84}
-\xdef\lastpage@lastpageHy{84}
-\memsetcounter{lastsheet}{89}
-\memsetcounter{lastpage}{84}
+\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Bilag}{85}{appendix.A}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Bilag A}{85}{section.A.1}}
+\newlabel{sec:bilagA}{{A.1}{85}{Bilag A}{section.A.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Designklasser\relax }}{85}{figure.caption.95}}
+\newlabel{fig:Designklasser}{{A.1}{85}{Designklasser\relax }{figure.caption.95}{}}
+\newlabel{LastPage}{{}{85}{}{page.85}{}}
+\xdef\lastpage@lastpage{85}
+\xdef\lastpage@lastpageHy{85}
+\memsetcounter{lastsheet}{90}
+\memsetcounter{lastpage}{85}
