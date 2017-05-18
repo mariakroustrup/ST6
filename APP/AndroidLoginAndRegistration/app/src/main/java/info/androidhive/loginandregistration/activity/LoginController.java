@@ -36,6 +36,7 @@ import info.androidhive.loginandregistration.app.AppController;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
 import info.androidhive.loginandregistration.helper.SessionManager;
 
+
 public class LoginController extends Activity {
     private Button btnLogin;
     private EditText inputMedlemsID;
@@ -78,9 +79,8 @@ public class LoginController extends Activity {
             finish();
         }
 
-        // Login button Click Event
+        // Log ind knap listener
         btnLogin.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View view) {
                 String medlemsid = inputMedlemsID.getText().toString().trim();
                 String adgangskode = inputAdgangskode.getText().toString().trim();
