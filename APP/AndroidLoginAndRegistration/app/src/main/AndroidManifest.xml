@@ -36,6 +36,7 @@
         <activity android:name=".activity.ResultaterController"></activity>
         <activity android:name=".activity.TilpasningController"></activity>
         <activity android:name=".activity.TraeningController"></activity>
+        <activity android:name=".activity.grafController"></activity>
         <activity
             android:name=".activity.VennelisteController"
             android:windowSoftInputMode="adjustResize">

@@ -264,6 +264,10 @@
         "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\resultatgraf.xml",
+        "source": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\resultatgraf.xml"
+    },
+    {
         "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\abc_search_view.xml"
     },
