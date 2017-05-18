@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{Use case diagrammer}{14}{section*.17}
 \contentsline {subsubsection}{Aktivitetsdiagrammer}{14}{section*.19}
 \contentsline {subsubsection}{Klassediagrammer}{15}{section*.21}
-\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.23}
+\contentsline {subsubsection}{Sekvensdiagrammer}{15}{section*.23}
 \contentsline {section}{\numberline {4.2}Unified Process}{16}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Systemanalyse}{18}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{18}{section.5.1}
