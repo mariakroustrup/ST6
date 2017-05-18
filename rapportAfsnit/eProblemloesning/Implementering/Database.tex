@@ -1,13 +1,13 @@
-\subsection{Implementering af database}
+\section{Implementering af database}
 Til implementering af databasen samt kommunnikation med denne benyttes programmet XAMPP. Programmet opretter en lokal apache webserver samt database på en given computer, der fungerer som et Localhost miljø. Den lokale webserver simulerer en ekstern webserver, hvilket giver et passende miljø til at teste og udvikle prototypen. Dertil anses dette ikke som værende fjernt fra et virkelighedsnært senarie, hvor systemet benyttes med ekstern server og database.
 Ved direkte håndtering af databasen benyttes phpMyAdmin, der er et online databaseadministrationssystem, som understøtter Structured Query Language (SQL) \autoref{silbershatz2011}. 
 Databasen er implementeret under navnet \textit{db\_KOL}, hvori tabeller oprettes på baggrund designet jf. \autoref{sec:ER} i relation til attributter og datatyper.
 
-\subsubsection{Kommunikation med databasen}
+\subsection{Kommunikation med databasen}
 Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor PHP: Hypertext preprocessor scripts benyttes. PHP er et Server-Side Scripting Language, hvilket køres på serveren og muliggøre systemet kan tilgå databasen \citep{silbershatz2011}. 
 Der er oprettet et php-script, \textit{config.php}, der indeholder informationerne host, bruger, adgangskode samt navn på den oprettede database. Dette script inkluderes i et seperat script, \textit{DB\_connect.php}, til at etablerer forbindelsen til databasen. Der er opstillet forskellige PHP-scripts, som javakoden refererer til via URL links. Af disse links fremgår ip-adressen for serveren samt filplaceringen af det givne script. 
 
-De forskellige scripts får information fra app'en for således at kunne udføre SQL-kommandoer. Informationen sendes fra app'en som en JavaScript Object Notation (JSON) repræsentation. JSON er et dataoverførselsformat, der  gør det muligt at pakke data som et objekt eller array. PHP-scripts brugt i dette projekt er sat op til at tjekke, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af PHP-scriptet for log ind er visualiseret. 
+De forskellige scripts får information fra app'en for således at kunne udføre SQL-kommandoer. Informationen sendes fra app'en som en JavaScript Object Notation (JSON) repræsentation. JSON benyttes ved dataoverførsel, det er hertil muligt at pakke data som et objekt eller array.\citep{silbershatz2011} PHP-scripts brugt i dette projekt er sat op til at tjekke, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af PHP-scriptet for log ind er visualiseret. 
 
 \begin{figure} [H]
 \centering
@@ -17,12 +17,12 @@ De forskellige scripts får information fra app'en for således at kunne udføre
 \end{figure}
 
 \noindent
-Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne gemmes i et associativt array, der ved hjælp af en POST-metode gør det muligt at overføre data til et andet script, \textit{db\_functions.php}, hvori SQL-kommandoer udføres. Linje 21 viser, hvordan variablerne benyttes i et funktionskald, der eksekveres i \textit{db\_functitons.php}. Af \autoref{fig:phplogindsql} ses et udklip af denne funktion.
+Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne gemmes i et associativt array, der ved hjælp af en POST-metode gør det muligt at overføre data til et andet script, \textit{db\_functions.php}, hvori SQL-kommandoer udføres \citep{w3schools2017}. Linje 21 viser, hvordan variablerne benyttes i et funktionskald, der eksekveres i \textit{db\_functitons.php}. Af \autoref{fig:phplogindsql} ses et udklip af denne funktion.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/imple/phplogindsql}
-\caption{SQL-kommando for funktionen log ind.}
+\caption{Udklip af PHP-scripts for funktionen log ind. Herunder ses SQL-kommandoen for denne funktion.}
 \label{fig:phplogindsql}
 \end{figure}
 
@@ -33,7 +33,7 @@ Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Den vis
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/imple/phplogindresp}
-\caption{Datahåndtering i PHP-scriptet førend respons til app'en.}
+\caption{Udklip af PHP-scripts, hvori user håndteres og sendes til app'en.}
 \label{fig:phplogindresp}
 \end{figure}
 
