@@ -23,16 +23,17 @@ din næste træning"
         android:layout_marginTop="40dp"/>
 
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="21dp"
         android:id="@+id/textHelbred2"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:text="Hvordan oplevede du træningen i dag?"
         android:textAlignment="center"
-        android:layout_below="@+id/textHelbred1"
         android:textSize="18sp"
-        android:layout_centerVertical="true" />
+        android:layout_below="@+id/textHelbred1"
+        android:layout_alignLeft="@+id/textHelbred1"
+        android:layout_alignStart="@+id/textHelbred1" />
 
     <ImageView
         android:id="@+id/smiley_Middel"

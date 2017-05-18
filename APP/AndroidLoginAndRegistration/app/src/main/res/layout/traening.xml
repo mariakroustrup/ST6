@@ -71,12 +71,11 @@
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:text="Start træning"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="69dp"
         android:textSize="20sp"
         android:visibility="visible"
         android:layout_below="@+id/afstand"
-        android:layout_alignRight="@+id/km"
-        android:layout_alignEnd="@+id/km" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/stop"
