@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/Beloenniger1"
-        android:layout_width="220dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="40dp"
-        android:layout_weight="0.00"
-        android:text="Belønninger"
+        android:layout_weight="0.01"
+        android:text="Dine belønninger"
         android:textAlignment="center"
         android:textSize="40dp" />
 
