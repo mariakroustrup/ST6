@@ -1,12 +1,20 @@
 package info.androidhive.loginandregistration.activity;
 
 import android.Manifest;
+import android.annotation.TargetApi;
+import android.app.AlarmManager;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.media.MediaPlayer;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +22,7 @@ import android.os.SystemClock;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +36,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
@@ -74,11 +84,13 @@ public class TraeningController extends AppCompatActivity {
             Long m = getMinutes();
 
 //
-//            MediaPlayer mediaPlayer = new MediaPlayer();
-//            mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
-//            if (Minutes== 1){
-//                mediaPlayer.start();
-//            }
+      //MediaPlayer mediaPlayer = new MediaPlayer();
+
+
+            if (Minutes == m && Seconds == 0){
+                MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
+         mediaPlayer.start();
+         }
 //           mediaPlayer.start();
 //            MediaPlayer song = MediaPlayer.create(TraeningController.this, R.raw.beep);
 //            if (UpdateTime == 2){
@@ -101,6 +113,7 @@ public class TraeningController extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.traening);
         long min = getIntent().getLongExtra("Value", mm);
+        Log.d(String.valueOf(min),"hej");
         medlemsid = getIntent().getStringExtra("medlemsid");
         //MediaPlayer mediaPlayer = new MediaPlayer();
         //mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.beep);
@@ -253,6 +266,7 @@ public class TraeningController extends AppCompatActivity {
 
                 StartTime = SystemClock.uptimeMillis();
                 handler.postDelayed(runnable, 0);
+                StopNotifikation();
 
             }
         });
@@ -388,6 +402,7 @@ public class TraeningController extends AppCompatActivity {
         Button videre = (Button) findViewById(R.id.Videreeval);
         videre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+               // scheduleNotification(getNotification("Har du husket at træne i dag?"));
 
 
                 String temp1 = kondi.getKondi_type();
@@ -407,6 +422,7 @@ public class TraeningController extends AppCompatActivity {
                 startActivity(myIntent);
                 kondi.hent_b_resultater(medlemsid);
                 finish();
+                scheduleNotification(getNotification("Har du husket at træne i dag?"));
             }
         });
     }
@@ -449,6 +465,42 @@ public class TraeningController extends AppCompatActivity {
         stop.setVisibility(view.INVISIBLE);
         stop.setEnabled(true);
         stop.setClickable(true);
+    }
+
+    private void scheduleNotification(Notification notification){
+        Intent notificationIntent = new Intent(this, NotificationPublisher.class);
+        notificationIntent.putExtra("NOTIFICATION_ID",1);
+        notificationIntent.putExtra(NotificationPublisher.NOTIFICATION, notification);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        Calendar calendar = Calendar.getInstance();
+        Calendar now = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 16);
+        calendar.set(Calendar.MINUTE, 14);
+        calendar.set(Calendar.SECOND, 00);
+        if(now.after(calendar)){
+            calendar.add(Calendar.DATE,1);
+        }
+
+        long tiden = calendar.getTimeInMillis();
+        AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, tiden, AlarmManager.INTERVAL_DAY, pendingIntent);
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    private Notification getNotification (String content){
+        Notification.Builder builder = new Notification.Builder(this);
+        builder.setContentTitle("KOL APP");
+        builder.setContentText(content);
+        builder.setSmallIcon(R.drawable.notification);
+        Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        builder.setSound(alarmSound);
+        return builder.build();
+    }
+
+    public void StopNotifikation(){
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.cancelAll();
     }
 
 }

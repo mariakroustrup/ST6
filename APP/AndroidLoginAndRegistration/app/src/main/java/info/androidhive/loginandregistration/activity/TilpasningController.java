@@ -41,7 +41,7 @@ public class TilpasningController extends AppCompatActivity {
     Button btnVidereHelbred;
     Button btnOKanbefal;
     TextView TVAnbefaling;
-    double mm;
+    long mm;
 
     public static String URL_HENTEVALUERING = "http://172.31.159.63/android_login_api/hentevaluering.php";
 
@@ -249,7 +249,7 @@ public class TilpasningController extends AppCompatActivity {
             } else if (helbredstilstand == 1 && evaluering == 3) {
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
-                setMinutter(15);
+                setMinutter(2); //15
             } else if (helbredstilstand == 2 && evaluering == 1) {
                 TextView TVAnbefaling = (TextView) findViewById(R.id.TVanbefaling);
                 TVAnbefaling.setText("Din anbefalede træningstid er 15 minutter");
@@ -536,7 +536,7 @@ public class TilpasningController extends AppCompatActivity {
             AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
         }
 
-    public void setMinutter(double newMinutter){
+    public void setMinutter(long newMinutter){
         mm = newMinutter;
     }
 
