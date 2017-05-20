@@ -23,14 +23,14 @@
 \contentsline {subsubsection}{Use case diagrammer}{14}{section*.17}
 \contentsline {subsubsection}{Aktivitetsdiagrammer}{14}{section*.19}
 \contentsline {subsubsection}{Klassediagrammer}{15}{section*.21}
-\contentsline {subsubsection}{Sekvensdiagrammer}{15}{section*.23}
+\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.23}
 \contentsline {section}{\numberline {4.2}Unified Process}{16}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Systemanalyse}{18}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{18}{section.5.1}
 \contentsline {section}{\numberline {5.2}Kravspecifikationer}{19}{section.5.2}
 \contentsline {subsubsection}{Funktionelle krav}{19}{section*.26}
 \contentsline {subsubsection}{Non-funktionelle krav}{19}{section*.27}
-\contentsline {subsection}{\numberline {5.2.1}Use case}{19}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Use case}{20}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Funktionalitet}{21}{section.5.3}
 \contentsline {section}{\numberline {5.4}Analyseklasser}{34}{section.5.4}
 \contentsline {chapter}{\chapternumberline {6}Systemdesign}{36}{chapter.6}
@@ -40,31 +40,31 @@
 \contentsline {subsection}{\numberline {6.3.1}ER-diagram}{56}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Schema}{57}{subsection.6.3.2}
 \contentsline {chapter}{\chapternumberline {7}Implementering}{59}{chapter.7}
-\contentsline {section}{\numberline {7.1}Android Studio}{59}{section.7.1}
+\contentsline {section}{\numberline {7.1}Implementeringsplatform}{59}{section.7.1}
 \contentsline {section}{\numberline {7.2}Implementering af gr\IeC {\ae }nseflader}{59}{section.7.2}
-\contentsline {section}{\numberline {7.3}Implementering af model og controller klasser}{60}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Implementering af database}{61}{subsection.7.3.1}
-\contentsline {subsubsection}{Kommunikation med databasen}{61}{section*.88}
-\contentsline {subsection}{\numberline {7.3.2}Implementering af tilpasning af tr\IeC {\ae }ningsniveau}{62}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Implementering af resultater}{63}{subsection.7.3.3}
-\contentsline {chapter}{\chapternumberline {8}Test}{64}{chapter.8}
-\contentsline {section}{\numberline {8.1}Database}{64}{section.8.1}
-\contentsline {section}{\numberline {8.2}Log ind}{65}{section.8.2}
-\contentsline {section}{\numberline {8.3}Kategorisering}{66}{section.8.3}
-\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{67}{section.8.4}
-\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{70}{section.8.5}
-\contentsline {section}{\numberline {8.6}Resultater}{73}{section.8.6}
-\contentsline {section}{\numberline {8.7}Venneliste}{74}{section.8.7}
-\contentsline {section}{\numberline {8.8}Redigering}{75}{section.8.8}
-\contentsline {section}{\numberline {8.9}Log ud}{76}{section.8.9}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{78}{chapter.9}
-\contentsline {section}{\numberline {9.1}Diskussion}{78}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{78}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Design}{78}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Implementering}{80}{subsection.9.1.3}
-\contentsline {subsection}{\numberline {9.1.4}I praksis}{80}{subsection.9.1.4}
-\contentsline {section}{\numberline {9.2}Konklusion}{81}{section.9.2}
-\contentsline {section}{\numberline {9.3}Perspektivering}{82}{section.9.3}
-\contentsline {chapter}{Litteratur}{83}{section*.96}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{86}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{86}{section.A.1}
+\contentsline {section}{\numberline {7.3}Implementering af model og controllerklasser}{60}{section.7.3}
+\contentsline {section}{\numberline {7.4}Implementering af database}{61}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Kommunikation med databasen}{61}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Implementering af tilpasning af tr\IeC {\ae }ningsniveau}{63}{section.7.5}
+\contentsline {section}{\numberline {7.6}Implementering af resultater}{63}{section.7.6}
+\contentsline {chapter}{\chapternumberline {8}Test}{65}{chapter.8}
+\contentsline {section}{\numberline {8.1}Database}{65}{section.8.1}
+\contentsline {section}{\numberline {8.2}Log ind}{66}{section.8.2}
+\contentsline {section}{\numberline {8.3}Kategorisering}{67}{section.8.3}
+\contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{68}{section.8.4}
+\contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{71}{section.8.5}
+\contentsline {section}{\numberline {8.6}Resultater}{74}{section.8.6}
+\contentsline {section}{\numberline {8.7}Venneliste}{75}{section.8.7}
+\contentsline {section}{\numberline {8.8}Redigering}{76}{section.8.8}
+\contentsline {section}{\numberline {8.9}Log ud}{77}{section.8.9}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{79}{chapter.9}
+\contentsline {section}{\numberline {9.1}Diskussion}{79}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{79}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Design}{79}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Implementering}{81}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}I praksis}{81}{subsection.9.1.4}
+\contentsline {section}{\numberline {9.2}Konklusion}{82}{section.9.2}
+\contentsline {section}{\numberline {9.3}Perspektivering}{83}{section.9.3}
+\contentsline {chapter}{Litteratur}{84}{section*.96}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{87}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{87}{section.A.1}
