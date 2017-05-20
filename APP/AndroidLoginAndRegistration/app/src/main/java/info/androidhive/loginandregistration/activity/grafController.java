@@ -127,15 +127,15 @@ public class grafController extends AppCompatActivity {
        // int nr = Integer.parseInt(jsonMap.get(days[0]))/60;
 
 
-        ArrayList<BarEntry> barEntries = new ArrayList<>();
-        barEntries.add(new BarEntry(data[0]/60,0));
-        barEntries.add(new BarEntry(data[1]/60,1));
-        barEntries.add(new BarEntry(data[2]/60,2));
-        barEntries.add(new BarEntry(data[3]/60,3));
-        barEntries.add(new BarEntry(data[4]/60,4));
-        barEntries.add(new BarEntry(data[5]/60,5));
-        barEntries.add(new BarEntry(data[6]/60,6));
-        BarDataSet barDataSet = new BarDataSet(barEntries,"Dates");
+    ArrayList<BarEntry> barEntries = new ArrayList<>();
+    barEntries.add(new BarEntry(data[0]/60,0));
+    barEntries.add(new BarEntry(data[1]/60,1));
+    barEntries.add(new BarEntry(data[2]/60,2));
+    barEntries.add(new BarEntry(data[3]/60,3));
+    barEntries.add(new BarEntry(data[4]/60,4));
+    barEntries.add(new BarEntry(data[5]/60,5));
+    barEntries.add(new BarEntry(data[6]/60,6));
+    BarDataSet barDataSet = new BarDataSet(barEntries,"Dates");
 
         ArrayList<String> theDates = new ArrayList<>();
         theDates.add("Man");
