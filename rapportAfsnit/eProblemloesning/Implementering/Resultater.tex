@@ -1,4 +1,15 @@
 \section{Implementering af resultater}
+For at brugeren kan følge sin egen udvikling er der implementeret et BarChart. Denne graf viser tiden brugeren har trænet for den givne uge. Af denne graf plottes en træningstid for hver af ugens dage. Af \autoref{fig:koderesul} fremgår et udpluk af implementeringen for den opstillede graf.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/imple/koderesul}
+\caption{Udklip af javakode for BarChart, der illustrerer brugerens ugentlige træningtid.}
+\label{fig:koderesul}
+\end{figure} 
+
+Der ses af dette udklip, at der oprettes en ArrayList under navnet \textit{barEntries}. Dette array anvendes til at lagre mængden af data, der ønskes plottet. Dertil ses det, hvoledes nye elementer tilføjes dette array ud fra en værdi og index. Værdien, der instættes tages fra et andet array af navnet \textit{data}, hvori der lagres en træningstid for ugens dage. Plads nr. 0 referer til den første dag i ugen, og tæller således op efter ugens dage. \textit{Data} er divideret med 60, da træningstiden er gemt som sekunder og ønskes plottet i minutter. 
+
 Belønninger gives udfra samlet tid, afstand, antal træninger samt antal konditionstræninger og beregnes efter endt træning. Da disse belønninger er baseret ud fra den samlede træning, hentes den samlagte tid, afstand samt totale antal træninger fra databasen og omregnes til et tal mellem 1-6, der repræsenterer antallet af stjerner brugeren har opnået. Et udklip af javakoden for omregningen for brugere med en kategorisering "A" ses af \autoref{fig:kodebelon}.
 
 \begin{figure} [H]

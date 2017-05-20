@@ -1,15 +1,15 @@
 \subsection*{Resultater}
-Resultater har en boundary, hvortil der er opstillet en controlklasse. Boundary og tilhørende controller fremgår af \autoref{fig:MVCresultater}. 
+Resultater har to boundarys, hvortil der er opstillet en controlklasse. Boundarys og tilhørende controller fremgår af \autoref{fig:MVCresultater}. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/MVC/MVCResultater}
-\caption{Designklasser for resultater. Til venstre ses boundary for Belønninger. Til højre fremgår den tilhørende controller.}
+\caption{Designklasser for resultater. Til venstre ses boundarys for den grafiske udvikling og belønninger. Til højre fremgår den tilhørende controller.}
 \label{fig:MVCresultater}
 \end{figure}
 
 \noindent
-I grænsefladen billede af typen ImageView og tekstfelter af typen TextView. Billederne viser antallet af stjerner, brugeren har opnået.
+I boundary \textit{GrafiskUdvikling} er der opstillet en graf af typen BarChart samt en knap af typen Button, for at give mulighed for at tilgå sine belønninger. Boundary for \textit{Belønninger} indeholder billede af typen ImageView og tekstfelter af typen TextView. Billederne viser antallet af stjerner, brugeren har opnået.
 Controlleren for \textit{Resultater} indeholder Hent, Vis, Lyt og Start-metoder. 
 
 I sammenspil med designklasserne for resultater er der udarbejdet et sekvensdiagram, hvilket fremgår af \autoref{fig:SEKResultater}
@@ -22,7 +22,7 @@ I sammenspil med designklasserne for resultater er der udarbejdet et sekvensdiag
 \end{figure} 
 
 \noindent 
-Når brugeren er tilgået resultater henter controlleren, \textit{KonditionResultater} resultater fra \textit{Databasen} via dens controller. Hvis brugeren endnu ikke har nogle resultater, vil disse ikke hentes, hvorved disse ikke vil vises i grænsefladen for \textit{Belønninger}. Grænsefladen viser stjerner opnået indenfor tid, afstand, konditonstræning og antal træninger. Trykker brugeren ikke tilbage, forbliver brugeren på grænsefladen for \textit{Belønninger}
+Når brugeren tilgår resultater henter \textit{ResultatController} gennem \textit{DatabaseControlleren} brugerens resultater fra databasen. Disse resultater vises i et BarChart af \textit{GrafiskUdvikling}. Dertil er der opstillet en \textit{BelønningerKnap}, der videresender brugeren til sine \textit{Belønninger} ved tryk. Idet brugeren trykker på knappen, henter \textit{ResultatController} gennem \textit{DatabaseControllerne} brugerens belønninger, der vises i boundaryen. Denne viser stjerner opnået indenfor tid, afstand, konditonstræning og antal træninger.
 
 %Der er til \textit{ResultaterGrænseflade} opstillet en \textit{ResultatController}, der har til formål at hente nye resultater fra dagens træning i træningscontrolleren, når resultater tilgås via hovedmenugrænsefladen. Herefter vises en oversigtsgraf over udført træning. Træningscontrolleren fremgår af \autoref{fig:MVCTraening}.
 %Controlleren lytter på om brugeren trykker på de angivne knapper i grænsefladen for resultater og viser valgt handling, hvis dette er tilfældet. 
