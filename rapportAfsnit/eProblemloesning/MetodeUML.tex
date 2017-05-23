@@ -1,5 +1,5 @@
 \subsection{Unified Modellig Language}
-En af de anvendte sprog indenfor objektorienteret programmering er standarden Unified Modelling Language (UML). Ud fra denne standard anvendes modeller til at visualisere struktur og egenskaber af systemet. Derudover relaterer metoderne til analyse og design af systemet. Til visualiseringen anvendes forskellige UML diagrammer, som kan opdeles i tre kategorier, herunder adfærds-, struktur- og interaktiondiagrammer. Adfærdsdiagrammer er for eksempel use case- og  aktivitetsdiagrammer. Strukturdiagrammer kan være klassediagrammer, mens interaktionsdiagrammer kan være sekvensdiagrammer. \cite{Fowler2004, Williams2004}.
+En af de anvendte standarder indenfor objektorienteret programmering er Unified Modelling Language (UML). Ud fra denne standard anvendes modeller til at visualisere struktur og egenskaber af systemet. Derudover relaterer metoderne til analyse og design af systemet. Til visualiseringen anvendes forskellige UML-diagrammer, som kan opdeles i tre kategorier, herunder adfærds-, struktur- og interaktiondiagrammer. Adfærdsdiagrammer er for eksempel use case- og  aktivitetsdiagrammer. Strukturdiagrammer kan være klassediagrammer, mens interaktionsdiagrammer kan være sekvensdiagrammer. \cite{Fowler2004, Williams2004}.
 
 
 \subsubsection{Use case diagrammer} 
@@ -13,11 +13,11 @@ Use case diagrammer benyttes til at illustrere aktørernes interaktion med et sy
 \end{figure}
 
 \noindent
-Af \autoref{fig:use_case} ses aktørens interaktion med use case visualiseret som en streg mellem de to. I et use case diagram vil aktøren definere en person, der kan tilgå systemets funktionaliteter. Dette kan eksempelvis være en person, rolle, objekt eller en anden given genstand. Hertil vil den enkelte use case beskrive en handling eller funktionalitet i systemet. Ved anvendelse af flere use cases kan der opstå et forhold mellem de enkelte use cases. Dette forhold visualiseres med en stiblet pil mellem use casene og kan enten være include eller extend. Hvis en use case ikke kan stå alene og derfor er nødt til at arve noget fra en anden use case er denne include. Modsat kan extend anvendes, hvis use casen kan stå alene. \cite{Fowler2004, Williams2004}
+Af \autoref{fig:use_case} ses aktørens interaktion med use case visualiseret som en streg mellem de to. I et use case diagram vil aktøren kunne tilgå systemets funktionaliteter. Aktøreren kan eksempelvis være en person, rolle, objekt eller anden given genstand. Hertil vil den enkelte use case beskrive en handling eller funktionalitet i systemet. Ved anvendelse af flere use cases kan der opstå et forhold mellem de enkelte use cases. Dette forhold visualiseres med en stiblet pil mellem use casene og kan enten være include eller extend. Hvis en use case ikke kan stå alene og derfor er nødt til at arve noget fra en anden use case er denne include. Modsat kan extend anvendes, hvis use casen kan stå alene. \cite{Fowler2004, Williams2004}
 
 
 \subsubsection{Aktivitetsdiagrammer} 
-Aktivitetsdiagrammer anvendes til at beskrive, hvad der sker i programmet, herunder proceduremæssig logik, business processer og arbejdsflow. Aktiviteter kan opdeles i subaktiviteter eller metoder. Subaktiviteter vil fremgå af diagrammet ved et rivesymbol, mens metoder vil fremgå ved syntaksen klasse-navn::metode-navn. Aktivitetsdiagrammer fortæller ikke hvem, der udfører aktiviteten, hertil kan der anvendes skillevægge, som viser, hvilken aktivitet en klasse eller organisation tilhører. For at holde et aktivitetsdiagram enkelt kan der anvendes et brillesymbol i en aktivitet. Denne aktivitet vil efterfølgende kunne beskrives yderligere i et nyt aktivitetsdiagram.\cite{Fowler2004} Symboler, der kan anvendes inden for aktivitetsdiagrammer, fremgår af \autoref{fig:aktivitetsdiagram}.
+Aktivitetsdiagrammer anvendes til at beskrive, hvad der sker i programmet, herunder proceduremæssig logik, business processer og arbejdsflow. Aktiviteter kan opdeles i subaktiviteter eller metoder.  Aktivitetsdiagrammer fortæller ikke hvem, der udfører aktiviteten, hertil kan der anvendes skillevægge, som viser, hvilken aktivitet en klasse tilhører. For at holde et aktivitetsdiagram enkelt kan der anvendes et brillesymbol i en aktivitet. Denne aktivitet vil efterfølgende kunne beskrives yderligere i et nyt aktivitetsdiagram.\cite{Fowler2004} Symboler, der kan anvendes inden for aktivitetsdiagrammer, fremgår af \autoref{fig:aktivitetsdiagram}.
 
 \begin{figure} [H]
 \centering
@@ -42,20 +42,20 @@ Klassediagrammer anvendes som redskab til at beskrive strukturen i et givent sys
 \end{figure}
 
 \noindent
-Attributter og metoder kan markeres med symbolerne; +, - eller \#, som symboliserer, at de henholdsvis er public, private eller beskyttede, jf. \autoref{sec:OOP}.
+Attributter og metoder kan markeres med symbolerne; +, - eller \#, som symboliserer, at de henholdsvis er public, private eller beskyttede, jf. \autoref{sec:OOP}. Parenteserne angiver en metode, hvori der kan defineres inputsparametre.
 
-Relationerne mellem klasserne illustreres ved brug af forskellige pile, og disse kan navngives for at tydeliggøre forholdet mellem  klasserne. Yderligere kan multipliciteten angives ved at tilføje symbolet *, der angiver "mange", eller specifikke værdier i pilenes ender. 
+Relationerne mellem klasserne illustreres ved brug af forskellige pile, og disse kan navngives for at tydeliggøre forholdet mellem  klasserne.
 
 Klassediagrammer kan inddeles i tre stereotyper, herunder entity, boundary og control, hvilket anvendes til at identificere klasser i analyse og tidlig designfase \cite{RSC2002}.
 
 \begin{itemize}
 \item \textit{Entity} anvendes til at lagre og opdatere informationer om objekter. Dens attributværdier gives ofte af en aktør.\cite{RSC2002}
-\item \textit{Boundary} anvendes til interaktion mellem bruger og system og sikre at ændringer i boundary ikke påvirker resten af systemet \cite{RSC2002}.
+\item \textit{Boundary} anvendes til interaktion mellem bruger og system og sikrer, at ændringer i boundary ikke påvirker resten af systemet \cite{RSC2002}.
 \item \textit{Control} anvendes til at kontrollere handlinger \cite{RSC2002}. 
 \end{itemize}
 
 \subsubsection{Sekvensdiagrammer}
-Sekvensdiagrammer anvendes til at beskrive detaljer om, hvilke og hvornår forskellige operationer udføres. Disse diagrammer er organiseret efter tid. De forskellige objekter, som anvendes i operationerne er angivet fra venstre mod højre. Sekvensdiagrammer anvendes i design og er udarbejdet ud fra use case diagrammer.\cite{Brahma2015} Et simpelt sekvensdiagram fremgår af \autoref{fig:sekvens}.
+Sekvensdiagrammer anvendes til at beskrive detaljer om, hvilke og hvornår forskellige operationer udføres. Disse diagrammer er organiseret efter flow. De forskellige objekter, som anvendes i operationerne er angivet fra venstre mod højre. Sekvensdiagrammer anvendes i design og er udarbejdet ud fra use case diagrammer.\cite{Brahma2015} Et simpelt sekvensdiagram fremgår af \autoref{fig:sekvens}.
 
 \begin{figure} [H]
 \centering
@@ -65,7 +65,7 @@ Sekvensdiagrammer anvendes til at beskrive detaljer om, hvilke og hvornår forsk
 \end{figure}
 
 \noindent
-Af \autoref{fig:sekvens} fremgår det, at hver objekt i et use case diagram har en kolonne i sekvensdiagrammet. Den vertikale retning beskriver tiden, og de horisontale linjer illustrerer funktionaliteter. For enden af de horisontale pile er der navngivet metoden på objektet. Hver objekt har en livslinje, hvor på der kan illustreres en aflang boks, som beskriver, hvornår objektet er aktivt. \cite{Brahma2015}
+Den vertikale retning af \autoref{fig:sekvens} beskriver flowet, og de horisontale linjer illustrerer funktionaliteter. Over de horisontale pile er der navngivet metoden på objektet. Hver objekt har en livslinje, hvorpå der kan illustreres en aflang boks, som beskriver, hvornår objektet er aktivt. \cite{Brahma2015}
 
 Sekvensdiagrammer kan opdeles i Model-View-Controller (MVC) arkitektur, der har ligheder med de definerede stereotyper i klassediagrammer. MVC anvendes til at organisere systemet og giver større fleksibilitet \cite{Brahma2015}. 
 

@@ -3,28 +3,28 @@ Venneliste inddeles i to boundaryklasser og  to controlklasser, som fremgår af 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/MVC/MVCVenneliste}
+\includegraphics[width=0.7\textwidth]{figures/MVC/MVCVenneliste}
 \caption{Designklasser for venneliste. Til venstre ses boundary for Venneliste og Ven, hvor der til højre ses tilhørende controllere.}
 \label{fig:MVCVenneliste}
 \end{figure}
 
 \noindent
-I grænsefladen \textit{Venneliste} findes en liste, af typen ListView, med navn på de brugere, der følges. Hver bruger, der vises af den givne grænseflade, kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflade et søgefelt, af typen EditText, med en tilhørende SøgVenKnap, af typen Button, som muliggør, at brugeren kan søge på andre brugere med deres medlemsID. 
-Grænsefladen, \textit{Ven}, indeholder tekstfelter af typen TextView som viser brugerens navn og medlemsID. Derudover er der anvendt billede af typen ImageView, som viser brugerens belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgVenKnap. Følges brugeren allerede er der opstillet en FjernVenKnap. 
+I grænsefladen \textit{Venneliste} findes en liste, af typen ListView, med navn på de brugere, der følges. Hver bruger, der vises af den givne grænseflade, kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflade et søgefelt, af typen EditText, med en tilhørende SøgVenKnap, af typen Button, som muliggør, at brugeren kan søge på andre brugere ved at angive deres medlemsID. 
+Grænsefladen, \textit{Ven}, indeholder tekstfelter af typen TextView, som viser brugerens navn og medlemsID. Derudover er der anvendt billede af typen ImageView, som viser brugerens belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgVenKnap. Følges brugeren allerede er der opstillet en FjernVenKnap. 
 
-Controlleren for \textit{Venneliste} har metoderne Hent og Vis, mens \textit{Ven} indeholder Lyt, Opret, Slet og makeText. Metoden makeText anvendes i forbindelse med fejlmeddelelser.  
+Controlleren for \textit{Venneliste} har metoderne Hent og Vis, mens \textit{Ven} indeholder Lyt, Vis, Opret, Slet og Fejlmeddelelse.  
 Ud fra de nævnte designklasser er udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKVenneliste}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1.55\textwidth, angle=90]{figures/Sek/SEKVenneliste}
-\caption{Sekvensdiagram for venneliste.}
+\caption{Sekvensdiagram for venneliste. *****RET TIL!*********}
 \label{fig:SEKVenneliste}
 \end{figure}
 
 \noindent
-Controlleren \textit{Venneliste} henter venneliste fra \textit{Database} via dens tilhørende controller, hvorefter vises grænsefladen for venneliste. 
-Dertil lytter controlleren for \textit{Ven} på VælgVenKnap samt SøgVenKnap. Vælger brugeren at tilgå en ven fra vennelisten, vises grænsefladen \textit{Ven}. Vælger brugeren derimod at søge efter en anden bruger, hentes det indskrevne medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren ikke findes i databasen vises en fejlmeddelelse i \textit{Venneliste} grænsefladen. Findes brugeren i databasen vises grænsefladen \textit{Ven}, hvor brugeren har mulighed for at følge eller fjerne en bruger, hvis denne allerede følges. Hvis brugeren trykker på FølgVenKnap oprettes der en vennerelation i databasen, hvor vennerelationen modsat vil slettes ved tryk på FjernVenKnap. 
+Controlleren \textit{Venneliste} henter venneliste fra \textit{Database} via dens tilhørende controller, hvorefter grænsefladen for venneliste vises. 
+Dertil lytter controlleren for \textit{Ven} på VælgVenKnap samt SøgVenKnap. Vælger brugeren at tilgå en ven fra vennelisten, vises grænsefladen \textit{Ven}. Vælger brugeren derimod at søge efter en anden bruger, hentes det indtastede medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren ikke findes i databasen vises en fejlmeddelelse i \textit{Venneliste} grænsefladen. Findes brugeren i databasen vises grænsefladen \textit{Ven}, hvor brugeren har mulighed for at følge eller fjerne en bruger, hvis denne allerede følges. Hvis brugeren trykker på FølgVenKnap oprettes der en vennerelation i databasen, hvor vennerelationen modsat vil slettes ved tryk på FjernVenKnap. 
 %Venneliste inddeles i en grænseflade og dertilhørende controller, som det fremgår af \autoref{fig:MVCVenneliste}. 
 
 %\begin{figure} [H]

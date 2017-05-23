@@ -4,23 +4,21 @@ På baggrund af systembeskrivelsen samt opstillede krav er der udarbejdet et use
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/aktivitetsdiagram/Usecase}
-\caption{Use case diagram for app til KOL-patienter}
+\caption{Use case diagram for app til KOL-patienter.}
 \label{fig:usecase}
 \end{figure}
 
 \noindent
-KOL-patienter skal \textit{Log ind} i app'en via medlemsID og adgangskode. Første gang de logger ind skal de \textit{Foretag kategorisering}. Denne kategorisering gemmes efterfølgende i en database.
+KOL-patienter skal \textit{Log ind} i app'en via medlemsID og adgangskode. Første gang de logger ind skal de \textit{Foretag kategorisering}. Denne kategorisering tilknyttes brugerens medlemsID og gemmes efterfølgende i en database.
 Hvis kategoriseringen er foretaget har brugere adgang til en hovedmenu, hvorfra de kan vælge at udføre træning, tilgå resultater, tilgå venneliste, redigere adgangskode og logge ud. 
 
-Vælger brugeren, at \textit{Udføre træning} tilpasses træningsniveauet før selve træningen kan påbegyndes ud fra \textit{Tilpasning af træningsniveau}, der vurderes på baggrund af kategoriseringen, daglig helbredstilstand samt evaluering af tidligere træninger. 
+Førend brugeren kan udføre træning foretages \textit{Tilpasning af træningsniveau}, der vurderes på baggrund af kategoriseringen, daglig helbredstilstand samt tidligere evaluering baseret ud fra samme træning samt helbredstilstand. Efter træningsniveauet er tilpasset kan brugeren \textit{Udfør træning}.
 
-Efter træningen skal brugere evaluere træningen, og de kan efterfølgende tilgå deres  resultater. Evaluering og resultater fra træningen gemmes efterfølgende i en database. Brugere kan \textit{Tilgå resultater}, der viser brugerens ugentlige udvikling samt virtuelle belønninger, som opnås på baggrund af udførte træninger. 
-
-
+Efter træningen skal brugere evaluere træningen, og de kan efterfølgende tilgå deres resultater. Evaluering og resultater fra træningen gemmes efterfølgende i databasen. Brugere kan \textit{Tilgå resultater}, der viser brugerens ugentlige udvikling samt virtuelle belønninger, som opnås på baggrund af udførte træninger. 
 
 Brugere kan via \textit{Tilgå venneliste} tilgå andre KOL-patienters virtuelle belønninger, hvilket medvirker til, at brugere kan motivere hinanden til at udføre træning. 
 
-Brugere kan \textit{Redigere adgangskode}, da det skal være muligt for brugeren at ændre adgangskoden til en personlig adgangskode. Hvis der foretages ændringer gemmes disse efterfølgende i databasen.
+Brugere kan \textit{Rediger adgangskode}, da det skal være muligt for brugeren at ændre adgangskoden til en personlig adgangskode. Hvis der foretages ændringer gemmes disse efterfølgende i databasen.
 Brugeren kan \textit{Log ud} af app'en, hvis dette ønskes. 
 
 %På baggrund af systembeskrivelsen samt opstillede krav er der udarbejdet et use case diagram, der beskriver app'ens funktioner. Af use case diagrammet på \autoref{fig:usecase} ses systemet, app til KOL-patienter, samt de forskellige use cases og aktører, der interagerer med systemet. KOL-patienten er den primære aktør, som kan tilgå alle use cases. Målinger, database, sundhedspersonale og andre KOL-patienter er sekundære aktører og kan kun tilgå enkelte use cases. 

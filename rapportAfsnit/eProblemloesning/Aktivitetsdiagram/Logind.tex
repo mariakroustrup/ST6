@@ -1,20 +1,20 @@
 \subsection*{Log ind}
 I systemet benyttes en log ind-funktion til at beskytte og identificere den enkelte bruger. Brugeren skal her angive log ind-information, der vil tillade adgang til brugerinformation i form af private oplysninger og tidligere resultater, tilknyttet den givne bruger. Aktiviteterne for log ind fremgår af \autoref{fig:logind}.    
 
-
 \begin{figure} [H]
 \centering
 \textbf{Aktivitetsdiagram: Log ind}\par\medskip
 \includegraphics[width=1\textwidth]{figures/aktivitetsdiagram/Logind}
-\caption{Aktivitetsdiagram for log ind. Kategorisering af KOL uddybes af \autoref{fig:Kate}}
+\caption{Aktivitetsdiagram for log ind. Kategorisering af KOL uddybes af \autoref{fig:Kate}.}
 \label{fig:logind}
 \end{figure}
 
 \noindent
-En grænseflade for log ind er det første der vises, når brugeren første gang åbner app'en. Brugeren kan i denne grænseflade angive sit medlemsID samt adgangskode, hvorefter systemet tilsender de indtastede log ind-informationer til databasen. Databasen validerer log ind-informationer og sender brugerdata eller en fejlmeddelelse, hvis medlemsID'et eller adgangskoden ikke findes i databasen. 
+En grænseflade for log ind er det første der vises, når brugeren første gang åbner app'en. Brugeren kan i denne grænseflade angive sit medlemsID samt adgangskode, hvorefter systemet sender de indtastede log ind-informationer til databasen. Databasen validerer log ind-informationer og sender brugerdata eller en fejlmeddelelse, hvis medlemsID'et med tilhørende adgangskode ikke eksisterer i databasen. 
+Sendes en fejlmeddelelse, vises denne, hvorefter brugeren igen har mulighed for at indtaste sit medlemsID samt adgangskode. Har brugeren glemt sine log ind-informationer, bedes brugeren kontakte sundhedspersonalet. Er de indtastede informationer ens med informationerne i databasen, logges brugeren ind, hvormed brugeroplysninger hentes fra databasen.
+Når brugerdata er hentet, validerer systemet om brugeren har en kategorisering. Har brugeren ingen kategorisering, skal brugeren foretage en kategorisering, der fremgår af \autoref{fig:Kate}, ellers vises hovedmenuen.
 
 
-Sendes en fejlmeddelelse vises grænsefladen for log ind, hvor brugeren kan indtaste log ind-informationerne igen. Har brugeren glemt sin log ind-informationer, bedes de kontakte sundhedspersonalet. Findes log ind-informationerne i databasen sendes brugerdata, der omfatter brugeroplysninger, resultater samt venneliste. Når brugerdata er hentet valider systemet om brugeren har fået en kategorisering. Har brugeren ingen kategorisering, henvises brugeren til kategoriseringen, der fremgår af \autoref{fig:Kate}, ellers henvises brugeren videre til hovedmenuen.
 
 
 %Idet brugeren åbner app'en, vil en grænseflade for log ind vises. Hertil er det ikke muligt at gå videre gennem aktiviteterne før brugeren har angivet log ind-information i form af medlemsID og en adgangskode. 
