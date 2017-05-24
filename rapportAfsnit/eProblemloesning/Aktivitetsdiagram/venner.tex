@@ -1,5 +1,5 @@
 \subsection*{Venneliste} 
-For at motivere brugere til regelmæssig træning, vælges at integrere muligheden for sociale relationer i app'en. Dette muliggør, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere har opnået. Hertil skal det være muligt for brugeren at tilføje nye brugere til vennelisten. 
+For at motivere brugere til regelmæssig træning, vælges at integrere muligheden for sociale relationer i app'en. Dette muliggør, at brugere kan følge hinanden og derved se, hvilke belønninger andre brugere har opnået. Hertil skal det være muligt for brugeren at tilføje samt fjerne brugere fra vennelisten. 
 Af \autoref{fig:venner} fremgår et aktivitetsdiagram for vennelisten.
 
 \begin{figure} [H]
@@ -10,11 +10,8 @@ Af \autoref{fig:venner} fremgår et aktivitetsdiagram for vennelisten.
 \label{fig:venner}
 \end{figure}
 
-
-****************** AKTIVITETSDIAGRAMMET SKAL ÆNDRES!*************************
-****************RET TEKST! DATABASEN KAN IKKE OPRETTE ELLER SLETTE EN SKID!*****************
 \noindent
-Systemet viser en grænseflade for vennelisten, der indeholder en oversigt over andre brugere, som den individuelle bruger følger. Brugeren kan vælge at søge efter en ny bruger eller vælge en bruger fra vennelisten. Ønsker brugeren at søge efter en ny, skal brugeren angive medlemsID på denne. Systemet sender det indtastede medlemsID til databasen, som validerer om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive medlemsID på en anden bruger. Er brugeren i databasen, vises grænsefladen for brugeren, hvor det er muligt at følge brugeren, hvis den ikke allerede følges samt fjerne brugeren, hvis det ønskes ikke at følge brugeren mere. Ønskes det at følge brugeren, sender systemet en anmodning om at følge brugeren. Vennerelation oprettes i databasen, hvorefter databasen sender en bekræftelse. Ligeledes sender systemet en anmodning om at fjerne brugeren, hvis dette ønskes, hvorefter vennerelationen slettes i databasen og sender en bekræftelse derpå. Efter bekræftelse eller ved at vælge en ven fra vennelisten viser systemet grænsefladen for den valgte, tilføjede eller fjernede brugers belønninger.
+Tilgår brugeren sin venneliste fra hovedmenuen, hentes brugerens venner fra databasen, hvorefter de opstilles i en liste. Systemet viser hertil en grænseflade for vennelisten, der indeholder en oversigt over de brugere, som den individuelle bruger følger. Brugeren kan vælge at søge efter en ny bruger eller vælge en bruger fra vennelisten. Ønsker brugeren at søge efter en ny, skal brugeren angive medlemsID på denne. Systemet sender det indtastede medlemsID til databasen, som validerer om brugeren findes i databasen. Findes brugeren ikke i databasen, sendes en fejlmeddelelse og brugeren har igen mulighed for at angive medlemsID på en anden bruger fra grænsefladen for venneliste. Er brugeren i databasen, hentes brugerens oplysninger, herunder medlemsID og navn, samt brugerens belønninger. Vælger brugeren en ven fra vennelisten hentes ligeledes brugerens oplysninger samt belønninger. Når brugerens data er hentet fra databasen, vises grænsefladen for brugers belønninger. Det er hertil muligt at følge brugeren, hvis den ikke allerede følges samt fjerne brugeren, hvis det ønskes ikke at følge brugeren mere. Ønskes det at følge eller fjerne en bruger, sender systemet en anmodning, hvorefter en vennerelation oprettes eller slettes i databasen og en bekræftelse sendes. 
 
 
 %Heraf skal det være muligt for den individuelle bruger at tilgå information fra disse. Denne information begrænses til at vise vundne belønninger for de andre brugere, da den resterende information anses som værende personlig til den enkelte bruger. 
