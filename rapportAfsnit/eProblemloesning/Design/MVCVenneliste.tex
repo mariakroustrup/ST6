@@ -1,10 +1,10 @@
 \subsection*{Venneliste}
-Venneliste inddeles i to boundaryklasser og  to controlklasser, som fremgår af \autoref{fig:MVCVenneliste}. 
+Venneliste inddeles i to boundaryklasser og en fælles controlklasse, som fremgår af \autoref{fig:MVCVenneliste}. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.7\textwidth]{figures/MVC/MVCVenneliste}
-\caption{Designklasser for venneliste. Til venstre ses boundary for Venneliste og Ven, hvor der til højre ses tilhørende controllere.}
+\caption{Designklasser for venneliste. Til venstre ses boundary for Venneliste og Ven, hvor der til højre ses tilhørende controller.}
 \label{fig:MVCVenneliste}
 \end{figure}
 
@@ -12,7 +12,8 @@ Venneliste inddeles i to boundaryklasser og  to controlklasser, som fremgår af 
 I grænsefladen \textit{Venneliste} findes en liste, af typen ListView, med navn på de brugere, der følges. Hver bruger, der vises af den givne grænseflade, kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflade et søgefelt, af typen EditText, med en tilhørende SøgVenKnap, af typen Button, som muliggør, at brugeren kan søge på andre brugere ved at angive deres medlemsID. 
 Grænsefladen, \textit{Ven}, indeholder tekstfelter af typen TextView, som viser brugerens navn og medlemsID. Derudover er der anvendt billede af typen ImageView, som viser brugerens belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgVenKnap. Følges brugeren allerede er der opstillet en FjernVenKnap. 
 
-Controlleren for \textit{Venneliste} har metoderne Hent og Vis, mens \textit{Ven} indeholder Lyt, Vis, Opret, Slet og Fejlmeddelelse.  
+Controller for \textit{Venneliste} indeholder private attributter, herunder attributter af typen int og ArrayList. Arrayet for venneliste har til formål at lagre brugerens venner. Dertil har controlleren public metoderne Hent, Vis, Lyt, Søg, Valider, Opret og Slet. Metoderne handler ud fra inputsparametre angivet i parenteserne. 
+
 Ud fra de nævnte designklasser er udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKVenneliste}.
 
 \begin{figure} [H]

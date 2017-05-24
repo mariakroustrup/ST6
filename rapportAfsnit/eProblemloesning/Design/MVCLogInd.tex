@@ -4,14 +4,15 @@ Log ind-funktionen inddeles i en klasse af typen boundary samt en tilhørende co
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/MVC/MVCLogInd}
-\caption{Designklasser for log ind. Til venstre ses grænsefladen og til højre den tilhørende controller. ********** Det skal lige rettes til! også sekvensdiagrammet!***************}
+\caption{Designklasser for log ind. Til venstre ses grænsefladen og til højre den tilhørende controller.}
 \label{fig:Designlogind}
 \end{figure}
 
 \noindent
 I grænsefladen for \textit{Logind} opstilles tekstfelter af typen EditText, hvor brugeren kan angive medlemsID samt adgangskode. Dertil opsættes en LogindKnap, af typen Button, der ved tryk indikerer, at brugerens informationer er angivet og klar til at logge ind. 
 
-Til denne grænseflade er der opstillet en \textit{Logind} controller. Denne controller har metoderne Vis, Lyt, Hent, Opret, Send, Valider, Start og Fejlmeddelelse. Controlleren validerer log ind og opretter en entity, hvori oplysninger senere kan lagres. Denne entity beskrives af \autoref{sec:entity}. Ligeledes håndterer controlleren, hvilken grænseflade systemet efterfølgende skal henvises til. Der er i sammenspil med disse designklasser udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKlogind}.
+Til denne grænseflade er der opstillet en \textit{Logind} controller. Denne controller har metoderne Vis, Lyt, Send, Opret, Valider og Start. Der er opstillet attributter af typen private og metoderne af typen public. Controlleren sender log ind i forhold til inputsparametrene, medlemsidInput og adgangskodeInput, hvorefter brugerens oplysninger hentes via controlleren for database. Denne metode fungerer som en void, hvorfor en værdi ikke returneres. Dertil oprettes en entity, brugeroplysninger, hvori oplysninger senere kan lagres. Denne entity beskrives af \autoref{sec:entity}. Ligeledes håndterer controlleren, hvilken grænseflade systemet efterfølgende skal henvises til. Der er i sammenspil med disse designklasser udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKlogind}.
+
 
 \begin{figure} [H]
 \centering

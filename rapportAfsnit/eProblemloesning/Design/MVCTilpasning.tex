@@ -11,7 +11,7 @@ Førend en træning kan påbegyndes, tilpasses træningsniveauet den enkelte bru
 \noindent
 Der er opstillet grænseflader for tilpasning af træning, hvilket omfatter \textit{Træningsform}, \textit{Træningstype}, \textit{Helbredstilstand} og \textit{AnbefaletTræning}. Der er til hver grænseflade opstillet tekstfelter af typen TextView og knapper af typen Button.   
 
-Den tilhørende controller til de ovenstående boundarys lagrer den angivne træningsform, træningstype samt helbredstilstand  i KonditionResultater, således disse senere kan sendes til databasen efter endt træning. Der er dertil opstillet Lyt, Vis, Hent, Beregn og Start-metoder til denne controller. 
+Den tilhørende controller til de ovenstående boundarys lagrer den angivne træningsform, træningstype samt helbredstilstand  i entityen, KonditionResultater, således disse senere kan sendes til databasen efter endt træning. Der er opstillet tilhørende private attributter og public metoder, herunder Lyt, Vis, Hent, Beregn og Start. Metoderne henter og beregner i forhold til definerede inputsparametre. Efter inputsparametre er der angivet, hvorvidt der returneres en værdi.
 
 I sammenspil med designklasserne er der udarbejdet et sekvensdiagram, hvilket fremgår af \autoref{fig:SEKTilpasning}. 
 
