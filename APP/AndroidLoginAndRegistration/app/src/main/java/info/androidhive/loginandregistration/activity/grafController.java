@@ -43,14 +43,12 @@ public class grafController extends AppCompatActivity {
     private SQLiteHandler db;
     private Button btnBeloenninger;
     BarChart barChart;
-    public int x;
-
 
     // products JSONArray
     JSONArray traeninger_array = null;
 
     // Arrayliste til at lagre venner i
-    ArrayList<HashMap<String, String>> TraeningListe = new ArrayList<HashMap<String, String>>();
+    ArrayList<HashMap<String, String>> TraeningListe = new ArrayList<HashMap<String, String>>(); //det vi kalder resultat array i design
     String[] days = new String[7];
     String[] daynames = new String[]{"Man", "Tirs", "Ons", "Tors", "Fre", "Loer", "Soen"};
 
@@ -160,7 +158,7 @@ public class grafController extends AppCompatActivity {
 
 
     //********* METODE **********//
-    public void henttraeninger (final int medlemsid){
+    public void henttraeninger (final int medlemsid){ //HentResultat i design
         String tag_string_req = "req_henttraening";
 
         pDialog.setMessage("Henter tidligere træninger...");

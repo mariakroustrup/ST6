@@ -72,7 +72,7 @@ public class RedigeringController extends Activity {
 
 
         // Displaying the user details on the screen
-        Medlemsid.setText(medlemsid);
+        Medlemsid.setText(medlemsid); // det er det vi kalder "hentBrugeroplysninger"
         Navn.setText(navn);
         Kategorisering.setText(kategorisering);
 
@@ -115,7 +115,7 @@ public class RedigeringController extends Activity {
         });
     }
 
-    private void gemAdgangskode(final String adgangskode, final String medlemsid){
+    private void gemAdgangskode(final String adgangskode, final String medlemsid){ //SendAdgangskode i design
         // Tag used to cancel the request
         String tag_string_req = "req_register2";
 

@@ -160,7 +160,7 @@ public class konditiontraening extends Activity {
     }
 
     //*************** HENTER RESULTATER SÅLEDES BELØNNINGER KAN BEREGNES ************//
-    public void hent_b_resultater(final String medlemsid) {
+    public void hent_b_resultater(final String medlemsid) { // det vi kalder hentResultater
         // Tag used to cancel the request
         String tag_string_req = "req_b_resultater";
 
@@ -291,7 +291,7 @@ public class konditiontraening extends Activity {
         gembeloenninger(medlemsid, b_antal, b_kondi, b_afstand, b_tid);
     }
 
-    public void gembeloenninger(final String medlemsid, final int b_antal, final int b_kondi, final int b_afstand, final int b_tid){
+    public void gembeloenninger(final String medlemsid, final int b_antal, final int b_kondi, final int b_afstand, final int b_tid){  // det vi kalder sendbelønninger
         String tag_string_req = "req_beloenninger1";
         boolean error = false;
         StringRequest strReq = new StringRequest(Request.Method.POST,

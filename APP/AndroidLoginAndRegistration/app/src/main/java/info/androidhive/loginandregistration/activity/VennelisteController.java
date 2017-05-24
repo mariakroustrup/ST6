@@ -120,7 +120,7 @@ public class VennelisteController extends AppCompatActivity {
     }
 
 
-    private void checkVen(final String ven_medlemsid){
+    private void checkVen(final String ven_medlemsid){ //SøgVen() i design
         // Tag used to cancel the request
         String tag_string_req = "req_soegven";
 
@@ -190,7 +190,7 @@ public class VennelisteController extends AppCompatActivity {
 
 
     //***************** METODE TIL AT HENTE ALLE VENNER TIL LISTEN
-    private void hentallevenner (final String medlemsid){
+    private void hentallevenner (final String medlemsid){ //HentVenner i design
         // Tag used to cancel the request
         String tag_string_req = "req_hentvenner";
 

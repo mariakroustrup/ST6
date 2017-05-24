@@ -93,7 +93,7 @@ public class VenController extends AppCompatActivity {
         });
     }
 
-    private void checkVennerelation(final String medlemsid, final String ven_medlemsid){
+    private void checkVennerelation(final String medlemsid, final String ven_medlemsid){ //ValiderVen i design
         // Tag used to cancel the request
         String tag_string_req = "req_checkvennerelation";
 

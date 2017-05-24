@@ -57,7 +57,7 @@ public class KategoriseringController extends AppCompatActivity{
     }
 
     // CATscore
-    final ArrayList<Integer> list = new ArrayList<Integer>();
+    final ArrayList<Integer> list = new ArrayList<Integer>(); // kaldes CATscore i design
 
     public void ButtonOnClick1(View v) {
 
@@ -295,7 +295,7 @@ public class KategoriseringController extends AppCompatActivity{
 
 
 
-    private void gemKategoriseringen (final String ABCD, final String medlemsid) {
+    private void gemKategoriseringen (final String ABCD, final String medlemsid) { //Kaldes SendKategorisering i design
         String tag_string_req = "req_kategorisering";
 
         // Viser at kategoriseringen er ved at blive gemt

@@ -86,7 +86,7 @@ public class LogUdController extends AppCompatActivity{
     }
 
 
-    private void logoutUser() {
+    private void logoutUser() { // Logud i design
         session.setLogin(false);
 
         db.deleteUsers();

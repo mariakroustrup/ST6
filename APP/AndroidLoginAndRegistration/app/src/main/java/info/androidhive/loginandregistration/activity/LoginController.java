@@ -106,7 +106,7 @@ public class LoginController extends Activity {
     /**
      * function to verify login details in mysql db
      */
-    private void checkLogin(final String medlemsid, final String adgangskode) {
+    private void checkLogin(final String medlemsid, final String adgangskode) { //HentLogind() i design i rapport
         // Tag used to cancel the request
         String tag_string_req = "req_login";
 

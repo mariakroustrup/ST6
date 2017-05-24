@@ -78,7 +78,7 @@ public class TilpasningController extends AppCompatActivity {
         //Fetching user details from SQLite
         user = db.getUserDetails();
         medlemsid = user.get("medlemsid");
-        kategorisering = user.get("kategorisering");
+        kategorisering = user.get("kategorisering"); //Det er de vi kalder "HentKategorisering" ift brugeroplysninger entityen i design
     }
 
     int counter = 0;
