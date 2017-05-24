@@ -47,7 +47,20 @@ Distance, afstand  + GPS formel
 Extended controls
 
 
-I træningscontrolleren startes en timer. 
+I træningscontrolleren startes en timer. Denne er implementeret ved at instansiere klassen Runnable, hvori en metode, run, defineres. Koden for dette kan ses i \autoref{fig:timerKode}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/imple/timerKode}
+\caption{Udklip af kode fra træningscontrolleren. Udklippet viser metoden for timeren.}
+\label{fig:timerKode}
+\end{figure} 
+
+\noindent
+Metoden, run, indeholder variablen MillisecondTime, der tæller tiden, som er gået siden brugeren har trykket start træning. Vælger brugeren at trykke stop træning, stopper MillisecondTime med at tælle op, hvortil denne værdi gemmes i variablen TimeBuff.  Værdien gemmes for at timer vil kunne fortsætte, hvis brugeren fortryder at have stoppet træningen. Seconds defineres ud fra UpdateTime, der måles i millisekunder. Det defineres yderligere, at Seconds kun kan tælle op til 60.
+
+Under tilpasning af træningsniveau er der blevet anbefalet en træningstid. Opnår træningstiden denne værdi under træning, vil app'en gøre brugeren opmærksom på dette ved angivelse af en lyd. Dette er implementeret ved en if-loop, hvori klassen MediaPlayer instansieres, hvis den anbefalede tid opnås. Hertil kaldes en metode, der afspiller en lydfil. 
+
 
 
 
