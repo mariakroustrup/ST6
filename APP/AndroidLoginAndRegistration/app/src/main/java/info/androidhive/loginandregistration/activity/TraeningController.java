@@ -68,17 +68,16 @@ public class TraeningController extends AppCompatActivity {
     ArrayList<Double> listLng = new ArrayList<Double>();
 
 
-    // her starter timer
-    public Runnable runnable = new Runnable() {
-        public void run() {
-            MillisecondTime = SystemClock.uptimeMillis() - StartTime;
-            UpdateTime = TimeBuff + MillisecondTime;
-            Seconds = (int) (UpdateTime / 1000);
-            Minutes = Seconds / 60;
-            Seconds = Seconds % 60;
-            MilliSeconds = (int) (UpdateTime % 1000);
+// her starter timer
+public Runnable runnable = new Runnable() {
+    public void run() {
+        MillisecondTime = SystemClock.uptimeMillis() - StartTime;
+        UpdateTime = TimeBuff + MillisecondTime;
+        Seconds = (int) (UpdateTime / 1000);
+        Minutes = Seconds / 60;
+        Seconds = Seconds % 60;
 
-            textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds));
+        textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
             Long m = getMinutes();
@@ -473,14 +472,14 @@ public class TraeningController extends AppCompatActivity {
         notificationIntent.putExtra(NotificationPublisher.NOTIFICATION, notification);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        Calendar calendar = Calendar.getInstance();
-        Calendar now = Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY, 16);
-        calendar.set(Calendar.MINUTE, 14);
-        calendar.set(Calendar.SECOND, 00);
-        if(now.after(calendar)){
-            calendar.add(Calendar.DATE,1);
-        }
+    Calendar calendar = Calendar.getInstance();
+    Calendar now = Calendar.getInstance();
+    calendar.set(Calendar.HOUR_OF_DAY, 15);
+    calendar.set(Calendar.MINUTE, 0);
+    calendar.set(Calendar.SECOND, 0);
+    if(now.after(calendar)){
+        calendar.add(Calendar.DATE,1);
+    }
 
         long tiden = calendar.getTimeInMillis();
         AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
