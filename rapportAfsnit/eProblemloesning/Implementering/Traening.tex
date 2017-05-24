@@ -12,4 +12,45 @@ Beregningen for den anbefalede træning er implementeret ved brug af if/else sta
 \noindent
 Af figuren ses beregningen af den anbefalede træningstid for brugeren med kategorisering \textit{A} og heldbredstilstanden på \textit{2}. Variationen for anbefalingen afhænger af evalueringen og kan i dette eksempel variere mellem \textit{15}, \textit{20} og \textit{25}  minutter. Metodekaldet \textit{setMinutter} referer til, at der sættes en bemærkning idet den anbefaldede træningstid er opnået.
 
-********Her skal der komme noget træning efter ***********
+\section{Træning}
+Træningscontrolleren har til formål at håndtere GPS og timer under en træning. For at implementere GPS skal app'en have tilladelse til at anvende den mobile enheds lokalisation. Dette er en engangstilladelse, der skal gives første gang brugeren vil foretage en træning. 
+
+Der instansieres en LocationManager og LocationListener. LocationManager tillader app'en at opnå enhedens lokation, hvor LocationListener modtager lokationsopdateringer. Disse opdateringer forekommer, idet enheden ændrer lokation.\cite{} Af koden i \autoref{fig:gpsKode} fremgår det, at systemet indeholder en metode, onLocationChanged, der kaldes, når lokationen ændres. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/imple/gpsKode}
+\caption{XXXXXXX.}
+\label{fig:gpsKode}
+\end{figure} 
+
+Når lokationen ændres, hentes enhedens longitude og latitude, hvortil disse værdier benyttes i set-metoder. 
+
+Der er defineret en metode, der udregner afstanden mellem to lokationer.
+
+
+
+https://developer.android.com/reference/android/location/LocationManager.html 
+
+https://developer.android.com/reference/android/location/LocationListener.html
+
+ 
+
+
+GPS:
+
+locationmanager
+locationlistener
+permission
+latitude og longitude
+Distance, afstand  + GPS formel
+Extended controls
+
+
+I træningscontrolleren startes en timer. 
+
+
+
+
+
+
