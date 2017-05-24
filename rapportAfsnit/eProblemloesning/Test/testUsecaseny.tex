@@ -11,22 +11,22 @@ Databasen anvendes i forbindelse med registrering af brugere. Derudover skal det
 \end{itemize}
 
 \noindent
-For at teste om de opstillede krav til database er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
+For at teste om de opstillede krav til databasen er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Database \\ \hline
-     \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data i databasen. Dette gøres ved at oprette en bruger i databasen, efterfølgende udføre en kategorisering af brugeren i app'en, hvorefter der tjekkes om denne kategorisering er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
- 	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textbf{INSERT INTO 'users' ('id' , 'unique\_id' , 'navn', 'medlemsid', 'db\_adgangskode' , 'kategorisering') VALUES ('' , '' , 'Jens Jensen', '11170301', 'adgangskode', 'F').}
- 	\begin{itemize}[label={\checkmark}]
-	\item Bruger er oprettet i databasen.
+     \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data. Dette gøres ved at oprette en bruger i databasen. Efterfølgende vil en kategorisering foretages, og derefter tjekkes om denne er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
+ 	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textit{INSERT INTO 'users' ('navn', 'medlemsid', 'db\_adgangskode', 'kategorisering') VALUES ('Jens Jensen', '11170301', 'adgangskode', 'F')} i databasen.
+ 	\begin{itemize}
+	\item Bruger er oprettet i databasen
 	\end{itemize}
- 2.~ Åben app’en og log ind med medlemsID og adgangskode. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textbf{0,1,2,1,0,1,0,1}, tryk videre  efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textbf{0 INDLÆGGELSER}. 
- \begin{itemize}[label={\checkmark}]
- \item Kategorisering er gemt i databasen 
+ 2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
+ \begin{itemize}
+ \item Kategorisering A er gemt i databasen 
  \end{itemize}
-3.~ Tryk på \textbf{REDIGER ADGANGSKODE} via hovedmenuen.
-\begin{itemize}[label={\checkmark}]
-\item Kategorisering vises som A under rediger adgangskode.
+3.~Tryk på \textbf{REDIGER ADGANGSKODE} via hovedmenuen.
+\begin{itemize}
+\item MedlemsID og navn samt opdaterede kategorisering, A, vises under rediger adgangskode
 \end{itemize}
  \\  \hline
   \textbf{Resultat:} &
@@ -38,43 +38,43 @@ For at teste om de opstillede krav til database er overholdt udføres testen, so
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase2}} 
     \vspace{3mm}
     \newline
-Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figureren i midten bliver gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Derudover fremgår den opnåede kategorisering A, hvoraf denne er hentet fra databasen. 
+Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figureren i midten viser, at kategoriseringen er gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Disse værdier er hentet fra databasen, idet brugeren logger ind. Dertil er kategoriseringen opdateret i forhold til den nye kategorisering. 
 \begin{itemize}[label={\checkmark}]
- \item På baggrund af dette er kravene for databasen opfyldt.
+ \item På baggrund af denne test er kravene for databasen opfyldt
  \end{itemize}
   \\ \hline
-    \caption{Test af database}
+    \caption{Test af database.}
     \label{tab:testDatabase}
 \end{longtable}
 
 
 \section{Log ind}
-Log ind anvendes for at adskille at brugere, som er registeret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere, der bliver registreret i databasen. Der er opstillet funktionelle krav til log ind:
+Log ind anvendes for at adskille brugere, som er registreret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere, der bliver registreret i databasen. Der er opstillet funktionelle krav til log ind:
 
 \begin{itemize}
-\item Brugere skal kunne logge ind med et personligt medlemsID og adgangskode, der er registreret i databasen
+\item Brugere skal kunne logge ind med et personligt medlemsID og adgangskode
 \\
 \textit{Dette er nødvendigt for at tilgå og sikre, at brugere har deltaget i et rehabiliteringsforløb samt adskille brugeres data}
 \end{itemize}
 
 \noindent
-Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der fremgår af \autoref{fig:Designlogind}.
+Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der fremgår af \autoref{tab:testLogInd}.
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Log ind \\ \hline
-     \textbf{Formål:} & Formålet er at teste hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
+     \textbf{Formål:} & Formålet er at teste, hvorvidt log ind-funktionen i systemet opfylder krav opstillet til log ind. Dette gøres ved at logge ind med en bruger, der findes i databasen og en bruger, som ikke findes i databasen. 
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Indtast et medlemsID, som ikke eksisterer i databasen \textbf{123456} og en adgangskode, som eksisterer i databasen \textbf{adgangskode} og tryk på log ind knappen.
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind.
+ 	\textbf{Main flow:} & 1.~Indtast et medlemsID, som ikke eksisterer i databasen \textit{123456} og en adgangskode, som eksisterer i databasen \textit{adgangskode} og tryk på log ind knappen.
+ 	\begin{itemize}
+ 	\item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind
  	\end{itemize}
-2.~ Indtast et MedlemsID, som eksisterer i databasen \textbf{11170301} og en adgangskode, som ikke tilhører medlemsID’et \textbf{forkertadgangskode} og tryk på log ind knappen.
- \begin{itemize}[label={\checkmark}]
- \item Forventet log ind mislykkes. Fejlmeddelelse vises i grænsefladen for log ind.
+2.~Indtast et MedlemsID, som eksisterer i databasen \textit{11170301} og en adgangskode, som ikke tilhører medlemsID’et \textit{forkertadgangskode} og tryk på log ind-knappen.
+ \begin{itemize}
+ \item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind
  \end{itemize}
-3.~ Indtast et medlemsID \textbf{11170301} og en adgangskode \textbf{adgangskode}, som eksisterer i databasen. 
-\begin{itemize}[label={\checkmark}]
-\item Forventet log ind lykkes og hovedmenu vises.
+3.~Indtast et medlemsID \textit{11170301} og en adgangskode \textit{adgangskode}, som eksisterer i databasen. 
+\begin{itemize}
+\item Forventet log ind lykkedes og hovedmenu vises
 \end{itemize}
  \\  \hline
  \textbf{Resultat:} &  \hspace{1.5mm}
@@ -85,12 +85,12 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testlogind2}} 
     \vspace{3mm}
     \newline
-Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og i midten testes der for henholdsvis første og andet main flow. Hertil fremgår det, at log ind mislykkes, hvoraf fejlmeddelelsen vises. Til højre fremgår det, at log ind lykkes, og hovedmenuen vises.  
+Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og i midten testes der for henholdsvis første og andet main flow. Hertil fremgår det, at log ind mislykkedes, hvoraf fejlmeddelelsen vises. Til højre fremgår det, at log ind lykkedes, og hovedmenuen vises.  
 \begin{itemize}[label={\checkmark}]
- \item På baggrund af dette er kravet for log ind opfyldt.
+ \item På baggrund af denne test er kravet for log ind opfyldt
  \end{itemize}
  \\ \hline
-    \caption{Test af Log ind}
+    \caption{Test af Log ind.}
     \label{tab:testLogInd}
 \end{longtable}
 
@@ -98,7 +98,7 @@ Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og 
 Kategoriseringen skal foretages første gang brugeren logger ind i app'en og skal være en parameter i tilpasningen af et træningsniveau for den enkelte bruger. Følgende krav blev opstillet til kategoriseringen:
 
 \begin{itemize}
-\item Systemet skal kunne kategorisere brugere i ABCD på baggrund af CATscore og antallet af årlige indlæggelser på grund af KOL
+\item Systemet skal kunne kategorisere brugere i ABCD på baggrund af CAT-score og antallet af årlige indlæggelser på grund af KOL
 \\
 \textit{Dette er nødvendigt for at kunne tilpasse træningen efter den enkelte bruger}
 \end{itemize}
@@ -108,23 +108,23 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Kategorisering  \\ \hline
-     \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CATscore og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
+     \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CAT-score og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Få en samlet CATscore under 10. Vælg \textbf{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{0 INDLÆGGELSER}. 
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet kategorisering er A.
+ 	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}. 
+ 	\begin{itemize} 
+ 	\item Forventet kategorisering er A
  	\end{itemize}	
- 	2.~ Få en samlet CATscore over 10. \textbf{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{0 INDLÆGGELSER}.
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet kategorisering er B.
+ 	2.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
+ 	\begin{itemize}
+ 	\item Forventet kategorisering er B
  	\end{itemize}
-3.~ Få en samlet CATscore under 10. \textbf{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{1 ELLER FLERE INDLÆGGELSER}.
- \begin{itemize}[label={\checkmark}]
-  \item Forventet kategorisering er C.
+3.~Få en samlet CAT-score under 10. \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
+ \begin{itemize}
+  \item Forventet kategorisering er C
   \end{itemize}
-4.~ Få en samlet CATscore over 10. \textbf{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textbf{1 ELLER FLERE INDLÆGGELSER}.
-\begin{itemize}[label={\checkmark}]
-\item Forventet kategorisering er D.
+4.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
+\begin{itemize}
+\item Forventet kategorisering er D
 \end{itemize}   \\ \hline
  \textbf{Resultat:} & \hspace{0.3mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat1}} 
@@ -135,15 +135,15 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
     \newline
 Resultater for test af kategorisering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til fjerde main flow viser de forventede kategoriseringer.
  \begin{itemize}[label={\checkmark}]
-\item På baggrund af dette er kravet for kategorisering er opfyldt. 
+\item På baggrund af denne test er kravet for kategorisering er opfyldt
 \end{itemize} 
 \\ \hline
-   \caption{Test af kategorisering}
+   \caption{Test af kategorisering.}
     \label{tab:testKategorisering}
 \end{longtable}
 
 \section{Tilpasning af træningsniveau}
-I tilpasningen af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametre som kategorisering, daglig helbredstilstand og tidligere evalueringer af træninger. Følgende krav blev opstillet til tilpasningen af træningsnivauet:
+I tilpasning af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametrene kategorisering, daglig helbredstilstand og eventuel tidligere evaluering. Følgende krav blev opstillet til tilpasningen af træningsnivauet:
 
 \begin{itemize}
 \item Brugere skal kunne angive deres daglige helbredstilstand
@@ -156,18 +156,19 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau uden evaluering \\ \hline
-     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet, på baggrund af dette samt brugerens kategorisering, anbefaler et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
  \\ \hline
- 	\textbf{Main flow:} & 1~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{GÅ}, \textbf{MODERAT} og tryk videre efter hver.
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet anbefaling af træningstid er 30 min
- 	\end{itemize}	
- 	2.~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{LØB},\textbf{MEGET DÅRLIGT} og tryk videre efter videre.
- 	\begin{itemize}[label={\checkmark}]
+ 	\textbf{Main flow:} &
+ 	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
+ 	\begin{itemize}
  	\item Forventet anbefaling af træningstid er 10 min
  	\end{itemize}
-3.~ Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{CYKEL}, \textbf{MEGET GODT} og tryk videre efter hver.
- \begin{itemize}[label={\checkmark}]
+ 	 2~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
+ 	\begin{itemize}
+ 	\item Forventet anbefaling af træningstid er 30 min
+ 	\end{itemize}	
+3.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
+ \begin{itemize}
   \item Forventet anbefaling af træningstid er 50 min
   \end{itemize}
  \\  \hline
@@ -179,74 +180,75 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny2}} 
 \vspace{3mm}
     \newline
-Ovenstående figurer viser grænsefladerne for valg af træningsform, træningstype og daglig helbredstilstand. Disse grænseflader vises før grænsefladen for anbefalingen af træningstid. 
+Ovenstående figurer viser grænsefladerne for valg af træningsform, træningstype og daglig helbredstilstand. Disse grænseflader vises før grænsefladen for anbefalet træningstid. 
    \\ \hline
   \textbf{} &\hspace{1.5mm}
-  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning}} 
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning1}} 
   \hspace{5mm}
-   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning1}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning}} 
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning2}} 
     \vspace{3mm}
     \newline
     Resultater for test af tilpasning af træningsniveau uden evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
  \\ \hline
-   \caption{Test af tilpasning af træningsniveau uden evaluering}
+   \caption{Test af tilpasning af træningsniveau uden evaluering.}
     \label{tab:testTilpasningudenevaluering}
 \end{longtable}
 
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Tilpasning af træningsniveau med evaluering \\ \hline
-     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evalueringer skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning tidligere.
+     \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evaluering skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilstande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning samt helbredstilstand.
  \\ \hline
- 	\textbf{Main flow:} & 1~ Tidligere evaluering af samme træning er: \textbf{:-)}. 
-Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING}, \textbf{GÅ}, \textbf{MODERAT} og tryk videre efter hver.
- 	\begin{itemize} [label={\checkmark}]
+ 	\textbf{Main flow:} &
+ 	1.~Tidligere evaluering af samme træning er: \textit{:-D} og helbredstilstand \textit{MEGET DÅRLIGT}. 
+Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
+ 	\begin{itemize}
+ 	\item Forventet anbefaling af træningstid er 15 min
+ 	\end{itemize} 	
+ 	 2~Tidligere evaluering af samme træning er \textit{:-)} og helbredstilstand \textit{MODERAT}. 
+Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
+ 	\begin{itemize}
  	\item Forventet anbefaling af træningstid er 30 min
  	\end{itemize}	
- 	2.~ Tidligere evaluering af samme træning er: \textbf{:-D}. 
-Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{LØB}, \textbf{MEGET DÅRLIGT} og tryk videre efter hver.
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet anbefaling af træningstid er 15 min
- 	\end{itemize}
-3.~ Tidligere evaluering af samme træning er: \textbf{:-(}. 
-Vælg \textbf{TRÆNING}, \textbf{KONDITIONSTRÆNING},\textbf{CYKEL}, \textbf{MEGET GODT} og tryk videre efter hver.
- \begin{itemize}[label={\checkmark}]
+3.~Tidligere evaluering af samme træning er: \textit{:-(} og helbredstilstand \textit{MEGET GODT}. 
+Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
+ \begin{itemize}
   \item Forventet anbefaling af træningstid er 45 min
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
-  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning3}} 
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning4}} 
   \hspace{5mm}
-   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning4}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning3}} 
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning5}} 
     \vspace{3mm}
     \newline
  Resultater for test af tilpasning af træningsniveau med evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
  \begin{itemize}[label={\checkmark}]
-\item På baggrund af test af tilpasning af træningsniveau uden og med evaluering der kravet for tilpasning af træningsniveau opfyldt. 
+\item På baggrund af test af tilpasning af træningsniveau uden og med evaluering er kravet for tilpasning af træningsniveau opfyldt 
 \end{itemize}
     \\ \hline
-   \caption{Test af tilpasning af træningsniveau med evaluering}
+   \caption{Test af tilpasning af træningsniveau med evaluering.}
     \label{tab:testTilpasningmedevaluering}
 \end{longtable}
 
 
 \section{Træning}
-Træning skal muliggøre måling af tid og afstand under træning, derudover skal brugeren have mulig for at evaluere træningen efterfølgende. For træning er følgende krav opstillet:
+Systemet skal muliggøre måling af tid og afstand under træning, derudover skal brugeren have mulighed for at evaluere træningen efterfølgende. For træning er følgende krav opstillet:
 
 \begin{itemize}
-\item Systemet skal kunne måle tid og afstand
+\item Systemet skal kunne måle tid via timer og afstand via GPS
 \\
 \textit{Dette er nødvendigt for at monitorere træningen}
-\item {Brugere skal kunne evaluere hver træning}
+\item Brugere skal kunne evaluere hver træning
 \\
-\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
-\item \textcolor{red}{Systemet skal kunne sende en notifikation, hvis brugere ikke har trænet før klokken 15}
+\textit{Dette er nødvendigt for at tilpasse træningen yderligere efter den enkelte bruger}
+\item Systemet skal kunne sende en daglig notifikation for således at påminde brugeren om træning
 \\
-\textit{Dette er nødvendigt for at tilpasse træningen efter den enkelte bruger}
+\textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
 \end{itemize}
 
 \noindent
@@ -256,24 +258,24 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
 %	\centering
   \begin{longtable}{ | p{2cm} | p{13cm} |} \hline
     \textbf{Test:} & Træning \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende. Derudover skal en notifikation forekomme, \textcolor{red}{hvis brugeren ikke har trænet inden klokken 15.}
+  \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning, skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende. Derudover skal en notifikation forekomme dagligt.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk \textbf{START TRÆNING} og vent til efter 2 minutter. Tryk herefter \textbf{STOP TRÆNING}.
- 	\begin{itemize} [label={\checkmark}]
+ 	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.
+ 	\begin{itemize}
  	\item Forventet tid er over 2 minutter
  	\end{itemize}	
- 	2.~ Tryk \textbf{START TRÆNING} åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textbf{STOP TRÆNING}.
- 	\begin{itemize}[label={\checkmark}]
+ 	2.~Tryk \textit{START TRÆNING} åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}.
+ 	\begin{itemize}
  	\item Forventet afstand ved 0 er 0 km.
  	\item Forventet afstand ved 0.01 er 1.57 km.
  	\item Forventet afstand ved 0.02 er 3.14 km.
 	\end{itemize}
-  3.~ Tryk \textbf{START TRÆNING} og tryk herefter \textbf{STOP TRÆNING} og 	bekræft. Angiv herefter \textbf{:-)} og tryk videre.
-  \begin{itemize}[label={\checkmark}]
-  \item Forventet evaluering er gemt i databasen.
+  3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og 	bekræft. Angiv herefter \textit{:-)} og tryk videre.
+  \begin{itemize}
+  \item Forventet evaluering er gemt i databasen
   \end{itemize}
-   4.~ Vent til klokken 15 med at udføre en træning
-  \begin{itemize}[label={\checkmark}]
+   4.~Vent til klokken 15 med at udføre en træning
+  \begin{itemize}
   \item Forventet notifikation klokken 15
   \vspace{1mm}
   \end{itemize}
@@ -286,7 +288,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening4}} 
      \vspace{3mm}
     \newline
-Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der er trykkes på startknappen for træning starter timer, som kan ses af den midterste figur. Til højre fremgår et popup-vindue, der indikerer at træningen er stoppet.  \\ \hline
+Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der trykkes på startknappen for træning, starter timer, som kan ses af den midterste figur. Til højre fremgår et popup-vindue, der indikerer, at træningen er stoppet.  \\ \hline
 \textbf{Resultat main flow 2:} &  \hspace{1.5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening22}} 
       \hspace{5mm}
@@ -295,7 +297,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening55}} 
    \vspace{3mm}
     \newline
-    Resultater for det andet main flow ses af ovenstående figurer. På venstre ses grænsefladen for træningen, hvor det simuleret at brugeren har bevæget sig 0 km. I midten er det simuleret at brugeren har bevæget sig 1.57 km. Til højre er det simuleret at brugeren har bevæget sig 3.14 km. \\ \hline
+    Resultater for det andet main flow ses af ovenstående figurer. Til venstre ses grænsefladen for træningen, hvor det er simuleret, at brugeren har bevæget sig 0 km. I midten er det simuleret, at brugeren har bevæget sig 1.57 km. Til højre er det simuleret, at brugeren har bevæget sig 3.14 km. \\ \hline
 \textbf{Resultat main flow 3:} &  \hspace{1.5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening5}}
       \hspace{5mm}
@@ -304,7 +306,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}} 
    \vspace{3mm}
     \newline
-     Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen af der fremkommer efter udført træning. På figuren til højre fremgår det at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
+     Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen, der fremkommer efter udført træning. Figuren i midten viser, at brugeren har angivet evaluering, idet videreknappen er synlig. På figuren til højre fremgår det, at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
      \\ \hline
  \textbf{Resultat main flow 4:} &  \hspace{1.5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification1}}
@@ -314,21 +316,24 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification3}} 
    \vspace{3mm}
     \newline
-     Resultater for fjerde main flow fremgår af ovenstående figurer. I midten ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Notifikationen vises yderligere af figuren til højre. 
+     Resultater for fjerde main flow fremgår af ovenstående figurer. I midten ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Udvides notifikationen, ved at slide topbaren ned, ses denne som vist af figuren til højre.
      \\ \hline
 \textbf{Resultat:} &
     \begin{itemize}[label={\checkmark}]
-\item På baggrund af resultater for main flow er kravene for træning opfyldt. 
+\item På baggrund af resultater for main flow er kravene for træning opfyldt
 \end{itemize} \\ \hline
   % \end{tabular}
-   \caption{Test af træning}
+   \caption{Test af træning.}
     \label{tab:testTraening}
 \end{longtable}
 
 
 \section{Resultater}
-Resultater skal motivere brugeren til at udføre træningen. Følgende krav opstillet for resultater:
+Resultater skal motivere brugeren til at udføre træningen. Følgende krav er opstillet for resultater:
 \begin{itemize}
+\item Systemet skal kunne vise brugerens ugentlige træningsudvikling
+\\
+\textit{Dette er nødvendigt for, at brugere kan følge sin ugentlige udvikling samt motivere brugeren}
 \item Systemet skal kunne give virtuelle belønninger
 \\
 \textit{Dette er nødvendigt for at kunne motivere brugere til at udføre træning}
@@ -336,24 +341,18 @@ Resultater skal motivere brugeren til at udføre træningen. Følgende krav opst
 
 \noindent
 For at teste om de opstillede krav til resultater er overholdt, udføres testen, der fremgår af \autoref{tab:testResultater}.
-
+*********DER SKAL LIGE LAVES EN NY TEST! ***************
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Resultater \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger og sende en notifikation når brugeren har været inaktiv i 1 time. Dette gøres ved at træne imens der måles tid, afstand. 
+  \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger efter \autoref{tab:SamletBelon}. Dette gøres ved at træne imens, der måles tid og afstand. 
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING}, vent 60 minutter og tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-D}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}. 
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet stjerner under tid er en.
- 	\end{itemize}	
- 	2.~ Tryk på \textbf{TRÆNING} via hovedmenu. \textbf{START TRÆNING} og åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre herefter til 1.35. Tryk \textbf{STOP TRÆNING} og evaluer træningen til \textbf{:-)}. Tryk herefter på \textbf{RESULTATER} via hovedmenu og vælg \textbf{BELØNNINGER}.
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet stjerner under afstand er fire.
-	\end{itemize}
-  3.~ Tryk på \textbf{RESULTATER} via hovedmenuen og vælg \textbf{BELØNNINGER} 
-  \begin{itemize}[label={\checkmark}]
-  \item Forventet stjerner under antal træninger er én.
-  \item Forventet stjerner under konditionstræning er to.
+ 	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 1.35. \fxnote{SKAL ÆNDRES, SÅ DET PASSER MED CA 25 KM} Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
+ 	\begin{itemize} 
+ 	\item Forventet, at brugeren har opnået én stjerne som belønning i kategorien antal træninger
+ 	\item Forventet, at brugeren har opnået tre stjerne som belønning i kategorien tid
+  	\item Forventet, at brugeren har opnået to stjerne som belønning i kategorien afstand
+    \item Forventet, at brugeren har opnået én stjerne som belønning i kategorien konditionstræning 
   \end{itemize}
 \\ \hline
 \textbf{Resultat} & \hspace{1.5mm}
@@ -364,12 +363,12 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon5}}
         \vspace{3mm}
     \newline
-På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. I midten gemmes resultaterne fra træningen, der af figuren til højre er gemt og belønninger er visualiseret som stjerner. De opnåede stjerner afspejler at brugeren har udført det antal træninger svarende til den opnåede stjerne. 
+På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. I midten vises, at resultaterne fra træningen gemmes, hvoraf figuren til højre viser belønningerne visualiseret som stjerner. De opnåede stjerner afspejler, at brugeren har udført det antal træninger svarende til de opnåede stjerner. 
   \begin{itemize}[label={\checkmark}]
-\item På baggrund af dette er kravet for resultater opfyldt.
+\item På baggrund af denne test er kravet for resultater opfyldt
 \end{itemize}
     \\ \hline
-   \caption{Test af resultater}
+   \caption{Test af resultater.}
     \label{tab:testResultater}
 \end{longtable}
 
@@ -389,40 +388,40 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
     \textbf{Test:} & Venneliste \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren kan følge andre brugere og tilgå deres belønninger. Dette gøres ved at indtaste et medlemsID på en bruger, som findes i databasen og et, som ikke eksisterer, hvorefter denne bruger følges.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk \textbf{VENNELISTE} via hovedmenuen og indtast medlemsID \textbf{12345678} og tryk søg.  
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet søgning mislykket. Fejlmeddelelse vises i grænsefladen for venneliste.
+ 	\textbf{Main flow:} & 1.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{12345678} og tryk søg.  
+ 	\begin{itemize}
+ 	\item Søgning mislykkedes. Fejlmeddelelse vises i grænsefladen for venneliste
  	\end{itemize}	
- 	2.~ Tryk \textbf{VENNELISTE} via hovedmenuen og indtast medlemsID \textbf{4444} og tryk søg.
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet søgning lykkes. Grænsefladen for søgte vens belønninger vises.
+ 	2.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{4444} og tryk søg.
+ 	\begin{itemize}
+ 	\item Søgning lykkedes. Grænsefladen for søgte vens belønninger vises
 	\end{itemize}
-  3.~ Tryk \textbf{VENNELISTE} via hovedmenuen og indtast medlemsID \textbf{4444} og tryk søg. Herefter trykkes følg.
-  \begin{itemize}[label={\checkmark}]
-  \item  Forventet følg knap forsvinder i grænsefalden for vennelisten og fjern knap synliggøres.
-  \end{itemize}
-  4. ~ Tryk \textbf{VENNELISTE} via hovedmenuen
+  3.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{4444} og tryk søg. Herefter trykkes følg.
   \begin{itemize}
-  \item Forventet bruger med medlemsID \textbf{4444} vises i grænsefladen for vennelisten. 
-  \end{itemize} \\ \hline
+  \item  Forventet følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres
+  \end{itemize}
+  4.~Tryk \textit{VENNELISTE} via hovedmenuen
+  \begin{itemize}
+  \item Forventet bruger med medlemsID \textit{4444} vises i grænsefladen for vennelisten. 
+  \end{itemize} \hspace{0.2mm}\\ \hline
 \textbf{Resultat} & \hspace{0.3mm} \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/vennelisteny}} 
         \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny1}} 
        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny2}} 
    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny3}}  
    \vspace{3mm}
     \newline
-   Ovenstående figurere viser resultater for test af venneliste. Til venstre ses figur for første main flow, hvor det indtastede medlemsID ikke eksistere i databasen. Figuren ved siden af viser andet main flow, hvor medlemsID'et eksistere i databasen og belønninger for denne bruger fremgår. Brugeren har mulighed for at tilføje ven til vennelisten, hvilket fremgår af de to figurere til højre, som opfylder tredje og fjerde main flow.
+   Ovenstående figurer viser resultater for test af venneliste. Til venstre ses figur for første main flow, hvor det indtastede medlemsID ikke eksisterer i databasen. Figuren ved siden af viser andet main flow, hvor medlemsID'et eksisterer i databasen, og belønninger for denne bruger fremgår. Brugeren har mulighed for at tilføje ven til vennelisten, hvilket fremgår af de to figurer til højre, som opfylder tredje og fjerde main flow.
   \begin{itemize}[label={\checkmark}]
-\item På baggrund af dette er kravet for venneliste opfyldt.
+\item På baggrund af dette er kravet for venneliste opfyldt
 \end{itemize}
     \\ \hline
-   \caption{Test af venneliste}
+   \caption{Test af venneliste.}
     \label{tab:testVenneliste}
 \end{longtable}
 
 
-\section{Redigering}
-Redigering skal give brugeren mulighed for at redigere adgangskoden til en personlig adgangskode, da brugeren får udleveret en ved registreringen. Der er opstillet følgende krav for redigering:
+\section{Redigering af adgangskode}
+Redigering skal give brugeren mulighed for at redigere adgangskoden til en personlig adgangskode, da brugeren får udleveret en randomiseret adgangskode ved registreringen. Der er opstillet følgende krav for redigering:
 
 \begin{itemize}
 \item Brugere skal kunne redigere deres adgangskode
@@ -437,17 +436,17 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
     \textbf{Test:} & Redigering \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at redigere sin adgangskode. Dette gøres ved at indtaste to forskellige adgangskoder og to ens adgangskoder. Efterfølgende logges der ind med den ændrede adgangskode.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk \textbf{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textbf{nyadgangskode} i ny adgangskode og indtast \textbf{adgangskode} i gentag adgangskoden . Tryk \textbf{GEM ÆNDRINGER}.   
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet ændring mislykkes. Fejlmeddelelse vises i grænsefladen for redigering.
+ 	\textbf{Main flow:} & 1.~Tryk \textit{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textit{nyadgangskode} i ny adgangskode og indtast \textit{adgangskode} i gentag adgangskode. Tryk \textit{GEM ÆNDRINGER}.   
+ 	\begin{itemize}
+ 	\item Ændring mislykkedes. Fejlmeddelelse vises i grænsefladen for redigering
  	\end{itemize}	
- 	2.~ Tryk \text{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textbf{nyadgangskode} i ny adgangskode og gentag adgangskode. Tryk \textbf{GEM ÆNDRINGER}. 
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet ændring lykkes. Meddelelse viser, at adgangskoden er gemt. 
+ 	2.~Tryk \textit{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textit{nyadgangskode} i ny adgangskode og gentag adgangskode. Tryk \textit{GEM ÆNDRINGER}. 
+ 	\begin{itemize}
+ 	\item Ændring lykkedes. Meddelelse viser, at adgangskoden er gemt
  	\end{itemize}
- 	3.~ Log ud og log ind med medlemsID \textbf{11170301} og den nye adgangskode \textbf{nyadgangskode}.
- 	\begin{itemize}[label={\checkmark}]
- 	\item Forventet log ind lykkes og hovedmenu vises. 
+ 	3.~Log ud og log ind med medlemsID \textit{11170301} og den nye adgangskode \textit{nyadgangskode}.
+ 	\begin{itemize}
+ 	\item Forventet log ind lykkes og hovedmenu vises 
 	\end{itemize} \\ \hline
 \textbf{Resultat} &
     \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering2}} 
@@ -455,12 +454,12 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering}} 
    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering1}}  \vspace{3mm}
     \newline
-Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
+Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår, at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
  \begin{itemize}[label={\checkmark}]
 \item På baggrund af dette er kravet for redigering 
 \end{itemize}
     \\ \hline
-   \caption{Test af redigering}
+   \caption{Test af redigering.}
     \label{tab:testRedigering}
 \end{longtable}
 
@@ -470,7 +469,7 @@ Log ud-funktionen skal sikre brugerens individuelle data. De opstillede krav til
 \begin{itemize}
 \item Brugere skal kunne logge ud af app’en
 \\
-\textit{Dette er nødvendigt for at sikre brugeres individuelle data}
+\textit{Dette er nødvendigt for at sikre brugeres individuelle data og give brugeren mulighed for at logge ud}
 \end{itemize}
 
 \noindent
@@ -480,9 +479,9 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
     \textbf{Test:} & Log ud \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at logge ud af app’en.
  \\ \hline
- 	\textbf{Main flow:} & 1.~ Tryk \textbf{LOG UD} via hovedmenuen og tryk bekræft.
- 	\begin{itemize} [label={\checkmark}]
- 	\item Forventet grænseflade for log ind vises.
+ 	\textbf{Main flow:} & 1.~Tryk \textit{LOG UD} via hovedmenuen og tryk bekræft.
+ 	\begin{itemize}
+ 	\item Forventet grænseflade for log ind vises
  	\end{itemize}	
 \\ \hline
 \textbf{Resultat} &  \hspace{1.5mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud2}} 
@@ -495,10 +494,10 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
        \newline
 Figurerne ovenfor viser resultater for test af log ud. Til venstre ses hovedmenuen, hvor brugeren har mulighed for at logge ud. I midten skal brugeren bekræfte log ud, hvis dette gøres vises grænsefladen for log ind, som ses af figuren til højre.
  \begin{itemize}[label={\checkmark}]
-\item Ud fra denne test er kravet for log ud opfyldt.
+\item Ud fra denne test er kravet for log ud opfyldt
 \end{itemize}
     \\ \hline
-   \caption{Test af log ud}
+   \caption{Test af log ud.}
     \label{tab:testLogud}
 \end{longtable}
 
