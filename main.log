@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  24 MAY 2017 14:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  24 MAY 2017 14:52
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST6-master\ST6\main.tex"
@@ -2213,7 +2213,7 @@ File: figures/aktivitetsdiagram/Traening.pdf Graphic file (type pdf)
 
 <use figures/aktivitetsdiagram/Traening.pdf>
 Package pdftex.def Info: figures/aktivitetsdiagram/Traening.pdf used on input l
-ine 42.
+ine 43.
 (pdftex.def)             Requested size: 441.0pt x 466.07391pt.
  [29 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-master/ST6/figures/akt
 ivitetsdiagram/Traening.pdf>])
@@ -2532,27 +2532,40 @@ T6/figures/MVC/Logud.pdf>])
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST6-master\ST6\rapportAfsnit/e
 Problemloesning/Design/ERdiagram.tex" [57 <C:/Users/Linette Helena Pouls/Docume
 nts/GitHub/ST6-master/ST6/figures/Sek/SEKLogUd.pdf>]
-<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1217, 804.00375pt x 571.13374pt>
+<figures/Aktivitetsdiagram/ERdiagram.pdf, id=1217, 683.55376pt x 530.98375pt>
 File: figures/Aktivitetsdiagram/ERdiagram.pdf Graphic file (type pdf)
 
 <use figures/Aktivitetsdiagram/ERdiagram.pdf>
 Package pdftex.def Info: figures/Aktivitetsdiagram/ERdiagram.pdf used on input 
 line 10.
-(pdftex.def)             Requested size: 441.0pt x 313.26176pt.
+(pdftex.def)             Requested size: 441.0pt x 342.57506pt.
 
 Underfull \hbox (badness 1997) in paragraph at lines 15--17
 \T1/cmr/m/n/10.95 Af [][]figur 6.21[][][] ses ER-diagrammet over databasen, hvo
 ri KOL-patienter oprettes og
  []
 
+
+Underfull \hbox (badness 1117) in paragraph at lines 15--17
+\T1/cmr/m/n/10.95 en stærk entitiet, som registreres med primærnøglen, \T1/cmr/
+m/it/10.95 medlemsID\T1/cmr/m/n/10.95 . Derudover fremgår
+ []
+
 [58 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-master/ST6/figures/Akti
 vitetsdiagram/ERdiagram.pdf>]
-Overfull \hbox (14.70294pt too wide) in paragraph at lines 23--30
- [][] 
+
+LaTeX Warning: Reference `tab:schema' on page 59 undefined on input line 19.
+
+
+LaTeX Warning: Reference `tab:schema' on page 59 undefined on input line 20.
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 26--28
+[]|\T1/cmr/m/n/10.95 Træning = ($[]$, $[]$, kondi$[]$type, hel-bredstil-stand,
  []
 
 
-Overfull \hbox (14.70294pt too wide) in paragraph at lines 41--48
+Overfull \hbox (14.70294pt too wide) in paragraph at lines 24--30
  [][] 
  []
 
@@ -2567,7 +2580,7 @@ ne 6.
 Package natbib Warning: Citation `android2017' on page 60 undefined on input li
 ne 10.
 
-<figures/imple/logindlay.png, id=1240, 258.36525pt x 225.84375pt>
+<figures/imple/logindlay.png, id=1237, 258.36525pt x 225.84375pt>
 File: figures/imple/logindlay.png Graphic file (type png)
 
 <use figures/imple/logindlay.png>
@@ -2576,14 +2589,14 @@ Package pdftex.def Info: figures/imple/logindlay.png used on input line 20.
  [60
 
 ]
-<figures/imple/javaclass.png, id=1249, 493.845pt x 80.7015pt>
+<figures/imple/javaclass.png, id=1246, 493.845pt x 80.7015pt>
 File: figures/imple/javaclass.png Graphic file (type png)
 
 <use figures/imple/javaclass.png>
 Package pdftex.def Info: figures/imple/javaclass.png used on input line 33.
 (pdftex.def)             Requested size: 264.60269pt x 43.23952pt.
 
-<figures/imple/list.png, id=1251, 594.42075pt x 127.07475pt>
+<figures/imple/list.png, id=1248, 594.42075pt x 127.07475pt>
 File: figures/imple/list.png Graphic file (type png)
 
 <use figures/imple/list.png>
@@ -2606,7 +2619,7 @@ t line 8.
 Package natbib Warning: Citation `silbershatz2011' on page 62 undefined on inpu
 t line 11.
 
-<figures/imple/phplogind.pdf, id=1263, 1180.41pt x 225.84375pt>
+<figures/imple/phplogind.pdf, id=1260, 1180.41pt x 225.84375pt>
 File: figures/imple/phplogind.pdf Graphic file (type pdf)
 
 <use figures/imple/phplogind.pdf>
@@ -2618,14 +2631,14 @@ le/list.png>]
 Package natbib Warning: Citation `w3schools2017' on page 63 undefined on input 
 line 21.
 
-<figures/imple/phplogindsql.pdf, id=1273, 1180.41pt x 109.40875pt>
+<figures/imple/phplogindsql.pdf, id=1270, 1180.41pt x 109.40875pt>
 File: figures/imple/phplogindsql.pdf Graphic file (type pdf)
 
 <use figures/imple/phplogindsql.pdf>
 Package pdftex.def Info: figures/imple/phplogindsql.pdf used on input line 25.
 (pdftex.def)             Requested size: 441.0pt x 40.87457pt.
 
-<figures/imple/phplogindresp.pdf, id=1276, 1180.41pt x 317.185pt>
+<figures/imple/phplogindresp.pdf, id=1273, 1180.41pt x 317.185pt>
 File: figures/imple/phplogindresp.pdf Graphic file (type pdf)
 
 <use figures/imple/phplogindresp.pdf>
@@ -2639,7 +2652,7 @@ Problemloesning/Implementering/Traening.tex" [63 <C:/Users/Linette Helena Pouls
  Helena Pouls/Documents/GitHub/ST6-master/ST6/figures/imple/phplogindsql.pdf> <
 C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-master/ST6/figures/imple/php
 logindresp.pdf>]
-<figures/imple/anbekode.png, id=1304, 842.54774pt x 212.59425pt>
+<figures/imple/anbekode.png, id=1302, 842.54774pt x 212.59425pt>
 File: figures/imple/anbekode.png Graphic file (type png)
 
 <use figures/imple/anbekode.png>
@@ -2648,14 +2661,14 @@ Package pdftex.def Info: figures/imple/anbekode.png used on input line 7.
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST6-master\ST6\rapportAfsnit/e
 Problemloesning/Implementering/Resultater.tex"
-<figures/imple/koderesul.png, id=1306, 956.57375pt x 135.50626pt>
+<figures/imple/koderesul.png, id=1304, 956.57375pt x 135.50626pt>
 File: figures/imple/koderesul.png Graphic file (type png)
 
 <use figures/imple/koderesul.png>
 Package pdftex.def Info: figures/imple/koderesul.png used on input line 6.
 (pdftex.def)             Requested size: 352.80135pt x 49.97731pt.
 
-<figures/imple/kodebelon.png, id=1308, 499.26524pt x 143.3355pt>
+<figures/imple/kodebelon.png, id=1306, 499.26524pt x 143.3355pt>
 File: figures/imple/kodebelon.png Graphic file (type png)
 
 <use figures/imple/kodebelon.png>
@@ -2664,7 +2677,7 @@ Package pdftex.def Info: figures/imple/kodebelon.png used on input line 18.
  [64 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-master/ST6/figures/imp
 le/anbekode.png> <C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-master/ST6
 /figures/imple/koderesul.png>]
-<figures/imple/SamletBelon.png, id=1319, 1050.92625pt x 215.6055pt>
+<figures/imple/SamletBelon.png, id=1317, 1050.92625pt x 215.6055pt>
 File: figures/imple/SamletBelon.png Graphic file (type png)
 
 <use figures/imple/SamletBelon.png>
@@ -2682,21 +2695,21 @@ Underfull \hbox (badness 1953) in paragraph at lines 19--21
 11170301',
  []
 
-<figures/test/testdatabase.png, id=1331, 1084.05pt x 1927.2pt>
+<figures/test/testdatabase.png, id=1330, 1084.05pt x 1927.2pt>
 File: figures/test/testdatabase.png Graphic file (type png)
 
 <use figures/test/testdatabase.png>
 Package pdftex.def Info: figures/test/testdatabase.png used on input line 34.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/testdatabase1.png, id=1332, 1084.05pt x 1927.2pt>
+<figures/test/testdatabase1.png, id=1331, 1084.05pt x 1927.2pt>
 File: figures/test/testdatabase1.png Graphic file (type png)
 
 <use figures/test/testdatabase1.png>
 Package pdftex.def Info: figures/test/testdatabase1.png used on input line 36.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/testdatabase2.png, id=1333, 1084.05pt x 1927.2pt>
+<figures/test/testdatabase2.png, id=1332, 1084.05pt x 1927.2pt>
 File: figures/test/testdatabase2.png Graphic file (type png)
 
 <use figures/test/testdatabase2.png>
@@ -2725,21 +2738,21 @@ Underfull \hbox (badness 1281) in paragraph at lines 71--73
 /it/10.95 11170301 \T1/cmr/m/n/10.95 og en
  []
 
-<figures/test/testlogind1.png, id=1341, 1084.05pt x 1927.2pt>
+<figures/test/testlogind1.png, id=1340, 1084.05pt x 1927.2pt>
 File: figures/test/testlogind1.png Graphic file (type png)
 
 <use figures/test/testlogind1.png>
 Package pdftex.def Info: figures/test/testlogind1.png used on input line 81.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/testlogind.png, id=1342, 1084.05pt x 1927.2pt>
+<figures/test/testlogind.png, id=1341, 1084.05pt x 1927.2pt>
 File: figures/test/testlogind.png Graphic file (type png)
 
 <use figures/test/testlogind.png>
 Package pdftex.def Info: figures/test/testlogind.png used on input line 83.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/testlogind2.png, id=1343, 1084.05pt x 1927.2pt>
+<figures/test/testlogind2.png, id=1342, 1084.05pt x 1927.2pt>
 File: figures/test/testlogind2.png Graphic file (type png)
 
 <use figures/test/testlogind2.png>
@@ -2769,28 +2782,28 @@ Underfull \hbox (badness 1622) in paragraph at lines 125--127
 ,4,5,1,5\T1/cmr/m/n/10.95 , tryk videre efter
  []
 
-<figures/test/testkat1.png, id=1355, 1084.05pt x 1927.2pt>
+<figures/test/testkat1.png, id=1354, 1084.05pt x 1927.2pt>
 File: figures/test/testkat1.png Graphic file (type png)
 
 <use figures/test/testkat1.png>
 Package pdftex.def Info: figures/test/testkat1.png used on input line 130.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/testkat2.png, id=1356, 1084.05pt x 1927.2pt>
+<figures/test/testkat2.png, id=1355, 1084.05pt x 1927.2pt>
 File: figures/test/testkat2.png Graphic file (type png)
 
 <use figures/test/testkat2.png>
 Package pdftex.def Info: figures/test/testkat2.png used on input line 131.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/testkat.png, id=1357, 1084.05pt x 1927.2pt>
+<figures/test/testkat.png, id=1356, 1084.05pt x 1927.2pt>
 File: figures/test/testkat.png Graphic file (type png)
 
 <use figures/test/testkat.png>
 Package pdftex.def Info: figures/test/testkat.png used on input line 132.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/testkat3.png, id=1358, 1084.05pt x 1927.2pt>
+<figures/test/testkat3.png, id=1357, 1084.05pt x 1927.2pt>
 File: figures/test/testkat3.png Graphic file (type png)
 
 <use figures/test/testkat3.png>
@@ -2819,14 +2832,14 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
 igures/test/testkat2.png> <C:/Users/Linette Helena Pouls/Documents/GitHub/ST6-m
 aster/ST6/figures/test/testkat.png> <C:/Users/Linette Helena Pouls/Documents/Gi
 tHub/ST6-master/ST6/figures/test/testkat3.png>]
-<figures/test/tilpasningny.png, id=1380, 1084.05pt x 1927.2pt>
+<figures/test/tilpasningny.png, id=1379, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasningny.png Graphic file (type png)
 
 <use figures/test/tilpasningny.png>
 Package pdftex.def Info: figures/test/tilpasningny.png used on input line 176.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasningny1.png, id=1381, 1084.05pt x 1927.2pt>
+<figures/test/tilpasningny1.png, id=1380, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasningny1.png Graphic file (type png)
 
 <use figures/test/tilpasningny1.png>
@@ -2834,7 +2847,7 @@ Package pdftex.def Info: figures/test/tilpasningny1.png used on input line 178.
 
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasningny2.png, id=1382, 1084.05pt x 1927.2pt>
+<figures/test/tilpasningny2.png, id=1381, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasningny2.png Graphic file (type png)
 
 <use figures/test/tilpasningny2.png>
@@ -2842,21 +2855,21 @@ Package pdftex.def Info: figures/test/tilpasningny2.png used on input line 180.
 
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning1.png, id=1383, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning1.png, id=1382, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning1.png Graphic file (type png)
 
 <use figures/test/tilpasning1.png>
 Package pdftex.def Info: figures/test/tilpasning1.png used on input line 186.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning.png, id=1384, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning.png, id=1383, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning.png Graphic file (type png)
 
 <use figures/test/tilpasning.png>
 Package pdftex.def Info: figures/test/tilpasning.png used on input line 188.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning2.png, id=1385, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning2.png, id=1384, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning2.png Graphic file (type png)
 
 <use figures/test/tilpasning2.png>
@@ -2900,21 +2913,21 @@ mr/m/n/10.95 , \T1/cmr/m/it/10.95 KONDITIONSTRÆNING\T1/cmr/m/n/10.95 , \T1/cmr/
 m/it/10.95 CYKEL\T1/cmr/m/n/10.95 , \T1/cmr/m/it/10.95 MEGET
  []
 
-<figures/test/tilpasning4.png, id=1396, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning4.png, id=1395, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning4.png Graphic file (type png)
 
 <use figures/test/tilpasning4.png>
 Package pdftex.def Info: figures/test/tilpasning4.png used on input line 222.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning3.png, id=1397, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning3.png, id=1396, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning3.png Graphic file (type png)
 
 <use figures/test/tilpasning3.png>
 Package pdftex.def Info: figures/test/tilpasning3.png used on input line 224.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/tilpasning5.png, id=1398, 1084.05pt x 1927.2pt>
+<figures/test/tilpasning5.png, id=1397, 1084.05pt x 1927.2pt>
 File: figures/test/tilpasning5.png Graphic file (type png)
 
 <use figures/test/tilpasning5.png>
@@ -2943,21 +2956,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
-<figures/test/traening2.png, id=1408, 1084.05pt x 1927.2pt>
+<figures/test/traening2.png, id=1407, 1084.05pt x 1927.2pt>
 File: figures/test/traening2.png Graphic file (type png)
 
 <use figures/test/traening2.png>
 Package pdftex.def Info: figures/test/traening2.png used on input line 284.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening3.png, id=1409, 1084.05pt x 1927.2pt>
+<figures/test/traening3.png, id=1408, 1084.05pt x 1927.2pt>
 File: figures/test/traening3.png Graphic file (type png)
 
 <use figures/test/traening3.png>
 Package pdftex.def Info: figures/test/traening3.png used on input line 286.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening4.png, id=1410, 1084.05pt x 1927.2pt>
+<figures/test/traening4.png, id=1409, 1084.05pt x 1927.2pt>
 File: figures/test/traening4.png Graphic file (type png)
 
 <use figures/test/traening4.png>
@@ -2968,21 +2981,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--292
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
-<figures/test/traening22.png, id=1411, 1084.05pt x 1927.2pt>
+<figures/test/traening22.png, id=1410, 1084.05pt x 1927.2pt>
 File: figures/test/traening22.png Graphic file (type png)
 
 <use figures/test/traening22.png>
 Package pdftex.def Info: figures/test/traening22.png used on input line 293.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening.png, id=1412, 1084.05pt x 1927.2pt>
+<figures/test/traening.png, id=1411, 1084.05pt x 1927.2pt>
 File: figures/test/traening.png Graphic file (type png)
 
 <use figures/test/traening.png>
 Package pdftex.def Info: figures/test/traening.png used on input line 295.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening55.png, id=1413, 1084.05pt x 1927.2pt>
+<figures/test/traening55.png, id=1412, 1084.05pt x 1927.2pt>
 File: figures/test/traening55.png Graphic file (type png)
 
 <use figures/test/traening55.png>
@@ -2993,21 +3006,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
-<figures/test/traening5.png, id=1414, 1084.05pt x 1927.2pt>
+<figures/test/traening5.png, id=1413, 1084.05pt x 1927.2pt>
 File: figures/test/traening5.png Graphic file (type png)
 
 <use figures/test/traening5.png>
 Package pdftex.def Info: figures/test/traening5.png used on input line 302.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening6.png, id=1415, 1084.05pt x 1927.2pt>
+<figures/test/traening6.png, id=1414, 1084.05pt x 1927.2pt>
 File: figures/test/traening6.png Graphic file (type png)
 
 <use figures/test/traening6.png>
 Package pdftex.def Info: figures/test/traening6.png used on input line 304.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/traening1.png, id=1416, 1084.05pt x 1927.2pt>
+<figures/test/traening1.png, id=1415, 1084.05pt x 1927.2pt>
 File: figures/test/traening1.png Graphic file (type png)
 
 <use figures/test/traening1.png>
@@ -3018,7 +3031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []|\T1/cmr/bx/n/10.95 Resultat
  []
 
-<figures/test/notification1.png, id=1417, 1084.05pt x 1927.2pt>
+<figures/test/notification1.png, id=1416, 1084.05pt x 1927.2pt>
 File: figures/test/notification1.png Graphic file (type png)
 
 <use figures/test/notification1.png>
@@ -3026,7 +3039,7 @@ Package pdftex.def Info: figures/test/notification1.png used on input line 312.
 
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/notification2.png, id=1418, 1084.05pt x 1927.2pt>
+<figures/test/notification2.png, id=1417, 1084.05pt x 1927.2pt>
 File: figures/test/notification2.png Graphic file (type png)
 
 <use figures/test/notification2.png>
@@ -3034,7 +3047,7 @@ Package pdftex.def Info: figures/test/notification2.png used on input line 314.
 
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/notification3.png, id=1419, 1084.05pt x 1927.2pt>
+<figures/test/notification3.png, id=1418, 1084.05pt x 1927.2pt>
 File: figures/test/notification3.png Graphic file (type png)
 
 <use figures/test/notification3.png>
@@ -3078,21 +3091,21 @@ Overfull \hbox (10.9913pt too wide) has occurred while \output is active
  [] [] 
  []
 
-<figures/test/belon2.png, id=1452, 1084.05pt x 1927.2pt>
+<figures/test/belon2.png, id=1451, 1084.05pt x 1927.2pt>
 File: figures/test/belon2.png Graphic file (type png)
 
 <use figures/test/belon2.png>
 Package pdftex.def Info: figures/test/belon2.png used on input line 359.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/belon3.png, id=1453, 1084.05pt x 1927.2pt>
+<figures/test/belon3.png, id=1452, 1084.05pt x 1927.2pt>
 File: figures/test/belon3.png Graphic file (type png)
 
 <use figures/test/belon3.png>
 Package pdftex.def Info: figures/test/belon3.png used on input line 361.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/belon5.png, id=1454, 1084.05pt x 1927.2pt>
+<figures/test/belon5.png, id=1453, 1084.05pt x 1927.2pt>
 File: figures/test/belon5.png Graphic file (type png)
 
 <use figures/test/belon5.png>
@@ -3122,14 +3135,14 @@ Underfull \hbox (badness 2237) in paragraph at lines 405--406
 cmr/m/n/10.95 vises i grænsefladen for
  []
 
-<figures/test/vennelisteny.png, id=1465, 1084.05pt x 1927.2pt>
+<figures/test/vennelisteny.png, id=1464, 1084.05pt x 1927.2pt>
 File: figures/test/vennelisteny.png Graphic file (type png)
 
 <use figures/test/vennelisteny.png>
 Package pdftex.def Info: figures/test/vennelisteny.png used on input line 407.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/Vennelisteny1.png, id=1466, 1084.05pt x 1927.2pt>
+<figures/test/Vennelisteny1.png, id=1465, 1084.05pt x 1927.2pt>
 File: figures/test/Vennelisteny1.png Graphic file (type png)
 
 <use figures/test/Vennelisteny1.png>
@@ -3137,7 +3150,7 @@ Package pdftex.def Info: figures/test/Vennelisteny1.png used on input line 408.
 
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/Vennelisteny2.png, id=1467, 1084.05pt x 1927.2pt>
+<figures/test/Vennelisteny2.png, id=1466, 1084.05pt x 1927.2pt>
 File: figures/test/Vennelisteny2.png Graphic file (type png)
 
 <use figures/test/Vennelisteny2.png>
@@ -3145,7 +3158,7 @@ Package pdftex.def Info: figures/test/Vennelisteny2.png used on input line 409.
 
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/Vennelisteny3.png, id=1468, 1084.05pt x 1927.2pt>
+<figures/test/Vennelisteny3.png, id=1467, 1084.05pt x 1927.2pt>
 File: figures/test/Vennelisteny3.png Graphic file (type png)
 
 <use figures/test/Vennelisteny3.png>
@@ -3170,28 +3183,28 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
 T6/figures/test/Vennelisteny1.png> <C:/Users/Linette Helena Pouls/Documents/Git
 Hub/ST6-master/ST6/figures/test/Vennelisteny2.png> <C:/Users/Linette Helena Pou
 ls/Documents/GitHub/ST6-master/ST6/figures/test/Vennelisteny3.png>]
-<figures/test/redigering2.png, id=1489, 1084.05pt x 1927.2pt>
+<figures/test/redigering2.png, id=1488, 1084.05pt x 1927.2pt>
 File: figures/test/redigering2.png Graphic file (type png)
 
 <use figures/test/redigering2.png>
 Package pdftex.def Info: figures/test/redigering2.png used on input line 452.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering3.png, id=1490, 1084.05pt x 1927.2pt>
+<figures/test/redigering3.png, id=1489, 1084.05pt x 1927.2pt>
 File: figures/test/redigering3.png Graphic file (type png)
 
 <use figures/test/redigering3.png>
 Package pdftex.def Info: figures/test/redigering3.png used on input line 453.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering.png, id=1491, 1084.05pt x 1927.2pt>
+<figures/test/redigering.png, id=1490, 1084.05pt x 1927.2pt>
 File: figures/test/redigering.png Graphic file (type png)
 
 <use figures/test/redigering.png>
 Package pdftex.def Info: figures/test/redigering.png used on input line 454.
 (pdftex.def)             Requested size: 88.19794pt x 170.70569pt.
 
-<figures/test/redigering1.png, id=1492, 1084.05pt x 1927.2pt>
+<figures/test/redigering1.png, id=1491, 1084.05pt x 1927.2pt>
 File: figures/test/redigering1.png Graphic file (type png)
 
 <use figures/test/redigering1.png>
@@ -3218,21 +3231,21 @@ Overfull \hbox (11.9923pt too wide) has occurred while \output is active
 6/figures/test/redigering3.png> <C:/Users/Linette Helena Pouls/Documents/GitHub
 /ST6-master/ST6/figures/test/redigering.png> <C:/Users/Linette Helena Pouls/Doc
 uments/GitHub/ST6-master/ST6/figures/test/redigering1.png>]
-<figures/test/logud2.png, id=1504, 1084.05pt x 1927.2pt>
+<figures/test/logud2.png, id=1503, 1084.05pt x 1927.2pt>
 File: figures/test/logud2.png Graphic file (type png)
 
 <use figures/test/logud2.png>
 Package pdftex.def Info: figures/test/logud2.png used on input line 487.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/logud3.png, id=1505, 1084.05pt x 1927.2pt>
+<figures/test/logud3.png, id=1504, 1084.05pt x 1927.2pt>
 File: figures/test/logud3.png Graphic file (type png)
 
 <use figures/test/logud3.png>
 Package pdftex.def Info: figures/test/logud3.png used on input line 490.
 (pdftex.def)             Requested size: 105.83092pt x 170.70569pt.
 
-<figures/test/logud1.png, id=1506, 1084.05pt x 1927.2pt>
+<figures/test/logud1.png, id=1505, 1084.05pt x 1927.2pt>
 File: figures/test/logud1.png Graphic file (type png)
 
 <use figures/test/logud1.png>
@@ -3312,8 +3325,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST6-master\ST6\main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 77B868680E6D01864C7B949A3BB6D7EE;3958.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 1BC291BEC0606A2EDC3B47A1BEB6522E;3957
+(rerunfilecheck)             After:  6752E0EDCBE8FA543C423725C46FB13A;3957.
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3321,43 +3343,52 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 27395 strings out of 493921
- 496000 string characters out of 3144831
- 780798 words of memory out of 3000000
- 29676 multiletter control sequences out of 15000+200000
+ 27396 strings out of 493921
+ 496013 string characters out of 3144831
+ 779798 words of memory out of 3000000
+ 29675 multiletter control sequences out of 15000+200000
  37395 words of font info for 102 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,1431b,976s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
-C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/cm-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfss0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/c
-m-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-s
-uper/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/s
-fti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sftt
-1095.pfb>
-Output written on main.pdf (93 pages, 10592097 bytes).
+pdfTeX warning (dest): name{table.caption.96} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.87} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.98} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:
+/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/cm-super/sfrm1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+cm-super/sfss0900.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-sup
+er/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/
+sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sft
+i1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sftt10
+95.pfb>
+Output written on main.pdf (93 pages, 10550620 bytes).
 PDF statistics:
- 1744 PDF objects out of 2073 (max. 8388607)
- 311 named destinations out of 1000 (max. 500000)
+ 1745 PDF objects out of 2073 (max. 8388607)
+ 313 named destinations out of 1000 (max. 500000)
  1030 words of extra memory for PDF output out of 10000 (max. 10000000)
 
