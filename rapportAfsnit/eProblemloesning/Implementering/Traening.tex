@@ -61,6 +61,15 @@ Metoden, run, indeholder variablen MillisecondTime, der tæller tiden, som er g�
 
 Under tilpasning af træningsniveau er der blevet anbefalet en træningstid. Opnår træningstiden denne værdi under træning, vil app'en gøre brugeren opmærksom på dette ved angivelse af en lyd. Dette er implementeret ved en if-loop, hvori klassen MediaPlayer instansieres, hvis den anbefalede tid opnås. Hertil kaldes en metode, der afspiller en lydfil. 
 
+Ifølge de opstillede kravspecifikationer skal app'en sende en daglig notifikation. Denne er implementeret i træningscontrolleren, hvor notifikationen aktiveres første gang brugeren har evalueret en træning. Hertil er det implementeret, at den daglige notifikation sendes klokken 15. Af \autoref{fig:notifikationKode} fremgår et udklip af koden, som definerer tidspunktet for notifikationen. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/imple/notifikationKode}
+\caption{Udklip af kode fra træningscontrolleren, som viser notifikationens starttidspunkt.}
+\label{fig:notifikationKode}
+\end{figure} 
+
 
 
 
