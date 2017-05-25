@@ -191,21 +191,17 @@ public Runnable runnable = new Runnable() {
 
         // her starter GPS
 
-        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+    locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+    locationListener = new LocationListener() {
+        @Override
+        public void onLocationChanged(Location location) {
 
-        locationListener = new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) { //Kaldes nÂr lokation opdateres.
+            lat2 = location.getLatitude();
+            lng2 = location.getLongitude();
 
-              /*  textView.append("\n " + location.getLatitude() + " " + location.getLongitude());*/
-
-                lat2 = location.getLatitude();
-                lng2 = location.getLongitude();
-
-                setLat2(lat2);
-                setLng2(lng2);
-
-            }
+            setLat2(lat2);
+            setLng2(lng2);
+        }
 
             @Override
             public void onStatusChanged(String provider, int status, Bundle extras) {
@@ -286,10 +282,11 @@ public Runnable runnable = new Runnable() {
         double Lng_first = listLng.get(0);
         double Lat_first = listLat.get(0);
 
-        double Lng_last = listLng.get(listLng.size() - 1);
-        double Lat_last = listLat.get(listLat.size() - 1);
+
 
         if (listLat.size() > 1) {
+            double Lng_last = listLng.get(listLng.size() - 1);
+            double Lat_last = listLat.get(listLat.size() - 1);
             double Lng_nl = listLng.get(listLng.size() - 2);
             double Lat_nl = listLat.get(listLat.size() - 2);
             distance(Lat_nl, Lng_nl, Lat_last, Lng_last);
@@ -300,7 +297,7 @@ public Runnable runnable = new Runnable() {
 
 
     private double distance(double lat1, double lon1, double lat2, double lon2) {
-        double gammelDist = getDist();
+        double gammelDist = getnyDist();
         double theta = lon1 - lon2;
         double dist = Math.sin(deg2rad(lat1))
                 * Math.sin(deg2rad(lat2))
@@ -311,7 +308,7 @@ public Runnable runnable = new Runnable() {
         dist = rad2deg(dist);
         dist = ((dist * 60 * 1.1515) * 1609.344 / 1000);
         double nyDist = gammelDist + dist;
-        textViewKm.setText(String.format("%.2f", nyDist) + " km"); // HER
+        textViewKm.setText(String.format("%.2f", nyDist) + " km");
         setDist(dist);
         setnyDist(nyDist);
         return (dist);
