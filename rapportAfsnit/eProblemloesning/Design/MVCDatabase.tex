@@ -3,15 +3,15 @@ Systemet skal, som nævnt i kravsspecifikationer, have forbindelse til en databa
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/MVC/MVCDatabase}
+\includegraphics[width=0.7\textwidth]{figures/MVC/MVCDatabase}
 \caption{Designklasse for Database. Til venstre ses databasen og til højre ses den tilhørende controller.}
 \label{fig:MVCDatabase}
 \end{figure}
 
 \noindent
-Databasen indeholder Brugeroplysninger, KonditionTræning, Belønninger og Venneliste. Brugeroplysninger indeholder brugerens oplysninger, herunder medlemsID, navn og kategorisering. Disse registreres i forbindelse med rehabiliteringsforløbet af sundhedspersonalet, som senere kan tilgå disse og redigere i brugeroplysningerne.  KonditionTræning indeholder brugerens resultater for den udførte konditionstræning. Belønninger indeholder værdier for de opnåede virtuelle belønninger. Brugeren og de brugere, der følger denne har adgang til disse. Vennelisten indeholder andre brugere som brugeren følger, derudover har brugeren mulighed for at tilføje eller fjerne brugere fra sin venneliste. Designet af databasen er yderligere beskrevet i et ER-diagram, der fremgår af \autoref{sec:ER}. 
+Databasen indeholder de oprettede tabeller Brugeroplysninger, KonditionTræning, Belønninger og Venneliste. Brugeroplysninger indeholder brugerens oplysninger, herunder medlemsID, navn og kategorisering. KonditionTræning indeholder brugerens resultater for de udførte konditionstræninger. Tabellen Belønninger lagrer værdier for de opnåede virtuelle belønninger. Vennelisten indeholder andre brugere som brugeren følger, derudover har brugeren mulighed for at tilføje eller fjerne brugere fra sin venneliste. Designet af databasen og tilhørende tabeller er yderligere beskrevet i et ER-diagram, der fremgår af \autoref{sec:ER}. 
 
-\textit{Database} controlleren indeholder attributter og metoder. De tilhørende attributter er private, da det ikke ønskes at ændre eller tilgå disse fra andre controllere. Dertil skaber det en større kontrol samt mindsker fejl i forhold til uhensigtsmæssige ændringer. Attributtens type vil fremgå efter den tilhørende attribut. Metoderne for dennne controller er henholdsvis, Hent, Gem, Valider Opret og Slet. Disse metoder udføres i forhold til definerede inputsparametre, hvilket er angivet i parenteser. \fxnote{hvorfor public metoder..??}
+\textit{Database} controlleren indeholder attributter og metoder. De tilhørende attributter er private, da det ikke ønskes at ændre eller tilgå disse fra andre controllere. Dertil skaber det en større kontrol samt mindsker fejl i forhold til uhensigtsmæssige ændringer. Attributtens type vil fremgå efter den tilhørende attribut. Metoderne for dennne controller er henholdsvis Hent, Valider, Gem, Opret og Slet. Disse metoder udføres i forhold til definerede inputsparametre, hvilket er angivet i parenteser. \fxnote{hvorfor public metoder..??}
 
 Metoderne har til formål at kommunikere mellem databasen og de forskellige controllere. Der oprettes forbindelse til databasen ved samtlige controllere. 
 
