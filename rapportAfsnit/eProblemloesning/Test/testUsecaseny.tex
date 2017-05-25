@@ -126,7 +126,17 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
 \begin{itemize}
 \item Forventet kategorisering er D
 \end{itemize}   \\ \hline
- \textbf{Resultat:} & \hspace{0.3mm}
+ \textbf{Resultat:} &\hspace{1.5mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT}} 
+  \hspace{5mm}
+   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT1}} 
+     \hspace{5mm}
+    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT2}} 
+    \vspace{3mm}
+    \newline
+Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, CAT-score og antal indlæggelser. Den midterste figur viser et af de otte udsagn, der udgør CAT-scoren. Disse grænseflader vises før grænsefladen for ABCD-kategorisering.   
+ \\ \hline
+\textbf{} & \hspace{0.3mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat1}} 
    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat2}} 
     \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat}} 
@@ -202,17 +212,17 @@ Ovenstående figurer viser grænsefladerne for valg af træningsform, træningst
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evaluering skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilstande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning samt helbredstilstand.
  \\ \hline
  	\textbf{Main flow:} &
- 	1.~Tidligere evaluering af samme træning er: \textit{:-D} og helbredstilstand \textit{MEGET DÅRLIGT}. 
+ 	1.~Tidligere evaluering af samme træning er: \textit{:-D} og helbredstilstand \textit{MEGET DÅRLIGT}.  \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
  	\item Forventet anbefaling af træningstid er 15 min
  	\end{itemize} 	
- 	 2~Tidligere evaluering af samme træning er \textit{:-)} og helbredstilstand \textit{MODERAT}. 
+ 	 2.~Tidligere evaluering af samme træning er \textit{:-)} og helbredstilstand \textit{MODERAT}. \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
  	\item Forventet anbefaling af træningstid er 30 min
  	\end{itemize}	
-3.~Tidligere evaluering af samme træning er: \textit{:-(} og helbredstilstand \textit{MEGET GODT}. 
+3.~Tidligere evaluering af samme træning er: \textit{:-(} og helbredstilstand \textit{MEGET GODT}. \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
   \item Forventet anbefaling af træningstid er 45 min
@@ -347,7 +357,7 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
     \textbf{Test:} & Resultater \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger efter \autoref{tab:SamletBelon}. Dette gøres ved at træne imens, der måles tid og afstand. 
  \\ \hline
- 	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 1.35. \fxnote{SKAL ÆNDRES, SÅ DET PASSER MED CA 25 KM} Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
+ 	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 0.16. Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
  	\begin{itemize} 
  	\item Forventet, at brugeren har opnået én stjerne som belønning i kategorien antal træninger
  	\item Forventet, at brugeren har opnået tre stjerne som belønning i kategorien tid
@@ -392,17 +402,17 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
  	\begin{itemize}
  	\item Søgning mislykkedes. Fejlmeddelelse vises i grænsefladen for venneliste
  	\end{itemize}	
- 	2.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{4444} og tryk søg.
+ 	2.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{11170304} og tryk søg.
  	\begin{itemize}
  	\item Søgning lykkedes. Grænsefladen for søgte vens belønninger vises
 	\end{itemize}
-  3.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{4444} og tryk søg. Herefter trykkes følg.
+  3.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{11170304} og tryk søg. Herefter trykkes følg.
   \begin{itemize}
   \item  Forventet følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres
   \end{itemize}
   4.~Tryk \textit{VENNELISTE} via hovedmenuen
   \begin{itemize}
-  \item Forventet bruger med medlemsID \textit{4444} vises i grænsefladen for vennelisten. 
+  \item Forventet bruger med medlemsID \textit{11170304} vises i grænsefladen for vennelisten. 
   \end{itemize} \hspace{0.2mm}\\ \hline
 \textbf{Resultat} & \hspace{0.3mm} \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/vennelisteny}} 
         \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny1}} 
