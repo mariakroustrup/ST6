@@ -15,39 +15,37 @@ Af figuren ses beregningen af den anbefalede træningstid for brugeren med kateg
 \section{Træning}
 Træningscontrolleren har til formål at håndtere GPS og timer under en træning. For at implementere GPS skal app'en have tilladelse til at anvende den mobile enheds lokalisation. Dette er en engangstilladelse, der skal gives første gang brugeren vil foretage en træning. 
 
-Der instansieres en LocationManager og LocationListener. LocationManager tillader app'en at opnå enhedens lokation, hvor LocationListener modtager lokationsopdateringer. Disse opdateringer forekommer, idet enheden ændrer lokation.\cite{} Af koden i \autoref{fig:gpsKode} fremgår det, at systemet indeholder en metode, onLocationChanged, der kaldes, når lokationen ændres. 
+Der instansieres en LocationManager og LocationListener. LocationManager tillader app'en at opnå enhedens lokation, hvor LocationListener modtager lokationsopdateringer. Disse opdateringer forekommer, idet enheden ændrer lokation.\cite{LocationManager, LocationListener} Af koden i \autoref{fig:gpsKode} fremgår det, at systemet indeholder en metode, onLocationChanged, der kaldes, når lokationen ændres. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/gpsKode}
-\caption{XXXXXXX.}
+\includegraphics[width=1\textwidth]{figures/imple/gpsKode}
+\caption{Metoden, onLocationChanged, der kaldes, når lokation ændres.}
 \label{fig:gpsKode}
 \end{figure} 
 
-Når lokationen ændres, hentes enhedens longitude og latitude, hvortil disse værdier benyttes i set-metoder. 
-
-Der er defineret en metode, der udregner afstanden mellem to lokationer.
+Når lokationen ændres, hentes enhedens longitude og latitude, hvortil disse værdier benyttes i set-metoder. Afstanden mellem to lokationer kan beregnes ud fra følgende formel:
 
 
+FORMEL!!!
 
-https://developer.android.com/reference/android/location/LocationManager.html 
+Der implementeres en metode, \textit{distance}, der anvender longitude- og latitude som inputværdier, og beregner afstanden i kilometer mellem to lokationer ud fra ovenstående formel. Metoden kan ses i \autoref{fig:gpsKode}.
 
-https://developer.android.com/reference/android/location/LocationListener.html
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/imple/distanceKode}
+\caption{Metode i træningscontrolleren, der beregner afstanden i kilometer ud fra lokationer.}
+\label{fig:disanceKode}
+\end{figure} 
 
- 
+Metoden, distance, kaldes hver gang, der sker en lokationsændring, og den beregner afstanden mellem enhedens pågældende lokation samt lokationen fra den forrige lokationsopdatering. Af koden fremgår det, at latitude- og longitudeværdierne konverteres fra grader til radianer for at kunne anvende cosinus og sinusfunktionerne. Ifølge formel XXX skal variablen dist, når den måles i radianer, ganges med jordens radius i kilometer. Idet dist, som det fremgår af koden, konverteres til grader igen, er der i koden foretaget nogle ændringer i forhold til formlen. I koden multipliceres dist derfor med 60 * 1,1515 for at ........ For at omregne dist fra miles til kilometer multipliceres værdien med 1609,345/1000. ??????????????????????????????????????????????
 
-
-GPS:
-
-locationmanager
-locationlistener
-permission
-latitude og longitude
-Distance, afstand  + GPS formel
-Extended controls
+Når metoden kaldes, ved en lokationsændring, lægges de beregnede afstande sammen i variablen nydist, således en samlet tilbagelagt afstand opnås. ??? Noget med gammeldist????
 
 
-I træningscontrolleren startes en timer. Denne er implementeret ved at instansiere klassen Runnable, hvori en metode, run, defineres. Koden for dette kan ses i \autoref{fig:timerKode}.
+
+
+I træningscontrolleren startes en timer for at kunne monitorere brugerens træning. Denne er implementeret ved at instansiere klassen Runnable, hvori en metode, run, defineres. Koden for dette kan ses i \autoref{fig:timerKode}.
 
 \begin{figure} [H]
 \centering
