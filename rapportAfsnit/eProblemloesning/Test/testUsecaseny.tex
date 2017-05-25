@@ -75,7 +75,7 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
  \end{itemize}
 3.~Indtast et medlemsID \textit{11170301} og en adgangskode \textit{adgangskode}, som eksisterer i databasen. 
 \begin{itemize}
-\item Forventet log ind lykkedes og hovedmenu vises
+\item Log ind lykkedes og hovedmenu vises
 \end{itemize}
  \\  \hline
  \textbf{Resultat:} &  \hspace{1.5mm}
@@ -113,19 +113,19 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
  \\ \hline
  	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}. 
  	\begin{itemize} 
- 	\item Forventet kategorisering er A
+ 	\item Kategorisering er A
  	\end{itemize}	
  	2.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
  	\begin{itemize}
- 	\item Forventet kategorisering er B
+ 	\item Kategorisering er B
  	\end{itemize}
 3.~Få en samlet CAT-score under 10. \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
  \begin{itemize}
-  \item Forventet kategorisering er C
+  \item Kategorisering er C
   \end{itemize}
 4.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
 \begin{itemize}
-\item Forventet kategorisering er D
+\item Kategorisering er D
 \end{itemize}   \\ \hline
  \textbf{Resultat:} &\hspace{1.5mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT}} 
@@ -172,15 +172,15 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
  	\textbf{Main flow:} &
  	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Forventet anbefaling af træningstid er 10 min
+ 	\item Anbefaling af træningstid er 10 min
  	\end{itemize}
  	 2~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Forventet anbefaling af træningstid er 30 min
+ 	\item Anbefaling af træningstid er 30 min
  	\end{itemize}	
 3.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
-  \item Forventet anbefaling af træningstid er 50 min
+  \item Anbefaling af træningstid er 50 min
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
@@ -216,17 +216,17 @@ Ovenstående figurer viser grænsefladerne for valg af træningsform, træningst
  	1.~Tidligere evaluering af samme træning er: \textit{:-D} og helbredstilstand \textit{MEGET DÅRLIGT}.  \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Forventet anbefaling af træningstid er 15 min
+ 	\item Anbefaling af træningstid er 15 min
  	\end{itemize} 	
  	 2.~Tidligere evaluering af samme træning er \textit{:-)} og helbredstilstand \textit{MODERAT}. \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Forventet anbefaling af træningstid er 30 min
+ 	\item Anbefaling af træningstid er 30 min
  	\end{itemize}	
 3.~Tidligere evaluering af samme træning er: \textit{:-(} og helbredstilstand \textit{MEGET GODT}. \newline
 Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
-  \item Forventet anbefaling af træningstid er 45 min
+  \item Anbefaling af træningstid er 45 min
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
@@ -273,21 +273,21 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.
  	\begin{itemize}
- 	\item Forventet tid er over 2 minutter
+ 	\item Tiden er over 2 minutter
  	\end{itemize}	
  	2.~Tryk \textit{START TRÆNING} åben Extended controls, som fremgår af \autoref{fig:emulatorExtend}. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}. De forventede afstande er beregnet ved \autoref{equ:GPS}. 
  	\begin{itemize}
- 	\item Forventet afstand ved 0 er 0 km.
- 	\item Forventet afstand ved 0.01 er 1.57 km.
- 	\item Forventet afstand ved 0.02 er 3.14 km.
+ 	\item Afstand ved 0 er 0 km
+ 	\item Afstand ved 0.01 er 1.57 km
+ 	\item Afstand ved 0.02 er 3.14 km
 	\end{itemize}
   3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og 	bekræft. Angiv herefter \textit{:-)} og tryk videre.
   \begin{itemize}
-  \item Forventet evaluering er gemt i databasen
+  \item Evaluering er gemt i databasen
   \end{itemize}
    4.~Vent til klokken 15 med at udføre en træning
   \begin{itemize}
-  \item Forventet notifikation klokken 15
+  \item Notifikation starter klokken 15
   \vspace{1mm}
   \end{itemize}
 \\ \hline
@@ -406,11 +406,11 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
 	\end{itemize}
   3.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{11170304} og tryk søg. Herefter trykkes følg.
   \begin{itemize}
-  \item  Forventet følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres
+  \item  Følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres
   \end{itemize}
   4.~Tryk \textit{VENNELISTE} via hovedmenuen
   \begin{itemize}
-  \item Forventet bruger med medlemsID \textit{11170304} vises i grænsefladen for vennelisten. 
+  \item Bruger med medlemsID \textit{11170304} vises i grænsefladen for vennelisten
   \end{itemize} \hspace{0.2mm}\\ \hline
 \textbf{Resultat} & \hspace{0.3mm} \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/vennelisteny}} 
         \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny1}} 
@@ -454,7 +454,7 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
  	\end{itemize}
  	3.~Log ud og log ind med medlemsID \textit{11170301} og den nye adgangskode \textit{nyadgangskode}.
  	\begin{itemize}
- 	\item Forventet log ind lykkes og hovedmenu vises 
+ 	\item Log ind lykkes og hovedmenu vises 
 	\end{itemize} \\ \hline
 \textbf{Resultat} &
     \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering2}} 
@@ -489,7 +489,7 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{LOG UD} via hovedmenuen og tryk bekræft.
  	\begin{itemize}
- 	\item Forventet grænseflade for log ind vises
+ 	\item Grænseflade for log ind vises
  	\end{itemize}	
 \\ \hline
 \textbf{Resultat} &  \hspace{1.5mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud2}} 
