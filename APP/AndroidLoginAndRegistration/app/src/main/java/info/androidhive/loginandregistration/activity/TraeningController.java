@@ -34,6 +34,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -50,7 +51,7 @@ public class TraeningController extends AppCompatActivity {
     TextView textViewTimer, textViewKm;
     Button start, stop;// reset;
     long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
-    int Seconds, Minutes, MilliSeconds;
+    int Time, Seconds, Minutes, MilliSeconds;
     String medlemsid;
     Handler handler;
     PopupWindow myPopUp;
@@ -76,8 +77,9 @@ public Runnable runnable = new Runnable() {
         Seconds = (int) (UpdateTime / 1000);
         Minutes = Seconds / 60;
         Seconds = Seconds % 60;
+        Time = Minutes /60;
 
-        textViewTimer.setText("" + Minutes + ":" + String.format("%02d", Seconds));
+        //textViewTimer.setText(" " +Time + ":" + "" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
             Long m = getMinutes();
@@ -472,9 +474,9 @@ public Runnable runnable = new Runnable() {
     Calendar calendar = Calendar.getInstance();
     Calendar now = Calendar.getInstance();
     calendar.set(Calendar.HOUR_OF_DAY, 15);
-    calendar.set(Calendar.MINUTE, 0);
-    calendar.set(Calendar.SECOND, 0);
-    if(now.after(calendar)){
+    calendar.set(Calendar.MINUTE, 00);
+    calendar.set(Calendar.SECOND, 00);
+        if(now.after(calendar)){
         calendar.add(Calendar.DATE,1);
     }
 
