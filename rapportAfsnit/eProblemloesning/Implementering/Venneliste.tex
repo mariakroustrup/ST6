@@ -1,7 +1,6 @@
 \section{Venneliste}
-Vennelisten er implementeret i Vennelistecontrolleren, hertil 
-For at app'en kan hente vennerne som brugeren følger, sendes brugerens medlemsID til databasen. Et php-script benytter medlemsID i en SQL-kommando, der tilgår tabellen for vennerelationer, som returnerer ven_mendlemsid for de brugere, der følges. 
-Dette modtages i app'en som et JSON-objekt, hvorfra et JSON-array hentes og ligges i venner_array, der kan ses af udklippet i  \autoref{XXXXXX}.  
+I vennelistecontrolleren er der implementeret en venneliste, som indeholder brugere, der følges. For at app'en kan hente venner som brugeren følger, sendes brugerens medlemsID til databasen. Et php-script benytter medlemsID i en SQL-kommando, der tilgår tabellen for vennerelationer, som returnerer ven_mendlemsid for de brugere, der følges. 
+Dette modtages i app'en som et JSON-objekt, hvorfra et JSON-array hentes og ligges i venner_array, der kan ses af udklippet i  \autoref{fig:vennerKode}.  
 
 \begin{figure} [H]
 \centering
