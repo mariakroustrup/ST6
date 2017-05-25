@@ -12,20 +12,22 @@ Venneliste inddeles i to boundaryklasser og en fælles controlklasse, som fremg�
 I grænsefladen \textit{Venneliste} findes en liste, af typen ListView, med navn på de brugere, der følges. Hver bruger, der vises af den givne grænseflade, kan tilgås ved at trykke på brugeren. Derudover er der i denne grænseflade et søgefelt, af typen EditText, med en tilhørende SøgVenKnap, af typen Button, som muliggør, at brugeren kan søge på andre brugere ved at angive deres medlemsID. 
 Grænsefladen, \textit{Ven}, indeholder tekstfelter af typen TextView, som viser brugerens navn og medlemsID. Derudover er der anvendt billede af typen ImageView, som viser brugerens belønninger. Hvis brugeren ikke følges, er der her opstillet en FølgVenKnap. Følges brugeren allerede er der opstillet en FjernVenKnap. 
 
-Controller for \textit{Venneliste} indeholder private attributter, herunder attributter af typen int og ArrayList. Arrayet for venneliste har til formål at lagre brugerens venner. Dertil har controlleren public metoderne Hent, Vis, Lyt, Søg, Valider, Opret og Slet. Metoderne handler ud fra inputsparametre angivet i parenteserne. 
+Controller for \textit{Venneliste} indeholder private attributter, herunder attributter af typen int og ArrayList. Arrayet for venneliste har til formål at lagre brugerens venner. Dertil har controlleren ligeledes private metoder, herunder Hent, Vis, Lyt, Søg, Valider, Opret og Slet. Metoderne handler ud fra inputsparametre angivet i parenteserne. 
 
 Ud fra de nævnte designklasser er udarbejdet et sekvensdiagram, der fremgår af \autoref{fig:SEKVenneliste}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1.55\textwidth, angle=90]{figures/Sek/SEKVenneliste}
-\caption{Sekvensdiagram for venneliste. *****RET TIL!*********}
+\caption{Sekvensdiagram for venneliste.}
 \label{fig:SEKVenneliste}
 \end{figure}
 
 \noindent
-Controlleren \textit{Venneliste} henter venneliste fra \textit{Database} via dens tilhørende controller, hvorefter grænsefladen for venneliste vises. 
-Dertil lytter controlleren for \textit{Ven} på VælgVenKnap samt SøgVenKnap. Vælger brugeren at tilgå en ven fra vennelisten, vises grænsefladen \textit{Ven}. Vælger brugeren derimod at søge efter en anden bruger, hentes det indtastede medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren ikke findes i databasen vises en fejlmeddelelse i \textit{Venneliste} grænsefladen. Findes brugeren i databasen vises grænsefladen \textit{Ven}, hvor brugeren har mulighed for at følge eller fjerne en bruger, hvis denne allerede følges. Hvis brugeren trykker på FølgVenKnap oprettes der en vennerelation i databasen, hvor vennerelationen modsat vil slettes ved tryk på FjernVenKnap. 
+Controlleren \textit{Venneliste} henter venner fra \textit{Database} via \textit{Database} controlleren, hvorefter grænsefladen for venneliste vises. Stjerner angiver inputsparametre, der fremgår af designklasser for tilhørende controllerer. 
+Dertil lytter controlleren på VælgVenKnap samt SøgVenKnap. Vælger brugeren at tilgå en ven fra vennelisten, sendes vennes medlemsID til \textit{Venneliste} controlleren, hvorefter vennen hentes i databasen. Dertil vises grænsefladen for \textit{Ven}. Vælger brugeren derimod at søge efter en anden bruger, sendes det indtastede medlemsID, således den søgte bruger kan findes i databasen, hvortil den valideres. Såfremt brugeren ikke findes i databasen vises en fejlmeddelelse i \textit{Venneliste} grænsefladen. Findes brugeren i databasen vises grænsefladen \textit{Ven}, hvor brugeren har mulighed for at følge eller fjerne en bruger. Hvis brugeren trykker på FølgVenKnap oprettes der en vennerelation i databasen, hvor vennerelationen modsat vil slettes ved tryk på FjernVenKnap. Efterfølgende sendes en bekræftelse på, at vennen er tilføjet eller fjernet. 
+
+
 %Venneliste inddeles i en grænseflade og dertilhørende controller, som det fremgår af \autoref{fig:MVCVenneliste}. 
 
 %\begin{figure} [H]
