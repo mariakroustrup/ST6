@@ -79,7 +79,7 @@ public Runnable runnable = new Runnable() {
         Seconds = Seconds % 60;
         Time = Minutes /60;
 
-        //textViewTimer.setText(" " +Time + ":" + "" + Minutes + ":" + String.format("%02d", Seconds));
+        textViewTimer.setText(" " +Time + ":" + "" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
             Long m = getMinutes();
