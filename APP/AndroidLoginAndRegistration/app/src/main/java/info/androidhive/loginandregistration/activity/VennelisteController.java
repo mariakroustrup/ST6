@@ -206,25 +206,20 @@ public class VennelisteController extends AppCompatActivity {
                     JSONObject json = new JSONObject(response);
                     boolean error = json.getBoolean("error");
 
-                    venner_array = json.getJSONArray("venner");
-
-                    if(!error){
-                        for(int i = 0; i < venner_array.length(); i++){
-                            JSONObject c = venner_array.getJSONObject(i);
-
-                            // Vi lagre det i en variable
-                            String navn = c.getString("navn");
-                            String ven_medlemsid = c.getString("ven_medlemsid");
-
-                            //Hashmap
-                            HashMap<String, String> map = new HashMap<String, String>();
-
-                            // Værdier i Hashmap
-                            map.put("navn", navn);
-                            map.put("ven_medlemsid",ven_medlemsid);
-
-                            // Tilfjer HashList to ArrayList VenneListe
-                            VenneListe.add(map);
+                venner_array = json.getJSONArray("venner");
+                if(!error){
+                    for(int i = 0; i < venner_array.length(); i++){
+                        JSONObject c = venner_array.getJSONObject(i);
+                        // Vi lagrer det i en variabel
+                        String navn = c.getString("navn");
+                        String ven_medlemsid = c.getString("ven_medlemsid");
+                        //Hashmap
+                        HashMap<String, String> map = new HashMap<String, String>();
+                        // Værdier i Hashmap
+                        map.put("navn", navn);
+                        map.put("ven_medlemsid",ven_medlemsid);
+                        // Tilføjer HashList to ArrayList VenneListe
+                        VenneListe.add(map);
                         }
                     } else {
                         // Error in login. Get the error message
@@ -272,6 +267,7 @@ public class VennelisteController extends AppCompatActivity {
             pDialog.dismiss();
     }
 
+    //*********** METODE TIL UPDATE LISTVIEW**************//
     public void updateList(){
         runOnUiThread(new Runnable() {
             public void run() {
