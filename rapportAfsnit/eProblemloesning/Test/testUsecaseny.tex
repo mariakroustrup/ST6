@@ -18,25 +18,26 @@ For at teste om de opstillede krav til databasen er overholdt udføres testen, s
      \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data. Dette gøres ved at oprette en bruger i databasen. Efterfølgende vil en kategorisering foretages, og derefter tjekkes om denne er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
  	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textit{INSERT INTO 'users' ('navn', 'medlemsid', 'db\_adgangskode', 'kategorisering') VALUES ('Jens Jensen', '11170301', 'adgangskode', 'F')} i databasen.
  	\begin{itemize}
-	\item Bruger er oprettet i databasen
+	\item Bruger er oprettet i databasen (\textbf{\textit{Figur 1}})
 	\end{itemize}
  2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
  \begin{itemize}
  \item Kategorisering A er gemt i databasen 
  \end{itemize}
-3.~Tryk på \textbf{REDIGER ADGANGSKODE} via hovedmenuen.
+3.~Tryk på \textit{REDIGER ADGANGSKODE} via hovedmenuen.
 \begin{itemize}
 \item MedlemsID og navn samt opdaterede kategorisering, A, vises under rediger adgangskode
 \end{itemize}
  \\  \hline
   \textbf{Resultat:} &
   \hspace{1.5mm}
-  \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase}} 
+ \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase}}
   \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase1}} 
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testdatabase2}} 
     \vspace{3mm}
+    ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figureren i midten viser, at kategoriseringen er gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Disse værdier er hentet fra databasen, idet brugeren logger ind. Dertil er kategoriseringen opdateret i forhold til den nye kategorisering. 
 \begin{itemize}[label={\checkmark}]
@@ -274,7 +275,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  	\begin{itemize}
  	\item Forventet tid er over 2 minutter
  	\end{itemize}	
- 	2.~Tryk \textit{START TRÆNING} åben Extended controls. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}.
+ 	2.~Tryk \textit{START TRÆNING} åben Extended controls, som fremgår af \autoref{fig:emulatorExtend}. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}. De forventede afstande er beregnet ved \autoref{equ:GPS}. 
  	\begin{itemize}
  	\item Forventet afstand ved 0 er 0 km.
  	\item Forventet afstand ved 0.01 er 1.57 km.
@@ -318,15 +319,14 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
     \newline
      Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen, der fremkommer efter udført træning. Figuren i midten viser, at brugeren har angivet evaluering, idet videreknappen er synlig. På figuren til højre fremgår det, at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
      \\ \hline
- \textbf{Resultat main flow 4:} &  \hspace{1.5mm}
-    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification1}}
-      \hspace{5mm}
-             \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification2}} 
-      \hspace{5mm}
-       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/notification3}} 
-   \vspace{3mm}
+ \textbf{Resultat main flow 4:} & \hspace{0.3mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification1}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification2}} 
+    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification3}} 
+ \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification4}} 
+    \vspace{3mm}
     \newline
-     Resultater for fjerde main flow fremgår af ovenstående figurer. I midten ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Udvides notifikationen, ved at slide topbaren ned, ses denne som vist af figuren til højre.
+     Resultater for fjerde main flow fremgår af ovenstående figurer. I de to midterste figurer ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Udvides notifikationen, ved at slide topbaren ned, ses denne som vist af figuren til højre.
      \\ \hline
 \textbf{Resultat:} &
     \begin{itemize}[label={\checkmark}]
@@ -351,29 +351,27 @@ Resultater skal motivere brugeren til at udføre træningen. Følgende krav er o
 
 \noindent
 For at teste om de opstillede krav til resultater er overholdt, udføres testen, der fremgår af \autoref{tab:testResultater}.
-*********DER SKAL LIGE LAVES EN NY TEST! ***************
-
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Resultater \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne give virtuelle belønninger efter \autoref{tab:SamletBelon}. Dette gøres ved at træne imens, der måles tid og afstand. 
+  \textbf{Formål:} & Formålet er, at systemet skal kunne vise den ugentlige træningsudvikling grafisk samt give virtuelle belønninger efter \autoref{tab:SamletBelon}. Dette gøres ved at træne imens, der måles tid og afstand. 
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 0.16. Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
  	\begin{itemize} 
- 	\item Forventet, at brugeren har opnået én stjerne som belønning i kategorien antal træninger
- 	\item Forventet, at brugeren har opnået tre stjerne som belønning i kategorien tid
-  	\item Forventet, at brugeren har opnået to stjerne som belønning i kategorien afstand
-    \item Forventet, at brugeren har opnået én stjerne som belønning i kategorien konditionstræning 
+ 	\item Grafen viser, at brugeren har trænet 120 minutter på en enkelt dag.
+ 	\item Brugeren har opnået én stjerne i kategorien antal træninger
+ 	\item Brugeren har opnået tre stjerner i kategorien tid
+  	\item Brugeren har opnået to stjerner i kategorien afstand
+    \item Brugeren har opnået én stjerne i kategorien konditionstræning
   \end{itemize}
 \\ \hline
-\textbf{Resultat} & \hspace{1.5mm}
-        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon2}} 
-        \hspace{5mm}
-       \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon3}} 
-       \hspace{5mm}
-      \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/belon5}}
-        \vspace{3mm}
+\textbf{} & \hspace{0.3mm}
+  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result}} 
+   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result1}} 
+    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result2}} 
+ \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result3}} 
+    \vspace{3mm}
     \newline
-På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. I midten vises, at resultaterne fra træningen gemmes, hvoraf figuren til højre viser belønningerne visualiseret som stjerner. De opnåede stjerner afspejler, at brugeren har udført det antal træninger svarende til de opnåede stjerner. 
+På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. Anden figur viser, at resultaterne fra træningen gemmes, hvoraf figuren til højre for denne viser grafisk udvikling af den ugentlige træningstid. Den fjerde figur viser belønninger, der er visualiseret som stjerner. De opnåede stjerner afspejler, at brugeren har udført det antal træninger svarende til de opnåede stjerner. 
   \begin{itemize}[label={\checkmark}]
 \item På baggrund af denne test er kravet for resultater opfyldt
 \end{itemize}
