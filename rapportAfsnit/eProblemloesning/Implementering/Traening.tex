@@ -34,7 +34,7 @@ Når lokationen ændres, hentes enhedens longitude og latitude, hvortil disse v�
 d = \arccos(\sin(lat_1)*\sin(lat_2)+\cos(lat_1)*\cos(lat_2)*\cos(lon_2-lon_1))*R
 \end{equation}
 
-Formlen, der ses af \autoref{equ:GPS}, benyttes til at udregne afstand ud fra to longitude og latitude punkter. Af formlen betegner \textit{d} den udregnede afstand, \textit{$lat_1$}, \textit{$lon_1$} samt \textit{$lat_2$}, \textit{$lat_2$} er latitude og longitude koordinaterne henholdsvis den første og anden lokation. \textit{R} betegner radius for jorden.    
+Formlen, der ses af \autoref{equ:GPS}, benyttes til at udregne afstand ud fra to longitude og latitude punkter. Af formlen betegner \textit{d} den udregnede afstand, \textit{$lat_1$}, \textit{$lon_1$} samt \textit{$lat_2$}, \textit{$lat_2$} er latitude og longitude koordinaterne henholdsvis den første og anden lokation. \textit{R} betegner radius for jorden. \cite{Deza2009}    
 
 Formlen af \autoref{equ:GPS}, implementeres i java-kode, hvortil denne benytter longitude og latitude koordinaterne, der hentes fra koden, som ses af \autoref{fig:gpsKode}. Implementeringen af formlen ses af \autoref{fig:distanceKode}.
 
