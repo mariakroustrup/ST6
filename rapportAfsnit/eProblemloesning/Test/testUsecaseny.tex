@@ -11,7 +11,7 @@ Databasen anvendes i forbindelse med registrering af brugere. Derudover skal det
 \end{itemize}
 
 \noindent
-For at teste om de opstillede krav til databasen er overholdt udføres testen, som fremgår af \autoref{tab:testDatabase}.
+For at teste om de opstillede krav til databasen er overholdt, udføres testen, som fremgår af \autoref{tab:testDatabase}.
 
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Database \\ \hline
@@ -39,7 +39,7 @@ For at teste om de opstillede krav til databasen er overholdt udføres testen, s
     \vspace{3mm}
     ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
-Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figureren i midten viser, at kategoriseringen er gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Disse værdier er hentet fra databasen, idet brugeren logger ind. Dertil er kategoriseringen opdateret i forhold til den nye kategorisering. 
+Resultater for test af database fremgår af ovenstående figurer. Til venstre er der opnået en kategorisering svarende til A, som på figuren i midten viser, at kategoriseringen er gemt i databasen. Til højre vises redigering af adgangskode, hvor brugeroplysninger om den oprettede bruger, Jens Jensen, vises. Disse værdier er hentet fra databasen, idet brugeren logger ind. Dertil er kategoriseringen opdateret i forhold til den nye kategorisering. 
 \begin{itemize}[label={\checkmark}]
  \item På baggrund af denne test er kravene for databasen opfyldt
  \end{itemize}
@@ -112,7 +112,7 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
     \textbf{Test:} & Kategorisering  \\ \hline
      \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CAT-score og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}. 
+ 	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER} ((\textbf{\textit{Figur 1, 2 og 3}}). 
  	\begin{itemize} 
  	\item Kategorisering er A (\textbf{\textit{Figur 4}})
  	\end{itemize}	
@@ -157,7 +157,7 @@ Resultater for test af kategorisering fremgår af ovenstående figurer. Fra vens
 \end{longtable}
 
 \section{Tilpasning af træningsniveau}
-I tilpasning af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametrene kategorisering, daglig helbredstilstand og eventuel tidligere evaluering. Følgende krav blev opstillet til tilpasningen af træningsnivauet:
+I tilpasning af træningsniveau skal brugeren oplyses et anbefalet træningsniveau, med henblik på at tage højde for daglige variationer, ved at anvende parametrene kategorisering, daglig helbredstilstand og eventuel tidligere evaluering. Følgende krav blev opstillet til tilpasning af træningsnivauet:
 
 \begin{itemize}
 \item Brugere skal kunne angive deres daglige helbredstilstand
@@ -173,7 +173,7 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet, på baggrund af dette samt brugerens kategorisering, anbefaler et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilsande. Brugeren er i kategoriseringen A.
  \\ \hline
  	\textbf{Main flow:} &
- 	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
+ 	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling (\textbf{\textit{Figur 1, 2 og 3}}).
  	\begin{itemize}
  	\item Anbefaling af træningstid er 10 min (\textbf{\textit{Figur 4}})
  	\end{itemize}
@@ -274,7 +274,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
     \textbf{Test:} & Træning \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning, skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende. Derudover skal en notifikation forekomme dagligt.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.
+ 	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} (\textbf{\textit{Figur 1}})og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.(\textbf{\textit{Figur 3}})
  	\begin{itemize}
  	\item Tiden er over 2 minutter (\textbf{\textit{Figur 2}})
  	\end{itemize}	
@@ -284,13 +284,13 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  	\item Afstand ved 0.01 er 1.57 km (\textbf{\textit{Figur 5}})
  	\item Afstand ved 0.02 er 3.14 km (\textbf{\textit{Figur 6}})
 	\end{itemize}
-  3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og 	bekræft. Angiv herefter \textit{:-)} og tryk videre.
+  3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og bekræft. Angiv herefter evalueringen \textit{:-)} (\textbf{\textit{Figur 7 og 8}})og tryk videre.
   \begin{itemize}
   \item Evaluering er gemt i databasen (\textbf{\textit{Figur 9}})
   \end{itemize}
    4.~Vent til klokken 15 med at udføre en træning 
   \begin{itemize}
-  \item Notifikation starter klokken 15 (\textbf{\textit{Figur 11 og 12}})
+  \item Notifikation starter klokken 15 (\textbf{\textit{Figur 11, 12 og 13}})
   \vspace{1mm}
   \end{itemize}
 \\ \hline
@@ -346,7 +346,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
 
 
 \section{Resultater}
-Resultater skal motivere brugeren til at udføre træningen. Følgende krav er opstillet for resultater:
+Resultater skal motivere brugeren til at udføre træning. Følgende krav er opstillet for resultater:
 \begin{itemize}
 \item Systemet skal kunne vise brugerens ugentlige træningsudvikling
 \\
@@ -360,9 +360,9 @@ Resultater skal motivere brugeren til at udføre træningen. Følgende krav er o
 For at teste om de opstillede krav til resultater er overholdt, udføres testen, der fremgår af \autoref{tab:testResultater}.
   \begin{longtable}{ | l | p{13cm} |} \hline
     \textbf{Test:} & Resultater \\ \hline
-  \textbf{Formål:} & Formålet er, at systemet skal kunne vise den ugentlige træningsudvikling grafisk samt give virtuelle belønninger efter \autoref{tab:SamletBelon}. Dette gøres ved at træne imens, der måles tid og afstand. 
+  \textbf{Formål:} & Formålet er, at systemet skal kunne vise den ugentlige træningsudvikling grafisk samt give virtuelle belønninger efter \autoref{tab:SamletBelon}.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 0.16. Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
+ 	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 2 timer. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter longitude og latitude til 0.16 (\textbf{\textit{Figur 1}}). Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}, hvorefter træningen gemmes (\textbf{\textit{Figur 2}}). Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
  	\begin{itemize} 
  	\item Grafen viser, at brugeren har trænet 120 minutter på en enkelt dag (\textbf{\textit{Figur 3}})
  	\item Brugeren har opnået én stjerne i kategorien antal træninger (\textbf{\textit{Figur 4}})
@@ -389,7 +389,7 @@ På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fre
 \end{longtable}
 
 \section{Venneliste}
-Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge og kunne tilgå andre brugeres virtuelle belønninger. Derudover skal vennelisten motivere brugeren til at udføre træning. Følgende krav er opstillet til vennelisten: 
+Vennelisten skal give en fællesskabsfølelse for brugeren ved at kunne følge og tilgå andre brugeres virtuelle belønninger. Derudover skal vennelisten motivere brugeren til at udføre træning. Følgende krav er opstillet til venneliste: 
 
 \begin{itemize}
 \item Brugere skal kunne følge andre brugere
@@ -497,7 +497,7 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
     \textbf{Test:} & Log ud \\ \hline
   \textbf{Formål:} & Formålet er, at brugeren skal have mulighed for at logge ud af app’en.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Tryk \textit{LOG UD} via hovedmenuen og tryk bekræft.
+ 	\textbf{Main flow:} & 1.~Tryk \textit{LOG UD} via hovedmenuen og tryk bekræft (\textbf{\textit{Figur 1 og 2}}).
  	\begin{itemize}
  	\item Grænseflade for log ind vises  (\textbf{\textit{Figur 3}})
  	\end{itemize}	

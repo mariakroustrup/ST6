@@ -1,15 +1,13 @@
 I dette kapitel beskrives implementeringen af app'en, der omhandler transformationen fra design til kode. Det vil beskrives, hvilken platform koden implementeres gennem samt den tilhørende database. Derudover beskrives implementeringen af designklasserne, der opdeles i grænseflader samt model- og controllerklasser. Ydermere vil de centrale elementer i app'en beskrives. Disse elementer omhandler tilpasning af træningsniveau, træning, resultater samt brugerens venneliste. Overordnet vil beskrivelserne tage udgangspunkt i udpluk af den implementerede kode.
 
-I \autoref{cha:design} er analyse- og designklasser samt funktionsnavne navngivet på dansk, hvorfor bogstaverne æ, ø og å forekommer. Disse symboler anvendes ikke under implementeringen. 
-
-Metoderne er tidligere, i \autoref{cha:design}, defineret som private, nogle af disse er dog implementeret som public, da det ønskes at tilgå disse fra andre klasser. 
+I \autoref{cha:design} er analyse- og designklasser samt funktionsnavne navngivet på dansk, hvorfor bogstaverne æ, ø og å forekommer. Disse symboler anvendes ikke under implementeringen. Metoderne er tidligere, i \autoref{cha:design}, defineret som private, nogle af disse er dog implementeret som public, da det ønskes at tilgå disse fra andre klasser. 
 
 \section{Platform}
 Det er valgt at implementere app'en i platformen Android Studio version 2.3.1 og programmere i Java, da dette er et objektorienteret programmeringssprog \cite{Brahma2015}. Android Studio er et officelt Integrated Development Environment (IDE) for udvikling af android app's \cite{android2017}, hvilket er passende for udviklingenen af dette projekts problemløsning. Dertil tilbyder Android Studio at teste app's på Android Emulator, som kan simulere en android smartphone. Denne kan ses af \autoref{fig:androidEmulator}, hvoraf der til højre for androidskærmen fremgår et kontrolpanel, hvor funktionaliteter for emulatoren kan tilgås. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/emulator}
+\includegraphics[width=0.3\textwidth]{figures/emulator}
 \caption{Android Emulator.}
 \label{fig:androidEmulator}
 \end{figure}
@@ -19,7 +17,7 @@ I emulatorens kontrolpanel findes Extended Controls, som fremgår af \autoref{fi
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/emulatorExtend}
+\includegraphics[width=0.9\textwidth]{figures/emulatorExtend}
 \caption{Android Emulator.}
 \label{fig:emulatorExtend}
 \end{figure}
