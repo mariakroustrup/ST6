@@ -1,19 +1,21 @@
-I dette kapitel beskrives implementeringen af app'en, der omhandler transformationen fra design til kode. Det vil beskrives, hvilken platform koden implementers gennem samt den tilhørende database. Derudover beskrives implementeringen af designklasserne, der opdeles i grænseflader samt model- og controllerklasser. Ydermere vil de centrale elementer i app'en beskrives. Disse elementer omhandler tilpasning af træningsniveau samt brugerens resultater. Overordnet vil beskrivelserne tage udgangspunkt i udpluk af den implementerede kode.
+I dette kapitel beskrives implementeringen af app'en, der omhandler transformationen fra design til kode. Det vil beskrives, hvilken platform koden implementeres gennem samt den tilhørende database. Derudover beskrives implementeringen af designklasserne, der opdeles i grænseflader samt model- og controllerklasser. Ydermere vil de centrale elementer i app'en beskrives. Disse elementer omhandler tilpasning af træningsniveau, træning, resultater samt brugerens venneliste. Overordnet vil beskrivelserne tage udgangspunkt i udpluk af den implementerede kode.
 
-I \autoref{cha:design} er analyse- og designklasser samt funktionsnavne navngivet på dansk, hvorfor bogstaverne æ, ø og å forekommer. Disse symboler anvendes ikke under implementeringen. Yderligere er alle metoder i designklasser private, dog er enkelte af disse under implementeringen lavet public for at kunne tilgå disse fra andre klasser. 
+I \autoref{cha:design} er analyse- og designklasser samt funktionsnavne navngivet på dansk, hvorfor bogstaverne æ, ø og å forekommer. Disse symboler anvendes ikke under implementeringen. 
+
+Metoderne er tidligere, i \autoref{cha:design}, defineret som private, nogle af disse er dog implementeret som public, da det ønskes at tilgå disse fra andre klasser. 
 
 \section{Platform}
-Det er valgt at implementere app'en i Android Studio version 2.3.1 og programmere i Java, da dette er et objektorienteret programmeringssprog \cite{Brahma2015}. Android Studio er et officelt Integrated Development Environment (IDE) for udvikling af android app's \cite{android2017}, hvilket er passende for udviklingenen af dette projekts problemløsning. Dertil tilbyder Android Studio at teste app's på Android Emulator, som simulerer en android smartphone. Denne kan ses af \autoref{fig:androidEmulator}, hvoraf der til højre for androidskærmen fremgår et kontrolpanel, hvor funktionaliteter for emulatoren kan tilgås. 
+Det er valgt at implementere app'en i platformen Android Studio version 2.3.1 og programmere i Java, da dette er et objektorienteret programmeringssprog \cite{Brahma2015}. Android Studio er et officelt Integrated Development Environment (IDE) for udvikling af android app's \cite{android2017}, hvilket er passende for udviklingenen af dette projekts problemløsning. Dertil tilbyder Android Studio at teste app's på Android Emulator, som kan simulere en android smartphone. Denne kan ses af \autoref{fig:androidEmulator}, hvoraf der til højre for androidskærmen fremgår et kontrolpanel, hvor funktionaliteter for emulatoren kan tilgås. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/emulator}
+\includegraphics[width=0.5\textwidth]{figures/emulator}
 \caption{Android Emulator.}
 \label{fig:androidEmulator}
 \end{figure}
 
 \noindent
-I emulatorens kontrolpanel findes Extended Controls, som fremgår af \autoref{fig:emulatorExtend}. Hertil er det muligt at simulere en smartphones egenskaber, såsom lokalisation.
+I emulatorens kontrolpanel findes Extended Controls, som fremgår af \autoref{fig:emulatorExtend}. Hertil er det muligt at simulere en android smartphones egenskaber, såsom lokalisation.
 
 \begin{figure} [H]
 \centering
@@ -22,8 +24,8 @@ I emulatorens kontrolpanel findes Extended Controls, som fremgår af \autoref{fi
 \label{fig:emulatorExtend}
 \end{figure}
 
-\noindent
-Strukturen i Android Studio opdeles i \textit{manifests}, \textit{res} samt \textit{java} mapper. \textit{Manifests} mappen indeholder en \textit{AndroidManifest.xml} fil, der er essentiel for, at app'en kan køre og indeholder de aktiviter, der implementeres. Derudover er der i denne fil defineret tilladelser for den givne app. For udvikling af app'en har det været nødvendigt at tillade brug af internet samt GPS-lokation, for således at kunne tilgå databasen og beregne afstand i relation til konditionstræningen. 
+\subsection*{Struktur af Android Studio}
+Strukturen i Android Studio opdeles i \textit{manifests}, \textit{res} samt \textit{java} mapper. \textit{Manifests} mappen indeholder en \textit{AndroidManifest.xml} fil, der er essentiel for, at app'en kan køre og indeholder de aktiviter, der implementeres. Derudover er der i denne fil defineret tilladelser for den givne app. For udvikling af app'en har det været nødvendigt at tillade brug af internet samt GPS-lokalisation, for således at kunne tilgå databasen og beregne afstand. 
 \textit{Res} mappen indeholder ikke-kode ressourcer, der eksempelvis er de forskellige layouts, som udgør grænsefladerne.
 Javaklasserne, der er oprettet i forbindelse med udviklingen af app'en er placeret i \textit{java} mappen.\cite{android2017}
  
@@ -32,11 +34,11 @@ Til implementering af databasen samt kommunikation med denne benyttes programmet
 Ved direkte håndtering af databasen benyttes phpMyAdmin, der er et online databaseadministrationssystem, som understøtter Structured Query Language (SQL) \cite{silbershatz2011}. 
 Databasen er implementeret under navnet \textit{db\_KOL}, hvori tabeller oprettes på baggrund af design jf. \autoref{sec:ER} i relation til attributter og datatyper.
 
-\subsection{Kommunikation med databasen}
-Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor php: Hypertext preprocessor scripts benyttes. Php er et Server-Side Scripting Language, hvilket køres på serveren og muliggør, at systemet kan tilgå databasen \cite{silbershatz2011}. Dertil kan de oprettede php-scripts betragtes som databasecontrolleren designet i \autoref{sec:databaseDesign}.
+\subsection*{Kommunikation med databasen}
+Kommunikation mellem Android Studio og databasen kan ikke forekomme direkte, hvorfor php: Hypertext preprocessor scripts benyttes. Php er et Server-Side Scripting Language, hvilket køres på serveren og muliggør, at systemet kan tilgå databasen \cite{silbershatz2011}. Dertil kan de oprettede php-scripts betragtes som controlleren for database, der er designet i \autoref{sec:databaseDesign}.
 Der er oprettet et php-script, \textit{config.php}, der indeholder informationerne host, bruger, adgangskode samt navn på den oprettede database. Dette script inkluderes i et seperat script, \textit{DB\_connect.php}, til at etablere forbindelsen til databasen. Der er opstillet forskellige php-scripts, som javakoden refererer til via URL links. Af disse links fremgår ip-adressen for serveren samt filplaceringen af det givne script. 
 
-De forskellige scripts får information fra app'en for således at kunne udføre SQL-kommandoer. Informationen sendes fra app'en som en JavaScript Object Notation (JSON) repræsentation. JSON benyttes ved dataoverførsel, det er hertil muligt at pakke data som et objekt eller array.\cite{silbershatz2011} Php-scripts brugt i dette projekt er sat op til at tjekke, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af php-scriptet for log ind er visualiseret. 
+De forskellige scripts får information fra app'en for således at kunne udføre SQL-kommandoer. Informationen sendes fra app'en som en JavaScript Object Notation (JSON) repræsentation. JSON benyttes ved dataoverførsel, der gør det muligt at pakke data som et objekt eller array.\cite{silbershatz2011} Php-scripts brugt i dette projekt er sat op til at tjekke, hvorvidt der bliver sendt en værdi i det respektive navn. Er værdierne sat og ikke NULL, ligges værdierne i en ny variabel. Et eksempel af dette ses af \autoref{fig:phplogind}, hvor et udklip af php-scriptet for log ind er visualiseret. 
 
 \begin{figure} [H]
 \centering
@@ -56,7 +58,7 @@ Dette udklip viser, hvordan koden modtages og gemmes i nye variabler. Værdierne
 \end{figure}
 
 \noindent
-Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Den viste SQL-kommando henter alt fra tabellen \textit{users} tilhørende medlemsid'et i databasen, der er lig spørgsmåltegn. Spørgsmåltegnet markerer et bindingspunkt, hvorpå en parametre kan tilknyttes. Parameteren, der bindes på ved brug af \textit{bind\_param}, fremgår af linje 176, hvoraf \textit{"s"} indikerer, at medlemsid'et er af typen string. I dette tilfælde valideres log ind-informationerne førend user returneres til log ind php-scriptet, der håndterer user, hvilket fremgår af \autoref{fig:phplogindresp}.
+Det ses af \autoref{fig:phplogindsql}, hvordan en SQL-kommando udføres. Tabellen \textit{users} er tidligere i \autoref{sec:ER} defineret KOL-patient. Den viste SQL-kommando henter alt fra tabellen \textit{users} tilhørende medlemsid'et i databasen, der er lig spørgsmåltegn. Spørgsmåltegnet markerer et bindingspunkt, hvorpå en parameter kan tilknyttes. Parameteren, der bindes på ved brug af \textit{bind\_param}, fremgår af linje 176, hvoraf \textit{"s"} indikerer, at medlemsid'et er af typen string. I dette tilfælde valideres log ind-informationerne førend user returneres til log ind php-scriptet, der håndterer user, hvilket fremgår af \autoref{fig:phplogindresp}.
 
 
 \begin{figure} [H]
@@ -85,10 +87,10 @@ Elementer, såsom TextView og Button, opstilles i layouts med type, størrelse s
 \end{figure}
 
 \noindent
-Af dette udklip ses koden for tekstfeltet, hvori brugeren angiver adgangskode samt koden for layoutet af log ind-knappen. Feltet for adgangskoden er her af typen \textit{EditText}, der tillader, at brugeren kan angive tekst. Dette felt har ligeledes et id, der muliggøre at referere til feltet og hente den angivne adgangskode til validering af log ind. Knappen er opstillet af typen Button og har ligeledes et id, hvortil en listener er opstillet i javakoden. Dette ses yderligere af \autoref{fig:list}.
+Af dette udklip ses koden for tekstfeltet, hvori brugeren angiver adgangskode samt koden for layoutet af log ind-knappen. Feltet for adgangskoden er her af typen \textit{EditText}, der tillader, at brugeren kan angive tekst. Dette felt har ligeledes et id, der muliggør at referere til feltet og hente den angivne adgangskode til validering af log ind. Knappen er opstillet af typen \textit{Button} og har ligeledes et id, hvortil en listener er opstillet i javakoden. Dette ses yderligere af \autoref{fig:list}.
 
 \section{Model- og controllerklasser} \label{sec:impmodelcon}
-Model- og controllerklasser er implementeret i \textit{Java Class} filer. Heri er klasser defineret med navn samt tilhørende attributter og metoder. Af \autoref{fig:javaclass} ses et eksempel på, hvordan en controller er implementeret. 
+Model- og controllerklasser er implementeret i Java Class-filer. Heri er klasser defineret med navn samt tilhørende attributter og metoder. Af \autoref{fig:javaclass} ses et eksempel på, hvordan en controller er implementeret. 
 
 \begin{figure} [H]
 \centering
@@ -98,19 +100,19 @@ Model- og controllerklasser er implementeret i \textit{Java Class} filer. Heri e
 \end{figure}
 
 \noindent
-Det fremgår af dette udklip, at klassen, \textit{LoginController}, er af typen public og nedarver \textit{activity}. Dette gør sig gældende for samtlige klasser implementeret. Denne klasse for \textit{LoginController} har attributten \textit{btnLogin}, der referer til log ind knappen på grænsefladen. Idet app'en skal reagere, når brugeren trykker på btnLogin, opsættes en listener på knappen, hvilket ses af \autoref{fig:list}.
+Det fremgår af dette udklip, at klassen, \textit{LoginController}, er af typen public og nedarver \textit{activity}. Dette gør sig gældende for samtlige klasser implementeret. Denne klasse for \textit{LoginController} har attributten \textit{btnLogin}, der refererer til log ind-knappen på grænsefladen. Idet app'en skal reagere, når brugeren trykker på log ind-knappen, opsættes en listener på knappen, hvilket ses af \autoref{fig:list}.
 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/imple/list}
-\caption{Udpluk af koden for listeneren opsat for log ind knappen. Punktummerne symboliserer den resterende kode, der ikke anses nødvendig for forklaring af opsætning af listener.}
+\caption{Udpluk af koden for listeneren opsat for log ind-knappen. Punktummerne symboliserer den resterende kode, der ikke anses nødvendig for forklaring af opsætning af listener.}
 \label{fig:list}
 \end{figure}
 
 
 \noindent
-Af dette udklip ses den opsatte listener, der har til formål at lytte på knappen. Indenfor listeneren er der opstillet kode, hvilket symboliseres ved punktummer, der køres idet der trykkes på knappen. Denne listener er ligeledes implementeret for samtlige knapper i controllerklasserne. Listeneren er implementeret i controllerklasserne, da det er disse filer, som håndterer input for de tilhørende layouts.
+Af dette udklip ses den opsatte listener, der har til formål at lytte på knappen. Indenfor listeneren er der opstillet kode, hvilket symboliseres ved punktummer, der køres idet der trykkes på knappen. Denne listener er ligeledes implementeret for samtlige knapper i controllerklasserne, da det er disse filer, som håndterer input for de tilhørende layouts.
 
 Modelklasserne er implementeret på samme vis som controllerklasserne, de har dog til formål at lagre data forinden det sendes til databasen. I disse klasser er der ligeledes opstillet attributter med tilhørende get- og set-metoder. 
 

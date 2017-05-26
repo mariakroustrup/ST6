@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Symptomer}{6}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Diagnose}{6}{subsection.3.1.2}
 \contentsline {subsubsection}{Klassifikation og sv\IeC {\ae }rhedsgrad af KOL}{7}{section*.11}
-\contentsline {subsection}{\numberline {3.1.3}Behandling}{10}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Behandling}{9}{subsection.3.1.3}
 \contentsline {subsubsection}{Behandlingsomkostning}{10}{section*.17}
 \contentsline {subsection}{\numberline {3.1.4}Prognose}{11}{subsection.3.1.4}
 \contentsline {section}{\numberline {3.2}Rehabilitering af KOL-patienter}{11}{section.3.2}
@@ -43,7 +43,6 @@
 \contentsline {chapter}{\chapternumberline {7}Implementering}{61}{chapter.7}
 \contentsline {section}{\numberline {7.1}Platform}{61}{section.7.1}
 \contentsline {section}{\numberline {7.2}Database}{63}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Kommunikation med databasen}{64}{subsection.7.2.1}
 \contentsline {section}{\numberline {7.3}Gr\IeC {\ae }nseflader}{65}{section.7.3}
 \contentsline {section}{\numberline {7.4}Model- og controllerklasser}{66}{section.7.4}
 \contentsline {section}{\numberline {7.5}Tilpasning af tr\IeC {\ae }ningsniveau}{67}{section.7.5}
@@ -71,6 +70,6 @@
 \contentsline {subsection}{\numberline {9.1.3}Implementering}{91}{subsection.9.1.3}
 \contentsline {section}{\numberline {9.2}Konklusion}{92}{section.9.2}
 \contentsline {section}{\numberline {9.3}Perspektivering}{93}{section.9.3}
-\contentsline {chapter}{Litteratur}{94}{section*.110}
+\contentsline {chapter}{Litteratur}{94}{section*.112}
 \contentsline {appendix}{\chapternumberline {A}Bilag}{98}{appendix.A}
 \contentsline {section}{\numberline {A.1}Bilag A}{98}{section.A.1}
