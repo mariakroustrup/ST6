@@ -22,11 +22,11 @@ For at teste om de opstillede krav til databasen er overholdt udføres testen, s
 	\end{itemize}
  2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
  \begin{itemize}
- \item Kategorisering A er gemt i databasen 
+ \item Kategorisering A er gemt i databasen (\textbf{\textit{Figur 2}})
  \end{itemize}
 3.~Tryk på \textit{REDIGER ADGANGSKODE} via hovedmenuen.
 \begin{itemize}
-\item MedlemsID og navn samt opdaterede kategorisering, A, vises under rediger adgangskode
+\item MedlemsID og navn samt opdaterede kategorisering, A, vises under rediger adgangskode (\textbf{\textit{Figur 3}})
 \end{itemize}
  \\  \hline
   \textbf{Resultat:} &
@@ -67,15 +67,15 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
  \\ \hline
  	\textbf{Main flow:} & 1.~Indtast et medlemsID, som ikke eksisterer i databasen \textit{123456} og en adgangskode, som eksisterer i databasen \textit{adgangskode} og tryk på log ind knappen.
  	\begin{itemize}
- 	\item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind
+ 	\item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind (\textbf{\textit{Figur 1}})
  	\end{itemize}
 2.~Indtast et MedlemsID, som eksisterer i databasen \textit{11170301} og en adgangskode, som ikke tilhører medlemsID’et \textit{forkertadgangskode} og tryk på log ind-knappen.
  \begin{itemize}
- \item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind
+ \item Log ind mislykkedes. Fejlmeddelelse vises i grænsefladen for log ind (\textbf{\textit{Figur 2}})
  \end{itemize}
 3.~Indtast et medlemsID \textit{11170301} og en adgangskode \textit{adgangskode}, som eksisterer i databasen. 
 \begin{itemize}
-\item Log ind lykkedes og hovedmenu vises
+\item Log ind lykkedes og hovedmenu vises (\textbf{\textit{Figur 3}})
 \end{itemize}
  \\  \hline
  \textbf{Resultat:} &  \hspace{1.5mm}
@@ -85,6 +85,7 @@ Til at teste, hvorvidt kravene til log ind er opfyldt, udføres testen, der frem
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/testlogind2}} 
     \vspace{3mm}
+       ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Resultater for test af log ind fremgår af ovenstående figurer. Til venstre og i midten testes der for henholdsvis første og andet main flow. Hertil fremgår det, at log ind mislykkedes, hvoraf fejlmeddelelsen vises. Til højre fremgår det, at log ind lykkedes, og hovedmenuen vises.  
 \begin{itemize}[label={\checkmark}]
@@ -113,19 +114,19 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
  \\ \hline
  	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}. 
  	\begin{itemize} 
- 	\item Kategorisering er A
+ 	\item Kategorisering er A (\textbf{\textit{Figur 1}})
  	\end{itemize}	
  	2.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
  	\begin{itemize}
- 	\item Kategorisering er B
+ 	\item Kategorisering er B (\textbf{\textit{Figur 2}})
  	\end{itemize}
 3.~Få en samlet CAT-score under 10. \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
  \begin{itemize}
-  \item Kategorisering er C
+  \item Kategorisering er C (\textbf{\textit{Figur 3}})
   \end{itemize}
 4.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
 \begin{itemize}
-\item Kategorisering er D
+\item Kategorisering er D (\textbf{\textit{Figur 4}})
 \end{itemize}   \\ \hline
  \textbf{Resultat:} &\hspace{1.5mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT}} 
@@ -134,6 +135,7 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT2}} 
     \vspace{3mm}
+      ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, CAT-score og antal indlæggelser. Den midterste figur viser et af de otte udsagn, der udgør CAT-scoren. Disse grænseflader vises før grænsefladen for ABCD-kategorisering.   
  \\ \hline
@@ -172,15 +174,15 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
  	\textbf{Main flow:} &
  	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 10 min
+ 	\item Anbefaling af træningstid er 10 min (\textbf{\textit{Figur 1}})
  	\end{itemize}
  	 2~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 30 min
+ 	\item Anbefaling af træningstid er 30 min (\textbf{\textit{Figur 2}})
  	\end{itemize}	
 3.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
-  \item Anbefaling af træningstid er 50 min
+  \item Anbefaling af træningstid er 50 min (\textbf{\textit{Figur 3}})
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
@@ -190,6 +192,7 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
   \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny2}} 
 \vspace{3mm}
+    ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Ovenstående figurer viser grænsefladerne for valg af træningsform, træningstype og daglig helbredstilstand. Disse grænseflader vises før grænsefladen for anbefalet træningstid. 
    \\ \hline
@@ -213,20 +216,17 @@ Ovenstående figurer viser grænsefladerne for valg af træningsform, træningst
      \textbf{Formål:} & Formålet er, at brugeren skal kunne angive ønsket træningsform, træningstype samt daglig helbredstilstand, hvorefter systemet på baggrund af dette samt kategorisering og tidligere evaluering skal anbefale et træningsniveau. Dette gøres ved at angive samme træningsform, og vælge mellem de tre forskellige træningstyper og helbredstilstande. Brugeren er i kategoriseringen A og har forinden træningen angivet evaluering for samme træning samt helbredstilstand.
  \\ \hline
  	\textbf{Main flow:} &
- 	1.~Tidligere evaluering af samme træning er: \textit{:-D} og helbredstilstand \textit{MEGET DÅRLIGT}.  \newline
-Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
+ 	1.~Tidligere evaluering af samme træning er :-D og helbredstilstand meget dårligt. Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 15 min
+ 	\item Anbefaling af træningstid er 15 min (\textbf{\textit{Figur 1}})
  	\end{itemize} 	
- 	 2.~Tidligere evaluering af samme træning er \textit{:-)} og helbredstilstand \textit{MODERAT}. \newline
-Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
+ 	 2.~Tidligere evaluering af samme træning er :-) og helbredstilstand moderat. Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 30 min
+ 	\item Anbefaling af træningstid er 30 min (\textbf{\textit{Figur 2}})
  	\end{itemize}	
-3.~Tidligere evaluering af samme træning er: \textit{:-(} og helbredstilstand \textit{MEGET GODT}. \newline
-Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
+3.~Tidligere evaluering af samme træning er :-( og helbredstilstand meget godt. Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
-  \item Anbefaling af træningstid er 45 min
+  \item Anbefaling af træningstid er 45 min (\textbf{\textit{Figur 3}})
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
@@ -236,6 +236,7 @@ Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{ME
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning5}} 
     \vspace{3mm}
+        ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
  Resultater for test af tilpasning af træningsniveau med evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
  \begin{itemize}[label={\checkmark}]
@@ -273,19 +274,19 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.
  	\begin{itemize}
- 	\item Tiden er over 2 minutter
+ 	\item Tiden er over 2 minutter (\textbf{\textit{Figur 1}})
  	\end{itemize}	
  	2.~Tryk \textit{START TRÆNING} åben Extended controls, som fremgår af \autoref{fig:emulatorExtend}. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}. De forventede afstande er beregnet ved \autoref{equ:GPS}. 
  	\begin{itemize}
- 	\item Afstand ved 0 er 0 km
- 	\item Afstand ved 0.01 er 1.57 km
- 	\item Afstand ved 0.02 er 3.14 km
+ 	\item Afstand ved 0 er 0 km (\textbf{\textit{Figur 2}})
+ 	\item Afstand ved 0.01 er 1.57 km (\textbf{\textit{Figur 2}})
+ 	\item Afstand ved 0.02 er 3.14 km (\textbf{\textit{Figur 2}})
 	\end{itemize}
   3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og 	bekræft. Angiv herefter \textit{:-)} og tryk videre.
   \begin{itemize}
-  \item Evaluering er gemt i databasen
+  \item Evaluering er gemt i databasen (\textbf{\textit{Figur 3}})
   \end{itemize}
-   4.~Vent til klokken 15 med at udføre en træning
+   4.~Vent til klokken 15 med at udføre en træning (\textbf{\textit{Figur 3}})
   \begin{itemize}
   \item Notifikation starter klokken 15
   \vspace{1mm}
@@ -298,6 +299,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
       \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening4}} 
      \vspace{3mm}
+             ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Resultater for det første main flow fremgår af ovenstående figurer. På venstre ses grænsefladen for træning før træningen er på begyndt. Når der trykkes på startknappen for træning, starter timer, som kan ses af den midterste figur. Til højre fremgår et popup-vindue, der indikerer, at træningen er stoppet.  \\ \hline
 \textbf{Resultat main flow 2:} &  \hspace{1.5mm}
@@ -316,6 +318,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
       \hspace{5mm}
        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}} 
    \vspace{3mm}
+             ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
      Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen, der fremkommer efter udført træning. Figuren i midten viser, at brugeren har angivet evaluering, idet videreknappen er synlig. På figuren til højre fremgår det, at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
      \\ \hline

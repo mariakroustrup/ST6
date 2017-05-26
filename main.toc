@@ -19,15 +19,15 @@
 \contentsline {section}{\numberline {3.3}Efter rehabiliteringsforl\IeC {\o }b}{12}{section.3.3}
 \contentsline {section}{\numberline {3.4}Projektafgr\IeC {\ae }nsning}{13}{section.3.4}
 \contentsline {section}{\numberline {3.5}Problemformulering}{13}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Metode II}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Objektorienteret programmering}{14}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Unified Modellig Language}{15}{subsection.4.1.1}
-\contentsline {subsubsection}{Use case diagrammer}{15}{section*.19}
-\contentsline {subsubsection}{Aktivitetsdiagrammer}{15}{section*.21}
-\contentsline {subsubsection}{Klassediagrammer}{16}{section*.23}
-\contentsline {subsubsection}{Sekvensdiagrammer}{16}{section*.25}
-\contentsline {section}{\numberline {4.2}Unified Process}{17}{section.4.2}
-\contentsline {part}{\partnumberline {II}Probleml\IeC {\o }sning}{19}{part.2}
+\contentsline {part}{\partnumberline {II}Probleml\IeC {\o }sning}{14}{part.2}
+\contentsline {chapter}{\chapternumberline {4}Metode II}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Objektorienteret programmering}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Unified Modellig Language}{16}{subsection.4.1.1}
+\contentsline {subsubsection}{Use case diagrammer}{16}{section*.20}
+\contentsline {subsubsection}{Aktivitetsdiagrammer}{16}{section*.22}
+\contentsline {subsubsection}{Klassediagrammer}{17}{section*.24}
+\contentsline {subsubsection}{Sekvensdiagrammer}{17}{section*.26}
+\contentsline {section}{\numberline {4.2}Unified Process}{18}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Systemanalyse}{20}{chapter.5}
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{20}{section.5.1}
 \contentsline {section}{\numberline {5.2}Kravspecifikationer}{21}{section.5.2}
@@ -60,13 +60,14 @@
 \contentsline {section}{\numberline {8.7}Venneliste}{85}{section.8.7}
 \contentsline {section}{\numberline {8.8}Redigering af adgangskode}{86}{section.8.8}
 \contentsline {section}{\numberline {8.9}Log ud}{87}{section.8.9}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{89}{chapter.9}
-\contentsline {section}{\numberline {9.1}Diskussion}{89}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{89}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Design}{90}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Implementering}{91}{subsection.9.1.3}
-\contentsline {section}{\numberline {9.2}Konklusion}{92}{section.9.2}
-\contentsline {section}{\numberline {9.3}Perspektivering}{93}{section.9.3}
-\contentsline {chapter}{Litteratur}{94}{section*.109}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{97}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{97}{section.A.1}
+\contentsline {part}{\partnumberline {III} Syntese}{89}{part.3}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{90}{chapter.9}
+\contentsline {section}{\numberline {9.1}Diskussion}{90}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{90}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Design}{91}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Implementering}{92}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.2}Konklusion}{93}{section.9.2}
+\contentsline {section}{\numberline {9.3}Perspektivering}{94}{section.9.3}
+\contentsline {chapter}{Litteratur}{95}{section*.110}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{98}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{98}{section.A.1}
