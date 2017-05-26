@@ -13,7 +13,11 @@ Beregningen for den anbefalede træning er implementeret ved brug af if/else sta
 Af figuren ses beregningen af den anbefalede træningstid for brugeren med kategorisering \textit{A} og heldbredstilstanden på \textit{2}. Variationen for anbefalingen afhænger af evalueringen og kan i dette eksempel variere mellem \textit{15}, \textit{20} og \textit{25}  minutter. Metodekaldet \textit{setMinutter} referer til, at der sættes en bemærkning idet den anbefaldede træningstid er opnået.
 
 \section{Træning}
-Træningscontrolleren har til formål at håndtere GPS og timer under en træning. For at implementere GPS skal app'en have tilladelse til at anvende den mobile enheds lokalisation. Dette er en engangstilladelse, der skal gives første gang brugeren vil foretage en træning. 
+Træningscontrolleren har til formål at håndtere GPS lokation for at beregne tilbagelagte afstand under træning. Ligeledes håndterer controlleren en timer, der viser tiden brugt til den givne træning. Efter træningen er udført, vil træningscontrolleren opsætte en notifikation som efterfølgende vises dagligt. 
+
+
+\subsection{Afstandsberegning}
+For at implementere GPS skal app'en have tilladelse til at anvende den mobile enheds lokalisation. Dette er en engangstilladelse, der skal gives første gang brugeren vil foretage en træning. 
 
 Der instansieres en LocationManager og LocationListener. LocationManager tillader app'en at opnå enhedens lokation, hvor LocationListener modtager lokationsopdateringer. Disse opdateringer forekommer, idet enheden ændrer lokation.\cite{LocationManager, LocationListener} Af koden i \autoref{fig:gpsKode} fremgår det, at systemet indeholder en metode, onLocationChanged, der kaldes, når lokationen ændres. 
 
@@ -27,28 +31,29 @@ Der instansieres en LocationManager og LocationListener. LocationManager tillade
 Når lokationen ændres, hentes enhedens longitude og latitude, hvortil disse værdier benyttes i set-metoder. Afstanden mellem to lokationer kan beregnes ud fra følgende formel:
 
 \begin{equation} \label{equ:GPS}
-hejehehjdosjdjspajfpsdjajfdsafjpdsjfpjapjfpds
+d = \arccos(\sin(lat_1)*\sin(lat_2)+\cos(lat_1)*\cos(lat_2)*\cos(lon_2-lon_1))*R
 \end{equation}
 
-FORMEL!!!
+Formlen, der ses af \autoref{equ:GPS}, benyttes til at udregne afstand ud fra to longitude og latitude punkter. Af formlen betegner \textit{d} den udregnede afstand, \textit{$lat_1$}, \textit{$lon_1$} samt \textit{$lat_2$}, \textit{$lat_2$} er latitude og longitude koordinaterne henholdsvis den første og anden lokation. \textit{R} betegner radius for jorden.    
 
-
-Der implementeres en metode, \textit{distance}, der anvender longitude- og latitude som inputværdier, og beregner afstanden i kilometer mellem to lokationer ud fra ovenstående formel. Metoden kan ses i \autoref{fig:gpsKode}.
+Formlen af \autoref{equ:GPS}, implementeres i java-kode, hvortil denne benytter longitude og latitude koordinaterne, der hentes fra koden, som ses af \autoref{fig:gpsKode}. Implementeringen af formlen ses af \autoref{fig:distanceKode}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/imple/distanceKode}
 \caption{Metode i træningscontrolleren, der beregner afstanden i kilometer ud fra lokationer.}
-\label{fig:disanceKode}
+\label{fig:distanceKode}
 \end{figure} 
 
-Metoden, distance, kaldes hver gang, der sker en lokationsændring, og den beregner afstanden mellem enhedens pågældende lokation samt lokationen fra den forrige lokationsopdatering. Af koden fremgår det, at latitude- og longitudeværdierne konverteres fra grader til radianer for at kunne anvende cosinus og sinusfunktionerne. Ifølge formel XXX skal variablen dist, når den måles i radianer, ganges med jordens radius i kilometer. Idet dist, som det fremgår af koden, konverteres til grader igen, er der i koden foretaget nogle ændringer i forhold til formlen. I koden multipliceres dist derfor med 60 * 1,1515 for at ........ For at omregne dist fra miles til kilometer multipliceres værdien med 1609,345/1000. ??????????????????????????????????????????????
-
-Når metoden kaldes, ved en lokationsændring, lægges de beregnede afstande sammen i variablen nydist, således en samlet tilbagelagt afstand opnås. ??? Noget med gammeldist????
-
-
+Metoden, \textit{distance}, kaldes hver gang, der sker en lokationsændring, og beregner afstanden mellem enhedens pågældende lokation samt lokationen fra den forrige lokationsopdatering. Af koden fremgår det, at latitude- og longitudeværdierne konverteres fra grader til radianer for at kunne anvende cosinus- og sinusfunktionerne. 
+Afstanden ønskes udregnes i kilometer, hvortil \textit{dist} ganges med jorden radius i kilometer. 
+Efterfølgende sættes den udregnede totale afstand \textit{nyDist}, hvortil denne værdi hentes og gemmes i variablen gammelDist, ved det efterfølgende metodekald.   
 
 
+
+
+
+\subsection{Timer}
 I træningscontrolleren startes en timer for at kunne monitorere brugerens træning. Denne er implementeret ved at instansiere klassen Runnable, hvori en metode, run, defineres. Koden for dette kan ses i \autoref{fig:timerKode}.
 
 \begin{figure} [H]
@@ -63,6 +68,8 @@ Metoden, run, indeholder variablen MillisecondTime, der tæller tiden, som er g�
 
 Under tilpasning af træningsniveau er der blevet anbefalet en træningstid. Opnår træningstiden denne værdi under træning, vil app'en gøre brugeren opmærksom på dette ved angivelse af en lyd. Dette er implementeret ved en if-loop, hvori klassen MediaPlayer instansieres, hvis den anbefalede tid opnås. Hertil kaldes en metode, der afspiller en lydfil. 
 
+
+\subsection{Notifikation}
 Ifølge de opstillede kravspecifikationer skal app'en sende en daglig notifikation. Denne er implementeret i træningscontrolleren, hvor notifikationen aktiveres første gang brugeren har evalueret en træning. Hertil er det implementeret, at den daglige notifikation sendes klokken 15. Af \autoref{fig:notifikationKode} fremgår et udklip af koden, som definerer tidspunktet for notifikationen. 
 
 \begin{figure} [H]

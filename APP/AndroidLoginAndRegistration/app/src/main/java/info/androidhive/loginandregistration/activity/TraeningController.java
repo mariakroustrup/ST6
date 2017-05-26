@@ -307,8 +307,7 @@ public Runnable runnable = new Runnable() {
                 * Math.cos(deg2rad(lat2))
                 * Math.cos(deg2rad(theta));
         dist = Math.acos(dist);
-        dist = rad2deg(dist);
-        dist = ((dist * 60 * 1.1515) * 1609.344 / 1000);
+        dist = (dist * 6371);
         double nyDist = gammelDist + dist;
         textViewKm.setText(String.format("%.2f", nyDist) + " km");
         setDist(dist);
@@ -320,9 +319,6 @@ public Runnable runnable = new Runnable() {
         return (deg * Math.PI / 180.0);
     }
 
-    private double rad2deg(double rad) {
-        return (rad * 180.0 / Math.PI);
-    }
 
     double distance = 0;
     double distance1 = 0;
