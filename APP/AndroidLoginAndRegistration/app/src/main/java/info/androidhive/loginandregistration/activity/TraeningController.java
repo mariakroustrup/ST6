@@ -51,7 +51,7 @@ public class TraeningController extends AppCompatActivity {
     TextView textViewTimer, textViewKm;
     Button start, stop;// reset;
     long MillisecondTime, StartTime, TimeBuff, UpdateTime = 0L;
-    int Time, Seconds, Minutes, MilliSeconds;
+    int Hours, Seconds, Minutes, MilliSeconds;
     String medlemsid;
     Handler handler;
     PopupWindow myPopUp;
@@ -76,10 +76,11 @@ public Runnable runnable = new Runnable() {
         UpdateTime = TimeBuff + MillisecondTime;
         Seconds = (int) (UpdateTime / 1000);
         Minutes = Seconds / 60;
+        Hours   = Minutes /60;
         Seconds = Seconds % 60;
-        Time = Minutes /60;
+        Minutes = Minutes % 60;
 
-        textViewTimer.setText(" " +Time + ":" + "" + Minutes + ":" + String.format("%02d", Seconds));
+        textViewTimer.setText(" " +Hours + ":" + "" + Minutes + ":" + String.format("%02d", Seconds));
 
             handler.postDelayed(this, 0);
             Long m = getMinutes();
@@ -310,7 +311,6 @@ public Runnable runnable = new Runnable() {
         dist = (dist * 6371);
         double nyDist = gammelDist + dist;
         textViewKm.setText(String.format("%.2f", nyDist) + " km");
-        setDist(dist);
         setnyDist(nyDist);
         return (dist);
     }
