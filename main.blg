@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: kilder123.bib
-Warning--I didn't find a database entry for "RSC2002"
-Warning--I didn't find a database entry for "android2017"
-Warning--I didn't find a database entry for "silbershatz2011"
-Warning--I didn't find a database entry for "w3schools2017"
 Warning--empty journal in Studieordning2014
 Warning--empty publisher in Basisbogen2016
 Warning--empty journal in Sygdomsbyrden2015
@@ -22,4 +18,9 @@ Warning--empty journal in Williams2004
 Warning--empty publisher in Arlow2002
 Warning--empty publisher in Tricomi2016
 Warning--empty journal in ferre2001
-(There were 21 warnings)
+Warning--empty year in android2017
+Warning--empty publisher in silbershatz2011
+Warning--empty year in w3schools2017
+Warning--empty year in LocationManager
+Warning--empty year in LocationListener
+(There were 22 warnings)

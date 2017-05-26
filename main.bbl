@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -224,6 +224,11 @@ Laurie Williams.
 \newblock 2004.
 \newblock URL \url{http://agile.csc.ncsu.edu/SEMaterials/UMLOverview.pdf}.
 
+\bibitem[{Rational Software Corporation}(2002)]{RSC2002}
+{Rational Software Corporation}.
+\newblock {Analysis Class Stereotypes}.
+\newblock \emph{Rational Software Corporation}, 2002.
+
 \bibitem[Arlow and Neustadt(2002)]{Arlow2002}
 Jim Arlow and Ila Neustadt.
 \newblock \emph{{UML and the Unified Process}}.
@@ -262,5 +267,43 @@ Dempsey Chang and Et.al.
 Xavier Ferr{\'{e}}, Natalia Juristo, and Et.al.
 \newblock {Usability Basics for Software Developers}.
 \newblock 2001.
+
+\bibitem[Studio()]{android2017}
+Andriod Studio.
+\newblock {Android Studio}.
+\newblock URL \url{https://developer.android.com/studio/intro/index.html}.
+
+\bibitem[Silbershatz et~al.(2011)Silbershatz, Korth, and
+  Surdanshan]{silbershatz2011}
+Abraham Silbershatz, Henry Korth, and S~Surdanshan.
+\newblock \emph{{Database System Concepts}}.
+\newblock sixth edition, 2011.
+\newblock ISBN 978-0-07-352332-3.
+
+\bibitem[W3schools()]{w3schools2017}
+W3schools.
+\newblock w3schools.com.
+\newblock URL \url{https://www.w3schools.com/}.
+
+\bibitem[AndroidDevelopers({\natexlab{a}})]{LocationManager}
+AndroidDevelopers.
+\newblock {LocationManager}, {\natexlab{a}}.
+\newblock URL
+  \url{https://developer.android.com/reference/android/location/LocationManager.html}.
+
+\bibitem[AndroidDevelopers({\natexlab{b}})]{LocationListener}
+AndroidDevelopers.
+\newblock {LocationListener}, {\natexlab{b}}.
+\newblock URL
+  \url{https://developer.android.com/reference/android/location/LocationListener.html}.
+
+\bibitem[Deza and Deza(2009)]{Deza2009}
+Michel Deza and Elena Deza.
+\newblock \emph{{Encyclopedia of Distances}}.
+\newblock Springer Berlin Heidelberg, 2009.
+\newblock ISBN 978-3-642-00233-5.
+\newblock \doi{10.1007/978-3-642-00234-2_1}.
+\newblock URL
+  \url{https://link.springer.com/chapter/10.1007/978-3-642-00234-2{\_}1}.
 
 \end{thebibliography}
