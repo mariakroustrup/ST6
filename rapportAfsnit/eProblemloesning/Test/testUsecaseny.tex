@@ -18,11 +18,11 @@ For at teste om de opstillede krav til databasen er overholdt udføres testen, s
      \textbf{Formål:} & Formålet er at oprette brugere i databasen samt hente og sende data. Dette gøres ved at oprette en bruger i databasen. Efterfølgende vil en kategorisering foretages, og derefter tjekkes om denne er gemt i databasen. Til sidst skal brugeren gå til rediger adgangskode og tjekke om kategoriseringen er angivet og derved hentet fra databasen. \\ \hline
  	\textbf{Main flow:} & 1.~ Indtast SQL-forespørgsel \textit{INSERT INTO 'users' ('navn', 'medlemsid', 'db\_adgangskode', 'kategorisering') VALUES ('Jens Jensen', '11170301', 'adgangskode', 'F')} i databasen.
  	\begin{itemize}
-	\item Bruger er oprettet i databasen (\textbf{\textit{Figur 1}})
+	\item Bruger er oprettet i databasen 
 	\end{itemize}
  2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
  \begin{itemize}
- \item Kategorisering A er gemt i databasen (\textbf{\textit{Figur 2}})
+ \item Kategorisering A er gemt i databasen (\textbf{\textit{Figur 1 og 2}})
  \end{itemize}
 3.~Tryk på \textit{REDIGER ADGANGSKODE} via hovedmenuen.
 \begin{itemize}
@@ -114,19 +114,19 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
  \\ \hline
  	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}. 
  	\begin{itemize} 
- 	\item Kategorisering er A (\textbf{\textit{Figur 1}})
+ 	\item Kategorisering er A (\textbf{\textit{Figur 4}})
  	\end{itemize}	
  	2.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
  	\begin{itemize}
- 	\item Kategorisering er B (\textbf{\textit{Figur 2}})
+ 	\item Kategorisering er B (\textbf{\textit{Figur 5}})
  	\end{itemize}
 3.~Få en samlet CAT-score under 10. \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
  \begin{itemize}
-  \item Kategorisering er C (\textbf{\textit{Figur 3}})
+  \item Kategorisering er C (\textbf{\textit{Figur 6}})
   \end{itemize}
 4.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
 \begin{itemize}
-\item Kategorisering er D (\textbf{\textit{Figur 4}})
+\item Kategorisering er D (\textbf{\textit{Figur 7}})
 \end{itemize}   \\ \hline
  \textbf{Resultat:} &\hspace{1.5mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT}} 
@@ -135,8 +135,8 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/KAT2}} 
     \vspace{3mm}
-      ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
-    \newline
+          ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
+           \newline
 Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, CAT-score og antal indlæggelser. Den midterste figur viser et af de otte udsagn, der udgør CAT-scoren. Disse grænseflader vises før grænsefladen for ABCD-kategorisering.   
  \\ \hline
 \textbf{} & \hspace{0.3mm}
@@ -145,6 +145,7 @@ Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, 
     \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat}} 
  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat3}} 
     \vspace{3mm}
+               ~~~~~~~~\textbf{\textit{Figur 4}}~~~~~~~~~~~~~~\textbf{\textit{Figur 5}}~~~~~~~~~~~~~~\textbf{\textit{Figur 6}}~~~~~~~~~~~~~~~\textbf{\textit{Figur 7}}
     \newline
 Resultater for test af kategorisering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til fjerde main flow viser de forventede kategoriseringer.
  \begin{itemize}[label={\checkmark}]
@@ -174,15 +175,15 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
  	\textbf{Main flow:} &
  	1.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{LØB}, \textit{MEGET DÅRLIGT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 10 min (\textbf{\textit{Figur 1}})
+ 	\item Anbefaling af træningstid er 10 min (\textbf{\textit{Figur 4}})
  	\end{itemize}
  	 2~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{GÅ}, \textit{MODERAT} og tryk videre efter hver handling.
  	\begin{itemize}
- 	\item Anbefaling af træningstid er 30 min (\textbf{\textit{Figur 2}})
+ 	\item Anbefaling af træningstid er 30 min (\textbf{\textit{Figur 5}})
  	\end{itemize}	
 3.~Vælg \textit{TRÆNING}, \textit{KONDITIONSTRÆNING}, \textit{CYKEL}, \textit{MEGET GODT} og tryk videre efter hver handling.
  \begin{itemize}
-  \item Anbefaling af træningstid er 50 min (\textbf{\textit{Figur 3}})
+  \item Anbefaling af træningstid er 50 min (\textbf{\textit{Figur 6}})
   \end{itemize}
  \\  \hline
  \textbf{Resultat:} &\hspace{1.5mm}
@@ -192,7 +193,7 @@ Da der blev afgrænset til konditionstræning er testen kun udført med konditio
   \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasningny2}} 
 \vspace{3mm}
-    ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
+        ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
     \newline
 Ovenstående figurer viser grænsefladerne for valg af træningsform, træningstype og daglig helbredstilstand. Disse grænseflader vises før grænsefladen for anbefalet træningstid. 
    \\ \hline
@@ -203,6 +204,7 @@ Ovenstående figurer viser grænsefladerne for valg af træningsform, træningst
      \hspace{5mm}
     \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/tilpasning2}} 
     \vspace{3mm}
+        ~~~~~~~~~~~ \textbf{\textit{Figur 4}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 5}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 6}}
     \newline
     Resultater for test af tilpasning af træningsniveau uden evaluering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til tredje main flow viser de forventede anbefalinger af træningstider. 
  \\ \hline
@@ -274,21 +276,21 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.
  	\begin{itemize}
- 	\item Tiden er over 2 minutter (\textbf{\textit{Figur 1}})
+ 	\item Tiden er over 2 minutter (\textbf{\textit{Figur 2}})
  	\end{itemize}	
  	2.~Tryk \textit{START TRÆNING} åben Extended controls, som fremgår af \autoref{fig:emulatorExtend}. Sæt herefter longitude samt latitude til 0 og tryk send. Ændre begge til 0.01 og tryk send. Ændre derefter begge til 0.02 og tryk send. Tryk herefter \textit{STOP TRÆNING}. De forventede afstande er beregnet ved \autoref{equ:GPS}. 
  	\begin{itemize}
- 	\item Afstand ved 0 er 0 km (\textbf{\textit{Figur 2}})
- 	\item Afstand ved 0.01 er 1.57 km (\textbf{\textit{Figur 2}})
- 	\item Afstand ved 0.02 er 3.14 km (\textbf{\textit{Figur 2}})
+ 	\item Afstand ved 0 er 0 km (\textbf{\textit{Figur 4}})
+ 	\item Afstand ved 0.01 er 1.57 km (\textbf{\textit{Figur 5}})
+ 	\item Afstand ved 0.02 er 3.14 km (\textbf{\textit{Figur 6}})
 	\end{itemize}
   3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og 	bekræft. Angiv herefter \textit{:-)} og tryk videre.
   \begin{itemize}
-  \item Evaluering er gemt i databasen (\textbf{\textit{Figur 3}})
+  \item Evaluering er gemt i databasen (\textbf{\textit{Figur 9}})
   \end{itemize}
-   4.~Vent til klokken 15 med at udføre en træning (\textbf{\textit{Figur 3}})
+   4.~Vent til klokken 15 med at udføre en træning 
   \begin{itemize}
-  \item Notifikation starter klokken 15
+  \item Notifikation starter klokken 15 (\textbf{\textit{Figur 11 og 12}})
   \vspace{1mm}
   \end{itemize}
 \\ \hline
@@ -309,6 +311,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
       \hspace{5mm}
    \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening55}} 
    \vspace{3mm}
+           ~~~~~~~~~~~ \textbf{\textit{Figur 4}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 5}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 6}}
     \newline
     Resultater for det andet main flow ses af ovenstående figurer. Til venstre ses grænsefladen for træningen, hvor det er simuleret, at brugeren har bevæget sig 0 km. I midten er det simuleret, at brugeren har bevæget sig 1.57 km. Til højre er det simuleret, at brugeren har bevæget sig 3.14 km. \\ \hline
 \textbf{Resultat main flow 3:} &  \hspace{1.5mm}
@@ -318,7 +321,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
       \hspace{5mm}
        \raisebox{-\totalheight}{\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/traening1}} 
    \vspace{3mm}
-             ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
+             ~~~~~~~~~~~ \textbf{\textit{Figur 7}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 8}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 9}}
     \newline
      Resultater for tredje main flow fremgår af ovenstående figurer. Til venstre og i midten ses evalueringen, der fremkommer efter udført træning. Figuren i midten viser, at brugeren har angivet evaluering, idet videreknappen er synlig. På figuren til højre fremgår det, at træningen er gemt, hvormed evalueringen for træningen ligeledes er gemt.  
      \\ \hline
@@ -328,6 +331,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
     \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification3}} 
  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/notification4}} 
     \vspace{3mm}
+          ~~~~~~~~\textbf{\textit{Figur 10}}~~~~~~~~~~~~\textbf{\textit{Figur 11}}~~~~~~~~~~~~\textbf{\textit{Figur 12}}~~~~~~~~~~~~~\textbf{\textit{Figur 13}}
     \newline
      Resultater for fjerde main flow fremgår af ovenstående figurer. I de to midterste figurer ses det at notifikationen, i øverste venstre hjørne, er startet klokken 15. Udvides notifikationen, ved at slide topbaren ned, ses denne som vist af figuren til højre.
      \\ \hline
@@ -360,11 +364,11 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 120 minutter. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter til 0.16. Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}. Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
  	\begin{itemize} 
- 	\item Grafen viser, at brugeren har trænet 120 minutter på en enkelt dag.
- 	\item Brugeren har opnået én stjerne i kategorien antal træninger
- 	\item Brugeren har opnået tre stjerner i kategorien tid
-  	\item Brugeren har opnået to stjerner i kategorien afstand
-    \item Brugeren har opnået én stjerne i kategorien konditionstræning
+ 	\item Grafen viser, at brugeren har trænet 120 minutter på en enkelt dag (\textbf{\textit{Figur 3}})
+ 	\item Brugeren har opnået én stjerne i kategorien antal træninger (\textbf{\textit{Figur 4}})
+ 	\item Brugeren har opnået tre stjerner i kategorien tid (\textbf{\textit{Figur 4}})
+  	\item Brugeren har opnået to stjerner i kategorien afstand (\textbf{\textit{Figur 4}})
+    \item Brugeren har opnået én stjerne i kategorien konditionstræning (\textbf{\textit{Figur 4}})
   \end{itemize}
 \\ \hline
 \textbf{} & \hspace{0.3mm}
@@ -373,6 +377,7 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
     \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result2}} 
  \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/result3}} 
     \vspace{3mm}
+          ~~~~~~~~\textbf{\textit{Figur 1}}~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}~~~~~~~~~~~~~~\textbf{\textit{Figur 4}}
     \newline
 På figurerne ovenfor vises resultaterne for test af resultater. Til venstre fremgår den ønskede tid og afstand. Anden figur viser, at resultaterne fra træningen gemmes, hvoraf figuren til højre for denne viser grafisk udvikling af den ugentlige træningstid. Den fjerde figur viser belønninger, der er visualiseret som stjerner. De opnåede stjerner afspejler, at brugeren har udført det antal træninger svarende til de opnåede stjerner. 
   \begin{itemize}[label={\checkmark}]
@@ -401,25 +406,26 @@ Der testes, om ovenstående krav til vennelisten er opfyldt. Testen fremgår af 
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{12345678} og tryk søg.  
  	\begin{itemize}
- 	\item Søgning mislykkedes. Fejlmeddelelse vises i grænsefladen for venneliste
+ 	\item Søgning mislykkedes. Fejlmeddelelse vises i grænsefladen for venneliste (\textbf{\textit{Figur 1}})
  	\end{itemize}	
  	2.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{11170304} og tryk søg.
  	\begin{itemize}
- 	\item Søgning lykkedes. Grænsefladen for søgte vens belønninger vises
+ 	\item Søgning lykkedes. Grænsefladen for søgte vens belønninger vises (\textbf{\textit{Figur 2}})
 	\end{itemize}
   3.~Tryk \textit{VENNELISTE} via hovedmenuen og indtast medlemsID \textit{11170304} og tryk søg. Herefter trykkes følg.
   \begin{itemize}
-  \item  Følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres
+  \item  Følg knap forsvinder i grænsefladen for vennelisten, og fjern knap synliggøres (\textbf{\textit{Figur 3}})
   \end{itemize}
   4.~Tryk \textit{VENNELISTE} via hovedmenuen
   \begin{itemize}
-  \item Bruger med medlemsID \textit{11170304} vises i grænsefladen for vennelisten
+  \item Bruger med medlemsID \textit{11170304} vises i grænsefladen for vennelisten (\textbf{\textit{Figur 4}})
   \end{itemize} \hspace{0.2mm}\\ \hline
 \textbf{Resultat} & \hspace{0.3mm} \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/vennelisteny}} 
         \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny1}} 
        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny2}} 
    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/Vennelisteny3}}  
    \vspace{3mm}
+             ~~~~~~~~\textbf{\textit{Figur 1}}~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}~~~~~~~~~~~~~~\textbf{\textit{Figur 4}}
     \newline
    Ovenstående figurer viser resultater for test af venneliste. Til venstre ses figur for første main flow, hvor det indtastede medlemsID ikke eksisterer i databasen. Figuren ved siden af viser andet main flow, hvor medlemsID'et eksisterer i databasen, og belønninger for denne bruger fremgår. Brugeren har mulighed for at tilføje ven til vennelisten, hvilket fremgår af de to figurer til højre, som opfylder tredje og fjerde main flow.
   \begin{itemize}[label={\checkmark}]
@@ -449,21 +455,22 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textit{nyadgangskode} i ny adgangskode og indtast \textit{adgangskode} i gentag adgangskode. Tryk \textit{GEM ÆNDRINGER}.   
  	\begin{itemize}
- 	\item Ændring mislykkedes. Fejlmeddelelse vises i grænsefladen for redigering
+ 	\item Ændring mislykkedes. Fejlmeddelelse vises i grænsefladen for redigering (\textbf{\textit{Figur 1}})
  	\end{itemize}	
  	2.~Tryk \textit{REDIGER ADGANGSKODE} via hovedmenuen. Indtast \textit{nyadgangskode} i ny adgangskode og gentag adgangskode. Tryk \textit{GEM ÆNDRINGER}. 
  	\begin{itemize}
- 	\item Ændring lykkedes. Meddelelse viser, at adgangskoden er gemt
+ 	\item Ændring lykkedes. Meddelelse viser, at adgangskoden er gemt (\textbf{\textit{Figur 2}})
  	\end{itemize}
  	3.~Log ud og log ind med medlemsID \textit{11170301} og den nye adgangskode \textit{nyadgangskode}.
  	\begin{itemize}
- 	\item Log ind lykkes og hovedmenu vises 
+ 	\item Log ind lykkes og hovedmenu vises  (\textbf{\textit{Figur 3 og 4}})
 	\end{itemize} \\ \hline
 \textbf{Resultat} &
     \raisebox{-\totalheight}    {\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering2}} 
         \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering3}} 
        \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering}} 
    \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/redigering1}}  \vspace{3mm}
+               ~~~~~~~~\textbf{\textit{Figur 1}}~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}~~~~~~~~~~~~~~\textbf{\textit{Figur 4}}
     \newline
 Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår, at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
  \begin{itemize}[label={\checkmark}]
@@ -492,7 +499,7 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk \textit{LOG UD} via hovedmenuen og tryk bekræft.
  	\begin{itemize}
- 	\item Grænseflade for log ind vises
+ 	\item Grænseflade for log ind vises  (\textbf{\textit{Figur 3}})
  	\end{itemize}	
 \\ \hline
 \textbf{Resultat} &  \hspace{1.5mm}  \raisebox{-\totalheight}    {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud2}} 
@@ -502,6 +509,7 @@ For at teste om ovenstående krav er opfyldt udføres testen, der fremgår af \a
     \hspace{5mm}
         \raisebox{-\totalheight}
     {\includegraphics[width=0.24\textwidth, height=60mm]{figures/test/logud1}} \vspace{3mm}
+                ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
        \newline
 Figurerne ovenfor viser resultater for test af log ud. Til venstre ses hovedmenuen, hvor brugeren har mulighed for at logge ud. I midten skal brugeren bekræfte log ud, hvis dette gøres vises grænsefladen for log ind, som ses af figuren til højre.
  \begin{itemize}[label={\checkmark}]

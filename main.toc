@@ -57,17 +57,17 @@
 \contentsline {section}{\numberline {8.4}Tilpasning af tr\IeC {\ae }ningsniveau}{79}{section.8.4}
 \contentsline {section}{\numberline {8.5}Tr\IeC {\ae }ning}{81}{section.8.5}
 \contentsline {section}{\numberline {8.6}Resultater}{84}{section.8.6}
-\contentsline {section}{\numberline {8.7}Venneliste}{85}{section.8.7}
-\contentsline {section}{\numberline {8.8}Redigering af adgangskode}{86}{section.8.8}
-\contentsline {section}{\numberline {8.9}Log ud}{87}{section.8.9}
-\contentsline {part}{\partnumberline {III} Syntese}{89}{part.3}
-\contentsline {chapter}{\chapternumberline {9}Syntese}{90}{chapter.9}
-\contentsline {section}{\numberline {9.1}Diskussion}{90}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{90}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Design}{91}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Implementering}{92}{subsection.9.1.3}
-\contentsline {section}{\numberline {9.2}Konklusion}{93}{section.9.2}
-\contentsline {section}{\numberline {9.3}Perspektivering}{94}{section.9.3}
-\contentsline {chapter}{Litteratur}{95}{section*.110}
-\contentsline {appendix}{\chapternumberline {A}Bilag}{98}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bilag A}{98}{section.A.1}
+\contentsline {section}{\numberline {8.7}Venneliste}{86}{section.8.7}
+\contentsline {section}{\numberline {8.8}Redigering af adgangskode}{87}{section.8.8}
+\contentsline {section}{\numberline {8.9}Log ud}{88}{section.8.9}
+\contentsline {part}{\partnumberline {III} Syntese}{90}{part.3}
+\contentsline {chapter}{\chapternumberline {9}Syntese}{91}{chapter.9}
+\contentsline {section}{\numberline {9.1}Diskussion}{91}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Kravsspecifikationer}{91}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Design}{92}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Implementering}{93}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.2}Konklusion}{94}{section.9.2}
+\contentsline {section}{\numberline {9.3}Perspektivering}{95}{section.9.3}
+\contentsline {chapter}{Litteratur}{96}{section*.110}
+\contentsline {appendix}{\chapternumberline {A}Bilag}{99}{appendix.A}
+\contentsline {section}{\numberline {A.1}Bilag A}{99}{section.A.1}
