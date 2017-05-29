@@ -38,28 +38,25 @@
 \BOOKMARK [1][-]{section.7.4}{Model- og controllerklasser}{chapter.7}% 38
 \BOOKMARK [1][-]{section.7.5}{Tilpasning af tr\346ningsniveau}{chapter.7}% 39
 \BOOKMARK [1][-]{section.7.6}{Tr\346ning}{chapter.7}% 40
-\BOOKMARK [2][-]{subsection.7.6.1}{Afstandsberegning}{section.7.6}% 41
-\BOOKMARK [2][-]{subsection.7.6.2}{Timer}{section.7.6}% 42
-\BOOKMARK [2][-]{subsection.7.6.3}{Notifikation}{section.7.6}% 43
-\BOOKMARK [1][-]{section.7.7}{Resultater}{chapter.7}% 44
-\BOOKMARK [1][-]{section.7.8}{Venneliste}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Test}{part.2}% 46
-\BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 47
-\BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 48
-\BOOKMARK [1][-]{section.8.3}{Kategorisering}{chapter.8}% 49
-\BOOKMARK [1][-]{section.8.4}{Tilpasning af tr\346ningsniveau}{chapter.8}% 50
-\BOOKMARK [1][-]{section.8.5}{Tr\346ning}{chapter.8}% 51
-\BOOKMARK [1][-]{section.8.6}{Resultater}{chapter.8}% 52
-\BOOKMARK [1][-]{section.8.7}{Venneliste}{chapter.8}% 53
-\BOOKMARK [1][-]{section.8.8}{Redigering af adgangskode}{chapter.8}% 54
-\BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 55
-\BOOKMARK [-1][-]{part.3}{ Syntese}{}% 56
-\BOOKMARK [0][-]{chapter.9}{Syntese}{part.3}% 57
-\BOOKMARK [1][-]{section.9.1}{Diskussion}{chapter.9}% 58
-\BOOKMARK [2][-]{subsection.9.1.1}{Kravsspecifikationer}{section.9.1}% 59
-\BOOKMARK [2][-]{subsection.9.1.2}{Design}{section.9.1}% 60
-\BOOKMARK [2][-]{subsection.9.1.3}{Implementering}{section.9.1}% 61
-\BOOKMARK [1][-]{section.9.2}{Konklusion}{chapter.9}% 62
-\BOOKMARK [1][-]{section.9.3}{Perspektivering}{chapter.9}% 63
-\BOOKMARK [0][-]{section*.112}{Litteratur}{part.3}% 64
-\BOOKMARK [0][-]{appendix.A}{Relation mellem designklasser}{part.3}% 65
+\BOOKMARK [1][-]{section.7.7}{Resultater}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.8}{Venneliste}{chapter.7}% 42
+\BOOKMARK [0][-]{chapter.8}{Test}{part.2}% 43
+\BOOKMARK [1][-]{section.8.1}{Database}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.2}{Log ind}{chapter.8}% 45
+\BOOKMARK [1][-]{section.8.3}{Kategorisering}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.4}{Tilpasning af tr\346ningsniveau}{chapter.8}% 47
+\BOOKMARK [1][-]{section.8.5}{Tr\346ning}{chapter.8}% 48
+\BOOKMARK [1][-]{section.8.6}{Resultater}{chapter.8}% 49
+\BOOKMARK [1][-]{section.8.7}{Venneliste}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.8}{Redigering af adgangskode}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.9}{Log ud}{chapter.8}% 52
+\BOOKMARK [-1][-]{part.3}{ Syntese}{}% 53
+\BOOKMARK [0][-]{chapter.9}{Syntese}{part.3}% 54
+\BOOKMARK [1][-]{section.9.1}{Diskussion}{chapter.9}% 55
+\BOOKMARK [2][-]{subsection.9.1.1}{Kravsspecifikationer}{section.9.1}% 56
+\BOOKMARK [2][-]{subsection.9.1.2}{Design}{section.9.1}% 57
+\BOOKMARK [2][-]{subsection.9.1.3}{Implementering}{section.9.1}% 58
+\BOOKMARK [1][-]{section.9.2}{Konklusion}{chapter.9}% 59
+\BOOKMARK [1][-]{section.9.3}{Perspektivering}{chapter.9}% 60
+\BOOKMARK [0][-]{section*.115}{Litteratur}{part.3}% 61
+\BOOKMARK [0][-]{appendix.A}{Relation mellem designklasser}{part.3}% 62

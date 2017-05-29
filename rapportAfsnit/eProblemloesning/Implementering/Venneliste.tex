@@ -1,3 +1,4 @@
+
 \section{Venneliste}
 I vennelistecontrolleren er der implementeret en venneliste, som indeholder brugere, der følges. For at app'en kan hente venner som brugeren følger, sendes brugerens medlemsID til databasen. Et php-script benytter medlemsid i en SQL-kommando, der tilgår tabellen for vennerelationer, som returnerer \textit{ven$\_$medlemsid} med tilhørende navn for de brugere, der følges. 
 Dette modtages i app'en som et JSON-objekt, hvorfra et JSON-array hentes og ligges i et array. Dette kan ses af udklippet i \autoref{fig:vennerKode}.  

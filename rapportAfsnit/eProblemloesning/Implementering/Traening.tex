@@ -16,7 +16,7 @@ Af figuren ses beregningen af den anbefalede træningstid for brugeren med kateg
 Træningscontrolleren har til formål at håndtere GPS-lokalisation for at beregne tilbagelagt afstand under træning. Ligeledes håndterer controlleren en timer, der viser tiden brugt til den givne træning. Efter træningen er udført, vil træningscontrolleren opsætte en notifikation som efterfølgende vises dagligt. 
 
 
-\subsection{Afstandsberegning}
+\subsection*{Afstandsberegning}
 For at implementere GPS skal app'en have tilladelse til at anvende den mobile enheds lokalisation. Dette er en engangstilladelse, der skal gives første gang brugeren vil foretage en træning. 
 
 Der instansieres en LocationManager og LocationListener. LocationManager tillader app'en at opnå enhedens lokalisation, hvor LocationListener modtager lokalisationsopdateringer. Disse opdateringer forekommer, idet enheden ændrer lokalisation.\cite{LocationManager, LocationListener} Af koden i \autoref{fig:gpsKode} fremgår det, at systemet indeholder en metode, \textit{onLocationChanged}, der kaldes, når lokalisationen ændres. 
@@ -30,7 +30,6 @@ Der instansieres en LocationManager og LocationListener. LocationManager tillade
 
 \noindent
 Når lokalisationen ændres, hentes enhedens longitude og latitude, hvortil disse værdier benyttes i set-metoder. Afstanden beregnes ud fra følgende formel:
-
 \begin{equation} \label{equ:GPS}
 d = \arccos(\sin(lat_1)*\sin(lat_2)+\cos(lat_1)*\cos(lat_2)*\cos(lon_2-lon_1))*R
 \end{equation}
@@ -53,7 +52,7 @@ Afstanden ønskes udregnet i kilometer, hvortil \textit{dist} ganges med jordens
 Efterfølgende sættes den udregnede totale afstand \textit{nyDist}, hvortil denne værdi hentes og gemmes i variablen \textit{gammelDist}.   
 
 
-\subsection{Timer}
+\subsection*{Timer}
 I træningscontrolleren startes en timer for at kunne monitorere træning. Denne er implementeret ved at instansiere klassen \textit{Runnable}, hvori en metode, \textit{run}, defineres. Koden for dette kan ses i \autoref{fig:timerKode}.
 
 \begin{figure} [H]
@@ -69,12 +68,12 @@ Metoden, \textit{run}, indeholder variablen \textit{MillisecondTime}, der tælle
 Under tilpasning af træningsniveau er der blevet anbefalet en træningstid. Opnår træningstiden denne værdi under træning, vil app'en gøre brugeren opmærksom på dette ved angivelse af en lyd. Dette er implementeret ved en if-loop, hvori klassen MediaPlayer instansieres, hvis den anbefalede tid opnås. Hertil kaldes en metode, der afspiller en lydfil. 
 
 
-\subsection{Notifikation}
+\subsection*{Notifikation}
 Ifølge de opstillede kravspecifikationer skal app'en sende en daglig notifikation. Denne er implementeret i træningscontrolleren, hvor notifikationen aktiveres første gang brugeren har evalueret en træning. Hertil er det implementeret, ved brug af klassen \textit{Calendar} og metoden \textit{getInstance}, at den daglige notifikation sendes klokken 15. Af \autoref{fig:notifikationKode} fremgår et udklip af koden, som definerer tidspunktet for notifikationen. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/imple/notifikationKode}
+\includegraphics[width=0.7\textwidth]{figures/imple/notifikationKode}
 \caption{Udklip af kode fra træningscontrolleren, som viser notifikationens starttidspunkt.}
 \label{fig:notifikationKode}
 \end{figure} 

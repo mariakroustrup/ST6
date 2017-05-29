@@ -7,11 +7,12 @@ Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relatere
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/Aktivitetsdiagram/ERdiagram}
+\includegraphics[width=0.9\textwidth]{figures/Aktivitetsdiagram/ERdiagram}
 \caption{ER-diagram for database.}
 \label{fig:ERdiagram}
 \end{figure} 
 
+\newpage
 \noindent
 Af \autoref{fig:ERdiagram} ses ER-diagrammet over databasen, hvori KOL-patienter oprettes og informationer om patienterne samt deres resultater lagres. Den enkelte KOL-patient er en stærk entitiet, som registreres med primærnøglen, \textit{medlemsID}. Derudover fremgår de svage entiteter, herunder \textit{Vennerelation}, \textit{KonditionTræning} og \textit{Belønninger}. Én KOL-patient har mange vennerelationer, som kan identificeres ved KOL-patientens \textit{medlemsID} og \textit{ven$\_$MedlemsID}. Det samme gør sig gældende for konditionstræninger, hvor én KOL-patient kan udføre mange konditionstræninger, der identificeres ved \textit{medlemsID} og \textit{tid\_dato}. Ligeledes kan belønninger, som er en mange til mange relation, identificeres ved \textit{medlemsID} og \textit{b\_tid\_dato}.
 
