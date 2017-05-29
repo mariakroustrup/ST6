@@ -4,12 +4,12 @@
         "source": "C:\\Users\\passw\\.android\\build-cache\\085214b58bfa1d3a53b9c4e870f65f0af7293222\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\resultatgraf.xml",
-        "source": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\resultatgraf.xml"
-    },
-    {
         "merged": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\helbred.xml",
         "source": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\helbred.xml"
+    },
+    {
+        "merged": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\resultatgraf.xml",
+        "source": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\resultatgraf.xml"
     },
     {
         "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\anbefaling.xml",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\passw\\.android\\build-cache\\085214b58bfa1d3a53b9c4e870f65f0af7293222\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\passw\\OneDrive\\Documents\\GitHub\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\passw\\.android\\build-cache\\977ae7516e8d8a91cfeb5d6893740e4ae6bd52e4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\Linette Helena Pouls\\Documents\\GitHub\\ST6-master\\ST6\\APP\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
