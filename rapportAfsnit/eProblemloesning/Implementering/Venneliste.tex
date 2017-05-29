@@ -10,7 +10,7 @@ Dette modtages i app'en som et JSON-objekt, hvorfra et JSON-array hentes og ligg
 \end{figure}
 
 \noindent
-Af koden i figuren er der opsat en for-loop, hvori JSON objekter hentes fra alle placeringerne i et array kaldet \textit{venner$\_$array}. Hvert af disse objekter repræsenterer én af brugerens venner, hvor værdier for \textit{navn} og \textit{ven$\_$medlemsid} er hentet. 
+Af koden i figuren er der opsat en for-loop, hvori JSON-objekter hentes fra alle placeringerne i et array kaldet \textit{venner$\_$array}. Hvert af disse objekter repræsenterer én af brugerens venner, hvor værdier for \textit{navn} og \textit{ven$\_$medlemsid} er hentet. 
 Af for-loopen ses det, at objekterne gemmes i et nyt array af navnet VenneListe, som senere benyttes til at opstille vennerne i ListView for grænsefladen. Grundet bruget af HashMap til at håndtere \textit{navn} og \textit{ven$\_$medlemsid}, har det været nødvendigt at håndtere medlemsid som en string. Dette skyldes, at ved instansiering af Hashmappet defineres inputstyperne som string, idet navnet er af typen string. 
 
 Der er i app'en ligeledes mulighed for at tilføje og fjerne brugere fra vennelisten. Muligheden for at tilføje en bruger til vennelisten er implementeret ved at benytte SQL-kommandoen, der ses af \autoref{fig:opretVenKode}.

@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {5.1}Systembeskrivelse}{20}{section.5.1}
 \contentsline {section}{\numberline {5.2}Kravspecifikationer}{21}{section.5.2}
 \contentsline {subsubsection}{Funktionelle krav}{21}{section*.29}
-\contentsline {subsubsection}{Non-funktionelle krav}{22}{section*.30}
+\contentsline {subsubsection}{Non-funktionelle krav}{21}{section*.30}
 \contentsline {subsection}{\numberline {5.2.1}Use case}{22}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Funktionalitet}{23}{section.5.3}
 \contentsline {section}{\numberline {5.4}Analyseklasser}{35}{section.5.4}
@@ -71,4 +71,4 @@
 \contentsline {section}{\numberline {9.2}Konklusion}{91}{section.9.2}
 \contentsline {section}{\numberline {9.3}Perspektivering}{92}{section.9.3}
 \contentsline {chapter}{Litteratur}{93}{section*.112}
-\contentsline {appendix}{\chapternumberline {A}Designklasser}{96}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Relation mellem designklasser}{96}{appendix.A}

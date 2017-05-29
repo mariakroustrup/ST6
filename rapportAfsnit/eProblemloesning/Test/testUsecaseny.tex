@@ -20,7 +20,7 @@ For at teste om de opstillede krav til databasen er overholdt, udføres testen, 
  	\begin{itemize}
 	\item Bruger er oprettet i databasen 
 	\end{itemize}
- 2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CATscore under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
+ 2.~Åben app’en og log ind med medlemsID, \textit{11170301}, og adgangskode, \textit{adgangskode}. Udfør kategorisering og få en samlet CAT-score under 10 ved at vælge værdierne \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi. Herefter vælges antallet af indlæggelser til \textit{0 INDLÆGGELSER}. 
  \begin{itemize}
  \item Kategorisering A er gemt i databasen (\textbf{\textit{Figur 1 og 2}})
  \end{itemize}
@@ -50,7 +50,7 @@ Resultater for test af database fremgår af ovenstående figurer. Til venstre er
 
 
 \section{Log ind}
-Log ind anvendes for at adskille brugere, som er registreret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere, der bliver registreret i databasen. Der er opstillet funktionelle krav til log ind:
+Log ind anvendes for at adskille brugere, som er registreret i databasen. Derudover er det med til at sikre, at brugeren har deltaget i et rehabiliteringsforløb, da det kun er disse brugere, der bliver registreret i databasen. Der er opstillet et funktionelt krav til log ind:
 
 \begin{itemize}
 \item Brugere skal kunne logge ind med et personligt medlemsID og adgangskode
@@ -112,19 +112,19 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
     \textbf{Test:} & Kategorisering  \\ \hline
      \textbf{Formål:} & Formålet er, at systemet skal kunne kategorisere brugere i ABCD efter, at  brugeren har svaret på udsagn fra CAT-score og angivet antallet af indlæggelser forårsaget af KOL inden for det seneste år. Dette gøres ved at angive forskellige værdier, der giver kategorisering A, B, C, eller D.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER} ((\textbf{\textit{Figur 1, 2 og 3}}). 
+ 	\textbf{Main flow:} & 1.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER} (\textbf{\textit{Figur 1, 2 og 3}}). 
  	\begin{itemize} 
  	\item Kategorisering er A (\textbf{\textit{Figur 4}})
  	\end{itemize}	
- 	2.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
+ 	2.~Få en samlet CAT-score over 10. Vælg \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{0 INDLÆGGELSER}.
  	\begin{itemize}
  	\item Kategorisering er B (\textbf{\textit{Figur 5}})
  	\end{itemize}
-3.~Få en samlet CAT-score under 10. \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
+3.~Få en samlet CAT-score under 10. Vælg \textit{0,1,2,1,0,1,0,1}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
  \begin{itemize}
   \item Kategorisering er C (\textbf{\textit{Figur 6}})
   \end{itemize}
-4.~Få en samlet CAT-score over 10. \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
+4.~Få en samlet CAT-score over 10. Vælg \textit{5,1,2,3,4,5,1,5}, tryk videre efter hver angivet værdi og vælg til sidst antal indlæggelser \textit{1 ELLER FLERE INDLÆGGELSER}.
 \begin{itemize}
 \item Kategorisering er D (\textbf{\textit{Figur 7}})
 \end{itemize}   \\ \hline
@@ -137,7 +137,7 @@ Det testes, om de opstillede krav til kategorisering er overholdt. Testen fremg�
     \vspace{3mm}
           ~~~~~~~~~~~ \textbf{\textit{Figur 1}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 2}}~~~~~~~~~~~~~~~~~~~~~~~~\textbf{\textit{Figur 3}}
            \newline
-Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, CAT-score og antal indlæggelser. Den midterste figur viser et af de otte udsagn, der udgør CAT-scoren. Disse grænseflader vises før grænsefladen for ABCD-kategorisering.   
+Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, CAT-score og antal indlæggelser. Den midterste figur viser et af de otte udsagn, der udgør CAT-scoren. Disse grænseflader vises før grænsefladen for kategorisering.   
  \\ \hline
 \textbf{} & \hspace{0.3mm}
   \raisebox{-\totalheight}{\includegraphics[width=0.20\textwidth, height=60mm]{figures/test/testkat1}} 
@@ -149,7 +149,7 @@ Ovenstående figurer viser grænsefladerne for introduktion til kategorisering, 
     \newline
 Resultater for test af kategorisering fremgår af ovenstående figurer. Fra venstre mod højre ses, at henholdsvis første til fjerde main flow viser de forventede kategoriseringer.
  \begin{itemize}[label={\checkmark}]
-\item På baggrund af denne test er kravet for kategorisering er opfyldt
+\item På baggrund af denne test er kravet for kategorisering opfyldt
 \end{itemize} 
 \\ \hline
    \caption{Test af kategorisering.}
@@ -274,7 +274,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
     \textbf{Test:} & Træning \\ \hline
   \textbf{Formål:} & Formålet er, at systemet skal kunne måle tid og afstand under træningen. Når brugeren har afsluttet træning, skal måleenhederne stoppe, og brugeren skal kunne angive evaluering. Dette gøres ved at måle tid og afstand samt evaluere træningen efterfølgende. Derudover skal en notifikation forekomme dagligt.
  \\ \hline
- 	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} (\textbf{\textit{Figur 1}})og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.(\textbf{\textit{Figur 3}})
+ 	\textbf{Main flow:} & 1.~Tryk \textit{START TRÆNING} (\textbf{\textit{Figur 1}}) og lad træningen forløbe i minimum 2 minutter. Tryk herefter \textit{STOP TRÆNING}.(\textbf{\textit{Figur 3}})
  	\begin{itemize}
  	\item Tiden er over 2 minutter (\textbf{\textit{Figur 2}})
  	\end{itemize}	
@@ -284,7 +284,7 @@ For at teste, hvorvidt de opstillede krav til træningen er opfyldt, udføres te
  	\item Afstand ved 0.01 er 1.57 km (\textbf{\textit{Figur 5}})
  	\item Afstand ved 0.02 er 3.14 km (\textbf{\textit{Figur 6}})
 	\end{itemize}
-  3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og bekræft. Angiv herefter evalueringen \textit{:-)} (\textbf{\textit{Figur 7 og 8}})og tryk videre.
+  3.~Tryk \textit{START TRÆNING} og tryk herefter \textit{STOP TRÆNING} og bekræft. Angiv herefter evalueringen \textit{:-)} (\textbf{\textit{Figur 7 og 8}}) og tryk videre.
   \begin{itemize}
   \item Evaluering er gemt i databasen (\textbf{\textit{Figur 9}})
   \end{itemize}
@@ -337,7 +337,7 @@ Resultater for det første main flow fremgår af ovenstående figurer. På venst
      \\ \hline
 \textbf{Resultat:} &
     \begin{itemize}[label={\checkmark}]
-\item På baggrund af resultater for main flow er kravene for træning opfyldt
+\item På baggrund af test for main flow er kravene for træning opfyldt
 \end{itemize} \\ \hline
   % \end{tabular}
    \caption{Test af træning.}
@@ -364,7 +364,7 @@ For at teste om de opstillede krav til resultater er overholdt, udføres testen,
  \\ \hline
  	\textbf{Main flow:} & 1.~Tryk på \textit{TRÆNING} via hovedmenu. \textit{START TRÆNING} og vent 2 timer. Imens åbnes Extended controls og sæt longitude samt latitude til 0 og tryk send. Ændre herefter longitude og latitude til 0.16 (\textbf{\textit{Figur 1}}). Tryk \textit{STOP TRÆNING} og evaluer træningen til \textit{:-D}, hvorefter træningen gemmes (\textbf{\textit{Figur 2}}). Tryk herefter på \textit{RESULTATER} via hovedmenuen og vælg \textit{BELØNNINGER}. 
  	\begin{itemize} 
- 	\item Grafen viser, at brugeren har trænet 120 minutter på en enkelt dag (\textbf{\textit{Figur 3}})
+ 	\item Grafen viser, at brugeren har trænet 120 minutter, svarende til 2 timer, på en enkelt dag (\textbf{\textit{Figur 3}})
  	\item Brugeren har opnået én stjerne i kategorien antal træninger (\textbf{\textit{Figur 4}})
  	\item Brugeren har opnået tre stjerner i kategorien tid (\textbf{\textit{Figur 4}})
   	\item Brugeren har opnået to stjerner i kategorien afstand (\textbf{\textit{Figur 4}})
@@ -474,7 +474,7 @@ For at teste, hvorvidt kravene til redigering er overholdt, udføres testen, som
     \newline
 Ovenstående figurer viser resultater for test af redigering. Til venstre ses resultat for det første main flow, hvor det fremgår, at de indtastede adgangskoder ikke er identiske. Til venstre for midten er adgangskoderne identiske, hvorved disse gemmes i databasen. Test for det tredje main flow fremgår af de to figurer til højre, hvor der logges ind med den nye adgangskode og hovedmenuen vises.
  \begin{itemize}[label={\checkmark}]
-\item På baggrund af dette er kravet for redigering 
+\item På baggrund af denne test er kravet for redigering opfyldt
 \end{itemize}
     \\ \hline
    \caption{Test af redigering.}

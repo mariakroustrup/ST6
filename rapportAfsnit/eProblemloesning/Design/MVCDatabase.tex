@@ -11,21 +11,20 @@ Systemet skal, som nævnt i kravsspecifikationer, have forbindelse til en databa
 \noindent
 Databasen indeholder de oprettede tabeller Brugeroplysninger, KonditionTræning, Belønninger og Venneliste. Designet af databasen og tilhørende tabeller er yderligere beskrevet i et ER-diagram, der fremgår af \autoref{sec:ER}. 
 
-\textit{Database} controlleren indeholder attributter og metoder. De tilhørende attributter og metoder er private, da det ikke ønskes at ændre eller tilgå disse direkte fra andre controllere. Dertil skaber det en større kontrol samt mindsker fejl i forhold til uhensigtsmæssige ændringer. Attributtens type vil fremgå efter navngivningen af den tilhørende attribut. Metoderne for denne controller er henholdsvis Hent, Valider, Gem, Opret og Slet. Disse metoder udføres i forhold til definerede inputsparametre, hvilket er angivet i parenteser.
-
-Metoderne har til formål at kommunikere mellem databasen og de forskellige controllere. Der oprettes forbindelse til databasen ved samtlige controllere. 
+\textit{Database}-controlleren indeholder attributter og metoder. De tilhørende attributter er private og metoder er public. Attributterne er private, da det ikke ønskes at ændre eller tilgå disse direkte fra andre controllere. Dertil skaber det en større kontrol samt mindsker fejl i forhold til uhensigtsmæssige ændringer. Samtlige attributter er private i de resterende klasser. 
+Attributtens type vil fremgå efter navngivningen af den tilhørende attribut. Metoderne er public, da disse skal kunne tilgås fra andre klasser. De tilhørende metoder for denne controller er henholdsvis Hent, Valider, Gem, Opret og Slet. Disse metoder udføres i forhold til definerede inputsparametre, hvilket er angivet i parenteser. Metoderne har til formål at kommunikere mellem databasen og de forskellige controllere. Der oprettes forbindelse til databasen ved samtlige controllere. 
 
 \subsection*{Lagring af data}  \label{sec:entity}
-Når der oprettes forbindelse til databasen i forbindelse med, at brugeren logger ind eller tilgår resultater på app'en, sendes og gemmes data i forskellige entitys, som fremgår af \autoref{fig:MVCEntity}. Der er valgt at udarbejde entitys for at lagre data midlertidig, førend det sendes til databasen. 
+Når der oprettes forbindelse til databasen i forbindelse med, at brugeren logger ind, tilgår resultater eller redigering på app'en, sendes og gemmes data i forskellige entitys, som fremgår af \autoref{fig:MVCEntity}. Der er valgt at udarbejde entitys for at lagre data midlertidig.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/MVC/Entity}
-\caption{Designklasser for entitys, herunder Brugeroplysninger og KonditionResultater. Attributterne er markeret med -, hvilket indikerer, at disse er privat.}
+\caption{Designklasser for entitys, herunder Brugeroplysninger og KonditionResultater.}
 \label{fig:MVCEntity}
 \end{figure}
 
 \noindent
-På \autoref{fig:MVCEntity} fremgår det, at de forskellige attributter er private. Dette er gjort, da det ønskes, at attributterne kun kan tilgås indenfor den samme klasse. 
+På \autoref{fig:MVCEntity} fremgår det, at de forskellige attributter er private. Dette er gjort, da det ønskes, at attributterne kun kan tilgås indenfor den samme klasse. Dertil er der opsat public get- og setmetoder, der har til formål at hente og ændre attributternes værdier. 
 \textit{Brugeroplysninger} indeholder informationer om brugeren, herunder MedlemsID, Fornavn, Efternavn og Kategorisering. 
 \textit{KonditionResultater} indeholder brugerens resultater, som er defineret ud fra DatoTid, TræningsType, TræningsForm, DagligHelbredstilstand, Evaluering, Tid og Afstand. 

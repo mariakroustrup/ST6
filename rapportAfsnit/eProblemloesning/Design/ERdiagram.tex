@@ -3,7 +3,7 @@
 Det ønskes, at brugerdata er knyttet til den enkelte bruger i databasen. Dette er med henblik på, at app'en ikke skal lagre større mængder data på den mobile enhed samt sikre data i tilfælde af uforudsete hændelser, som eksempelvis tab af mobil enhed. 
 
 \subsection*{ER-diagram}
-Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relaterer sig til én KOL-patient i databasen. Databasen tager udgangspunkt i entiteter som KOL-patient, vennerelation, konditionstræning og belønninger. Disse entiteter har tilhørende attributter, som ses af ER-diagrammet for databasen i \autoref{fig:ERdiagram}.
+Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relaterer sig til én KOL-patient i databasen. Databasen tager udgangspunkt i entiteter som KOL-patient, vennerelation, konditionstræning og belønninger. Disse entiteter har tilhørende attributter, der ses af ER-diagrammet for databasen i \autoref{fig:ERdiagram}.
 
 \begin{figure} [H]
 \centering
@@ -13,11 +13,11 @@ Modellering af databasen udarbejdes ud fra et ER-diagram. ER-diagrammet relatere
 \end{figure} 
 
 \noindent
-Af \autoref{fig:ERdiagram} ses ER-diagrammet over databasen, hvori KOL-patienter oprettes og informationer om patienterne samt deres resultater lagres. Den enkelte KOL-patient er en stærk entitiet, som registreres med primærnøglen, \textit{medlemsID}. Derudover fremgår de svage entiteter, herunder \textit{Vennerelation}, \textit{KonditionTræning} og \textit{Belønninger}. Én KOL-patient har mange vennerelationer, som kan identificeres ved KOL-patientens \textit{medlemsID} og \textit{venMedlemsID}. Det samme gør sig gældende for konditionstræninger, hvor én KOL-patient kan udføre mange konditionstræninger, der identificeres ved \textit{medlemsID} og \textit{tid\_dato}. Ligeledes kan belønninger, som er en mange til mange relation, identificeres ved \textit{medlemsID} og \textit{b\_tid\_dato}.
+Af \autoref{fig:ERdiagram} ses ER-diagrammet over databasen, hvori KOL-patienter oprettes og informationer om patienterne samt deres resultater lagres. Den enkelte KOL-patient er en stærk entitiet, som registreres med primærnøglen, \textit{medlemsID}. Derudover fremgår de svage entiteter, herunder \textit{Vennerelation}, \textit{KonditionTræning} og \textit{Belønninger}. Én KOL-patient har mange vennerelationer, som kan identificeres ved KOL-patientens \textit{medlemsID} og \textit{ven$\_$MedlemsID}. Det samme gør sig gældende for konditionstræninger, hvor én KOL-patient kan udføre mange konditionstræninger, der identificeres ved \textit{medlemsID} og \textit{tid\_dato}. Ligeledes kan belønninger, som er en mange til mange relation, identificeres ved \textit{medlemsID} og \textit{b\_tid\_dato}.
 
 \subsection*{Schema}
 ER-diagrammet omskrives til schema for at kunne normalisere og implementere databasen. Normaliseringen anvendes med henblik på at reducere redundans og inkonsistens.
-Første normalform opnås ved at gøre alle attributter anatomiske. Navn, fra entiteten, KOL-patient, opdeles i fornavn og efternavn for at opnå første normalform. Når første normalform er opnået, er det muligt at opnå anden normalform ved at gøre alle attributter i en tabel afhængige af en primærnøgle. Herefter kan tredje normalform opnås. For tredje normalform må en attribut ikke være funktionel afhængig af en anden attribut, der er funktionel afhængig af primærnøglen. Schemaet på tredjde normalform ses på \autoref{tab:schema}.
+Første normalform opnås ved at gøre alle attributter anatomiske. Navn, fra entiteten, KOL-patient, opdeles i fornavn og efternavn for at opnå første normalform. Når første normalform er opnået, er det muligt at opnå anden normalform ved at gøre alle attributter i en tabel afhængige af en primærnøgle. Herefter kan tredje normalform opnås. For tredje normalform må en attribut ikke være funktionel afhængig af en anden attribut, der er funktionel afhængig af primærnøglen. Schemaet på tredje normalform ses på \autoref{tab:schema}.
 
 \begin{table} [H]
 	\centering

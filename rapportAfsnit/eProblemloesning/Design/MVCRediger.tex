@@ -10,7 +10,7 @@ Redigering inddeles i en boundary og en tilhørende controller, som det fremgår
 
 \noindent
 I grænsefladen for \textit{Redigering} opstilles tekstfelter af typen TextView for medlemsID, navn og kategorisering. Derudover er der tekstfelter, af typen EditText, for ny adgangskode og gentag adgangskode, hvor brugeren kan angive en ny adgangskode. Dertil er der en GemÆndringKnap, af typen Button. GemÆndringKnap indikerer ved tryk, at brugeren ønsker at gemme den nye adgangskode. 
-Den tilhørende controller har private attributter samt metoder, der omfatter Hent, Vis, Lyt, Valider og Send. Hent, Valider og Send handler ud fra opstillede inputsparametre. 
+Den tilhørende controller har attributter samt metoder, der omfatter Vis, Lyt, Valider og Send. Valider og Send handler ud fra opstillede inputsparametre. 
 
 
 Til disse klasser er der opstillet et sekvensdiagram, hvilket fremgår af \autoref{fig:SEKRedigering}.
@@ -24,4 +24,4 @@ Til disse klasser er der opstillet et sekvensdiagram, hvilket fremgår af \autor
 \end{figure}
 
 \noindent
-Controlleren \textit{Redigering} henter brugeroplysninger fra modellen \textit{Brugeroplysninger}. Disse oplysninger vises i grænsefladen \textit{Redigering}, hvortil brugeren kan se sin information. Fra denne grænseflade er det ligeledes muligt for brugeren at ændre sin adgangskode. Adgangskoden skal indtastes to gange for at sikre, at adgangskoden er identisk. Dertil skal adgangskoden være minimum 10 karakterer lang. Adgangskoden sendes og valideres i \textit{Redigering} controlleren, hvorefter den sendes til controlleren for \textit{Database}, der gemmer den i \textit{Database}. Asterisk symbol angivet i metoder indikerer inputsparametrene, der fremgår af designklasserne for tilhørende controllerer. Overholder adgangskoden ikke de opstillede kriterier, vises en fejlmeddelelse i grænsefladen. Denne forsvinder efter kort tid, hvortil grænsefladen for redigering vises igen. 
+\textit{Redigering}-controlleren henter brugeroplysninger, herunder medlemsID, fornavn, efternavn samt kategorisering ved hjælp af get-metoden fra modellen \textit{Brugeroplysninger}. Disse oplysninger vises i grænsefladen for \textit{Redigering}, hvortil brugeren kan se sin information. Fra denne grænseflade er det ligeledes muligt for brugeren at ændre sin adgangskode. Adgangskoden skal indtastes to gange for at sikre, at adgangskoden er identisk. Dertil skal adgangskoden være minimum 10 karakterer lang. Adgangskoden sendes og valideres i \textit{Redigering}-controlleren, hvorefter den sendes til \textit{Database}-controlleren, der gemmer den i \textit{Database}. Overholder adgangskoden ikke de opstillede kriterier, vises en fejlmeddelelse i grænsefladen. Denne forsvinder efter kort tid, hvortil grænsefladen for redigering vises igen. 
